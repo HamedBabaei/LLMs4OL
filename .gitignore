@@ -1,3 +1,9 @@
+assets/*
+!assets/FreeBase/freebase_llms2ol_hierarchy.json
+
+code-trash's/*
+datasets/*
+documents/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
