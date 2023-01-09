@@ -1,9 +1,11 @@
 assets/*
-!assets/FreeBase/freebase_llms2ol_hierarchy.json
-
 code-trash's/*
 datasets/*
 documents/*
+
+!assets/FreeBase/freebase_llms2ol_hierarchy.json
+!freebaseTypes.tsv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
