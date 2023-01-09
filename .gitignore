@@ -1,10 +1,19 @@
 assets/*
+!assets/FreeBase
+assets/FreeBase/FreeBase_FB15KBased_Dumps
+assets/FreeBase/oldfiles
+!assets/WordNetDefinitions
 code-trash's/*
-datasets/*
-documents/*
 
-!assets/FreeBase/freebase_llms2ol_hierarchy.json
-!freebaseTypes.tsv
+datasets/FB15K-237/raw
+datasets/FB15K-237/processed
+datasets/UMLS/raw
+datasets/UMLS/processed
+datasets/Geonames/raw
+datasets/Geonames/processed
+datasets/WN18RR/raw
+datasets/WN18RR/processed
+documents/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
