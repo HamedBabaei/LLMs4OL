@@ -8,7 +8,7 @@ code-trash's/*
 datasets/FB15K-237/raw
 datasets/FB15K-237/processed
 datasets/UMLS/raw
-datasets/UMLS/processed/*.json
+!datasets/UMLS/processed/*.json
 datasets/UMLS/processed/*.tsv
 !datasets/UMLS/processed/images/*
 datasets/Geonames/raw
