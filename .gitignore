@@ -6,7 +6,7 @@ assets/FreeBase/oldfiles
 code-trash's/*
 
 datasets/FB15K-237/raw
-datasets/FB15K-237/processed
+datasets/FB15K-237/processed*
 datasets/UMLS/raw
 !datasets/UMLS/processed/*.json
 datasets/UMLS/processed/*.tsv
