@@ -3,6 +3,7 @@ from datahandler import DataReader, DataWriter
 import pandas as pd
 from src import geoname_taxonomy_recursive
 import os
+from src import make_levels_cleaner_fb
 
 
 def make_wn18rr(config):
@@ -56,28 +57,27 @@ def make_fb15k_237(config):
         for items in items_lst:
             mapped_level = []
             if str(items) != 'nan':
-                # print(items)
                 for item in eval(str(items)):
                     if mapper.get(item, "NA") != "NA":
                         mapped_level.append(mapper.get(item))
             mapped_levels_lst.append(list(set(mapped_level)))
         return mapped_levels_lst
 
-    def make_replacements(df, mid2name_, taxonomy_, dataset_name, level_mapper):
-
-        print(f"working on dataset: {dataset_name}")
-        df['head-mid2name'] = df['head-mid'].map(mid2name_)
-        df['tail-mid2name'] = df['tail-mid'].map(mid2name_)
-        df['head-mid2taxonomy'] = df['head-mid'].map(taxonomy_)
-        df['tail-mid2taxonomy'] = df['tail-mid'].map(taxonomy_)
-        df['head-levels'] = add_levels(df['head-mid2taxonomy'].tolist(),level_mapper)
-        # print(df['head-levels'])
-        # exit(0)
-        df['tail-levels'] = add_levels(df['tail-mid2taxonomy'].tolist(),level_mapper)
+    def add_levels_to_df(df, level1, level2, level3):
+        df['level-1'] = add_levels(df['entclass'].tolist(), level1)
+        df['level-2'] = add_levels(df['entclass'].tolist(), level2)
+        df['level-3'] = add_levels(df['entclass'].tolist(), level3)
+        return df
+        
+    def convert_mid2names(df, mid2name_mapper, dataset_name):
+        print("-"*40)
+        print(f"working on dataset in converting MID2Names: {dataset_name}")
+        df['head-mid2name'] = df['head-mid'].map(mid2name_mapper)
+        df['tail-mid2name'] = df['tail-mid'].map(mid2name_mapper)
         old_size = df.shape[0]
         df = df.dropna()
-        new_size = df.shape[0]
-        print("Number of nans:", old_size - new_size)
+        print(f"Number of NANS in {dataset_name} set is: {old_size - df.shape[0]}")
+        print(f"Current size of {dataset_name} is:{df.shape[0]}")
         return df
 
     def creat_freebase_fb15kbased_mapper(dir_path):
@@ -99,72 +99,97 @@ def make_fb15k_237(config):
         mid2names_dict = {key: values[0] for key, values in mid2names_dict.items()}
         return mid2names_dict
 
-    def create_taxonomy_mapper(freebase_types_path, freebase_hierarchy):
-        type_df = DataReader.load_csv(freebase_types_path, sep='\t', names=["mid", "type"])
+    def create_mid2entclass_mapper(freebase_types_path, freebase_hierarchy):
+        print("-"*40)
+        type_df = DataReader.load_csv(freebase_types_path, sep='\t', names=["mid", "wordnet_type"])
         hierarchy = DataReader.load_json(freebase_hierarchy)
         
-        hierarchies = []
-        for _, items in hierarchy.items():
-            for item in items:
-                hierarchies.append(item)
-        hierarchies = list(set(hierarchies))    
-        
-        type_df = type_df[type_df['type'].isin(hierarchies)]
-        print("size of unique values in type_df is:", len(type_df['type'].unique()))
-        tax_mid, tax_type = type_df['mid'].tolist(), type_df['type'].tolist()
-        taxonomy = {}
-        for index, mid in enumerate(tax_mid):
-            if mid not in taxonomy:
-                taxonomy[mid] = []
-            taxonomy[mid].append(tax_type[index])
-        return taxonomy
+        wordnet_types_to_consider = []
+        for _, level_dict in hierarchy.items():
+            for wordnet_type, _ in level_dict.items():
+                wordnet_types_to_consider.append(wordnet_type)
+        wordnet_types_to_consider = list(set(wordnet_types_to_consider))    
+
+        type_df = type_df[type_df['wordnet_type'].isin(wordnet_types_to_consider)]
+        print("Shape of WordNet types dataframe is:", type_df.shape[0])
+        print("Number of unique values for WordNet types are:", len(type_df['wordnet_type'].unique()))
+
+        mid2entclass_mapper = {}
+        for mid, wordnet_type in zip(type_df['mid'].tolist(), type_df['wordnet_type'].tolist()):
+            if mid not in mid2entclass_mapper:
+                mid2entclass_mapper[mid] = []
+            mid2entclass_mapper[mid].append(wordnet_type)
+        print(f"At the end size of MID2EntClass mapper is:{len(mid2entclass_mapper)}")
+        return mid2entclass_mapper
+
+    def convert_mid2ent_classes(df, mid2entclass_mapper, dataset_name):
+        print("-"*40)
+        print(f"working on dataset in converting MID2EntClass: {dataset_name}")
+        df['head-mid2entclass'] = df['head-mid'].map(mid2entclass_mapper)
+        df['tail-mid2entclass'] = df['tail-mid'].map(mid2entclass_mapper)
+        old_size = df.shape[0]
+        df = df.dropna()
+        print(f"Number of NANS in {dataset_name} set is: {old_size - df.shape[0]}")
+        print(f"Current size of {dataset_name} is:{df.shape[0]}")
+        return df
 
     def create_level_mapper(freebase_hierarchy):
         hierarchy = DataReader.load_json(freebase_hierarchy)
-        hierarchy_mapper = {}
-        for level, classes in hierarchy.items():
-            for class_ in classes:
-                hierarchy_mapper[class_] = level
-        return hierarchy_mapper
+        level_mappers = {"level-1":{}, "level-2":{}, "level-3":{}}
+        for level, level_dict in hierarchy.items():
+            for wordnet_type, level_class in level_dict.items():
+                level_mappers[level][wordnet_type] = level_class
+        return level_mappers['level-1'], level_mappers['level-2'], level_mappers['level-3']
+
+    def make_entity_df(df, dataset_name):
+        df_ent = pd.concat([
+                df[['head-mid', 'head-mid2name', 'head-mid2entclass']].rename(columns={'head-mid':"mid", 'head-mid2name':"name", 'head-mid2entclass':"entclass"}), 
+                df[['tail-mid', 'tail-mid2name', 'tail-mid2entclass']].rename(columns={'tail-mid':"mid", 'tail-mid2name':"name", 'tail-mid2entclass':"entclass"})
+                ]).reset_index(drop=True)
+        print("-"*40)
+        print(f"{dataset_name} size before removing duplicates based on [mid, name] is:{df_ent.shape[0]}")
+        df_ent = df_ent.drop_duplicates(subset=['mid', 'name'], keep='first').reset_index()
+        print(f"Current size  after droping duplicates is: {df_ent.shape[0]}")
+        return df_ent
 
     # load datasets
     train, test, valid = DataReader.load_csv(config.raw_train, sep='\t', names=["head-mid", "relation", "tail-mid"]), \
                          DataReader.load_csv(config.raw_test, sep='\t',  names=["head-mid", "relation", "tail-mid"]), \
-                         DataReader.load_csv(config.raw_valid, sep='\t', names=["head-mid", "relation", "tail-mid"]), \
+                         DataReader.load_csv(config.raw_valid, sep='\t', names=["head-mid", "relation", "tail-mid"])
     
+    # 1. Make replacement for converting MID2Name      ---> this will be for relationship extraction
     # load and create mid2names
     mid2name = creat_freebase_fb15kbased_mapper(dir_path=config.freebase_dumps_dir)
+    train, test, valid = convert_mid2names(train, mid2name, "Train"), \
+                         convert_mid2names(test,  mid2name, "Test"), \
+                         convert_mid2names(valid, mid2name, "Valid")
 
-    # load and create taxonomy
-    taxonomy = create_taxonomy_mapper(config.freebase_types, config.freebase_hierarchy)
-    
-    level_mappers = create_level_mapper(config.freebase_hierarchy)
-    
-    # make the mapping for taxonomy and‌ MID2Name
-    train, test, valid = make_replacements(train, mid2name, taxonomy, "Train", level_mappers), \
-                         make_replacements(test,  mid2name, taxonomy, "Test", level_mappers) , \
-                         make_replacements(valid, mid2name, taxonomy, "Valid", level_mappers)
+    # 2. Creating levels mapper using Names for each  ---> This will be for entity type detection
+    # load and create mid2entclass mapper
+    mid2entclass = create_mid2entclass_mapper(config.freebase_types, config.freebase_hierarchy)
+    train, test, valid = convert_mid2ent_classes(train, mid2entclass, "Train"), \
+                         convert_mid2ent_classes(test, mid2entclass, "Test"), \
+                         convert_mid2ent_classes(valid, mid2entclass, "Valid")
 
-    # get all MIDs to create MID2WordNet
-    all_mids = train['head-mid'].tolist() + train['tail-mid'].tolist() + \
-               test['head-mid'].tolist()  + test['tail-mid'].tolist()  + \
-               valid['head-mid'].tolist() + valid['tail-mid'].tolist()
+    # save relationship detection datasets first!
+    DataWriter.write_df(train[['head-mid', 'relation', 'tail-mid', 'head-mid2name', 'tail-mid2name']], path=config.processed_train_rel)
+    DataWriter.write_df(test[['head-mid', 'relation', 'tail-mid', 'head-mid2name', 'tail-mid2name']],  path=config.processed_test_rel)
+    DataWriter.write_df(valid[['head-mid', 'relation', 'tail-mid', 'head-mid2name', 'tail-mid2name']],  path=config.processed_valid_rel)
 
-    all_mids = list(set(all_mids))
-    print("len all mids:", len(all_mids), "\t", all_mids[:3])   
-    mids_to_wordnetids = {mid: taxonomy.get(mid, None) for mid in all_mids}
-    names2wordnetid = {"mid":[name for name, _ in mids_to_wordnetids.items()],
-                       "wordnetid": [wordnetid for _, wordnetid in mids_to_wordnetids.items()]}
-    names2wordnetid_df = pd.DataFrame(data=names2wordnetid)
-    print(f"number of nans are: {names2wordnetid_df.shape[0] - names2wordnetid_df.dropna().shape[0]}")
+    train_ent, test_ent, valid_ent = make_entity_df(train, "Train"), make_entity_df(test, "Test"), make_entity_df(valid, "Valid")
+    wordnet2level1, wordnet2level2, wordnet2level3 = create_level_mapper(config.freebase_hierarchy)
 
+    train_ent, test_ent, valid_ent = add_levels_to_df(train_ent, wordnet2level1, wordnet2level2, wordnet2level3), \
+                                     add_levels_to_df(test_ent, wordnet2level1, wordnet2level2, wordnet2level3), \
+                                     add_levels_to_df(valid_ent, wordnet2level1, wordnet2level2, wordnet2level3)
 
-    # Savings
-    DataWriter.write_df(test, path=config.processed_test)
-    DataWriter.write_df(valid, path=config.processed_valid)
-    DataWriter.write_df(train, path=config.processed_train)
-    DataWriter.write_df(names2wordnetid_df, config.processed_wordnet_taxonomy)
-
+    train_ent, test_ent, valid_ent = make_levels_cleaner_fb(train_ent), \
+                                     make_levels_cleaner_fb(test_ent), \
+                                     make_levels_cleaner_fb(valid_ent)
+    # Savings entities
+    DataWriter.write_df(train_ent, path=config.processed_test_ent)
+    DataWriter.write_df(test_ent, path=config.processed_valid_ent)
+    DataWriter.write_df(valid_ent, path=config.processed_train_ent)
 
 
 def make_geoname(config):
@@ -206,7 +231,7 @@ if __name__ == "__main__":
     # config = BaseConfig().get_args(db_name="wn18rr")
     # make_wn18rr(config=config)
 
-    config = BaseConfig().get_args(db_name="fb15k-237")
+    config = BaseConfig(version=2).get_args(db_name="fb15k-237")
     make_fb15k_237(config=config)
 
     # config = BaseConfig().get_args(db_name="geonames")
