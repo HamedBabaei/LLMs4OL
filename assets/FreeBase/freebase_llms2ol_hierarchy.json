@@ -3,15 +3,13 @@
         "wordnet_person_100007846": "Level-1@person",
         "wordnet_organization_108008335": "Level-1@organization",
         "wordnet_body_of_water_109225146": "Level-1@body_of_water",
-        "wordnet_product_104007894": "Level-1@product",
-        "wordnet_event_100029378": "Level-1@event"
+        "wordnet_event_100029378": "Level-1@event",
+        "wordnet_product_104007894": "Level-1@product"
     },
     "level-2": {
         "wordnet_festival_100517728": "Level-2-event@festival",
         "wordnet_festival_115162388": "Level-2-event@festival",
         "wordnet_conference_108308497": "Level-2-event@conference",
-        "wordnet_show_106619065": "Level-2-event@show",
-        "wordnet_show_100520257": "Level-2-event@show",
         "wordnet_social_event_107288639": "Level-2-event@social_event",
         "wordnet_party_108256968": "Level-2-organization@party",
         "wordnet_world_organization_108294696": "Level-2-organization@world_organization",
@@ -30,13 +28,9 @@
         "wordnet_officeholder_110371450": "Level-2-person@officeholder",
         "wordnet_writer_110794014": "Level-2-person@writer",
         "wordnet_writer_110801291": "Level-2-person@writer",
-        "wordnet_man_110287213": "Level-2-person@man",
         "wordnet_scientist_110560637": "Level-2-person@scientist",
         "wordnet_politician_110450303": "Level-2-person@politician",
         "wordnet_creator_109614315": "Level-2-person@creator",
-        "wordnet_people_107942152": "Level-2-person@people",
-        "wordnet_female_109619168": "Level-2-person@female",
-        "wordnet_woman_110787470": "Level-2-person@woman",
         "wordnet_good_person_110138767": "Level-2-person@good_person",
         "wordnet_director_110014939": "Level-2-person@director",
         "wordnet_director_110015215": "Level-2-person@director",
@@ -44,8 +38,7 @@
         "wordnet_lawyer_110249950": "Level-2-person@lawyer",
         "wordnet_artist_109812338": "Level-2-person@artist",
         "wordnet_doctor_110020890": "Level-2-person@doctor",
-        "wordnet_player_110439851": "Level-2-person@player",
-        "wordnet_male_109624168": "Level-2-person@male"
+        "wordnet_player_110439851": "Level-2-person@player"
     },
     "level-3": {
         "wordnet_educational_institution_108276342": "Level-3-organization-institution@educational_institution",
@@ -106,7 +99,6 @@
         "wordnet_mathematician_110301261": "Level-3-person-scientist@mathematician",
         "wordnet_chemist_109913824": "Level-3-person-scientist@chemist",
         "wordnet_linguist_110264437": "Level-3-person-scientist@linguist",
-        "wordnet_scholar_110557854": "Level-3-person-scientist@scholar",
         "wordnet_psychologist_110488865": "Level-3-person-scientist@psychologist",
         "wordnet_geologist_110127689": "Level-3-person-scientist@geologist",
         "wordnet_computer_scientist_109951070": "Level-3-person-scientist@computer_scientist",
