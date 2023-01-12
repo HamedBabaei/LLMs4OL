@@ -3,7 +3,6 @@ from datahandler import DataReader, DataWriter
 import pandas as pd
 from src import geoname_taxonomy_recursive
 import os
-from src import make_levels_cleaner_fb
 
 
 def make_wn18rr(config):

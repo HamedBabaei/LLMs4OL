@@ -15,7 +15,6 @@ class BaseConfig:
         self.parser = argparse.ArgumentParser()
         self.version = "" if version == None else "-" + str(version)
 
-        
     def add_wnn18rr(self):
         dataset = "WN18RR"
         self.parser.add_argument("--raw_train", type=str, default=f"datasets/{dataset}/raw/train.txt")
