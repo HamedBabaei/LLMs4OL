@@ -12,10 +12,10 @@ datasets/UMLS/raw
 datasets/UMLS/processed/*.tsv
 !datasets/UMLS/processed/images/*
 datasets/Geonames/raw
-datasets/Geonames/processed
+datasets/Geonames/processed*
 
 datasets/WN18RR/raw
-datasets/WN18RR/processed
+datasets/WN18RR/processed*
 documents/*
 
 # Byte-compiled / optimized / DLL files
