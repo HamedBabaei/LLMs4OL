@@ -1,9 +1,5 @@
-assets/*
-!assets/FreeBase
-assets/FreeBase/FreeBase_FB15KBased_Dumps
-assets/FreeBase/oldfiles
-!assets/WordNetDefinitions
 code-trash's/*
+
 
 datasets/FB15K-237/raw
 datasets/FB15K-237/processed*
