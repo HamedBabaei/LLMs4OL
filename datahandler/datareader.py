@@ -40,19 +40,19 @@ class DataReader:
             json_data = json.load(json_file)
         return json_data
 
-    # @staticmethod
-    # def load_csv(path: Path, columns: list=None) -> pd:
-    #     """
-    #         loading a csv file
-    #     :param path:
-    #     :return:
-    #     """
-    #     if columns is None:
-    #         data_frame = pd.read_csv(path, encoding='cp1252')
-    #     else:
-    #         data_frame = pd.read_csv(path, names=columns)
+    @staticmethod
+    def load_df(path: Path, columns: list=None) -> pd:
+        """
+            loading a csv file
+        :param path:
+        :return:
+        """
+        if columns is None:
+            data_frame = pd.read_csv(path)
+        else:
+            data_frame = pd.read_csv(path, names=columns)
         
-    #     return data_frame
+        return data_frame
 
     @staticmethod
     def load_csv(path: Path, names: list = None, sep: str=',', low_memory: bool= True, header: list=None) -> pd:
@@ -62,7 +62,7 @@ class DataReader:
         :return:
         """
         return pd.read_csv(path, sep=sep, header=header, low_memory=low_memory, names=names)
-
+    
     @staticmethod
     def load_excel(path: Path) -> pd:
         """
