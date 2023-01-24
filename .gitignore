@@ -6,6 +6,7 @@ datasets/FB15K-237/processed*
 datasets/UMLS/raw
 !datasets/UMLS/processed/*.json
 datasets/UMLS/processed/*.tsv
+datasets/UMLS/processed-2
 !datasets/UMLS/processed/images/*
 datasets/Geonames/raw
 datasets/Geonames/processed*
