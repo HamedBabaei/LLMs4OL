@@ -32,15 +32,18 @@ class BaseConfig:
         self.parser.add_argument("--processed_entity_train", type=str, default=f"datasets/{dataset}/processed{self.version}/entity_train.csv" )
         self.parser.add_argument("--processed_entity_test", type=str, default=f"datasets/{dataset}/processed{self.version}/entity_test.csv")
         self.parser.add_argument("--processed_entity_valid", type=str, default=f"datasets/{dataset}/processed{self.version}/entity_valid.csv")
-        self.parser.add_argument("--relations_to_ignore", type=list, default=["_also_see"])
+        self.parser.add_argument("--relations_to_ignore", type=list, default=["_also_see", "_member_of_domain_region",  
+                                                                              "_similar_to", "_member_of_domain_usage"])
+        self.parser.add_argument("--entity_class_to_ignore", type=list, default=["RB"])
         
     def add_geoname(self):
         dataset = "Geonames"
         self.parser.add_argument("--feature_codes", type=str, default=f"datasets/{dataset}/raw/featureCodes_en.txt")
         self.parser.add_argument("--all_countries", type=str, default=f"datasets/{dataset}/raw/allCountries.txt")
         self.parser.add_argument("--depth", type=int, default=3)
-        self.parser.add_argument("--processed_feature_codes", type=str, default=f"datasets/{dataset}/processed/featureCodes_en.csv")
-        self.parser.add_argument("--processed_all_countries", type=str, default=f"datasets/{dataset}/processed/allCountries.csv")
+
+        self.parser.add_argument("--processed_feature_codes", type=str, default=f"datasets/{dataset}/processed{self.version}/featureCodes_en.csv")
+        self.parser.add_argument("--processed_all_countries", type=str, default=f"datasets/{dataset}/processed{self.version}/allCountries.csv")
 
     def add_umls(self):
         dataset = "UMLS"
@@ -49,8 +52,13 @@ class BaseConfig:
         self.parser.add_argument("--level1", type=str, default=f"datasets/{dataset}/processed/UMLS_STN_Hierarchy_level1.json")
         self.parser.add_argument("--level2", type=str, default=f"datasets/{dataset}/processed/UMLS_STN_Hierarchy_level2.json")
         self.parser.add_argument("--level3", type=str, default=f"datasets/{dataset}/processed/UMLS_STN_Hierarchy_level3.json")
-        self.parser.add_argument("--umls_rel", type=str, default=f"datasets/{dataset}/processed/UMLS_skiped_bad_lines.tsv")
-        self.parser.add_argument("--umls_entity", type=str, default=f"datasets/{dataset}/processed/UMLS_entity_types_with_levels.tsv")
+        self.parser.add_argument("--level4", type=str, default=f"datasets/{dataset}/processed/UMLS_STN_Hierarchy_level4.json")
+        self.parser.add_argument("--raw_umls_rel", type=str, default=f"datasets/{dataset}/processed/UMLS_skiped_bad_lines.tsv")
+        self.parser.add_argument("--raw_umls_entity", type=str, default=f"datasets/{dataset}/processed/UMLS_entity_types_with_levels.tsv")
+
+        self.parser.add_argument("--umls_processed_dir", type=str, default=f"datasets/{dataset}/processed{self.version}")
+        self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
+    
 
     def get_args(self, db_name: str):
         """
