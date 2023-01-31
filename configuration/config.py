@@ -15,13 +15,12 @@ class BaseConfig:
         self.parser = argparse.ArgumentParser()
         self.version = "" if version == None else "-" + str(version)
         self.argument_getter = {
-            "wn18rr": self.add_wn18rr,  
-            "geonames": self.add_geoname,
-            "umls": self.add_umls
+            "wn18rr": ["WN18RR", self.add_wn18rr],
+            "geonames": ["Geonames", self.add_geoname],
+            "umls": ["UMLS", self.add_umls]
             }
 
-    def add_wn18rr(self):
-        dataset = "WN18RR"
+    def add_wn18rr(self, dataset: str):
         self.parser.add_argument("--raw_train", type=str, default=f"datasets/{dataset}/raw/train.txt")
         self.parser.add_argument("--raw_test", type=str, default=f"datasets/{dataset}/raw/test.txt")
         self.parser.add_argument("--raw_valid", type=str, default=f"datasets/{dataset}/raw/valid.txt")
@@ -37,8 +36,8 @@ class BaseConfig:
         self.parser.add_argument("--entity_class_to_ignore", type=list, default=["RB"])
         self.parser.add_argument("--wn_templates", type=str, default=f"assets/Templates/wn_templates.json")
         
-    def add_geoname(self):
-        dataset = "Geonames"
+        
+    def add_geoname(self, dataset: str):
         self.parser.add_argument("--feature_codes", type=str, default=f"datasets/{dataset}/raw/featureCodes_en.txt")
         self.parser.add_argument("--all_countries", type=str, default=f"datasets/{dataset}/raw/allCountries.txt")
         self.parser.add_argument("--depth", type=int, default=3)
@@ -48,8 +47,7 @@ class BaseConfig:
         self.parser.add_argument("--countrycode_names_json", type=str, default=f"assets/CountryCodes/country_codes.json")
         self.parser.add_argument("--geonames_templates", type=str, default=f"assets/Templates/geonames_templates.json")
 
-    def add_umls(self):
-        dataset = "UMLS"
+    def add_umls(self, dataset: str):
         self.parser.add_argument("--tui2stn", type=str, default=f"datasets/{dataset}/processed/TUI2STN.json")
         self.parser.add_argument("--tui2str", type=str, default=f"datasets/{dataset}/processed/TUI2STR.json")
         self.parser.add_argument("--level1", type=str, default=f"datasets/{dataset}/processed/UMLS_STN_Hierarchy_level1.json")
@@ -62,16 +60,19 @@ class BaseConfig:
         self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
         self.parser.add_argument("--umls_templates", type=str, default=f"assets/Templates/umls_templates.json")
 
-    def get_args(self, db_name: str=None):
+    def get_args(self, db_name):
         """
             Return parser
         :return: parser
         """
-        if db_name == None:
-            print("it is a noun")
-            for functions in self.argument_getter.values():
-                functions()
-        else:
-            self.argument_getter.get(db_name)()
+        dataset, arguments = self.argument_getter.get(db_name) 
+
+        arguments(dataset=dataset)
+        self.parser.add_argument("--dataset", type=str, default=db_name)
+        
+        self.parser.add_argument("--entity_path_template", type=str, default=f"datasets/{dataset}/[DATASET]_entities.json")
+        # [DATASET] for umls we have ["NCI", "SNOMEDCT_US", "MEDCIN"]
+        self.parser.add_argument("--test_size", type=float, default=0.2)  # this is for UMLS and Geoname Levels as well!
+
         self.parser.add_argument("-f")
         return self.parser.parse_args()
