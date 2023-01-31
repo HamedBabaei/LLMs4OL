@@ -15,6 +15,7 @@ datasets/WN18RR/raw
 datasets/WN18RR/processed*
 documents/*
 
+assets/CountryCodes/*.zip
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
