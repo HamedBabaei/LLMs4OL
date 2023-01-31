@@ -5,6 +5,17 @@ UMLS source are:‌
 - https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html
 - Downloaded release version of 2022AB from Metathesaurus Full Subset: https://download.nlm.nih.gov/umls/kss/2022AB/umls-2022AB-metathesaurus-full.zip
 
+# processed:
+- TUI2STN.json
+- TUI2STR.json
+- UMLS_STN_Hierarchy_level1.json
+- UMLS_STN_Hierarchy_level2.json
+- UMLS_STN_Hierarchy_level3.json
+- UMLS_STN_Hierarchy_level4.json
+
+
+# processed-2
+
 NCI sub dataset stats:
 - `#` of samples in NCI relation dataset is : 1_018_402
 - `#` of samples in NCI entity detection dataset is: 110_114
