@@ -35,18 +35,18 @@ class BaseConfig:
         self.parser.add_argument("--relations_to_ignore", type=list, default=["_also_see", "_member_of_domain_region",  
                                                                               "_similar_to", "_member_of_domain_usage"])
         self.parser.add_argument("--entity_class_to_ignore", type=list, default=["RB"])
+        self.parser.add_argument("--wn_templates", type=str, default=f"assets/Templates/wn_templates.json")
         
     def add_geoname(self):
         dataset = "Geonames"
         self.parser.add_argument("--feature_codes", type=str, default=f"datasets/{dataset}/raw/featureCodes_en.txt")
         self.parser.add_argument("--all_countries", type=str, default=f"datasets/{dataset}/raw/allCountries.txt")
         self.parser.add_argument("--depth", type=int, default=3)
-
         self.parser.add_argument("--processed_feature_codes", type=str, default=f"datasets/{dataset}/processed{self.version}/featureCodes_en.csv")
         self.parser.add_argument("--processed_all_countries", type=str, default=f"datasets/{dataset}/processed{self.version}/allCountries.csv")
         self.parser.add_argument("--countrycode_names_csv", type=str, default=f"assets/CountryCodes/country_codes.csv")
         self.parser.add_argument("--countrycode_names_json", type=str, default=f"assets/CountryCodes/country_codes.json")
-        
+        self.parser.add_argument("--geonames_templates", type=str, default=f"assets/Templates/geonames_templates.json")
 
     def add_umls(self):
         dataset = "UMLS"
@@ -58,16 +58,20 @@ class BaseConfig:
         self.parser.add_argument("--level4", type=str, default=f"datasets/{dataset}/processed/UMLS_STN_Hierarchy_level4.json")
         self.parser.add_argument("--raw_umls_rel", type=str, default=f"datasets/{dataset}/processed/UMLS_skiped_bad_lines.tsv")
         self.parser.add_argument("--raw_umls_entity", type=str, default=f"datasets/{dataset}/processed/UMLS_entity_types_with_levels.tsv")
-
         self.parser.add_argument("--umls_processed_dir", type=str, default=f"datasets/{dataset}/processed{self.version}")
         self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
-    
+        self.parser.add_argument("--umls_templates", type=str, default=f"assets/Templates/umls_templates.json")
 
-    def get_args(self, db_name: str):
+    def get_args(self, db_name: str=None):
         """
             Return parser
         :return: parser
         """
-        self.argument_getter.get(db_name)()
+        if db_name == None:
+            print("it is a noun")
+            for functions in self.argument_getter.values():
+                functions()
+        else:
+            self.argument_getter.get(db_name)()
         self.parser.add_argument("-f")
         return self.parser.parse_args()
