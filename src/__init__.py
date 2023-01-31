@@ -1,1 +1,2 @@
 from .utils import geoname_taxonomy_recursive
+from .entity_dataset_builder import EntityDatasetBuilderFactory
