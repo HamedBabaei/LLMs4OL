@@ -13,6 +13,7 @@ datasets/Geonames/processed*
 
 datasets/WN18RR/raw
 datasets/WN18RR/processed*
+datasets/WN18RR/*.json
 documents/*
 
 assets/CountryCodes/*.zip
