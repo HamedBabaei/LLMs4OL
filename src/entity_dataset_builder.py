@@ -1,5 +1,8 @@
 from nltk.corpus import wordnet as wn
 from collections import defaultdict
+from tqdm import tqdm
+from sklearn.model_selection import train_test_split
+
 
 class EntityDatasetBuilder:
 
@@ -28,13 +31,14 @@ class EntityDatasetBuilder:
     def build_stats(self) -> dict:
         pass
 
+
+
 class WNEntityDatasetBuilder(EntityDatasetBuilder):
 
     def __init__(self, config, loader) -> None:
         super().__init__(config, loader)
-        self.label_mapper = {"JJ":"adjective", "NN":"noun", "VB":"verb"}
         self.wn_types_identifier = {"J": wn.ADJ, "V":wn.VERB, "N": wn.NOUN}
-        self.dataset_dict['label-mapper'] = self.label_mapper
+        
 
     def load_artifcats(self):
         train, valid, test = self.loader.load_df(self.config.processed_entity_train), \
@@ -43,9 +47,11 @@ class WNEntityDatasetBuilder(EntityDatasetBuilder):
         self.train_entities = train.append(valid).reset_index(drop=True)['entity'].tolist()
         self.test_entities = test['entity'].tolist()
         self.templates = self.loader.load_json(self.config.templates_json)
-        
+        self.label_mapper = self.loader.load_json(self.config.label_mapper)
+
     def build_dataset(self) -> dict:
         self.dataset_dict["templates"] = self.templates
+        self.dataset_dict['label-mapper'] = self.label_mapper
         self.dataset_dict["train"] = self.build_train_set()
         self.dataset_dict["test"] = self.build_test_set()
         self.dataset_dict["stats"] = self.build_stats()
@@ -64,17 +70,18 @@ class WNEntityDatasetBuilder(EntityDatasetBuilder):
         concept, wn_type = " ".join(entity.split("_")[2:-2]), entity.split("_")[-2]
         label = self.label_mapper[wn_type]
         sentence = self.make_sentence(concept=concept, wn_type=wn_type)
-        generated_templates = self.templates.copy()
-        for key, template in generated_templates.items():
-            if "[SENTENCE]" in template:
-                template = template.replace("[SENTENCE]", sentence)
-            template = template.replace("[A]", concept)
-            generated_templates[key] = template
+        # generated_templates = self.templates.copy()
+        # for key, template in generated_templates.items():
+        #     if "[SENTENCE]" in template:
+        #         template = template.replace("[SENTENCE]", sentence)
+        #     template = template.replace("[A]", concept)
+        #     generated_templates[key] = template
         return {
             "original-entity": entity,
             "entity": concept,
             "label": label,
-            "generated-samples": generated_templates
+            "sentence": sentence
+            # "generated-samples": generated_templates
         }
 
     def build_train_set(self):
@@ -104,6 +111,8 @@ class WNEntityDatasetBuilder(EntityDatasetBuilder):
         }
         return stats
 
+
+
 class UMLSEntityDatasetBuilder(EntityDatasetBuilder):
 
     def __init__(self, config) -> None:
@@ -118,52 +127,154 @@ class UMLSEntityDatasetBuilder(EntityDatasetBuilder):
     def build_test_sample(self, entity):
         pass
 
+
+
 class GeonameEntityDatasetBuilder(EntityDatasetBuilder):
-    def __init__(self, config) -> None:
-        super().__init__(config)
-        self.levels_classes = {
-            "level-1": ["A", "H", "L", "P", "R", "S", "T", "U", "V"],
-
-            "level-3-A-ADM": {"ADM4":["ADM4", "ADM4H"], "ADM3":["ADM3", "ADM3H"], 
-                              "ADM2":["ADM2", "ADM2H"], "ADM5":["ADM5", "ADM5H"], 
-                              "ADMD":["ADMD", "ADMDH"], "ADM1":["ADM1", "ADM1H"]},
-
-            "level-2-H": ["BAY", "CNL", "LK", "MRS", "PND", "RSV", "SPN", "STM", "WAD", "WLL"],
-            "level-3-H-PND": {"PND":["PND"], "PNDI":["PNDI"]},
-            "level-3-H-RSV": {"RSV":["RSV"], "RSVT":["RSVT"], "RSVI": ["RSVI"]},
-            "level-3-H-STM": {"STM":["STM", "STMS"], "STMI":["STMI", "STMIX"],
-                              "STMC":["STMC"], "STMD":["STMD", "STMQ"], 
-                              "STMM":["STMM", "STMX", "STMH"], "STMB":["STMB", "STMA", "STMSB"]},
-
-            "level-2-L":["ARE", "FLD", "GRA", "IND", "LCT", "OIL", "PRK", "RES", "RGN", "TRB"],
-            "level-3-L-RES": {"RESF":["RESF", "RESP"], "RES":["RES"], "RESV":["RESV", "RESA"], 
-                              "RESN":["RESN", "RESW"]},
-                              
-            "level-3-P-PPL": {"PPL":["PPL"], "PPLL":["PPLL", "PPLF"], "PPLQ":["PPLQ", "PPLW"],
-                              "PPLX":["PPLX", "PPLH", "PPLCH", "PPLC", "PPLS", "PPLR", "PPLG"],
-                              "PPLA":["PPLA", "PPLA2", "PPLA3", "PPLA4", "PPLA5"]},
-
-            "level-2-R": ["FRM", "RD", "RDJ", "ST", "TNL"],
-
-            "level-2-S": ["BLD", "CH", "CMT", "DAM", "FRM", "HMS", "HTL", "PO", "RST", "SCH", "TRL"],
-            "level-3-S-FRM": {"FRMT":["FRMT", "FRMS"], "FRMQ":["FRMQ"]},
-            "level-3-S-RST": {"RSTN": ["RSTN", "RSTNQ"], "RSTP":["RSTP", "RSTPQ"]},
-
-            "level-2-T":["CAP", "HLL", "ISL", "MT", "MTS", "PAS", "PK", "PT", "RDG", "VAL"],
-            "level-3-T-HLL": {"HLL":["HLL"], "HLLS":["HLLS"]},
-            "level-3-T-ISL": {"ISL":["ISL"], "ISLET":["ISLET"], "ISLS":["ISLS"]},
-
-            "level-2-V":["CUL", "FRS", "VIN"]
-            }
+    def __init__(self, config, loader) -> None:
+        super().__init__(config, loader)
     
     def load_artifcats(self):
-        pass
+        self.heirarchy = self.loader.load_json(self.config.heirarchy)
+        self.templates = self.loader.load_json(self.config.templates_json)
+        self.label_mapper = self.loader.load_json(self.config.label_mapper)
+        self.countries_df  = self.loader.load_df(self.config.processed_all_countries)
+        # feature_codes  = self.loader.load_df(self.config.processed_feature_codes)
+        countrycode_names_js = self.loader.load_json(self.config.countrycode_names_json)
+        self.countrycode_names_mapper = {cc_names['Code']: cc_names['Name'] for cc_names in countrycode_names_js}
 
-    def build_train_sample(self, entity):
-        pass
+    def build_dataset(self) -> dict:
+        geoname = self.make_dataset_dict()
+        geoname = self.create_train_test_in_levels(geoname)
+        self.dataset_dict["templates"] = self.templates
+        self.dataset_dict['label-mapper'] = self.label_mapper
+        self.dataset_dict['heirarchy'] = self.heirarchy
+        self.dataset_dict['geonames'] = self.make_samples(geoname)
+        self.dataset_dict["stats"] = self.build_stats()
+        return self.dataset_dict
+        
+    def make_dataset_dict(self) -> list[dict]:
+        geoname = []
+        for index, name, asciiname, country_code, level1, level2, level3 in tqdm(zip(range(0,self.countries_df.shape[0]),
+                                                                                             self.countries_df['name'].tolist(),
+                                                                                             self.countries_df['asciiname'].tolist(),
+                                                                                             self.countries_df['country-code'].tolist(),
+                                                                                             self.countries_df['level-1'].tolist(),
+                                                                                             self.countries_df['level-2'].tolist(),
+                                                                                             self.countries_df['level-3'].tolist())):
+            if str(country_code) == "nan":
+                country_code = "not identified country"
+            country_name = self.countrycode_names_mapper.get(country_code, country_code)
+            geoname.append({
+                "index": index,
+                "name": name,
+                "asciname": asciiname,
+                "country_code": country_code,
+                "country_name": country_name,
+                "level1": level1,
+                "level2": level2,
+                "level3": level3,
+            })
+        return geoname
+    
+    def create_train_test_in_levels(self, geoname: list[dict]) -> list[dict]:
+        for level, classes in tqdm(self.heirarchy.items()):
+            if level.startswith("level-1"):
+                geoname = self.create_train_test_in_level_x(geoname=geoname, classes=classes, label_key="level1", branch=level)
+            elif level.startswith("level-2"):
+                geoname = self.create_train_test_in_level_x(geoname=geoname, classes=classes, label_key="level2", branch=level)
+            else:
+                geoname = self.create_train_test_in_level_3(geoname=geoname, classes=classes, label_key="level3", branch=level)
+        return geoname
 
-    def build_test_sample(self, entity):
-        pass
+    def create_train_test_in_level_x(self, geoname: list[dict], classes: list, label_key: str, branch: str) -> list[dict]:
+        indexes, labels = [], []
+        for geo in geoname:
+            if geo[label_key] in classes:
+                indexes.append(geo['index'])
+                labels.append(geo[label_key])
+        train_indexes, test_indexes, _, _ = train_test_split(indexes, labels, 
+                                                             test_size=self.config.test_size,
+                                                             random_state=self.config.seed)
+        train_indexes_dict = {index:"OK" for index in train_indexes}
+        test_indexes_dict = {index:"OK" for index in test_indexes}
+        for index, geo in enumerate(geoname):
+            if train_indexes_dict.get(geo['index'], "NOT_OK") == "OK":
+                geoname[index]["status-in-"+branch] = "train"
+                geoname[index]["label-in-"+branch] = geo[label_key]
+                geoname[index]["label-strings-in-"+branch] = self.label_mapper[geo[label_key]]
+
+            elif test_indexes_dict.get(geo['index'], "NOT_OK") == "OK":
+                geoname[index]["status-in-"+branch] = "test"
+                geoname[index]["label-in-"+branch] = geo[label_key]
+                geoname[index]["label-strings-in-"+branch] = self.label_mapper[geo[label_key]]
+        return geoname    
+
+    def create_train_test_in_level_3(self, geoname: list[dict], classes: dict, label_key: str, branch: str) -> list[dict]:
+        indexes, labels = [], []
+        classes_dict = {}
+        for key, items in classes.items():
+            for item in items:
+                classes_dict[item] = key
+        for geo in geoname:
+            if geo[label_key] in list(classes_dict.keys()):
+                indexes.append(geo['index'])
+                labels.append(classes_dict[geo[label_key]])
+
+        train_indexes, test_indexes, _, _ = train_test_split(indexes, labels, 
+                                                            test_size=self.config.test_size,
+                                                            random_state=self.config.seed)
+        train_indexes_dict = {index:"OK" for index in train_indexes}
+        test_indexes_dict = {index:"OK" for index in test_indexes}
+        for index, geo in enumerate(geoname):
+            if train_indexes_dict.get(geo['index'], "NOT_OK") == "OK":
+                geoname[index]["status-in-"+branch] = "train"
+                geoname[index]["label-in-"+branch] = classes_dict[geo[label_key]]
+                geoname[index]["label-strings-in-"+branch] = self.label_mapper[classes_dict[geo[label_key]]]
+            elif test_indexes_dict.get(geo['index'], "NOT_OK") == "OK":
+                geoname[index]["status-in-"+branch] = "test"
+                geoname[index]["label-in-"+branch] = classes_dict[geo[label_key]]
+                geoname[index]["label-strings-in-"+branch] = self.label_mapper[classes_dict[geo[label_key]]]
+        return geoname    
+
+    def make_samples(self, geoname:list[dict]) -> list[dict]:
+        # def generate_samples(country:str, name:str) -> dict:
+        #     generated_templates = self.templates.copy()
+        #     for key, template in generated_templates.items():
+        #         if "[COUNTRY]" in template:
+        #             template = template.replace("[COUNTRY]", country)
+        #         template = template.replace("[A]", name)
+        #         generated_templates[key] = template
+        #     return generated_templates
+        # for index, geo in tqdm(enumerate(geoname)):
+        #     geoname[index]['generated-samples'] = generate_samples(country=geo['country_name'], name=str(geo['asciname']))
+        return geoname
+    
+    def build_stats(self) -> dict:
+        def get_labels_freqs(label_in_branch, status_in_branch, status):
+            freqs = defaultdict(int)
+            samples_no = 0
+            for sample in self.dataset_dict['geonames']:
+                if label_in_branch in list(sample.keys()):
+                    if sample[status_in_branch] == status:
+                        freqs[sample[label_in_branch]] += 1
+                        samples_no += 1
+            return freqs, samples_no
+        stats = {
+            "# of labels at all": len(self.label_mapper),
+            "# of samples at all": len(self.dataset_dict['geonames']),
+        }
+        for branch, classes in self.heirarchy.items():
+            train_stats, train_size = get_labels_freqs(label_in_branch = "label-in-"+branch, status_in_branch="status-in-"+branch, status="train")
+            test_stats, test_size = get_labels_freqs(label_in_branch = "label-in-"+branch, status_in_branch="status-in-"+branch, status="test")
+            stats[branch] = {
+                "# of labels": len(classes), 
+                "# of train samples": train_size,
+                "# of test samples": test_size,
+                "labels-freqs in train": train_stats,
+                "labels-freqs in test": test_stats,
+                }
+        return stats
+
 
 class EntityDatasetBuilderFactory:
 
