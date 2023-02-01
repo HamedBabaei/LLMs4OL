@@ -10,6 +10,8 @@ datasets/UMLS/processed-2
 !datasets/UMLS/processed/images/*
 datasets/Geonames/raw
 datasets/Geonames/processed*
+datasets/Geonames/geonames_entities.json
+
 
 datasets/WN18RR/raw
 datasets/WN18RR/processed*
