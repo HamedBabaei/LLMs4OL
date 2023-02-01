@@ -34,7 +34,6 @@ class BaseConfig:
         self.parser.add_argument("--relations_to_ignore", type=list, default=["_also_see", "_member_of_domain_region",  
                                                                               "_similar_to", "_member_of_domain_usage"])
         self.parser.add_argument("--entity_class_to_ignore", type=list, default=["RB"])
-        self.parser.add_argument("--templates_json", type=str, default=f"datasets/{dataset}/wn_templates.json")
         
         
     def add_geoname(self, dataset: str):
@@ -45,7 +44,6 @@ class BaseConfig:
         self.parser.add_argument("--processed_all_countries", type=str, default=f"datasets/{dataset}/processed{self.version}/allCountries.csv")
         self.parser.add_argument("--countrycode_names_csv", type=str, default=f"assets/CountryCodes/country_codes.csv")
         self.parser.add_argument("--countrycode_names_json", type=str, default=f"assets/CountryCodes/country_codes.json")
-        self.parser.add_argument("--templates_json", type=str, default=f"datasets/{dataset}/geonames_templates.json")
 
     def add_umls(self, dataset: str):
         self.parser.add_argument("--tui2stn", type=str, default=f"datasets/{dataset}/processed/TUI2STN.json")
@@ -58,7 +56,6 @@ class BaseConfig:
         self.parser.add_argument("--raw_umls_entity", type=str, default=f"datasets/{dataset}/processed/UMLS_entity_types_with_levels.tsv")
         self.parser.add_argument("--umls_processed_dir", type=str, default=f"datasets/{dataset}/processed{self.version}")
         self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
-        self.parser.add_argument("--templates_json", type=str, default=f"datasets/{dataset}/umls_templates.json")
 
     def get_args(self, db_name):
         """
@@ -70,9 +67,14 @@ class BaseConfig:
         arguments(dataset=dataset)
         self.parser.add_argument("--dataset", type=str, default=db_name)
         
-        self.parser.add_argument("--entity_path_template", type=str, default=f"datasets/{dataset}/[DATASET]_entities.json")
+        self.parser.add_argument("--entity_path", type=str, default=f"datasets/{dataset}/{dataset.lower()}_entities.json")
+        self.parser.add_argument("--templates_json", type=str, default=f"datasets/{dataset}/templates.json")
+        self.parser.add_argument("--label_mapper", type=str, default=f"datasets/{dataset}/label_mapper.json")
+        self.parser.add_argument("--heirarchy", type=str, default=f"datasets/{dataset}/heirarchy.json")
+        
         # [DATASET] for umls we have ["NCI", "SNOMEDCT_US", "MEDCIN"]
-        self.parser.add_argument("--test_size", type=float, default=0.2)  # this is for UMLS and Geoname Levels as well!
+        self.parser.add_argument("--test_size", type=float, default=0.20)  # this is for UMLS and Geoname Levels as well!
+        self.parser.add_argument("--seed", type=int, default=555)
 
         self.parser.add_argument("-f")
         return self.parser.parse_args()
