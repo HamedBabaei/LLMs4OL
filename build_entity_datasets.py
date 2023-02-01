@@ -10,5 +10,11 @@ if __name__=="__main__":
     wn_builder = dataset_builder(config=config)
     dataset_json = wn_builder.build()
     DataWriter.write_json(data=dataset_json, 
-                          path=config.entity_path_template.replace("[DATASET]", config.dataset))
+                          path=config.entity_path)
+    
+    config = BaseConfig(version=2).get_args(db_name="geonames")
+    geo_builder = dataset_builder(config=config)
+    dataset_json = geo_builder.build()
+    DataWriter.write_json(data=dataset_json, 
+                          path=config.entity_path)
     
