@@ -1,0 +1,10 @@
+[
+    {"template": "[SENTENCE]. [A] in medicine is a [MASK]."},
+    {"template": "[SENTENCE]. [A] in biomedicine is a [MASK]."},
+    {"template": "[SENTENCE]. '[A]' in medicine is a [MASK]."},
+    {"template": "[SENTENCE]. '[A]' in biomedicine is a [MASK]."},
+    {"template": "[A] in medicine is a [MASK]."},
+    {"template": "[A] in biomedicine is a [MASK]."},
+    {"template": "'[A]' in medicine is a [MASK]."},
+    {"template": "'[A]' in biomedicine is a [MASK]."}
+]

@@ -1,0 +1,10 @@
+{
+    "template-1": "[SENTENCE]. [A] POS is a [MASK].",
+    "template-2": "[SENTENCE]. [A] part-of-speech is a [MASK].",
+    "template-3": "[SENTENCE]. '[A]' POS is a [MASK].",
+    "template-4": "[SENTENCE]. '[A]' part-of-speech is a [MASK].",
+    "template-5": "[A] POS is a [MASK].",
+    "template-6": "[A] part-of-speech is a [MASK].",
+    "template-7": "'[A]' POS is a [MASK].",
+    "template-8": "'[A]' part-of-speech is a [MASK]."
+}
