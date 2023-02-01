@@ -42,8 +42,8 @@ class WNEntityDatasetBuilder(EntityDatasetBuilder):
                              self.loader.load_df(self.config.processed_entity_test)
         self.train_entities = train.append(valid).reset_index(drop=True)['entity'].tolist()
         self.test_entities = test['entity'].tolist()
-        self.templates = self.loader.load_json(self.config.wn_templates)
-    
+        self.templates = self.loader.load_json(self.config.templates_json)
+        
     def build_dataset(self) -> dict:
         self.dataset_dict["templates"] = self.templates
         self.dataset_dict["train"] = self.build_train_set()
@@ -104,7 +104,6 @@ class WNEntityDatasetBuilder(EntityDatasetBuilder):
         }
         return stats
 
-
 class UMLSEntityDatasetBuilder(EntityDatasetBuilder):
 
     def __init__(self, config) -> None:
@@ -122,6 +121,40 @@ class UMLSEntityDatasetBuilder(EntityDatasetBuilder):
 class GeonameEntityDatasetBuilder(EntityDatasetBuilder):
     def __init__(self, config) -> None:
         super().__init__(config)
+        self.levels_classes = {
+            "level-1": ["A", "H", "L", "P", "R", "S", "T", "U", "V"],
+
+            "level-3-A-ADM": {"ADM4":["ADM4", "ADM4H"], "ADM3":["ADM3", "ADM3H"], 
+                              "ADM2":["ADM2", "ADM2H"], "ADM5":["ADM5", "ADM5H"], 
+                              "ADMD":["ADMD", "ADMDH"], "ADM1":["ADM1", "ADM1H"]},
+
+            "level-2-H": ["BAY", "CNL", "LK", "MRS", "PND", "RSV", "SPN", "STM", "WAD", "WLL"],
+            "level-3-H-PND": {"PND":["PND"], "PNDI":["PNDI"]},
+            "level-3-H-RSV": {"RSV":["RSV"], "RSVT":["RSVT"], "RSVI": ["RSVI"]},
+            "level-3-H-STM": {"STM":["STM", "STMS"], "STMI":["STMI", "STMIX"],
+                              "STMC":["STMC"], "STMD":["STMD", "STMQ"], 
+                              "STMM":["STMM", "STMX", "STMH"], "STMB":["STMB", "STMA", "STMSB"]},
+
+            "level-2-L":["ARE", "FLD", "GRA", "IND", "LCT", "OIL", "PRK", "RES", "RGN", "TRB"],
+            "level-3-L-RES": {"RESF":["RESF", "RESP"], "RES":["RES"], "RESV":["RESV", "RESA"], 
+                              "RESN":["RESN", "RESW"]},
+                              
+            "level-3-P-PPL": {"PPL":["PPL"], "PPLL":["PPLL", "PPLF"], "PPLQ":["PPLQ", "PPLW"],
+                              "PPLX":["PPLX", "PPLH", "PPLCH", "PPLC", "PPLS", "PPLR", "PPLG"],
+                              "PPLA":["PPLA", "PPLA2", "PPLA3", "PPLA4", "PPLA5"]},
+
+            "level-2-R": ["FRM", "RD", "RDJ", "ST", "TNL"],
+
+            "level-2-S": ["BLD", "CH", "CMT", "DAM", "FRM", "HMS", "HTL", "PO", "RST", "SCH", "TRL"],
+            "level-3-S-FRM": {"FRMT":["FRMT", "FRMS"], "FRMQ":["FRMQ"]},
+            "level-3-S-RST": {"RSTN": ["RSTN", "RSTNQ"], "RSTP":["RSTP", "RSTPQ"]},
+
+            "level-2-T":["CAP", "HLL", "ISL", "MT", "MTS", "PAS", "PK", "PT", "RDG", "VAL"],
+            "level-3-T-HLL": {"HLL":["HLL"], "HLLS":["HLLS"]},
+            "level-3-T-ISL": {"ISL":["ISL"], "ISLET":["ISLET"], "ISLS":["ISLS"]},
+
+            "level-2-V":["CUL", "FRS", "VIN"]
+            }
     
     def load_artifcats(self):
         pass
