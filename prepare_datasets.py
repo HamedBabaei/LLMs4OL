@@ -179,12 +179,12 @@ def make_umls(config):
         print("-"*40)
 
 if __name__ == "__main__":
-    # config = BaseConfig(version=2).get_args(db_name="wn18rr")
+    # config = BaseConfig(version=2).get_args(kb_name="wn18rr")
     # make_wn18rr(config=config)
 
-    # config = BaseConfig(version=2).get_args(db_name="geonames")
+    # config = BaseConfig(version=2).get_args(kb_name="geonames")
     # make_geoname(config=config)
 
-    config = BaseConfig(version=2).get_args(db_name="umls")
+    config = BaseConfig(version=2).get_args(kb_name="umls")
     make_umls(config=config)
 
