@@ -58,20 +58,19 @@ class BaseConfig:
         self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
 
 
-    def get_args(self, db_name:str, model:str = None, template:str = None):
+    def get_args(self, kb_name:str, model:str = None, template:str = None):
         """
             Return parser
         :return: parser
         """
-        dataset, arguments = self.argument_getter.get(db_name) 
+        dataset, arguments = self.argument_getter.get(kb_name) 
 
         # add dataset specific arguments
         arguments(dataset=dataset)
-        self.parser.add_argument("--db_name")
+        self.parser.add_argument("--kb_name")
         self.parser.add_argument("--model_name")
-        # self.parser.add_argument("--template")
         # add general specific arguments
-        self.parser.add_argument("--dataset", type=str, default=db_name)
+        self.parser.add_argument("--dataset", type=str, default=kb_name)
         self.parser.add_argument("--entity_path", type=str, default=f"datasets/{dataset}/{dataset.lower()}_entities.json")
         self.parser.add_argument("--templates_json", type=str, default=f"datasets/{dataset}/templates.json")
         self.parser.add_argument("--label_mapper", type=str, default=f"datasets/{dataset}/label_mapper.json")
@@ -85,9 +84,9 @@ class BaseConfig:
         self.parser.add_argument("--model_output", type=str, default=f"results/{dataset}/output-{model}-{template}-{time}.json")
         if model=="bert_large":
             self.parser.add_argument("--model_path", type=str, default="bert-large-uncased")
-            self.parser.add_argument("--batch_size", type=int, default=32)
+            self.parser.add_argument("--batch_size", type=int, default=16)
             self.parser.add_argument("--top_n", type=int, default=10)
-            self.parser.add_argument("--device", type=str, default="cpu")
+            self.parser.add_argument("--device", type=str, default="cuda")
             self.parser.add_argument("--template", type=str, default=template)
             
         if model=="ngram":
