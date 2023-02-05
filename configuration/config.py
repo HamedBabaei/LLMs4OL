@@ -17,7 +17,10 @@ class BaseConfig:
         self.argument_getter = {
             "wn18rr": ["WN18RR", self.add_wn18rr],
             "geonames": ["Geonames", self.add_geoname],
-            "umls": ["UMLS", self.add_umls]
+            "umls": ["UMLS", self.add_umls],
+            "nci": ["UMLS", self.add_umls],
+            "snomedct_us": ["UMLS", self.add_umls],
+            "medicin": ["UMLS", self.add_umls]
             }
 
     def add_wn18rr(self, dataset: str):
@@ -55,7 +58,7 @@ class BaseConfig:
         self.parser.add_argument("--raw_umls_rel", type=str, default=f"datasets/{dataset}/processed/UMLS_skiped_bad_lines.tsv")
         self.parser.add_argument("--raw_umls_entity", type=str, default=f"datasets/{dataset}/processed/UMLS_entity_types_with_levels.tsv")
         self.parser.add_argument("--umls_processed_dir", type=str, default=f"datasets/{dataset}/processed{self.version}")
-        self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
+        self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDICIN"])
 
 
     def get_args(self, kb_name:str, model:str = None, template:str = None):
@@ -71,7 +74,17 @@ class BaseConfig:
         self.parser.add_argument("--model_name")
         # add general specific arguments
         self.parser.add_argument("--dataset", type=str, default=kb_name)
-        self.parser.add_argument("--entity_path", type=str, default=f"datasets/{dataset}/{dataset.lower()}_entities.json")
+        time = str(datetime.datetime.now()).split('.')[0]
+        if dataset == "UMLS" and kb_name != "umls":
+            print("working with entity path of:", f"datasets/{dataset}/{kb_name}_entities.json")
+            self.parser.add_argument("--entity_path", type=str, default=f"datasets/{dataset}/{kb_name}_entities.json")
+            self.parser.add_argument("--report_output", type=str, default=f"results/{dataset}/{kb_name}-report-{model}-{template}-{time}.json")
+            self.parser.add_argument("--model_output", type=str, default=f"results/{dataset}/{kb_name}-output-{model}-{template}-{time}.json")
+        else:
+            self.parser.add_argument("--entity_path", type=str, default=f"datasets/{dataset}/{dataset.lower()}_entities.json")
+            self.parser.add_argument("--report_output", type=str, default=f"results/{dataset}/report-{model}-{template}-{time}.json")
+            self.parser.add_argument("--model_output", type=str, default=f"results/{dataset}/output-{model}-{template}-{time}.json")
+
         self.parser.add_argument("--templates_json", type=str, default=f"datasets/{dataset}/templates.json")
         self.parser.add_argument("--label_mapper", type=str, default=f"datasets/{dataset}/label_mapper.json")
         self.parser.add_argument("--heirarchy", type=str, default=f"datasets/{dataset}/heirarchy.json")
@@ -79,14 +92,11 @@ class BaseConfig:
         self.parser.add_argument("--seed", type=int, default=555)
         
         # add model specific arguments
-        time = str(datetime.datetime.now()).split('.')[0]
-        self.parser.add_argument("--report_output", type=str, default=f"results/{dataset}/report-{model}-{template}-{time}.json")
-        self.parser.add_argument("--model_output", type=str, default=f"results/{dataset}/output-{model}-{template}-{time}.json")
         if model=="bert_large":
             self.parser.add_argument("--model_path", type=str, default="bert-large-uncased")
-            self.parser.add_argument("--batch_size", type=int, default=16)
+            self.parser.add_argument("--batch_size", type=int, default=64)
             self.parser.add_argument("--top_n", type=int, default=10)
-            self.parser.add_argument("--device", type=str, default="cuda")
+            self.parser.add_argument("--device", type=str, default="cpu")
             self.parser.add_argument("--template", type=str, default=template)
             
         if model=="ngram":
