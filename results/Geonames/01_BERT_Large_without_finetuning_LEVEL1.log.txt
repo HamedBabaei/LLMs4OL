@@ -1,0 +1,65 @@
+Running baseline models!
+Running bert_large for template: template-1!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc7e091c-33f9-4a98-88f8-12bc34f15c5e.json', kb_name='geonames', model_name='bert_large', template='template-1')
+GeonamesDataset:Test-SET-level-1 --- template-1: [A] is a place in [COUNTRY]. [A] is a [MASK].
+scoring model outputs in:results/Geonames/output-bert_large-template-1-2023-02-03 19:28:08.json
+Results: {'P@1': 23.322145990861472, 'P@5': 12.674573004335755, 'P@10': 10.338311568807104, 'R@1': 10.632988544225888, 'R@5': 27.303349144644905, 'R@10': 44.545939673765446}
+scoring results in:results/Geonames/report-bert_large-template-1-2023-02-03 19:28:08.json
+Inference for  BERT-Large on template: template-1  is done
+-----------------------------------------------------------
+Running bert_large for template: template-2!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-9e2fab90-4fc7-4a7b-b46d-2cae4ec84032.json', kb_name='geonames', model_name='bert_large', template='template-2')
+GeonamesDataset:Test-SET-level-1 --- template-2: [A] is a place in [COUNTRY]. [A] geographically is a [MASK].
+scoring model outputs in:results/Geonames/output-bert_large-template-2-2023-02-03 19:23:26.json
+Results: {'P@1': 20.268614952912237, 'P@5': 9.775811197764643, 'P@10': 7.166096415630881, 'R@1': 9.499132255384948, 'R@5': 21.00763259078353, 'R@10': 30.281880133230697}
+scoring results in:results/Geonames/report-bert_large-template-2-2023-02-03 19:23:26.json
+Inference for  BERT-Large on template: template-2  is done
+-----------------------------------------------------------
+Running bert_large for template: template-3!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-3c656d03-01c3-4cc0-a7f2-747e82dbfbec.json', kb_name='geonames', model_name='bert_large', template='template-3')
+GeonamesDataset:Test-SET-level-1 --- template-3: [A] is a place in [COUNTRY]. '[A]' is a [MASK].
+scoring model outputs in:results/Geonames/output-bert_large-template-3-2023-02-03 19:32:22.json
+Results: {'P@1': 17.83705002443933, 'P@5': 9.845606758315803, 'P@10': 7.304193472423135, 'R@1': 8.232014005273536, 'R@5': 21.52722396255, 'R@10': 31.55892583034942}
+scoring results in:results/Geonames/report-bert_large-template-3-2023-02-03 19:32:22.json
+Inference for  BERT-Large on template: template-3  is done
+-----------------------------------------------------------
+Running bert_large for template: template-4!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-5eee4229-bbac-4e0e-b282-62be0188efd1.json', kb_name='geonames', model_name='bert_large', template='template-4')
+GeonamesDataset:Test-SET-level-1 --- template-4: [A] is a place in [COUNTRY]. '[A]' geographically is a [MASK].
+scoring model outputs in:results/Geonames/output-bert_large-template-4-2023-02-05 12:48:42.json
+Results: {'P@1': 24.791375192199993, 'P@5': 12.077639892902305, 'P@10': 7.887986733500484, 'R@1': 11.4591764242934, 'R@5': 25.153727014403152, 'R@10': 32.808712275006386}
+scoring results in:results/Geonames/report-bert_large-template-4-2023-02-05 12:48:42.json
+Inference for  BERT-Large on template: template-4  is done
+-----------------------------------------------------------
+Running bert_large for template: template-5!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc7e091c-33f9-4a98-88f8-12bc34f15c5e.json', kb_name='geonames', model_name='bert_large', template='template-5')
+GeonamesDataset:Test-SET-level-1 --- template-5: [A] is a [MASK].
+scoring model outputs in:results/Geonames/output-bert_large-template-5-2023-02-03 22:12:35.json
+Results: {'P@1': 12.505318275275908, 'P@5': 7.246409793146301, 'P@10': 5.470392790496564, 'R@1': 5.6677972742617655, 'R@5': 15.937329114345482, 'R@10': 24.09483779341179}
+scoring results in:results/Geonames/report-bert_large-template-5-2023-02-03 22:12:35.json
+Inference for  BERT-Large on template: template-5  is done
+-----------------------------------------------------------
+Running bert_large for template: template-6!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-3c656d03-01c3-4cc0-a7f2-747e82dbfbec.json', kb_name='geonames', model_name='bert_large', template='template-6')
+GeonamesDataset:Test-SET-level-1 --- template-6: [A] geographically is a [MASK].
+scoring model outputs in:results/Geonames/output-bert_large-template-6-2023-02-03 22:13:58.json
+Results: {'P@1': 15.676197675592134, 'P@5': 7.833191182843788, 'P@10': 6.208757393639441, 'R@1': 7.279836596187929, 'R@5': 17.59687836205893, 'R@10': 27.168685467485016}
+scoring results in:results/Geonames/report-bert_large-template-6-2023-02-03 22:13:58.json
+Inference for  BERT-Large on template: template-6  is done
+-----------------------------------------------------------
+Running bert_large for template: template-7!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-633547e4-3fc7-46d1-9e4f-f33c755f8888.json', kb_name='geonames', model_name='bert_large', template='template-7')
+GeonamesDataset:Test-SET-level-1 --- template-7: '[A]' is a [MASK].
+scoring model outputs in:results/Geonames/output-bert_large-template-7-2023-02-05 12:51:25.json
+Results: {'P@1': 3.752575034680102, 'P@5': 2.96180934156289, 'P@10': 2.386891416155288, 'R@1': 1.7329661826947043, 'R@5': 6.470172473724876, 'R@10': 10.221213866221456}
+scoring results in:results/Geonames/report-bert_large-template-7-2023-02-05 12:51:25.json
+Inference for  BERT-Large on template: template-7  is done
+-----------------------------------------------------------
+Running bert_large for template: template-8!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-c7ec64ce-759c-4afb-9496-d21a6d33a9d4.json', kb_name='geonames', model_name='bert_large', template='template-8')
+GeonamesDataset:Test-SET-level-1 --- template-8: '[A]' geographically is a [MASK].
+scoring model outputs in:results/Geonames/output-bert_large-template-8-2023-02-05 12:53:17.json
+Results: {'P@1': 20.98883310609044, 'P@5': 10.0385488380929, 'P@10': 6.635911369334677, 'R@1': 9.56784931917911, 'R@5': 21.179565421870496, 'R@10': 27.568966074596673}
+scoring results in:results/Geonames/report-bert_large-template-8-2023-02-05 12:53:17.json
+Inference for  BERT-Large on template: template-8  is done
+-----------------------------------------------------------
