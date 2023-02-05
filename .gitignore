@@ -8,11 +8,14 @@ datasets/UMLS/raw
 datasets/UMLS/processed/*.tsv
 datasets/UMLS/processed-2
 !datasets/UMLS/processed/images/*
+datasets/UMLS/*_entities.json
 datasets/Geonames/raw
 datasets/Geonames/processed*
-datasets/Geonames/geonames_entities.json
+datasets/Geonames/*_entities.json
 results/*/*/output*.json
-
+results/*/*/nci-output*.json
+results/*/*/medicin-output*.json
+results/*/*/snomedct_us-output*.json
 
 datasets/WN18RR/raw
 datasets/WN18RR/processed*
