@@ -1,0 +1,32 @@
+Running baseline models!
+Running bert_large for template: template-5!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-46c1d9cb-14c3-4699-95e2-9ace84d832f0.json', kb_name='nci', model_name='bert_large', template='template-5')
+working with entity path of: datasets/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci-level-1 --- template-5: [A] in medicine is a [MASK].
+scoring model outputs in:results/UMLS/nci-output-bert_large-template-5-2023-02-05 17:16:09.json
+Results: {'P@1': 0.10903143739778302, 'P@5': 0.1108486280210794, 'P@10': 0.19534799200436126, 'R@1': 0.05451571869889151, 'R@5': 0.27712157005269855, 'R@10': 0.9767399600218063}
+scoring results in:results/UMLS/nci-report-bert_large-template-5-2023-02-05 17:16:09.json
+-----------------------------------------------------------
+Running bert_large for template: template-6!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-46c1d9cb-14c3-4699-95e2-9ace84d832f0.json', kb_name='nci', model_name='bert_large', template='template-6')
+working with entity path of: datasets/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci-level-1 --- template-6: [A] in biomedicine is a [MASK].
+scoring model outputs in:results/UMLS/nci-output-bert_large-template-6-2023-02-05 17:21:29.json
+Results: {'P@1': 0.06360167181537343, 'P@5': 0.08449936398328185, 'P@10': 0.1113029256769035, 'R@1': 0.03180083590768672, 'R@5': 0.21124840995820462, 'R@10': 0.5565146283845175}
+scoring results in:results/UMLS/nci-report-bert_large-template-6-2023-02-05 17:21:29.json
+-----------------------------------------------------------
+Running bert_large for template: template-7!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-46c1d9cb-14c3-4699-95e2-9ace84d832f0.json', kb_name='nci', model_name='bert_large', template='template-7')
+working with entity path of: datasets/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci-level-1 --- template-7: '[A]' in medicine is a [MASK].
+scoring model outputs in:results/UMLS/nci-output-bert_large-template-7-2023-02-05 17:26:03.json
+Results: {'P@1': 0.009085953116481919, 'P@5': 0.0227148827912048, 'P@10': 0.06178448119207705, 'R@1': 0.004542976558240959, 'R@5': 0.05678720697801199, 'R@10': 0.3089224059603852}
+scoring results in:results/UMLS/nci-report-bert_large-template-7-2023-02-05 17:26:03.json
+-----------------------------------------------------------
+Running bert_large for template: template-8!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-46c1d9cb-14c3-4699-95e2-9ace84d832f0.json', kb_name='nci', model_name='bert_large', template='template-8')
+working with entity path of: datasets/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci-level-1 --- template-8: '[A]' in biomedicine is a [MASK].
+scoring model outputs in:results/UMLS/nci-output-bert_large-template-8-2023-02-05 17:31:49.json
+Results: {'P@1': 0.0, 'P@5': 0.002725785934944576, 'P@10': 0.006360167181537343, 'R@1': 0.0, 'R@5': 0.006814464837361439, 'R@10': 0.03180083590768672}
+scoring results in:results/UMLS/nci-report-bert_large-template-8-2023-02-05 17:31:49.json
