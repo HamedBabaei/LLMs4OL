@@ -1,0 +1,63 @@
+{
+    "baseline-run-args": "Namespace(f='/root/.local/share/jupyter/runtime/kernel-f7c72026-2a46-491b-92a1-ff9a145ba970.json', kb_name='snomedct_us', model_name='bert_large', template='template-6')",
+    "report_output_refrence": "results/UMLS/snomedct_us-report-bert_large-template-6-2023-02-05 19:07:45.json",
+    "results": {
+        "P@1": 0.053202494605858186,
+        "P@5": 0.059113882895397984,
+        "P@10": 0.10389264918866195,
+        "R@1": 0.026601247302929093,
+        "R@5": 0.14778470723849496,
+        "R@10": 0.5194632459433098
+    },
+    "dataset-in-use": "UMLSDataset:Test-SET-snomedct_us-level-1 --- Template-in-use: [A] in biomedicine is a [MASK].",
+    "configs": {
+        "tui2stn": "datasets/UMLS/processed/TUI2STN.json",
+        "tui2str": "datasets/UMLS/processed/TUI2STR.json",
+        "level1": "datasets/UMLS/processed/UMLS_STN_Hierarchy_level1.json",
+        "level2": "datasets/UMLS/processed/UMLS_STN_Hierarchy_level2.json",
+        "level3": "datasets/UMLS/processed/UMLS_STN_Hierarchy_level3.json",
+        "level4": "datasets/UMLS/processed/UMLS_STN_Hierarchy_level4.json",
+        "raw_umls_rel": "datasets/UMLS/processed/UMLS_skiped_bad_lines.tsv",
+        "raw_umls_entity": "datasets/UMLS/processed/UMLS_entity_types_with_levels.tsv",
+        "umls_processed_dir": "datasets/UMLS/processed-2",
+        "sources_to_consider": [
+            "NCI",
+            "SNOMEDCT_US",
+            "MEDICIN"
+        ],
+        "kb_name": null,
+        "model_name": null,
+        "dataset": "snomedct_us",
+        "entity_path": "drive/MyDrive/TIB-02/UMLS/snomedct_us_entities.json",
+        "report_output": "results/UMLS/snomedct_us-report-bert_large-template-6-2023-02-05 19:07:45.json",
+        "model_output": "results/UMLS/snomedct_us-output-bert_large-template-6-2023-02-05 19:07:45.json",
+        "templates_json": "datasets/UMLS/templates.json",
+        "label_mapper": "datasets/UMLS/label_mapper.json",
+        "heirarchy": "datasets/UMLS/heirarchy.json",
+        "test_size": 0.2,
+        "seed": 555,
+        "model_path": "bert-large-uncased",
+        "batch_size": 64,
+        "top_n": 10,
+        "device": "cuda",
+        "template": "template-6",
+        "f": "/root/.local/share/jupyter/runtime/kernel-f7c72026-2a46-491b-92a1-ff9a145ba970.json"
+    },
+    "dataset-stats": {
+        "# of labels": 4,
+        "# of train samples": 270661,
+        "# of test samples": 67666,
+        "labels-freqs in train": {
+            "A1": 97402,
+            "A2": 61930,
+            "B2": 61154,
+            "B1": 50175
+        },
+        "labels-freqs in test": {
+            "A2": 15548,
+            "A1": 24397,
+            "B2": 15246,
+            "B1": 12475
+        }
+    }
+}

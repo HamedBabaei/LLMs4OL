@@ -1,0 +1,36 @@
+Running baseline models!
+Running bert_large for template: template-5!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-f7c72026-2a46-491b-92a1-ff9a145ba970.json', kb_name='snomedct_us', model_name='bert_large', template='template-5')
+working with entity path of: datasets/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us-level-1 --- template-5: [A] in medicine is a [MASK].
+100%|██████████| 1058/1058 [08:09<00:00,  2.16it/s]
+scoring model outputs in:results/UMLS/snomedct_us-output-bert_large-template-5-2023-02-05 18:56:33.json
+Results: {'P@1': 0.04876895338870334, 'P@5': 0.08364614429698815, 'P@10': 0.6551296071882482, 'R@1': 0.02438447669435167, 'R@5': 0.20911536074247036, 'R@10': 3.275648035941241}
+scoring results in:results/UMLS/snomedct_us-report-bert_large-template-5-2023-02-05 18:56:33.json
+-----------------------------------------------------------
+Running bert_large for template: template-6!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-f7c72026-2a46-491b-92a1-ff9a145ba970.json', kb_name='snomedct_us', model_name='bert_large', template='template-6')
+working with entity path of: datasets/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us-level-1 --- template-6: [A] in biomedicine is a [MASK].
+100%|██████████| 1058/1058 [08:47<00:00,  2.01it/s]
+scoring model outputs in:results/UMLS/snomedct_us-output-bert_large-template-6-2023-02-05 19:07:45.json
+Results: {'P@1': 0.053202494605858186, 'P@5': 0.059113882895397984, 'P@10': 0.10389264918866195, 'R@1': 0.026601247302929093, 'R@5': 0.14778470723849496, 'R@10': 0.5194632459433098}
+scoring results in:results/UMLS/snomedct_us-report-bert_large-template-6-2023-02-05 19:07:45.json
+-----------------------------------------------------------
+Running bert_large for template: template-7!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-f7c72026-2a46-491b-92a1-ff9a145ba970.json', kb_name='snomedct_us', model_name='bert_large', template='template-7')
+working with entity path of: datasets/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us-level-1 --- template-7: '[A]' in medicine is a [MASK].
+100%|██████████| 1058/1058 [08:32<00:00,  2.07it/s]
+scoring model outputs in:results/UMLS/snomedct_us-output-bert_large-template-7-2023-02-05 19:22:59.json
+Results: {'P@1': 0.0014778470723849496, 'P@5': 0.011527207164602607, 'P@10': 0.07300564537581651, 'R@1': 0.0007389235361924748, 'R@5': 0.028818017911506517, 'R@10': 0.36502822687908254}
+scoring results in:results/UMLS/snomedct_us-report-bert_large-template-7-2023-02-05 19:22:59.json
+-----------------------------------------------------------
+Running bert_large for template: template-8!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-f7c72026-2a46-491b-92a1-ff9a145ba970.json', kb_name='snomedct_us', model_name='bert_large', template='template-8')
+working with entity path of: datasets/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us-level-1 --- template-8: '[A]' in biomedicine is a [MASK].
+100%|██████████| 1058/1058 [09:18<00:00,  1.90it/s]
+scoring model outputs in:results/UMLS/snomedct_us-output-bert_large-template-8-2023-02-05 19:33:40.json
+Results: {'P@1': 0.004433541217154849, 'P@5': 0.0029556941447698992, 'P@10': 0.005320249460585819, 'R@1': 0.0022167706085774244, 'R@5': 0.007389235361924748, 'R@10': 0.026601247302929093}
+scoring results in:results/UMLS/snomedct_us-report-bert_large-template-8-2023-02-05 19:33:40.json
