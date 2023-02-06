@@ -15,10 +15,10 @@
 | Dataset | | BL  |
 |:---:|:---:|:---:|
 |WN18RR | |32.269 |
-|Geoname|Level-1<br>Level-2<br>Level-3|  24.791<br><br> |
-| NCI |Level-1<br>Level-2<br>Level-3 | 0.109<br><br> | 
-|SNOMEDCT|Level-1<br>Level-2<br>Level-3| 0.053<br><br> | 
-|MEDICIN|Level-1<br>Level-2<br>Level-3| 0.0<br><br>| 
+|Geoname|Level-1<br>Level-2<br>Level-3|  24.791<br>-<br>- |
+| NCI |Level-1<br>Level-2<br>Level-3 | 0.109<br>-<br>- | 
+|SNOMEDCT|Level-1<br>Level-2<br>Level-3| 0.053<br>-<br>- | 
+|MEDICIN|Level-1<br>Level-2<br>Level-3| 0.0<br>-<br>-| 
 
 
 
