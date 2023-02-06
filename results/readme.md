@@ -10,6 +10,7 @@
 |SNOMEDCT|Level-1|BERT-Large<br>BioBERT-Large<br>BioClinicalBERT|<br> <br> |<br> |<br> |<br> | 0.048<br>0.000 <br>0.000 | **0.053**<br>0.000<br> 0.000  | 0.001<br>0.000 <br>0.000 | 0.004<br>0.000 <br>0.000 |
 |MEDICIN|Level-1|BERT-Large<br>BioBERT-Large<br>BioClinicalBERT| <br><br> |<br> <br> |<br> <br> | <br> <br>| 0.000<br>0.000<br>0.000  | 0.000<br>0.000<br>0.000  | 0.000<br>0.000<br>0.000  | 0.000<br>0.000<br>0.000 |
 
+* The obtained optimum templates utilized for experimentations
 
 ## Obtained Results
 
@@ -21,6 +22,8 @@
 |SNOMEDCT|Level-1<br>Level-2<br>Level-3| 0.053<br>-<br>- | 
 |MEDICIN|Level-1<br>Level-2<br>Level-3| 0.0<br>-<br>-| 
 
-
+## Model discriptions
 
 * $BL_{w}$: BERT-Large LM with prompt-based inference and without finetunning
+
+## Key findings
