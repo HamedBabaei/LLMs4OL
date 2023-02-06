@@ -10,9 +10,10 @@
 |SNOMEDCT|Level-1|BERT-Large<br>BioBERT-Large<br>BioClinicalBERT|<br> <br> |<br> |<br> |<br> | 0.048<br>0.000 <br>0.000 | **0.053**<br>0.000<br> 0.000  | 0.001<br>0.000 <br>0.000 | 0.004<br>0.000 <br>0.000 |
 |MEDICIN|Level-1|BERT-Large<br>BioBERT-Large<br>BioClinicalBERT| <br><br> |<br> <br> |<br> <br> | <br> <br>| 0.000<br>0.000<br>0.000  | 0.000<br>0.000<br>0.000  | 0.000<br>0.000<br>0.000  | 0.000<br>0.000<br>0.000 |
 
-## Results
 
-| Dataset | | BL  |
+## Obtained Results
+
+| Dataset | | $BL_{w}$  |
 |:---:|:---:|:---:|
 |WN18RR | |32.269 |
 |Geoname|Level-1<br>Level-2<br>Level-3|  24.791<br>-<br>- |
@@ -22,4 +23,4 @@
 
 
 
-* BL: BERT-Large
+* $BL_{w}$: BERT-Large LM with prompt-based inference and without finetunning
