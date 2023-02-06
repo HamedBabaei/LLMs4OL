@@ -1,5 +1,7 @@
 
 
+## Template Analysis (with baseline model)
+
 | Dataset | Model | T1 | T2 | T3 | T4 | T5 | T6 | T7 | T8 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |WN18RR |BERT-Large| 2.29 | 10.62 | 9.595 | 21.992 | 5.079 | 21.915 | 9.906 | 32.269|
@@ -7,3 +9,18 @@
 | NCI-L1|BERT-Large| | | | | 0.109 | 0.063 | 0.009 | 0.000|
 |SNOMEDCT-L1|BERT-Large| | | | | 0.048 | 0.053 | 0.001 | 0.004 |
 |MEDICIN-L1|BERT-Large| | | | | 0.000 | 0.000 | 0.000 | 0.000
+
+
+## Results
+
+| Dataset | BL |
+|:---:|:---:|
+|WN18RR | 32.269 |
+|Geoname-L1|  24.791 |
+| NCI-L1 | 0.109 | 
+|SNOMEDCT-L1| 0.053  |
+|MEDICIN-L1| 0.0|
+
+
+
+* BL: BERT-Large
