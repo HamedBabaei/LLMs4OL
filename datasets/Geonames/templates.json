@@ -1,10 +1,22 @@
 {
-    "template-1": "[A] is a place in [COUNTRY]. [A] is a [MASK].",
-    "template-2": "[A] is a place in [COUNTRY]. [A] geographically is a [MASK].", 
-    "template-3": "[A] is a place in [COUNTRY]. '[A]' is a [MASK].",
-    "template-4": "[A] is a place in [COUNTRY]. '[A]' geographically is a [MASK].", 
-    "template-5": "[A] is a [MASK].",
-    "template-6": "[A] geographically is a [MASK].",
-    "template-7": "'[A]' is a [MASK].",
-    "template-8": "'[A]' geographically is a [MASK]."
+    "mlm":{
+        "template-1": "[A] is a place in [COUNTRY]. [A] is a [MASK].",
+        "template-2": "[A] is a place in [COUNTRY]. [A] geographically is a [MASK].", 
+        "template-3": "[A] is a place in [COUNTRY]. '[A]' is a [MASK].",
+        "template-4": "[A] is a place in [COUNTRY]. '[A]' geographically is a [MASK].", 
+        "template-5": "[A] is a [MASK].",
+        "template-6": "[A] geographically is a [MASK].",
+        "template-7": "'[A]' is a [MASK].",
+        "template-8": "'[A]' geographically is a [MASK]."
+    },
+    "encoder-decoder":{
+        "template-1": "[A] is a place in [COUNTRY]. [A] is a ?",
+        "template-2": "[A] is a place in [COUNTRY]. [A] geographically is a?", 
+        "template-3": "[A] is a place in [COUNTRY]. '[A]' is a?",
+        "template-4": "[A] is a place in [COUNTRY]. '[A]' geographically is a?", 
+        "template-5": "[A] is a?",
+        "template-6": "[A] geographically is a?",
+        "template-7": "'[A]' is a?",
+        "template-8": "'[A]' geographically is a?"
+    }
 }
