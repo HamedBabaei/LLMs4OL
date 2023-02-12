@@ -10,7 +10,7 @@ class EntityDatasetBuilder:
         self.config = config
         self.loader = loader
         self.dataset_dict = {}
-        self.templates = None
+        # self.templates = None
 
     def build(self)-> dict:
         self.load_artifcats()
@@ -46,11 +46,11 @@ class WNEntityDatasetBuilder(EntityDatasetBuilder):
                              self.loader.load_df(self.config.processed_entity_test)
         self.train_entities = train.append(valid).reset_index(drop=True)['entity'].tolist()
         self.test_entities = test['entity'].tolist()
-        self.templates = self.loader.load_json(self.config.templates_json)
+        # self.templates = self.loader.load_json(self.config.templates_json)
         self.label_mapper = self.loader.load_json(self.config.label_mapper)
 
     def build_dataset(self) -> dict:
-        self.dataset_dict["templates"] = self.templates
+        # self.dataset_dict["templates"] = self.templates
         self.dataset_dict['label-mapper'] = self.label_mapper
         self.dataset_dict["train"] = self.build_train_set()
         self.dataset_dict["test"] = self.build_test_set()
@@ -124,20 +124,20 @@ class UMLSEntityDatasetBuilder(EntityDatasetBuilder):
             for source in self.config.sources_to_consider
         }
         self.heirarchy = self.loader.load_json(self.config.heirarchy)
-        self.templates = self.loader.load_json(self.config.templates_json)
+        # self.templates = self.loader.load_json(self.config.templates_json)
         self.label_mapper = self.loader.load_json(self.config.label_mapper)
         
     def build_dataset(self) -> dict:
         umls_dict = self.make_dataset_dict()
         umls_dict = self.create_train_test_in_levels(umls_dict)
-        self.dataset_dict["templates"] = self.templates
+        # self.dataset_dict["templates"] = self.templates
         self.dataset_dict['label-mapper'] = self.label_mapper
         self.dataset_dict['heirarchy'] = self.heirarchy
         self.dataset_dict['umls'] = self.make_samples(umls_dict)
         self.dataset_dict["stats"] = self.build_stats()
         new_dataset_dict = { 
             source:{
-                "templates": self.templates,
+                # "templates": self.templates,
                 "label-mapper":self.label_mapper,
                 "heirarchy": self.heirarchy[source],
                 "umls": umls,
@@ -250,7 +250,7 @@ class GeonameEntityDatasetBuilder(EntityDatasetBuilder):
     
     def load_artifcats(self):
         self.heirarchy = self.loader.load_json(self.config.heirarchy)
-        self.templates = self.loader.load_json(self.config.templates_json)
+        # self.templates = self.loader.load_json(self.config.templates_json)
         self.label_mapper = self.loader.load_json(self.config.label_mapper)
         self.countries_df  = self.loader.load_df(self.config.processed_all_countries)
         # feature_codes  = self.loader.load_df(self.config.processed_feature_codes)
@@ -260,7 +260,7 @@ class GeonameEntityDatasetBuilder(EntityDatasetBuilder):
     def build_dataset(self) -> dict:
         geoname = self.make_dataset_dict()
         geoname = self.create_train_test_in_levels(geoname)
-        self.dataset_dict["templates"] = self.templates
+        # self.dataset_dict["templates"] = self.templates
         self.dataset_dict['label-mapper'] = self.label_mapper
         self.dataset_dict['heirarchy'] = self.heirarchy
         self.dataset_dict['geonames'] = self.make_samples(geoname)

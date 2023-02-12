@@ -2,9 +2,9 @@
 from torch.utils.data import Dataset
 
 class WNDataset(Dataset):
-    def __init__(self, data, kb_name, template, dataset_type, is_train, label_in_list=True):
+    def __init__(self, data, kb_name, templates, template, dataset_type, is_train, label_in_list=True):
         self.data = data
-        self.template = self.data['templates'][template]
+        self.template = templates[template]
         self.is_train = is_train
         self.dataset_type = dataset_type
         self.use_sentence =  True if "[SENTENCE]" in self.template else False
@@ -40,8 +40,8 @@ class WNDataset(Dataset):
         return batchs_clear
 
 class GeonameDataset(Dataset):
-    def __init__(self, data, kb_name, template, dataset_type, is_train, label_in_list=True):
-        self.template = data['templates'][template]
+    def __init__(self, data, kb_name, templates, template, dataset_type, is_train, label_in_list=True):
+        self.template = templates[template]
         self.is_train = is_train
         self.level_key = dataset_type
         self.stats = data['stats']
@@ -88,10 +88,9 @@ class GeonameDataset(Dataset):
             batchs_clear['label'].append(batch['label'])
         return batchs_clear
 
-
 class UMLSDataset(Dataset):
-    def __init__(self, data, kb_name, template, dataset_type, is_train, label_in_list=True):
-        self.template = data['templates'][template]
+    def __init__(self, data, kb_name, templates, template, dataset_type, is_train, label_in_list=True):
+        self.template = templates[template]
         self.is_train = is_train
         self.level_key = dataset_type
         self.stats = data['stats']
@@ -135,17 +134,23 @@ class UMLSDataset(Dataset):
             batchs_clear['label'].append(batch['label'])
         return batchs_clear
 
-class BaselineInferenceDatasetFactory:
-    def __new__(CLS, kb_name, data, template) -> Dataset:
+
+class Level1InferenceDatasetFactory:
+    def __new__(CLS, kb_name, data, templates, template) -> Dataset:
         if kb_name == "geonames":
-            return GeonameDataset(data=data, kb_name=kb_name, template=template, 
+            return GeonameDataset(data=data, kb_name=kb_name, 
+                                  templates=templates, template=template, 
                                   dataset_type="level-1", is_train=False, 
                                   label_in_list=True)
+
         if kb_name == "wn18rr":
-            return WNDataset(data=data, kb_name=kb_name, template=template, 
+            return WNDataset(data=data, kb_name=kb_name, 
+                             templates=templates, template=template, 
                              dataset_type="test", is_train=False, 
                              label_in_list=True)
+
         if kb_name == "nci" or kb_name == "snomedct_us" or kb_name == "medicin":
-            return UMLSDataset(data=data, kb_name=kb_name, template=template, 
-                             dataset_type="level-1", is_train=False, 
-                             label_in_list=True)
+            return UMLSDataset(data=data, kb_name=kb_name, 
+                                templates=templates, template=template, 
+                                dataset_type="level-1", is_train=False, 
+                                label_in_list=True)
