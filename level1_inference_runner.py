@@ -1,6 +1,6 @@
 from configuration import BaseConfig
 from datahandler import DataReader, DataWriter
-from src import BaselineInferenceDatasetFactory
+from src import Level1InferenceDatasetFactory
 from src import BaselineFactory
 from torch.utils.data import DataLoader
 from tqdm import tqdm
@@ -30,8 +30,9 @@ if __name__=="__main__":
     config = BaseConfig(version=2).get_args(kb_name=args.kb_name, model=args.model_name, template=args.template)
 
     dataset = DataReader.load_json(config.entity_path)
+    templates = DataReader.load_json(config.templates_json)[config.template_name]
 
-    test_dataset = BaselineInferenceDatasetFactory(kb_name=args.kb_name, data=dataset, template=args.template)
+    test_dataset = Level1InferenceDatasetFactory(kb_name=args.kb_name, data=dataset, templates=templates, template=args.template)
 
     report_dict = {
         "baseline-run-args": str(args),

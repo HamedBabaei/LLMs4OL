@@ -16,7 +16,7 @@ templates=("template-1" "template-2" "template-3" "template-4" "template-5" "tem
 
 for template in "${templates[@]}"; do
   echo "Running $model_name for template: $template!"
-  python3 run_baseline_models.py --kb_name=$kb_name --model_name=$model_name --template=$template
+  python3 level1_inference_runner.py --kb_name=$kb_name --model_name=$model_name --template=$template
   echo "Inference for  $model_name on template: $template  is done"
   echo "-----------------------------------------------------------"
 done
