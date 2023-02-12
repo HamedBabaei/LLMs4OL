@@ -64,20 +64,6 @@ class BERTLarge(Baseline):
             batch_logits.append(logits)
         return batch_predictions, batch_logits
 
-    
-class NgramLM(Baseline):
-    def __init__(self, config) -> None:
-        super().__init__(config)
-    
-    def fit(self, X, Y):
-        pass
-    
-    def make_batch_prediction(self, Xs):
-        pass
-
-    def predict(self, X):
-        pass
-
 
 class BaselineFactory:
 
