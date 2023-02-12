@@ -94,6 +94,7 @@ class BaseConfig:
         # add model specific arguments
         if model=="bert_large":
             self.parser.add_argument("--model_path", type=str, default="bert-large-uncased")
+            self.parser.add_argument("--template_name", type=str, default="mlm")
             self.parser.add_argument("--batch_size", type=int, default=64)
             self.parser.add_argument("--top_n", type=int, default=10)
             self.parser.add_argument("--device", type=str, default="cpu")
