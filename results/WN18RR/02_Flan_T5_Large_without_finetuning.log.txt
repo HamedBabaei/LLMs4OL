@@ -1,0 +1,65 @@
+Running baseline models!
+Running BERT-Large for template: template-1!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc19095c-7cc3-4996-8bfe-fa1c79d6bee2.json', kb_name='wn18rr', model_name='flan_t5_large', template='template-1')
+WNDataset:Test-SET --- template-1: [SENTENCE]. [A] POS is a?
+100%|██████████| 161/161 [23:20<00:00,  8.70s/it]
+scoring model outputs in:results/WN18RR/output-flan_t5_large-template-1-2023-02-13 08:47:52.json
+Results: {'P@1': 0.31140521603736865, 'P@5': 0.15570260801868432, 'P@10': 0.144024912417283, 'R@1': 0.31140521603736865, 'R@5': 0.7785130400934216, 'R@10': 1.44024912417283}
+scoring results in:results/WN18RR/report-flan_t5_large-template-1-2023-02-13 08:47:52.json
+-----------------------------------------------------------
+Running BERT-Large for template: template-2!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc19095c-7cc3-4996-8bfe-fa1c79d6bee2.json', kb_name='wn18rr', model_name='flan_t5_large', template='template-2')
+WNDataset:Test-SET --- template-2: [SENTENCE]. [A] part-of-speech is a?
+100%|██████████| 161/161 [23:29<00:00,  8.75s/it]
+scoring model outputs in:results/WN18RR/output-flan_t5_large-template-2-2023-02-13 09:11:53.json
+Results: {'P@1': 0.21409108602569094, 'P@5': 0.36200856364344103, 'P@10': 0.49630206305955626, 'R@1': 0.21409108602569094, 'R@5': 1.810042818217205, 'R@10': 4.963020630595563}
+scoring results in:results/WN18RR/report-flan_t5_large-template-2-2023-02-13 09:11:53.json
+-----------------------------------------------------------
+Running BERT-Large for template: template-3!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc19095c-7cc3-4996-8bfe-fa1c79d6bee2.json', kb_name='wn18rr', model_name='flan_t5_large', template='template-3')
+WNDataset:Test-SET --- template-3: [SENTENCE]. '[A]' POS is a?
+100%|██████████| 161/161 [23:19<00:00,  8.70s/it]
+scoring model outputs in:results/WN18RR/output-flan_t5_large-template-3-2023-02-13 09:36:02.json
+Results: {'P@1': 7.746204748929545, 'P@5': 4.312962242117555, 'P@10': 3.059556247567147, 'R@1': 7.746204748929545, 'R@5': 21.564811210587777, 'R@10': 30.595562475671468}
+scoring results in:results/WN18RR/report-flan_t5_large-template-3-2023-02-13 09:36:02.json
+-----------------------------------------------------------
+Running BERT-Large for template: template-4!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc19095c-7cc3-4996-8bfe-fa1c79d6bee2.json', kb_name='wn18rr', model_name='flan_t5_large', template='template-4')
+WNDataset:Test-SET --- template-4: [SENTENCE]. '[A]' part-of-speech is a?
+100%|██████████| 161/161 [23:41<00:00,  8.83s/it]
+scoring model outputs in:results/WN18RR/output-flan_t5_large-template-4-2023-02-13 10:00:00.json
+Results: {'P@1': 1.1288439081354613, 'P@5': 3.581159984429739, 'P@10': 3.6629038536395484, 'R@1': 1.1288439081354613, 'R@5': 17.905799922148695, 'R@10': 36.629038536395484}
+scoring results in:results/WN18RR/report-flan_t5_large-template-4-2023-02-13 10:00:00.json
+-----------------------------------------------------------
+Running BERT-Large for template: template-5!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc19095c-7cc3-4996-8bfe-fa1c79d6bee2.json', kb_name='wn18rr', model_name='flan_t5_large', template='template-5')
+WNDataset:Test-SET --- template-5: [A] POS is a?
+100%|██████████| 161/161 [22:30<00:00,  8.39s/it]
+scoring model outputs in:results/WN18RR/output-flan_t5_large-template-5-2023-02-13 10:25:54.json
+Results: {'P@1': 0.01946282600233554, 'P@5': 0.023355391202802646, 'P@10': 0.01946282600233554, 'R@1': 0.01946282600233554, 'R@5': 0.11677695601401324, 'R@10': 0.1946282600233554}
+scoring results in:results/WN18RR/report-flan_t5_large-template-5-2023-02-13 10:25:54.json
+-----------------------------------------------------------
+Running BERT-Large for template: template-6!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc19095c-7cc3-4996-8bfe-fa1c79d6bee2.json', kb_name='wn18rr', model_name='flan_t5_large', template='template-6')
+WNDataset:Test-SET --- template-6: [A] part-of-speech is a?
+100%|██████████| 161/161 [22:47<00:00,  8.49s/it]
+scoring model outputs in:results/WN18RR/output-flan_t5_large-template-6-2023-02-13 10:48:58.json
+Results: {'P@1': 0.0, 'P@5': 0.015570260801868432, 'P@10': 0.03892565200467108, 'R@1': 0.0, 'R@5': 0.07785130400934216, 'R@10': 0.3892565200467108}
+scoring results in:results/WN18RR/report-flan_t5_large-template-6-2023-02-13 10:48:58.json
+-----------------------------------------------------------
+Running BERT-Large for template: template-7!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc19095c-7cc3-4996-8bfe-fa1c79d6bee2.json', kb_name='wn18rr', model_name='flan_t5_large', template='template-7')
+WNDataset:Test-SET --- template-7: '[A]' POS is a?
+100%|██████████| 161/161 [22:45<00:00,  8.48s/it]
+scoring model outputs in:results/WN18RR/output-flan_t5_large-template-7-2023-02-13 11:15:17.json
+Results: {'P@1': 0.6422732580770728, 'P@5': 0.6967691708836123, 'P@10': 0.7006617360840794, 'R@1': 0.6422732580770728, 'R@5': 3.4838458544180617, 'R@10': 7.006617360840794}
+scoring results in:results/WN18RR/report-flan_t5_large-template-7-2023-02-13 11:15:17.json
+-----------------------------------------------------------
+Running BERT-Large for template: template-8!
+args: Namespace(f='/root/.local/share/jupyter/runtime/kernel-fc19095c-7cc3-4996-8bfe-fa1c79d6bee2.json', kb_name='wn18rr', model_name='flan_t5_large', template='template-8')
+WNDataset:Test-SET --- template-8: '[A]' part-of-speech is a ?
+100%|██████████| 161/161 [23:17<00:00,  8.68s/it]
+scoring model outputs in:results/WN18RR/output-flan_t5_large-template-8-2023-02-13 11:38:19.json
+Results: {'P@1': 16.79641884001557, 'P@5': 8.096535616971584, 'P@10': 5.210198520825224, 'R@1': 16.79641884001557, 'R@5': 40.48267808485792, 'R@10': 52.10198520825224}
+scoring results in:results/WN18RR/report-flan_t5_large-template-8-2023-02-13 11:38:19.json
+-----------------------------------------------------------
