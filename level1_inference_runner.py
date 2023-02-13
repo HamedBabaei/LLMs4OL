@@ -1,7 +1,7 @@
 from configuration import BaseConfig
 from datahandler import DataReader, DataWriter
 from src import Level1InferenceDatasetFactory
-from src import BaselineFactory
+from src import InferenceFactory
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 import argparse
@@ -44,8 +44,8 @@ if __name__=="__main__":
     }
     test_dataloader = DataLoader(test_dataset, batch_size=config.batch_size, shuffle=False, collate_fn=test_dataset.collate_fn)
 
-    baseline_model = BaselineFactory(config)(model_name=args.model_name) 
-    predictions, logits, labels = inference(model=baseline_model, dataloader=test_dataloader)
+    inference_model = InferenceFactory(config)(model_name=args.model_name) 
+    predictions, logits, labels = inference(model=inference_model, dataloader=test_dataloader)
     outputs = {
         "model-name":args.model_name, 
         "dataset":report_dict['dataset-in-use'], 

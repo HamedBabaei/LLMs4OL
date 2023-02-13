@@ -90,18 +90,18 @@ class BaseConfig:
         self.parser.add_argument("--heirarchy", type=str, default=f"datasets/{dataset}/heirarchy.json")
         self.parser.add_argument("--test_size", type=float, default=0.20)  # This is for UMLS and Geoname Levels!
         self.parser.add_argument("--seed", type=int, default=555)
-        
+
+        self.parser.add_argument("--device", type=str, default="cpu")
+        self.parser.add_argument("--template", type=str, default=template)
+        self.parser.add_argument("--top_n", type=int, default=10)
+        self.parser.add_argument("--batch_size", type=int, default=32)
         # add model specific arguments
         if model=="bert_large":
             self.parser.add_argument("--model_path", type=str, default="bert-large-uncased")
             self.parser.add_argument("--template_name", type=str, default="mlm")
-            self.parser.add_argument("--batch_size", type=int, default=64)
-            self.parser.add_argument("--top_n", type=int, default=10)
-            self.parser.add_argument("--device", type=str, default="cpu")
-            self.parser.add_argument("--template", type=str, default=template)
+        if model=="flan_t5_large":
+            self.parser.add_argument("--model_path", type=str, default="google/flan-t5-large")
+            self.parser.add_argument("--template_name", type=str, default="encoder-decoder")
             
-        if model=="ngram":
-            self.parser.add_argument("--top_n", type=int, default=10)
-
         self.parser.add_argument("-f")
         return self.parser.parse_args()

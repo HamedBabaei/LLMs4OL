@@ -5,7 +5,7 @@ read kb_name
 echo "Enter output logs path for $kb_name results:"
 read log
 
-echo "Enter the name of model out of (bert_large):"
+echo "Enter the name of model out of (bert_large, flan_t5_large):"
 read model_name
 
 exec > $log

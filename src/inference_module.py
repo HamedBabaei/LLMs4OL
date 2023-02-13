@@ -1,8 +1,9 @@
 from transformers import AutoTokenizer, BertForMaskedLM
+from transformers import T5Tokenizer, T5ForConditionalGeneration
 import torch
 
 
-class Baseline:
+class BaseInferenceLM:
 
     def __init__(self, config) -> None:
         self.config = config
@@ -18,7 +19,7 @@ class Baseline:
         pass
 
 
-class BERTLarge(Baseline):
+class BERTLargeInferenceLM(BaseInferenceLM):
 
     def __init__(self, config) -> None:
         super().__init__(config)
@@ -65,15 +66,46 @@ class BERTLarge(Baseline):
         return batch_predictions, batch_logits
 
 
-class BaselineFactory:
+class FlanT5LargeInferenceLM(BaseInferenceLM):
+
+    def __init__(self, config) -> None:
+        super().__init__(config)
+        self.tokenizer = T5Tokenizer.from_pretrained(self.config.model_path)
+        self.model = T5ForConditionalGeneration.from_pretrained(self.config.model_path)
+        self.device = self.config.device
+        self.model.to(self.device)
+        self.top_n = self.config.top_n
+
+    def __output_cleaner(self, pred):
+        return pred.replace("<pad>", "").replace("</s>","").strip()
+
+    def predict(self, X:str):
+        inputs = self.tokenizer(X, return_tensors="pt")
+        inputs.to(self.device)
+        sequence_ids = self.model.generate(inputs.input_ids, num_beams=200, num_return_sequences=self.top_n, max_length=5)
+        sequences = self.tokenizer.batch_decode(sequence_ids)
+        sequences = [self.__output_cleaner(seq) for seq in sequences]
+        logits = [0 for seq in sequences]
+        return sequences, logits
+
+    def make_batch_prediction(self, Xs):
+        predictions, logits = [], []
+        for X in Xs:
+            predict, logit = self.predict(X)
+            predictions.append(predict)
+            logits.append(logit)
+        return predictions, logits
+
+
+class InferenceFactory:
 
     def __init__(self, config) -> None:
         self.models = {
-            "bert_large": BERTLarge
+            "bert_large": BERTLargeInferenceLM,
+            "flan_t5_large": FlanT5LargeInferenceLM
         }
         self.config = config
     
     def __call__(self, model_name):
         return self.models[model_name](config=self.config)
         
-
