@@ -21,7 +21,7 @@ datasets/TaskA/WN18RR/processed*
 datasets/TaskA/WN18RR/*entities.json
 documents/*
 .idea
-TaskA/assets/CountryCodes/*.zip
+assets/CountryCodes/*.zip
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
