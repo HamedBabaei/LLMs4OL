@@ -1,0 +1,597 @@
+Acquired Abnormality|co-occurs_with|Injury or Poisoning|D|
+Acquired Abnormality|isa|Anatomical Abnormality|D|
+Acquired Abnormality|result_of|Behavior|D|
+Activity|isa|Event|D|
+Age Group|isa|Group|D|
+Amino Acid Sequence|isa|Molecular Sequence|D|
+Amino Acid Sequence|property_of|Amino Acid, Peptide, or Protein|D|
+Amino Acid Sequence|property_of|Gene or Genome|D|
+Amino Acid, Peptide, or Protein|consists_of|Amino Acid, Peptide, or Protein|D|
+Amino Acid, Peptide, or Protein|isa|Organic Chemical|D|
+Amphibian|isa|Vertebrate|D|
+Anatomical Abnormality|affects|Organism|D|
+Anatomical Abnormality|affects|Physiologic Function|D|
+Anatomical Abnormality|associated_with|Organism Attribute|D|
+Anatomical Abnormality|co-occurs_with|Anatomical Abnormality|D|
+Anatomical Abnormality|complicates|Anatomical Abnormality|D|
+Anatomical Abnormality|isa|Anatomical Structure|D|
+Anatomical Abnormality|location_of|Pathologic Function|D|
+Anatomical Abnormality|manifestation_of|Biologic Function|D|
+Anatomical Abnormality|occurs_in|Group|D|
+Anatomical Abnormality|result_of|Anatomical Abnormality|D|
+Anatomical Abnormality|result_of|Health Care Activity|D|
+Anatomical Abnormality|result_of|Phenomenon or Process|D|
+Anatomical Structure|isa|Physical Object|D|
+Anatomical Structure|location_of|Bacterium|D|
+Anatomical Structure|location_of|Fungus|D|
+Anatomical Structure|location_of|Virus|D|
+Anatomical Structure|part_of|Organism|D|
+Animal|exhibits|Behavior|D|
+Animal|isa|Eukaryote|D|
+Antibiotic|isa|Pharmacologic Substance|D|
+Archaeon|isa|Organism|D|
+Bacterium|causes|Pathologic Function|D|
+Bacterium|isa|Organism|D|
+Bacterium|location_of|Biologically Active Substance|D|
+Behavior|affects|Behavior|D|
+Behavior|affects|Mental Process|D|
+Behavior|associated_with|Geographic Area|D|
+Behavior|associated_with|Group Attribute|D|
+Behavior|associated_with|Group|D|
+Behavior|associated_with|Occupation or Discipline|D|
+Behavior|associated_with|Organism Attribute|D|
+Behavior|isa|Activity|D|
+Behavior|manifestation_of|Mental Process|D|
+Behavior|manifestation_of|Mental or Behavioral Dysfunction|D|
+Behavior|result_of|Mental Process|D|
+Biologic Function|affects|Organism|D|
+Biologic Function|isa|Natural Phenomenon or Process|D|
+Biologic Function|process_of|Organism|D|
+Biologic Function|produces|Biologically Active Substance|D|
+Biologic Function|produces|Body Substance|D|
+Biologically Active Substance|associated_with|Virus|D|
+Biologically Active Substance|complicates|Anatomical Abnormality|D|
+Biologically Active Substance|complicates|Biologic Function|D|
+Biologically Active Substance|complicates|Injury or Poisoning|D|
+Biologically Active Substance|disrupts|Embryonic Structure|D|
+Biologically Active Substance|disrupts|Fully Formed Anatomical Structure|D|
+Biologically Active Substance|disrupts|Physiologic Function|D|
+Biologically Active Substance|isa|Chemical Viewed Functionally|D|
+Biomedical Occupation or Discipline|isa|Occupation or Discipline|D|
+Biomedical or Dental Material|isa|Chemical Viewed Functionally|D|
+Bird|isa|Vertebrate|D|
+Body Location or Region|adjacent_to|Body Location or Region|D|
+Body Location or Region|adjacent_to|Body Part, Organ, or Organ Component|D|
+Body Location or Region|adjacent_to|Body Space or Junction|D|
+Body Location or Region|conceptual_part_of|Body Location or Region|DNI|
+Body Location or Region|conceptual_part_of|Body System|DNI|
+Body Location or Region|conceptual_part_of|Fully Formed Anatomical Structure|DNI|
+Body Location or Region|connected_to|Body Location or Region|D|
+Body Location or Region|isa|Spatial Concept|D|
+Body Location or Region|location_of|Anatomical Abnormality|D|
+Body Location or Region|location_of|Biologic Function|D|
+Body Location or Region|location_of|Body Location or Region|D|
+Body Location or Region|location_of|Body Part, Organ, or Organ Component|D|
+Body Location or Region|location_of|Diagnostic Procedure|D|
+Body Location or Region|location_of|Injury or Poisoning|D|
+Body Location or Region|location_of|Therapeutic or Preventive Procedure|D|
+Body Location or Region|location_of|Tissue|D|
+Body Location or Region|traverses|Body Location or Region|D|
+Body Part, Organ, or Organ Component|adjacent_to|Body Part, Organ, or Organ Component|D|
+Body Part, Organ, or Organ Component|adjacent_to|Body Space or Junction|D|
+Body Part, Organ, or Organ Component|adjacent_to|Cell|D|
+Body Part, Organ, or Organ Component|adjacent_to|Tissue|D|
+Body Part, Organ, or Organ Component|branch_of|Body Part, Organ, or Organ Component|D|
+Body Part, Organ, or Organ Component|conceptual_part_of|Body System|DNI|
+Body Part, Organ, or Organ Component|connected_to|Body Part, Organ, or Organ Component|D|
+Body Part, Organ, or Organ Component|connected_to|Body Space or Junction|D|
+Body Part, Organ, or Organ Component|connected_to|Body Substance|D|
+Body Part, Organ, or Organ Component|connected_to|Tissue|D|
+Body Part, Organ, or Organ Component|consists_of|Body Part, Organ, or Organ Component|D|
+Body Part, Organ, or Organ Component|consists_of|Body Substance|D|
+Body Part, Organ, or Organ Component|developmental_form_of|Body Part, Organ, or Organ Component|D|
+Body Part, Organ, or Organ Component|interconnects|Body Space or Junction|D|
+Body Part, Organ, or Organ Component|isa|Fully Formed Anatomical Structure|D|
+Body Part, Organ, or Organ Component|location_of|Body Location or Region|D|
+Body Part, Organ, or Organ Component|location_of|Body Space or Junction|D|
+Body Part, Organ, or Organ Component|location_of|Diagnostic Procedure|D|
+Body Part, Organ, or Organ Component|location_of|Therapeutic or Preventive Procedure|D|
+Body Part, Organ, or Organ Component|part_of|Body Part, Organ, or Organ Component|D|
+Body Part, Organ, or Organ Component|surrounds|Body Part, Organ, or Organ Component|D|
+Body Part, Organ, or Organ Component|surrounds|Tissue|D|
+Body Part, Organ, or Organ Component|traverses|Body Part, Organ, or Organ Component|D|
+Body Part, Organ, or Organ Component|tributary_of|Body Part, Organ, or Organ Component|D|
+Body Space or Junction|adjacent_to|Body Space or Junction|D|
+Body Space or Junction|conceptual_part_of|Body System|DNI|
+Body Space or Junction|conceptual_part_of|Fully Formed Anatomical Structure|DNI|
+Body Space or Junction|connected_to|Tissue|D|
+Body Space or Junction|contains|Body Part, Organ, or Organ Component|D|
+Body Space or Junction|contains|Body Substance|D|
+Body Space or Junction|contains|Tissue|D|
+Body Space or Junction|interconnects|Cell|D|
+Body Space or Junction|isa|Spatial Concept|D|
+Body Space or Junction|location_of|Anatomical Abnormality|D|
+Body Space or Junction|location_of|Biologic Function|D|
+Body Space or Junction|location_of|Body Space or Junction|D|
+Body Space or Junction|location_of|Body Substance|D|
+Body Space or Junction|location_of|Cell Component|D|
+Body Space or Junction|location_of|Diagnostic Procedure|D|
+Body Space or Junction|location_of|Injury or Poisoning|D|
+Body Space or Junction|location_of|Therapeutic or Preventive Procedure|D|
+Body Space or Junction|part_of|Body Part, Organ, or Organ Component|D|
+Body Space or Junction|surrounds|Body Space or Junction|D|
+Body Space or Junction|surrounds|Cell|D|
+Body Substance|conceptual_part_of|Body System|DNI|
+Body Substance|consists_of|Body Substance|D|
+Body Substance|consists_of|Organic Chemical|D|
+Body Substance|derivative_of|Tissue|D|
+Body Substance|isa|Substance|D|
+Body Substance|part_of|Body Part, Organ, or Organ Component|D|
+Body Substance|part_of|Body Substance|D|
+Body Substance|surrounds|Embryonic Structure|D|
+Body System|conceptual_part_of|Body System|DNI|
+Body System|conceptual_part_of|Fully Formed Anatomical Structure|DNI|
+Body System|isa|Functional Concept|D|
+Carbohydrate Sequence|isa|Molecular Sequence|D|
+Cell Component|adjacent_to|Body Space or Junction|D|
+Cell Component|adjacent_to|Cell Component|D|
+Cell Component|affects|Physiologic Function|D|
+Cell Component|conceptual_part_of|Body System|DNI|
+Cell Component|isa|Fully Formed Anatomical Structure|D|
+Cell Component|location_of|Body Space or Junction|D|
+Cell Component|location_of|Diagnostic Procedure|D|
+Cell Component|location_of|Therapeutic or Preventive Procedure|D|
+Cell Component|part_of|Body Part, Organ, or Organ Component|D|
+Cell Component|part_of|Cell Component|D|
+Cell Component|part_of|Cell|D|
+Cell Component|part_of|Tissue|D|
+Cell Component|surrounds|Cell Component|D|
+Cell Function|isa|Physiologic Function|D|
+Cell or Molecular Dysfunction|isa|Pathologic Function|D|
+Cell|adjacent_to|Cell|D|
+Cell|conceptual_part_of|Body System|DNI|
+Cell|consists_of|Cell|D|
+Cell|developmental_form_of|Cell|D|
+Cell|isa|Fully Formed Anatomical Structure|D|
+Cell|location_of|Body Space or Junction|D|
+Cell|location_of|Diagnostic Procedure|D|
+Cell|location_of|Therapeutic or Preventive Procedure|D|
+Cell|part_of|Body Part, Organ, or Organ Component|D|
+Cell|part_of|Cell|D|
+Cell|part_of|Tissue|D|
+Chemical Viewed Functionally|isa|Chemical|D|
+Chemical Viewed Structurally|isa|Chemical|D|
+Chemical|affects|Natural Phenomenon or Process|D|
+Chemical|interacts_with|Chemical|D|
+Chemical|isa|Substance|D|
+Classification|isa|Intellectual Product|D|
+Clinical Attribute|isa|Organism Attribute|D|
+Clinical Drug|isa|Manufactured Object|D|
+Conceptual Entity|isa|Entity|D|
+Congenital Abnormality|isa|Anatomical Abnormality|D|
+Daily or Recreational Activity|associated_with|Anatomical Abnormality|D|
+Daily or Recreational Activity|associated_with|Injury or Poisoning|D|
+Daily or Recreational Activity|associated_with|Pathologic Function|D|
+Daily or Recreational Activity|isa|Activity|D|
+Diagnostic Procedure|affects|Patient or Disabled Group|D|
+Diagnostic Procedure|analyzes|Body Substance|D|
+Diagnostic Procedure|analyzes|Chemical|D|
+Diagnostic Procedure|assesses_effect_of|Chemical|D|
+Diagnostic Procedure|diagnoses|Anatomical Abnormality|D|
+Diagnostic Procedure|diagnoses|Injury or Poisoning|D|
+Diagnostic Procedure|diagnoses|Pathologic Function|D|
+Diagnostic Procedure|isa|Health Care Activity|D|
+Diagnostic Procedure|measures|Body Substance|D|
+Diagnostic Procedure|measures|Chemical|D|
+Diagnostic Procedure|measures|Natural Phenomenon or Process|D|
+Diagnostic Procedure|measures|Organism Attribute|D|
+Diagnostic Procedure|measures|Quantitative Concept|D|
+Diagnostic Procedure|measures|Temporal Concept|D|
+Diagnostic Procedure|method_of|Diagnostic Procedure|D|
+Diagnostic Procedure|precedes|Therapeutic or Preventive Procedure|D|
+Diagnostic Procedure|uses|Manufactured Object|D|
+Diagnostic Procedure|uses|Pharmacologic Substance|D|
+Disease or Syndrome|conceptually_related_to|Experimental Model of Disease|DNI|
+Disease or Syndrome|isa|Pathologic Function|D|
+Disease or Syndrome|produces|Tissue|D|
+Drug Delivery Device|contains|Clinical Drug|D|
+Drug Delivery Device|isa|Medical Device|D|
+Educational Activity|isa|Occupational Activity|D|
+Element, Ion, or Isotope|isa|Chemical Viewed Structurally|D|
+Embryonic Structure|contains|Body Substance|D|
+Embryonic Structure|developmental_form_of|Body Part, Organ, or Organ Component|D|
+Embryonic Structure|developmental_form_of|Cell|D|
+Embryonic Structure|developmental_form_of|Embryonic Structure|D|
+Embryonic Structure|developmental_form_of|Tissue|D|
+Embryonic Structure|interconnects|Embryonic Structure|D|
+Embryonic Structure|isa|Anatomical Structure|D|
+Embryonic Structure|location_of|Biologic Function|D|
+Embryonic Structure|part_of|Cell|D|
+Embryonic Structure|part_of|Embryonic Structure|D|
+Embryonic Structure|surrounds|Cell|D|
+Embryonic Structure|surrounds|Embryonic Structure|D|
+Entity|isa||D|
+Entity|issue_in|Occupation or Discipline|D|
+Environmental Effect of Humans|isa|Human-caused Phenomenon or Process|D|
+Enzyme|isa|Biologically Active Substance|D|
+Eukaryote|isa|Organism|D|
+Event|isa||D|
+Event|issue_in|Occupation or Discipline|D|
+Experimental Model of Disease|isa|Pathologic Function|D|
+Family Group|isa|Group|D|
+Finding|associated_with|Anatomical Abnormality|D|
+Finding|associated_with|Injury or Poisoning|D|
+Finding|associated_with|Pathologic Function|D|
+Finding|co-occurs_with|Finding|D|
+Finding|evaluation_of|Biologic Function|D|
+Finding|evaluation_of|Organism Attribute|D|
+Finding|isa|Conceptual Entity|D|
+Finding|manifestation_of|Anatomical Abnormality|D|
+Finding|manifestation_of|Biologic Function|D|
+Finding|manifestation_of|Injury or Poisoning|D|
+Fish|isa|Vertebrate|D|
+Food|affects|Biologic Function|D|
+Food|isa|Substance|D|
+Fully Formed Anatomical Structure|contains|Body Substance|D|
+Fully Formed Anatomical Structure|isa|Anatomical Structure|D|
+Fully Formed Anatomical Structure|location_of|Anatomical Abnormality|D|
+Fully Formed Anatomical Structure|location_of|Biologic Function|D|
+Fully Formed Anatomical Structure|location_of|Injury or Poisoning|D|
+Fully Formed Anatomical Structure|produces|Biologically Active Substance|D|
+Fully Formed Anatomical Structure|produces|Body Substance|D|
+Fully Formed Anatomical Structure|produces|Organic Chemical|D|
+Functional Concept|isa|Idea or Concept|D|
+Fungus|causes|Pathologic Function|D|
+Fungus|isa|Eukaryote|D|
+Fungus|location_of|Biologically Active Substance|D|
+Gene or Genome|affects|Physiologic Function|D|
+Gene or Genome|carries_out|Molecular Function|D|
+Gene or Genome|consists_of|Gene or Genome|D|
+Gene or Genome|isa|Fully Formed Anatomical Structure|D|
+Gene or Genome|part_of|Body Part, Organ, or Organ Component|D|
+Gene or Genome|part_of|Cell Component|D|
+Gene or Genome|part_of|Cell|D|
+Gene or Genome|part_of|Tissue|D|
+Genetic Function|isa|Molecular Function|D|
+Genetic Function|produces|Cell Component|D|
+Geographic Area|associated_with|Anatomical Abnormality|D|
+Geographic Area|associated_with|Injury or Poisoning|D|
+Geographic Area|associated_with|Pathologic Function|D|
+Geographic Area|isa|Spatial Concept|D|
+Governmental or Regulatory Activity|isa|Occupational Activity|D|
+Group Attribute|isa|Conceptual Entity|D|
+Group Attribute|property_of|Group|D|
+Group|exhibits|Behavior|D|
+Group|interacts_with|Group|D|
+Group|isa|Conceptual Entity|D|
+Group|performs|Activity|D|
+Group|produces|Intellectual Product|D|
+Group|produces|Manufactured Object|D|
+Group|uses|Intellectual Product|D|
+Group|uses|Manufactured Object|D|
+Hazardous or Poisonous Substance|complicates|Anatomical Abnormality|D|
+Hazardous or Poisonous Substance|complicates|Biologic Function|D|
+Hazardous or Poisonous Substance|complicates|Injury or Poisoning|D|
+Hazardous or Poisonous Substance|disrupts|Embryonic Structure|D|
+Hazardous or Poisonous Substance|disrupts|Fully Formed Anatomical Structure|D|
+Hazardous or Poisonous Substance|disrupts|Physiologic Function|D|
+Hazardous or Poisonous Substance|isa|Chemical Viewed Functionally|D|
+Health Care Activity|affects|Biologic Function|D|
+Health Care Activity|isa|Occupational Activity|D|
+Health Care Related Organization|isa|Organization|D|
+Health Care Related Organization|manages|Patient or Disabled Group|D|
+Hormone|isa|Biologically Active Substance|D|
+Human-caused Phenomenon or Process|isa|Phenomenon or Process|D|
+Human|isa|Mammal|D|
+Idea or Concept|conceptual_part_of|Behavior|DNI|
+Idea or Concept|isa|Conceptual Entity|D|
+Idea or Concept|result_of|Mental Process|D|
+Immunologic Factor|indicates|Bacterium|D|
+Immunologic Factor|indicates|Pathologic Function|D|
+Immunologic Factor|indicates|Virus|D|
+Immunologic Factor|isa|Biologically Active Substance|D|
+Indicator, Reagent, or Diagnostic Aid|isa|Chemical Viewed Functionally|D|
+Individual Behavior|associated_with|Anatomical Abnormality|D|
+Individual Behavior|associated_with|Injury or Poisoning|D|
+Individual Behavior|associated_with|Pathologic Function|D|
+Individual Behavior|conceptually_related_to|Idea or Concept|DNI|
+Individual Behavior|isa|Behavior|D|
+Individual Behavior|process_of|Social Behavior|D|
+Injury or Poisoning|associated_with|Organism Attribute|D|
+Injury or Poisoning|co-occurs_with|Injury or Poisoning|D|
+Injury or Poisoning|complicates|Anatomical Abnormality|D|
+Injury or Poisoning|complicates|Pathologic Function|D|
+Injury or Poisoning|disrupts|Embryonic Structure|D|
+Injury or Poisoning|disrupts|Fully Formed Anatomical Structure|D|
+Injury or Poisoning|disrupts|Physiologic Function|D|
+Injury or Poisoning|isa|Phenomenon or Process|D|
+Injury or Poisoning|occurs_in|Group|D|
+Injury or Poisoning|result_of|Behavior|D|
+Injury or Poisoning|result_of|Health Care Activity|D|
+Inorganic Chemical|isa|Chemical Viewed Structurally|D|
+Intellectual Product|conceptual_part_of|Diagnostic Procedure|DNI|
+Intellectual Product|conceptual_part_of|Intellectual Product|DNI|
+Intellectual Product|isa|Conceptual Entity|D|
+Laboratory Procedure|analyzes|Body Substance|D|
+Laboratory Procedure|analyzes|Chemical|D|
+Laboratory Procedure|assesses_effect_of|Chemical|D|
+Laboratory Procedure|assesses_effect_of|Natural Phenomenon or Process|D|
+Laboratory Procedure|diagnoses|Anatomical Abnormality|D|
+Laboratory Procedure|diagnoses|Injury or Poisoning|D|
+Laboratory Procedure|diagnoses|Pathologic Function|D|
+Laboratory Procedure|isa|Health Care Activity|D|
+Laboratory Procedure|measures|Body Substance|D|
+Laboratory Procedure|measures|Chemical|D|
+Laboratory Procedure|measures|Natural Phenomenon or Process|D|
+Laboratory Procedure|measures|Organism Attribute|D|
+Laboratory Procedure|measures|Quantitative Concept|D|
+Laboratory Procedure|measures|Temporal Concept|D|
+Laboratory Procedure|method_of|Diagnostic Procedure|D|
+Laboratory Procedure|method_of|Laboratory Procedure|D|
+Laboratory Procedure|method_of|Therapeutic or Preventive Procedure|D|
+Laboratory or Test Result|conceptual_part_of|Laboratory or Test Result|DNI|
+Laboratory or Test Result|indicates|Anatomical Abnormality|D|
+Laboratory or Test Result|indicates|Biologic Function|D|
+Laboratory or Test Result|indicates|Injury or Poisoning|D|
+Laboratory or Test Result|isa|Finding|D|
+Laboratory or Test Result|measurement_of|Physiologic Function|D|
+Laboratory or Test Result|measurement_of|Substance|D|
+Laboratory or Test Result|result_of|Diagnostic Procedure|D|
+Laboratory or Test Result|result_of|Laboratory Procedure|D|
+Language|isa|Conceptual Entity|D|
+Machine Activity|isa|Activity|D|
+Machine Activity|method_of|Diagnostic Procedure|D|
+Machine Activity|method_of|Laboratory Procedure|D|
+Machine Activity|method_of|Therapeutic or Preventive Procedure|D|
+Mammal|isa|Vertebrate|D|
+Manufactured Object|causes|Anatomical Abnormality|D|
+Manufactured Object|causes|Injury or Poisoning|D|
+Manufactured Object|causes|Pathologic Function|D|
+Manufactured Object|isa|Physical Object|D|
+Medical Device|isa|Manufactured Object|D|
+Medical Device|prevents|Injury or Poisoning|D|
+Medical Device|prevents|Pathologic Function|D|
+Medical Device|treats|Anatomical Abnormality|D|
+Medical Device|treats|Injury or Poisoning|D|
+Medical Device|treats|Pathologic Function|D|
+Medical Device|treats|Sign or Symptom|D|
+Mental Process|affects|Behavior|D|
+Mental Process|isa|Organism Function|D|
+Mental Process|process_of|Bacterium|B|
+Mental Process|process_of|Fungus|B|
+Mental Process|process_of|Plant|B|
+Mental Process|process_of|Virus|B|
+Mental Process|result_of|Behavior|D|
+Mental or Behavioral Dysfunction|affects|Behavior|D|
+Mental or Behavioral Dysfunction|isa|Disease or Syndrome|D|
+Mental or Behavioral Dysfunction|process_of|Bacterium|B|
+Mental or Behavioral Dysfunction|process_of|Fungus|B|
+Mental or Behavioral Dysfunction|process_of|Plant|B|
+Mental or Behavioral Dysfunction|process_of|Virus|B|
+Molecular Biology Research Technique|isa|Research Activity|D|
+Molecular Biology Research Technique|method_of|Diagnostic Procedure|D|
+Molecular Biology Research Technique|method_of|Therapeutic or Preventive Procedure|D|
+Molecular Function|isa|Physiologic Function|D|
+Molecular Sequence|isa|Spatial Concept|D|
+Natural Phenomenon or Process|affects|Natural Phenomenon or Process|D|
+Natural Phenomenon or Process|isa|Phenomenon or Process|D|
+Natural Phenomenon or Process|process_of|Natural Phenomenon or Process|D|
+Neoplastic Process|isa|Disease or Syndrome|D|
+Nucleic Acid, Nucleoside, or Nucleotide|isa|Organic Chemical|D|
+Nucleotide Sequence|isa|Molecular Sequence|D|
+Nucleotide Sequence|part_of|Nucleotide Sequence|D|
+Nucleotide Sequence|property_of|Gene or Genome|D|
+Nucleotide Sequence|property_of|Nucleic Acid, Nucleoside, or Nucleotide|D|
+Occupation or Discipline|conceptual_part_of|Occupation or Discipline|DNI|
+Occupation or Discipline|isa|Conceptual Entity|D|
+Occupational Activity|associated_with|Anatomical Abnormality|D|
+Occupational Activity|associated_with|Injury or Poisoning|D|
+Occupational Activity|associated_with|Pathologic Function|D|
+Occupational Activity|isa|Activity|D|
+Occupational Activity|method_of|Occupation or Discipline|D|
+Organ or Tissue Function|conceptual_part_of|Temporal Concept|DNI|
+Organ or Tissue Function|degree_of|Organ or Tissue Function|D|
+Organ or Tissue Function|isa|Physiologic Function|D|
+Organ or Tissue Function|occurs_in|Organism Function|D|
+Organic Chemical|isa|Chemical Viewed Structurally|D|
+Organism Attribute|associated_with|Organism Attribute|D|
+Organism Attribute|degree_of|Organism Attribute|D|
+Organism Attribute|isa|Conceptual Entity|D|
+Organism Attribute|manifestation_of|Physiologic Function|D|
+Organism Attribute|measurement_of|Physiologic Function|D|
+Organism Attribute|property_of|Organism|D|
+Organism Attribute|result_of|Phenomenon or Process|D|
+Organism Function|conceptual_part_of|Temporal Concept|DNI|
+Organism Function|degree_of|Organism Function|D|
+Organism Function|isa|Physiologic Function|D|
+Organism Function|produces|Age Group|D|
+Organism Function|produces|Family Group|D|
+Organism|interacts_with|Organism|D|
+Organism|isa|Physical Object|D|
+Organization|carries_out|Occupational Activity|D|
+Organization|isa|Conceptual Entity|D|
+Organization|location_of|Occupational Activity|D|
+Organization|produces|Intellectual Product|D|
+Pathologic Function|associated_with|Organism Attribute|D|
+Pathologic Function|associated_with|Pathologic Function|D|
+Pathologic Function|co-occurs_with|Anatomical Abnormality|D|
+Pathologic Function|co-occurs_with|Injury or Poisoning|D|
+Pathologic Function|co-occurs_with|Pathologic Function|D|
+Pathologic Function|complicates|Anatomical Abnormality|D|
+Pathologic Function|complicates|Injury or Poisoning|D|
+Pathologic Function|complicates|Pathologic Function|D|
+Pathologic Function|degree_of|Pathologic Function|D|
+Pathologic Function|isa|Biologic Function|D|
+Pathologic Function|manifestation_of|Injury or Poisoning|D|
+Pathologic Function|manifestation_of|Pathologic Function|D|
+Pathologic Function|manifestation_of|Physiologic Function|D|
+Pathologic Function|occurs_in|Disease or Syndrome|D|
+Pathologic Function|occurs_in|Group|D|
+Pathologic Function|occurs_in|Injury or Poisoning|D|
+Pathologic Function|precedes|Pathologic Function|D|
+Pathologic Function|result_of|Behavior|D|
+Pathologic Function|result_of|Health Care Activity|D|
+Patient or Disabled Group|isa|Group|D|
+Pharmacologic Substance|complicates|Anatomical Abnormality|D|
+Pharmacologic Substance|complicates|Biologic Function|D|
+Pharmacologic Substance|complicates|Injury or Poisoning|D|
+Pharmacologic Substance|diagnoses|Pathologic Function|D|
+Pharmacologic Substance|disrupts|Embryonic Structure|D|
+Pharmacologic Substance|disrupts|Fully Formed Anatomical Structure|D|
+Pharmacologic Substance|disrupts|Physiologic Function|D|
+Pharmacologic Substance|isa|Chemical Viewed Functionally|D|
+Pharmacologic Substance|prevents|Pathologic Function|D|
+Pharmacologic Substance|treats|Anatomical Abnormality|D|
+Pharmacologic Substance|treats|Injury or Poisoning|D|
+Pharmacologic Substance|treats|Pathologic Function|D|
+Pharmacologic Substance|treats|Sign or Symptom|D|
+Phenomenon or Process|isa|Event|D|
+Phenomenon or Process|result_of|Anatomical Abnormality|D|
+Phenomenon or Process|result_of|Phenomenon or Process|D|
+Physical Object|isa|Entity|D|
+Physiologic Function|affects|Organism Attribute|D|
+Physiologic Function|co-occurs_with|Physiologic Function|D|
+Physiologic Function|isa|Biologic Function|D|
+Physiologic Function|occurs_in|Temporal Concept|D|
+Physiologic Function|precedes|Physiologic Function|D|
+Plant|isa|Eukaryote|D|
+Plant|location_of|Biologically Active Substance|D|
+Population Group|associated_with|Anatomical Abnormality|D|
+Population Group|associated_with|Injury or Poisoning|D|
+Population Group|associated_with|Pathologic Function|D|
+Population Group|isa|Group|D|
+Professional Society|isa|Organization|D|
+Professional or Occupational Group|diagnoses|Pathologic Function|D|
+Professional or Occupational Group|isa|Group|D|
+Professional or Occupational Group|manages|Organization|D|
+Professional or Occupational Group|practices|Occupation or Discipline|D|
+Professional or Occupational Group|treats|Patient or Disabled Group|D|
+Qualitative Concept|evaluation_of|Activity|D|
+Qualitative Concept|isa|Idea or Concept|D|
+Quantitative Concept|conceptual_part_of|Therapeutic or Preventive Procedure|DNI|
+Quantitative Concept|isa|Idea or Concept|D|
+Quantitative Concept|measurement_of|Physiologic Function|D|
+Quantitative Concept|measurement_of|Spatial Concept|D|
+Receptor|isa|Biologically Active Substance|D|
+Regulation or Law|affects|Group|D|
+Regulation or Law|affects|Organization|D|
+Regulation or Law|isa|Intellectual Product|D|
+Reptile|isa|Vertebrate|D|
+Research Activity|affects|Mental Process|D|
+Research Activity|isa|Occupational Activity|D|
+Research Activity|measures|Body Substance|D|
+Research Activity|measures|Chemical|D|
+Research Activity|measures|Natural Phenomenon or Process|D|
+Research Activity|measures|Organism Attribute|D|
+Research Activity|measures|Quantitative Concept|D|
+Research Activity|measures|Temporal Concept|D|
+Research Activity|uses|Research Device|D|
+Research Device|isa|Manufactured Object|D|
+Self-help or Relief Organization|isa|Organization|D|
+Self-help or Relief Organization|manages|Patient or Disabled Group|D|
+Sign or Symptom|degree_of|Sign or Symptom|D|
+Sign or Symptom|diagnoses|Anatomical Abnormality|D|
+Sign or Symptom|diagnoses|Injury or Poisoning|D|
+Sign or Symptom|diagnoses|Pathologic Function|D|
+Sign or Symptom|isa|Finding|D|
+Social Behavior|conceptual_part_of|Social Behavior|DNI|
+Social Behavior|isa|Behavior|D|
+Spatial Concept|isa|Idea or Concept|D|
+Substance|causes|Anatomical Abnormality|D|
+Substance|causes|Injury or Poisoning|D|
+Substance|causes|Pathologic Function|D|
+Substance|ingredient_of|Clinical Drug|D|
+Substance|isa|Physical Object|D|
+Temporal Concept|conceptual_part_of|Cell Function|DNI|
+Temporal Concept|conceptual_part_of|Organ or Tissue Function|DNI|
+Temporal Concept|conceptual_part_of|Organism Function|DNI|
+Temporal Concept|conceptual_part_of|Temporal Concept|DNI|
+Temporal Concept|isa|Idea or Concept|D|
+Therapeutic or Preventive Procedure|affects|Patient or Disabled Group|D|
+Therapeutic or Preventive Procedure|complicates|Biologic Function|D|
+Therapeutic or Preventive Procedure|isa|Health Care Activity|D|
+Therapeutic or Preventive Procedure|method_of|Therapeutic or Preventive Procedure|D|
+Therapeutic or Preventive Procedure|prevents|Pathologic Function|D|
+Therapeutic or Preventive Procedure|treats|Anatomical Abnormality|D|
+Therapeutic or Preventive Procedure|treats|Injury or Poisoning|D|
+Therapeutic or Preventive Procedure|treats|Pathologic Function|D|
+Therapeutic or Preventive Procedure|treats|Sign or Symptom|D|
+Therapeutic or Preventive Procedure|uses|Food|D|
+Therapeutic or Preventive Procedure|uses|Manufactured Object|D|
+Therapeutic or Preventive Procedure|uses|Pharmacologic Substance|D|
+Tissue|adjacent_to|Body Space or Junction|D|
+Tissue|adjacent_to|Tissue|D|
+Tissue|conceptual_part_of|Body System|DNI|
+Tissue|consists_of|Tissue|D|
+Tissue|developmental_form_of|Body Part, Organ, or Organ Component|D|
+Tissue|developmental_form_of|Tissue|D|
+Tissue|isa|Fully Formed Anatomical Structure|D|
+Tissue|location_of|Body Space or Junction|D|
+Tissue|location_of|Diagnostic Procedure|D|
+Tissue|location_of|Therapeutic or Preventive Procedure|D|
+Tissue|part_of|Body Part, Organ, or Organ Component|D|
+Tissue|part_of|Tissue|D|
+Tissue|surrounds|Body Space or Junction|D|
+Tissue|surrounds|Body Substance|D|
+Tissue|surrounds|Cell Component|D|
+Tissue|surrounds|Cell|D|
+Tissue|surrounds|Tissue|D|
+Vertebrate|isa|Animal|D|
+Virus|causes|Pathologic Function|D|
+Virus|isa|Organism|D|
+Virus|location_of|Biologically Active Substance|D|
+Vitamin|isa|Biologically Active Substance|D|
+adjacent_to|isa|spatially_related_to|D|
+affects|isa|functionally_related_to|D|
+analyzes|isa|conceptually_related_to|D|
+assesses_effect_of|isa|analyzes|D|
+associated_with|isa||D|
+branch_of|isa|physically_related_to|D|
+brings_about|isa|functionally_related_to|D|
+carries_out|isa|performs|D|
+causes|isa|brings_about|D|
+co-occurs_with|isa|temporally_related_to|D|
+complicates|isa|affects|D|
+conceptual_part_of|isa|conceptually_related_to|D|
+conceptually_related_to|isa|associated_with|D|
+connected_to|isa|physically_related_to|D|
+consists_of|isa|physically_related_to|D|
+contains|isa|physically_related_to|D|
+degree_of|isa|conceptually_related_to|D|
+derivative_of|isa|conceptually_related_to|D|
+developmental_form_of|isa|conceptually_related_to|D|
+diagnoses|isa|conceptually_related_to|D|
+disrupts|isa|affects|D|
+evaluation_of|isa|conceptually_related_to|D|
+exhibits|isa|performs|D|
+functionally_related_to|isa|associated_with|D|
+indicates|isa|functionally_related_to|D|
+ingredient_of|isa|physically_related_to|D|
+interacts_with|isa|affects|D|
+interconnects|isa|physically_related_to|D|
+isa|isa||D|
+issue_in|isa|conceptually_related_to|D|
+location_of|isa|spatially_related_to|D|
+manages|isa|affects|D|
+manifestation_of|isa|functionally_related_to|D|
+measurement_of|isa|conceptually_related_to|D|
+measures|isa|conceptually_related_to|D|
+method_of|isa|conceptually_related_to|D|
+occurs_in|isa|functionally_related_to|D|
+part_of|isa|physically_related_to|D|
+performs|isa|functionally_related_to|D|
+physically_related_to|isa|associated_with|D|
+practices|isa|performs|D|
+precedes|isa|temporally_related_to|D|
+prevents|isa|affects|D|
+process_of|isa|occurs_in|D|
+produces|isa|brings_about|D|
+property_of|isa|conceptually_related_to|D|
+result_of|isa|functionally_related_to|D|
+spatially_related_to|isa|associated_with|D|
+surrounds|isa|spatially_related_to|D|
+temporally_related_to|isa|associated_with|D|
+traverses|isa|spatially_related_to|D|
+treats|isa|affects|D|
+tributary_of|isa|physically_related_to|D|
+uses|isa|functionally_related_to|D|

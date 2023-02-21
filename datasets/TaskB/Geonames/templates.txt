@@ -1,0 +1,2 @@
+{"placeholder": "text_a"} has a subclass of {"mask"}.
+{"placeholder": "text_b"} is a subclass of {"mask"}.

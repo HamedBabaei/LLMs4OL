@@ -1,0 +1,21 @@
+ABR|abbreviation|3.2|SRDEF|
+BTS|size in bytes|3.2|SRFIL|
+CLS|number of columns|3.2|SRFIL|
+COL|field name|3.2|SRFLD|
+DEF|definition|3.2|SRDEF|
+DES|short description|3.2|SRFLD,SRFIL|
+EX|examples|3.2|SRDEF|
+FIL|file name(s)|3.2|SRFLD,SRFIL|
+FMT|format|3.2|SRFIL|
+LS|link status|3.2|SRSTR|
+NH|non-human flag|3.2|SRDEF|
+REF|cross reference to documentation|3.2|SRFLD|
+RIN|relation inverse|3.2|SRDEF|
+RL|relation name|3.2|SRDEF,SRSTR,SRSTRE2|
+RTN|relation tree number|3.2|SRDEF|
+RT|record type|3.2|SRDEF|
+RWS|number of rows|3.2|SRFIL|
+STN|semantic type tree number|3.2|SRDEF|
+STY|semantic type name|3.2|SRDEF,SRSTR,SRSTRE2|
+UI|unique identifier|3.2|SRDEF,SRSTRE1|
+UN|usage note|3.2|SRDEF|

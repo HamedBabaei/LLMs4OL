@@ -1,0 +1,66 @@
+{
+    "baseline-run-args": "Namespace(f='/root/.local/share/jupyter/runtime/kernel-633547e4-3fc7-46d1-9e4f-f33c755f8888.json', kb_name='geonames', model_name='bert_large', template='template-7')",
+    "report_output_refrence": "results/Geonames/report-bert_large-template-7-2023-02-05 12:51:25.json",
+    "results": {
+        "P@1": 3.752575034680102,
+        "P@5": 2.96180934156289,
+        "P@10": 2.386891416155288,
+        "R@1": 1.7329661826947043,
+        "R@5": 6.470172473724876,
+        "R@10": 10.221213866221456
+    },
+    "dataset-in-use": "GeonamesDataset:Test-SET-level-1 --- Template-in-use: '[A]' is a [MASK].",
+    "configs": {
+        "feature_codes": "datasets/Geonames/raw/featureCodes_en.txt",
+        "all_countries": "datasets/Geonames/raw/allCountries.txt",
+        "depth": 3,
+        "processed_feature_codes": "datasets/Geonames/processed-2/featureCodes_en.csv",
+        "processed_all_countries": "datasets/Geonames/processed-2/allCountries.csv",
+        "countrycode_names_csv": "assets/CountryCodes/country_codes.csv",
+        "countrycode_names_json": "assets/CountryCodes/country_codes.json",
+        "kb_name": null,
+        "model_name": null,
+        "dataset": "geonames",
+        "entity_path": "drive/MyDrive/TIB-02/Geonames/geonames_test_level1_entities.json",
+        "templates_json": "datasets/Geonames/templates.json",
+        "label_mapper": "datasets/Geonames/label_mapper.json",
+        "heirarchy": "datasets/Geonames/heirarchy.json",
+        "test_size": 0.2,
+        "seed": 555,
+        "report_output": "results/Geonames/report-bert_large-template-7-2023-02-05 12:51:25.json",
+        "model_output": "results/Geonames/output-bert_large-template-7-2023-02-05 12:51:25.json",
+        "model_path": "bert-large-uncased",
+        "batch_size": 64,
+        "top_n": 10,
+        "device": "cuda",
+        "template": "template-7",
+        "f": "/root/.local/share/jupyter/runtime/kernel-633547e4-3fc7-46d1-9e4f-f33c755f8888.json"
+    },
+    "dataset-stats": {
+        "# of labels": 9,
+        "# of train samples": 4042662,
+        "# of test samples": 1010666,
+        "labels-freqs in train": {
+            "A": 412151,
+            "H": 800500,
+            "L": 337484,
+            "P": 799451,
+            "R": 42384,
+            "S": 799497,
+            "T": 800689,
+            "U": 10093,
+            "V": 40413
+        },
+        "labels-freqs in test": {
+            "A": 103380,
+            "H": 199500,
+            "L": 84428,
+            "P": 200549,
+            "R": 10453,
+            "S": 200503,
+            "T": 199311,
+            "U": 2502,
+            "V": 10040
+        }
+    }
+}

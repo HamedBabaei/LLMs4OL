@@ -1,0 +1,63 @@
+{
+    "baseline-run-args": "Namespace(f='/root/.local/share/jupyter/runtime/kernel-46c1d9cb-14c3-4699-95e2-9ace84d832f0.json', kb_name='medicin', model_name='bert_large', template='template-8')",
+    "report_output_refrence": "results/UMLS/medicin-report-bert_large-template-8-2023-02-05 18:16:28.json",
+    "results": {
+        "P@1": 0.0,
+        "P@5": 0.0,
+        "P@10": 0.00014997900293958847,
+        "R@1": 0.0,
+        "R@5": 0.0,
+        "R@10": 0.0007498950146979423
+    },
+    "dataset-in-use": "UMLSDataset:Test-SET-medicin-level-1 --- Template-in-use: '[A]' in biomedicine is a [MASK].",
+    "configs": {
+        "tui2stn": "datasets/UMLS/processed/TUI2STN.json",
+        "tui2str": "datasets/UMLS/processed/TUI2STR.json",
+        "level1": "datasets/UMLS/processed/UMLS_STN_Hierarchy_level1.json",
+        "level2": "datasets/UMLS/processed/UMLS_STN_Hierarchy_level2.json",
+        "level3": "datasets/UMLS/processed/UMLS_STN_Hierarchy_level3.json",
+        "level4": "datasets/UMLS/processed/UMLS_STN_Hierarchy_level4.json",
+        "raw_umls_rel": "datasets/UMLS/processed/UMLS_skiped_bad_lines.tsv",
+        "raw_umls_entity": "datasets/UMLS/processed/UMLS_entity_types_with_levels.tsv",
+        "umls_processed_dir": "datasets/UMLS/processed-2",
+        "sources_to_consider": [
+            "NCI",
+            "SNOMEDCT_US",
+            "MEDICIN"
+        ],
+        "kb_name": null,
+        "model_name": null,
+        "dataset": "medicin",
+        "entity_path": "drive/MyDrive/TIB-01/UMLS/medicin_entities.json",
+        "report_output": "results/UMLS/medicin-report-bert_large-template-8-2023-02-05 18:16:28.json",
+        "model_output": "results/UMLS/medicin-output-bert_large-template-8-2023-02-05 18:16:28.json",
+        "templates_json": "datasets/UMLS/templates.json",
+        "label_mapper": "datasets/UMLS/label_mapper.json",
+        "heirarchy": "datasets/UMLS/heirarchy.json",
+        "test_size": 0.2,
+        "seed": 555,
+        "model_path": "bert-large-uncased",
+        "batch_size": 64,
+        "top_n": 10,
+        "device": "cuda",
+        "template": "template-8",
+        "f": "/root/.local/share/jupyter/runtime/kernel-46c1d9cb-14c3-4699-95e2-9ace84d832f0.json"
+    },
+    "dataset-stats": {
+        "# of labels": 4,
+        "# of train samples": 266704,
+        "# of test samples": 66676,
+        "labels-freqs in train": {
+            "A1": 8700,
+            "A2": 138498,
+            "B2": 51404,
+            "B1": 68102
+        },
+        "labels-freqs in test": {
+            "A1": 2312,
+            "B2": 12691,
+            "B1": 17247,
+            "A2": 34426
+        }
+    }
+}

@@ -1,0 +1,2409 @@
+UI: T020
+STY: Acquired Abnormality
+ABR: acab
+STN: A1.2.2.2
+DEF: An abnormal structure, or one that is abnormal in size or location, found
+in or deriving from a previously normal structure.  Acquired abnormalities are
+distinguished from diseases even though they may result in pathological
+functioning (e.g., "hernias incarcerate").
+EX: Hemorrhoids; Hernia, Femoral; Cauliflower ear
+HL: {isa} Anatomical Abnormality
+
+UI: T052
+STY: Activity
+ABR: acty
+STN: B1
+DEF: An operation or series of operations that an organism or machine carries
+out or participates in.
+EX: Expeditions; Information Distribution; Social Planning
+UN: Few concepts will be assigned to this broad type.  Wherever possible, one of
+the more specific types from this hierarchy will be chosen.  For concepts
+assigned to this type, the focus of interest is on the activity.  When the focus
+of interest is the individual or group that is carrying out the activity, then a
+type from the 'Behavior' hierarchy will be chosen.  In general, concepts will not
+receive a type from both the 'Activity' and the 'Behavior' hierarchies.
+HL: {isa} Event;
+{inverse_isa} Behavior;
+{inverse_isa} Daily or Recreational Activity;
+{inverse_isa} Occupational Activity;
+{inverse_isa} Machine Activity
+
+UI: T100
+STY: Age Group
+ABR: aggp
+STN: A2.9.4
+DEF: An individual or individuals classified according to their age.
+EX: Adult; Infant, Premature; Adolescent (age group)
+HL: {isa} Group
+
+UI: T087
+STY: Amino Acid Sequence
+ABR: amas
+STN: A2.1.5.3.2
+DEF: The sequence of amino acids as arrayed in chains, sheets, etc., within the
+protein molecule.  It is of fundamental importance in determining protein
+structure.
+EX: Signal Peptides; Homologous Sequences, Amino Acid; Abnormal amino acid
+sequence
+HL: {isa} Molecular Sequence
+
+UI: T116
+STY: Amino Acid, Peptide, or Protein
+ABR: aapp
+STN: A1.4.1.2.1.7
+DEF: Amino acids and chains of amino acids connected by peptide linkages.
+EX: Amino Acids, Cyclic; Glycopeptides; Keratin
+UN: When the concept is both an enzyme and a protein, this type and the type
+'Enzyme' will be assigned.
+HL: {isa} Organic Chemical
+
+UI: T011
+STY: Amphibian
+ABR: amph
+STN: A1.1.3.1.1.1
+DEF: A cold-blooded, smooth-skinned vertebrate which characteristically hatches
+as an aquatic larva, breathing by gills.  When mature, the amphibian breathes
+with lungs.
+EX: Salamandra; Urodela; Brazilian horned frog
+HL: {isa} Vertebrate
+
+UI: T190
+STY: Anatomical Abnormality
+ABR: anab
+STN: A1.2.2
+DEF: An abnormal structure, or one that is abnormal in size or location.
+EX: Bronchial Fistula; Foot Deformities; Hyperostosis of skull
+UN: Use this type if the abnormality in question can be either an acquired or
+congenital abnormality.  Neoplasms are not included here.  These are given the
+type 'Neoplastic Process'.  If an anatomical abnormality has a pathologic
+manifestation, then it will additionally be given the type 'Disease or
+Syndrome', e.g., "Diabetic Cataract" will be double-typed for this reason.
+HL: {isa} Anatomical Structure;
+{inverse_isa} Congenital Abnormality;
+{inverse_isa} Acquired Abnormality
+
+UI: T017
+STY: Anatomical Structure
+ABR: anst
+STN: A1.2
+DEF: A normal or pathological part of the anatomy or structural organization of
+an organism.
+EX: Cadaver; Pharyngostome; Anatomic structures
+UN: Few concepts will be assigned to this broad type.
+NH: Y
+HL: {isa} Physical Object;
+{inverse_isa} Embryonic Structure;
+{inverse_isa} Fully Formed Anatomical Structure;
+{inverse_isa} Anatomical Abnormality
+
+UI: T008
+STY: Animal
+ABR: anim
+STN: A1.1.3.1
+DEF: An organism with eukaryotic cells, and lacking stiff cell walls, plastids
+and photosynthetic pigments.
+EX: Animals; Animals, Laboratory; Carnivore
+HL: {isa} Eukaryote;
+{inverse_isa} Vertebrate
+
+UI: T195
+STY: Antibiotic
+ABR: antb
+STN: A1.4.1.1.1.1
+DEF: A pharmacologically active compound produced by growing microorganisms
+which kill or inhibit growth of other microorganisms.
+EX: Antibiotics; bactericide; Thienamycins
+HL: {isa} Pharmacologic Substance
+
+UI: T194
+STY: Archaeon
+ABR: arch
+STN: A1.1.1
+DEF: A member of one of the three domains of life, formerly called
+Archaebacteria under the taxon Bacteria, but now considered separate and
+distinct.  Archaea are characterized by: 1) the presence of characteristic tRNAs
+and ribosomal RNAs; 2) the absence of peptidoglycan cell walls; 3) the presence
+of ether-linked lipids built from branched-chain subunits; and 4) their
+occurrence in unusual habitats.  While archaea resemble bacteria in morphology
+and genomic organization, they resemble eukarya in their method of genomic
+replication.
+EX: Thermoproteales; Haloferax volcanii; Methanospirillum
+HL: {isa} Organism
+
+UI: T007
+STY: Bacterium
+ABR: bact
+STN: A1.1.2
+DEF: A small, typically one-celled, prokaryotic micro-organism.
+EX: Acetobacter; Bacillus cereus; Cytophaga
+HL: {isa} Organism
+
+UI: T053
+STY: Behavior
+ABR: bhvr
+STN: B1.1
+DEF: Any of the psycho-social activities of humans or animals that can be
+observed directly by others or can be made systematically observable by the use
+of special strategies.
+EX: Homing Behavior; Sexuality; Habitat Selection
+UN: Few concepts will be assigned to this broad type.  For concepts assigned to
+the 'Behavior' hierarchy, the focus of interest is on the individual or group
+that is carrying out the activity.  When the activity is of paramount interest,
+then a type from the 'Activity' hierarchy will be chosen.  In general, concepts
+will not receive a type from both the 'Behavior' and the 'Activity' hierarchies.
+NH: Y
+HL: {isa} Activity;
+{inverse_isa} Social Behavior;
+{inverse_isa} Individual Behavior
+
+UI: T038
+STY: Biologic Function
+ABR: biof
+STN: B2.2.1
+DEF: A state, activity or process of the body or one of its systems or parts.
+EX: Antibody Formation; Drug resistance; Homeostasis
+UN: Few concepts will be assigned to this broad type.
+NH: Y
+HL: {isa} Natural Phenomenon or Process;
+{inverse_isa} Physiologic Function;
+{inverse_isa} Pathologic Function
+
+UI: T123
+STY: Biologically Active Substance
+ABR: bacs
+STN: A1.4.1.1.3
+DEF: A generally endogenous substance produced or required by an organism, of
+primary interest because of its role in the biologic functioning of the organism
+that produces it.
+EX: Cytokinins; Pheromone
+UN: If a substance is both endogenous and typically used as a drug, then this
+type and the type 'Pharmacologic Substance' are assigned.
+HL: {isa} Chemical Viewed Functionally;
+{inverse_isa} Hormone;
+{inverse_isa} Enzyme;
+{inverse_isa} Vitamin;
+{inverse_isa} Immunologic Factor;
+{inverse_isa} Receptor
+
+UI: T091
+STY: Biomedical Occupation or Discipline
+ABR: bmod
+STN: A2.6.1
+DEF: A vocation, academic discipline, or field of study related to biomedicine.
+EX: Adolescent Medicine; Cellular Neurobiology; Dentistry
+HL: {isa} Occupation or Discipline
+
+UI: T122
+STY: Biomedical or Dental Material
+ABR: bodm
+STN: A1.4.1.1.2
+DEF: A substance used in biomedicine or dentistry predominantly for its
+physical, as opposed to chemical, properties.  Included here are biocompatible
+materials, tissue adhesives, bone cements, resins, toothpastes, etc.
+EX: Acrylic Resins; Bone Cements; Dentifrices
+HL: {isa} Chemical Viewed Functionally
+
+UI: T012
+STY: Bird
+ABR: bird
+STN: A1.1.3.1.1.2
+DEF: A vertebrate having a constant body temperature and characterized by the
+presence of feathers.
+EX: Serinus; Ducks; Quail
+HL: {isa} Vertebrate
+
+UI: T029
+STY: Body Location or Region
+ABR: blor
+STN: A2.1.5.2
+DEF: An area, subdivision, or region of the body demarcated for the purpose of
+topographical description.
+EX: Forehead; Sublingual Region; Base of skull structure
+UN: When assigning this type, consider whether 'Body Part, Organ, or Organ
+Component' might be the correct choice.
+NH: Y
+HL: {isa} Spatial Concept
+
+UI: T023
+STY: Body Part, Organ, or Organ Component
+ABR: bpoc
+STN: A1.2.3.1
+DEF: A collection of cells and tissues which are localized to a specific area or
+combine and carry out one or more specialized functions of an organism.  This
+ranges from gross structures to small components of complex organs.  These
+structures are relatively localized in comparison to tissues.
+EX: Aorta; Brain Stem; Structure of neck of femur
+UN: When assigning this type, consider whether 'Body Location or Region' might
+be the correct choice.
+HL: {isa} Fully Formed Anatomical Structure
+
+UI: T030
+STY: Body Space or Junction
+ABR: bsoj
+STN: A2.1.5.1
+DEF: An area enclosed or surrounded by body parts or organs or the place where
+two anatomical structures meet or connect.
+EX: Knee joint; Greater sac of peritoneum; Synapses
+NH: Y
+HL: {isa} Spatial Concept
+
+UI: T031
+STY: Body Substance
+ABR: bdsu
+STN: A1.4.2
+DEF: Extracellular material, or mixtures of cells and extracellular material,
+produced, excreted, or accreted by the body.  Included here are substances such
+as saliva, dental enamel, sweat, and gastric acid.
+EX: Amniotic Fluid; saliva; Smegma
+NH: Y
+HL: {isa} Substance
+
+UI: T022
+STY: Body System
+ABR: bdsy
+STN: A2.1.4.1
+DEF: A complex of anatomical structures that performs a common function.
+EX: Endocrine system; Renin-angiotensin system; Reticuloendothelial System
+HL: {isa} Functional Concept
+
+UI: T088
+STY: Carbohydrate Sequence
+ABR: crbs
+STN: A2.1.5.3.3
+DEF: The sequence of carbohydrates within polysaccharides, glycoproteins, and
+glycolipids.
+EX: Carbohydrate Sequence; Abnormal carbohydrate sequence
+HL: {isa} Molecular Sequence
+
+UI: T025
+STY: Cell
+ABR: cell
+STN: A1.2.3.3
+DEF: The fundamental structural and functional unit of living organisms.
+EX: B-Lymphocytes; Dendritic Cells; Fibroblasts
+HL: {isa} Fully Formed Anatomical Structure
+
+UI: T026
+STY: Cell Component
+ABR: celc
+STN: A1.2.3.4
+DEF: A part of a cell or the intercellular matrix, generally visible by light
+microscopy.
+EX: Axon; Golgi Apparatus; Organelles
+HL: {isa} Fully Formed Anatomical Structure
+
+UI: T043
+STY: Cell Function
+ABR: celf
+STN: B2.2.1.1.3
+DEF: A physiologic function inherent to cells or cell components.
+EX: Cell Cycle; Cell division; Phagocytosis
+HL: {isa} Physiologic Function
+
+UI: T049
+STY: Cell or Molecular Dysfunction
+ABR: comd
+STN: B2.2.1.2.2
+DEF: A pathologic function inherent to cells, parts of cells, or molecules.
+EX: DNA Damage; Wallerian Degeneration; Atypical squamous metaplasia
+UN: This is not intended to be a repository for diseases whose molecular basis
+has been established.
+HL: {isa} Pathologic Function
+
+UI: T103
+STY: Chemical
+ABR: chem
+STN: A1.4.1
+DEF: Compounds or substances of definite molecular composition.  Chemicals are
+viewed from two distinct perspectives in the network, functionally and
+structurally.  Almost every chemical concept is assigned at least two types,
+generally one from the structure hierarchy and at least one from the function
+hierarchy.
+EX: Acids; Chemicals; Ionic Liquids
+UN: Few concepts will be assigned to this broad type.
+HL: {isa} Substance;
+{inverse_isa} Chemical Viewed Structurally;
+{inverse_isa} Chemical Viewed Functionally
+
+UI: T120
+STY: Chemical Viewed Functionally
+ABR: chvf
+STN: A1.4.1.1
+DEF: A chemical viewed from the perspective of its functional characteristics or
+pharmacological activities.
+EX: Aerosol Propellants; Detergents; Stabilizing Agents
+UN: A specific chemical will not be assigned here.  Groupings of chemicals viewed
+functionally, such as "Aerosol Propellants" may appropriately be assigned here.
+A name that is inherently functional, such as "Food Additives", will not also be
+assigned a type from the 'Chemical Viewed Structurally' hierarchy.
+HL: {isa} Chemical;
+{inverse_isa} Pharmacologic Substance;
+{inverse_isa} Biomedical or Dental Material;
+{inverse_isa} Biologically Active Substance;
+{inverse_isa} Indicator, Reagent, or Diagnostic Aid;
+{inverse_isa} Hazardous or Poisonous Substance
+
+UI: T104
+STY: Chemical Viewed Structurally
+ABR: chvs
+STN: A1.4.1.2
+DEF: A chemical or chemicals viewed from the perspective of their structural
+characteristics.  Included here are concepts which can mean either a salt, an
+ion, or a compound (e.g., "Bromates" and "Bromides").
+EX: Ammonium Compounds; Cations; Sulfur Compounds
+UN: Concepts are assigned to this type if they can be both organic and
+inorganic, e.g.  sulfur compounds.  Do not use this type if the concept has an
+important functional aspect, e.g., "Mylanta Double Strength Liquid" contains
+Al(OH)3, Mg(OH)2, and simethicone, but would be assigned only to 'Pharmacologic
+Substance'.
+HL: {isa} Chemical;
+{inverse_isa} Organic Chemical;
+{inverse_isa} Element, Ion, or Isotope;
+{inverse_isa} Inorganic Chemical
+
+UI: T185
+STY: Classification
+ABR: clas
+STN: A2.4.1
+DEF: A term or system of terms denoting an arrangement by class or category.
+EX: Anatomy (MeSH Category); Tumor Stage Classification; axis i
+HL: {isa} Intellectual Product
+
+UI: T201
+STY: Clinical Attribute
+ABR: clna
+STN: A2.3.1
+DEF: An observable or measurable property or state of an organism of clinical
+interest.
+EX: Bone Density; heart rate; Range of Motion, Articular
+UN: These are the attributes that are being evaluated or measured, not the
+results of the evaluation.
+HL: {isa} Organism Attribute
+
+UI: T200
+STY: Clinical Drug
+ABR: clnd
+STN: A1.3.3
+DEF: A pharmaceutical preparation as produced by the manufacturer.  The name
+usually includes the substance, its strength, and the form, but may include the
+substance and only one of the other two items.
+EX: Ranitidine 300 MG Oral Tablet [Zantac]; Aspirin 300 MG Delayed Release Oral
+Tablet; sleeping pill
+UN: Do not double type with Pharmacologic Substance, Antibiotic, or other
+chemical semantic types.
+HL: {isa} Manufactured Object
+
+UI: T077
+STY: Conceptual Entity
+ABR: cnce
+STN: A2
+DEF: A broad type for grouping abstract entities or concepts.
+EX: Geographic Factors; Fractals; Secularism
+UN: Few concepts will be assigned to this broad type.
+HL: {isa} Entity;
+{inverse_isa} Organism Attribute;
+{inverse_isa} Finding;
+{inverse_isa} Idea or Concept;
+{inverse_isa} Occupation or Discipline;
+{inverse_isa} Organization;
+{inverse_isa} Group;
+{inverse_isa} Group Attribute;
+{inverse_isa} Intellectual Product;
+{inverse_isa} Language
+
+UI: T019
+STY: Congenital Abnormality
+ABR: cgab
+STN: A1.2.2.1
+DEF: An abnormal structure, or one that is abnormal in size or location, present
+at birth or evolving over time as a result of a defect in embryogenesis.
+EX: Albinism; Cleft palate with cleft lip; Polydactyly of toes
+UN: If the congenital abnormality involves multiple defects then the type
+'Disease or Syndrome' will also be assigned.
+HL: {isa} Anatomical Abnormality
+
+UI: T056
+STY: Daily or Recreational Activity
+ABR: dora
+STN: B1.2
+DEF: An activity carried out for recreation or exercise, or as part of daily
+life.
+EX: Badminton; Dancing; Swimming
+HL: {isa} Activity
+
+UI: T060
+STY: Diagnostic Procedure
+ABR: diap
+STN: B1.3.1.2
+DEF: A procedure, method, or technique used to determine the nature or identity
+of a disease or disorder.  This excludes procedures which are primarily carried
+out on specimens in a laboratory.
+EX: Biopsy; Heart Auscultation; Magnetic Resonance Imaging
+HL: {isa} Health Care Activity
+
+UI: T047
+STY: Disease or Syndrome
+ABR: dsyn
+STN: B2.2.1.2.1
+DEF: A condition which alters or interferes with a normal process, state, or
+activity of an organism.  It is usually characterized by the abnormal functioning
+of one or more of the host's systems, parts, or organs.  Included here is a
+complex of symptoms descriptive of a disorder.
+EX: Diabetes Mellitus; Drug Allergy; Malabsorption Syndrome
+UN: Any specific disease or syndrome that is modified by such modifiers as
+"acute", "prolonged", etc.  will also be assigned to this type.  If an anatomic
+abnormality has a pathologic manifestation, then it will be given this type as
+well as a type from the 'Anatomical Abnormality' hierarchy, e.g., "Diabetic
+Cataract" will be double-typed for this reason.
+HL: {isa} Pathologic Function;
+{inverse_isa} Mental or Behavioral Dysfunction;
+{inverse_isa} Neoplastic Process
+
+UI: T203
+STY: Drug Delivery Device
+ABR: drdd
+STN: A1.3.1.1
+DEF: A medical device that contains a clinical drug or drugs.
+EX: Nordette 21 Day Pack; {7 (Terazosin 1 MG Oral Tablet) / 7 (Terazosin 2 MG
+Oral Tablet) } Pack; {10 (cefdinir 300 MG Oral Capsule [Omnicef]) } Pack
+[Omni-Pac]
+HL: {isa} Medical Device
+
+UI: T065
+STY: Educational Activity
+ABR: edac
+STN: B1.3.4
+DEF: An activity related to the organization and provision of education.
+EX: Academic Training; Family Planning Training; Preceptorship
+HL: {isa} Occupational Activity
+
+UI: T196
+STY: Element, Ion, or Isotope
+ABR: elii
+STN: A1.4.1.2.3
+DEF: One of the 109 presently known fundamental substances that comprise all
+matter at and above the atomic level.  This includes elemental metals, rare
+gases, and most abundant naturally occurring radioactive elements, as well as
+the ionic counterparts of elements (NA+, Cl-), and the less abundant isotopic
+forms.  This does not include organic ions such as iodoacetate to which the type
+'Organic Chemical' is assigned.
+EX: Carbon; Chromium Isotopes; Radioisotopes
+UN: Group terms such as sulfates would be assigned to the type 'Chemical Viewed
+Structurally'.  Substances such as aluminum chloride would be assigned the type
+'Inorganic Chemical'.  Technetium Tc 99m Aggregated Albumin would not receive
+this type.
+HL: {isa} Chemical Viewed Structurally
+
+UI: T018
+STY: Embryonic Structure
+ABR: emst
+STN: A1.2.1
+DEF: An anatomical structure that exists only before the organism is fully
+formed; in mammals, for example, a structure that exists only prior to the birth
+of the organism.  This structure may be normal or abnormal.
+EX: Blastoderm; Fetus; Neural Crest
+HL: {isa} Anatomical Structure
+
+UI: T071
+STY: Entity
+ABR: enty
+STN: A
+DEF: A broad type for grouping physical and conceptual entities.
+EX: Gifts, Financial; Image; Product Part
+UN: Few concepts will be assigned to this broad type.
+HL: {inverse_isa} Physical Object;
+{inverse_isa} Conceptual Entity
+
+UI: T069
+STY: Environmental Effect of Humans
+ABR: eehu
+STN: B2.1.1
+DEF: A change in the natural environment that is a result of the activities of
+human beings.
+EX: Air Pollution; Desertification; Bioremediation
+HL: {isa} Human-caused Phenomenon or Process
+
+UI: T126
+STY: Enzyme
+ABR: enzy
+STN: A1.4.1.1.3.3
+DEF: A complex chemical, usually a protein, that is produced by living cells and
+which catalyzes specific biochemical reactions.  There are six main types of
+enzymes: oxidoreductases, transferases, hydrolases, lyases, isomerases, and
+ligases.
+EX: GTP Cyclohydrolase II; enzyme substrate complex; arginine amidase
+UN: Generally when a concept is assigned to this type, it will also be assigned
+to the type 'Amino Acid, Peptide, or Protein'.
+HL: {isa} Biologically Active Substance
+
+UI: T204
+STY: Eukaryote
+ABR: euka
+STN: A1.1.3
+DEF: One of the three domains of life (the others being Bacteria and Archaea),
+also called Eukarya.  These are organisms whose cells are enclosed in membranes
+and possess a nucleus.  They comprise almost all multicellular and many
+unicellular organisms, and are traditionally divided into groups (sometimes
+called kingdoms) including Animals, Plants, Fungi, various Algae, and other taxa
+that were previously part of the old kingdom Protista.
+EX: Order Acarina; Bees; Plasmodium malariae
+HL: {isa} Organism;
+{inverse_isa} Plant;
+{inverse_isa} Fungus;
+{inverse_isa} Animal
+
+UI: T051
+STY: Event
+ABR: evnt
+STN: B
+DEF: A broad type for grouping activities, processes and states.
+EX: Anniversaries; Exposure to Mumps virus (event); Device Unattended
+UN: Few concepts will be assigned to this broad type.
+HL: {inverse_isa} Activity;
+{inverse_isa} Phenomenon or Process
+
+UI: T050
+STY: Experimental Model of Disease
+ABR: emod
+STN: B2.2.1.2.3
+DEF: A representation in a non-human organism of a human disease for the purpose
+of research into its mechanism or treatment.
+EX: Alloxan Diabetes; Liver Cirrhosis, Experimental; Transient Gene Knock-Out
+Model
+HL: {isa} Pathologic Function
+
+UI: T099
+STY: Family Group
+ABR: famg
+STN: A2.9.3
+DEF: An individual or individuals classified according to their family
+relationships or relative position in the family unit.
+EX: Daughter; Is an only child; Unmarried Fathers
+HL: {isa} Group
+
+UI: T033
+STY: Finding
+ABR: fndg
+STN: A2.2
+DEF: That which is discovered by direct observation or measurement of an
+organism attribute or condition, including the clinical history of the patient.
+The history of the presence of a disease is a 'Finding' and is distinguished
+from the disease itself.
+EX: Birth History; Downward displacement of diaphragm; Decreased glucose level
+UN: Only in rare circumstances will findings be double-typed with either
+'Pathologic Function' or 'Anatomical Abnormality'.  Most findings will be
+assigned the types 'Laboratory or Test Result' or 'Sign or Symptom'.  Only those
+findings that relate to patient history or to the determination of a state will
+be assigned the type 'Finding'.
+HL: {isa} Conceptual Entity;
+{inverse_isa} Laboratory or Test Result;
+{inverse_isa} Sign or Symptom
+
+UI: T013
+STY: Fish
+ABR: fish
+STN: A1.1.3.1.1.3
+DEF: A cold-blooded aquatic vertebrate characterized by fins and breathing by
+gills.  Included here are fishes having either a bony skeleton, such as a perch,
+or a cartilaginous skeleton, such as a shark, or those lacking a jaw, such as a
+lamprey or hagfish.
+EX: Bass; Salmonidae; Whitefish
+HL: {isa} Vertebrate
+
+UI: T168
+STY: Food
+ABR: food
+STN: A1.4.3
+DEF: Any substance generally containing nutrients, such as carbohydrates,
+proteins, and fats, that can be ingested by a living organism and metabolized
+into energy and body tissue.  Some foods are naturally occurring, others are
+either partially or entirely made by humans.
+EX: Beverages; Egg Yolk (Dietary); Ice Cream
+UN: Food additives, food preservatives, and food dyes should be given the type
+'Chemical Viewed Functionally'; "Diet Coke" would be assigned this type.
+HL: {isa} Substance
+
+UI: T021
+STY: Fully Formed Anatomical Structure
+ABR: ffas
+STN: A1.2.3
+DEF: An anatomical structure in a fully formed organism; in mammals, for
+example, a structure in the body after the birth of the organism.
+EX: Entire body as a whole; Female human body; Set of parts of human body
+UN: Few concepts will be assigned to this broad type.
+HL: {isa} Anatomical Structure;
+{inverse_isa} Body Part, Organ, or Organ Component;
+{inverse_isa} Tissue;
+{inverse_isa} Cell;
+{inverse_isa} Cell Component;
+{inverse_isa} Gene or Genome
+
+UI: T169
+STY: Functional Concept
+ABR: ftcn
+STN: A2.1.4
+DEF: A concept which is of interest because it pertains to the carrying out of a
+process or activity.
+EX: Interviewer Effect; Problem Formulation; Endogenous
+HL: {isa} Idea or Concept;
+{inverse_isa} Body System
+
+UI: T004
+STY: Fungus
+ABR: fngs
+STN: A1.1.3.2
+DEF: A eukaryotic organism characterized by the absence of chlorophyll and the
+presence of a rigid cell wall.  Included here are both slime molds and true fungi
+such as yeasts, molds, mildews, and mushrooms.
+EX: Aspergillus clavatus; Blastomyces; Neurospora
+HL: {isa} Eukaryote
+
+UI: T028
+STY: Gene or Genome
+ABR: gngm
+STN: A1.2.3.5
+DEF: A specific sequence, or in the case of the genome the complete sequence, of
+nucleotides along a molecule of DNA or RNA (in the case of some viruses) which
+represent the functional units of heredity.
+EX: Alleles; Genome, Human; rRNA Operon
+HL: {isa} Fully Formed Anatomical Structure
+
+UI: T045
+STY: Genetic Function
+ABR: genf
+STN: B2.2.1.1.4.1
+DEF: Functions of or related to the maintenance, translation or expression of
+the genetic material.
+EX: Early Gene Transcription; Gene Amplification; RNA Splicing
+HL: {isa} Molecular Function
+
+UI: T083
+STY: Geographic Area
+ABR: geoa
+STN: A2.1.5.4
+DEF: A geographic location, generally having definite boundaries.
+EX: Baltimore; Canada; Far East
+HL: {isa} Spatial Concept
+
+UI: T064
+STY: Governmental or Regulatory Activity
+ABR: gora
+STN: B1.3.3
+DEF: An activity carried out by officially constituted governments, or an
+activity related to the creation or enforcement of the rules or regulations
+governing some field of endeavor.
+EX: Certification; Credentialing; Public Policy
+HL: {isa} Occupational Activity
+
+UI: T096
+STY: Group
+ABR: grup
+STN: A2.9
+DEF: A conceptual entity referring to the classification of individuals
+according to certain shared characteristics.
+EX: Focus Groups; jury; teams
+UN: Few concepts will be assigned to this broad type.
+HL: {isa} Conceptual Entity;
+{inverse_isa} Professional or Occupational Group;
+{inverse_isa} Population Group;
+{inverse_isa} Family Group;
+{inverse_isa} Age Group;
+{inverse_isa} Patient or Disabled Group
+
+UI: T102
+STY: Group Attribute
+ABR: grpa
+STN: A2.8
+DEF: A conceptual entity which refers to the frequency or distribution of
+certain characteristics or phenomena in certain groups.
+EX: Family Size; Group Structure; Life Expectancy
+HL: {isa} Conceptual Entity
+
+UI: T131
+STY: Hazardous or Poisonous Substance
+ABR: hops
+STN: A1.4.1.1.5
+DEF: A substance of concern because of its potentially hazardous or toxic
+effects.  This would include most drugs of abuse, as well as agents that require
+special handling because of their toxicity.
+EX: Carcinogens; Fumigant; Mutagens
+UN: Most pharmaceutical agents, although potentially harmful, are excluded here
+and are assigned to the type 'Pharmacologic Substance'.  All pesticides are
+assigned to this type.
+HL: {isa} Chemical Viewed Functionally
+
+UI: T058
+STY: Health Care Activity
+ABR: hlca
+STN: B1.3.1
+DEF: An activity of or relating to the practice of medicine or involving the
+care of patients.
+EX: ambulatory care services; Clinic Activities; Preventive Health Services
+HL: {isa} Occupational Activity;
+{inverse_isa} Laboratory Procedure;
+{inverse_isa} Diagnostic Procedure;
+{inverse_isa} Therapeutic or Preventive Procedure
+
+UI: T093
+STY: Health Care Related Organization
+ABR: hcro
+STN: A2.7.1
+DEF: An established organization which carries out specific functions related to
+health care delivery or research in the life sciences.
+EX: Centers for Disease Control and Prevention (U.S.); Halfway Houses;
+Hospitals, Pediatric
+UN: Concepts for health care related professional societies are assigned the
+type 'Professional Society'.
+HL: {isa} Organization
+
+UI: T125
+STY: Hormone
+ABR: horm
+STN: A1.4.1.1.3.2
+DEF: In animals, a chemical usually secreted by an endocrine gland whose
+products are released into the circulating fluid.  Hormones act as chemical
+messengers and regulate various physiologic processes such as growth,
+reproduction, metabolism, etc.  They usually fall into two broad classes, steroid
+hormones and peptide hormones.
+EX: Enteric Hormones; thymic humoral factor; Prohormone
+UN: Synthetic hormones that are used as drugs should receive this type and
+'Pharmacologic Substance'.  Plant hormones are assigned only to the type
+'Pharmacologic Substance'.
+HL: {isa} Biologically Active Substance
+
+UI: T016
+STY: Human
+ABR: humn
+STN: A1.1.3.1.1.4.1
+DEF: Modern man, the only remaining species of the Homo genus.
+EX: Homo sapiens; jean piaget; Member of public
+UN: If a concept describes a human being from the point of view of occupational,
+family, social status, etc., then a type from the 'Group' hierarchy will be
+assigned instead.
+HL: {isa} Mammal
+
+UI: T068
+STY: Human-caused Phenomenon or Process
+ABR: hcpp
+STN: B2.1
+DEF: A phenomenon or process that is a result of the activities of human beings.
+EX: Baby Boom; Cultural Evolution; Mass Media
+UN: If the concept refers to the activity itself, rather than the result of that
+activity, a type from the 'Activity' hierarchy will be assigned instead.
+HL: {isa} Phenomenon or Process;
+{inverse_isa} Environmental Effect of Humans
+
+UI: T078
+STY: Idea or Concept
+ABR: idcn
+STN: A2.1
+DEF: An abstract concept, such as a social, religious or philosophical concept.
+EX: Capitalism; Civil Rights; Ethics
+HL: {isa} Conceptual Entity;
+{inverse_isa} Temporal Concept;
+{inverse_isa} Qualitative Concept;
+{inverse_isa} Quantitative Concept;
+{inverse_isa} Spatial Concept;
+{inverse_isa} Functional Concept
+
+UI: T129
+STY: Immunologic Factor
+ABR: imft
+STN: A1.4.1.1.3.5
+DEF: A biologically active substance whose activities affect or play a role in
+the functioning of the immune system.
+EX: Antigens; Immunologic Factors; Blood group antigen P
+UN: Antigens and antibodies are assigned to this type.  Unlike most biologically
+active substances, some immunologic factors may be exogenous.  Vaccines should be
+given this type and the type 'Pharmacologic Substance'.
+HL: {isa} Biologically Active Substance
+
+UI: T130
+STY: Indicator, Reagent, or Diagnostic Aid
+ABR: irda
+STN: A1.4.1.1.4
+DEF: A substance primarily of interest for its use in laboratory or diagnostic
+tests and procedures to detect, measure, examine, or analyze other chemicals,
+processes, or conditions.
+EX: Fluorescent Dyes; Indicators and Reagents; India ink stain
+UN: Radioactive imaging agents should be assigned to this type and not to the
+type 'Pharmacologic Substance' unless they are also being used therapeutically.
+HL: {isa} Chemical Viewed Functionally
+
+UI: T055
+STY: Individual Behavior
+ABR: inbe
+STN: B1.1.2
+DEF: Behavior exhibited by a human or an animal that is not a direct result of
+interaction with other members of the species, but which may have an effect on
+others.
+EX: Assertiveness; Grooming; Risk-Taking
+UN: 'Individual Behavior' is carried out by an individual, though others may be
+present, and is, thus, distinguished from 'Social Behavior' which requires the
+direct participation of others.
+HL: {isa} Behavior
+
+UI: T037
+STY: Injury or Poisoning
+ABR: inpo
+STN: B2.3
+DEF: A traumatic wound, injury, or poisoning caused by an external agent or
+force.
+EX: Accidental Falls; Carbon Monoxide Poisoning; Snake Bites
+UN: An `Injury or Poisoning' is distinguished from a 'Disease or Syndrome' that
+may be a result of prolonged exposure to toxic materials.
+HL: {isa} Phenomenon or Process
+
+UI: T197
+STY: Inorganic Chemical
+ABR: inch
+STN: A1.4.1.2.2
+DEF: Chemical elements and their compounds, excluding the hydrocarbons and their
+derivatives (except carbides, carbonates, cyanides, cyanates and carbon
+disulfide).  Generally inorganic compounds contain ionic bonds.  Included here are
+inorganic acids and salts, alloys, alkalies, and minerals.
+EX: Carbonic Acid; aluminum nitride; ferric citrate
+HL: {isa} Chemical Viewed Structurally
+
+UI: T170
+STY: Intellectual Product
+ABR: inpr
+STN: A2.4
+DEF: A conceptual entity resulting from human endeavor.  Concepts assigned to
+this type generally refer to information created by humans for some purpose.
+EX: Decision Support Techniques; Information Systems; Literature
+UN: Concepts referring to theorems, models, and systems are assigned here.  In
+some cases, a concept may be assigned to both 'Intellectual Product' and
+'Research Activity'.  For example, the concept "Comparative Study" might be
+viewed as both an activity and the result, or product, of that activity.
+HL: {isa} Conceptual Entity;
+{inverse_isa} Regulation or Law;
+{inverse_isa} Classification
+
+UI: T034
+STY: Laboratory or Test Result
+ABR: lbtr
+STN: A2.2.1
+DEF: The outcome of a specific test to measure an attribute or to determine the
+presence, absence, or degree of a condition.
+EX: Blood Flow Velocity; Serum Calcium Level; Spinal Fluid Pressure
+UN: Laboratory or test results are considered inherently quantitative and, thus,
+are not assigned the additional type 'Quantitative Concept'.
+HL: {isa} Finding
+
+UI: T059
+STY: Laboratory Procedure
+ABR: lbpr
+STN: B1.3.1.1
+DEF: A procedure, method, or technique used to determine the composition,
+quantity, or concentration of a specimen, and which is carried out in a clinical
+laboratory.  Included here are procedures which measure the times and rates of
+reactions.
+EX: Blood Protein Electrophoresis; Crystallography; Radioimmunoassay
+HL: {isa} Health Care Activity
+
+UI: T171
+STY: Language
+ABR: lang
+STN: A2.5
+DEF: The system of communication used by a particular nation or people.
+EX: Armenian language; braille; Bilingualism
+HL: {isa} Conceptual Entity
+
+UI: T066
+STY: Machine Activity
+ABR: mcha
+STN: B1.4
+DEF: An activity carried out primarily or exclusively by machines.
+EX: Computer Simulation; Equipment Failure; Natural Language Processing
+HL: {isa} Activity
+
+UI: T015
+STY: Mammal
+ABR: mamm
+STN: A1.1.3.1.1.4
+DEF: A vertebrate having a constant body temperature and characterized by the
+presence of hair, mammary glands and sweat glands.
+EX: Ursidae Family; Hamsters; Macaca
+HL: {isa} Vertebrate;
+{inverse_isa} Human
+
+UI: T073
+STY: Manufactured Object
+ABR: mnob
+STN: A1.3
+DEF: A physical object made by human beings.
+EX: car seat; Cooking and Eating Utensils; Goggles
+HL: {isa} Physical Object;
+{inverse_isa} Medical Device;
+{inverse_isa} Research Device;
+{inverse_isa} Clinical Drug
+
+UI: T074
+STY: Medical Device
+ABR: medd
+STN: A1.3.1
+DEF: A manufactured object used primarily in the diagnosis, treatment, or
+prevention of physiologic or anatomic disorders.
+EX: Bone Screws; Headgear, Orthodontic; Compression Stockings
+UN: A medical device may be used for research purposes, but since its primary
+use is for routine medical care, it is distinguished from a 'Research Device'
+which is used primarily for research purposes.
+HL: {isa} Manufactured Object;
+{inverse_isa} Drug Delivery Device
+
+UI: T048
+STY: Mental or Behavioral Dysfunction
+ABR: mobd
+STN: B2.2.1.2.1.1
+DEF: A clinically significant dysfunction whose major manifestation is
+behavioral or psychological.  These dysfunctions may have identified or presumed
+biological etiologies or manifestations.
+EX: Agoraphobia; Cyclothymic Disorder; Frigidity
+HL: {isa} Disease or Syndrome
+
+UI: T041
+STY: Mental Process
+ABR: menp
+STN: B2.2.1.1.1.1
+DEF: A physiologic function involving the mind or cognitive processing.
+EX: Anger; Auditory Fatigue; Avoidance Learning
+HL: {isa} Organism Function
+
+UI: T063
+STY: Molecular Biology Research Technique
+ABR: mbrt
+STN: B1.3.2.1
+DEF: Any of the techniques used in the study of or the directed modification of
+the gene complement of a living organism.
+EX: Northern Blotting; Genetic Engineering; In Situ Hybridization
+HL: {isa} Research Activity
+
+UI: T044
+STY: Molecular Function
+ABR: moft
+STN: B2.2.1.1.4
+DEF: A physiologic function occurring at the molecular level.
+EX: Binding, Competitive; Electron Transport; Glycolysis
+HL: {isa} Physiologic Function;
+{inverse_isa} Genetic Function
+
+UI: T085
+STY: Molecular Sequence
+ABR: mosq
+STN: A2.1.5.3
+DEF: A broad type for grouping the collected sequences of amino acids,
+carbohydrates, and nucleotide sequences.  Descriptions of these sequences are
+generally reported in the published literature and/or are deposited in and
+maintained by databanks such as GenBank, European Molecular Biology Laboratory
+(EMBL), National Biomedical Research Foundation (NBRF), or other sequence
+repositories.
+EX: Genetic Code; Homologous Sequences; Molecular Sequence
+HL: {isa} Spatial Concept;
+{inverse_isa} Nucleotide Sequence;
+{inverse_isa} Amino Acid Sequence;
+{inverse_isa} Carbohydrate Sequence
+
+UI: T070
+STY: Natural Phenomenon or Process
+ABR: npop
+STN: B2.2
+DEF: A phenomenon or process that occurs irrespective of the activities of human
+beings.
+EX: Air Movements; Corrosion; Lightning (phenomenon)
+HL: {isa} Phenomenon or Process;
+{inverse_isa} Biologic Function
+
+UI: T191
+STY: Neoplastic Process
+ABR: neop
+STN: B2.2.1.2.1.2
+DEF: A new and abnormal growth of tissue in which the growth is uncontrolled and
+progressive.  The growths may be malignant or benign.
+EX: Abdominal Neoplasms; Bowen's Disease; Polyp in nasopharynx
+UN: All neoplasms are assigned to this type.  Do not also assign a type from the
+'Anatomical Abnormality' hierarchy.
+HL: {isa} Disease or Syndrome
+
+UI: T114
+STY: Nucleic Acid, Nucleoside, or Nucleotide
+ABR: nnon
+STN: A1.4.1.2.1.5
+DEF: A complex compound of high molecular weight occurring in living cells.
+These are basically of two types, ribonucleic (RNA) and deoxyribonucleic (DNA)
+acids.  Nucleic acids are made of nucleotides (nitrogen-containing base, a
+5-carbon sugar, and one or more phosphate group) linked together by a
+phosphodiester bond between the 5' and 3' carbon atoms.  Nucleosides are
+compounds composed of a purine or pyrimidine base (usually adenine, cytosine,
+guanine, thymine, uracil) linked to either a ribose or a deoxyribose sugar.
+EX: Cytosine Nucleotides; Guanine; Oligonucleotides
+UN: Naturally occurring nucleic acids, nucleosides, or nucleotides will also be
+assigned a type from the 'Biologically Active Substance' hierarchy.
+HL: {isa} Organic Chemical
+
+UI: T086
+STY: Nucleotide Sequence
+ABR: nusq
+STN: A2.1.5.3.1
+DEF: The sequence of purines and pyrimidines in nucleic acids and
+polynucleotides.  Included here are nucleotide-rich regions, conserved sequence,
+and DNA transforming region.
+EX: Base Sequence; Direct Repeat; RNA Sequence
+HL: {isa} Molecular Sequence
+
+UI: T090
+STY: Occupation or Discipline
+ABR: ocdi
+STN: A2.6
+DEF: A vocation, academic discipline, or field of study, or a subpart of an
+occupation or discipline.
+EX: Aviation; Craniology; Ecology
+UN: If the concept refers to the individuals who have the vocation, the type
+'Professional or Occupational Group' will be assigned instead.
+HL: {isa} Conceptual Entity;
+{inverse_isa} Biomedical Occupation or Discipline
+
+UI: T057
+STY: Occupational Activity
+ABR: ocac
+STN: B1.3
+DEF: An activity carried out as part of an occupation or job.
+EX: Collective Bargaining; Commerce; Containment of Biohazards
+HL: {isa} Activity;
+{inverse_isa} Health Care Activity;
+{inverse_isa} Research Activity;
+{inverse_isa} Governmental or Regulatory Activity;
+{inverse_isa} Educational Activity
+
+UI: T042
+STY: Organ or Tissue Function
+ABR: ortf
+STN: B2.2.1.1.2
+DEF: A physiologic function of a particular organ, organ system, or tissue.
+EX: Osteogenesis; Renal Circulation; Tooth Calcification
+HL: {isa} Physiologic Function
+
+UI: T109
+STY: Organic Chemical
+ABR: orch
+STN: A1.4.1.2.1
+DEF: The general class of carbon-containing compounds, usually based on carbon
+chains or rings, and also containing hydrogen (hydrocarbons), with or without
+nitrogen, oxygen, or other elements in which the bonding between elements is
+generally covalent.
+EX: Benzene Derivatives
+UN: Salts of organic chemicals (such as Calcium Acetate) would be considered
+organic chemicals and should not also receive the type 'Inorganic Chemical'.
+HL: {isa} Chemical Viewed Structurally;
+{inverse_isa} Nucleic Acid, Nucleoside, or Nucleotide;
+{inverse_isa} Amino Acid, Peptide, or Protein
+
+UI: T001
+STY: Organism
+ABR: orgm
+STN: A1.1
+DEF: Generally, a living individual, including all plants and animals.
+EX: Organism; Infectious agent; Heterotroph
+HL: {isa} Physical Object;
+{inverse_isa} Virus;
+{inverse_isa} Bacterium;
+{inverse_isa} Archaeon;
+{inverse_isa} Eukaryote
+
+UI: T032
+STY: Organism Attribute
+ABR: orga
+STN: A2.3
+DEF: A property of the organism or its major parts.
+EX: Age; Birth Weight; Eye Color
+NH: Y
+HL: {isa} Conceptual Entity;
+{inverse_isa} Clinical Attribute
+
+UI: T040
+STY: Organism Function
+ABR: orgf
+STN: B2.2.1.1.1
+DEF: A physiologic function of the organism as a whole, of multiple organ
+systems, or of multiple organs or tissues.
+EX: Breeding; Hibernation; Motor Skills
+HL: {isa} Physiologic Function;
+{inverse_isa} Mental Process
+
+UI: T092
+STY: Organization
+ABR: orgt
+STN: A2.7
+DEF: The result of uniting for a common purpose or function.  The continued
+existence of an organization is not dependent on any of its members, its
+location, or particular facility.  Components or subparts of organizations are
+also included here.  Although the names of organizations are sometimes used to
+refer to the buildings in which they reside, they are not inherently physical in
+nature.
+EX: Labor Unions; United Nations; Boarding school
+HL: {isa} Conceptual Entity;
+{inverse_isa} Health Care Related Organization;
+{inverse_isa} Professional Society;
+{inverse_isa} Self-help or Relief Organization
+
+UI: T046
+STY: Pathologic Function
+ABR: patf
+STN: B2.2.1.2
+DEF: A disordered process, activity, or state of the organism as a whole, of a
+body system or systems, or of multiple organs or tissues.  Included here are
+normal responses to a negative stimulus as well as patholologic conditions or
+states that are less specific than a disease.  Pathologic functions frequently
+have systemic effects.
+EX: Inflammation; Shock; Thrombosis
+UN: If the process is specific, for example to a site or substance, then
+'Disease or Syndrome' will be assigned and not 'Pathologic Function'.  For
+example, "cerebral anoxia", "brain edema", and "milk hypersensitivity" will all
+be assigned to 'Disease or Syndrome' only.
+HL: {isa} Biologic Function;
+{inverse_isa} Disease or Syndrome;
+{inverse_isa} Cell or Molecular Dysfunction;
+{inverse_isa} Experimental Model of Disease
+
+UI: T101
+STY: Patient or Disabled Group
+ABR: podg
+STN: A2.9.5
+DEF: An individual or individuals classified according to a disability, disease,
+condition or treatment.
+EX: Amputees; Institutionalized Child; Mentally Ill Persons
+HL: {isa} Group
+
+UI: T121
+STY: Pharmacologic Substance
+ABR: phsu
+STN: A1.4.1.1.1
+DEF: A substance used in the treatment or prevention of pathologic disorders.
+This includes substances that occur naturally in the body and are administered
+therapeutically.
+EX: Antiemetics; Cardiovascular Agents; Alka-Seltzer
+UN: If a substance is both endogenous and typically used as a drug, then this
+type and the type 'Biologically Active Substance' or one of its children are
+assigned.  Body substances that are used therapeutically such as whole blood
+preparation, NOS would only receive the type 'Body Substance'.  Substances used
+in the diagnosis or analysis of normal and abnormal body functions should be
+given the type 'Indicator, Reagent, or Diagnostic Aid'.
+HL: {isa} Chemical Viewed Functionally;
+{inverse_isa} Antibiotic
+
+UI: T067
+STY: Phenomenon or Process
+ABR: phpr
+STN: B2
+DEF: A process or state which occurs naturally or as a result of an activity.
+EX: Disasters; Motor Traffic Accidents; Depolymerization
+HL: {isa} Event;
+{inverse_isa} Injury or Poisoning;
+{inverse_isa} Human-caused Phenomenon or Process;
+{inverse_isa} Natural Phenomenon or Process
+
+UI: T072
+STY: Physical Object
+ABR: phob
+STN: A1
+DEF: An object perceptible to the sense of vision or touch.
+EX: Printed Media; Meteors; Physical object
+HL: {isa} Entity;
+{inverse_isa} Organism;
+{inverse_isa} Anatomical Structure;
+{inverse_isa} Manufactured Object;
+{inverse_isa} Substance
+
+UI: T039
+STY: Physiologic Function
+ABR: phsf
+STN: B2.2.1.1
+DEF: A normal process, activity, or state of the body.
+EX: Biorhythms; Hearing; Vasodilation
+HL: {isa} Biologic Function;
+{inverse_isa} Organism Function;
+{inverse_isa} Organ or Tissue Function;
+{inverse_isa} Cell Function;
+{inverse_isa} Molecular Function
+
+UI: T002
+STY: Plant
+ABR: plnt
+STN: A1.1.3.3
+DEF: An organism having cellulose cell walls, growing by synthesis of inorganic
+substances, generally distinguished by the presence of chlorophyll, and lacking
+the power of locomotion.  Plant parts are included here as well.
+EX: Aloe; Pollen; Helianthus species
+HL: {isa} Eukaryote
+
+UI: T098
+STY: Population Group
+ABR: popg
+STN: A2.9.2
+DEF: An indivdual or individuals classified according to their sex, racial
+origin, religion, common place of living, financial or social status, or some
+other cultural or behavioral attribute.
+EX: Asian Americans; Ethnic group; Adult Offenders
+HL: {isa} Group
+
+UI: T097
+STY: Professional or Occupational Group
+ABR: prog
+STN: A2.9.1
+DEF: An individual or individuals classified according to their vocation.
+EX: Clergy; Demographers; Hospital Volunteers
+UN: If the concept refers to the discipline or vocation itself, rather than to
+the individuals who have the vocation, then the type 'Occupation or Discipline'
+will be assigned instead.
+HL: {isa} Group
+
+UI: T094
+STY: Professional Society
+ABR: pros
+STN: A2.7.2
+DEF: An organization uniting those who have a common vocation or who are
+involved with a common field of study.
+EX: American Medical Association; International Council of Nurses; Library
+Associations
+HL: {isa} Organization
+
+UI: T080
+STY: Qualitative Concept
+ABR: qlco
+STN: A2.1.2
+DEF: A concept which is an assessment of some quality, rather than a direct
+measurement.
+EX: Clinical Competence; Consumer Satisfaction; Health Status
+HL: {isa} Idea or Concept
+
+UI: T081
+STY: Quantitative Concept
+ABR: qnco
+STN: A2.1.3
+DEF: A concept which involves the dimensions, quantity or capacity of something
+using some unit of measure, or which involves the quantitative comparison of
+entities.
+EX: Age Distribution; Metric System; Selection Bias
+UN: If the concept refers to rate or distribution, the type 'Temporal Concept'
+is not also assigned.
+HL: {isa} Idea or Concept
+
+UI: T192
+STY: Receptor
+ABR: rcpt
+STN: A1.4.1.1.3.6
+DEF: A specific structure or site on the cell surface or within its cytoplasm
+that recognizes and binds with other specific molecules.  These include the
+proteins on the surface of an immunocompetent cell that binds with antigens, or
+proteins found on the surface molecules that bind with hormones or
+neurotransmitters and react with other molecules that respond in a specific way.
+EX: Binding Sites; Lymphocyte antigen CD4 receptor; integrin alpha11beta1
+HL: {isa} Biologically Active Substance
+
+UI: T089
+STY: Regulation or Law
+ABR: rnlw
+STN: A2.4.2
+DEF: An intellectual product resulting from legislative or regulatory activity.
+EX: Building Codes; Criminal Law; Health Planning Guidelines
+HL: {isa} Intellectual Product
+
+UI: T014
+STY: Reptile
+ABR: rept
+STN: A1.1.3.1.1.5
+DEF: A cold-blooded vertebrate having an external covering of scales or horny
+plates.  Reptiles breathe by means of lungs and are generally egg-laying.
+EX: Alligators; Water Mocassin; Genus Python (organism)
+HL: {isa} Vertebrate
+
+UI: T062
+STY: Research Activity
+ABR: resa
+STN: B1.3.2
+DEF: An activity carried out as part of research or experimentation.
+EX: Animal Experimentation; Biomedical Research; Experimental Replication
+UN: In some cases, a concept may be assigned to both this type and the type
+'Intellectual Product'.  For example, the concept "Comparative Study" might be
+viewed as both an activity and the result, or product, of that activity.
+HL: {isa} Occupational Activity;
+{inverse_isa} Molecular Biology Research Technique
+
+UI: T075
+STY: Research Device
+ABR: resd
+STN: A1.3.2
+DEF: A manufactured object used primarily in carrying out scientific research or
+experimentation.
+EX: Electrodes, Enzyme; DNA Microarray Chip; Particle Count and Size Analyzer
+UN: A research device is distinguished from a 'Medical Device', which though it
+may be used for research purposes is used primarily for routine medical care.
+HL: {isa} Manufactured Object
+
+UI: T095
+STY: Self-help or Relief Organization
+ABR: shro
+STN: A2.7.3
+DEF: An organization whose purpose and function is to provide assistance to the
+needy or to offer support to those sharing similar problems.
+EX: Alcoholics Anonymous; Charities - organization; Red Cross
+HL: {isa} Organization
+
+UI: T184
+STY: Sign or Symptom
+ABR: sosy
+STN: A2.2.2
+DEF: An observable manifestation of a disease or condition based on clinical
+judgment, or a manifestation of a disease or condition which is experienced by
+the patient and reported as a subjective observation.
+EX: Dyspnea; Nausea; Pain
+HL: {isa} Finding
+
+UI: T054
+STY: Social Behavior
+ABR: socb
+STN: B1.1.1
+DEF: Behavior that is a direct result or function of the interaction of humans
+or animals with their fellows.  This includes behavior that may be considered
+anti-social.
+EX: Acculturation; Communication; Interpersonal Relations
+UN: 'Social Behavior' requires the direct participation of others and is, thus,
+distinguished from 'Individual Behavior' which is carried out by an individual,
+though others may be present.
+HL: {isa} Behavior
+
+UI: T082
+STY: Spatial Concept
+ABR: spco
+STN: A2.1.5
+DEF: A location, region, or space, generally having definite boundaries.
+EX: Mandibular Rest Position; Lateral; Extrinsic
+HL: {isa} Idea or Concept;
+{inverse_isa} Body Location or Region;
+{inverse_isa} Body Space or Junction;
+{inverse_isa} Geographic Area;
+{inverse_isa} Molecular Sequence
+
+UI: T167
+STY: Substance
+ABR: sbst
+STN: A1.4
+DEF: A material with definite or fairly definite chemical composition.
+EX: Air (substance); Fossils; Plastics
+HL: {isa} Physical Object;
+{inverse_isa} Body Substance;
+{inverse_isa} Chemical;
+{inverse_isa} Food
+
+UI: T079
+STY: Temporal Concept
+ABR: tmco
+STN: A2.1.1
+DEF: A concept which pertains to time or duration.
+EX: Birth Intervals; Half-Life; Postoperative Period
+UN: If the concept refers to a phase, stage, cycle, interval, period, or rhythm,
+it is assigned to this type.
+HL: {isa} Idea or Concept
+
+UI: T061
+STY: Therapeutic or Preventive Procedure
+ABR: topp
+STN: B1.3.1.3
+DEF: A procedure, method, or technique designed to prevent a disease or a
+disorder, or to improve physical function, or used in the process of treating a
+disease or injury.
+EX: Cesarean section; Dermabrasion; Family psychotherapy
+HL: {isa} Health Care Activity
+
+UI: T024
+STY: Tissue
+ABR: tisu
+STN: A1.2.3.2
+DEF: An aggregation of similarly specialized cells and the associated
+intercellular substance.  Tissues are relatively non-localized in comparison to
+body parts, organs or organ components.
+EX: Cartilage; Endothelium; Epidermis
+HL: {isa} Fully Formed Anatomical Structure
+
+UI: T010
+STY: Vertebrate
+ABR: vtbt
+STN: A1.1.3.1.1
+DEF: An animal which has a spinal column.
+EX: Vertebrates; Gnathostomata vertebrate; Craniata <chordata>
+UN: Few concepts will be assigned to this broad type.
+HL: {isa} Animal;
+{inverse_isa} Amphibian;
+{inverse_isa} Bird;
+{inverse_isa} Fish;
+{inverse_isa} Reptile;
+{inverse_isa} Mammal
+
+UI: T005
+STY: Virus
+ABR: virs
+STN: A1.1.4
+DEF: An organism consisting of a core of a single nucleic acid enclosed in a
+protective coat of protein.  A virus may replicate only inside a host living
+cell.  A virus exhibits some but not all of the usual characteristics of living
+things.
+EX: Coliphages; Echovirus; Parvoviridae
+HL: {isa} Organism
+
+UI: T127
+STY: Vitamin
+ABR: vita
+STN: A1.4.1.1.3.4
+DEF: A substance, usually an organic chemical complex, present in natural
+products or made synthetically, which is essential in the diet of man or other
+higher animals.  Included here are vitamin precursors, provitamins, and vitamin
+supplements.
+EX: 5,25-Dihydroxy cholecalciferol; alpha-tocopheryl oxalate; Vitamin A [EPC]
+UN: Essential amino acids are not assigned to this type.  They will be assigned
+to the type 'Amino Acid, Peptide, or Protein'.  This can be used with
+'Pharmacologic Substance' if the compound is being administered therapeutically
+or if the source has it classified as therapeutic (i.e., N'ICE Sugarless Vitamin
+C Drops).
+HL: {isa} Biologically Active Substance
+
+UI: T173
+RL: adjacent_to
+ABR: AD
+RIN: adjacent_to
+RTN: R2.2
+DEF: Close to, near or abutting another physical unit with no other structure of
+the same kind intervening.  This includes adjoins, abuts, is contiguous to, is
+juxtaposed, and is close to.
+HL: {isa} spatially_related_to
+STL: [Body Location or Region|Body Location or Region];
+[Body Location or Region|Body Part, Organ, or Organ Component];
+[Body Location or Region|Body Space or Junction];
+[Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component];
+[Body Part, Organ, or Organ Component|Body Space or Junction];
+[Body Part, Organ, or Organ Component|Cell];
+[Body Part, Organ, or Organ Component|Tissue];
+[Body Space or Junction|Body Space or Junction];
+[Cell Component|Body Space or Junction];
+[Cell Component|Cell Component];
+[Cell|Cell];
+[Tissue|Body Space or Junction];
+[Tissue|Tissue]
+
+UI: T151
+RL: affects
+ABR: AF
+RIN: affected_by
+RTN: R3.1
+DEF: Produces a direct effect on.  Implied here is the altering or influencing of
+an existing condition, state, situation, or entity.  This includes has a role in,
+alters, influences, predisposes, catalyzes, stimulates, regulates, depresses,
+impedes, enhances, contributes to, leads to, and modifies.
+HL: {isa} functionally_related_to;
+{inverse_isa} interacts_with;
+{inverse_isa} disrupts;
+{inverse_isa} prevents;
+{inverse_isa} complicates;
+{inverse_isa} manages;
+{inverse_isa} treats
+STL: [Anatomical Abnormality|Organism];
+[Anatomical Abnormality|Physiologic Function];
+[Behavior|Behavior];
+[Behavior|Mental Process];
+[Biologic Function|Organism];
+[Cell Component|Physiologic Function];
+[Chemical|Natural Phenomenon or Process];
+[Diagnostic Procedure|Patient or Disabled Group];
+[Food|Biologic Function];
+[Gene or Genome|Physiologic Function];
+[Health Care Activity|Biologic Function];
+[Mental or Behavioral Dysfunction|Behavior];
+[Mental Process|Behavior];
+[Natural Phenomenon or Process|Natural Phenomenon or Process];
+[Physiologic Function|Organism Attribute];
+[Regulation or Law|Group];
+[Regulation or Law|Organization];
+[Research Activity|Mental Process];
+[Therapeutic or Preventive Procedure|Patient or Disabled Group]
+
+UI: T193
+RL: analyzes
+ABR: AN
+RIN: analyzed_by
+RTN: R5.3
+DEF: Studies or examines using established quantitative or qualitative methods.
+HL: {isa} conceptually_related_to;
+{inverse_isa} assesses_effect_of
+STL: [Diagnostic Procedure|Body Substance];
+[Diagnostic Procedure|Chemical];
+[Laboratory Procedure|Body Substance];
+[Laboratory Procedure|Chemical]
+
+UI: T164
+RL: assesses_effect_of
+ABR: AE
+RIN: assessed_for_effect_by
+RTN: R5.3.1
+DEF: Analyzes the influence or consequences of the function or action of.
+HL: {isa} analyzes
+STL: [Diagnostic Procedure|Chemical];
+[Laboratory Procedure|Chemical];
+[Laboratory Procedure|Natural Phenomenon or Process]
+
+UI: T166
+RL: associated_with
+ABR: AW
+RIN: associated_with
+RTN: R
+DEF: has a significant or salient relationship to.
+HL: {inverse_isa} physically_related_to;
+{inverse_isa} temporally_related_to;
+{inverse_isa} functionally_related_to;
+{inverse_isa} conceptually_related_to;
+{inverse_isa} spatially_related_to
+STL: [Anatomical Abnormality|Organism Attribute];
+[Behavior|Geographic Area];
+[Behavior|Group Attribute];
+[Behavior|Group];
+[Behavior|Occupation or Discipline];
+[Behavior|Organism Attribute];
+[Biologically Active Substance|Virus];
+[Daily or Recreational Activity|Anatomical Abnormality];
+[Daily or Recreational Activity|Injury or Poisoning];
+[Daily or Recreational Activity|Pathologic Function];
+[Finding|Anatomical Abnormality];
+[Finding|Injury or Poisoning];
+[Finding|Pathologic Function];
+[Geographic Area|Anatomical Abnormality];
+[Geographic Area|Injury or Poisoning];
+[Geographic Area|Pathologic Function];
+[Individual Behavior|Anatomical Abnormality];
+[Individual Behavior|Injury or Poisoning];
+[Individual Behavior|Pathologic Function];
+[Injury or Poisoning|Organism Attribute];
+[Occupational Activity|Anatomical Abnormality];
+[Occupational Activity|Injury or Poisoning];
+[Occupational Activity|Pathologic Function];
+[Organism Attribute|Organism Attribute];
+[Pathologic Function|Organism Attribute];
+[Pathologic Function|Pathologic Function];
+[Population Group|Anatomical Abnormality];
+[Population Group|Injury or Poisoning];
+[Population Group|Pathologic Function]
+
+UI: T198
+RL: branch_of
+ABR: BR
+RIN: has_branch
+RTN: R1.6
+DEF: Arises from the division of.  For example, the arborization of arteries.
+HL: {isa} physically_related_to
+STL: [Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component]
+
+UI: T187
+RL: brings_about
+ABR: BA
+RIN: brought_about_by
+RTN: R3.2
+DEF: Acts on or influences an entity.
+HL: {isa} functionally_related_to;
+{inverse_isa} produces;
+{inverse_isa} causes
+STL: <none>
+
+UI: T141
+RL: carries_out
+ABR: CO
+RIN: carried_out_by
+RTN: R3.3.1
+DEF: Executes a function or performs a procedure or activity.  This includes
+transacts, operates on, handles, and executes.
+HL: {isa} performs
+STL: [Gene or Genome|Molecular Function];
+[Organization|Occupational Activity]
+
+UI: T147
+RL: causes
+ABR: CA
+RIN: caused_by
+RTN: R3.2.2
+DEF: Brings about a condition or an effect.  Implied here is that an agent, such
+as for example, a pharmacologic substance or an organism, has brought about the
+effect.  This includes induces, effects, evokes, and etiology.
+HL: {isa} brings_about
+STL: [Bacterium|Pathologic Function];
+[Fungus|Pathologic Function];
+[Manufactured Object|Anatomical Abnormality];
+[Manufactured Object|Injury or Poisoning];
+[Manufactured Object|Pathologic Function];
+[Substance|Anatomical Abnormality];
+[Substance|Injury or Poisoning];
+[Substance|Pathologic Function];
+[Virus|Pathologic Function]
+
+UI: T137
+RL: co-occurs_with
+ABR: CW
+RIN: co-occurs_with
+RTN: R4.1
+DEF: Occurs at the same time as, together with, or jointly.  This includes is
+co-incident with, is concurrent with, is contemporaneous with, accompanies,
+coexists with, and is concomitant with.
+HL: {isa} temporally_related_to
+STL: [Acquired Abnormality|Injury or Poisoning];
+[Anatomical Abnormality|Anatomical Abnormality];
+[Finding|Finding];
+[Injury or Poisoning|Injury or Poisoning];
+[Pathologic Function|Anatomical Abnormality];
+[Pathologic Function|Injury or Poisoning];
+[Pathologic Function|Pathologic Function];
+[Physiologic Function|Physiologic Function]
+
+UI: T149
+RL: complicates
+ABR: CM
+RIN: complicated_by
+RTN: R3.1.4
+DEF: Causes to become more severe or complex or results in adverse effects.
+HL: {isa} affects
+STL: [Anatomical Abnormality|Anatomical Abnormality];
+[Biologically Active Substance|Anatomical Abnormality];
+[Biologically Active Substance|Biologic Function];
+[Biologically Active Substance|Injury or Poisoning];
+[Hazardous or Poisonous Substance|Anatomical Abnormality];
+[Hazardous or Poisonous Substance|Biologic Function];
+[Hazardous or Poisonous Substance|Injury or Poisoning];
+[Injury or Poisoning|Anatomical Abnormality];
+[Injury or Poisoning|Pathologic Function];
+[Pathologic Function|Anatomical Abnormality];
+[Pathologic Function|Injury or Poisoning];
+[Pathologic Function|Pathologic Function];
+[Pharmacologic Substance|Anatomical Abnormality];
+[Pharmacologic Substance|Biologic Function];
+[Pharmacologic Substance|Injury or Poisoning];
+[Therapeutic or Preventive Procedure|Biologic Function]
+
+UI: T160
+RL: conceptual_part_of
+ABR: CP
+RIN: has_conceptual_part
+RTN: R5.11
+DEF: Conceptually a portion, division, or component of some larger whole.
+INH: N
+HL: {isa} conceptually_related_to
+STL: [Body Location or Region|Body Location or Region];
+[Body Location or Region|Body System];
+[Body Location or Region|Fully Formed Anatomical Structure];
+[Body Part, Organ, or Organ Component|Body System];
+[Body Space or Junction|Body System];
+[Body Space or Junction|Fully Formed Anatomical Structure];
+[Body Substance|Body System];
+[Body System|Body System];
+[Body System|Fully Formed Anatomical Structure];
+[Cell Component|Body System];
+[Cell|Body System];
+[Idea or Concept|Behavior];
+[Intellectual Product|Diagnostic Procedure];
+[Intellectual Product|Intellectual Product];
+[Laboratory or Test Result|Laboratory or Test Result];
+[Occupation or Discipline|Occupation or Discipline];
+[Organ or Tissue Function|Temporal Concept];
+[Organism Function|Temporal Concept];
+[Quantitative Concept|Therapeutic or Preventive Procedure];
+[Social Behavior|Social Behavior];
+[Temporal Concept|Cell Function];
+[Temporal Concept|Organ or Tissue Function];
+[Temporal Concept|Organism Function];
+[Temporal Concept|Temporal Concept];
+[Tissue|Body System]
+
+UI: T158
+RL: conceptually_related_to
+ABR: CR
+RIN: conceptually_related_to
+RTN: R5
+DEF: Related by some abstract concept, thought, or idea.
+INH: N
+HL: {isa} associated_with;
+{inverse_isa} property_of;
+{inverse_isa} conceptual_part_of;
+{inverse_isa} evaluation_of;
+{inverse_isa} measures;
+{inverse_isa} diagnoses;
+{inverse_isa} issue_in;
+{inverse_isa} derivative_of;
+{inverse_isa} developmental_form_of;
+{inverse_isa} degree_of;
+{inverse_isa} measurement_of;
+{inverse_isa} method_of;
+{inverse_isa} analyzes
+STL: [Disease or Syndrome|Experimental Model of Disease];
+[Individual Behavior|Idea or Concept]
+
+UI: T174
+RL: connected_to
+ABR: CN
+RIN: connected_to
+RTN: R1.4
+DEF: Directly attached to another physical unit as tendons are connected to
+muscles.  This includes attached to and anchored to.
+HL: {isa} physically_related_to
+STL: [Body Location or Region|Body Location or Region];
+[Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component];
+[Body Part, Organ, or Organ Component|Body Space or Junction];
+[Body Part, Organ, or Organ Component|Body Substance];
+[Body Part, Organ, or Organ Component|Tissue];
+[Body Space or Junction|Tissue]
+
+UI: T172
+RL: consists_of
+ABR: CS
+RIN: constitutes
+RTN: R1.2
+DEF: Is structurally made up of in whole or in part of some material or matter.
+This includes composed of, made of, and formed of.
+HL: {isa} physically_related_to
+STL: [Amino Acid, Peptide, or Protein|Amino Acid, Peptide, or Protein];
+[Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component];
+[Body Part, Organ, or Organ Component|Body Substance];
+[Body Substance|Body Substance];
+[Body Substance|Organic Chemical];
+[Cell|Cell];
+[Gene or Genome|Gene or Genome];
+[Tissue|Tissue]
+
+UI: T134
+RL: contains
+ABR: CT
+RIN: contained_in
+RTN: R1.3
+DEF: Holds or is the receptacle for fluids or other substances.  This includes is
+filled with, holds, and is occupied by.
+HL: {isa} physically_related_to
+STL: [Body Space or Junction|Body Part, Organ, or Organ Component];
+[Body Space or Junction|Body Substance];
+[Body Space or Junction|Tissue];
+[Drug Delivery Device|Clinical Drug];
+[Embryonic Structure|Body Substance];
+[Fully Formed Anatomical Structure|Body Substance]
+
+UI: T180
+RL: degree_of
+ABR: DE
+RIN: has_degree
+RTN: R5.2
+DEF: The relative intensity of a process or the relative intensity or amount of
+a quality or attribute.
+HL: {isa} conceptually_related_to
+STL: [Organ or Tissue Function|Organ or Tissue Function];
+[Organism Attribute|Organism Attribute];
+[Organism Function|Organism Function];
+[Pathologic Function|Pathologic Function];
+[Sign or Symptom|Sign or Symptom]
+
+UI: T178
+RL: derivative_of
+ABR: DO
+RIN: has_derivative
+RTN: R5.8
+DEF: In chemistry, a substance structurally related to another or that can be
+made from the other substance.  This is used only for structural relationships.
+This does not include functional relationships such as metabolite of, by product
+of, nor analog of.
+HL: {isa} conceptually_related_to
+STL: [Body Substance|Tissue]
+
+UI: T179
+RL: developmental_form_of
+ABR: DF
+RIN: has_developmental_form
+RTN: R5.9
+DEF: An earlier stage in the individual maturation of.
+HL: {isa} conceptually_related_to
+STL: [Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component];
+[Cell|Cell];
+[Embryonic Structure|Body Part, Organ, or Organ Component];
+[Embryonic Structure|Cell];
+[Embryonic Structure|Embryonic Structure];
+[Embryonic Structure|Tissue];
+[Tissue|Body Part, Organ, or Organ Component];
+[Tissue|Tissue]
+
+UI: T163
+RL: diagnoses
+ABR: DI
+RIN: diagnosed_by
+RTN: R5.6
+DEF: Distinguishes or identifies the nature or characteristics of.
+HL: {isa} conceptually_related_to
+STL: [Diagnostic Procedure|Anatomical Abnormality];
+[Diagnostic Procedure|Injury or Poisoning];
+[Diagnostic Procedure|Pathologic Function];
+[Laboratory Procedure|Anatomical Abnormality];
+[Laboratory Procedure|Injury or Poisoning];
+[Laboratory Procedure|Pathologic Function];
+[Pharmacologic Substance|Pathologic Function];
+[Professional or Occupational Group|Pathologic Function];
+[Sign or Symptom|Anatomical Abnormality];
+[Sign or Symptom|Injury or Poisoning];
+[Sign or Symptom|Pathologic Function]
+
+UI: T146
+RL: disrupts
+ABR: DS
+RIN: disrupted_by
+RTN: R3.1.3
+DEF: Alters or influences an already existing condition, state, or situation.
+Produces a negative effect on.
+HL: {isa} affects
+STL: [Biologically Active Substance|Embryonic Structure];
+[Biologically Active Substance|Fully Formed Anatomical Structure];
+[Biologically Active Substance|Physiologic Function];
+[Hazardous or Poisonous Substance|Embryonic Structure];
+[Hazardous or Poisonous Substance|Fully Formed Anatomical Structure];
+[Hazardous or Poisonous Substance|Physiologic Function];
+[Injury or Poisoning|Embryonic Structure];
+[Injury or Poisoning|Fully Formed Anatomical Structure];
+[Injury or Poisoning|Physiologic Function];
+[Pharmacologic Substance|Embryonic Structure];
+[Pharmacologic Substance|Fully Formed Anatomical Structure];
+[Pharmacologic Substance|Physiologic Function]
+
+UI: T161
+RL: evaluation_of
+ABR: EV
+RIN: has_evaluation
+RTN: R5.1
+DEF: Judgment of the value or degree of some attribute or process.
+HL: {isa} conceptually_related_to
+STL: [Finding|Biologic Function];
+[Finding|Organism Attribute];
+[Qualitative Concept|Activity]
+
+UI: T145
+RL: exhibits
+ABR: EX
+RIN: exhibited_by
+RTN: R3.3.2
+DEF: Shows or demonstrates.
+HL: {isa} performs
+STL: [Animal|Behavior];
+[Group|Behavior]
+
+UI: T139
+RL: functionally_related_to
+ABR: FR
+RIN: functionally_related_to
+RTN: R3
+DEF: Related by the carrying out of some function or activity.
+HL: {isa} associated_with;
+{inverse_isa} manifestation_of;
+{inverse_isa} affects;
+{inverse_isa} occurs_in;
+{inverse_isa} uses;
+{inverse_isa} indicates;
+{inverse_isa} result_of;
+{inverse_isa} brings_about;
+{inverse_isa} performs
+STL: <none>
+
+UI: T156
+RL: indicates
+ABR: IN
+RIN: indicated_by
+RTN: R3.7
+DEF: Gives evidence for the presence at some time of an entity or process.
+HL: {isa} functionally_related_to
+STL: [Immunologic Factor|Bacterium];
+[Immunologic Factor|Pathologic Function];
+[Immunologic Factor|Virus];
+[Laboratory or Test Result|Anatomical Abnormality];
+[Laboratory or Test Result|Biologic Function];
+[Laboratory or Test Result|Injury or Poisoning]
+
+UI: T202
+RL: ingredient_of
+ABR: IG
+RIN: has_ingredient
+RTN: R1.8
+DEF: Is a component of, as in a constituent of a preparation.
+HL: {isa} physically_related_to
+STL: [Substance|Clinical Drug]
+
+UI: T142
+RL: interacts_with
+ABR: IW
+RIN: interacts_with
+RTN: R3.1.5
+DEF: Acts, functions, or operates together with.
+HL: {isa} affects
+STL: [Chemical|Chemical];
+[Group|Group];
+[Organism|Organism]
+
+UI: T175
+RL: interconnects
+ABR: IC
+RIN: interconnected_by
+RTN: R1.5
+DEF: Serves to link or join together two or more other physical units.  This
+includes joins, links, conjoins, articulates, separates, and bridges.
+HL: {isa} physically_related_to
+STL: [Body Part, Organ, or Organ Component|Body Space or Junction];
+[Body Space or Junction|Cell];
+[Embryonic Structure|Embryonic Structure]
+
+UI: T186
+RL: isa
+ABR: IS
+RIN: inverse_isa
+RTN: H
+DEF: The basic hierarchical link in the Network.  If one item "isa" another item
+then the first item is more specific in meaning than the second item.
+HL: <none>
+
+UI: T165
+RL: issue_in
+ABR: II
+RIN: has_issue
+RTN: R5.12
+DEF: Is an issue in or a point of discussion, study, debate, or dispute.
+HL: {isa} conceptually_related_to
+STL: [Entity|Occupation or Discipline];
+[Event|Occupation or Discipline]
+
+UI: T135
+RL: location_of
+ABR: LO
+RIN: has_location
+RTN: R2.1
+DEF: The position, site, or region of an entity or the site of a process.
+HL: {isa} spatially_related_to
+STL: [Anatomical Abnormality|Pathologic Function];
+[Anatomical Structure|Bacterium];
+[Anatomical Structure|Fungus];
+[Anatomical Structure|Virus];
+[Bacterium|Biologically Active Substance];
+[Body Location or Region|Anatomical Abnormality];
+[Body Location or Region|Biologic Function];
+[Body Location or Region|Body Location or Region];
+[Body Location or Region|Body Part, Organ, or Organ Component];
+[Body Location or Region|Diagnostic Procedure];
+[Body Location or Region|Injury or Poisoning];
+[Body Location or Region|Therapeutic or Preventive Procedure];
+[Body Location or Region|Tissue];
+[Body Part, Organ, or Organ Component|Body Location or Region];
+[Body Part, Organ, or Organ Component|Body Space or Junction];
+[Body Part, Organ, or Organ Component|Diagnostic Procedure];
+[Body Part, Organ, or Organ Component|Therapeutic or Preventive Procedure];
+[Body Space or Junction|Anatomical Abnormality];
+[Body Space or Junction|Biologic Function];
+[Body Space or Junction|Body Space or Junction];
+[Body Space or Junction|Body Substance];
+[Body Space or Junction|Cell Component];
+[Body Space or Junction|Diagnostic Procedure];
+[Body Space or Junction|Injury or Poisoning];
+[Body Space or Junction|Therapeutic or Preventive Procedure];
+[Cell Component|Body Space or Junction];
+[Cell Component|Diagnostic Procedure];
+[Cell Component|Therapeutic or Preventive Procedure];
+[Cell|Body Space or Junction];
+[Cell|Diagnostic Procedure];
+[Cell|Therapeutic or Preventive Procedure];
+[Embryonic Structure|Biologic Function];
+[Fully Formed Anatomical Structure|Anatomical Abnormality];
+[Fully Formed Anatomical Structure|Biologic Function];
+[Fully Formed Anatomical Structure|Injury or Poisoning];
+[Fungus|Biologically Active Substance];
+[Organization|Occupational Activity];
+[Plant|Biologically Active Substance];
+[Tissue|Body Space or Junction];
+[Tissue|Diagnostic Procedure];
+[Tissue|Therapeutic or Preventive Procedure];
+[Virus|Biologically Active Substance]
+
+UI: T153
+RL: manages
+ABR: MN
+RIN: managed_by
+RTN: R3.1.1
+DEF: Administers, or contributes to the care of an individual or group of
+individuals.
+HL: {isa} affects
+STL: [Health Care Related Organization|Patient or Disabled Group];
+[Professional or Occupational Group|Organization];
+[Self-help or Relief Organization|Patient or Disabled Group]
+
+UI: T150
+RL: manifestation_of
+ABR: MF
+RIN: has_manifestation
+RTN: R3.6
+DEF: That part of a phenomenon which is directly observable or concretely or
+visibly expressed, or which gives evidence to the underlying process.  This
+includes expression of, display of, and exhibition of.
+HL: {isa} functionally_related_to
+STL: [Anatomical Abnormality|Biologic Function];
+[Behavior|Mental or Behavioral Dysfunction];
+[Behavior|Mental Process];
+[Finding|Anatomical Abnormality];
+[Finding|Biologic Function];
+[Finding|Injury or Poisoning];
+[Organism Attribute|Physiologic Function];
+[Pathologic Function|Injury or Poisoning];
+[Pathologic Function|Pathologic Function];
+[Pathologic Function|Physiologic Function]
+
+UI: T182
+RL: measurement_of
+ABR: ME
+RIN: has_measurement
+RTN: R5.4
+DEF: The dimension, quantity, or capacity determined by measuring.
+HL: {isa} conceptually_related_to
+STL: [Laboratory or Test Result|Physiologic Function];
+[Laboratory or Test Result|Substance];
+[Organism Attribute|Physiologic Function];
+[Quantitative Concept|Physiologic Function];
+[Quantitative Concept|Spatial Concept]
+
+UI: T162
+RL: measures
+ABR: MS
+RIN: measured_by
+RTN: R5.5
+DEF: Ascertains or marks the dimensions, quantity, degree, or capacity of.
+HL: {isa} conceptually_related_to
+STL: [Diagnostic Procedure|Body Substance];
+[Diagnostic Procedure|Chemical];
+[Diagnostic Procedure|Natural Phenomenon or Process];
+[Diagnostic Procedure|Organism Attribute];
+[Diagnostic Procedure|Quantitative Concept];
+[Diagnostic Procedure|Temporal Concept];
+[Laboratory Procedure|Body Substance];
+[Laboratory Procedure|Chemical];
+[Laboratory Procedure|Natural Phenomenon or Process];
+[Laboratory Procedure|Organism Attribute];
+[Laboratory Procedure|Quantitative Concept];
+[Laboratory Procedure|Temporal Concept];
+[Research Activity|Body Substance];
+[Research Activity|Chemical];
+[Research Activity|Natural Phenomenon or Process];
+[Research Activity|Organism Attribute];
+[Research Activity|Quantitative Concept];
+[Research Activity|Temporal Concept]
+
+UI: T183
+RL: method_of
+ABR: MT
+RIN: has_method
+RTN: R5.10
+DEF: The manner and sequence of events in performing an act or procedure.
+HL: {isa} conceptually_related_to
+STL: [Diagnostic Procedure|Diagnostic Procedure];
+[Laboratory Procedure|Diagnostic Procedure];
+[Laboratory Procedure|Laboratory Procedure];
+[Laboratory Procedure|Therapeutic or Preventive Procedure];
+[Machine Activity|Diagnostic Procedure];
+[Machine Activity|Laboratory Procedure];
+[Machine Activity|Therapeutic or Preventive Procedure];
+[Molecular Biology Research Technique|Diagnostic Procedure];
+[Molecular Biology Research Technique|Therapeutic or Preventive Procedure];
+[Occupational Activity|Occupation or Discipline];
+[Therapeutic or Preventive Procedure|Therapeutic or Preventive Procedure]
+
+UI: T152
+RL: occurs_in
+ABR: OC
+RIN: has_occurrence
+RTN: R3.4
+DEF: Takes place in or happens under given conditions, circumstances, or time
+periods, or in a given location or population.  This includes appears in,
+transpires, comes about, is present in, and exists in.
+HL: {isa} functionally_related_to;
+{inverse_isa} process_of
+STL: [Anatomical Abnormality|Group];
+[Injury or Poisoning|Group];
+[Organ or Tissue Function|Organism Function];
+[Pathologic Function|Disease or Syndrome];
+[Pathologic Function|Group];
+[Pathologic Function|Injury or Poisoning];
+[Physiologic Function|Temporal Concept]
+
+UI: T133
+RL: part_of
+ABR: PT
+RIN: has_part
+RTN: R1.1
+DEF: Composes, with one or more other physical units, some larger whole.  This
+includes component of, division of, portion of, fragment of, section of, and
+layer of.
+HL: {isa} physically_related_to
+STL: [Anatomical Structure|Organism];
+[Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component];
+[Body Space or Junction|Body Part, Organ, or Organ Component];
+[Body Substance|Body Part, Organ, or Organ Component];
+[Body Substance|Body Substance];
+[Cell Component|Body Part, Organ, or Organ Component];
+[Cell Component|Cell Component];
+[Cell Component|Cell];
+[Cell Component|Tissue];
+[Cell|Body Part, Organ, or Organ Component];
+[Cell|Cell];
+[Cell|Tissue];
+[Embryonic Structure|Cell];
+[Embryonic Structure|Embryonic Structure];
+[Gene or Genome|Body Part, Organ, or Organ Component];
+[Gene or Genome|Cell Component];
+[Gene or Genome|Cell];
+[Gene or Genome|Tissue];
+[Nucleotide Sequence|Nucleotide Sequence];
+[Tissue|Body Part, Organ, or Organ Component];
+[Tissue|Tissue]
+
+UI: T188
+RL: performs
+ABR: PE
+RIN: performed_by
+RTN: R3.3
+DEF: Executes, accomplishes, or achieves an activity.
+HL: {isa} functionally_related_to;
+{inverse_isa} carries_out;
+{inverse_isa} practices;
+{inverse_isa} exhibits
+STL: [Group|Activity]
+
+UI: T132
+RL: physically_related_to
+ABR: PR
+RIN: physically_related_to
+RTN: R1
+DEF: Related by virtue of some physical attribute or characteristic.
+HL: {isa} associated_with;
+{inverse_isa} part_of;
+{inverse_isa} contains;
+{inverse_isa} consists_of;
+{inverse_isa} connected_to;
+{inverse_isa} interconnects;
+{inverse_isa} branch_of;
+{inverse_isa} tributary_of;
+{inverse_isa} ingredient_of
+STL: <none>
+
+UI: T143
+RL: practices
+ABR: PA
+RIN: practiced_by
+RTN: R3.3.3
+DEF: Performs habitually or customarily.
+HL: {isa} performs
+STL: [Professional or Occupational Group|Occupation or Discipline]
+
+UI: T138
+RL: precedes
+ABR: PC
+RIN: follows
+RTN: R4.2
+DEF: Occurs earlier in time.  This includes antedates, comes before, is in
+advance of, predates, and is prior to.
+HL: {isa} temporally_related_to
+STL: [Diagnostic Procedure|Therapeutic or Preventive Procedure];
+[Pathologic Function|Pathologic Function];
+[Physiologic Function|Physiologic Function]
+
+UI: T148
+RL: prevents
+ABR: PV
+RIN: prevented_by
+RTN: R3.1.6
+DEF: Stops, hinders or eliminates an action or condition.
+HL: {isa} affects
+STL: [Medical Device|Injury or Poisoning];
+[Medical Device|Pathologic Function];
+[Pharmacologic Substance|Pathologic Function];
+[Therapeutic or Preventive Procedure|Pathologic Function]
+
+UI: T140
+RL: process_of
+ABR: PO
+RIN: has_process
+RTN: R3.4.1
+DEF: Action, function, or state of.
+HL: {isa} occurs_in
+STL: [Biologic Function|Organism];
+[Individual Behavior|Social Behavior];
+[Natural Phenomenon or Process|Natural Phenomenon or Process]
+STLB: [Mental or Behavioral Dysfunction|Bacterium];
+[Mental or Behavioral Dysfunction|Fungus];
+[Mental or Behavioral Dysfunction|Plant];
+[Mental or Behavioral Dysfunction|Virus];
+[Mental Process|Bacterium];
+[Mental Process|Fungus];
+[Mental Process|Plant];
+[Mental Process|Virus]
+
+UI: T144
+RL: produces
+ABR: PS
+RIN: produced_by
+RTN: R3.2.1
+DEF: Brings forth, generates or creates.  This includes yields, secretes, emits,
+biosynthesizes, generates, releases, discharges, and creates.
+HL: {isa} brings_about
+STL: [Biologic Function|Biologically Active Substance];
+[Biologic Function|Body Substance];
+[Disease or Syndrome|Tissue];
+[Fully Formed Anatomical Structure|Biologically Active Substance];
+[Fully Formed Anatomical Structure|Body Substance];
+[Fully Formed Anatomical Structure|Organic Chemical];
+[Genetic Function|Cell Component];
+[Group|Intellectual Product];
+[Group|Manufactured Object];
+[Organism Function|Age Group];
+[Organism Function|Family Group];
+[Organization|Intellectual Product]
+
+UI: T159
+RL: property_of
+ABR: PP
+RIN: has_property
+RTN: R5.7
+DEF: Characteristic of, or quality of.
+HL: {isa} conceptually_related_to
+STL: [Amino Acid Sequence|Amino Acid, Peptide, or Protein];
+[Amino Acid Sequence|Gene or Genome];
+[Group Attribute|Group];
+[Nucleotide Sequence|Gene or Genome];
+[Nucleotide Sequence|Nucleic Acid, Nucleoside, or Nucleotide];
+[Organism Attribute|Organism]
+
+UI: T157
+RL: result_of
+ABR: RO
+RIN: has_result
+RTN: R3.8
+DEF: The condition, product, or state occurring as a consequence, effect, or
+conclusion of an activity or process.  This includes product of, effect of,
+sequel of, outcome of, culmination of, and completion of.
+HL: {isa} functionally_related_to
+STL: [Acquired Abnormality|Behavior];
+[Anatomical Abnormality|Anatomical Abnormality];
+[Anatomical Abnormality|Health Care Activity];
+[Anatomical Abnormality|Phenomenon or Process];
+[Behavior|Mental Process];
+[Idea or Concept|Mental Process];
+[Injury or Poisoning|Behavior];
+[Injury or Poisoning|Health Care Activity];
+[Laboratory or Test Result|Diagnostic Procedure];
+[Laboratory or Test Result|Laboratory Procedure];
+[Mental Process|Behavior];
+[Organism Attribute|Phenomenon or Process];
+[Pathologic Function|Behavior];
+[Pathologic Function|Health Care Activity];
+[Phenomenon or Process|Anatomical Abnormality];
+[Phenomenon or Process|Phenomenon or Process]
+
+UI: T189
+RL: spatially_related_to
+ABR: SP
+RIN: spatially_related_to
+RTN: R2
+DEF: Related by place or region.
+HL: {isa} associated_with;
+{inverse_isa} location_of;
+{inverse_isa} adjacent_to;
+{inverse_isa} surrounds;
+{inverse_isa} traverses
+STL: <none>
+
+UI: T176
+RL: surrounds
+ABR: SR
+RIN: surrounded_by
+RTN: R2.3
+DEF: Establishes the boundaries for, or defines the limits of another physical
+structure.  This includes limits, bounds, confines, encloses, and circumscribes.
+HL: {isa} spatially_related_to
+STL: [Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component];
+[Body Part, Organ, or Organ Component|Tissue];
+[Body Space or Junction|Body Space or Junction];
+[Body Space or Junction|Cell];
+[Body Substance|Embryonic Structure];
+[Cell Component|Cell Component];
+[Embryonic Structure|Cell];
+[Embryonic Structure|Embryonic Structure];
+[Tissue|Body Space or Junction];
+[Tissue|Body Substance];
+[Tissue|Cell Component];
+[Tissue|Cell];
+[Tissue|Tissue]
+
+UI: T136
+RL: temporally_related_to
+ABR: TR
+RIN: temporally_related_to
+RTN: R4
+DEF: Related in time by preceding, co-occuring with, or following.
+HL: {isa} associated_with;
+{inverse_isa} co-occurs_with;
+{inverse_isa} precedes
+STL: <none>
+
+UI: T177
+RL: traverses
+ABR: TV
+RIN: traversed_by
+RTN: R2.4
+DEF: Crosses or extends across another physical structure or area.  This includes
+crosses over and crosses through.
+HL: {isa} spatially_related_to
+STL: [Body Location or Region|Body Location or Region];
+[Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component]
+
+UI: T154
+RL: treats
+ABR: TS
+RIN: treated_by
+RTN: R3.1.2
+DEF: Applies a remedy with the object of effecting a cure or managing a
+condition.
+HL: {isa} affects
+STL: [Medical Device|Anatomical Abnormality];
+[Medical Device|Injury or Poisoning];
+[Medical Device|Pathologic Function];
+[Medical Device|Sign or Symptom];
+[Pharmacologic Substance|Anatomical Abnormality];
+[Pharmacologic Substance|Injury or Poisoning];
+[Pharmacologic Substance|Pathologic Function];
+[Pharmacologic Substance|Sign or Symptom];
+[Professional or Occupational Group|Patient or Disabled Group];
+[Therapeutic or Preventive Procedure|Anatomical Abnormality];
+[Therapeutic or Preventive Procedure|Injury or Poisoning];
+[Therapeutic or Preventive Procedure|Pathologic Function];
+[Therapeutic or Preventive Procedure|Sign or Symptom]
+
+UI: T199
+RL: tributary_of
+ABR: TB
+RIN: has_tributary
+RTN: R1.7
+DEF: Merges with.  For example, the confluence of veins.
+HL: {isa} physically_related_to
+STL: [Body Part, Organ, or Organ Component|Body Part, Organ, or Organ Component]
+
+UI: T155
+RL: uses
+ABR: US
+RIN: used_by
+RTN: R3.5
+DEF: Employs in the carrying out of some activity.  This includes applies,
+utilizes, employs, and avails.
+HL: {isa} functionally_related_to
+STL: [Diagnostic Procedure|Manufactured Object];
+[Diagnostic Procedure|Pharmacologic Substance];
+[Group|Intellectual Product];
+[Group|Manufactured Object];
+[Research Activity|Research Device];
+[Therapeutic or Preventive Procedure|Food];
+[Therapeutic or Preventive Procedure|Manufactured Object];
+[Therapeutic or Preventive Procedure|Pharmacologic Substance]
+

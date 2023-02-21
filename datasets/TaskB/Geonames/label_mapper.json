@@ -1,0 +1,2081 @@
+{
+    
+    "ADM1": [
+        "first-order administrative division", "administrative division", "administrative", "administrative unit", "executive"
+    ],
+    "ADM1H": [
+        "historical first-order administrative division", "administrative division", "administrative", "historical", "administrative unit", "executive"
+    ],
+    "ADM2": [
+        "second-order administrative division", "administrative division", "administrative" , "administrative unit", "executive"
+    ],
+    "ADM2H": [
+        "historical second-order administrative division", "administrative division", "administrative", "historical", "administrative unit", "executive"
+    ],
+    "ADM3": [
+        "third-order administrative division", "administrative division", "administrative", "administrative unit", "executive"
+    ],
+    "ADM3H": [
+        "historical third-order administrative division", "administrative division", "administrative", "historical", "administrative unit", "executive"
+    ],
+    "ADM4": [
+        "fourth-order administrative division", "administrative division", "administrative", "administrative unit", "executive"
+    ],
+    "ADM4H": [
+        "historical fourth-order administrative division", "administrative division", "administrative", "historical", "administrative unit", "executive"
+    ],
+    "ADM5": [
+        "fifth-order administrative division", "administrative division", "administrative", "administrative unit", "executive"
+    ],
+    "ADM5H": [
+        "historical fifth-order administrative division", "administrative division", "administrative", "historical", "administrative unit", "executive"
+    ],
+    "ADMD": [
+        "administrative division", "administrative", "administrative unit", "executive"
+    ],
+    "ADMDH": [
+        "historical administrative division ", "administrative division", "administrative", "historical", "administrative unit", "executive"
+    ],
+    "LTER": [
+        "leased area", "lease", "rent"
+    ],
+    "PCL": [
+        "political entity", "political", "politic"
+    ],
+    "PCLD": [
+        "dependent political entity",  "political entity", "political", "politic"
+    ],
+    "PCLF": [
+        "freely associated state",  "political entity", "political", "politic"
+    ],
+    "PCLH": [
+        "historical political entity",  "political entity", "political", "politic"
+    ],
+    "PCLI": [
+        "independent political entity", "independent",  "political entity", "political", "politic"
+    ],
+    "PCLIX": [
+        "section of independent political entity", "independent",  "political entity", "political", "politic"
+    ],
+    "PCLS": [
+        "semi-independent political entity", "independent",  "political entity", "political", "politic"
+    ],
+    "PRSH": [
+        "parish", "township", "eparchy", "quarter", "sector", "town", "city"
+    ],
+    "TERR": [
+        "territory", "scope", "land", "ground", "field", "territory", "estate"
+    ],
+    "ZN": [
+        "zone", "area", "region", "terrain", "section", "field", "district", "land"
+    ],
+    "ZNB": [
+        "buffer zone", "zone", "area", "region", "terrain", "section", "field", "district", "land"
+    ],
+    "AIRS": [
+        "seaplane landing area", "seaplane base",  "floatplane", "seaplane", "hydroaerodrome"
+    ],
+    "ANCH": [
+        "anchorage", "harbor", "dock", "port", "berth"
+    ],
+    "BAY": [
+        "bay", "cove", "gulf", "harbor", "lagon", "inlet", "fjord", "estuary", "bayou", "lagoon"
+    ],
+    "BAYS": [
+        "bays", "bay", "cove", "gulf", "harbor", "lagon", "inlet", "fjord", "estuary", "bayou", "lagoon"
+    ],
+    "BGHT": [
+        "bight(s)", "bight", "bights",  "bay", "estuary"
+    ],
+    "BNK": [
+        "bank(s)", "bank", "banks", "beach", "coast", "shore", "strand"
+    ],
+    "BNKR": [
+        "stream bank", "riverbanks", "shorelines", "riparian zones", "river margins", "river edges", "banksides", "floodplains", "levees", "waterfronts"
+    ],
+    "BNKX": [
+        "section of bank", "shoreline portion", "floodplain section", "river", "beach", "coast"
+    ],
+    "BOG": [
+        "bog(s)", "bog", "bogs", "marshes", "swamps", "wetlands",  "mires",  "quagmires", "morasses"
+    ],
+    "CAPG": [
+        "icecap", "polar", "glacier", "ice", "snowfield"
+    ],
+    "CHN": [
+        "channel", "waterway", "canal",  "brook", "runnel", "ditch", "gully"
+    ],
+    "CHNL": [
+        "lake channel(s)", "channel", "waterway", "canal",  "brook", "runnel", "ditch", "gully", "lake inlet", "lake outlet", "river channel", "stream channel", "creek channel", "outflow channel", "inflow channel", "estuary channel", "delta channel", "tidal channel"
+    ],
+    "CHNM": [
+        "marine channel", "channel", "waterway", "canal",  "brook", "runnel", "ditch", "gully", "sea channel", "strait", "passage", "fjord", "inlet", "estuary", "tidal channel"
+    ],
+    "CHNN": [
+        "navigation channel", "channel", "waterway", "canal",  "brook", "runnel", "ditch", "gully", "shipping channel", "navigational channel", "deep water channel", "canal", "inlet channel", "outlet channel", "access channel"
+    ],
+    "CNFL": [
+        "confluence", "junction", "merging",  "joining",  "fusion", "blending"
+    ],
+    "CNL": [
+        "canal", "channel", "waterway",  "brook", "runnel", "ditch", "gully"
+    ],
+    "CNLA": [
+        "aqueduct"
+    ],
+    "CNLB": [
+        "canal bend"
+    ],
+    "CNLD": [
+        "drainage canal"
+    ],
+    "CNLI": [
+        "irrigation canal"
+    ],
+    "CNLN": [
+        "navigation canal(s)"
+    ],
+    "CNLQ": [
+        "abandoned canal"
+    ],
+    "CNLSB": [
+        "underground irrigation canal(s)"
+    ],
+    "CNLX": [
+        "section of canal"
+    ],
+    "COVE": [
+        "cove(s)"
+    ],
+    "CRKT": [
+        "tidal creek(s)"
+    ],
+    "CRNT": [
+        "current"
+    ],
+    "CUTF": [
+        "cutoff"
+    ],
+    "DCK": [
+        "dock(s)"
+    ],
+    "DCKB": [
+        "docking basin"
+    ],
+    "DOMG": [
+        "icecap dome"
+    ],
+    "DPRG": [
+        "icecap depression"
+    ],
+    "DTCH": [
+        "ditch"
+    ],
+    "DTCHD": [
+        "drainage ditch"
+    ],
+    "DTCHI": [
+        "irrigation ditch"
+    ],
+    "DTCHM": [
+        "ditch mouth(s)"
+    ],
+    "ESTY": [
+        "estuary"
+    ],
+    "FISH": [
+        "fishing area"
+    ],
+    "FJD": [
+        "fjord"
+    ],
+    "FJDS": [
+        "fjords"
+    ],
+    "FLLS": [
+        "waterfall(s)"
+    ],
+    "FLLSX": [
+        "section of waterfall(s)"
+    ],
+    "FLTM": [
+        "mud flat(s)"
+    ],
+    "FLTT": [
+        "tidal flat(s)"
+    ],
+    "GLCR": [
+        "glacier(s)"
+    ],
+    "GULF": [
+        "gulf"
+    ],
+    "GYSR": [
+        "geyser"
+    ],
+    "HBR": [
+        "harbor(s)"
+    ],
+    "HBRX": [
+        "section of harbor"
+    ],
+    "INLT": [
+        "inlet"
+    ],
+    "INLTQ": [
+        "former inlet"
+    ],
+    "LBED": [
+        "lake bed(s)"
+    ],
+    "LGN": [
+        "lagoon"
+    ],
+    "LGNS": [
+        "lagoons"
+    ],
+    "LGNX": [
+        "section of lagoon"
+    ],
+    "LK": [
+        "lake"
+    ],
+    "LKC": [
+        "crater lake"
+    ],
+    "LKI": [
+        "intermittent lake"
+    ],
+    "LKN": [
+        "salt lake"
+    ],
+    "LKNI": [
+        "intermittent salt lake"
+    ],
+    "LKO": [
+        "oxbow lake"
+    ],
+    "LKOI": [
+        "intermittent oxbow lake"
+    ],
+    "LKS": [
+        "lakes"
+    ],
+    "LKSB": [
+        "underground lake"
+    ],
+    "LKSC": [
+        "crater lakes"
+    ],
+    "LKSI": [
+        "intermittent lakes"
+    ],
+    "LKSN": [
+        "salt lakes"
+    ],
+    "LKSNI": [
+        "intermittent salt lakes"
+    ],
+    "LKX": [
+        "section of lake"
+    ],
+    "MFGN": [
+        "salt evaporation ponds"
+    ],
+    "MGV": [
+        "mangrove swamp"
+    ],
+    "MOOR": [
+        "moor(s)"
+    ],
+    "MRSH": [
+        "marsh(es)"
+    ],
+    "MRSHN": [
+        "salt marsh"
+    ],
+    "NRWS": [
+        "narrows"
+    ],
+    "OCN": [
+        "ocean"
+    ],
+    "OVF": [
+        "overfalls"
+    ],
+    "PND": [
+        "pond"
+    ],
+    "PNDI": [
+        "intermittent pond"
+    ],
+    "PNDN": [
+        "salt pond"
+    ],
+    "PNDNI": [
+        "intermittent salt pond(s)"
+    ],
+    "PNDS": [
+        "ponds"
+    ],
+    "PNDSF": [
+        "fishponds"
+    ],
+    "PNDSI": [
+        "intermittent ponds"
+    ],
+    "PNDSN": [
+        "salt ponds"
+    ],
+    "POOL": [
+        "pool(s)"
+    ],
+    "POOLI": [
+        "intermittent pool"
+    ],
+    "RCH": [
+        "reach"
+    ],
+    "RDGG": [
+        "icecap ridge"
+    ],
+    "RDST": [
+        "roadstead"
+    ],
+    "RF": [
+        "reef(s)"
+    ],
+    "RFC": [
+        "coral reef(s)"
+    ],
+    "RFX": [
+        "section of reef"
+    ],
+    "RPDS": [
+        "rapids"
+    ],
+    "RSV": [
+        "reservoir(s)"
+    ],
+    "RSVI": [
+        "intermittent reservoir"
+    ],
+    "RSVT": [
+        "water tank"
+    ],
+    "RVN": [
+        "ravine(s)"
+    ],
+    "SBKH": [
+        "sabkha(s)"
+    ],
+    "SD": [
+        "sound"
+    ],
+    "SEA": [
+        "sea"
+    ],
+    "SHOL": [
+        "shoal(s)"
+    ],
+    "SILL": [
+        "sill"
+    ],
+    "SPNG": [
+        "spring(s)"
+    ],
+    "SPNS": [
+        "sulphur spring(s)"
+    ],
+    "SPNT": [
+        "hot spring(s)"
+    ],
+    "STM": [
+        "stream"
+    ],
+    "STMA": [
+        "anabranch"
+    ],
+    "STMB": [
+        "stream bend"
+    ],
+    "STMC": [
+        "canalized stream"
+    ],
+    "STMD": [
+        "distributary(-ies)"
+    ],
+    "STMH": [
+        "headwaters"
+    ],
+    "STMI": [
+        "intermittent stream"
+    ],
+    "STMIX": [
+        "section of intermittent stream"
+    ],
+    "STMM": [
+        "stream mouth(s)"
+    ],
+    "STMQ": [
+        "abandoned watercourse"
+    ],
+    "STMS": [
+        "streams"
+    ],
+    "STMSB": [
+        "lost river"
+    ],
+    "STMX": [
+        "section of stream"
+    ],
+    "STRT": [
+        "strait"
+    ],
+    "SWMP": [
+        "swamp"
+    ],
+    "SYSI": [
+        "irrigation system"
+    ],
+    "TNLC": [
+        "canal tunnel"
+    ],
+    "WAD": [
+        "wadi"
+    ],
+    "WADB": [
+        "wadi bend"
+    ],
+    "WADJ": [
+        "wadi junction"
+    ],
+    "WADM": [
+        "wadi mouth"
+    ],
+    "WADS": [
+        "wadies"
+    ],
+    "WADX": [
+        "section of wadi"
+    ],
+    "WHRL": [
+        "whirlpool"
+    ],
+    "WLL": [
+        "well"
+    ],
+    "WLLQ": [
+        "abandoned well"
+    ],
+    "WLLS": [
+        "wells"
+    ],
+    "WTLD": [
+        "wetland"
+    ],
+    "WTLDI": [
+        "intermittent wetland"
+    ],
+    "WTRC": [
+        "watercourse"
+    ],
+    "WTRH": [
+        "waterhole(s)"
+    ],
+    "AGRC": [
+        "agricultural colony"
+    ],
+    "AMUS": [
+        "amusement park"
+    ],
+    "AREA": [
+        "area"
+    ],
+    "BSND": [
+        "drainage basin"
+    ],
+    "BSNP": [
+        "petroleum basin"
+    ],
+    "BTL": [
+        "battlefield"
+    ],
+    "CLG": [
+        "clearing"
+    ],
+    "CMN": [
+        "common"
+    ],
+    "CNS": [
+        "concession area"
+    ],
+    "COLF": [
+        "coalfield"
+    ],
+    "CONT": [
+        "continent"
+    ],
+    "CST": [
+        "coast"
+    ],
+    "CTRB": [
+        "business center"
+    ],
+    "DEVH": [
+        "housing development"
+    ],
+    "FLD": [
+        "field(s)"
+    ],
+    "FLDI": [
+        "irrigated field(s)"
+    ],
+    "GASF": [
+        "gasfield"
+    ],
+    "GRAZ": [
+        "grazing area"
+    ],
+    "GVL": [
+        "gravel area"
+    ],
+    "INDS": [
+        "industrial area"
+    ],
+    "LAND": [
+        "arctic land"
+    ],
+    "LCTY": [
+        "locality"
+    ],
+    "MILB": [
+        "military base"
+    ],
+    "MNA": [
+        "mining area"
+    ],
+    "MVA": [
+        "maneuver area"
+    ],
+    "NVB": [
+        "naval base"
+    ],
+    "OAS": [
+        "oasis(-es)"
+    ],
+    "OILF": [
+        "oilfield"
+    ],
+    "PEAT": [
+        "peat cutting area"
+    ],
+    "PRK": [
+        "park"
+    ],
+    "PRT": [
+        "port"
+    ],
+    "QCKS": [
+        "quicksand"
+    ],
+    "RES": [
+        "reserve"
+    ],
+    "RESA": [
+        "agricultural reserve"
+    ],
+    "RESF": [
+        "forest reserve"
+    ],
+    "RESH": [
+        "hunting reserve"
+    ],
+    "RESN": [
+        "nature reserve"
+    ],
+    "RESP": [
+        "palm tree reserve"
+    ],
+    "RESV": [
+        "reservation"
+    ],
+    "RESW": [
+        "wildlife reserve"
+    ],
+    "RGN": [
+        "region"
+    ],
+    "RGNE": [
+        "economic region"
+    ],
+    "RGNH": [
+        "historical region"
+    ],
+    "RGNL": [
+        "lake region"
+    ],
+    "RNGA": [
+        "artillery range"
+    ],
+    "SALT": [
+        "salt area"
+    ],
+    "SNOW": [
+        "snowfield"
+    ],
+    "TRB": [
+        "tribal area"
+    ],
+    "PPL": [
+        "populated place"
+    ],
+    "PPLA": [
+        "seat of a first-order administrative division"
+    ],
+    "PPLA2": [
+        "seat of a second-order administrative division"
+    ],
+    "PPLA3": [
+        "seat of a third-order administrative division"
+    ],
+    "PPLA4": [
+        "seat of a fourth-order administrative division"
+    ],
+    "PPLA5": [
+        "seat of a fifth-order administrative division"
+    ],
+    "PPLC": [
+        "capital of a political entity"
+    ],
+    "PPLCH": [
+        "historical capital of a political entity"
+    ],
+    "PPLF": [
+        "farm village"
+    ],
+    "PPLG": [
+        "seat of government of a political entity"
+    ],
+    "PPLH": [
+        "historical populated place"
+    ],
+    "PPLL": [
+        "populated locality"
+    ],
+    "PPLQ": [
+        "abandoned populated place"
+    ],
+    "PPLR": [
+        "religious populated place"
+    ],
+    "PPLS": [
+        "populated places"
+    ],
+    "PPLW": [
+        "destroyed populated place"
+    ],
+    "PPLX": [
+        "section of populated place"
+    ],
+    "STLMT": [
+        "israeli settlement"
+    ],
+    "CSWY": [
+        "causeway"
+    ],
+    "OILP": [
+        "oil pipeline"
+    ],
+    "PRMN": [
+        "promenade"
+    ],
+    "PTGE": [
+        "portage"
+    ],
+    "RD": [
+        "road"
+    ],
+    "RDA": [
+        "ancient road"
+    ],
+    "RDB": [
+        "road bend"
+    ],
+    "RDCUT": [
+        "road cut"
+    ],
+    "RDJCT": [
+        "road junction"
+    ],
+    "RJCT": [
+        "railroad junction"
+    ],
+    "RR": [
+        "railroad"
+    ],
+    "RRQ": [
+        "abandoned railroad"
+    ],
+    "RTE": [
+        "caravan route"
+    ],
+    "RYD": [
+        "railroad yard"
+    ],
+    "ST": [
+        "street"
+    ],
+    "STKR": [
+        "stock route"
+    ],
+    "TNL": [
+        "tunnel"
+    ],
+    "TNLN": [
+        "natural tunnel"
+    ],
+    "TNLRD": [
+        "road tunnel"
+    ],
+    "TNLRR": [
+        "railroad tunnel"
+    ],
+    "TNLS": [
+        "tunnels"
+    ],
+    "TRL": [
+        "trail"
+    ],
+    "ADMF": [
+        "administrative facility"
+    ],
+    "AGRF": [
+        "agricultural facility"
+    ],
+    "AIRB": [
+        "airbase"
+    ],
+    "AIRF": [
+        "airfield"
+    ],
+    "AIRH": [
+        "heliport"
+    ],
+    "AIRP": [
+        "airport"
+    ],
+    "AIRQ": [
+        "abandoned airfield"
+    ],
+    "AIRT": [
+        "terminal"
+    ],
+    "AMTH": [
+        "amphitheater"
+    ],
+    "ANS": [
+        "archaeological/prehistoric site"
+    ],
+    "AQC": [
+        "aquaculture facility"
+    ],
+    "ARCH": [
+        "arch"
+    ],
+    "ARCHV": [
+        "archive"
+    ],
+    "ART": [
+        "piece of art"
+    ],
+    "ASTR": [
+        "astronomical station"
+    ],
+    "ASYL": [
+        "asylum"
+    ],
+    "ATHF": [
+        "athletic field"
+    ],
+    "ATM": [
+        "automatic teller machine"
+    ],
+    "BANK": [
+        "bank"
+    ],
+    "BCN": [
+        "beacon"
+    ],
+    "BDG": [
+        "bridge"
+    ],
+    "BDGQ": [
+        "ruined bridge"
+    ],
+    "BLDA": [
+        "apartment building"
+    ],
+    "BLDG": [
+        "building(s)"
+    ],
+    "BLDO": [
+        "office building"
+    ],
+    "BP": [
+        "boundary marker"
+    ],
+    "BRKS": [
+        "barracks"
+    ],
+    "BRKW": [
+        "breakwater"
+    ],
+    "BSTN": [
+        "baling station"
+    ],
+    "BTYD": [
+        "boatyard"
+    ],
+    "BUR": [
+        "burial cave(s)"
+    ],
+    "BUSTN": [
+        "bus station"
+    ],
+    "BUSTP": [
+        "bus stop"
+    ],
+    "CARN": [
+        "cairn"
+    ],
+    "CAVE": [
+        "cave(s)"
+    ],
+    "CH": [
+        "church"
+    ],
+    "CMP": [
+        "camp(s)"
+    ],
+    "CMPL": [
+        "logging camp"
+    ],
+    "CMPLA": [
+        "labor camp"
+    ],
+    "CMPMN": [
+        "mining camp"
+    ],
+    "CMPO": [
+        "oil camp"
+    ],
+    "CMPQ": [
+        "abandoned camp"
+    ],
+    "CMPRF": [
+        "refugee camp"
+    ],
+    "CMTY": [
+        "cemetery"
+    ],
+    "COMC": [
+        "communication center"
+    ],
+    "CRRL": [
+        "corral(s)"
+    ],
+    "CSNO": [
+        "casino"
+    ],
+    "CSTL": [
+        "castle"
+    ],
+    "CSTM": [
+        "customs house"
+    ],
+    "CTHSE": [
+        "courthouse"
+    ],
+    "CTRA": [
+        "atomic center"
+    ],
+    "CTRCM": [
+        "community center"
+    ],
+    "CTRF": [
+        "facility center"
+    ],
+    "CTRM": [
+        "medical center"
+    ],
+    "CTRR": [
+        "religious center"
+    ],
+    "CTRS": [
+        "space center"
+    ],
+    "CVNT": [
+        "convent"
+    ],
+    "DAM": [
+        "dam"
+    ],
+    "DAMQ": [
+        "ruined dam"
+    ],
+    "DAMSB": [
+        "sub-surface dam"
+    ],
+    "DARY": [
+        "dairy"
+    ],
+    "DCKD": [
+        "dry dock"
+    ],
+    "DCKY": [
+        "dockyard"
+    ],
+    "DIKE": [
+        "dike"
+    ],
+    "DIP": [
+        "diplomatic facility"
+    ],
+    "DPOF": [
+        "fuel depot"
+    ],
+    "EST": [
+        "estate(s)"
+    ],
+    "ESTO": [
+        "oil palm plantation"
+    ],
+    "ESTR": [
+        "rubber plantation"
+    ],
+    "ESTSG": [
+        "sugar plantation"
+    ],
+    "ESTT": [
+        "tea plantation"
+    ],
+    "ESTX": [
+        "section of estate"
+    ],
+    "FCL": [
+        "facility"
+    ],
+    "FNDY": [
+        "foundry"
+    ],
+    "FRM": [
+        "farm"
+    ],
+    "FRMQ": [
+        "abandoned farm"
+    ],
+    "FRMS": [
+        "farms"
+    ],
+    "FRMT": [
+        "farmstead"
+    ],
+    "FT": [
+        "fort"
+    ],
+    "FY": [
+        "ferry"
+    ],
+    "FYT": [
+        "ferry terminal"
+    ],
+    "GATE": [
+        "gate"
+    ],
+    "GDN": [
+        "garden(s)"
+    ],
+    "GHAT": [
+        "ghat"
+    ],
+    "GHSE": [
+        "guest house"
+    ],
+    "GOSP": [
+        "gas-oil separator plant"
+    ],
+    "GOVL": [
+        "local government office"
+    ],
+    "GRVE": [
+        "grave"
+    ],
+    "HERM": [
+        "hermitage"
+    ],
+    "HLT": [
+        "halting place"
+    ],
+    "HMSD": [
+        "homestead"
+    ],
+    "HSE": [
+        "house(s)"
+    ],
+    "HSEC": [
+        "country house"
+    ],
+    "HSP": [
+        "hospital"
+    ],
+    "HSPC": [
+        "clinic"
+    ],
+    "HSPD": [
+        "dispensary"
+    ],
+    "HSPL": [
+        "leprosarium"
+    ],
+    "HSTS": [
+        "historical site"
+    ],
+    "HTL": [
+        "hotel"
+    ],
+    "HUT": [
+        "hut"
+    ],
+    "HUTS": [
+        "huts"
+    ],
+    "INSM": [
+        "military installation"
+    ],
+    "ITTR": [
+        "research institute"
+    ],
+    "JTY": [
+        "jetty"
+    ],
+    "LDNG": [
+        "landing"
+    ],
+    "LEPC": [
+        "leper colony"
+    ],
+    "LIBR": [
+        "library"
+    ],
+    "LNDF": [
+        "landfill"
+    ],
+    "LOCK": [
+        "lock(s)"
+    ],
+    "LTHSE": [
+        "lighthouse"
+    ],
+    "MALL": [
+        "mall"
+    ],
+    "MAR": [
+        "marina"
+    ],
+    "MFG": [
+        "factory"
+    ],
+    "MFGB": [
+        "brewery"
+    ],
+    "MFGC": [
+        "cannery"
+    ],
+    "MFGCU": [
+        "copper works"
+    ],
+    "MFGLM": [
+        "limekiln"
+    ],
+    "MFGM": [
+        "munitions plant"
+    ],
+    "MFGPH": [
+        "phosphate works"
+    ],
+    "MFGQ": [
+        "abandoned factory"
+    ],
+    "MFGSG": [
+        "sugar refinery"
+    ],
+    "MKT": [
+        "market"
+    ],
+    "ML": [
+        "mill(s)"
+    ],
+    "MLM": [
+        "ore treatment plant"
+    ],
+    "MLO": [
+        "olive oil mill"
+    ],
+    "MLSG": [
+        "sugar mill"
+    ],
+    "MLSGQ": [
+        "former sugar mill"
+    ],
+    "MLSW": [
+        "sawmill"
+    ],
+    "MLWND": [
+        "windmill"
+    ],
+    "MLWTR": [
+        "water mill"
+    ],
+    "MN": [
+        "mine(s)"
+    ],
+    "MNAU": [
+        "gold mine(s)"
+    ],
+    "MNC": [
+        "coal mine(s)"
+    ],
+    "MNCR": [
+        "chrome mine(s)"
+    ],
+    "MNCU": [
+        "copper mine(s)"
+    ],
+    "MNFE": [
+        "iron mine(s)"
+    ],
+    "MNMT": [
+        "monument"
+    ],
+    "MNN": [
+        "salt mine(s)"
+    ],
+    "MNQ": [
+        "abandoned mine"
+    ],
+    "MNQR": [
+        "quarry(-ies)"
+    ],
+    "MOLE": [
+        "mole"
+    ],
+    "MSQE": [
+        "mosque"
+    ],
+    "MSSN": [
+        "mission"
+    ],
+    "MSSNQ": [
+        "abandoned mission"
+    ],
+    "MSTY": [
+        "monastery"
+    ],
+    "MTRO": [
+        "metro station"
+    ],
+    "MUS": [
+        "museum"
+    ],
+    "NOV": [
+        "novitiate"
+    ],
+    "NSY": [
+        "nursery(-ies)"
+    ],
+    "OBPT": [
+        "observation point"
+    ],
+    "OBS": [
+        "observatory"
+    ],
+    "OBSR": [
+        "radio observatory"
+    ],
+    "OILJ": [
+        "oil pipeline junction"
+    ],
+    "OILQ": [
+        "abandoned oil well"
+    ],
+    "OILR": [
+        "oil refinery"
+    ],
+    "OILT": [
+        "tank farm"
+    ],
+    "OILW": [
+        "oil well"
+    ],
+    "OPRA": [
+        "opera house"
+    ],
+    "PAL": [
+        "palace"
+    ],
+    "PGDA": [
+        "pagoda"
+    ],
+    "PIER": [
+        "pier"
+    ],
+    "PKLT": [
+        "parking lot"
+    ],
+    "PMPO": [
+        "oil pumping station"
+    ],
+    "PMPW": [
+        "water pumping station"
+    ],
+    "PO": [
+        "post office"
+    ],
+    "PP": [
+        "police post"
+    ],
+    "PPQ": [
+        "abandoned police post"
+    ],
+    "PRKGT": [
+        "park gate"
+    ],
+    "PRKHQ": [
+        "park headquarters"
+    ],
+    "PRN": [
+        "prison"
+    ],
+    "PRNJ": [
+        "reformatory"
+    ],
+    "PRNQ": [
+        "abandoned prison"
+    ],
+    "PS": [
+        "power station"
+    ],
+    "PSH": [
+        "hydroelectric power station"
+    ],
+    "PSN": [
+        "nuclear power station"
+    ],
+    "PSTB": [
+        "border post"
+    ],
+    "PSTC": [
+        "customs post"
+    ],
+    "PSTP": [
+        "patrol post"
+    ],
+    "PYR": [
+        "pyramid"
+    ],
+    "PYRS": [
+        "pyramids"
+    ],
+    "QUAY": [
+        "quay"
+    ],
+    "RDCR": [
+        "traffic circle"
+    ],
+    "RDIN": [
+        "intersection"
+    ],
+    "RECG": [
+        "golf course"
+    ],
+    "RECR": [
+        "racetrack"
+    ],
+    "REST": [
+        "restaurant"
+    ],
+    "RET": [
+        "store"
+    ],
+    "RHSE": [
+        "resthouse"
+    ],
+    "RKRY": [
+        "rookery"
+    ],
+    "RLG": [
+        "religious site"
+    ],
+    "RLGR": [
+        "retreat"
+    ],
+    "RNCH": [
+        "ranch(es)"
+    ],
+    "RSD": [
+        "railroad siding"
+    ],
+    "RSGNL": [
+        "railroad signal"
+    ],
+    "RSRT": [
+        "resort"
+    ],
+    "RSTN": [
+        "railroad station"
+    ],
+    "RSTNQ": [
+        "abandoned railroad station"
+    ],
+    "RSTP": [
+        "railroad stop"
+    ],
+    "RSTPQ": [
+        "abandoned railroad stop"
+    ],
+    "RUIN": [
+        "ruin(s)"
+    ],
+    "SCH": [
+        "school"
+    ],
+    "SCHA": [
+        "agricultural school"
+    ],
+    "SCHC": [
+        "college"
+    ],
+    "SCHL": [
+        "language school"
+    ],
+    "SCHM": [
+        "military school"
+    ],
+    "SCHN": [
+        "maritime school"
+    ],
+    "SCHT": [
+        "technical school"
+    ],
+    "SECP": [
+        "State Exam Prep Centre"
+    ],
+    "SHPF": [
+        "sheepfold"
+    ],
+    "SHRN": [
+        "shrine"
+    ],
+    "SHSE": [
+        "storehouse"
+    ],
+    "SLCE": [
+        "sluice"
+    ],
+    "SNTR": [
+        "sanatorium"
+    ],
+    "SPA": [
+        "spa"
+    ],
+    "SPLY": [
+        "spillway"
+    ],
+    "SQR": [
+        "square"
+    ],
+    "STBL": [
+        "stable"
+    ],
+    "STDM": [
+        "stadium"
+    ],
+    "STNB": [
+        "scientific research base"
+    ],
+    "STNC": [
+        "coast guard station"
+    ],
+    "STNE": [
+        "experiment station"
+    ],
+    "STNF": [
+        "forest station"
+    ],
+    "STNI": [
+        "inspection station"
+    ],
+    "STNM": [
+        "meteorological station"
+    ],
+    "STNR": [
+        "radio station"
+    ],
+    "STNS": [
+        "satellite station"
+    ],
+    "STNW": [
+        "whaling station"
+    ],
+    "STPS": [
+        "steps"
+    ],
+    "SWT": [
+        "sewage treatment plant"
+    ],
+    "SYG": [
+        "synagogue"
+    ],
+    "THTR": [
+        "theater"
+    ],
+    "TMB": [
+        "tomb(s)"
+    ],
+    "TMPL": [
+        "temple(s)"
+    ],
+    "TNKD": [
+        "cattle dipping tank"
+    ],
+    "TOLL": [
+        "toll gate/barrier"
+    ],
+    "TOWR": [
+        "tower"
+    ],
+    "TRAM": [
+        "tram"
+    ],
+    "TRANT": [
+        "transit terminal"
+    ],
+    "TRIG": [
+        "triangulation station"
+    ],
+    "TRMO": [
+        "oil pipeline terminal"
+    ],
+    "TWO": [
+        "temp work office"
+    ],
+    "UNIP": [
+        "university prep school"
+    ],
+    "UNIV": [
+        "university"
+    ],
+    "USGE": [
+        "united states government establishment"
+    ],
+    "VETF": [
+        "veterinary facility"
+    ],
+    "WALL": [
+        "wall"
+    ],
+    "WALLA": [
+        "ancient wall"
+    ],
+    "WEIR": [
+        "weir(s)"
+    ],
+    "WHRF": [
+        "wharf(-ves)"
+    ],
+    "WRCK": [
+        "wreck"
+    ],
+    "WTRW": [
+        "waterworks"
+    ],
+    "ZNF": [
+        "free trade zone"
+    ],
+    "ZOO": [
+        "zoo"
+    ],
+    "ASPH": [
+        "asphalt lake"
+    ],
+    "ATOL": [
+        "atoll(s)"
+    ],
+    "BAR": [
+        "bar"
+    ],
+    "BCH": [
+        "beach"
+    ],
+    "BCHS": [
+        "beaches"
+    ],
+    "BDLD": [
+        "badlands"
+    ],
+    "BLDR": [
+        "boulder field"
+    ],
+    "BLHL": [
+        "blowhole(s)"
+    ],
+    "BLOW": [
+        "blowout(s)"
+    ],
+    "BNCH": [
+        "bench"
+    ],
+    "BUTE": [
+        "butte(s)"
+    ],
+    "CAPE": [
+        "cape"
+    ],
+    "CFT": [
+        "cleft(s)"
+    ],
+    "CLDA": [
+        "caldera"
+    ],
+    "CLF": [
+        "cliff(s)"
+    ],
+    "CNYN": [
+        "canyon"
+    ],
+    "CONE": [
+        "cone(s)"
+    ],
+    "CRDR": [
+        "corridor"
+    ],
+    "CRQ": [
+        "cirque"
+    ],
+    "CRQS": [
+        "cirques"
+    ],
+    "CRTR": [
+        "crater(s)"
+    ],
+    "CUET": [
+        "cuesta(s)"
+    ],
+    "DLTA": [
+        "delta"
+    ],
+    "DPR": [
+        "depression(s)"
+    ],
+    "DSRT": [
+        "desert"
+    ],
+    "DUNE": [
+        "dune(s)"
+    ],
+    "DVD": [
+        "divide"
+    ],
+    "ERG": [
+        "sandy desert"
+    ],
+    "FAN": [
+        "fan(s)"
+    ],
+    "FORD": [
+        "ford"
+    ],
+    "FSR": [
+        "fissure"
+    ],
+    "GAP": [
+        "gap"
+    ],
+    "GRGE": [
+        "gorge(s)"
+    ],
+    "HDLD": [
+        "headland"
+    ],
+    "HLL": [
+        "hill"
+    ],
+    "HLLS": [
+        "hills"
+    ],
+    "HMCK": [
+        "hammock(s)"
+    ],
+    "HMDA": [
+        "rock desert"
+    ],
+    "INTF": [
+        "interfluve"
+    ],
+    "ISL": [
+        "island"
+    ],
+    "ISLET": [
+        "islet"
+    ],
+    "ISLF": [
+        "artificial island"
+    ],
+    "ISLM": [
+        "mangrove island"
+    ],
+    "ISLS": [
+        "islands"
+    ],
+    "ISLT": [
+        "land-tied island"
+    ],
+    "ISLX": [
+        "section of island"
+    ],
+    "ISTH": [
+        "isthmus"
+    ],
+    "KRST": [
+        "karst area"
+    ],
+    "LAVA": [
+        "lava area"
+    ],
+    "LEV": [
+        "levee"
+    ],
+    "MESA": [
+        "mesa(s)"
+    ],
+    "MND": [
+        "mound(s)"
+    ],
+    "MRN": [
+        "moraine"
+    ],
+    "MT": [
+        "mountain"
+    ],
+    "MTS": [
+        "mountains"
+    ],
+    "NKM": [
+        "meander neck"
+    ],
+    "NTK": [
+        "nunatak"
+    ],
+    "NTKS": [
+        "nunataks"
+    ],
+    "PAN": [
+        "pan"
+    ],
+    "PANS": [
+        "pans"
+    ],
+    "PASS": [
+        "pass"
+    ],
+    "PEN": [
+        "peninsula"
+    ],
+    "PENX": [
+        "section of peninsula"
+    ],
+    "PK": [
+        "peak"
+    ],
+    "PKS": [
+        "peaks"
+    ],
+    "PLAT": [
+        "plateau"
+    ],
+    "PLATX": [
+        "section of plateau"
+    ],
+    "PLDR": [
+        "polder"
+    ],
+    "PLN": [
+        "plain(s)"
+    ],
+    "PLNX": [
+        "section of plain"
+    ],
+    "PROM": [
+        "promontory(-ies)"
+    ],
+    "PT": [
+        "point"
+    ],
+    "PTS": [
+        "points"
+    ],
+    "RDGB": [
+        "beach ridge"
+    ],
+    "RDGE": [
+        "ridge(s)"
+    ],
+    "REG": [
+        "stony desert"
+    ],
+    "RK": [
+        "rock"
+    ],
+    "RKFL": [
+        "rockfall"
+    ],
+    "RKS": [
+        "rocks"
+    ],
+    "SAND": [
+        "sand area"
+    ],
+    "SBED": [
+        "dry stream bed"
+    ],
+    "SCRP": [
+        "escarpment"
+    ],
+    "SDL": [
+        "saddle"
+    ],
+    "SHOR": [
+        "shore"
+    ],
+    "SINK": [
+        "sinkhole"
+    ],
+    "SLID": [
+        "slide"
+    ],
+    "SLP": [
+        "slope(s)"
+    ],
+    "SPIT": [
+        "spit"
+    ],
+    "SPUR": [
+        "spur(s)"
+    ],
+    "TAL": [
+        "talus slope"
+    ],
+    "TRGD": [
+        "interdune trough(s)"
+    ],
+    "TRR": [
+        "terrace"
+    ],
+    "UPLD": [
+        "upland"
+    ],
+    "VAL": [
+        "valley"
+    ],
+    "VALG": [
+        "hanging valley"
+    ],
+    "VALS": [
+        "valleys"
+    ],
+    "VALX": [
+        "section of valley"
+    ],
+    "VLC": [
+        "volcano"
+    ],
+    "APNU": [
+        "apron"
+    ],
+    "ARCU": [
+        "arch"
+    ],
+    "ARRU": [
+        "arrugado"
+    ],
+    "BDLU": [
+        "borderland"
+    ],
+    "BKSU": [
+        "banks"
+    ],
+    "BNKU": [
+        "bank"
+    ],
+    "BSNU": [
+        "basin"
+    ],
+    "CDAU": [
+        "cordillera"
+    ],
+    "CNSU": [
+        "canyons"
+    ],
+    "CNYU": [
+        "canyon"
+    ],
+    "CRSU": [
+        "continental rise"
+    ],
+    "DEPU": [
+        "deep"
+    ],
+    "EDGU": [
+        "shelf edge"
+    ],
+    "ESCU": [
+        "escarpment (or scarp)"
+    ],
+    "FANU": [
+        "fan"
+    ],
+    "FLTU": [
+        "flat"
+    ],
+    "FRZU": [
+        "fracture zone"
+    ],
+    "FURU": [
+        "furrow"
+    ],
+    "GAPU": [
+        "gap"
+    ],
+    "GLYU": [
+        "gully"
+    ],
+    "HLLU": [
+        "hill"
+    ],
+    "HLSU": [
+        "hills"
+    ],
+    "HOLU": [
+        "hole"
+    ],
+    "KNLU": [
+        "knoll"
+    ],
+    "KNSU": [
+        "knolls"
+    ],
+    "LDGU": [
+        "ledge"
+    ],
+    "LEVU": [
+        "levee"
+    ],
+    "MESU": [
+        "mesa"
+    ],
+    "MNDU": [
+        "mound"
+    ],
+    "MOTU": [
+        "moat"
+    ],
+    "MTU": [
+        "mountain"
+    ],
+    "PKSU": [
+        "peaks"
+    ],
+    "PKU": [
+        "peak"
+    ],
+    "PLNU": [
+        "plain"
+    ],
+    "PLTU": [
+        "plateau"
+    ],
+    "PNLU": [
+        "pinnacle"
+    ],
+    "PRVU": [
+        "province"
+    ],
+    "RDGU": [
+        "ridge"
+    ],
+    "RDSU": [
+        "ridges"
+    ],
+    "RFSU": [
+        "reefs"
+    ],
+    "RFU": [
+        "reef"
+    ],
+    "RISU": [
+        "rise"
+    ],
+    "SCNU": [
+        "seachannel"
+    ],
+    "SCSU": [
+        "seachannels"
+    ],
+    "SDLU": [
+        "saddle"
+    ],
+    "SHFU": [
+        "shelf"
+    ],
+    "SHLU": [
+        "shoal"
+    ],
+    "SHSU": [
+        "shoals"
+    ],
+    "SHVU": [
+        "shelf valley"
+    ],
+    "SILU": [
+        "sill"
+    ],
+    "SLPU": [
+        "slope"
+    ],
+    "SMSU": [
+        "seamounts"
+    ],
+    "SMU": [
+        "seamount"
+    ],
+    "SPRU": [
+        "spur"
+    ],
+    "TERU": [
+        "terrace"
+    ],
+    "TMSU": [
+        "tablemounts (or guyots)"
+    ],
+    "TMTU": [
+        "tablemount (or guyot)"
+    ],
+    "TNGU": [
+        "tongue"
+    ],
+    "TRGU": [
+        "trough"
+    ],
+    "TRNU": [
+        "trench"
+    ],
+    "VALU": [
+        "valley"
+    ],
+    "VLSU": [
+        "valleys"
+    ],
+    "BUSH": [
+        "bush(es)"
+    ],
+    "CULT": [
+        "cultivated area"
+    ],
+    "FRST": [
+        "forest(s)"
+    ],
+    "FRSTF": [
+        "fossilized forest"
+    ],
+    "GROVE": [
+        "grove"
+    ],
+    "GRSLD": [
+        "grassland"
+    ],
+    "GRVC": [
+        "coconut grove"
+    ],
+    "GRVO": [
+        "olive grove"
+    ],
+    "GRVP": [
+        "palm grove"
+    ],
+    "GRVPN": [
+        "pine grove"
+    ],
+    "HTH": [
+        "heath"
+    ],
+    "MDW": [
+        "meadow"
+    ],
+    "OCH": [
+        "orchard(s)"
+    ],
+    "SCRB": [
+        "scrubland"
+    ],
+    "TREE": [
+        "tree(s)"
+    ],
+    "TUND": [
+        "tundra"
+    ],
+    "VIN": [
+        "vineyard"
+    ],
+    "VINS": [
+        "vineyards"
+    ],
+    "A": [
+        "country",
+        "state",
+        "region"
+    ],
+    "H": [
+        "stream",
+        "lake"
+    ],
+    "L": [
+        "parks",
+        "area"
+    ],
+    "P": [
+        "city",
+        "village"
+    ],
+    "R": [
+        "road",
+        "railroad"
+    ],
+    "S": [
+        "spot",
+        "building",
+        "farm"
+    ],
+    "T": [
+        "mountain",
+        "hill",
+        "rock"
+    ],
+    "U": [
+        "undersea"
+    ],
+    "V": [
+        "forest",
+        "heath"
+    ]
+}
