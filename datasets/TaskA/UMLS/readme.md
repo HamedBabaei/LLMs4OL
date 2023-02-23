@@ -31,3 +31,13 @@ MEDCIN sub dataset stats:
 - `#` of samples in MEDCIN relation dataset is : 946_042
 - `#` of samples in MEDCIN entity detection dataset is: 333_380
 - `#` of unique relations: 25
+
+## Processed-3
+
+- `#` of samples in NCI entity detection dataset is: 172_472
+
+SNOMEDCT_US sub dataset stats:
+- `#` of samples in SNOMEDCT_US entity detection dataset is: 416_221
+
+MEDCIN sub dataset stats:
+- `#` of samples in MEDCIN entity detection dataset is: 377_449
