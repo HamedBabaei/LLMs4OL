@@ -1,0 +1,21 @@
+{
+    "# of labels": 4,
+    "train": {
+        "# of samples": 40559,
+        "labels-freqs": {
+            "noun": 31761,
+            "verb": 7665,
+            "adjective": 1104,
+            "adverb": 29
+        }
+    },
+    "test": {
+        "# of samples": 9470,
+        "labels-freqs": {
+            "noun": 6818,
+            "verb": 2334,
+            "adjective": 311,
+            "adverb": 7
+        }
+    }
+}
