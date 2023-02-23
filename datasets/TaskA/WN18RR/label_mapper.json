@@ -1,5 +1,6 @@
 {
     "JJ":"adjective", 
     "NN":"noun", 
-    "VB":"verb"
+    "VB":"verb",
+    "RB": "adverb"
 }
