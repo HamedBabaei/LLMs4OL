@@ -6,6 +6,7 @@ datasets/TaskA/UMLS/raw
 !datasets/TaskA/UMLS/processed/*.json
 datasets/TaskA/UMLS/processed/*.tsv
 datasets/TaskA/UMLS/processed-2
+datasets/TaskA/UMLS/processed-3
 !datasets/TaskA/UMLS/processed/images/*
 datasets/TaskA/UMLS/*_entities.json
 datasets/TaskA/Geonames/raw
