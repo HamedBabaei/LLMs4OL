@@ -16,13 +16,13 @@ TaskA/results/*/*/output*.json
 TaskA/results/*/*/nci-output*.json
 TaskA/results/*/*/medicin-output*.json
 TaskA/results/*/*/snomedct_us-output*.json
-
+TaskB/TaskB-experiments
+TaskA/TaskA-experiments
 datasets/TaskA/WN18RR/raw
 datasets/TaskA/WN18RR/processed*
 datasets/TaskA/WN18RR/*entities.json
 documents/*
 .idea
-assets/CountryCodes/*.zip
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
