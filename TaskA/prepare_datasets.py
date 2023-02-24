@@ -164,7 +164,7 @@ def make_umls(config):
         # print(f"# of samples in {sab} relation dataset is : {sab_rel_df.shape[0]:_}")
         sab_ents_list = sab_rel_df['CUI1'].tolist() + sab_rel_df['CUI2'].tolist()
         sab_ents_list = list(set(sab_ents_list))
-        sab_ent_df = umls_entity[umls_entity['CUI'].isin(sab_ents_list)].reset_index()
+        sab_ent_df = umls_entity[umls_entity['CUI'].isin(sab_ents_list) & umls_entity['SAB'].isin([sab])].reset_index()
         print(f"# of samples in {sab} entity detection dataset is: {sab_ent_df.shape[0]:_}")
         return sab_rel_df, sab_ent_df
     
