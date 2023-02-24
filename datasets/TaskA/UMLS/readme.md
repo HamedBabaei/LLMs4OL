@@ -34,10 +34,10 @@ MEDCIN sub dataset stats:
 
 ## Processed-3
 
-- `#` of samples in NCI entity detection dataset is: 172_472
+- `#` of samples in NCI entity detection dataset is: 120_222
 
 SNOMEDCT_US sub dataset stats:
-- `#` of samples in SNOMEDCT_US entity detection dataset is: 416_221
+- `#` of samples in SNOMEDCT_US entity detection dataset is: 347_968
 
 MEDCIN sub dataset stats:
-- `#` of samples in MEDCIN entity detection dataset is: 377_449
+- `#` of samples in MEDCIN entity detection dataset is: 346_286
