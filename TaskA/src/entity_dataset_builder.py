@@ -112,75 +112,76 @@ class WNEntityDatasetBuilder(EntityDatasetBuilder):
 class UMLSEntityDatasetBuilder(EntityDatasetBuilder):
     def __init__(self, config, loader) -> None:
         super().__init__(config, loader)
-        # map A -> A1 and B -> B2 in dataset for level-1
     
     def load_artifcats(self):
         self.umls = {
             source: self.loader.load_df(os.path.join(self.config.umls_processed_dir, source, "UMLS_"+source+"_ENT.csv"))
             for source in self.config.sources_to_consider
         }
-        self.heirarchy = self.loader.load_json(self.config.heirarchy)
+        # self.heirarchy = self.loader.load_json(self.config.heirarchy)
         # self.templates = self.loader.load_json(self.config.templates_json)
         self.label_mapper = self.loader.load_json(self.config.label_mapper)
         
-    def build_dataset(self) -> dict:
+    def build_dataset(self):
         umls_dict = self.make_dataset_dict()
         umls_dict = self.create_train_test_in_levels(umls_dict)
         # self.dataset_dict["templates"] = self.templates
-        self.dataset_dict['label-mapper'] = self.label_mapper
-        self.dataset_dict['heirarchy'] = self.heirarchy
+        # self.dataset_dict['label-mapper'] = self.label_mapper
+        # self.dataset_dict['heirarchy'] = self.heirarchy
         self.dataset_dict['umls'] = self.make_samples(umls_dict)
-        self.dataset_dict["stats"] = self.build_stats()
-        new_dataset_dict = { 
-            source:{
+        # self.dataset_dict["stats"] = self.build_stats()
+        new_dataset_dict = {
+            # source:{
                 # "templates": self.templates,
-                "label-mapper":self.label_mapper,
-                "heirarchy": self.heirarchy[source],
-                "umls": umls,
-                "stats": self.dataset_dict['stats'][source]
-                }
+                # "label-mapper":self.label_mapper,
+                # "heirarchy": self.heirarchy[source],
+                # "umls": umls,
+                # "stats": self.dataset_dict['stats'][source]
+                # }
+            source: umls
             for source, umls in umls_dict.items()}
-        return new_dataset_dict
+        return new_dataset_dict, self.build_stats()
         
     def make_dataset_dict(self):
         umls_dict = {}
         for source, source_df in self.umls.items():
             umls_dict[source] = []
-            for index, cui, str, stn, level1, level2, level3 in tqdm(zip(range(0,source_df.shape[0]),
-                                                                               source_df['CUI'].tolist(),
-                                                                               source_df['STR'].tolist(),
-                                                                               source_df['STNs'].tolist(),
-                                                                               source_df['level-1'].tolist(),
-                                                                               source_df['level-2'].tolist(),
-                                                                               source_df['level-3'].tolist())):
+            for index, cui, str, stn in tqdm(zip(range(0,source_df.shape[0]),
+                                                       source_df['CUI'].tolist(),
+                                                       source_df['STR'].tolist(),
+                                                       source_df['STNs'].tolist())):
                 umls_dict[source].append({
                     "index": index,
                     "cui": cui,
                     "concept": str,
-                    "stn": stn,
-                    "level1": level1,
-                    "level2": level2,
-                    "level3": level3,
+                    "label-names":[self.label_mapper[label].lower() for label in eval(stn)],
+                    "label-str":stn
+                    # "level1": level1,
+                    # "level2": level2,
+                    # "level3": level3,
                 })
         return umls_dict
     
     def create_train_test_in_levels(self, umls_dict):
-        for dataset, heirarchy in tqdm(self.heirarchy.items()):
-            for level, classes in heirarchy.items():
-                if level.startswith("level-1"):
-                    umls_dict[dataset] = self.create_train_test_in_level_x(umls=umls_dict[dataset], classes=classes, label_key="level1", branch=level)
-                elif level.startswith("level-2"):
-                    umls_dict[dataset] = self.create_train_test_in_level_x(umls=umls_dict[dataset], classes=classes, label_key="level2", branch=level)
-                else:
-                    umls_dict[dataset] = self.create_train_test_in_level_x(umls=umls_dict[dataset], classes=classes, label_key="level3", branch=level)
+        # for dataset, heirarchy in tqdm(self.heirarchy.items()):
+        #     for level, classes in heirarchy.items():
+        #         if level.startswith("level-1"):
+        #             umls_dict[dataset] = self.create_train_test_in_level_x(umls=umls_dict[dataset], classes=classes, label_key="level1", branch=level)
+        #         elif level.startswith("level-2"):
+        #             umls_dict[dataset] = self.create_train_test_in_level_x(umls=umls_dict[dataset], classes=classes, label_key="level2", branch=level)
+        #         else:
+        #             umls_dict[dataset] = self.create_train_test_in_level_x(umls=umls_dict[dataset], classes=classes, label_key="level3", branch=level)
+        for dataset in list(umls_dict.keys()):
+            umls_dict[dataset] = self.create_train_test_in_level_x(umls=umls_dict[dataset], classes=list(self.label_mapper.keys()),
+                                                                   label_key="label-str")
         return umls_dict
 
-    def create_train_test_in_level_x(self, umls, classes: list, label_key: str, branch: str):
+    def create_train_test_in_level_x(self, umls, classes: list, label_key: str, branch: str=None):
         indexes, labels = [], []
         for uml in umls:
-            if uml[label_key] in classes:
-                indexes.append(uml['index'])
-                labels.append(uml[label_key])
+            # if uml[label_key] in classes:
+            indexes.append(uml['index'])
+            labels.append(uml[label_key])
 
         train_indexes, test_indexes, _, _ = train_test_split(indexes, labels, 
                                                              test_size=self.config.test_size,
@@ -191,14 +192,16 @@ class UMLSEntityDatasetBuilder(EntityDatasetBuilder):
 
         for index, uml in enumerate(umls):
             if train_indexes_dict.get(uml['index'], "NOT_OK") == "OK":
-                umls[index]["status-in-"+branch] = "train"
-                umls[index]["label-in-"+branch] = uml[label_key]
-                umls[index]["label-strings-in-"+branch] = self.label_mapper[uml[label_key]]
+                # umls[index]["status-in-"+branch] = "train"
+                # umls[index]["label-in-"+branch] = uml[label_key]
+                # umls[index]["label-strings-in-"+branch] = self.label_mapper[uml[label_key]]
+                umls[index]["status"] = "train"
 
             elif test_indexes_dict.get(uml['index'], "NOT_OK") == "OK":
-                umls[index]["status-in-"+branch] = "test"
-                umls[index]["label-in-"+branch] = uml[label_key]
-                umls[index]["label-strings-in-"+branch] = self.label_mapper[uml[label_key]]
+                # umls[index]["status-in-"+branch] = "test"
+                # umls[index]["label-in-"+branch] = uml[label_key]
+                # umls[index]["label-strings-in-"+branch] = self.label_mapper[uml[label_key]]
+                umls[index]["status"] = "test"
         return umls    
 
     def make_samples(self, umls_dict):
@@ -224,19 +227,32 @@ class UMLSEntityDatasetBuilder(EntityDatasetBuilder):
                         freqs[sample[label_in_branch]] += 1
                         samples_no += 1
             return freqs, samples_no
-        stats = {}
-        for dataset, heirarchy in self.heirarchy.items():
-            stats[dataset] = {}
-            for branch, classes in heirarchy.items():
-                train_stats, train_size = get_labels_freqs(dataset=dataset, label_in_branch = "label-in-"+branch, status_in_branch="status-in-"+branch, status="train")
-                test_stats, test_size = get_labels_freqs(dataset=dataset, label_in_branch = "label-in-"+branch, status_in_branch="status-in-"+branch, status="test")
-                stats[dataset][branch] = {
-                    "# of labels": len(classes), 
-                    "# of train samples": train_size,
-                    "# of test samples": test_size,
-                    "labels-freqs in train": train_stats,
-                    "labels-freqs in test": test_stats,
-                    }
+        stats = {"# of labels": len(self.label_mapper)}
+        # for dataset, heirarchy in self.heirarchy.items():
+        #     stats[dataset] = {}
+        #     for branch, classes in heirarchy.items():
+        #         train_stats, train_size = get_labels_freqs(dataset=dataset, label_in_branch = "label-in-"+branch, status_in_branch="status-in-"+branch, status="train")
+        #         test_stats, test_size = get_labels_freqs(dataset=dataset, label_in_branch = "label-in-"+branch, status_in_branch="status-in-"+branch, status="test")
+        #         stats[dataset][branch] = {
+        #             "# of labels": len(classes),
+        #             "# of train samples": train_size,
+        #             "# of test samples": test_size,
+        #             "labels-freqs in train": train_stats,
+        #             "labels-freqs in test": test_stats,
+        #             }
+
+        for source in list(self.dataset_dict['umls'].keys()):
+            train_stats, train_size = get_labels_freqs(dataset=source, label_in_branch = "label-str",
+                                                       status_in_branch="status", status="train")
+            test_stats, test_size = get_labels_freqs(dataset=source, label_in_branch = "label-str",
+                                                     status_in_branch="status", status="test")
+            stats[source] = {
+                "# of train samples": train_size,
+                "# of test samples": test_size,
+                "labels-freqs in train": train_stats,
+                "labels-freqs in test": test_stats,
+                }
+
         return stats
 
 class GeonameEntityDatasetBuilder(EntityDatasetBuilder):

@@ -21,7 +21,7 @@ class BaseConfig:
             "umls": ["UMLS", self.add_umls],
             "nci": ["UMLS", self.add_umls],
             "snomedct_us": ["UMLS", self.add_umls],
-            "medicin": ["UMLS", self.add_umls]
+            "medcin": ["UMLS", self.add_umls]
             }
 
     def add_wn18rr(self, dataset: str):
@@ -77,18 +77,20 @@ class BaseConfig:
         self.parser.add_argument("--dataset", type=str, default=kb_name)
         time = str(datetime.datetime.now()).split('.')[0]
         if dataset == "UMLS" and kb_name != "umls":
-            print("working with entity path of:", f"datasets/{dataset}/{kb_name}_entities.json")
+            print("working with entity path of:", f"datasets/TaskA/{dataset}/{kb_name}_entities.json")
             self.parser.add_argument("--entity_path", type=str, default=f"{self.root_dir}/{dataset}/{kb_name}_entities.json")
             self.parser.add_argument("--report_output", type=str, default=f"results/{dataset}/{kb_name}-report-{model}-{template}-{time}.json")
             self.parser.add_argument("--model_output", type=str, default=f"results/{dataset}/{kb_name}-output-{model}-{template}-{time}.json")
+            self.parser.add_argument("--dataset_stats", type=str, default=f"{self.root_dir}/{dataset}/{kb_name}_stats.json")
         else:
             self.parser.add_argument("--entity_path", type=str, default=f"{self.root_dir}/{dataset}/{dataset.lower()}_entities.json")
             self.parser.add_argument("--report_output", type=str, default=f"results/{dataset}/report-{model}-{template}-{time}.json")
             self.parser.add_argument("--model_output", type=str, default=f"results/{dataset}/output-{model}-{template}-{time}.json")
+            self.parser.add_argument("--dataset_stats", type=str, default=f"{self.root_dir}/{dataset}/stats.json")
 
         self.parser.add_argument("--templates_json", type=str, default=f"{self.root_dir}/{dataset}/templates.json")
         self.parser.add_argument("--label_mapper", type=str, default=f"{self.root_dir}/{dataset}/label_mapper.json")
-        self.parser.add_argument("--dataset_stats", type=str, default=f"{self.root_dir}/{dataset}/stats.json")
+        
         self.parser.add_argument("--heirarchy", type=str, default=f"{self.root_dir}/{dataset}/heirarchy.json")
         self.parser.add_argument("--test_size", type=float, default=0.20)  # This is for UMLS and Geoname Levels!
         self.parser.add_argument("--seed", type=int, default=555)
