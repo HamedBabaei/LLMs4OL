@@ -1,5 +1,4 @@
 #!/bin/bash
-
 docker build -f Dockerfile . -t llms4ol
 
 docker save -o assets/llms4ol.tar llms4ol
