@@ -29,9 +29,6 @@ class WNDataset(Dataset):
             sample = sample.replace("[MASK]", item['label'])
         return {"sample":sample, "label":label}
 
-    def get_stats(self):
-        return self.data['stats']
-
     def collate_fn(self, batchs):
         batchs_clear = {"sample":[], "label":[]}
         for batch in batchs:
@@ -77,9 +74,6 @@ class GeonameDataset(Dataset):
         if self.is_train:
             sample = sample.replace("[MASK]", 'or '.join(item['label-strings-in-'+self.level_key]))
         return {"sample":sample, "label":label}
-    
-    def get_stats(self):
-        return self.stats[self.level_key]
 
     def collate_fn(self, batchs):
         batchs_clear = {"sample":[], "label":[]}
@@ -123,9 +117,6 @@ class UMLSDataset(Dataset):
         if self.is_train:
             sample = sample.replace("[MASK]", 'or '.join(item['label-strings-in-'+self.level_key]))
         return {"sample":sample, "label":label}
-    
-    def get_stats(self):
-        return self.stats[self.level_key]
 
     def collate_fn(self, batchs):
         batchs_clear = {"sample":[], "label":[]}
@@ -135,7 +126,7 @@ class UMLSDataset(Dataset):
         return batchs_clear
 
 
-class Level1InferenceDatasetFactory:
+class InferenceDatasetFactory:
     def __new__(CLS, kb_name, data, templates, template) -> Dataset:
         if kb_name == "geonames":
             return GeonameDataset(data=data, kb_name=kb_name, 
