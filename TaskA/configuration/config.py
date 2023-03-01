@@ -3,6 +3,7 @@
 """
 import argparse
 import datetime
+import os
 
 class BaseConfig:
     """
@@ -13,6 +14,7 @@ class BaseConfig:
             Data configuration
         """
         self.root_dir = "../datasets/TaskA"
+        self.llms_root_dir = "../assets/LLMs"
         self.parser = argparse.ArgumentParser()
         self.version = "" if version == None else "-" + str(version)
         self.argument_getter = {
@@ -23,6 +25,10 @@ class BaseConfig:
             "snomedct_us": ["UMLS", self.add_umls],
             "medcin": ["UMLS", self.add_umls]
             }
+
+    def mkdir(self, path):
+        if not os.path.exists(path):
+            os.mkdir(path)
 
     def add_wn18rr(self, dataset: str):
         self.parser.add_argument("--raw_train", type=str, default=f"{self.root_dir}/{dataset}/raw/train.txt")
@@ -73,20 +79,21 @@ class BaseConfig:
         arguments(dataset=dataset)
         self.parser.add_argument("--kb_name")
         self.parser.add_argument("--model_name")
+        self.parser.add_argument("--device")
         # add general specific arguments
         self.parser.add_argument("--dataset", type=str, default=kb_name)
         time = str(datetime.datetime.now()).split('.')[0]
         if dataset == "UMLS" and kb_name != "umls":
             print("working with entity path of:", f"datasets/TaskA/{dataset}/{kb_name}_entities.json")
             self.parser.add_argument("--entity_path", type=str, default=f"{self.root_dir}/{dataset}/{kb_name}_entities.json")
-            self.parser.add_argument("--report_output", type=str, default=f"results/{dataset}/{kb_name}-report-{model}-{template}-{time}.json")
-            self.parser.add_argument("--model_output", type=str, default=f"results/{dataset}/{kb_name}-output-{model}-{template}-{time}.json")
             self.parser.add_argument("--dataset_stats", type=str, default=f"{self.root_dir}/{dataset}/{kb_name}_stats.json")
         else:
             self.parser.add_argument("--entity_path", type=str, default=f"{self.root_dir}/{dataset}/{dataset.lower()}_entities.json")
-            self.parser.add_argument("--report_output", type=str, default=f"results/{dataset}/report-{model}-{template}-{time}.json")
-            self.parser.add_argument("--model_output", type=str, default=f"results/{dataset}/output-{model}-{template}-{time}.json")
             self.parser.add_argument("--dataset_stats", type=str, default=f"{self.root_dir}/{dataset}/stats.json")
+        if model:
+            self.mkdir(f"results/{kb_name}/{model}")
+        self.parser.add_argument("--report_output", type=str, default=f"results/{kb_name}/{model}/report-{model}-{template}-{time}.json")
+        self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
 
         self.parser.add_argument("--templates_json", type=str, default=f"{self.root_dir}/{dataset}/templates.json")
         self.parser.add_argument("--label_mapper", type=str, default=f"{self.root_dir}/{dataset}/label_mapper.json")
@@ -95,17 +102,26 @@ class BaseConfig:
         self.parser.add_argument("--test_size", type=float, default=0.20)  # This is for UMLS and Geoname Levels!
         self.parser.add_argument("--seed", type=int, default=555)
 
-        self.parser.add_argument("--device", type=str, default="cpu")
+
         self.parser.add_argument("--template", type=str, default=template)
         self.parser.add_argument("--top_n", type=int, default=10)
+        self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
+        self.parser.add_argument("--eval_metric", type=str, default="map")
         self.parser.add_argument("--batch_size", type=int, default=32)
         # add model specific arguments
+
         if model == "bert_large":
-            self.parser.add_argument("--model_path", type=str, default="bert-large-uncased")
-            self.parser.add_argument("--template_name", type=str, default="mlm")
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
+            self.parser.add_argument("--template_name", type=str, default="bert")
+        if model=="bart_large":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bart-large")
+            self.parser.add_argument("--template_name", type=str, default="bart")
         if model == "flan_t5_large":
-            self.parser.add_argument("--model_path", type=str, default="google/flan-t5-large")
-            self.parser.add_argument("--template_name", type=str, default="encoder-decoder")
-            
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-large")
+            self.parser.add_argument("--template_name", type=str, default="t5")
+        if model == "flan_t5_xl":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
+            self.parser.add_argument("--template_name", type=str, default="t5")
+
         self.parser.add_argument("-f")
         return self.parser.parse_args()
