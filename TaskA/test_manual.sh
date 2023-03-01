@@ -1,12 +1,9 @@
 #!/bin/bash
-echo "Enter dataset out of (wn18rr, geonames, nci, snomedct_us, medicin):"
-read kb_name
+read -p "Enter dataset out of (wn18rr, geonames, nci, snomedct_us, medcin):" kb_name
 
-echo "Enter output logs path for $kb_name results:"
-read log
+read -p "Enter output logs path for $kb_name results:" log
 
-echo "Enter the name of model out of (bert_large, flan_t5_large):"
-read model_name
+read -p "Enter the name of model out of (bert_large, flan_t5_large, flan_t5_xl):" model_name
 
 exec > $log
 
