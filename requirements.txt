@@ -1,2 +1,9 @@
+pandas
+tqdm
+argparse
+pathlib
+scikit-learn
+numpy
 transformers
 sentencepiece
+nltk
