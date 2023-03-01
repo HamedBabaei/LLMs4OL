@@ -1,4 +1,5 @@
 from transformers import AutoTokenizer, BertForMaskedLM
+from transformers import BartForConditionalGeneration
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 import torch
 
@@ -24,7 +25,15 @@ class BERTLargeInferenceLM(BaseInferenceLM):
     def __init__(self, config) -> None:
         super().__init__(config)
         self.tokenizer = AutoTokenizer.from_pretrained(self.config.model_path)
-        self.model = BertForMaskedLM.from_pretrained(self.config.model_path)
+        self.model_name = config.template_name
+        if self.model_name == "bart":
+            self.model = BartForConditionalGeneration.from_pretrained(self.config.model_path,
+                                                                      forced_bos_token_id=0)
+            print(f"Loaded BartForConditionalGeneration from{self.config.model_path}")
+        else:
+            self.model = BertForMaskedLM.from_pretrained(self.config.model_path)
+            print(f"Loaded BertForMaskedLM from {self.config.model_path}")
+
         self.device = self.config.device
         self.model.to(self.device)
         self.top_n = self.config.top_n
@@ -41,9 +50,15 @@ class BERTLargeInferenceLM(BaseInferenceLM):
         top_n_tokens = torch.topk(mask_token_logits, self.top_n, dim=1)
         predictions, logits = [], []
         for indice, logit in zip(top_n_tokens.indices[0].tolist(), top_n_tokens.values[0].tolist()):
-            predictions.append(self.tokenizer.decode([indice]))
+            if self.model_name=='bart':
+                predictions.append(self.__output_cleaner(self.tokenizer.decode([indice])))
+            else:
+                predictions.append(self.tokenizer.decode([indice]))
             logits.append(logit)
         return predictions, logits
+
+    def __output_cleaner(self, pred):
+        return pred.strip()
 
     def make_batch_prediction(self, Xs):
         inputs = self.tokenizer(Xs, return_tensors="pt", padding=True)
@@ -59,7 +74,10 @@ class BERTLargeInferenceLM(BaseInferenceLM):
             top_n_tokens = torch.topk(mask_token_logits, self.top_n, dim=1)
             predictions, logits = [], []
             for indice, logit in zip(top_n_tokens.indices[0].tolist(), top_n_tokens.values[0].tolist()):
-                predictions.append(self.tokenizer.decode([indice]))
+                if self.model_name == 'bart':
+                    predictions.append(self.__output_cleaner(self.tokenizer.decode([indice])))
+                else:
+                    predictions.append(self.tokenizer.decode([indice]))
                 logits.append(logit)
             batch_predictions.append(predictions)
             batch_logits.append(logits)
@@ -72,6 +90,7 @@ class FlanT5LargeInferenceLM(BaseInferenceLM):
         super().__init__(config)
         self.tokenizer = T5Tokenizer.from_pretrained(self.config.model_path)
         self.model = T5ForConditionalGeneration.from_pretrained(self.config.model_path)
+        print(f"Loaded T5ForConditionalGeneration from {self.config.model_path}")
         self.device = self.config.device
         self.model.to(self.device)
         self.top_n = self.config.top_n
@@ -82,7 +101,8 @@ class FlanT5LargeInferenceLM(BaseInferenceLM):
     def predict(self, X:str):
         inputs = self.tokenizer(X, return_tensors="pt")
         inputs.to(self.device)
-        sequence_ids = self.model.generate(inputs.input_ids, num_beams=200, num_return_sequences=self.top_n, max_length=5)
+        with torch.no_grad():
+            sequence_ids = self.model.generate(inputs.input_ids, num_beams=200, num_return_sequences=self.top_n, max_length=5)
         sequences = self.tokenizer.batch_decode(sequence_ids)
         sequences = [self.__output_cleaner(seq) for seq in sequences]
         logits = [0 for seq in sequences]
@@ -102,7 +122,9 @@ class InferenceFactory:
     def __init__(self, config) -> None:
         self.models = {
             "bert_large": BERTLargeInferenceLM,
-            "flan_t5_large": FlanT5LargeInferenceLM
+            "flan_t5_large": FlanT5LargeInferenceLM,
+            "flan_t5_xl": FlanT5LargeInferenceLM,
+            "bart_large": BERTLargeInferenceLM
         }
         self.config = config
     
