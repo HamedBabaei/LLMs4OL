@@ -20,13 +20,13 @@
         "template-8": "'[A]' part of speech is a ?"
     },
     "bart":{
-        "template-1": "[SENTENCE]. [A] POS is a <mask>.",
-        "template-2": "[SENTENCE]. [A] part of speech is a <mask>.",
-        "template-3": "[SENTENCE]. '[A]' POS is a <mask>.",
-        "template-4": "[SENTENCE]. '[A]' part of speech is a <mask>.",
-        "template-5": "[A] POS is a <mask>.",
-        "template-6": "[A] part of speech is a <mask>.",
-        "template-7": "'[A]' POS is a <mask>.",
-        "template-8": "'[A]' part of speech is a <mask>."
+        "template-1": "[SENTENCE]. [A] POS is a <mask> .",
+        "template-2": "[SENTENCE]. [A] part of speech is a <mask> .",
+        "template-3": "[SENTENCE]. '[A]' POS is a <mask> .",
+        "template-4": "[SENTENCE]. '[A]' part of speech is a <mask> .",
+        "template-5": "[A] POS is a <mask> .",
+        "template-6": "[A] part of speech is a <mask> .",
+        "template-7": "'[A]' POS is a <mask> .",
+        "template-8": "'[A]' part of speech is a <mask> ."
     }
 }
