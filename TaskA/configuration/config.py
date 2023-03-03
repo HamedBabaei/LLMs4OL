@@ -5,6 +5,9 @@ import argparse
 import datetime
 import os
 
+
+openai_key = os.getenv("OPEN_AI")
+
 class BaseConfig:
     """
         Base Configs
@@ -122,6 +125,10 @@ class BaseConfig:
         if model == "flan_t5_xl":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
             self.parser.add_argument("--template_name", type=str, default="t5")
+        if model == "gpt3_babbage":
+            self.parser.add_argument("--model_path", type=str, default="text-babbage-001")
+            self.parser.add_argument("--template_name", type=str, default="gpt")
+            self.parser.add_argument("--openai_key", type=str, default=openai_key)
 
         self.parser.add_argument("-f")
         return self.parser.parse_args()
