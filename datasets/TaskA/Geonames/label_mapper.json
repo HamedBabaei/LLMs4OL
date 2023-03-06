@@ -1,0 +1,4070 @@
+{
+    "A":  ["country", "state", "region", "province"],
+    "H":  ["stream", "lake"],
+    "L" : ["parks", "area"],
+    "P" : ["city", "village", "town"],
+    "R" : ["road", "railroad"],
+    "S" : ["spot", "building", "farm"],
+    "T" : ["mountain", "hill", "rock"],
+    "U" : ["undersea"],
+    "V" : ["forest", "heath"],
+    "A.ADM1": {
+        "name": "first-order administrative division",
+        "synonyms": ["region", "state", "province", "department", "county"]
+    },
+    "A.ADM1H": {
+        "name": "historical first-order administrative division",
+        "synonyms": ["kingdom", "empire", "colony", "principality", "dutchy"]
+    },
+    "A.ADM2": {
+        "name": "second-order administrative division",
+        "synonyms": ["county", "district", "department", "prefecture", "region"]
+
+    },
+    "A.ADM2H": {
+        "name": "historical second-order administrative division",
+        "synonyms": ["shire", "province", "demesne", "department", "prefecture"]
+    },
+    "A.ADM3": {
+        "name": "third-order administrative division",
+        "synonyms": ["jurisdiction", "territory", "province", "county", "region"]
+    },
+    "A.ADM3H": {
+        "name": "historical third-order administrative division",
+        "synonyms": ["jurisdiction", "territory", "province", "county", "region"]
+    },
+    "A.ADM4": {
+        "name": "fourth-order administrative division",
+        "synonyms": ["jurisdiction", "territory", "province", "county", "region"]
+    },
+    "A.ADM4H": {
+        "name": "historical fourth-order administrative division",
+        "synonyms": ["jurisdiction", "territory", "province", "county", "region"]
+    },
+    "A.ADM5": {
+        "name": "fifth-order administrative division",
+        "synonyms": ["jurisdiction", "territory", "province", "county", "region"]
+    },
+    "A.ADM5H": {
+        "name": "historical fifth-order administrative division",
+        "synonyms": ["jurisdiction", "territory", "province", "county", "region"]
+    },
+    "A.ADMD": {
+        "name": "administrative division",
+        "synonyms": ["jurisdiction", "territory", "province", "county", "region"]
+    },
+    "A.ADMDH": {
+        "name": "historical administrative division ",
+        "synonyms": ["dutchy", "principality", "province", "empire", "colony"]
+    },
+    "A.LTER": {
+        "name": "leased area",
+        "synonyms": ["leased", "lease", "rent", "rented area", "leased land", "tenanted property", "rental space", "leased premises"]
+    },
+    "A.PCL": {
+        "name": "political entity",
+        "synonyms": ["nation", "state", "country", "province", "territory"]
+    },
+    "A.PCLD": {
+        "name": "dependent political entity",
+        "synonyms": ["colony", "territory", "protectorate", "dependency", "puppet state", "nation", "state", "country", "province", "territory"]
+    },
+    "A.PCLF": {
+        "name": "freely associated state",
+        "synonyms": ["associated state", "self-governing territory", "autonomous region", "self-ruling state", "dependent sovereign"]
+    },
+    "A.PCLH": {
+        "name": "historical political entity",
+        "synonyms": ["nation", "state", "country", "province", "territory"]
+    },
+    "A.PCLI": {
+        "name": "independent political entity",
+        "synonyms": ["nation", "state", "country", "province", "territory"]
+    },
+    "A.PCLIX": {
+        "name": "section of independent political entity",
+        "synonyms": ["nation", "state", "country", "province", "territory"]
+    },
+    "A.PCLS": {
+        "name": "semi-independent political entity",
+        "synonyms": ["nation", "state", "country", "province", "territory"]
+    },
+    "A.PRSH": {
+        "name": "parish",
+        "synonyms": [
+            "community", "township", "community", "village", "ward", "borough"
+        ]
+    },
+    "A.TERR": {
+        "name": "territory",
+        "synonyms": [
+            "border district",
+            "trust territory",
+            "palatinate",
+            "city district",
+            "community",
+            "development",
+            "borderland",
+            "region",
+            "protectorate",
+            "residential area",
+            "jurisdiction",
+            "dominion",
+            "residential district",
+            "associated state"
+        ]
+    },
+    "A.ZN": {
+        "name": "zone",
+        "synonyms": [
+            "place",
+            "topographic point",
+            "spot",
+            "region", "area", "district", "sector", "sphere"
+        ]
+    },
+    "A.ZNB": {
+        "name": "buffer zone",
+        "synonyms": ["region", "area", "district", "sector", "sphere"]
+    },
+    "H.AIRS": {
+        "name": "seaplane landing area",
+        "synonyms": ["seaplane", "floatplane"]
+    },
+    "H.ANCH": {
+        "name": "anchorage",
+        "synonyms": [
+            "undock",
+            "harbor", "port", "marina", "berth"
+        ]
+    },
+    "H.BAY": {
+        "name": "bay",
+        "synonyms": [
+            "sea",
+            "Guantanamo Bay",
+            "embayment",
+            "bight",
+            "water",
+            "inlet", "cove", "harbor", "sound", "gulf"
+        ]
+    },
+    "H.BAYS": {
+        "name": "bays",
+        "synonyms": [
+            "bay", "inlet", "cove", "harbor", "sound", "gulf"
+        ]
+    },
+    "H.BGHT": {
+        "name": "bight(s)",
+        "synonyms": [
+            "bight", "cove", "inlet", "bay", "harbor", "fjord"
+        ]
+    },
+    "H.BNK": {
+        "name": "bank(s)",
+        "synonyms": [
+            "bank", "shore", "beach", "coastline", "embankment", "bluff"
+        ]
+    },
+    "H.BNKR": {
+        "name": "stream bank",
+        "synonyms": ["stream", "riverbank","watercourse", "shoreline", "waterfront"]
+    },
+    "H.BNKX": {
+        "name": "section of bank",
+        "synonyms": ["watercourse", "waterfront"]
+    },
+    "H.BOG": {
+        "name": "bog(s)",
+        "synonyms": [
+            "peatland", "swamp", "marsh", "fen", "quagmire"
+        ]
+    },
+    "H.CAPG": {
+        "name": "icecap",
+        "synonyms": [
+            "ice",
+            "critical mass",
+            "bulk"
+        ]
+    },
+    "H.CHN": {
+        "name": "channel",
+        "synonyms": ["canal","waterway", "canal", "strait", "passage"]
+    },
+    "H.CHNL": {
+        "name": "lake channel(s)",
+        "synonyms": ["canal","waterway", "canal", "strait", "passage", "lake"]
+    },
+    "H.CHNM": {
+        "name": "marine channel",
+        "synonyms": ["canal","marine", "waterway", "canal", "strait", "passage"]
+    },
+    "H.CHNN": {
+        "name": "navigation channel",
+        "synonyms": ["canal","waterway", "canal", "strait", "passage"]
+    },
+    "H.CNFL": {
+        "name": "confluence",
+        "synonyms": [
+            "merging",
+            "coming together",
+            "concourse",
+            "junction", "intersection", "convergence"
+        ]
+    },
+    "H.CNL": {
+        "name": "canal",
+        "synonyms": [
+            "pore",
+            "channel",
+            "passage",
+            "waterway", "aqueduct", "conduit", "ditch"
+        ]
+    },
+    "H.CNLA": {
+        "name": "aqueduct",
+        "synonyms": [
+            "subterranean", "flume", "channel", "duct"
+        ]
+    },
+    "H.CNLB": {
+        "name": "canal bend",
+        "synonyms": ["canal", "canal curve", "meander", "loop", "bend", "turn"]
+    },
+    "H.CNLD": {
+        "name": "drainage canal",
+        "synonyms": ["canal", "waterway", "aqueduct", "conduit", "ditch"]
+    },
+    "H.CNLI": {
+        "name": "irrigation canal",
+        "synonyms": ["canal", "waterway", "aqueduct", "conduit", "ditch"]
+    },
+    "H.CNLN": {
+        "name": "navigation canal(s)",
+        "synonyms": ["canal", "navigation", "waterway", "aqueduct", "conduit", "ditch"]
+    },
+    "H.CNLQ": {
+        "name": "abandoned canal",
+        "synonyms": ["canal", "waterway", "aqueduct", "conduit", "ditch"]
+    },
+    "H.CNLSB": {
+        "name": "underground irrigation canal(s)",
+        "synonyms": ["irrigation", "canal", "waterway", "aqueduct", "conduit", "ditch"]
+    },
+    "H.CNLX": {
+        "name": "section of canal",
+        "synonyms": ["canal" , "waterway", "aqueduct", "conduit", "ditch"]
+    },
+    "H.COVE": {
+        "name": "cove(s)",
+        "synonyms": ["cove", "bay", "gulf", "inlet", "firth", "bight"]
+    },
+    "H.CRKT": {
+        "name": "tidal creek(s)",
+        "synonyms": ["tidal", "creek", "creeks", "stream", "dike", "raceway"]
+    },
+    "H.CRNT": {
+        "name": "current",
+        "synonyms": [
+            "current", "going", "flow", "stream", "course"
+        ]
+    },
+    "H.CUTF": {
+        "name": "cutoff",
+        "synonyms": [
+            "limitation", "cutoff", "cutout"
+        ]
+    },
+    "H.DCK": {
+        "name": "dock(s)",
+        "synonyms": ["dock", "harbor", "anchorage","wharf", "quay", "jetty", "pier", "berth"]
+    },
+    "H.DCKB": {
+        "name": "docking basin",
+        "synonyms": ["dock", "harbor", "anchorage","wharf", "quay", "jetty", "pier", "berth"]
+    },
+    "H.DOMG": {
+        "name": "icecap dome",
+        "synonyms": ["icecap" ]
+    },
+    "H.DPRG": {
+        "name": "icecap depression",
+        "synonyms": []
+    },
+    "H.DTCH": {
+        "name": "ditch",
+        "synonyms": [
+            "drainage ditch",
+            "irrigation ditch",
+            "excavation",
+            "trench", "moat", "hole", "gully", "pit",
+            "trench", "canal", "drain", "gutter", "moat"
+        ]
+    },
+    "H.DTCHD": {
+        "name": "drainage ditch",
+        "synonyms": ["drainage", "trench", "canal", "drain", "gutter", "moat"]
+    },
+    "H.DTCHI": {
+        "name": "irrigation ditch",
+        "synonyms": ["irrigation", "trench", "canal", "drain", "gutter", "moat"]
+    },
+    "H.DTCHM": {
+        "name": "ditch mouth(s)",
+        "synonyms": ["ditch mouth", "trench", "canal", "drain", "gutter", "moat"]
+    },
+    "H.ESTY": {
+        "name": "estuary",
+        "synonyms": [
+            "firth",
+            "river",
+            "water",
+            "estuary", "cove", "bay", "firth", "gulf", "inlet"
+        ]
+    },
+    "H.FISH": {
+        "name": "fishing area",
+        "synonyms": ["fishing"]
+    },
+    "H.FJD": {
+        "name": "fjord",
+        "synonyms": [
+            "recess",
+            "inlet",
+            "plateau", "fjord", "fiord", "table land",
+            "fiord", "inlet", "cove", "ría", "sund"
+        ]
+    },
+    "H.FJDS": {
+        "name": "fjords",
+        "synonyms": ["fiord", "inlet", "cove", "ría", "sund"]
+    },
+    "H.FLLS": {
+        "name": "waterfall(s)",
+        "synonyms":["waterfall", "waterfalls", "cascade", "cataract", "rapids", "fall", "chute"]
+    },
+    "H.FLLSX": {
+        "name": "section of waterfall(s)",
+        "synonyms": ["waterfall", "cascade", "cataract", "rapids", "fall", "chute"]
+    },
+    "H.FLTM": {
+        "name": "mud flat(s)",
+        "synonyms": ["flat", "flats", "mud"]
+    },
+    "H.FLTT": {
+        "name": "tidal flat(s)",
+        "synonyms": ["flat", "flats", "tidal"]
+    },
+    "H.GLCR": {
+        "name": "glacier(s)",
+        "synonyms": ["glacier", "icebert", "icefall", "ice"]
+    },
+    "H.GULF": {
+        "name": "gulf",
+        "synonyms": [
+            "sea",
+            "water", "bay"
+        ]
+    },
+    "H.GYSR": {
+        "name": "geyser",
+        "synonyms": ["hot spring", "thermal spring", "fumarole", "mud pot", "steam vent", "spring", "thermal", "lagoon"]
+    },
+    "H.HBR": {
+        "name": "harbor(s)",
+        "synonyms": [
+           "harbor", "port", "haven", "strand", "harbour", "dock", "anchorage"
+        ]
+    },
+    "H.HBRX": {
+        "name": "section of harbor",
+        "synonyms": [ "harbor", "port", "haven", "strand", "harbour", "dock", "anchorage"]
+    },
+    "H.INLT": {
+        "name": "inlet",
+        "synonyms": [
+            "body of water",
+            "sea",
+            "cove",
+            "lake",
+            "fiord",
+            "recess",
+            "fjord",
+            "water"
+        ]
+    },
+    "H.INLTQ": {
+        "name": "former inlet",
+        "synonyms": ["body of water",
+            "sea",
+            "cove",
+            "lake",
+            "fiord",
+            "recess",
+            "fjord",
+            "water"]
+    },
+    "H.LBED": {
+        "name": "lake bed(s)",
+        "synonyms": ["lake", "playa"]
+    },
+    "H.LGN": {
+        "name": "lagoon",
+        "synonyms": [
+            "bayou", "estuary", "inlet", "marsh", "swamp", "backwater"
+        ]
+    },
+    "H.LGNS": {
+        "name": "lagoons",
+        "synonyms": [
+           "bayou", "estuary", "inlet", "marsh", "swamp", "backwater"
+        ]
+    },
+    "H.LGNX": {
+        "name": "section of lagoon",
+        "synonyms": ["bayou", "estuary", "inlet", "marsh", "swamp", "backwater"]
+    },
+    "H.LK": {
+        "name": "lake",
+        "synonyms": [
+            "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"
+        ]
+    },
+    "H.LKC": {
+        "name": "crater lake",
+        "synonyms": ["lake", "carter", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKI": {
+        "name": "intermittent lake",
+        "synonyms": ["lake", "intermittent", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKN": {
+        "name": "salt lake",
+        "synonyms": ["salt"  ]
+    },
+    "H.LKNI": {
+        "name": "intermittent salt lake",
+        "synonyms": ["intermittent", "salt","lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKO": {
+        "name": "oxbow lake",
+        "synonyms": ["lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKOI": {
+        "name": "intermittent oxbow lake",
+        "synonyms": ["intermittent", "lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKS": {
+        "name": "lakes",
+        "synonyms": ["lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"
+        ]
+    },
+    "H.LKSB": {
+        "name": "underground lake",
+        "synonyms": ["cave lake", "underground", "subterranean", "lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKSC": {
+        "name": "crater lakes",
+        "synonyms": ["lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKSI": {
+        "name": "intermittent lakes",
+        "synonyms": ["intermittent", "lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKSN": {
+        "name": "salt lakes",
+        "synonyms": ["lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKSNI": {
+        "name": "intermittent salt lakes",
+        "synonyms": ["intermittent", "lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.LKX": {
+        "name": "section of lake",
+        "synonyms": ["lake", "pool", "inlet", "water", "lagoon", "bayou", "laugh", "floor", "oxbow lake", "pond"]
+    },
+    "H.MFGN": {
+        "name": "salt evaporation ponds",
+        "synonyms": ["salt", "ponds", "salt pans", "salt flats", "salt works", "salt fields", "salt beds"]
+    },
+    "H.MGV": {
+        "name": "mangrove swamp",
+        "synonyms": ["swamp", "marsh", "mangrove"]
+    },
+    "H.MOOR": {
+        "name": "moor(s)",
+        "synonyms": [
+            "moor", "moors", "wasteland", "plain", "field", "flat", "anchor"
+        ]
+    },
+    "H.MRSH": {
+        "name": "marsh(es)",
+        "synonyms": [
+            "marsh", "swamp", "backwater", "lagoon", "marches"
+        ]
+    },
+    "H.MRSHN": {
+        "name": "salt marsh",
+        "synonyms": ["marsh", "salt", "swamp", "salina"]
+    },
+    "H.NRWS": {
+        "name": "narrows",
+        "synonyms": [
+            "narrow", "strait", "passage", "choke point"
+        ]
+    },
+    "H.OCN": {
+        "name": "ocean",
+        "synonyms": [
+            "body of water",
+            "sea",
+            "water"
+        ]
+    },
+    "H.OVF": {
+        "name": "overfalls",
+        "synonyms": [
+            "overfalls", "waterfall", "rapids", "cascade", "cataract", "plunge"
+        ]
+    },
+    "H.PND": {
+        "name": "pond",
+        "synonyms": [
+            "lake", "pool", "waterhole", "inland sea",
+            "lagoon", "pool", "reservoir", "basin", "lakelet"
+        ]
+    },
+    "H.PNDI": {
+        "name": "intermittent pond",
+        "synonyms": ["intermittent", "lagoon", "pool", "reservoir", "basin", "lakelet"]
+    },
+    "H.PNDN": {
+        "name": "salt pond",
+        "synonyms": ["salt", "lagoon", "pool", "reservoir", "basin", "lakelet"]
+    },
+    "H.PNDNI": {
+        "name": "intermittent salt pond(s)",
+        "synonyms": ["intermittent", "ponds", "salt", "lagoon", "pool", "reservoir", "basin", "lakelet"]
+    },
+    "H.PNDS": {
+        "name": "ponds",
+        "synonyms": ["lagoon", "pool", "reservoir", "basin", "lakelet"]
+    },
+    "H.PNDSF": {
+        "name": "fishponds",
+        "synonyms": ["fishpond", "lagoon", "pool", "reservoir", "basin", "lakelet"]
+    },
+    "H.PNDSI": {
+        "name": "intermittent ponds",
+        "synonyms": ["lagoon", "pool", "reservoir", "basin", "lakelet"]
+    },
+    "H.PNDSN": {
+        "name": "salt ponds",
+        "synonyms": ["lagoon", "pool", "reservoir", "basin", "lakelet"]
+    },
+    "H.POOL": {
+        "name": "pool(s)",
+        "synonyms": ["pool", "pools", "lin", "lake", "pond", "lagoon", "pool", "reservoir", "basin", "lakelet"
+        ]
+    },
+    "H.POOLI": {
+        "name": "intermittent pool",
+        "synonyms": ["pool", "pools", "lin", "lake", "pond", "lagoon", "pool", "reservoir", "basin", "lakelet"]
+    },
+    "H.RCH": {
+        "name": "reach",
+        "synonyms": [
+            "stretch", "section", "segment", "length", "part"
+        ]
+    },
+    "H.RDGG": {
+        "name": "icecap ridge",
+        "synonyms": ["icecap", "ridge"]
+    },
+    "H.RDST": {
+        "name": "roadstead",
+        "synonyms": [
+            "way", "path", "route", "direction"
+        ]
+    },
+    "H.RF": {
+        "name": "reef(s)",
+        "synonyms": [
+            "reef", "reefs", "barrier", "atoll", "shoal", "ledge"
+        ]
+    },
+    "H.RFC": {
+        "name": "coral reef(s)",
+        "synonyms": ["coral", "reef", "reefs", "barrier", "atoll", "shoal", "ledge"]
+    },
+    "H.RFX": {
+        "name": "section of reef",
+        "synonyms": ["reef", "reefs", "barrier", "atoll", "shoal", "ledge"]
+    },
+    "H.RPDS": {
+        "name": "rapids",
+        "synonyms": [
+            "rapid", "rapids", "fast", "quick", "harsh", "swift"
+        ]
+    },
+    "H.RSV": {
+        "name": "reservoir(s)",
+        "synonyms": [
+            "reservoir", "reservoirs", "pool", "store", "cistern", "pond", "tank"
+        ]
+    },
+    "H.RSVI": {
+        "name": "intermittent reservoir",
+        "synonyms": ["intermittent", "alternative", "reservoir", "reservoirs", "pool", "store", "cistern", "pond", "tank"]
+    },
+    "H.RSVT": {
+        "name": "water tank",
+        "synonyms": ["cistern", "reservoir", "storage tank", "water container"]
+    },
+    "H.RVN": {
+        "name": "ravine(s)",
+        "synonyms": ["ravine", "ravines", "watercourse", "stream", "gully", 
+                     "gorge", "canyon", "chasm", "cleft"
+        ]
+    },
+    "H.SBKH": {
+        "name": "sabkha(s)",
+        "synonyms": [
+            "sabkha", "sabkhas"
+        ]
+    },
+    "H.SD": {
+        "name": "sound",
+        "synonyms": [
+            "strait", "channel", "inlet", "passage", "waterway"
+        ]
+    },
+    "H.SEA": {
+        "name": "sea",
+        "synonyms": [
+            "bay",
+            "hydrosphere",
+            "gulf",
+            "water",
+            "inlet",
+            "mare", "flood", "ocean", "marine"
+        ]
+    },
+    "H.SHOL": {
+        "name": "shoal(s)",
+        "synonyms": [
+            "shoal", "shoals", "shallow"
+        ]
+    },
+    "H.SILL": {
+        "name": "sill",
+        "synonyms": [
+            "doorsill",
+            "windowsill",
+            "threshold"
+        ]
+    },
+    "H.SPNG": {
+        "name": "spring(s)",
+        "synonyms": [
+            "spring", "springs", "wellspring", "headwaters", "fountainhead", "outflow"
+        ]
+    },
+    "H.SPNS": {
+        "name": "sulphur spring(s)",
+        "synonyms": ["sulphur", "spring", "springs", "wellspring", "headwaters", "fountainhead", "outflow"]
+    },
+    "H.SPNT": {
+        "name": "hot spring(s)",
+        "synonyms": ["hot", "spring", "springs", "wellspring", "headwaters", "fountainhead", "outflow"]
+    },
+    "H.STM": {
+        "name": "stream",
+        "synonyms": [
+            "branch",
+            "ford",
+            "creek",
+            "river",
+            "crossing",
+            "watercourse",
+            "tidewater stream",
+            "tidal stream",
+            "rill",
+            "tidal river",
+            "midstream",
+            "meander",
+            "tidewater river",
+            "headstream",
+            "streamlet",
+            "water"
+        ]
+    },
+    "H.STMA": {
+        "name": "anabranch",
+        "synonyms": [
+            "anabranch"
+        ]
+    },
+    "H.STMB": {
+        "name": "stream bend",
+        "synonyms": ["stream", "brook", "creek", "rivulet", "runnel", "tributary"]
+    },
+    "H.STMC": {
+        "name": "canalized stream",
+        "synonyms": ["canalize", "brook", "creek", "rivulet", "runnel", "tributary"]
+    },
+    "H.STMD": {
+        "name": "distributary(-ies)",
+        "synonyms": [
+            "distributary", "spreader", "frith"
+        ]
+    },
+    "H.STMH": {
+        "name": "headwaters",
+        "synonyms": [
+            "headwater", "hotbed", "source", "fountain", "derivation", "upstream"
+        ]
+    },
+    "H.STMI": {
+        "name": "intermittent stream",
+        "synonyms": ["intermittent", "alternative", "stream", "brook", "creek", "rivulet", "runnel", "tributary"]
+    },
+    "H.STMIX": {
+        "name": "section of intermittent stream",
+        "synonyms": ["intermittent", "alternative", "stream", "brook", "creek", "rivulet", "runnel", "tributary"]
+    },
+    "H.STMM": {
+        "name": "stream mouth(s)",
+        "synonyms": ["stream", "brook", "creek", "rivulet", "runnel", "tributary"]
+    },
+    "H.STMQ": {
+        "name": "abandoned watercourse",
+        "synonyms": ["watercourse", "stream", "abandoned", "left"]
+    },
+    "H.STMS": {
+        "name": "streams",
+        "synonyms": ["stream", "brook", "creek", "rivulet", "runnel", "tributary"]
+    },
+    "H.STMSB": {
+        "name": "lost river",
+        "synonyms": ["river", "lost"]
+    },
+    "H.STMX": {
+        "name": "section of stream",
+        "synonyms": ["stream", "brook", "creek", "rivulet", "runnel", "tributary"]
+    },
+    "H.STRT": {
+        "name": "strait",
+        "synonyms": [
+            "channel",
+            "narrow"
+        ]
+    },
+    "H.SWMP": {
+        "name": "swamp",
+        "synonyms": [
+            "swampland",
+            "marsh", "flenland", "bog", "lagoon"
+        ]
+    },
+    "H.SYSI": {
+        "name": "irrigation system",
+        "synonyms": ["irrigation"]
+    },
+    "H.TNLC": {
+        "name": "canal tunnel",
+        "synonyms": ["tunnel", "canal", "underpass", "burrow", "gully", "channel"]
+    },
+    "H.WAD": {
+        "name": "wadi",
+        "synonyms": ["valley", "arroyo", "ravine"]
+    },
+    "H.WADB": {
+        "name": "wadi bend",
+        "synonyms": ["wadi", "bend", "curve", "valley", "arroyo", "ravine"]
+    },
+    "H.WADJ": {
+        "name": "wadi junction",
+        "synonyms": ["wadi", "junction", "valley", "arroyo", "ravine"]
+    },
+    "H.WADM": {
+        "name": "wadi mouth",
+        "synonyms": ["wadi", "mouth", "valley", "arroyo", "ravine"]
+    },
+    "H.WADS": {
+        "name": "wadies",
+        "synonyms": [
+            "wadi", "wadies","wadi", "valley", "arroyo", "ravine"
+        ]
+    },
+    "H.WADX": {
+        "name": "section of wadi",
+        "synonyms": ["valley", "arroyo", "ravine"]
+    },
+    "H.WHRL": {
+        "name": "whirlpool",
+        "synonyms": [
+            "current",
+            "vortex",
+            "maelstrom",
+            "Charybdis"
+        ]
+    },
+    "H.WLL": {
+        "name": "well",
+        "synonyms": [
+            "well", "pit", "shaft"
+        ]
+    },
+    "H.WLLQ": {
+        "name": "abandoned well",
+        "synonyms": [ "well", "pit", "shaft"]
+    },
+    "H.WLLS": {
+        "name": "wells",
+        "synonyms": [
+             "well", "pit", "shaft"
+        ]
+    },
+    "H.WTLD": {
+        "name": "wetland",
+        "synonyms": [
+            "swampland",
+            "bog",
+            "land",
+            "marsh",
+            "marshland"
+        ]
+    },
+    "H.WTLDI": {
+        "name": "intermittent wetland",
+        "synonyms": ["swampland",
+            "bog",
+            "land",
+            "marsh",
+            "marshland"]
+    },
+    "H.WTRC": {
+        "name": "watercourse",
+        "synonyms": [
+            "stream",
+            "tailrace",
+            "canal",
+            "flume"
+        ]
+    },
+    "H.WTRH": {
+        "name": "waterhole(s)",
+        "synonyms": [
+            "stream",
+            "tailrace",
+            "canal",
+            "flume",
+            "waterhole",
+            "waterholes"
+        ]
+    },
+    "L.AGRC": {
+        "name": "agricultural colony",
+        "synonyms": ["agricultural", "colony"]
+    },
+    "L.AMUS": {
+        "name": "amusement park",
+        "synonyms": ["amusement", "park"]
+    },
+    "L.AREA": {
+        "name": "area",
+        "synonyms": [
+            "region", "zone", "sector", "district", "realm"
+        ]
+    },
+    "L.BSND": {
+        "name": "drainage basin",
+        "synonyms": ["basin", "valley", "hollow", "gully", "channel", "drainage"]
+    },
+    "L.BSNP": {
+        "name": "petroleum basin",
+        "synonyms": ["basin", "valley", "hollow", "gully", "channel", "petroleum"]
+    },
+    "L.BTL": {
+        "name": "battlefield",
+        "synonyms": [
+            "field of battle",
+            "field",
+            "field", "square", "ground", "plaza", "battlefield", "scope"
+        ]
+    },
+    "L.CLG": {
+        "name": "clearing",
+        "synonyms": ["glade", "dell", "space", "gap", "opening"]
+    },
+    "L.CMN": {
+        "name": "common",
+        "synonyms": [
+            "public", "usual", "general", "universal", "popular"]
+    },
+    "L.CNS": {
+        "name": "concession area",
+        "synonyms": ["concession", "area", "zone", "space", "region"]
+    },
+    "L.COLF": {
+        "name": "coalfield",
+        "synonyms": [
+            "coalfield", "field", "basin", "deposit", "mine"
+        ]
+    },
+    "L.CONT": {
+        "name": "continent",
+        "synonyms": [
+            "mainland",
+            "subcontinent"
+        ]
+    },
+    "L.CST": {
+        "name": "coast",
+        "synonyms": [
+            "seashore",
+            "seacoast",
+            "shore",
+            "seaboard",
+            "tideland",
+            "beach", "bank", "seaside", "coastline", "seaboard"
+        ]
+    },
+    "L.CTRB": {
+        "name": "business center",
+        "synonyms": ["business", "center"]
+    },
+    "L.DEVH": {
+        "name": "housing development",
+        "synonyms": ["housing", "development", "community"]
+    },
+    "L.FLD": {
+        "name": "field(s)",
+        "synonyms": ["field", "fields", "plain", "farm", "grassland", "pastureland", "sward",  "meadow"]
+    },
+    "L.FLDI": {
+        "name": "irrigated field(s)",
+        "synonyms": ["field", "fields", "plain", "farm", "grassland", "pastureland", "sward",  "meadow", "watered", "irrigated"]
+    },
+    "L.GASF": {
+        "name": "gasfield",
+        "synonyms": [
+            "gas", "field", "deposit", "reserve", "gas reserve", "gas deposit"
+        ]
+    },
+    "L.GRAZ": {
+        "name": "grazing area",
+        "synonyms": [
+            "pasture", "range", "meadow", "paddock", "field"
+        ]
+    },
+    "L.GVL": {
+        "name": "gravel area",
+        "synonyms": ["gravel", "sand", "area", "pebbles", "sand dune"]
+    },
+    "L.INDS": {
+        "name": "industrial area",
+        "synonyms": ["industrial", "manufacturing", "production area", "business", "business park"]
+    },
+    "L.LAND": {
+        "name": "arctic land",
+        "synonyms": ["arctic", "polar", "northerly", "northern"]
+    },
+    "L.LCTY": {
+        "name": "locality",
+        "synonyms": [
+            "place", "spot", "site", "locale", "area"
+        ]
+    },
+    "L.MILB": {
+        "name": "military base",
+        "synonyms": ["military camp", "military post", "military"]
+    },
+    "L.MNA": {
+        "name": "mining area",
+        "synonyms": ["mining", "zone", "area", "mining district", "mining region", "mineral field", "mineral district", "ore field"]
+    },
+    "L.MVA": {
+        "name": "maneuver area",
+        "synonyms": ["maneuver", "operation", "exercise"]
+    },
+    "L.NVB": {
+        "name": "naval base",
+        "synonyms": ["naval", "base"]
+    },
+    "L.OAS": {
+        "name": "oasis(-es)",
+        "synonyms": [
+            "oasis", "oasises", "spring", "gnamma"
+        ]
+    },
+    "L.OILF": {
+        "name": "oilfield",
+        "synonyms": [
+            "seabed",
+            "oil",
+            "oil bed", "field"
+        ]
+    },
+    "L.PEAT": {
+        "name": "peat cutting area",
+        "synonyms": ["peat", "turf", "cutting", "zone", "area"]
+    },
+    "L.PRK": {
+        "name": "park",
+        "synonyms": [
+            "piece of ground",
+            "parkland",
+            "walkway"
+        ]
+    },
+    "L.PRT": {
+        "name": "port",
+        "synonyms": [
+            "haven",
+            "harbour",
+            "seaport", "marina", "dockyard", "wharf"
+        ]
+    },
+    "L.QCKS": {
+        "name": "quicksand",
+        "synonyms": [
+            "quicksand", "dune"
+        ]
+    },
+    "L.RES": {
+        "name": "reserve",
+        "synonyms": [
+            "devote","keep back", "keep", "save", "hold"
+        ]
+    },
+    "L.RESA": {
+        "name": "agricultural reserve",
+        "synonyms": ["agricultural","agricultural","reserve", "devote","keep back", "keep", "save", "hold"]
+    },
+    "L.RESF": {
+        "name": "forest reserve",
+        "synonyms": ["forest","reserve", "keep", "save", "hold"]
+    },
+    "L.RESH": {
+        "name": "hunting reserve",
+        "synonyms": ["hunting","reserve","keep", "save", "hold"]
+    },
+    "L.RESN": {
+        "name": "nature reserve",
+        "synonyms": ["nature","reserve","keep", "save", "hold"]
+    },
+    "L.RESP": {
+        "name": "palm tree reserve",
+        "synonyms": ["palm tree", "tree","reserve","keep", "save", "hold"]
+    },
+    "L.RESV": {
+        "name": "reservation",
+        "synonyms": [
+            "preserve",
+            "reservation",
+            "reserve","keep", "save", "hold"]
+    },
+    "L.RESW": {
+        "name": "wildlife reserve",
+        "synonyms": ["wildlife","reserve","keep", "save", "hold"]
+    },
+    "L.RGN": {
+        "name": "region",
+        "synonyms": [
+            "pits", "area", "zone", "district", "territory", "division"
+        ]
+    },
+    "L.RGNE": {
+        "name": "economic region",
+        "synonyms": ["region","economic","area", "zone", "district", "territory", "division"]
+    },
+    "L.RGNH": {
+        "name": "historical region",
+        "synonyms": ["historical","area", "zone", "district", "territory", "division"]
+    },
+    "L.RGNL": {
+        "name": "lake region",
+        "synonyms": ["region","lake","area", "zone", "district", "territory", "division"]
+    },
+    "L.RNGA": {
+        "name": "artillery range",
+        "synonyms": ["region","artillery","area", "zone", "district", "territory", "division"]
+    },
+    "L.SALT": {
+        "name": "salt area",
+        "synonyms": ["saltsalt","area", "zone", "district", "territory", "division"]
+    },
+    "L.SNOW": {
+        "name": "snowfield",
+        "synonyms": [
+            "snow", "field", "zone"
+        ]
+    },
+    "L.TRB": {
+        "name": "tribal area",
+        "synonyms": ["tribal","area", "zone", "district", "territory", "division"]
+    },
+    "P.PPL": {
+        "name": "populated place",
+        "synonyms": ["populated", "populate", "inhabit", "city", "town", "village"]
+    },
+    "P.PPLA": {
+        "name": "seat of a first-order administrative division",
+        "synonyms": []
+    },
+    "P.PPLA2": {
+        "name": "seat of a second-order administrative division",
+        "synonyms": []
+    },
+    "P.PPLA3": {
+        "name": "seat of a third-order administrative division",
+        "synonyms": []
+    },
+    "P.PPLA4": {
+        "name": "seat of a fourth-order administrative division",
+        "synonyms": []
+    },
+    "P.PPLA5": {
+        "name": "seat of a fifth-order administrative division",
+        "synonyms": []
+    },
+    "P.PPLC": {
+        "name": "capital of a political entity",
+        "synonyms": []
+    },
+    "P.PPLCH": {
+        "name": "historical capital of a political entity",
+        "synonyms": []
+    },
+    "P.PPLF": {
+        "name": "farm village",
+        "synonyms": ["farm"]
+    },
+    "P.PPLG": {
+        "name": "seat of government of a political entity",
+        "synonyms": []
+    },
+    "P.PPLH": {
+        "name": "historical populated place",
+        "synonyms": []
+    },
+    "P.PPLL": {
+        "name": "populated locality",
+        "synonyms": []
+    },
+    "P.PPLQ": {
+        "name": "abandoned populated place",
+        "synonyms": []
+    },
+    "P.PPLR": {
+        "name": "religious populated place",
+        "synonyms": []
+    },
+    "P.PPLS": {
+        "name": "populated places",
+        "synonyms": []
+    },
+    "P.PPLW": {
+        "name": "destroyed populated place",
+        "synonyms": []
+    },
+    "P.PPLX": {
+        "name": "section of populated place",
+        "synonyms": []
+    },
+    "P.STLMT": {
+        "name": "israeli settlement",
+        "synonyms": ["settlement"]
+    },
+    "R.CSWY": {
+        "name": "causeway",
+        "synonyms": [
+            "route", "road", "path", "roadway", "passage", "pathway"
+        ]
+    },
+    "R.OILP": {
+        "name": "oil pipeline",
+        "synonyms": ["pipeline", "transport"]
+    },
+    "R.PRMN": {
+        "name": "promenade",
+        "synonyms": [
+            "mall", "park", "boardwalk", "esplanade", "walkway", "seafront", "waterfront"
+        ]
+    },
+    "R.PTGE": {
+        "name": "portage",
+        "synonyms": [
+            "shipping", "shipment", "portage", "carting"
+        ]
+    },
+    "R.RD": {
+        "name": "road",
+        "synonyms": [
+            "highway",
+            "rail line",
+            "way",
+            "side road", "path", "street", "highway", "roadway", "pavement", "line", "broadway"
+        ]
+    },
+    "R.RDA": {
+        "name": "ancient road",
+        "synonyms": ["path", "street", "highway", "roadway", "pavement", "line", "broadway"]
+    },
+    "R.RDB": {
+        "name": "road bend",
+        "synonyms": ["corner","curve","bend","path", "street", "highway", "roadway", "pavement", "line", "broadway"]
+    },
+    "R.RDCUT": {
+        "name": "road cut",
+        "synonyms": ["path", "street", "highway", "roadway", "pavement", "line", "broadway"]
+    },
+    "R.RDJCT": {
+        "name": "road junction",
+        "synonyms": ["intersection", "crossing", "convergence", "junction point", "merging point",
+            "path", "street", "highway", "roadway", "pavement", "line", "broadway"]
+    },
+    "R.RJCT": {
+        "name": "railroad junction",
+        "synonyms": ["intersection", "crossing", "convergence", "junction point", "merging point",
+            "path", "street", "highway", "roadway", "pavement", "line", "broadway",
+            "railway", "road", "rail"]
+    },
+    "R.RR": {
+        "name": "railroad",
+        "synonyms": [
+            "rail",
+            "railway",
+            "monorail",
+            "metro",
+            "railway line",
+            "cable railway",
+            "line", "road"
+        ]
+    },
+    "R.RRQ": {
+        "name": "abandoned railroad",
+        "synonyms": ["rail",
+            "railway",
+            "monorail",
+            "metro",
+            "railway line",
+            "cable railway",
+            "line", "road"]
+    },
+    "R.RTE": {
+        "name": "caravan route",
+        "synonyms": ["caravan", "route", "convoy"]
+    },
+    "R.RYD": {
+        "name": "railroad yard",
+        "synonyms": ["rail",
+            "railway",
+            "monorail",
+            "metro",
+            "railway line",
+            "cable railway",
+            "line", "road"]
+    },
+    "R.ST": {
+        "name": "street",
+        "synonyms": [
+            "avenue",
+            "alley","road", "broadway", "path"
+        ]
+    },
+    "R.STKR": {
+        "name": "stock route",
+        "synonyms": ["stock"]
+    },
+    "R.TNL": {
+        "name": "tunnel",
+        "synonyms": [
+            "tunnel",
+            "subway",
+            "passageway",
+            "underpass", "tube"
+        ]
+    },
+    "R.TNLN": {
+        "name": "natural tunnel",
+        "synonyms": [  "tunnel",
+            "subway",
+            "passageway",
+            "underpass", "tube"]
+    },
+    "R.TNLRD": {
+        "name": "road tunnel",
+        "synonyms": [ "road", "tunnel",
+            "subway",
+            "passageway",
+            "underpass", "tube"]
+    },
+    "R.TNLRR": {
+        "name": "railroad tunnel",
+        "synonyms": ["railroad", "rail","tunnel",
+            "subway",
+            "passageway",
+            "underpass", "tube"]
+    },
+    "R.TNLS": {
+        "name": "tunnels",
+        "synonyms": ["tunnel",
+            "subway",
+            "passageway",
+            "underpass", "tube"
+        ]
+    },
+    "R.TRL": {
+        "name": "trail",
+        "synonyms": [
+           "trail", "line", "series", "sequel"
+        ]
+    },
+    "S.ADMF": {
+        "name": "administrative facility",
+        "synonyms": ["administrative", "facility"]
+    },
+    "S.AGRF": {
+        "name": "agricultural facility",
+        "synonyms": ["agricultural", "facility"]
+    },
+    "S.AIRB": {
+        "name": "airbase",
+        "synonyms": [
+            "airbase", "base"
+        ]
+    },
+    "S.AIRF": {
+        "name": "airfield",
+        "synonyms": [
+            "field", "airport", "airdrome", "taxiway"
+        ]
+    },
+    "S.AIRH": {
+        "name": "heliport",
+        "synonyms": [
+            "field", "airport", "airdrome", "taxiway"
+        ]
+    },
+    "S.AIRP": {
+        "name": "airport",
+        "synonyms": [
+            "heliport","field", "airport", "airdrome", "taxiway"
+        ]
+    },
+    "S.AIRQ": {
+        "name": "abandoned airfield",
+        "synonyms": ["airfield","field", "airport", "airdrome", "taxiway"]
+    },
+    "S.AIRT": {
+        "name": "terminal",
+        "synonyms": [
+            "terminal", "airport terminal",
+            "station", "transit", ""
+        ]
+    },
+    "S.AMTH": {
+        "name": "amphitheater",
+        "synonyms": [
+            "amphitheatre",
+            "tiered seat"
+        ]
+    },
+    "S.ANS": {
+        "name": "archaeological/prehistoric site",
+        "synonyms": ["archaeological", "prehistoric"]
+    },
+    "S.AQC": {
+        "name": "aquaculture facility",
+        "synonyms": ["aquaculture", "facility"]
+    },
+    "S.ARCH": {
+        "name": "arch",
+        "synonyms": [
+            "bend",
+            "flex",
+            "curve",
+            "camber"
+        ]
+    },
+    "S.ARCHV": {
+        "name": "archive",
+        "synonyms": [
+            "files",
+            "deposit",
+            "records",
+            "record"
+        ]
+    },
+    "S.ART": {
+        "name": "piece of art",
+        "synonyms": []
+    },
+    "S.ASTR": {
+        "name": "astronomical station",
+        "synonyms": []
+    },
+    "S.ASYL": {
+        "name": "asylum",
+        "synonyms": [
+            "shelter",
+            "harbour",
+            "safe house",
+            "harbor"
+        ]
+    },
+    "S.ATHF": {
+        "name": "athletic field",
+        "synonyms": ["athletic", "field", "sport", "stadium"]
+    },
+    "S.ATM": {
+        "name": "automatic teller machine",
+        "synonyms": []
+    },
+    "S.BANK": {
+        "name": "bank",
+        "synonyms": [
+            "waterside",
+            "side",
+            "riverbank"
+        ]
+    },
+    "S.BCN": {
+        "name": "beacon",
+        "synonyms": [
+            "signal light",
+            "visual signal",
+            "beacon fire",
+            "beacon", "lantern", "watchtower"
+        ]
+    },
+    "S.BDG": {
+        "name": "bridge",
+        "synonyms": [
+            "bridge", "viaduct", "aqueduct", "overpass", "flyover"
+        ]
+    },
+    "S.BDGQ": {
+        "name": "ruined bridge",
+        "synonyms": ["bridge", "viaduct", "aqueduct", "overpass", "flyover"]
+    },
+    "S.BLDA": {
+        "name": "apartment building",
+        "synonyms": ["apartment", "building"]
+    },
+    "S.BLDG": {
+        "name": "building(s)",
+        "synonyms": [
+            "building", "buildings", "construction", "residence"
+        ]
+    },
+    "S.BLDO": {
+        "name": "office building",
+        "synonyms": [  "building", "buildings", "construction", "residence"]
+    },
+    "S.BP": {
+        "name": "boundary marker",
+        "synonyms": []
+    },
+    "S.BRKS": {
+        "name": "barracks",
+        "synonyms": [
+            "barrack", "camp", "depot", "fort"
+        ]
+    },
+    "S.BRKW": {
+        "name": "breakwater",
+        "synonyms": [
+            "seawall",
+            "foreshore",
+            "sea wall",
+            "mole",
+            "barrier"
+        ]
+    },
+    "S.BSTN": {
+        "name": "baling station",
+        "synonyms": ["baling", "packing", "bale", "bundle", "pack"]
+    },
+    "S.BTYD": {
+        "name": "boatyard",
+        "synonyms": [
+            "boatyard", "boat", "building"
+        ]
+    },
+    "S.BUR": {
+        "name": "burial cave(s)",
+        "synonyms": ["burial", "cave"]
+    },
+    "S.BUSTN": {
+        "name": "bus station",
+        "synonyms": ["bus", "station"]
+    },
+    "S.BUSTP": {
+        "name": "bus stop",
+        "synonyms": ["station", "bus", "stop"]
+    },
+    "S.CARN": {
+        "name": "cairn",
+        "synonyms": [
+            "cairn terrier", "massif"
+        ]
+    },
+    "S.CAVE": {
+        "name": "cave(s)",
+        "synonyms": [
+            "cave", "caves", "cavern", "grotto"
+        ]
+    },
+    "S.CH": {
+        "name": "church",
+        "synonyms": [
+            "church", "abbey", "kirk"
+        ]
+    },
+    "S.CMP": {
+        "name": "camp(s)",
+        "synonyms": [
+            "camp", "camps", "encampment", "outpost", "settlement"
+        ]
+    },
+    "S.CMPL": {
+        "name": "logging camp",
+        "synonyms": ["logging","camp", "camps", "encampment", "outpost", "settlement"]
+    },
+    "S.CMPLA": {
+        "name": "labor camp",
+        "synonyms": ["labor","camp", "camps", "encampment", "outpost", "settlement"]
+    },
+    "S.CMPMN": {
+        "name": "mining camp",
+        "synonyms": ["mining", "camp", "camps", "encampment", "outpost", "settlement"]
+    },
+    "S.CMPO": {
+        "name": "oil camp",
+        "synonyms": ["camp", "camps", "encampment", "outpost", "settlement"]
+    },
+    "S.CMPQ": {
+        "name": "abandoned camp",
+        "synonyms": ["camp", "camps", "encampment", "outpost", "settlement"]
+    },
+    "S.CMPRF": {
+        "name": "refugee camp",
+        "synonyms": ["refugee","camp", "camps", "encampment", "outpost", "settlement"]
+    },
+    "S.CMTY": {
+        "name": "cemetery",
+        "synonyms": [
+            "burying ground",
+            "burial ground",
+            "graveyard",
+            "memorial park"
+        ]
+    },
+    "S.COMC": {
+        "name": "communication center",
+        "synonyms": ["communication", "center"]
+    },
+    "S.CRRL": {
+        "name": "corral(s)",
+        "synonyms": [
+            "corral", "corrals"
+        ]
+    },
+    "S.CSNO": {
+        "name": "casino",
+        "synonyms": [
+            "gambling", "casino", "bet"
+        ]
+    },
+    "S.CSTL": {
+        "name": "castle",
+        "synonyms": [
+            "castle", "fort", "fortress"
+        ]
+    },
+    "S.CSTM": {
+        "name": "customs house",
+        "synonyms": ["house", "home"]
+    },
+    "S.CTHSE": {
+        "name": "courthouse",
+        "synonyms": [
+            "courtroom",
+            "house"
+        ]
+    },
+    "S.CTRA": {
+        "name": "atomic center",
+        "synonyms": ["atomic","center", "station"]
+    },
+    "S.CTRCM": {
+        "name": "community center",
+        "synonyms": ["community","center", "station"]
+    },
+    "S.CTRF": {
+        "name": "facility center",
+        "synonyms": ["facility","center", "station"]
+    },
+    "S.CTRM": {
+        "name": "medical center",
+        "synonyms": ["hospital", "medical school", "clinic", "pharmacy", "medical","center", "station"]
+    },
+    "S.CTRR": {
+        "name": "religious center",
+        "synonyms": ["retreat", "school", "monastery", "worship","religious","center", "station"]
+    },
+    "S.CTRS": {
+        "name": "space center",
+        "synonyms": ["control room"]
+    },
+    "S.CVNT": {
+        "name": "convent",
+        "synonyms": [
+            "convent"
+        ]
+    },
+    "S.DAM": {
+        "name": "dam",
+        "synonyms": [
+            "barrier"
+        ]
+    },
+    "S.DAMQ": {
+        "name": "ruined dam",
+        "synonyms": ["destroyed dam","barrier", "dam"]
+    },
+    "S.DAMSB": {
+        "name": "sub-surface dam",
+        "synonyms": ["barrier", "dam"]
+    },
+    "S.DARY": {
+        "name": "dairy",
+        "synonyms": [
+            "farm", "creamery"
+        ]
+    },
+    "S.DCKD": {
+        "name": "dry dock",
+        "synonyms":  ["wharf", "pier", "jetty", "quay", "marina"]
+    },
+    "S.DCKY": {
+        "name": "dockyard",
+        "synonyms": [
+            "dockyard", "wharf", "pier", "jetty", "quay", "marina"
+        ]
+    },
+    "S.DIKE": {
+        "name": "dike",
+        "synonyms": [
+            "dyke", "dam"
+        ]
+    },
+    "S.DIP": {
+        "name": "diplomatic facility",
+        "synonyms": ["office", "residence", "facility", "embassy", "consulate", "chancery"]
+    },
+    "S.DPOF": {
+        "name": "fuel depot",
+        "synonyms": ["fuel", "storage", "deposit"]
+    },
+    "S.EST": {
+        "name": "estate(s)",
+        "synonyms": [
+            "estate", "estates"
+        ]
+    },
+    "S.ESTO": {
+        "name": "oil palm plantation",
+        "synonyms": ["palm","cultivation", "plantation"]
+    },
+    "S.ESTR": {
+        "name": "rubber plantation",
+        "synonyms": ["rubber","cultivation", "plantation"]
+    },
+    "S.ESTSG": {
+        "name": "sugar plantation",
+        "synonyms": ["sugar","cultivation", "plantation"]
+    },
+    "S.ESTT": {
+        "name": "tea plantation",
+        "synonyms": ["tea","cultivation", "plantation"]
+    },
+    "S.ESTX": {
+        "name": "section of estate",
+        "synonyms": ["estate"]
+    },
+    "S.FCL": {
+        "name": "facility",
+        "synonyms": [
+            "facility", "center", "institute", "foundation", "hospital", "prison", "mission", "courthouse"
+        ]
+    },
+    "S.FNDY": {
+        "name": "foundry",
+        "synonyms": [
+            "manufactory",
+            "casting", "found"
+        ]
+    },
+    "S.FRM": {
+        "name": "farm",
+        "synonyms": [
+            "farm",
+            "farmhouse",
+            "ranch"
+        ]
+    },
+    "S.FRMQ": {
+        "name": "abandoned farm",
+        "synonyms": [ "farm",
+            "farmhouse",
+            "ranch"]
+    },
+    "S.FRMS": {
+        "name": "farms",
+        "synonyms": [
+            "farm",
+            "farms",
+            "farmhouse",
+            "ranch"
+        ]
+    },
+    "S.FRMT": {
+        "name": "farmstead",
+        "synonyms": [
+            "farm-place",
+            "farm",
+            "farms",
+            "farmhouse",
+            "ranch"
+        ]
+    },
+    "S.FT": {
+        "name": "fort",
+        "synonyms": [
+            "fort",
+            "earthworks",
+            "fortress"
+        ]
+    },
+    "S.FY": {
+        "name": "ferry",
+        "synonyms": [
+            "convey",
+            "boat"
+        ]
+    },
+    "S.FYT": {
+        "name": "ferry terminal",
+        "synonyms": [
+            "convey",
+            "boat",
+            "ferry"
+        ]
+    },
+    "S.GATE": {
+        "name": "gate",
+        "synonyms": [
+            "gate", "gateway", "portal"
+        ]
+    },
+    "S.GDN": {
+        "name": "garden(s)",
+        "synonyms": [
+            "garden", "gardens"
+        ]
+    },
+    "S.GHAT": {
+        "name": "ghat",
+        "synonyms": [
+            "stairway"
+        ]
+    },
+    "S.GHSE": {
+        "name": "guest house",
+        "synonyms": ["house", "home"]
+    },
+    "S.GOSP": {
+        "name": "gas-oil separator plant",
+        "synonyms": ["plant", "facility"]
+    },
+    "S.GOVL": {
+        "name": "local government office",
+        "synonyms": ["facility", "city", "town", "village"]
+    },
+    "S.GRVE": {
+        "name": "grave",
+        "synonyms": [
+            "grave",
+            "cemetery",
+            "graveyard",
+            "tomb"
+        ]
+    },
+    "S.HERM": {
+        "name": "hermitage",
+        "synonyms": [
+            "hermitage"
+        ]
+    },
+    "S.HLT": {
+        "name": "halting place",
+        "synonyms": ["halting"]
+    },
+    "S.HMSD": {
+        "name": "homestead",
+        "synonyms": [
+            "stay", "residence", "woolshed", "outcamp", "station"
+        ]
+    },
+    "S.HSE": {
+        "name": "house(s)",
+        "synonyms": [
+            "house", "houses", "home"
+        ]
+    },
+    "S.HSEC": {
+        "name": "country house",
+        "synonyms": ["mansion", "chateau", "house", "home"]
+    },
+    "S.HSP": {
+        "name": "hospital",
+        "synonyms": [
+            "infirmary",
+            "hospital",
+            "medical building",
+            "medical facility", "facility"
+        ]
+    },
+    "S.HSPC": {
+        "name": "clinic",
+        "synonyms": [
+            "clinic", "medical facility", "facility"
+        ]
+    },
+    "S.HSPD": {
+        "name": "dispensary",
+        "synonyms": [ "medical facility", "facility"]
+    },
+    "S.HSPL": {
+        "name": "leprosarium",
+        "synonyms": [
+             "medical facility", "facility", "asylum"
+        ]
+    },
+    "S.HSTS": {
+        "name": "historical site",
+        "synonyms": ["site", "historical"]
+    },
+    "S.HTL": {
+        "name": "hotel",
+        "synonyms": [
+            "hotel",
+            "hostel",
+            "motel"
+        ]
+    },
+    "S.HUT": {
+        "name": "hut",
+        "synonyms": [
+            "shelter", "hut", "cottage", "cabin", "hutch"
+        ]
+    },
+    "S.HUTS": {
+        "name": "huts",
+        "synonyms": [
+            "shelter", "hut", "cottage", "cabin", "hutch"
+        ]
+    },
+    "S.INSM": {
+        "name": "military installation",
+        "synonyms": ["facility", "institute", "military"]
+    },
+    "S.ITTR": {
+        "name": "research institute",
+        "synonyms": ["facility", "research", "institute"]
+    },
+    "S.JTY": {
+        "name": "jetty",
+        "synonyms": [
+            "seawall",
+            "dock"
+        ]
+    },
+    "S.LDNG": {
+        "name": "landing",
+        "synonyms": [
+            "freight",
+            "land"
+        ]
+    },
+    "S.LEPC": {
+        "name": "leper colony",
+        "synonyms": ["colony", "leper", "settled"]
+    },
+    "S.LIBR": {
+        "name": "library",
+        "synonyms": [
+            "library", "bookstore"
+        ]
+    },
+    "S.LNDF": {
+        "name": "landfill",
+        "synonyms": [
+            "landfill"
+        ]
+    },
+    "S.LOCK": {
+        "name": "lock(s)",
+        "synonyms": [
+            "locks", "lock"
+        ]
+    },
+    "S.LTHSE": {
+        "name": "lighthouse",
+        "synonyms": [
+            "house",
+            "pharos"
+        ]
+    },
+    "S.MALL": {
+        "name": "mall",
+        "synonyms": [
+            "shopping center",
+            "promenade"
+        ]
+    },
+    "S.MAR": {
+        "name": "marina",
+        "synonyms": [
+            "marina",
+            "dock"
+        ]
+    },
+    "S.MFG": {
+        "name": "factory",
+        "synonyms": [
+            "factory",
+            "foundry",
+            "manufactory",
+            "firm"
+        ]
+    },
+    "S.MFGB": {
+        "name": "brewery",
+        "synonyms": [
+            "brewery", "factory",  "firm"
+        ]
+    },
+    "S.MFGC": {
+        "name": "cannery",
+        "synonyms": [
+            "cannery",
+            "factory",  "firm"
+        ]
+    },
+    "S.MFGCU": {
+        "name": "copper works",
+        "synonyms": ["factory",  "firm"]
+    },
+    "S.MFGLM": {
+        "name": "limekiln",
+        "synonyms": ["factory",  "firm",
+            "limekiln"
+        ]
+    },
+    "S.MFGM": {
+        "name": "munitions plant",
+        "synonyms": ["plant","factory",  "firm"]
+    },
+    "S.MFGPH": {
+        "name": "phosphate works",
+        "synonyms": ["factory",  "firm"]
+    },
+    "S.MFGQ": {
+        "name": "abandoned factory",
+        "synonyms": ["factory",  "firm"]
+    },
+    "S.MFGSG": {
+        "name": "sugar refinery",
+        "synonyms": ["refinery","factory",  "firm"]
+    },
+    "S.MKT": {
+        "name": "market",
+        "synonyms": [
+            "market",
+            "commercial enterprise",
+            "business",
+            "sellers market",
+            "bazaar"
+        ]
+    },
+    "S.ML": {
+        "name": "mill(s)",
+        "synonyms": [
+            "mill", "mills", "factory", "foundry"
+        ]
+    },
+    "S.MLM": {
+        "name": "ore treatment plant",
+        "synonyms": ["mill", "mills", "factory", "foundry"]
+    },
+    "S.MLO": {
+        "name": "olive oil mill",
+        "synonyms": ["mill", "mills", "factory", "foundry"]
+    },
+    "S.MLSG": {
+        "name": "sugar mill",
+        "synonyms": ["mill", "mills", "factory", "foundry"]
+    },
+    "S.MLSGQ": {
+        "name": "former sugar mill",
+        "synonyms": ["sugar mill","mill", "mills", "factory", "foundry"]
+    },
+    "S.MLSW": {
+        "name": "sawmill",
+        "synonyms": [
+            "mill", "mills", "factory", "foundry",
+            "sawmill"
+        ]
+    },
+    "S.MLWND": {
+        "name": "windmill",
+        "synonyms": [
+            "mill", "mills", "factory", "foundry"
+        ]
+    },
+    "S.MLWTR": {
+        "name": "water mill",
+        "synonyms": ["water","mill", "mills", "factory", "foundry"]
+    },
+    "S.MN": {
+        "name": "mine(s)",
+        "synonyms": [
+            "mine", "mines", "gully", "dig", "unearth", "extract", "quarry"
+        ]
+    },
+    "S.MNAU": {
+        "name": "gold mine(s)",
+        "synonyms": ["gold mines","gold","mine", "mines", "gully", "dig", "unearth", "extract", "quarry"]
+    },
+    "S.MNC": {
+        "name": "coal mine(s)",
+        "synonyms": ["coal mine", "coal","mine", "mines", "gully", "dig", "unearth", "extract", "quarry"]
+    },
+    "S.MNCR": {
+        "name": "chrome mine(s)",
+        "synonyms": ["mine", "mines", "gully", "dig", "unearth", "extract", "quarry"]
+    },
+    "S.MNCU": {
+        "name": "copper mine(s)",
+        "synonyms": ["copper mine", "copper mines", "copper","mine", "mines", "gully", "dig", "unearth", "extract", "quarry"]
+    },
+    "S.MNFE": {
+        "name": "iron mine(s)",
+        "synonyms": ["iron mine", "iron mines", "iron","mine", "mines", "gully", "dig", "unearth", "extract", "quarry"]
+    },
+    "S.MNMT": {
+        "name": "monument",
+        "synonyms": [
+            "commemorative",
+            "statue",
+            "memorial",
+            "structure"
+        ]
+    },
+    "S.MNN": {
+        "name": "salt mine(s)",
+        "synonyms": ["salt mine", "salt", "salt mines","mine", "mines", "gully", "dig", "unearth", "extract", "quarry"]
+    },
+    "S.MNQ": {
+        "name": "abandoned mine",
+        "synonyms": ["mine", "mines", "gully", "dig", "unearth", "extract", "quarry"]
+    },
+    "S.MNQR": {
+        "name": "quarry(-ies)",
+        "synonyms": [
+            "quarry", "quarries","mine", "mines", "gully", "dig", "unearth", "extract", "quarry"
+        ]
+    },
+    "S.MOLE": {
+        "name": "mole",
+        "synonyms": [
+            "spot",
+            "spy"
+        ]
+    },
+    "S.MSQE": {
+        "name": "mosque",
+        "synonyms": [
+            "house of god",
+            "worship"
+        ]
+    },
+    "S.MSSN": {
+        "name": "mission",
+        "synonyms": [
+            "mission",
+            "nongovernmental organization",
+            "dwellings", "school", "church", "hospital"
+        ]
+    },
+    "S.MSSNQ": {
+        "name": "abandoned mission",
+        "synonyms": ["mission"]
+    },
+    "S.MSTY": {
+        "name": "monastery",
+        "synonyms": [
+            "monastery",
+            "cloister", "religious residence"
+        ]
+    },
+    "S.MTRO": {
+        "name": "metro station",
+        "synonyms": ["metro", "station"]
+    },
+    "S.MUS": {
+        "name": "museum",
+        "synonyms": [
+            "museum"
+        ]
+    },
+    "S.NOV": {
+        "name": "novitiate",
+        "synonyms": ["novitiate", "apprenticeship", "noviciate"]
+    },
+    "S.NSY": {
+        "name": "nursery(-ies)",
+        "synonyms": [
+            "nursery", "nurseries"
+        ]
+    },
+    "S.OBPT": {
+        "name": "observation point",
+        "synonyms": ["observation","viewpoint", "observatory"]
+    },
+    "S.OBS": {
+        "name": "observatory",
+        "synonyms": [
+            "building", "observation", "viewpoint"
+        ]
+    },
+    "S.OBSR": {
+        "name": "radio observatory",
+        "synonyms": ["observation", "viewpoint"]
+    },
+    "S.OILJ": {
+        "name": "oil pipeline junction",
+        "synonyms": ["pipeline", "junction"]
+    },
+    "S.OILQ": {
+        "name": "abandoned oil well",
+        "synonyms": ["well", "oil well", "pit", "shaft"]
+    },
+    "S.OILR": {
+        "name": "oil refinery",
+        "synonyms": ["refinery", "factory"]
+    },
+    "S.OILT": {
+        "name": "tank farm",
+        "synonyms": ["factory", "farm"]
+    },
+    "S.OILW": {
+        "name": "oil well",
+        "synonyms": ["oil","well", "oil well", "pit", "shaft"]
+    },
+    "S.OPRA": {
+        "name": "opera house",
+        "synonyms": ["opera", "house"]
+    },
+    "S.PAL": {
+        "name": "palace",
+        "synonyms": [
+            "palace",
+            "mansion",
+            "castle"
+        ]
+    },
+    "S.PGDA": {
+        "name": "pagoda",
+        "synonyms": ["pagoda"]
+    },
+    "S.PIER": {
+        "name": "pier",
+        "synonyms": [
+            "dock",
+            "quay",
+            "pier", "jetty", "dyke"
+        ]
+    },
+    "S.PKLT": {
+        "name": "parking lot",
+        "synonyms": ["parking garage", "parking deck', 'parking structure']\n\n\n"]
+    },
+    "S.PMPO": {
+        "name": "oil pumping station",
+        "synonyms": ["station"]
+    },
+    "S.PMPW": {
+        "name": "water pumping station",
+        "synonyms": ["station"]
+    },
+    "S.PO": {
+        "name": "post office",
+        "synonyms": ["office"]
+    },
+    "S.PP": {
+        "name": "police post",
+        "synonyms": ["police", "office"]
+    },
+    "S.PPQ": {
+        "name": "abandoned police post",
+        "synonyms": ["office"]
+    },
+    "S.PRKGT": {
+        "name": "park gate",
+        "synonyms": ["park area"]
+    },
+    "S.PRKHQ": {
+        "name": "park headquarters",
+        "synonyms": ["headquarters"]
+    },
+    "S.PRN": {
+        "name": "prison",
+        "synonyms": [
+            "jail",
+            "lockup"
+        ]
+    },
+    "S.PRNJ": {
+        "name": "reformatory",
+        "synonyms": [
+            "reformative"
+        ]
+    },
+    "S.PRNQ": {
+        "name": "abandoned prison",
+        "synonyms": ["prison", "jail"]
+    },
+    "S.PS": {
+        "name": "power station",
+        "synonyms": ["power plant", "powerhouse"]
+    },
+    "S.PSH": {
+        "name": "hydroelectric power station",
+        "synonyms": ["hydroelectric", "power plant", "powerhouse"]
+    },
+    "S.PSN": {
+        "name": "nuclear power station",
+        "synonyms": ["power plant", "powerhouse"]
+    },
+    "S.PSTB": {
+        "name": "border post",
+        "synonyms": ["border", "checkpoint", "post"]
+    },
+    "S.PSTC": {
+        "name": "customs post",
+        "synonyms": ["checkpoint", "post"]
+    },
+    "S.PSTP": {
+        "name": "patrol post",
+        "synonyms": ["patrol", "checkpoint", "post"]
+    },
+    "S.PYR": {
+        "name": "pyramid",
+        "synonyms": [
+            "pyramid"
+        ]
+    },
+    "S.PYRS": {
+        "name": "pyramids",
+        "synonyms": [
+            "pyramid"
+        ]
+    },
+    "S.QUAY": {
+        "name": "quay",
+        "synonyms": [
+            "wharf", "pier", "waterfront", "quay"
+        ]
+    },
+    "S.RDCR": {
+        "name": "traffic circle",
+        "synonyms": []
+    },
+    "S.RDIN": {
+        "name": "intersection",
+        "synonyms": [
+            "intersection", "junction", "meet", "ossing"
+        ]
+    },
+    "S.RECG": {
+        "name": "golf course",
+        "synonyms": ["course", "field"]
+    },
+    "S.RECR": {
+        "name": "racetrack",
+        "synonyms": [
+            "racetrack","raceway",
+            "speedway"
+        ]
+    },
+    "S.REST": {
+        "name": "restaurant",
+        "synonyms": [
+            "restaurant", "cafe", "buffet", "tavern", "coffee shop", "eatery"
+        ]
+    },
+    "S.RET": {
+        "name": "store",
+        "synonyms": [
+            "bazaar",
+            "shop",
+            "market",
+            "outlet",
+            "mall",
+            "supermarket"
+        ]
+    },
+    "S.RHSE": {
+        "name": "resthouse",
+        "synonyms": [
+            "resthouse", "rest house"
+        ]
+    },
+    "S.RKRY": {
+        "name": "rookery",
+        "synonyms": [
+            "rookery"
+        ]
+    },
+    "S.RLG": {
+        "name": "religious site",
+        "synonyms": ["religious"]
+    },
+    "S.RLGR": {
+        "name": "retreat",
+        "synonyms": [
+            "hermitage"
+        ]
+    },
+    "S.RNCH": {
+        "name": "ranch(es)",
+        "synonyms": [
+            "ranch", "ranches", "farm"
+        ]
+    },
+    "S.RSD": {
+        "name": "railroad siding",
+        "synonyms": ["railroad", "road"]
+    },
+    "S.RSGNL": {
+        "name": "railroad signal",
+        "synonyms": ["railroad", "road", "signal"]
+    },
+    "S.RSRT": {
+        "name": "resort",
+        "synonyms": [
+            "recur",
+            "utilize",
+            "fall back",
+            "utilise"
+        ]
+    },
+    "S.RSTN": {
+        "name": "railroad station",
+        "synonyms": ["railroad", "road", "station"]
+    },
+    "S.RSTNQ": {
+        "name": "abandoned railroad station",
+        "synonyms": ["railroad", "road","station"]
+    },
+    "S.RSTP": {
+        "name": "railroad stop",
+        "synonyms": ["railroad", "road","station"]
+    },
+    "S.RSTPQ": {
+        "name": "abandoned railroad stop",
+        "synonyms": ["railroad", "road","station"]
+    },
+    "S.RUIN": {
+        "name": "ruin(s)",
+        "synonyms": [
+            "ruin","ruins", "destroy"
+        ]
+    },
+    "S.SCH": {
+        "name": "school",
+        "synonyms": [
+            "secondary school",
+            "public school",
+            "veterinary school",
+            "finishing school",
+            "educational institution",
+            "graduate school",
+            "direct-grant school",
+            "dance school",
+            "elementary school",
+            "religious school",
+            "Sabbath school",
+            "night school",
+            "middle school",
+            "secretarial school",
+            "riding school",
+            "day school",
+            "technical school",
+            "academy",
+            "private school",
+            "driving school",
+            "flying school",
+            "Sunday school",
+            "training school",
+            "faculty",
+            "crammer",
+            "grammar school",
+            "dancing school",
+            "grad school",
+            "language school",
+            "lycee",
+            "correspondence school",
+            "staff",
+            "tech",
+            "grade school",
+            "lyceum",
+            "primary school",
+            "school of nursing","academy"
+        ]
+    },
+    "S.SCHA": {
+        "name": "agricultural school",
+        "synonyms": ["school","academy"]
+    },
+    "S.SCHC": {
+        "name": "college",
+        "synonyms": [
+            "university",
+            "academia","academy"
+        ]
+    },
+    "S.SCHL": {
+        "name": "language school",
+        "synonyms": ["school", "language","academy"]
+    },
+    "S.SCHM": {
+        "name": "military school",
+        "synonyms": ["school","academy"]
+    },
+    "S.SCHN": {
+        "name": "maritime school",
+        "synonyms": ["maritime","school","academy"]
+    },
+    "S.SCHT": {
+        "name": "technical school",
+        "synonyms": ["technical" ,"academy", "school"]
+    },
+    "S.SECP": {
+        "name": "State Exam Prep Centre",
+        "synonyms": ["center"]
+    },
+    "S.SHPF": {
+        "name": "sheepfold",
+        "synonyms": [
+            "sheep pen",
+            "sheepcote",
+            "pen"
+        ]
+    },
+    "S.SHRN": {
+        "name": "shrine",
+        "synonyms": [
+            "house of God",
+            "place of worship",
+            "temple",
+            "house of worship"
+        ]
+    },
+    "S.SHSE": {
+        "name": "storehouse",
+        "synonyms": [
+            "store",
+            "depository",
+            "repository",
+            "deposit",
+            "storage warehouse",
+            "storage",
+            "warehouse"
+        ]
+    },
+    "S.SLCE": {
+        "name": "sluice",
+        "synonyms": [
+            "dam",
+            "barrier",
+            "wall"
+        ]
+    },
+    "S.SNTR": {
+        "name": "sanatorium",
+        "synonyms": [
+            "institution",
+            "mental institution",
+            "mental home",
+            "mental hospital",
+            "psychiatric hospital"
+        ]
+    },
+    "S.SPA": {
+        "name": "spa",
+        "synonyms": [
+            "spa"
+        ]
+    },
+    "S.SPLY": {
+        "name": "spillway",
+        "synonyms": [
+            "wasteweir",
+            "spill"
+        ]
+    },
+    "S.SQR": {
+        "name": "square",
+        "synonyms": [
+            "quadrilateral",
+            "quadrangular",
+            "rectangular"
+        ]
+    },
+    "S.STBL": {
+        "name": "stable",
+        "synonyms": [
+            "constant",
+            "stabilised",
+            "unfluctuating",
+            "lasting",
+            "stabilized",
+            "steady",
+            "permanent",
+            "fixed"
+        ]
+    },
+    "S.STDM": {
+        "name": "stadium",
+        "synonyms": [
+            "coliseum",
+            "stadium", "gym", "gymnasium",
+            "athletic field",
+            "domed stadium",
+            "field",
+            "football stadium",
+            "sports stadium",
+            "playing area"
+        ]
+    },
+    "S.STNB": {
+        "name": "scientific research base",
+        "synonyms": ["research", "base", "station"]
+    },
+    "S.STNC": {
+        "name": "coast guard station",
+        "synonyms": ["base", "station"]
+    },
+    "S.STNE": {
+        "name": "experiment station",
+        "synonyms": ["experiment","base", "station"]
+    },
+    "S.STNF": {
+        "name": "forest station",
+        "synonyms": ["forest","base", "station"]
+    },
+    "S.STNI": {
+        "name": "inspection station",
+        "synonyms": ["base", "station"]
+    },
+    "S.STNM": {
+        "name": "meteorological station",
+        "synonyms": ["base", "station"]
+    },
+    "S.STNR": {
+        "name": "radio station",
+        "synonyms": ["radio","base", "station"]
+    },
+    "S.STNS": {
+        "name": "satellite station",
+        "synonyms": ["satellite","base", "station"]
+    },
+    "S.STNW": {
+        "name": "whaling station",
+        "synonyms": ["base", "station"]
+    },
+    "S.STPS": {
+        "name": "steps",
+        "synonyms": [
+            "step",
+            "stage",
+            "phase", "stones", "slabs"
+        ]
+    },
+    "S.SWT": {
+        "name": "sewage treatment plant",
+        "synonyms": ["treatment", "plant"]
+    },
+    "S.SYG": {
+        "name": "synagogue",
+        "synonyms": [
+            "house of prayer",
+            "temple",
+            "house of God",
+            "place of worship",
+            "house of worship"
+        ]
+    },
+    "S.THTR": {
+        "name": "theater",
+        "synonyms": [
+            "theater",
+            "playhouse",
+            "auditorium",
+            "amphitheater",
+            "cinema",
+            "home theatre"
+        ]
+    },
+    "S.TMB": {
+        "name": "tomb(s)",
+        "synonyms": [
+            "tomb",
+            "tombs",
+            "grave"
+        ]
+    },
+    "S.TMPL": {
+        "name": "temple(s)",
+        "synonyms": [
+            "temple",
+            "temples",
+            "shrine"
+        ]
+    },
+    "S.TNKD": {
+        "name": "cattle dipping tank",
+        "synonyms": []
+    },
+    "S.TOLL": {
+        "name": "toll gate/barrier",
+        "synonyms": ["barrier", "gate"]
+    },
+    "S.TOWR": {
+        "name": "tower",
+        "synonyms": [
+            "tower block",
+            "tower", "pylon", "steeple", "pillar",
+            "spire"
+        ]
+    },
+    "S.TRAM": {
+        "name": "tram",
+        "synonyms": [
+            "trolly",
+            "trolley"
+        ]
+    },
+    "S.TRANT": {
+        "name": "transit terminal",
+        "synonyms": ["terminal", "station"]
+    },
+    "S.TRIG": {
+        "name": "triangulation station",
+        "synonyms": ["terminal", "station"]
+    },
+    "S.TRMO": {
+        "name": "oil pipeline terminal",
+        "synonyms": ["terminal", "station"]
+    },
+    "S.TWO": {
+        "name": "temp work office",
+        "synonyms": ["office"]
+    },
+    "S.UNIP": {
+        "name": "university prep school",
+        "synonyms": ["school", "university"]
+    },
+    "S.UNIV": {
+        "name": "university",
+        "synonyms": [
+            "graduate school",
+            "university",
+            "academia",
+            "school"
+        ]
+    },
+    "S.USGE": {
+        "name": "united states government establishment",
+        "synonyms": ["government"]
+    },
+    "S.VETF": {
+        "name": "veterinary facility",
+        "synonyms": ["facility"]
+    },
+    "S.WALL": {
+        "name": "wall",
+        "synonyms": [
+            "barrier",
+            "partition", "fence"
+        ]
+    },
+    "S.WALLA": {
+        "name": "ancient wall",
+        "synonyms": ["barrier",
+            "partition", "fence"]
+    },
+    "S.WEIR": {
+        "name": "weir(s)",
+        "synonyms": [
+            "weir", "weirs", "dam", "levee", "dyke", "dike"
+        ]
+    },
+    "S.WHRF": {
+        "name": "wharf(-ves)",
+        "synonyms": [
+            "wharf", "pier", "waterfront", "quay", "pier", "dock", "jetty"
+        ]
+    },
+    "S.WRCK": {
+        "name": "wreck",
+        "synonyms": [
+            "bust up",
+            "destroy",
+            "wrack"
+        ]
+    },
+    "S.WTRW": {
+        "name": "waterworks",
+        "synonyms": [
+            "workplace", "dam", "dike", "dyke"
+        ]
+    },
+    "S.ZNF": {
+        "name": "free trade zone",
+        "synonyms": ["trade zone", "zone", "trade"]
+    },
+    "S.ZOO": {
+        "name": "zoo",
+        "synonyms": [
+            "facility",
+            "zoological garden"
+        ]
+    },
+    "T.ASPH": {
+        "name": "asphalt lake",
+        "synonyms": ["lake", "sea"]
+    },
+    "T.ATOL": {
+        "name": "atoll(s)",
+        "synonyms": [
+            "atoll", "atolls"
+        ]
+    },
+    "T.BAR": {
+        "name": "bar",
+        "synonyms": [
+            "bar"
+        ]
+    },
+    "T.BCH": {
+        "name": "beach",
+        "synonyms": [
+            "geological formation",
+            "shore",
+            "sand",
+            "coast"
+        ]
+    },
+    "T.BCHS": {
+        "name": "beaches",
+        "synonyms": [
+            "beach",
+            "shore",
+            "sand",
+            "coast"
+        ]
+    },
+    "T.BDLD": {
+        "name": "badlands",
+        "synonyms": [
+            "land", "lands"
+        ]
+    },
+    "T.BLDR": {
+        "name": "boulder field",
+        "synonyms": ["field", "area", "boulder"]
+    },
+    "T.BLHL": {
+        "name": "blowhole(s)",
+        "synonyms": [
+            "blowhole", "blowholes"
+        ]
+    },
+    "T.BLOW": {
+        "name": "blowout(s)",
+        "synonyms": [
+            "blowout",
+            "blowouts"
+        ]
+    },
+    "T.BNCH": {
+        "name": "bench",
+        "synonyms": [
+            "window seat",
+            "seat",
+            "bench",
+            "pew",
+            "sofa",
+            "form"
+        ]
+    },
+    "T.BUTE": {
+        "name": "butte(s)",
+        "synonyms": [
+            "butte",
+            "buttes",
+            "seat",
+            "settle"
+        ]
+    },
+    "T.CAPE": {
+        "name": "cape",
+        "synonyms": [
+            "cape",
+            "land",
+            "solid ground",
+            "dry land"
+        ]
+    },
+    "T.CFT": {
+        "name": "cleft(s)",
+        "synonyms": [
+            "clefts",
+            "cleft",
+            "slot", "crack", "fissure", "break"
+        ]
+    },
+    "T.CLDA": {
+        "name": "caldera",
+        "synonyms": [
+            "caldera"
+        ]
+    },
+    "T.CLF": {
+        "name": "cliff(s)",
+        "synonyms": [
+            "cliff",
+            "cliffs",
+            "rock", "cliff", "roach"
+        ]
+    },
+    "T.CNYN": {
+        "name": "canyon",
+        "synonyms": [
+            "canon",
+            "ravine"
+        ]
+    },
+    "T.CONE": {
+        "name": "cone(s)",
+        "synonyms": [
+            "cone",
+            "cones"
+        ]
+    },
+    "T.CRDR": {
+        "name": "corridor",
+        "synonyms": [
+            "hallway",
+            "hall",
+            "gallery"
+        ]
+    },
+    "T.CRQ": {
+        "name": "cirque",
+        "synonyms": [
+            "cirque"
+        ]
+    },
+    "T.CRQS": {
+        "name": "cirques",
+        "synonyms": [
+            "cirque",
+            "cirques"
+        ]
+    },
+    "T.CRTR": {
+        "name": "crater(s)",
+        "synonyms": [
+            "crater",
+            "craters"
+        ]
+    },
+    "T.CUET": {
+        "name": "cuesta(s)",
+        "synonyms": [
+            "cuesta",
+            "cuestas"
+        ]
+    },
+    "T.DLTA": {
+        "name": "delta",
+        "synonyms": [
+            "alluvial deposit",
+            "geological formation",
+            "formation",
+            "alluvial sediment"
+        ]
+    },
+    "T.DPR": {
+        "name": "depression(s)",
+        "synonyms": [
+            "depression",
+            "depressions"
+        ]
+    },
+    "T.DSRT": {
+        "name": "desert",
+        "synonyms": [
+            "barren land",
+            "wasteland",
+            "dryland"
+        ]
+    },
+    "T.DUNE": {
+        "name": "dune(s)",
+        "synonyms": [
+            "dune",
+            "dunes",
+            "sand"
+        ]
+    },
+    "T.DVD": {
+        "name": "divide",
+        "synonyms": [
+            "divide",
+            "sectionalize",
+            "subdivide",
+            "split",
+            "split up",
+            "separate",
+            "splinter"
+        ]
+    },
+    "T.ERG": {
+        "name": "sandy desert",
+        "synonyms": [
+            "barren land",
+            "wasteland",
+            "dryland","dune",
+            "dunes",
+            "sand"]
+    },
+    "T.FAN": {
+        "name": "fan(s)",
+        "synonyms": [
+            "fan",
+            "fans"
+        ]
+    },
+    "T.FORD": {
+        "name": "ford",
+        "synonyms": [
+            "crossing",
+            "shallow place"
+        ]
+    },
+    "T.FSR": {
+        "name": "fissure",
+        "synonyms": [
+            "crevasse",
+            "rift",
+            "gap",
+            "chap",
+            "split",
+            "fatigue crack",
+            "crevice",
+            "crack",
+            "shift",
+            "fault",
+            "faulting",
+            "cleft",
+            "opening",
+            "slit",
+            "break",
+            "fracture"
+        ]
+    },
+    "T.GAP": {
+        "name": "gap",
+        "synonyms": [
+            "split", "break", "interval"
+        ]
+    },
+    "T.GRGE": {
+        "name": "gorge(s)",
+        "synonyms": [
+            "gorge",
+            "gorges",
+            "canyon",
+            "gully"
+        ]
+    },
+    "T.HDLD": {
+        "name": "headland",
+        "synonyms": [
+            "mull",
+            "head",
+            "foreland",
+            "elevation",
+            "promontory",
+            "natural elevation"
+        ]
+    },
+    "T.HLL": {
+        "name": "hill",
+        "synonyms": [
+            "hillock",
+            "hill", "mound", "mesa", "mount", "tumulus"
+        ]
+    },
+    "T.HLLS": {
+        "name": "hills",
+        "synonyms": [
+            "hills",
+            "hill",
+            "hillock",
+            "hill", "mound", "mesa", "mount", "tumulus"
+        ]
+    },
+    "T.HMCK": {
+        "name": "hammock(s)",
+        "synonyms": [
+            "hammock",
+            "hammocks"
+        ]
+    },
+    "T.HMDA": {
+        "name": "rock desert",
+        "synonyms": ["desert"]
+    },
+    "T.INTF": {
+        "name": "interfluve",
+        "synonyms": [
+            "interfluve"
+        ]
+    },
+    "T.ISL": {
+        "name": "island",
+        "synonyms": [
+            "island", "isle"
+        ]
+    },
+    "T.ISLET": {
+        "name": "islet",
+        "synonyms": [ "island", "isle"]
+    },
+    "T.ISLF": {
+        "name": "artificial island",
+        "synonyms": [ "island", "isle"]
+    },
+    "T.ISLM": {
+        "name": "mangrove island",
+        "synonyms": [ "island", "isle"]
+    },
+    "T.ISLS": {
+        "name": "islands",
+        "synonyms": [
+             "island", "islands","isle"
+        ]
+    },
+    "T.ISLT": {
+        "name": "land-tied island",
+        "synonyms": ["island", "islands","isle"]
+    },
+    "T.ISLX": {
+        "name": "section of island",
+        "synonyms": ["island", "islands","isle"]
+    },
+    "T.ISTH": {
+        "name": "isthmus",
+        "synonyms": [
+            "isthmus"
+        ]
+    },
+    "T.KRST": {
+        "name": "karst area",
+        "synonyms": []
+    },
+    "T.LAVA": {
+        "name": "lava area",
+        "synonyms": []
+    },
+    "T.LEV": {
+        "name": "levee",
+        "synonyms": [
+            "exit", "clause", "dyke"
+        ]
+    },
+    "T.MESA": {
+        "name": "mesa(s)",
+        "synonyms": [
+            "mesa", "mesas"
+        ]
+    },
+    "T.MND": {
+        "name": "mound(s)",
+        "synonyms": [
+            "mound",
+            "mounds", "hill", "pile", "top"
+        ]
+    },
+    "T.MRN": {
+        "name": "moraine",
+        "synonyms": [
+            "glacier",
+            "drift"
+        ]
+    },
+    "T.MT": {
+        "name": "mountain",
+        "synonyms": [
+            "mount",
+            "mountain peak",
+            "elevation"
+        ]
+    },
+    "T.MTS": {
+        "name": "mountains",
+        "synonyms": [
+            "mountain",
+            "mountains",
+           "mount",
+            "mountain peak",
+            "elevation"
+        ]
+    },
+    "T.NKM": {
+        "name": "meander neck",
+        "synonyms": []
+    },
+    "T.NTK": {
+        "name": "nunatak",
+        "synonyms": [
+        ]
+    },
+    "T.NTKS": {
+        "name": "nunataks",
+        "synonyms": [
+            "nunataks",
+            "nunatak"
+        ]
+    },
+    "T.PAN": {
+        "name": "pan",
+        "synonyms": [
+            "basin", "lake", "pond","pool"
+        ]
+    },
+    "T.PANS": {
+        "name": "pans",
+        "synonyms": [
+            "lake", "pond","pool","pans", "pan"
+        ]
+    },
+    "T.PASS": {
+        "name": "pass",
+        "synonyms": [
+            "pass",
+            "go through",
+            "pass through",
+            "break through",
+            "crash",
+            "get over",
+            "move through",
+            "go across"
+        ]
+    },
+    "T.PEN": {
+        "name": "peninsula",
+        "synonyms": [
+            "land",
+            "dry land",
+            "cape", "point"
+        ]
+    },
+    "T.PENX": {
+        "name": "section of peninsula",
+        "synonyms": ["land",
+            "dry land",
+            "cape", "point"]
+    },
+    "T.PK": {
+        "name": "peak",
+        "synonyms": [
+            "summit",
+            "top",
+            "peaks",
+            "peak",
+            "mountaintop",
+            "spire",
+            "crest"
+        ]
+    },
+    "T.PKS": {
+        "name": "peaks",
+        "synonyms": [
+            "summit",
+            "top",
+            "peaks",
+            "peak",
+            "mountaintop",
+            "spire",
+            "crest"
+        ]
+    },
+    "T.PLAT": {
+        "name": "plateau",
+        "synonyms": [
+            "plateau", "fjord", "fiord", "table land"
+        ]
+    },
+    "T.PLATX": {
+        "name": "section of plateau",
+        "synonyms": ["plateau", "fjord", "fiord", "table land"]
+    },
+    "T.PLDR": {
+        "name": "polder",
+        "synonyms": [
+            "polder"
+        ]
+    },
+    "T.PLN": {
+        "name": "plain(s)",
+        "synonyms": [
+            "plain",
+            "plains",
+            "desert",
+            "field",
+            "flat"
+        ]
+    },
+    "T.PLNX": {
+        "name": "section of plain",
+        "synonyms": ["plain",
+            "plains",
+            "desert",
+            "field",
+            "flat"]
+    },
+    "T.PROM": {
+        "name": "promontory(-ies)",
+        "synonyms": [
+            "promontory",
+            "promontories"
+        ]
+    },
+    "T.PT": {
+        "name": "point",
+        "synonyms": [
+            "point", "points","location", "position", "place", "spot"
+        ]
+    },
+    "T.PTS": {
+        "name": "points",
+        "synonyms": [
+            "point", "points","location", "position", "place", "spot"
+        ]
+    },
+    "T.RDGB": {
+        "name": "beach ridge",
+        "synonyms": ["beach", "coast", "shore", "seaside", "ridge"]
+    },
+    "T.RDGE": {
+        "name": "ridge(s)",
+        "synonyms": [
+            "ridge",
+            "ridges"
+        ]
+    },
+    "T.REG": {
+        "name": "stony desert",
+        "synonyms": ["desert", "rocky desert", "wilderness"]
+    },
+    "T.RK": {
+        "name": "rock",
+        "synonyms": [
+            "rock",
+            "stone"
+        ]
+    },
+    "T.RKFL": {
+        "name": "rockfall",
+        "synonyms": [
+            "rock",
+            "stone"
+        ]
+    },
+    "T.RKS": {
+        "name": "rocks",
+        "synonyms": [
+           "rock",
+            "stone",
+            "rocks"
+        ]
+    },
+    "T.SAND": {
+        "name": "sand area",
+        "synonyms": ["sand", "desert", "dune"]
+    },
+    "T.SBED": {
+        "name": "dry stream bed",
+        "synonyms": ["seabed", "streambed"]
+    },
+    "T.SCRP": {
+        "name": "escarpment",
+        "synonyms": [
+            "protective embankment",
+            "fortification"
+        ]
+    },
+    "T.SDL": {
+        "name": "saddle",
+        "synonyms": [
+        ]
+    },
+    "T.SHOR": {
+        "name": "shore",
+        "synonyms": [
+            "seashore",
+            "lakeside",
+            "seacoast",
+            "beach",
+            "shoreline",
+            "coast",
+            "lakeshore"
+        ]
+    },
+    "T.SINK": {
+        "name": "sinkhole",
+        "synonyms": [
+            "hole",
+            "cavity",
+            "sink"
+        ]
+    },
+    "T.SLID": {
+        "name": "slide",
+        "synonyms": [
+        ]
+    },
+    "T.SLP": {
+        "name": "slope(s)",
+        "synonyms": [
+            "slope",
+            "slopes",
+            "dip",
+            "downhill"
+        ]
+    },
+    "T.SPIT": {
+        "name": "spit",
+        "synonyms": [
+        ]
+    },
+    "T.SPUR": {
+        "name": "spur(s)",
+        "synonyms": [
+            "spur",
+            "spurs"
+        ]
+    },
+    "T.TAL": {
+        "name": "talus slope",
+        "synonyms": []
+    },
+    "T.TRGD": {
+        "name": "interdune trough(s)",
+        "synonyms": []
+    },
+    "T.TRR": {
+        "name": "terrace",
+        "synonyms": [
+            "patio",
+            "garden",
+            "area",
+            "suntrap"
+        ]
+    },
+    "T.UPLD": {
+        "name": "upland",
+        "synonyms": [
+            "highland",
+            "subalpine",
+            "alpine",
+            "alpestrine"
+        ]
+    },
+    "T.VAL": {
+        "name": "valley",
+        "synonyms": [
+            "valley",
+            "vale",
+            "hollow",
+            "ravine",
+            "depression",
+            "nullah",
+            "holler",
+            "glen",
+            "vale"
+        ]
+    },
+    "T.VALG": {
+        "name": "hanging valley",
+        "synonyms": [ "valley",
+            "vale"
+        ]
+    },
+    "T.VALS": {
+        "name": "valleys",
+        "synonyms": [
+          "valley",
+            "vale"
+        ]
+    },
+    "T.VALX": {
+        "name": "section of valley",
+        "synonyms": ["valley",
+            "vale"]
+    },
+    "T.VLC": {
+        "name": "volcano",
+        "synonyms": [
+            "volcano",
+            "geyser"
+        ]
+    },
+    "U.APNU": {
+        "name": "apron",
+        "synonyms": [
+            "apron",
+            "apron string"
+        ]
+    },
+    "U.ARCU": {
+        "name": "arch",
+        "synonyms": [
+            "bend",
+            "flex",
+            "curve",
+            "camber"
+        ]
+    },
+    "U.ARRU": {
+        "name": "arrugado",
+        "synonyms": [
+
+        ]
+    },
+    "U.BDLU": {
+        "name": "borderland",
+        "synonyms": [
+            "border", "land"
+        ]
+    },
+    "U.BKSU": {
+        "name": "banks",
+        "synonyms": ["banks", "bank", "site", "place"]
+    },
+    "U.BNKU": {
+        "name": "bank",
+        "synonyms": ["banks", "bank", "site", "place"]
+    },
+    "U.BSNU": {
+        "name": "basin",
+        "synonyms": [
+            "basin",
+            "valley",
+            "gully",
+            "channel"
+        ]
+    },
+    "U.CDAU": {
+        "name": "cordillera",
+        "synonyms": [
+            "cordillera"
+        ]
+    },
+    "U.CNSU": {
+        "name": "canyons",
+        "synonyms": [
+            "canyons",
+            "canyon", "valley", "gully", "ravine"
+        ]
+    },
+    "U.CNYU": {
+        "name": "canyon",
+        "synonyms": [
+            "canon",
+            "ravine", "canyons",
+            "canyon", "valley", "gully", "ravine"
+        ]
+    },
+    "U.CRSU": {
+        "name": "continental rise",
+        "synonyms": []
+    },
+    "U.DEPU": {
+        "name": "deep",
+        "synonyms": [
+            "deepness",
+            "depth"
+        ]
+    },
+    "U.EDGU": {
+        "name": "shelf edge",
+        "synonyms": ["edge"]
+    },
+    "U.ESCU": {
+        "name": "escarpment (or scarp)",
+        "synonyms": ["scarp", "escarpment"]
+    },
+    "U.FANU": {
+        "name": "fan",
+        "synonyms": [
+            "fan"
+        ]
+    },
+    "U.FLTU": {
+        "name": "flat",
+        "synonyms": [
+            "plane", "smooth"
+        ]
+    },
+    "U.FRZU": {
+        "name": "fracture zone",
+        "synonyms": ["zone", "fracture"]
+    },
+    "U.FURU": {
+        "name": "furrow",
+        "synonyms": [
+            "gash",
+            "trench"
+        ]
+    },
+    "U.GAPU": {
+        "name": "gap",
+        "synonyms": [
+            "disparity"
+        ]
+    },
+    "U.GLYU": {
+        "name": "gully",
+        "synonyms": [
+            "dig",
+            "canyon",
+            "ravine",
+            "vale"
+        ]
+    },
+    "U.HLLU": {
+        "name": "hill",
+        "synonyms": [
+            "hillock",
+            "hummock"
+        ]
+    },
+    "U.HLSU": {
+        "name": "hills",
+        "synonyms": [
+            "hill", "hills", "hillock",
+            "hummock"
+        ]
+    },
+    "U.HOLU": {
+        "name": "hole",
+        "synonyms": [
+            "leak",
+            "ozone hole",
+            "bullet hole",
+            "aperture",
+            "cranny",
+            "perforation",
+            "gap",
+            "knothole",
+            "bolt-hole",
+            "opening"
+        ]
+    },
+    "U.KNLU": {
+        "name": "knoll",
+        "synonyms": [
+            "koppie",
+            "hillock",
+            "hummock",
+            "mound",
+            "hill",
+            "molehill",
+            "formicary",
+            "hammock",
+            "kopje"
+        ]
+    },
+    "U.KNSU": {
+        "name": "knolls",
+        "synonyms": [
+            "knoll",
+            "knolls"
+        ]
+    },
+    "U.LDGU": {
+        "name": "ledge",
+        "synonyms": [
+            "shelf",
+            "berm"
+        ]
+    },
+    "U.LEVU": {
+        "name": "levee",
+        "synonyms": [
+            "dyke", "dike", "harbor"
+        ]
+    },
+    "U.MESU": {
+        "name": "mesa",
+        "synonyms": [
+            "plateau",
+            "hill"
+        ]
+    },
+    "U.MNDU": {
+        "name": "mound",
+        "synonyms": [
+            "mount",
+            "hill"
+        ]
+    },
+    "U.MOTU": {
+        "name": "moat",
+        "synonyms": [
+            "fosse"
+        ]
+    },
+    "U.MTU": {
+        "name": "mountain",
+        "synonyms": [
+            "hill",
+            "mount",
+            "mountain peak",
+            "elevation",
+            "mountainside"
+        ]
+    },
+    "U.PKSU": {
+        "name": "peaks",
+        "synonyms": [
+            "peak",
+            "peaks",
+            "summit",
+            "top",
+            "tipcat"
+        ]
+    },
+    "U.PKU": {
+        "name": "peak",
+        "synonyms": [
+          "peak",
+            "peaks",
+            "summit",
+            "top",
+            "tipcat"
+        ]
+    },
+    "U.PLNU": {
+        "name": "plain",
+        "synonyms": [
+            "plain",
+            "field",
+            "flatland",
+            "lowland",
+            "grassland"
+        ]
+    },
+    "U.PLTU": {
+        "name": "plateau",
+        "synonyms": [
+            "upland",
+            "tableland",
+            "mesa",
+            "highland",
+            "tableland"
+        ]
+    },
+    "U.PNLU": {
+        "name": "pinnacle",
+        "synonyms": [
+            "climax"
+        ]
+    },
+    "U.PRVU": {
+        "name": "province",
+        "synonyms": [
+            "territorial division",
+            "state",
+            "province",
+            "administrative division",
+            "land",
+            "administrative district",
+            "country",
+            "commonwealth"
+        ]
+    },
+    "U.RDGU": {
+        "name": "ridge",
+        "synonyms": [
+            "ridge",
+            "edge",
+            "bank"
+        ]
+    },
+    "U.RDSU": {
+        "name": "ridges",
+        "synonyms": [
+            "ridge",
+            "edge",
+            "bank"
+        ]
+    },
+    "U.RFSU": {
+        "name": "reefs",
+        "synonyms": [
+            "reefs",
+            "reef",
+            "ridge",
+            "shelf"
+        ]
+    },
+    "U.RFU": {
+        "name": "reef",
+        "synonyms": [
+            "coral reef",
+            "reefs",
+            "reef",
+            "ridge",
+            "shelf"
+        ]
+    },
+    "U.RISU": {
+        "name": "rise",
+        "synonyms": [
+            "rise",
+            "come up",
+            "stand up",
+            "rising",
+            "climb",
+            "uprise",
+            "go up",
+            "move up",
+            "go",
+            "climb up",
+            "arise",
+            "uplift"
+        ]
+    },
+    "U.SCNU": {
+        "name": "seachannel",
+        "synonyms": [
+            "seachannel",
+            "sea",
+            "channel",
+            "sea channel",
+            "sewer"
+        ]
+    },
+    "U.SCSU": {
+        "name": "seachannels",
+        "synonyms": [
+            "seachannel",
+            "sea",
+            "channel",
+            "sea channel",
+            "sewer"
+        ]
+    },
+    "U.SDLU": {
+        "name": "saddle",
+        "synonyms": [
+            "saddle",
+            "seat"
+        ]
+    },
+    "U.SHFU": {
+        "name": "shelf",
+        "synonyms": [
+            "buffet",
+            "mantel",
+            "mantelpiece"
+        ]
+    },
+    "U.SHLU": {
+        "name": "shoal",
+        "synonyms": [
+            "shoal", "shallow"
+        ]
+    },
+    "U.SHSU": {
+        "name": "shoals",
+        "synonyms": [
+             "shoal", "shallow"
+        ]
+    },
+    "U.SHVU": {
+        "name": "shelf valley",
+        "synonyms": ["shelf", "valley"]
+    },
+    "U.SILU": {
+        "name": "sill",
+        "synonyms": [
+            "doorsill",
+            "doorstep",
+            "windowsill",
+            "threshold"
+        ]
+    },
+    "U.SLPU": {
+        "name": "slope",
+        "synonyms": [
+            "slope",
+            "downslope"
+        ]
+    },
+    "U.SMSU": {
+        "name": "seamounts",
+        "synonyms": [
+            "seamounts",
+            "seamount",
+            "sea mounts",
+            "mountain",
+            "mountains"
+        ]
+    },
+    "U.SMU": {
+        "name": "seamount",
+        "synonyms": [
+            "guyot",
+            "mountain",
+            "seamounts",
+            "seamount",
+            "sea mounts",
+            "mountains"
+        ]
+    },
+    "U.SPRU": {
+        "name": "spur",
+        "synonyms": [
+            "spur",
+            "spurring",
+            "prodding"
+        ]
+    },
+    "U.TERU": {
+        "name": "terrace",
+        "synonyms": [
+            "patio",
+            "garden",
+            "area",
+            "suntrap"
+        ]
+    },
+    "U.TMSU": {
+        "name": "tablemounts (or guyots)",
+        "synonyms": ["tablemounts", "guyots", "guyot", "tablemounts"]
+    },
+    "U.TMTU": {
+        "name": "tablemount (or guyot)",
+        "synonyms": ["tablemounts", "guyots", "guyot", "tablemounts"]
+    },
+    "U.TNGU": {
+        "name": "tongue",
+        "synonyms": [
+            "tongue"
+        ]
+    },
+    "U.TRGU": {
+        "name": "trough",
+        "synonyms": [
+            "depression",
+            "natural depression"
+        ]
+    },
+    "U.TRNU": {
+        "name": "trench",
+        "synonyms": [
+            "fire trench",
+            "fosse",
+            "communication trench",
+            "slit trench",
+            "intrenchment",
+            "entrenchment",
+            "approach trench",
+            "moat"
+        ]
+    },
+    "U.VALU": {
+        "name": "valley",
+        "synonyms": [
+            "gully",
+            "rift valley",
+            "hollow",
+            "ravine",
+            "vale",
+            "valleys"
+        ]
+    },
+    "U.VLSU": {
+        "name": "valleys",
+        "synonyms": [
+            "gully",
+            "rift valley",
+            "hollow",
+            "ravine",
+            "vale",
+            "valley"
+        ]
+    },
+    "V.BUSH": {
+        "name": "bush(es)",
+        "synonyms": [
+            "bush",
+            "bushes",
+            "shrub",
+            "herb",
+            "woody plant"
+        ]
+    },
+    "V.CULT": {
+        "name": "cultivated area",
+        "synonyms": ["cultivated", "farm", "farmland"]
+    },
+    "V.FRST": {
+        "name": "forest(s)",
+        "synonyms": ["forest", "jungle", "wood", "forests", "woodland", "timberland", "trees"
+        ]
+    },
+    "V.FRSTF": {
+        "name": "fossilized forest",
+        "synonyms": ["forest", "jungle", "wood", "forests", "woodland", "timberland", "trees"]
+    },
+    "V.GROVE": {
+        "name": "grove",
+        "synonyms": [
+            "wood",
+            "forest",
+            "copse", "glade", "coppice"
+        ]
+    },
+    "V.GRSLD": {
+        "name": "grassland",
+        "synonyms": [
+            "lea",
+            "piece of land",
+            "piece of ground",
+            "hayfield",
+            "meadow",
+            "pastureland",
+            "grazing land",
+            "prairie"
+        ]
+    },
+    "V.GRVC": {
+        "name": "coconut grove",
+        "synonyms": [            "wood",
+            "forest",
+            "copse", "glade", "coppice"]
+    },
+    "V.GRVO": {
+        "name": "olive grove",
+        "synonyms": [            "wood",
+            "forest",
+            "copse", "glade", "coppice"]
+    },
+    "V.GRVP": {
+        "name": "palm grove",
+        "synonyms": [
+            "palm","wood",
+            "forest",
+            "copse", "glade", "coppice"]
+    },
+    "V.GRVPN": {
+        "name": "pine grove",
+        "synonyms": [
+            "pine",
+            "wood",
+            "forest",
+            "copse", "glade", "coppice"]
+    },
+    "V.HTH": {
+        "name": "heath",
+        "synonyms": [
+            "moor area",
+            "sandy area",
+            "heather"
+        ]
+    },
+    "V.MDW": {
+        "name": "meadow",
+        "synonyms": [
+            "meadow", "lawn", "field"
+        ]
+    },
+    "V.OCH": {
+        "name": "orchard(s)",
+        "synonyms": [
+            "orchard",
+            "orchards", "tree", "fruit trees"
+        ]
+    },
+    "V.SCRB": {
+        "name": "scrubland",
+        "synonyms": [
+            "scrub", "land"
+        ]
+    },
+    "V.TREE": {
+        "name": "tree(s)",
+        "synonyms": [
+            "tree",
+            "trees"
+        ]
+    },
+    "V.TUND": {
+        "name": "tundra",
+        "synonyms": [
+            "field"
+        ]
+    },
+    "V.VIN": {
+        "name": "vineyard",
+        "synonyms": [
+            "vinery", "arbor"
+        ]
+    },
+    "V.VINS": {
+        "name": "vineyards",
+        "synonyms": [
+            "vineyard","arbor",
+            "vineyards", "vinery"
+        ]
+    }
+}
