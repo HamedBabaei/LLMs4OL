@@ -32,8 +32,10 @@ if __name__ == "__main__":
 
     dataset = DataReader.load_json(config.entity_path)
     templates = DataReader.load_json(config.templates_json)[config.template_name]
+    label_mapper = DataReader.load_json(config.label_mapper)
 
-    test_dataset = InferenceDatasetFactory(kb_name=args.kb_name, data=dataset, templates=templates, template=args.template)
+    test_dataset = InferenceDatasetFactory(kb_name=args.kb_name, data=dataset, templates=templates,
+                                           template=args.template, label_mapper=label_mapper)
 
     report_dict = {
         "baseline-run-args": str(args),
