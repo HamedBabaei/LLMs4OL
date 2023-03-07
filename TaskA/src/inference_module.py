@@ -117,6 +117,20 @@ class EncoderDecoderLM(BaseLM):
 
     def make_batch_prediction(self, Xs):
         predictions, logits = [], []
+        inputs = self.tokenizer(Xs, return_tensors="pt", padding=True)
+        inputs.to(self.device)
+        with torch.no_grad():
+            sequence_ids = self.model.generate(inputs.input_ids, num_beams=200, num_return_sequences=self.top_n, max_length=5)
+        sequences = self.tokenizer.batch_decode(sequence_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)
+        sequences = [self.__output_cleaner(seq) for seq in sequences]
+        sequences_logist = [0 for _ in sequences]
+        for index in range(0, len(Xs)):
+            predictions.append(sequences[self.top_n * index:self.top_n * (index + 1)])
+            logits.append(sequences_logist[self.top_n * index:self.top_n * (index + 1)])
+        return predictions, logits
+
+    def make_batch_prediction1(self, Xs):
+        predictions, logits = [], []
         for X in Xs:
             predict, logit = self.predict(X)
             predictions.append(predict)
@@ -167,7 +181,7 @@ class InferenceFactory:
             "bert_large": MaskedLM,
             "flan_t5_large": EncoderDecoderLM,
             "flan_t5_xl": EncoderDecoderLM,
-            "bart_large": EncoderDecoderLM,
+            "bart_large": MaskedLM,
             "gpt3_babbage": Left2RightOnlineLM
         }
         self.config = config
