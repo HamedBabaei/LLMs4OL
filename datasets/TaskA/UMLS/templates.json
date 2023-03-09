@@ -20,13 +20,13 @@
         "template-8": "'[A]' in biomedicine is a ?"
     },
     "bart":{
-        "template-1": "[SENTENCE]. [A] in medicine is a <mask>.",
-        "template-2": "[SENTENCE]. [A] in biomedicine is a <mask>.",
-        "template-3": "[SENTENCE]. '[A]' in medicine is a <mask>.",
-        "template-4": "[SENTENCE]. '[A]' in biomedicine is a <mask>.",
-        "template-5": "[A] in medicine is a <mask>.",
-        "template-6": "[A] in biomedicine is a <mask>.",
-        "template-7": "'[A]' in medicine is a <mask>.",
-        "template-8": "'[A]' in biomedicine is a <mask>."
+        "template-1": "[SENTENCE]. [A] in medicine is a <mask> .",
+        "template-2": "[SENTENCE]. [A] in biomedicine is a <mask> .",
+        "template-3": "[SENTENCE]. '[A]' in medicine is a <mask> .",
+        "template-4": "[SENTENCE]. '[A]' in biomedicine is a <mask> .",
+        "template-5": "[A] in medicine is a <mask> .",
+        "template-6": "[A] in biomedicine is a <mask> .",
+        "template-7": "'[A]' in medicine is a <mask> .",
+        "template-8": "'[A]' in biomedicine is a <mask> ."
     }
 }
