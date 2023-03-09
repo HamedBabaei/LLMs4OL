@@ -112,23 +112,30 @@ class BaseConfig:
         self.parser.add_argument("--eval_metric", type=str, default="map")
         self.parser.add_argument("--batch_size", type=int, default=32)
         # add model specific arguments
-
         if model == "bert_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
             self.parser.add_argument("--template_name", type=str, default="bert")
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model=="bart_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bart-large")
             self.parser.add_argument("--template_name", type=str, default="bart")
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == "flan_t5_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-large")
             self.parser.add_argument("--template_name", type=str, default="t5")
+            self.parser.add_argument("--multi_gpu", type=bool, default=True)
         if model == "flan_t5_xl":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
             self.parser.add_argument("--template_name", type=str, default="t5")
+            self.parser.add_argument("--multi_gpu", type=bool, default=True)
         if model == "gpt3_babbage":
             self.parser.add_argument("--model_path", type=str, default="text-babbage-001")
             self.parser.add_argument("--template_name", type=str, default="gpt")
             self.parser.add_argument("--openai_key", type=str, default=openai_key)
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
+
+        # for multi-gpu only
+        self.parser.add_argument("--gpu_no", type=int, default=2)
 
         self.parser.add_argument("-f")
         return self.parser.parse_args()
