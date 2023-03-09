@@ -81,7 +81,7 @@ class UMLSDataset(Dataset):
         self.label_mapper = label_mapper
         self.use_sentence =  True if "[SENTENCE]" in self.template else False
         self.data = []
-        for sample in data['umls']:
+        for sample in data:
             if self.is_train and sample["status"] == "train":
                 self.data.append(sample)
             if not self.is_train and sample["status"] == "test":
@@ -96,15 +96,16 @@ class UMLSDataset(Dataset):
     
     def __getitem__(self, index):
         item = self.data[index]
-        sample = self.template.replace("[A]", str(item['concept']))
-        labels = item['label-names']
+        concept = str(item['concept']).lower()
+        sample = self.template.replace("[A]", concept)
+        labels = []
         for label in eval(item['label-str']):
             for l in self.label_mapper[label]:
                 labels.append(l)
         label = list(set(labels))
         label = [l.lower() for l in label]
         if self.use_sentence:
-            sample = sample.replace("[SENTENCE]", str(item['concept']))
+            sample = sample.replace("[SENTENCE]", concept)
         if self.is_train:
             sample = sample # .replace("[MASK]", 'or '.join(item['label-names']))
         return {"sample":sample, "label":label}
@@ -128,7 +129,7 @@ class InferenceDatasetFactory:
             return WNDataset(data=data, templates=templates,
                              template=template, is_train=False)
 
-        if kb_name == "nci" or kb_name == "snomedct_us" or kb_name == "medicin":
+        if kb_name == "nci" or kb_name == "snomedct_us" or kb_name == "medcin":
             return UMLSDataset(data=data, kb_name=kb_name, 
                                 templates=templates, template=template,
-                                is_train=False)
+                                is_train=False, label_mapper=label_mapper)
