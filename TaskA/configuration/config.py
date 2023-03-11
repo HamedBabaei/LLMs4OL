@@ -4,7 +4,7 @@
 import argparse
 import datetime
 import os
-
+import torch
 
 openai_key = os.getenv("OPEN_AI")
 
@@ -107,10 +107,10 @@ class BaseConfig:
 
 
         self.parser.add_argument("--template", type=str, default=template)
-        self.parser.add_argument("--top_n", type=int, default=10)
+        self.parser.add_argument("--top_n", type=int, default=1)
         self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
         self.parser.add_argument("--eval_metric", type=str, default="map")
-        self.parser.add_argument("--batch_size", type=int, default=32)
+        self.parser.add_argument("--batch_size", type=int, default=64)
         # add model specific arguments
         if model == "bert_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
@@ -135,7 +135,6 @@ class BaseConfig:
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
 
         # for multi-gpu only
-        self.parser.add_argument("--gpu_no", type=int, default=2)
-
+        self.parser.add_argument("--gpu_no", type=int, default=torch.cuda.device_count())
         self.parser.add_argument("-f")
         return self.parser.parse_args()
