@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 import argparse
 from src import EvaluationMetrics
-
+import datetime
 
 def inference(model, dataloader):
     predictions, logits, labels = [], [], []
@@ -29,7 +29,8 @@ if __name__ == "__main__":
    
     print("args:", args)
     config = BaseConfig(version=3).get_args(kb_name=args.kb_name, model=args.model_name, template=args.template)
-
+    start_time = datetime.datetime.now()
+    print("Starting the Inference time is:", str(start_time).split('.')[0])
     dataset = DataReader.load_json(config.entity_path)
     templates = DataReader.load_json(config.templates_json)[config.template_name]
     label_mapper = DataReader.load_json(config.label_mapper)
@@ -64,5 +65,9 @@ if __name__ == "__main__":
     print("Results:", results)
     print(f"scoring results in:{config.report_output}")
     DataWriter.write_json(report_dict,  config.report_output)
+    end_time = datetime.datetime.now()
+    print("Ending the Inference time is:", str(end_time).split('.')[0])
+    print("Total duration is===>", str(end_time - start_time))
+
 
 
