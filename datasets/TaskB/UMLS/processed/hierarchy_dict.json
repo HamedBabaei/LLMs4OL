@@ -1,522 +1,522 @@
 [
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Cell Function"
+        "text_a": "group",
+        "text_b": "age group"
     },
     {
-        "text_a": "Group",
-        "text_b": "Patient or Disabled Group"
+        "text_a": "substance",
+        "text_b": "amino acid, peptide, or protein"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Mental Process"
+        "text_a": "conceptual entity",
+        "text_b": "group"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Temporal Concept"
+        "text_a": "natural phenomenon or process",
+        "text_b": "genetic function"
     },
     {
-        "text_a": "Occupational Activity",
-        "text_b": "Diagnostic Procedure"
+        "text_a": "substance",
+        "text_b": "food"
     },
     {
-        "text_a": "Behavior",
-        "text_b": "Individual Behavior"
+        "text_a": "natural phenomenon or process",
+        "text_b": "neoplastic process"
     },
     {
-        "text_a": "Human-caused Phenomenon or Process",
-        "text_b": "Environmental Effect of Humans"
+        "text_a": "anatomical structure",
+        "text_b": "anatomical abnormality"
     },
     {
-        "text_a": "Anatomical Structure",
-        "text_b": "Acquired Abnormality"
+        "text_a": "occupational activity",
+        "text_b": "laboratory procedure"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Biologically Active Substance"
+        "text_a": "substance",
+        "text_b": "receptor"
     },
     {
-        "text_a": "Finding",
-        "text_b": "Sign or Symptom"
+        "text_a": "substance",
+        "text_b": "pharmacologic substance"
     },
     {
-        "text_a": "Group",
-        "text_b": "Professional or Occupational Group"
+        "text_a": "anatomical structure",
+        "text_b": "tissue"
     },
     {
-        "text_a": "Conceptual Entity",
-        "text_b": "Occupation or Discipline"
+        "text_a": "occupational activity",
+        "text_b": "therapeutic or preventive procedure"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Organic Chemical"
+        "text_a": "conceptual entity",
+        "text_b": "language"
     },
     {
-        "text_a": "Conceptual Entity",
-        "text_b": "Intellectual Product"
+        "text_a": "substance",
+        "text_b": "chemical"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Body Space or Junction"
+        "text_a": "organism",
+        "text_b": "plant"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Enzyme"
+        "text_a": "idea or concept",
+        "text_b": "amino acid sequence"
     },
     {
-        "text_a": "Occupational Activity",
-        "text_b": "Laboratory Procedure"
+        "text_a": "substance",
+        "text_b": "immunologic factor"
     },
     {
-        "text_a": "Conceptual Entity",
-        "text_b": "Group Attribute"
+        "text_a": "substance",
+        "text_b": "vitamin"
     },
     {
-        "text_a": "Manufactured Object",
-        "text_b": "Drug Delivery Device"
+        "text_a": "conceptual entity",
+        "text_b": "group attribute"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Immunologic Factor"
+        "text_a": "natural phenomenon or process",
+        "text_b": "organ or tissue function"
     },
     {
-        "text_a": "Group",
-        "text_b": "Population Group"
+        "text_a": "idea or concept",
+        "text_b": "functional concept"
     },
     {
-        "text_a": "Occupational Activity",
-        "text_b": "Molecular Biology Research Technique"
+        "text_a": "phenomenon or process",
+        "text_b": "injury or poisoning"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Quantitative Concept"
+        "text_a": "organism",
+        "text_b": "human"
     },
     {
-        "text_a": "Conceptual Entity",
-        "text_b": "Idea or Concept"
+        "text_a": "idea or concept",
+        "text_b": "carbohydrate sequence"
     },
     {
-        "text_a": "Injury or Poisoning",
+        "text_a": "conceptual entity",
+        "text_b": "organization"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "bird"
+    },
+    {
+        "text_a": "substance",
+        "text_b": "element, ion, or isotope"
+    },
+    {
+        "text_a": "natural phenomenon or process",
+        "text_b": "organism function"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "archaeon"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "bacterium"
+    },
+    {
+        "text_a": "intellectual product",
+        "text_b": "regulation or law"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "temporal concept"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "molecular sequence"
+    },
+    {
+        "text_a": "physical object",
+        "text_b": "substance"
+    },
+    {
+        "text_a": "substance",
+        "text_b": "antibiotic"
+    },
+    {
+        "text_a": "a",
+        "text_b": "conceptual entity"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "nucleotide sequence"
+    },
+    {
+        "text_a": "finding",
+        "text_b": "laboratory or test result"
+    },
+    {
+        "text_a": "natural phenomenon or process",
+        "text_b": "biologic function"
+    },
+    {
+        "text_a": "anatomical structure",
+        "text_b": "embryonic structure"
+    },
+    {
+        "text_a": "natural phenomenon or process",
+        "text_b": "disease or syndrome"
+    },
+    {
+        "text_a": "group",
+        "text_b": "population group"
+    },
+    {
+        "text_a": "language",
         "text_b": "  "
     },
     {
-        "text_a": "Intellectual Product",
-        "text_b": "Regulation or Law"
+        "text_a": "natural phenomenon or process",
+        "text_b": "physiologic function"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Carbohydrate Sequence"
+        "text_a": "idea or concept",
+        "text_b": "body system"
     },
     {
-        "text_a": "Anatomical Structure",
-        "text_b": "Tissue"
+        "text_a": "group",
+        "text_b": "patient or disabled group"
     },
     {
-        "text_a": "Group Attribute",
+        "text_a": "idea or concept",
+        "text_b": "quantitative concept"
+    },
+    {
+        "text_a": "intellectual product",
+        "text_b": "classification"
+    },
+    {
+        "text_a": "b",
+        "text_b": "activity"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "geographic area"
+    },
+    {
+        "text_a": "group",
+        "text_b": "family group"
+    },
+    {
+        "text_a": "occupational activity",
+        "text_b": "health care activity"
+    },
+    {
+        "text_a": "substance",
+        "text_b": "hormone"
+    },
+    {
+        "text_a": "phenomenon or process",
+        "text_b": "natural phenomenon or process"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "amphibian"
+    },
+    {
+        "text_a": "substance",
+        "text_b": "nucleic acid, nucleoside, or nucleotide"
+    },
+    {
+        "text_a": "group attribute",
         "text_b": "  "
     },
     {
-        "text_a": "Substance",
-        "text_b": "Hormone"
+        "text_a": "anatomical structure",
+        "text_b": "congenital abnormality"
     },
     {
-        "text_a": "Occupational Activity",
-        "text_b": "Health Care Activity"
+        "text_a": "conceptual entity",
+        "text_b": "finding"
     },
     {
-        "text_a": "Conceptual Entity",
-        "text_b": "Finding"
+        "text_a": "organism",
+        "text_b": "vertebrate"
     },
     {
-        "text_a": "Organization",
-        "text_b": "Health Care Related Organization"
+        "text_a": "behavior",
+        "text_b": "individual behavior"
     },
     {
-        "text_a": "Activity",
-        "text_b": "Machine Activity"
+        "text_a": "natural phenomenon or process",
+        "text_b": "mental or behavioral dysfunction"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Molecular Function"
+        "text_a": "a",
+        "text_b": "physical object"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Organ or Tissue Function"
+        "text_a": "organism",
+        "text_b": "fungus"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Bird"
+        "text_a": "occupation or discipline",
+        "text_b": "biomedical occupation or discipline"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Pathologic Function"
+        "text_a": "behavior",
+        "text_b": "social behavior"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Nucleic Acid, Nucleoside, or Nucleotide"
+        "text_a": "anatomical structure",
+        "text_b": "fully formed anatomical structure"
     },
     {
-        "text_a": "Activity",
-        "text_b": "Behavior"
+        "text_a": "physical object",
+        "text_b": "manufactured object"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Genetic Function"
+        "text_a": "finding",
+        "text_b": "sign or symptom"
     },
     {
-        "text_a": "Conceptual Entity",
-        "text_b": "Organism Attribute"
+        "text_a": "organization",
+        "text_b": "health care related organization"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Fish"
+        "text_a": "activity",
+        "text_b": "behavior"
     },
     {
-        "text_a": "Intellectual Product",
-        "text_b": "Classification"
+        "text_a": "organism",
+        "text_b": "mammal"
     },
     {
-        "text_a": "Physical Object",
-        "text_b": "Manufactured Object"
+        "text_a": "substance",
+        "text_b": "indicator, reagent, or diagnostic aid"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Element, Ion, or Isotope"
+        "text_a": "occupational activity",
+        "text_b": "research activity"
     },
     {
-        "text_a": "Anatomical Structure",
-        "text_b": "Cell"
+        "text_a": "substance",
+        "text_b": "biomedical or dental material"
     },
     {
-        "text_a": "Physical Object",
-        "text_b": "Organism"
-    },
-    {
-        "text_a": "Manufactured Object",
-        "text_b": "Medical Device"
-    },
-    {
-        "text_a": "Manufactured Object",
-        "text_b": "Research Device"
-    },
-    {
-        "text_a": "Anatomical Structure",
-        "text_b": "Congenital Abnormality"
-    },
-    {
-        "text_a": "Idea or Concept",
-        "text_b": "Molecular Sequence"
-    },
-    {
-        "text_a": "Organization",
-        "text_b": "Self-help or Relief Organization"
-    },
-    {
-        "text_a": "Behavior",
-        "text_b": "Social Behavior"
-    },
-    {
-        "text_a": "Anatomical Structure",
-        "text_b": "Body Part, Organ, or Organ Component"
-    },
-    {
-        "text_a": "Organism",
-        "text_b": "Plant"
-    },
-    {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Physiologic Function"
-    },
-    {
-        "text_a": "Anatomical Structure",
-        "text_b": "Anatomical Abnormality"
-    },
-    {
-        "text_a": "Conceptual Entity",
-        "text_b": "Organization"
-    },
-    {
-        "text_a": "Substance",
-        "text_b": "Chemical Viewed Functionally"
-    },
-    {
-        "text_a": "Substance",
-        "text_b": "Body Substance"
-    },
-    {
-        "text_a": "Organism",
-        "text_b": "Animal"
-    },
-    {
-        "text_a": "Physical Object",
-        "text_b": "Anatomical Structure"
-    },
-    {
-        "text_a": "Substance",
-        "text_b": "Pharmacologic Substance"
-    },
-    {
-        "text_a": "Substance",
-        "text_b": "Biomedical or Dental Material"
-    },
-    {
-        "text_a": "Idea or Concept",
-        "text_b": "Amino Acid Sequence"
-    },
-    {
-        "text_a": "Activity",
-        "text_b": "Occupational Activity"
-    },
-    {
-        "text_a": "Language",
+        "text_a": "injury or poisoning",
         "text_b": "  "
     },
     {
-        "text_a": "Occupational Activity",
-        "text_b": "Governmental or Regulatory Activity"
+        "text_a": "manufactured object",
+        "text_b": "medical device"
     },
     {
-        "text_a": "Phenomenon or Process",
-        "text_b": "Human-caused Phenomenon or Process"
+        "text_a": "activity",
+        "text_b": "daily or recreational activity"
     },
     {
-        "text_a": "Occupational Activity",
-        "text_b": "Therapeutic or Preventive Procedure"
+        "text_a": "natural phenomenon or process",
+        "text_b": "pathologic function"
     },
     {
-        "text_a": "Physical Object",
-        "text_b": "Substance"
+        "text_a": "organism",
+        "text_b": "reptile"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Chemical Viewed Structurally"
+        "text_a": "activity",
+        "text_b": "occupational activity"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Body Location or Region"
+        "text_a": "anatomical structure",
+        "text_b": "gene or genome"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Organism Function"
+        "text_a": "group",
+        "text_b": "professional or occupational group"
     },
     {
-        "text_a": "Organization",
-        "text_b": "Professional Society"
+        "text_a": "natural phenomenon or process",
+        "text_b": "cell function"
     },
     {
-        "text_a": "Manufactured Object",
-        "text_b": "Clinical Drug"
+        "text_a": "substance",
+        "text_b": "chemical viewed functionally"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Antibiotic"
+        "text_a": "idea or concept",
+        "text_b": "body location or region"
     },
     {
-        "text_a": "Activity",
-        "text_b": "Daily or Recreational Activity"
+        "text_a": "organism",
+        "text_b": "virus"
     },
     {
-        "text_a": "Finding",
-        "text_b": "Laboratory or Test Result"
+        "text_a": "anatomical structure",
+        "text_b": "cell component"
     },
     {
-        "text_a": "Anatomical Structure",
-        "text_b": "Fully Formed Anatomical Structure"
+        "text_a": "anatomical structure",
+        "text_b": "cell"
     },
     {
-        "text_a": "Occupational Activity",
-        "text_b": "Research Activity"
+        "text_a": "conceptual entity",
+        "text_b": "organism attribute"
     },
     {
-        "text_a": "B",
-        "text_b": "Activity"
+        "text_a": "substance",
+        "text_b": "inorganic chemical"
     },
     {
-        "text_a": "Phenomenon or Process",
-        "text_b": "Injury or Poisoning"
+        "text_a": "occupational activity",
+        "text_b": "diagnostic procedure"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Mammal"
+        "text_a": "organization",
+        "text_b": "self-help or relief organization"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Body System"
+        "text_a": "occupational activity",
+        "text_b": "educational activity"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Mental or Behavioral Dysfunction"
+        "text_a": "substance",
+        "text_b": "body substance"
     },
     {
-        "text_a": "Group",
-        "text_b": "Age Group"
+        "text_a": "organism attribute",
+        "text_b": "clinical attribute"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Food"
+        "text_a": "organism",
+        "text_b": "animal"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Receptor"
+        "text_a": "conceptual entity",
+        "text_b": "occupation or discipline"
     },
     {
-        "text_a": "Conceptual Entity",
-        "text_b": "Group"
+        "text_a": "anatomical structure",
+        "text_b": "body part, organ, or organ component"
     },
     {
-        "text_a": "Occupational Activity",
-        "text_b": "Educational Activity"
+        "text_a": "substance",
+        "text_b": "chemical viewed structurally"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Indicator, Reagent, or Diagnostic Aid"
+        "text_a": "activity",
+        "text_b": "machine activity"
     },
     {
-        "text_a": "Anatomical Structure",
-        "text_b": "Gene or Genome"
+        "text_a": "human-caused phenomenon or process",
+        "text_b": "environmental effect of humans"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Archaeon"
+        "text_a": "substance",
+        "text_b": "organic chemical"
     },
     {
-        "text_a": "Occupation or Discipline",
-        "text_b": "Biomedical Occupation or Discipline"
+        "text_a": "natural phenomenon or process",
+        "text_b": "experimental model of disease"
     },
     {
-        "text_a": "Organism Attribute",
-        "text_b": "Clinical Attribute"
+        "text_a": "organism",
+        "text_b": "fish"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Hazardous or Poisonous Substance"
+        "text_a": "substance",
+        "text_b": "hazardous or poisonous substance"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Geographic Area"
+        "text_a": "natural phenomenon or process",
+        "text_b": "cell or molecular dysfunction"
     },
     {
-        "text_a": "A",
-        "text_b": "Physical Object"
+        "text_a": "phenomenon or process",
+        "text_b": "human-caused phenomenon or process"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Neoplastic Process"
+        "text_a": "b",
+        "text_b": "phenomenon or process"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Amphibian"
+        "text_a": "conceptual entity",
+        "text_b": "idea or concept"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Disease or Syndrome"
+        "text_a": "natural phenomenon or process",
+        "text_b": "molecular function"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Functional Concept"
+        "text_a": "conceptual entity",
+        "text_b": "intellectual product"
     },
     {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Cell or Molecular Dysfunction"
+        "text_a": "physical object",
+        "text_b": "anatomical structure"
     },
     {
-        "text_a": "Group",
-        "text_b": "Family Group"
+        "text_a": "substance",
+        "text_b": "biologically active substance"
     },
     {
-        "text_a": "Idea or Concept",
-        "text_b": "Qualitative Concept"
+        "text_a": "substance",
+        "text_b": "enzyme"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Eukaryote"
+        "text_a": "organism",
+        "text_b": "eukaryote"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Virus"
+        "text_a": "occupational activity",
+        "text_b": "governmental or regulatory activity"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Vertebrate"
+        "text_a": "anatomical structure",
+        "text_b": "acquired abnormality"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Vitamin"
+        "text_a": "manufactured object",
+        "text_b": "research device"
     },
     {
-        "text_a": "Daily or Recreational Activity",
+        "text_a": "manufactured object",
+        "text_b": "drug delivery device"
+    },
+    {
+        "text_a": "manufactured object",
+        "text_b": "clinical drug"
+    },
+    {
+        "text_a": "organization",
+        "text_b": "professional society"
+    },
+    {
+        "text_a": "physical object",
+        "text_b": "organism"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "body space or junction"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "qualitative concept"
+    },
+    {
+        "text_a": "occupational activity",
+        "text_b": "molecular biology research technique"
+    },
+    {
+        "text_a": "machine activity",
         "text_b": "  "
     },
     {
-        "text_a": "Substance",
-        "text_b": "Amino Acid, Peptide, or Protein"
+        "text_a": "natural phenomenon or process",
+        "text_b": "mental process"
     },
     {
-        "text_a": "Organism",
-        "text_b": "Human"
+        "text_a": "idea or concept",
+        "text_b": "spatial concept"
     },
     {
-        "text_a": "Substance",
-        "text_b": "Inorganic Chemical"
-    },
-    {
-        "text_a": "Phenomenon or Process",
-        "text_b": "Natural Phenomenon or Process"
-    },
-    {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Biologic Function"
-    },
-    {
-        "text_a": "Anatomical Structure",
-        "text_b": "Cell Component"
-    },
-    {
-        "text_a": "Organism",
-        "text_b": "Reptile"
-    },
-    {
-        "text_a": "Machine Activity",
+        "text_a": "daily or recreational activity",
         "text_b": "  "
-    },
-    {
-        "text_a": "B",
-        "text_b": "Phenomenon or Process"
-    },
-    {
-        "text_a": "Idea or Concept",
-        "text_b": "Nucleotide Sequence"
-    },
-    {
-        "text_a": "Idea or Concept",
-        "text_b": "Spatial Concept"
-    },
-    {
-        "text_a": "Anatomical Structure",
-        "text_b": "Embryonic Structure"
-    },
-    {
-        "text_a": "Substance",
-        "text_b": "Chemical"
-    },
-    {
-        "text_a": "A",
-        "text_b": "Conceptual Entity"
-    },
-    {
-        "text_a": "Conceptual Entity",
-        "text_b": "Language"
-    },
-    {
-        "text_a": "Organism",
-        "text_b": "Fungus"
-    },
-    {
-        "text_a": "Organism",
-        "text_b": "Bacterium"
-    },
-    {
-        "text_a": "Natural Phenomenon or Process",
-        "text_b": "Experimental Model of Disease"
     }
 ]
