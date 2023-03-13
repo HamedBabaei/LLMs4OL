@@ -1,0 +1,4 @@
+{
+  "correct": ["True", "correct", "right"],
+  "incorrect": ["False", "incorrect", "wrong"]
+}
