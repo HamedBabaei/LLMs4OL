@@ -19,6 +19,25 @@ def build_geonames(config):
     geo_df = geo_df.drop(['Name'], axis=1)
     DataWriter.write_df(geo_df, path=config.feature_codes)
 
+def combine_umls(config):
+    nci = DataReader.load_json(config.raw_sn_nci)
+    medcin = DataReader.load_json(config.raw_sn_medcin)
+    snomedct_us = DataReader.load_json(config.raw_sn_snomedct_us)
+    new_umls = {"SAB":[nci['SAB'], medcin['SAB'], snomedct_us['SAB']],
+                "STN2STR": nci['STN2STR'] | medcin['STN2STR'] | snomedct_us['STN2STR'],
+                "TUI2STR": nci['TUI2STR'] | medcin['TUI2STR'] | snomedct_us['TUI2STR'],
+                "TUI2STN":  nci['TUI2STN'] | medcin['TUI2STN'] | snomedct_us['TUI2STN'],
+                "TUIs": list(set(nci['TUIs']+medcin['TUIs']+snomedct_us['TUIs'])),
+                "STNs": list(set(nci['STNs']+medcin['STNs']+snomedct_us['STNs']))
+                }
+    print("SIZE of STN2STR is:", len(new_umls['STN2STR']))
+    print("SIZE of TUI2STR is:", len(new_umls['TUI2STR']))
+    print("SIZE of TUI2STN is:", len(new_umls['TUI2STN']))
+    print("SIZE of TUIs is:", len(new_umls['TUIs']))
+    print("SIZE of STNs is:", len(new_umls['STNs']))
+    DataWriter.write_json(data=new_umls, path=config.raw_sn)
+
+
 
 def build_umls(config, return_df=False):
     def grouping(original_items: list, end: int):
@@ -26,6 +45,8 @@ def build_umls(config, return_df=False):
         temp = sorted(original_items, key=util_func)
         res = [list(ele) for i, ele in groupby(temp, util_func)]
         return res
+
+    combine_umls(config)
 
     umls_js = DataReader.load_json(config.raw_sn)
     # Create A, B
@@ -94,46 +115,15 @@ def build_umls(config, return_df=False):
     else:
         DataWriter.write_csv(new_group_dict, path=config.processed_sn)
 
-def build_umls_for_medcin(config):
-    umls = build_umls(config, return_df=True)
-    unvalids = {
-        "A": "Entity",
-        "A1.2": "Anatomical Structure",
-        "A1.1": "Organism",
-        "A1": "Physical Object",
-        "A2": "Conceptual Entity",
-        "B": "Event",
-        "B2.2": "Natural Phenomenon or Process",
-        "A2.9": "Group"
-    }
 
-    name_mappers = {name: "  " for name in unvalids.values()}
-    label_mappers = {key: "  " for key in unvalids.keys()}
-    def name_mapper(name):
-        if name_mappers.get(name, "NA") != "NA":
-            return name_mappers[name]
-        else:
-            return name
-    def label_mapper(label):
-        if label_mappers.get(label, "NA") != "NA":
-            return label_mappers[label]
-        else:
-            return label
-
-    for column in list(umls.columns):
-        if "Name" in column:
-            umls[column] = umls[column].apply(name_mapper)
-        else:
-            umls[column] = umls[column].apply(label_mapper)
-    DataWriter.write_csv(umls, path=config.processed_sn)
 
 
 if __name__ == "__main__":
     KB_NAMES = {
-        'geonames': build_geonames,
-        "nci": build_umls,
-        "medcin": build_umls,
-        "snomedct_us": build_umls
+        # 'geonames': build_geonames,
+        "umls": build_umls,
+        # "medcin": build_umls,
+        # "snomedct_us": build_umls
     }
     for kb_name, function in KB_NAMES.items():
         CONFIG = BaseConfig().get_args(kb_name=kb_name)
