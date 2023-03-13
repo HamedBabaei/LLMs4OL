@@ -1,0 +1,2722 @@
+[
+    {
+        "text_a": "country, state, or region",
+        "text_b": "first-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "historical first-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "second-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "historical second-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "third-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "historical third-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "fourth-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "historical fourth-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "fifth-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "historical fifth-order administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "administrative division"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "historical administrative division "
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "leased area"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "political entity"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "dependent political entity"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "freely associated state"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "historical political entity"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "independent political entity"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "section of independent political entity"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "semi-independent political entity"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "parish"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "territory"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "zone"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "buffer zone"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "seaplane landing area"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "anchorage"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "bay"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "bays"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "bight(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "bank(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "stream bank"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of bank"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "bog(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "icecap"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "channel"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "lake channel(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "marine channel"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "navigation channel"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "confluence"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "canal"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "aqueduct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "canal bend"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "drainage canal"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "irrigation canal"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "navigation canal(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "abandoned canal"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "underground irrigation canal(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of canal"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "cove(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "tidal creek(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "current"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "cutoff"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "dock(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "docking basin"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "icecap dome"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "icecap depression"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "ditch"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "drainage ditch"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "irrigation ditch"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "ditch mouth(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "estuary"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "fishing area"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "fjord"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "fjords"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "waterfall(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of waterfall(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "mud flat(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "tidal flat(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "glacier(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "gulf"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "geyser"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "harbor(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of harbor"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "inlet"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "former inlet"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "lake bed(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "lagoon"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "lagoons"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of lagoon"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "crater lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent salt lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "oxbow lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent oxbow lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "lakes"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "underground lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "crater lakes"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent lakes"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt lakes"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent salt lakes"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of lake"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt evaporation ponds"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "mangrove swamp"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "moor(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "marsh(es)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt marsh"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "narrows"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "ocean"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "overfalls"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "pond"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent pond"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt pond"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent salt pond(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "ponds"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "fishponds"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent ponds"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt ponds"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "pool(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent pool"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "reach"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "icecap ridge"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "roadstead"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "reef(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "coral reef(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of reef"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "rapids"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "reservoir(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent reservoir"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "water tank"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "ravine(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "sabkha(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "sound"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "sea"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "shoal(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "sill"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "spring(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "sulphur spring(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "hot spring(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "stream"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "anabranch"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "stream bend"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "canalized stream"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "distributary(-ies)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "headwaters"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent stream"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of intermittent stream"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "stream mouth(s)"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "abandoned watercourse"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "streams"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "lost river"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of stream"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "strait"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "swamp"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "irrigation system"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "canal tunnel"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "wadi"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "wadi bend"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "wadi junction"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "wadi mouth"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "wadies"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of wadi"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "whirlpool"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "well"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "abandoned well"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "wells"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "wetland"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent wetland"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "watercourse"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "waterhole(s)"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "agricultural colony"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "amusement park"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "drainage basin"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "petroleum basin"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "battlefield"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "clearing"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "common"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "concession area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "coalfield"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "continent"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "coast"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "business center"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "housing development"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "field(s)"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "irrigated field(s)"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "gasfield"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "grazing area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "gravel area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "industrial area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "arctic land"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "locality"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "military base"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "mining area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "maneuver area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "naval base"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "oasis(-es)"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "oilfield"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "peat cutting area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "park"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "port"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "quicksand"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "reserve"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "agricultural reserve"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "forest reserve"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "hunting reserve"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "nature reserve"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "palm tree reserve"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "reservation"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "wildlife reserve"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "region"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "economic region"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "historical region"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "lake region"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "artillery range"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "salt area"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "snowfield"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "tribal area"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "populated place"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "seat of a first-order administrative division"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "seat of a second-order administrative division"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "seat of a third-order administrative division"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "seat of a fourth-order administrative division"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "seat of a fifth-order administrative division"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "capital of a political entity"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "historical capital of a political entity"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "farm village"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "seat of government of a political entity"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "historical populated place"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "populated locality"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "abandoned populated place"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "religious populated place"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "populated places"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "destroyed populated place"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "section of populated place"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "israeli settlement"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "causeway"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "oil pipeline"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "promenade"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "portage"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "road"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "ancient road"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "road bend"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "road cut"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "road junction"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "railroad junction"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "railroad"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "abandoned railroad"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "caravan route"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "railroad yard"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "street"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "stock route"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "tunnel"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "natural tunnel"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "road tunnel"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "railroad tunnel"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "tunnels"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "trail"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "administrative facility"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "agricultural facility"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "airbase"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "airfield"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "heliport"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "airport"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned airfield"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "terminal"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "amphitheater"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "archaeological/prehistoric site"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "aquaculture facility"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "arch"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "archive"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "piece of art"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "astronomical station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "asylum"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "athletic field"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "automatic teller machine"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "bank"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "beacon"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "bridge"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ruined bridge"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "apartment building"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "building(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "office building"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "boundary marker"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "barracks"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "breakwater"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "baling station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "boatyard"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "burial cave(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "bus station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "bus stop"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "cairn"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "cave(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "church"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "camp(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "logging camp"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "labor camp"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mining camp"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "oil camp"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned camp"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "refugee camp"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "cemetery"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "communication center"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "corral(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "casino"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "castle"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "customs house"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "courthouse"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "atomic center"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "community center"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "facility center"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "medical center"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "religious center"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "space center"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "convent"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "dam"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ruined dam"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sub-surface dam"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "dairy"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "dry dock"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "dockyard"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "dike"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "diplomatic facility"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "fuel depot"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "estate(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "oil palm plantation"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "rubber plantation"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sugar plantation"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "tea plantation"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "section of estate"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "facility"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "foundry"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "farm"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned farm"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "farms"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "farmstead"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "fort"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ferry"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ferry terminal"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "gate"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "garden(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ghat"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "guest house"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "gas-oil separator plant"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "local government office"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "grave"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "hermitage"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "halting place"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "homestead"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "house(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "country house"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "hospital"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "clinic"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "dispensary"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "leprosarium"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "historical site"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "hotel"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "hut"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "huts"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "military installation"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "research institute"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "jetty"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "landing"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "leper colony"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "library"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "landfill"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "lock(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "lighthouse"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mall"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "marina"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "factory"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "brewery"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "cannery"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "copper works"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "limekiln"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "munitions plant"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "phosphate works"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned factory"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sugar refinery"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "market"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mill(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ore treatment plant"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "olive oil mill"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sugar mill"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "former sugar mill"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sawmill"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "windmill"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "water mill"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mine(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "gold mine(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "coal mine(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "chrome mine(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "copper mine(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "iron mine(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "monument"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "salt mine(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned mine"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "quarry(-ies)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mole"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mosque"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mission"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned mission"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "monastery"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "metro station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "museum"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "novitiate"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "nursery(-ies)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "observation point"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "observatory"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "radio observatory"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "oil pipeline junction"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned oil well"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "oil refinery"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "tank farm"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "oil well"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "opera house"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "palace"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "pagoda"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "pier"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "parking lot"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "oil pumping station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "water pumping station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "post office"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "police post"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned police post"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "park gate"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "park headquarters"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "prison"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "reformatory"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned prison"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "power station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "hydroelectric power station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "nuclear power station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "border post"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "customs post"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "patrol post"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "pyramid"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "pyramids"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "quay"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "traffic circle"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "intersection"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "golf course"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "racetrack"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "restaurant"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "store"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "resthouse"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "rookery"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "religious site"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "retreat"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ranch(es)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "railroad siding"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "railroad signal"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "resort"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "railroad station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned railroad station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "railroad stop"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned railroad stop"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ruin(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "school"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "agricultural school"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "college"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "language school"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "military school"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "maritime school"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "technical school"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "State Exam Prep Centre"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sheepfold"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "shrine"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "storehouse"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sluice"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sanatorium"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "spa"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "spillway"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "square"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "stable"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "stadium"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "scientific research base"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "coast guard station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "experiment station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "forest station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "inspection station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "meteorological station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "radio station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "satellite station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "whaling station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "steps"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sewage treatment plant"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "synagogue"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "theater"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "tomb(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "temple(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "cattle dipping tank"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "toll gate/barrier"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "tower"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "tram"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "transit terminal"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "triangulation station"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "oil pipeline terminal"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "temp work office"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "university prep school"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "university"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "united states government establishment"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "veterinary facility"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "wall"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ancient wall"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "weir(s)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "wharf(-ves)"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "wreck"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "waterworks"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "free trade zone"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "zoo"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "asphalt lake"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "atoll(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "bar"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "beach"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "beaches"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "badlands"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "boulder field"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "blowhole(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "blowout(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "bench"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "butte(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "cape"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "cleft(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "caldera"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "cliff(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "canyon"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "cone(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "corridor"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "cirque"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "cirques"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "crater(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "cuesta(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "delta"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "depression(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "desert"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "dune(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "divide"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "sandy desert"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "fan(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "ford"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "fissure"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "gap"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "gorge(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "headland"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "hill"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "hills"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "hammock(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "rock desert"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "interfluve"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "island"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "islet"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "artificial island"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "mangrove island"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "islands"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "land-tied island"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "section of island"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "isthmus"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "karst area"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "lava area"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "levee"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "mesa(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "mound(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "moraine"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "mountain"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "mountains"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "meander neck"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "nunatak"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "nunataks"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "pan"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "pans"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "pass"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "peninsula"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "section of peninsula"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "peak"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "peaks"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "plateau"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "section of plateau"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "polder"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "plain(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "section of plain"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "promontory(-ies)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "point"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "points"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "beach ridge"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "ridge(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "stony desert"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "rock"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "rockfall"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "rocks"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "sand area"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "dry stream bed"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "escarpment"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "saddle"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "shore"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "sinkhole"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "slide"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "slope(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "spit"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "spur(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "talus slope"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "interdune trough(s)"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "terrace"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "upland"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "valley"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "hanging valley"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "valleys"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "section of valley"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "volcano"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "apron"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "arch"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "arrugado"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "borderland"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "banks"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "bank"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "basin"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "cordillera"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "canyons"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "canyon"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "continental rise"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "deep"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "shelf edge"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "escarpment (or scarp)"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "fan"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "flat"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "fracture zone"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "furrow"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "gap"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "gully"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "hill"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "hills"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "hole"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "knoll"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "knolls"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "ledge"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "levee"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "mesa"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "mound"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "moat"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "mountain"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "peaks"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "peak"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "plain"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "plateau"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "pinnacle"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "province"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "ridge"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "ridges"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "reefs"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "reef"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "rise"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "seachannel"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "seachannels"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "saddle"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "shelf"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "shoal"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "shoals"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "shelf valley"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "sill"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "slope"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "seamounts"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "seamount"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "spur"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "terrace"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "tablemounts (or guyots)"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "tablemount (or guyot)"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "tongue"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "trough"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "trench"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "valley"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "valleys"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "bush(es)"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "cultivated area"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "forest(s)"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "fossilized forest"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "grove"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "grassland"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "coconut grove"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "olive grove"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "palm grove"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "pine grove"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "heath"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "meadow"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "orchard(s)"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "scrubland"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "tree(s)"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "tundra"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "vineyard"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "vineyards"
+    }
+]
