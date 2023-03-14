@@ -21,7 +21,13 @@ def build_geonames(config):
     for text_a, text_b in zip(text_a_list, text_b_list):
         data_dict.append({
             "text_a": name_mappers[text_a],
-            "text_b": text_b.lower()
+            "text_b": text_b.lower(),
+            "label": "correct"
+        })
+        data_dict.append({
+            "text_a": text_b.lower(),
+            "text_b": name_mappers[text_a],
+            "label": "incorrect"
         })
     DataWriter.write_json(data=data_dict, path=config.processed_hier)
     print("size of processed hierarchy in GeoNames is :", len(data_dict))
@@ -31,11 +37,11 @@ def build_umls(config):
 
     data_tuple = []
 
-    # a=level-2  b=level-3
-    text_a_list = df['Level2Name'].tolist()
-    text_b_list = df['Level3Name'].tolist()
+    # a=root, b=level-1
+    text_a_list = df['Root'].tolist()
+    text_b_list = df['Level1Name'].tolist()
     for text_a, text_b in zip(text_a_list, text_b_list):
-        if text_b != " " and text_a!=" ":
+        if text_b != " " and text_a != " ":
             data_tuple.append((text_a.lower(), text_b.lower()))
 
     # a=level-1, b=level-2
@@ -45,21 +51,39 @@ def build_umls(config):
         if text_b != " " and text_a != " ":
             data_tuple.append((text_a.lower(), text_b.lower()))
 
-    # a=root, b=level-1
-    text_a_list = df['Root'].tolist()
-    text_b_list = df['Level1Name'].tolist()
+    # a=level-2  b=level-3
+    text_a_list = df['Level2Name'].tolist()
+    text_b_list = df['Level3Name'].tolist()
     for text_a, text_b in zip(text_a_list, text_b_list):
         if text_b != " " and text_a != " ":
             data_tuple.append((text_a.lower(), text_b.lower()))
 
+    # a=root  b=level-2
+    text_a_list = df['Root'].tolist()
+    text_b_list = df['Level2Name'].tolist()
+    for text_a, text_b in zip(text_a_list, text_b_list):
+        if text_b != " " and text_a != " ":
+            data_tuple.append((text_a.lower(), text_b.lower()))
 
+    # a=level-1  b=level-3
+    text_a_list = df['Level1Name'].tolist()
+    text_b_list = df['Level3Name'].tolist()
+    for text_a, text_b in zip(text_a_list, text_b_list):
+        if text_b != " " and text_a != " ":
+            data_tuple.append((text_a.lower(), text_b.lower()))
 
     data_tuple = list(set(data_tuple))
     data_dict = []
     for item in data_tuple:
         data_dict.append({
             "text_a": item[0],
-            "text_b": item[1]
+            "text_b": item[1],
+            "label": "correct"
+        })
+        data_dict.append({
+            "text_a": item[1],
+            "text_b": item[0],
+            "label": "incorrect"
         })
 
     DataWriter.write_json(data=data_dict, path=config.processed_hier)
