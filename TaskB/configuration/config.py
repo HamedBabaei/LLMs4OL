@@ -3,6 +3,7 @@
 """
 import argparse
 import datetime
+import os
 
 class BaseConfig:
     """
@@ -15,14 +16,19 @@ class BaseConfig:
         self.parser = argparse.ArgumentParser()
         self.argument_getter = {
             "geonames": ["Geonames", self.add_geoname],
-            "umls":["UMLS", self.add_umls]
+            "umls":["UMLS", self.add_umls],
+            "schema":["SchemaOrg", self.add_schema]
         }
         self.root_dir = "../datasets/TaskB"
-
+        self.llms_root_dir = "../assets/LLMs"
+        
+    def mkdir(self, path):
+        if not os.path.exists(path):
+            os.mkdir(path)
+            
     def add_geoname(self, dataset: str):
         self.parser.add_argument("--raw_feature_codes", type=str, default=f"{self.root_dir}/{dataset}/raw/featureCodes_en.txt")
         self.parser.add_argument("--feature_codes", type=str, default=f"{self.root_dir}/{dataset}/processed/feature_codes.csv")
-        self.parser.add_argument("--processed_hier", type=str, default=f"{self.root_dir}/{dataset}/processed/hierarchy_dict.json")
 
     def add_umls(self, dataset: str):
         self.parser.add_argument("--raw_sn_nci", type=str, default=f"{self.root_dir}/{dataset}/raw/nci_semantic_network.json")
@@ -30,15 +36,47 @@ class BaseConfig:
         self.parser.add_argument("--raw_sn_snomedct_us", type=str, default=f"{self.root_dir}/{dataset}/raw/snomedct_us_semantic_network.json")
         self.parser.add_argument("--raw_sn", type=str, default=f"{self.root_dir}/{dataset}/raw/semantic_network.json")
         self.parser.add_argument("--processed_sn", type=str, default=f"{self.root_dir}/{dataset}/processed/semantic_network.csv")
-        self.parser.add_argument("--processed_hier", type=str, default=f"{self.root_dir}/{dataset}/processed/hierarchy_dict.json")
 
-    def get_args(self, kb_name:str):
+    def add_schema(self, dataset: str):
+        self.parser.add_argument("--raw_types", type=str, default=f"{self.root_dir}/{dataset}/raw/schemaorg-current-https-types.csv")
+
+    def get_args(self, kb_name:str, model:str = None, template:int = None):
         """
             Return parser
         :return: parser
         """
         dataset, arguments = self.argument_getter.get(kb_name)
+        
         # add dataset specific arguments
         arguments(dataset=dataset)
+        self.parser.add_argument("--kb_name")
+        self.parser.add_argument("--model_name")
+        self.parser.add_argument("--device")
+        
+        # add general specific arguments
+        self.parser.add_argument("--processed_hier", type=str, default=f"{self.root_dir}/{dataset}/processed/hierarchy_dict.json")
+        self.parser.add_argument("--template_text", type=str, default=f"{self.root_dir}/templates.txt")
+        self.parser.add_argument("--template", type=int, default=template)
+        self.parser.add_argument("--labels_path", type=str, default=f"{self.root_dir}/label_mapper.json")
+        self.parser.add_argument("--dataset", type=str, default=kb_name)
+        
+        time = str(datetime.datetime.now()).split('.')[0]
+        if model:
+            self.mkdir(f"results/{kb_name}/{model}")
+        self.parser.add_argument("--report_output", type=str, default=f"results/{kb_name}/{model}/report-{model}-{template}-{time}.json")
+        self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
+        
+        # add model specific arguments
+        self.parser.add_argument("--batch_size", type=int, default=4)
+        # add model specific arguments
+        if model == "bert_large":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
+        if model=="bart_large":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bart-large")
+        if model == "flan_t5_large":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-large")
+        if model == "flan_t5_xl":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
+        
         self.parser.add_argument("-f")
         return self.parser.parse_args()
