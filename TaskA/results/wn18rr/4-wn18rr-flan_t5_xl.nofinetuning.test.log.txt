@@ -1,0 +1,72 @@
+Running on dataset: wn18rr , model: flan_t5_xl, template: template-1!
+args: Namespace(kb_name='wn18rr', model_name='flan_t5_xl', template='template-1', device='cuda')
+WNDataset:Test-SET --- template-1: [SENTENCE]. [A] POS is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/wn18rr/flan_t5_xl/output-flan_t5_xl-template-1-2023-03-01 22:47:42.json
+Results: {'MAP@1': 0.02819429778247096, 'MAP@5': 0.06002639915522703, 'MAP@10': 0.06857226663984849}
+scoring results in:results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-1-2023-03-01 22:47:42.json
+Inference for  flan_t5_xl on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: flan_t5_xl, template: template-2!
+args: Namespace(kb_name='wn18rr', model_name='flan_t5_xl', template='template-2', device='cuda')
+WNDataset:Test-SET --- template-2: [SENTENCE]. [A] part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/wn18rr/flan_t5_xl/output-flan_t5_xl-template-2-2023-03-01 23:50:30.json
+Results: {'MAP@1': 0.4026399155227033, 'MAP@5': 0.5218074621612108, 'MAP@10': 0.531797447243593}
+scoring results in:results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-2-2023-03-01 23:50:30.json
+Inference for  flan_t5_xl on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: flan_t5_xl, template: template-3!
+args: Namespace(kb_name='wn18rr', model_name='flan_t5_xl', template='template-3', device='cuda')
+WNDataset:Test-SET --- template-3: [SENTENCE]. '[A]' POS is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/wn18rr/flan_t5_xl/output-flan_t5_xl-template-3-2023-03-02 00:52:43.json
+Results: {'MAP@1': 0.17835269271383317, 'MAP@5': 0.2911351636747624, 'MAP@10': 0.3029106116223328}
+scoring results in:results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-3-2023-03-02 00:52:43.json
+Inference for  flan_t5_xl on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: flan_t5_xl, template: template-4!
+args: Namespace(kb_name='wn18rr', model_name='flan_t5_xl', template='template-4', device='cuda')
+WNDataset:Test-SET --- template-4: [SENTENCE]. '[A]' part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/wn18rr/flan_t5_xl/output-flan_t5_xl-template-4-2023-03-02 01:56:55.json
+Results: {'MAP@1': 0.5221752903907075, 'MAP@5': 0.6611914818725801, 'MAP@10': 0.6675751747372655}
+scoring results in:results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-4-2023-03-02 01:56:55.json
+Inference for  flan_t5_xl on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: flan_t5_xl, template: template-5!
+args: Namespace(kb_name='wn18rr', model_name='flan_t5_xl', template='template-5', device='cuda')
+WNDataset:Test-SET --- template-5: [A] POS is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/wn18rr/flan_t5_xl/output-flan_t5_xl-template-5-2023-03-02 03:01:39.json
+Results: {'MAP@1': 0.00010559662090813094, 'MAP@5': 0.0007690953889475537, 'MAP@10': 0.0011564087092070195}
+scoring results in:results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-5-2023-03-02 03:01:39.json
+Inference for  flan_t5_xl on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: flan_t5_xl, template: template-6!
+args: Namespace(kb_name='wn18rr', model_name='flan_t5_xl', template='template-6', device='cuda')
+WNDataset:Test-SET --- template-6: [A] part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/wn18rr/flan_t5_xl/output-flan_t5_xl-template-6-2023-03-02 03:56:09.json
+Results: {'MAP@1': 0.07750791974656811, 'MAP@5': 0.16624604012671595, 'MAP@10': 0.18500452556946748}
+scoring results in:results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-6-2023-03-02 03:56:09.json
+Inference for  flan_t5_xl on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: flan_t5_xl, template: template-7!
+args: Namespace(kb_name='wn18rr', model_name='flan_t5_xl', template='template-7', device='cuda')
+WNDataset:Test-SET --- template-7: '[A]' POS is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/wn18rr/flan_t5_xl/output-flan_t5_xl-template-7-2023-03-02 04:51:35.json
+Results: {'MAP@1': 0.18479408658922913, 'MAP@5': 0.2442749032030975, 'MAP@10': 0.2527691875764737}
+scoring results in:results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-7-2023-03-02 04:51:35.json
+Inference for  flan_t5_xl on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: flan_t5_xl, template: template-8!
+args: Namespace(kb_name='wn18rr', model_name='flan_t5_xl', template='template-8', device='cuda')
+WNDataset:Test-SET --- template-8: '[A]' part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/wn18rr/flan_t5_xl/output-flan_t5_xl-template-8-2023-03-02 05:49:45.json
+Results: {'MAP@1': 0.18859556494192187, 'MAP@5': 0.3191393875395987, 'MAP@10': 0.3371608337104642}
+scoring results in:results/wn18rr/flan_t5_xl/report-flan_t5_xl-template-8-2023-03-02 05:49:45.json
+Inference for  flan_t5_xl on template: template-8  is done
+-----------------------------------------------------------

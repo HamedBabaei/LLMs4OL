@@ -1,0 +1,104 @@
+Running on dataset: snomedct_us , model: flan_t5_xl, template: template-1!
+args: Namespace(kb_name='snomedct_us', model_name='flan_t5_xl', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-03-12 02:20:00
+UMLSDataset:Test-SET-snomedct_us --- template-1: [SENTENCE]. [A] in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/snomedct_us/flan_t5_xl/output-flan_t5_xl-template-1-2023-03-12 02:20:00.json
+Results: {'MAP@1': 0.2521338046383309, 'MAP@5': 0.050625532852448966, 'MAP@10': 0.03287762902384853}
+scoring results in:results/snomedct_us/flan_t5_xl/report-flan_t5_xl-template-1-2023-03-12 02:20:00.json
+Ending the Inference time is: 2023-03-12 05:31:32
+Total duration is===> 3:11:32.069012
+Inference for  flan_t5_xl on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: flan_t5_xl, template: template-2!
+args: Namespace(kb_name='snomedct_us', model_name='flan_t5_xl', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-03-12 05:31:39
+UMLSDataset:Test-SET-snomedct_us --- template-2: [SENTENCE]. [A] in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/snomedct_us/flan_t5_xl/output-flan_t5_xl-template-2-2023-03-12 05:31:38.json
+Results: {'MAP@1': 0.262307095439262, 'MAP@5': 0.052866386949066486, 'MAP@10': 0.03429830659548739}
+scoring results in:results/snomedct_us/flan_t5_xl/report-flan_t5_xl-template-2-2023-03-12 05:31:38.json
+Ending the Inference time is: 2023-03-12 08:42:56
+Total duration is===> 3:11:17.766078
+Inference for  flan_t5_xl on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: flan_t5_xl, template: template-3!
+args: Namespace(kb_name='snomedct_us', model_name='flan_t5_xl', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-03-12 08:43:03
+UMLSDataset:Test-SET-snomedct_us --- template-3: [SENTENCE]. '[A]' in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/snomedct_us/flan_t5_xl/output-flan_t5_xl-template-3-2023-03-12 08:43:02.json
+Results: {'MAP@1': 0.3009598528608788, 'MAP@5': 0.06046186931823624, 'MAP@10': 0.04023516098587226}
+scoring results in:results/snomedct_us/flan_t5_xl/report-flan_t5_xl-template-3-2023-03-12 08:43:02.json
+Ending the Inference time is: 2023-03-12 11:51:38
+Total duration is===> 3:08:35.853287
+Inference for  flan_t5_xl on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: flan_t5_xl, template: template-4!
+args: Namespace(kb_name='snomedct_us', model_name='flan_t5_xl', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-03-12 11:51:45
+UMLSDataset:Test-SET-snomedct_us --- template-4: [SENTENCE]. '[A]' in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/snomedct_us/flan_t5_xl/output-flan_t5_xl-template-4-2023-03-12 11:51:44.json
+Results: {'MAP@1': 0.316507170158347, 'MAP@5': 0.06387236447586478, 'MAP@10': 0.04240355969384334}
+scoring results in:results/snomedct_us/flan_t5_xl/report-flan_t5_xl-template-4-2023-03-12 11:51:44.json
+Ending the Inference time is: 2023-03-12 15:00:39
+Total duration is===> 3:08:54.630916
+Inference for  flan_t5_xl on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: flan_t5_xl, template: template-5!
+args: Namespace(kb_name='snomedct_us', model_name='flan_t5_xl', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-03-12 15:00:45
+UMLSDataset:Test-SET-snomedct_us --- template-5: [A] in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/snomedct_us/flan_t5_xl/output-flan_t5_xl-template-5-2023-03-12 15:00:45.json
+Results: {'MAP@1': 0.0721901313331609, 'MAP@5': 0.014626260884559013, 'MAP@10': 0.011142352401297137}
+scoring results in:results/snomedct_us/flan_t5_xl/report-flan_t5_xl-template-5-2023-03-12 15:00:45.json
+Ending the Inference time is: 2023-03-12 18:14:31
+Total duration is===> 3:13:45.573751
+Inference for  flan_t5_xl on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: flan_t5_xl, template: template-6!
+args: Namespace(kb_name='snomedct_us', model_name='flan_t5_xl', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-03-12 18:14:37
+UMLSDataset:Test-SET-snomedct_us --- template-6: [A] in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/snomedct_us/flan_t5_xl/output-flan_t5_xl-template-6-2023-03-12 18:14:37.json
+Results: {'MAP@1': 0.08221973158605626, 'MAP@5': 0.01675335996398157, 'MAP@10': 0.012489023638691713}
+scoring results in:results/snomedct_us/flan_t5_xl/report-flan_t5_xl-template-6-2023-03-12 18:14:37.json
+Ending the Inference time is: 2023-03-12 21:29:15
+Total duration is===> 3:14:38.578480
+Inference for  flan_t5_xl on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: flan_t5_xl, template: template-7!
+args: Namespace(kb_name='snomedct_us', model_name='flan_t5_xl', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-03-12 21:29:22
+UMLSDataset:Test-SET-snomedct_us --- template-7: '[A]' in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/snomedct_us/flan_t5_xl/output-flan_t5_xl-template-7-2023-03-12 21:29:22.json
+Results: {'MAP@1': 0.15586113745437824, 'MAP@5': 0.031367886120451, 'MAP@10': 0.022599632289045164}
+scoring results in:results/snomedct_us/flan_t5_xl/report-flan_t5_xl-template-7-2023-03-12 21:29:22.json
+Ending the Inference time is: 2023-03-13 00:42:29
+Total duration is===> 3:13:07.280738
+Inference for  flan_t5_xl on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: flan_t5_xl, template: template-8!
+args: Namespace(kb_name='snomedct_us', model_name='flan_t5_xl', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-03-13 00:42:35
+UMLSDataset:Test-SET-snomedct_us --- template-8: '[A]' in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+scoring model outputs in:results/snomedct_us/flan_t5_xl/output-flan_t5_xl-template-8-2023-03-13 00:42:35.json
+Results: {'MAP@1': 0.17221312182084664, 'MAP@5': 0.03494530179804773, 'MAP@10': 0.025168545591642406}
+scoring results in:results/snomedct_us/flan_t5_xl/report-flan_t5_xl-template-8-2023-03-13 00:42:35.json
+Ending the Inference time is: 2023-03-13 03:19:32
+Total duration is===> 2:36:56.952311
+Inference for  flan_t5_xl on template: template-8  is done
+-----------------------------------------------------------

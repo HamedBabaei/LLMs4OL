@@ -1,0 +1,72 @@
+Running on dataset: wn18rr , model: bert_large, template: template-1!
+args: Namespace(kb_name='wn18rr', model_name='bert_large', template='template-1', device='cuda')
+WNDataset:Test-SET --- template-1: [SENTENCE]. [A] POS is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/wn18rr/bert_large/output-bert_large-template-1-2023-03-01 17:53:54.json
+Results: {'MAP@1': 0.021964097148891235, 'MAP@5': 0.05389651531151003, 'MAP@10': 0.0660578099596051}
+scoring results in:results/wn18rr/bert_large/report-bert_large-template-1-2023-03-01 17:53:54.json
+Inference for  bert_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bert_large, template: template-2!
+args: Namespace(kb_name='wn18rr', model_name='bert_large', template='template-2', device='cuda')
+WNDataset:Test-SET --- template-2: [SENTENCE]. [A] part of speech is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/wn18rr/bert_large/output-bert_large-template-2-2023-03-01 17:55:08.json
+Results: {'MAP@1': 0.09366420274551214, 'MAP@5': 0.21107532558958111, 'MAP@10': 0.2379100668778599}
+scoring results in:results/wn18rr/bert_large/report-bert_large-template-2-2023-03-01 17:55:08.json
+Inference for  bert_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bert_large, template: template-3!
+args: Namespace(kb_name='wn18rr', model_name='bert_large', template='template-3', device='cuda')
+WNDataset:Test-SET --- template-3: [SENTENCE]. '[A]' POS is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/wn18rr/bert_large/output-bert_large-template-3-2023-03-01 17:55:40.json
+Results: {'MAP@1': 0.09186906019007392, 'MAP@5': 0.2075818373812038, 'MAP@10': 0.22779520960091182}
+scoring results in:results/wn18rr/bert_large/report-bert_large-template-3-2023-03-01 17:55:40.json
+Inference for  bert_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bert_large, template: template-4!
+args: Namespace(kb_name='wn18rr', model_name='bert_large', template='template-4', device='cuda')
+WNDataset:Test-SET --- template-4: [SENTENCE]. '[A]' part of speech is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/wn18rr/bert_large/output-bert_large-template-4-2023-03-01 17:56:11.json
+Results: {'MAP@1': 0.1941921858500528, 'MAP@5': 0.3871576909538895, 'MAP@10': 0.4051431420861199}
+scoring results in:results/wn18rr/bert_large/report-bert_large-template-4-2023-03-01 17:56:11.json
+Inference for  bert_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bert_large, template: template-5!
+args: Namespace(kb_name='wn18rr', model_name='bert_large', template='template-5', device='cuda')
+WNDataset:Test-SET --- template-5: [A] POS is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/wn18rr/bert_large/output-bert_large-template-5-2023-03-01 17:56:40.json
+Results: {'MAP@1': 0.04720168954593453, 'MAP@5': 0.10348468848996832, 'MAP@10': 0.11496413067162801}
+scoring results in:results/wn18rr/bert_large/report-bert_large-template-5-2023-03-01 17:56:40.json
+Inference for  bert_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bert_large, template: template-6!
+args: Namespace(kb_name='wn18rr', model_name='bert_large', template='template-6', device='cuda')
+WNDataset:Test-SET --- template-6: [A] part of speech is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/wn18rr/bert_large/output-bert_large-template-6-2023-03-01 17:57:02.json
+Results: {'MAP@1': 0.19345300950369587, 'MAP@5': 0.2820204153467089, 'MAP@10': 0.30680574412095}
+scoring results in:results/wn18rr/bert_large/report-bert_large-template-6-2023-03-01 17:57:02.json
+Inference for  bert_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bert_large, template: template-7!
+args: Namespace(kb_name='wn18rr', model_name='bert_large', template='template-7', device='cuda')
+WNDataset:Test-SET --- template-7: '[A]' POS is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/wn18rr/bert_large/output-bert_large-template-7-2023-03-01 17:57:24.json
+Results: {'MAP@1': 0.09936642027455121, 'MAP@5': 0.2591640267511439, 'MAP@10': 0.2824664353597827}
+scoring results in:results/wn18rr/bert_large/report-bert_large-template-7-2023-03-01 17:57:24.json
+Inference for  bert_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bert_large, template: template-8!
+args: Namespace(kb_name='wn18rr', model_name='bert_large', template='template-8', device='cuda')
+WNDataset:Test-SET --- template-8: '[A]' part of speech is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/wn18rr/bert_large/output-bert_large-template-8-2023-03-01 17:57:47.json
+Results: {'MAP@1': 0.2785638859556494, 'MAP@5': 0.4993083421330517, 'MAP@10': 0.5111282077068772}
+scoring results in:results/wn18rr/bert_large/report-bert_large-template-8-2023-03-01 17:57:47.json
+Inference for  bert_large on template: template-8  is done
+-----------------------------------------------------------

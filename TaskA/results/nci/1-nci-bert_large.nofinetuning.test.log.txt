@@ -1,0 +1,80 @@
+Running on dataset: nci , model: bert_large, template: template-1!
+args: Namespace(kb_name='nci', model_name='bert_large', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-1: [SENTENCE]. [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/nci/bert_large/output-bert_large-template-1-2023-03-08 17:22:43.json
+Results: {'MAP@1': 0.09948014140153878, 'MAP@5': 0.04383567847323307, 'MAP@10': 0.03134247251691355}
+scoring results in:results/nci/bert_large/report-bert_large-template-1-2023-03-08 17:22:43.json
+Inference for  bert_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bert_large, template: template-2!
+args: Namespace(kb_name='nci', model_name='bert_large', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-2: [SENTENCE]. [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/nci/bert_large/output-bert_large-template-2-2023-03-08 17:24:44.json
+Results: {'MAP@1': 0.0976502391349553, 'MAP@5': 0.04152618932094915, 'MAP@10': 0.03030082644026242}
+scoring results in:results/nci/bert_large/report-bert_large-template-2-2023-03-08 17:24:44.json
+Inference for  bert_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bert_large, template: template-3!
+args: Namespace(kb_name='nci', model_name='bert_large', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-3: [SENTENCE]. '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/nci/bert_large/output-bert_large-template-3-2023-03-08 17:26:44.json
+Results: {'MAP@1': 0.02611769598669162, 'MAP@5': 0.022527286800212563, 'MAP@10': 0.01587899015378122}
+scoring results in:results/nci/bert_large/report-bert_large-template-3-2023-03-08 17:26:44.json
+Inference for  bert_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bert_large, template: template-4!
+args: Namespace(kb_name='nci', model_name='bert_large', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-4: [SENTENCE]. '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/nci/bert_large/output-bert_large-template-4-2023-03-08 17:28:45.json
+Results: {'MAP@1': 0.029028904138074445, 'MAP@5': 0.02125105704581687, 'MAP@10': 0.016332591130072786}
+scoring results in:results/nci/bert_large/report-bert_large-template-4-2023-03-08 17:28:45.json
+Inference for  bert_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bert_large, template: template-5!
+args: Namespace(kb_name='nci', model_name='bert_large', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-5: [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/nci/bert_large/output-bert_large-template-5-2023-03-08 17:31:02.json
+Results: {'MAP@1': 0.11095861925556248, 'MAP@5': 0.04791103486518333, 'MAP@10': 0.03445147459220898}
+scoring results in:results/nci/bert_large/report-bert_large-template-5-2023-03-08 17:31:02.json
+Inference for  bert_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bert_large, template: template-6!
+args: Namespace(kb_name='nci', model_name='bert_large', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-6: [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/nci/bert_large/output-bert_large-template-6-2023-03-08 17:32:14.json
+Results: {'MAP@1': 0.10966936993137867, 'MAP@5': 0.045321515214528305, 'MAP@10': 0.031034820119756345}
+scoring results in:results/nci/bert_large/report-bert_large-template-6-2023-03-08 17:32:14.json
+Inference for  bert_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bert_large, template: template-7!
+args: Namespace(kb_name='nci', model_name='bert_large', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-7: '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/nci/bert_large/output-bert_large-template-7-2023-03-08 17:33:30.json
+Results: {'MAP@1': 0.011270534414639218, 'MAP@5': 0.016355282918601697, 'MAP@10': 0.011886929883819395}
+scoring results in:results/nci/bert_large/report-bert_large-template-7-2023-03-08 17:33:30.json
+Inference for  bert_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bert_large, template: template-8!
+args: Namespace(kb_name='nci', model_name='bert_large', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-8: '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/nci/bert_large/output-bert_large-template-8-2023-03-08 17:34:45.json
+Results: {'MAP@1': 0.013641089623622375, 'MAP@5': 0.013931979390494674, 'MAP@10': 0.011226776217599476}
+scoring results in:results/nci/bert_large/report-bert_large-template-8-2023-03-08 17:34:45.json
+Inference for  bert_large on template: template-8  is done
+-----------------------------------------------------------

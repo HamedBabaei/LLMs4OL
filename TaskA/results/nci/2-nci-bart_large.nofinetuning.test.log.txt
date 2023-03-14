@@ -1,0 +1,80 @@
+Running on dataset: nci , model: bart_large, template: template-1!
+args: Namespace(kb_name='nci', model_name='bart_large', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-1: [SENTENCE]. [A] in medicine is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/nci/bart_large/output-bart_large-template-1-2023-03-08 17:36:02.json
+Results: {'MAP@1': 0.0709503015179871, 'MAP@5': 0.03541369192024214, 'MAP@10': 0.027587193725483544}
+scoring results in:results/nci/bart_large/report-bart_large-template-1-2023-03-08 17:36:02.json
+Inference for  bart_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-2!
+args: Namespace(kb_name='nci', model_name='bart_large', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-2: [SENTENCE]. [A] in biomedicine is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/nci/bart_large/output-bart_large-template-2-2023-03-08 17:38:49.json
+Results: {'MAP@1': 0.07876897483884383, 'MAP@5': 0.04207579538365565, 'MAP@10': 0.03199704812918752}
+scoring results in:results/nci/bart_large/report-bart_large-template-2-2023-03-08 17:38:49.json
+Inference for  bart_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-3!
+args: Namespace(kb_name='nci', model_name='bart_large', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-3: [SENTENCE]. '[A]' in medicine is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/nci/bart_large/output-bart_large-template-3-2023-03-08 17:41:35.json
+Results: {'MAP@1': 0.05144520690372219, 'MAP@5': 0.02618806173609667, 'MAP@10': 0.018531544512863023}
+scoring results in:results/nci/bart_large/report-bart_large-template-3-2023-03-08 17:41:35.json
+Inference for  bart_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-4!
+args: Namespace(kb_name='nci', model_name='bart_large', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-4: [SENTENCE]. '[A]' in biomedicine is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/nci/bart_large/output-bart_large-template-4-2023-03-08 17:44:24.json
+Results: {'MAP@1': 0.06325639426076107, 'MAP@5': 0.03155464291490492, 'MAP@10': 0.021968026089697758}
+scoring results in:results/nci/bart_large/report-bart_large-template-4-2023-03-08 17:44:24.json
+Inference for  bart_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-5!
+args: Namespace(kb_name='nci', model_name='bart_large', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-5: [A] in medicine is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/nci/bart_large/output-bart_large-template-5-2023-03-08 17:47:15.json
+Results: {'MAP@1': 0.09103763776252859, 'MAP@5': 0.042373755227467017, 'MAP@10': 0.03044458459276905}
+scoring results in:results/nci/bart_large/report-bart_large-template-5-2023-03-08 17:47:15.json
+Inference for  bart_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-6!
+args: Namespace(kb_name='nci', model_name='bart_large', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-6: [A] in biomedicine is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/nci/bart_large/output-bart_large-template-6-2023-03-08 17:48:56.json
+Results: {'MAP@1': 0.09943855271366188, 'MAP@5': 0.04844301194519535, 'MAP@10': 0.03450322061504839}
+scoring results in:results/nci/bart_large/report-bart_large-template-6-2023-03-08 17:48:56.json
+Inference for  bart_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-7!
+args: Namespace(kb_name='nci', model_name='bart_large', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-7: '[A]' in medicine is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/nci/bart_large/output-bart_large-template-7-2023-03-08 17:50:42.json
+Results: {'MAP@1': 0.07240590559367852, 'MAP@5': 0.03205936785194427, 'MAP@10': 0.022237021119068914}
+scoring results in:results/nci/bart_large/report-bart_large-template-7-2023-03-08 17:50:42.json
+Inference for  bart_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bart_large, template: template-8!
+args: Namespace(kb_name='nci', model_name='bart_large', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+UMLSDataset:Test-SET-nci --- template-8: '[A]' in biomedicine is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/nci/bart_large/output-bart_large-template-8-2023-03-08 17:52:27.json
+Results: {'MAP@1': 0.0826783114992722, 'MAP@5': 0.03688871560268941, 'MAP@10': 0.02538758628225055}
+scoring results in:results/nci/bart_large/report-bart_large-template-8-2023-03-08 17:52:27.json
+Inference for  bart_large on template: template-8  is done
+-----------------------------------------------------------

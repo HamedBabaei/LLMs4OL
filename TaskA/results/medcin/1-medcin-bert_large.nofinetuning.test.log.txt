@@ -1,0 +1,80 @@
+Running on dataset: medcin , model: bert_large, template: template-1!
+args: Namespace(kb_name='medcin', model_name='bert_large', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+UMLSDataset:Test-SET-medcin --- template-1: [SENTENCE]. [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/medcin/bert_large/output-bert_large-template-1-2023-03-08 19:21:51.json
+Results: {'MAP@1': 0.07332004966935228, 'MAP@5': 0.02978560037989996, 'MAP@10': 0.021727112370794242}
+scoring results in:results/medcin/bert_large/report-bert_large-template-1-2023-03-08 19:21:51.json
+Inference for  bert_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bert_large, template: template-2!
+args: Namespace(kb_name='medcin', model_name='bert_large', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+UMLSDataset:Test-SET-medcin --- template-2: [SENTENCE]. [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/medcin/bert_large/output-bert_large-template-2-2023-03-08 19:27:03.json
+Results: {'MAP@1': 0.01250397066042912, 'MAP@5': 0.008147602683685157, 'MAP@10': 0.0064937138421979086}
+scoring results in:results/medcin/bert_large/report-bert_large-template-2-2023-03-08 19:27:03.json
+Inference for  bert_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bert_large, template: template-3!
+args: Namespace(kb_name='medcin', model_name='bert_large', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+UMLSDataset:Test-SET-medcin --- template-3: [SENTENCE]. '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/medcin/bert_large/output-bert_large-template-3-2023-03-08 19:32:11.json
+Results: {'MAP@1': 0.0014149989892864362, 'MAP@5': 0.003428484795980248, 'MAP@10': 0.003411083801145324}
+scoring results in:results/medcin/bert_large/report-bert_large-template-3-2023-03-08 19:32:11.json
+Inference for  bert_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bert_large, template: template-4!
+args: Namespace(kb_name='medcin', model_name='bert_large', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+UMLSDataset:Test-SET-medcin --- template-4: [SENTENCE]. '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/medcin/bert_large/output-bert_large-template-4-2023-03-08 19:37:25.json
+Results: {'MAP@1': 0.0005919893730688151, 'MAP@5': 0.0006711138063472811, 'MAP@10': 0.0006241414250567223}
+scoring results in:results/medcin/bert_large/report-bert_large-template-4-2023-03-08 19:37:25.json
+Inference for  bert_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bert_large, template: template-5!
+args: Namespace(kb_name='medcin', model_name='bert_large', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+UMLSDataset:Test-SET-medcin --- template-5: [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/medcin/bert_large/output-bert_large-template-5-2023-03-08 19:42:41.json
+Results: {'MAP@1': 0.08712350919749343, 'MAP@5': 0.037393562235890916, 'MAP@10': 0.02601075703195331}
+scoring results in:results/medcin/bert_large/report-bert_large-template-5-2023-03-08 19:42:41.json
+Inference for  bert_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bert_large, template: template-6!
+args: Namespace(kb_name='medcin', model_name='bert_large', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+UMLSDataset:Test-SET-medcin --- template-6: [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/medcin/bert_large/output-bert_large-template-6-2023-03-08 19:45:50.json
+Results: {'MAP@1': 0.011984175113344308, 'MAP@5': 0.009457327031614478, 'MAP@10': 0.008015667996048035}
+scoring results in:results/medcin/bert_large/report-bert_large-template-6-2023-03-08 19:45:50.json
+Inference for  bert_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bert_large, template: template-7!
+args: Namespace(kb_name='medcin', model_name='bert_large', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+UMLSDataset:Test-SET-medcin --- template-7: '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/medcin/bert_large/output-bert_large-template-7-2023-03-08 19:49:16.json
+Results: {'MAP@1': 0.0008807646770048226, 'MAP@5': 0.00269321474294185, 'MAP@10': 0.002925673774118822}
+scoring results in:results/medcin/bert_large/report-bert_large-template-7-2023-03-08 19:49:16.json
+Inference for  bert_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bert_large, template: template-8!
+args: Namespace(kb_name='medcin', model_name='bert_large', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+UMLSDataset:Test-SET-medcin --- template-8: '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/medcin/bert_large/output-bert_large-template-8-2023-03-08 19:52:33.json
+Results: {'MAP@1': 0.00012994888677120333, 'MAP@5': 0.0006430544726481658, 'MAP@10': 0.001283868717581034}
+scoring results in:results/medcin/bert_large/report-bert_large-template-8-2023-03-08 19:52:33.json
+Inference for  bert_large on template: template-8  is done
+-----------------------------------------------------------

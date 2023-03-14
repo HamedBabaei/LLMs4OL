@@ -1,0 +1,72 @@
+Running on dataset: wn18rr , model: bart_large, template: template-1!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-1', device='cuda')
+WNDataset:Test-SET --- template-1: [SENTENCE]. [A] POS is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/wn18rr/bart_large/output-bart_large-template-1-2023-03-02 12:28:50.json
+Results: {'MAP@1': 0.00010559662090813094, 'MAP@5': 0.0017810630059838085, 'MAP@10': 0.0036065436382226243}
+scoring results in:results/wn18rr/bart_large/report-bart_large-template-1-2023-03-02 12:28:50.json
+Inference for  bart_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-2!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-2', device='cuda')
+WNDataset:Test-SET --- template-2: [SENTENCE]. [A] part of speech is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/wn18rr/bart_large/output-bart_large-template-2-2023-03-02 12:29:28.json
+Results: {'MAP@1': 0.0028511087645195356, 'MAP@5': 0.032022175290390704, 'MAP@10': 0.06930796500226279}
+scoring results in:results/wn18rr/bart_large/report-bart_large-template-2-2023-03-02 12:29:28.json
+Inference for  bart_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-3!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-3', device='cuda')
+WNDataset:Test-SET --- template-3: [SENTENCE]. '[A]' POS is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/wn18rr/bart_large/output-bart_large-template-3-2023-03-02 12:30:06.json
+Results: {'MAP@1': 0.00221752903907075, 'MAP@5': 0.016967617036254837, 'MAP@10': 0.030760002346591576}
+scoring results in:results/wn18rr/bart_large/report-bart_large-template-3-2023-03-02 12:30:06.json
+Inference for  bart_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-4!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-4', device='cuda')
+WNDataset:Test-SET --- template-4: [SENTENCE]. '[A]' part of speech is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/wn18rr/bart_large/output-bart_large-template-4-2023-03-02 12:30:49.json
+Results: {'MAP@1': 0.02164730728616684, 'MAP@5': 0.14243928194297784, 'MAP@10': 0.1870784515847874}
+scoring results in:results/wn18rr/bart_large/report-bart_large-template-4-2023-03-02 12:30:49.json
+Inference for  bart_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-5!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-5', device='cuda')
+WNDataset:Test-SET --- template-5: [A] POS is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/wn18rr/bart_large/output-bart_large-template-5-2023-03-02 12:31:29.json
+Results: {'MAP@1': 0.00010559662090813094, 'MAP@5': 0.0003273495248152059, 'MAP@10': 0.000776805618410687}
+scoring results in:results/wn18rr/bart_large/report-bart_large-template-5-2023-03-02 12:31:29.json
+Inference for  bart_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-6!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-6', device='cuda')
+WNDataset:Test-SET --- template-6: [A] part of speech is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/wn18rr/bart_large/output-bart_large-template-6-2023-03-02 12:31:59.json
+Results: {'MAP@1': 0.00031678986272439284, 'MAP@5': 0.019922562478000706, 'MAP@10': 0.0481040797170681}
+scoring results in:results/wn18rr/bart_large/report-bart_large-template-6-2023-03-02 12:31:59.json
+Inference for  bart_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-7!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-7', device='cuda')
+WNDataset:Test-SET --- template-7: '[A]' POS is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/wn18rr/bart_large/output-bart_large-template-7-2023-03-02 12:32:28.json
+Results: {'MAP@1': 0.0, 'MAP@5': 0.0014906722984864484, 'MAP@10': 0.004318734181458574}
+scoring results in:results/wn18rr/bart_large/report-bart_large-template-7-2023-03-02 12:32:28.json
+Inference for  bart_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: bart_large, template: template-8!
+args: Namespace(kb_name='wn18rr', model_name='bart_large', template='template-8', device='cuda')
+WNDataset:Test-SET --- template-8: '[A]' part of speech is a <mask> .
+Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
+scoring model outputs in:results/wn18rr/bart_large/output-bart_large-template-8-2023-03-02 12:32:58.json
+Results: {'MAP@1': 0.0019007391763463568, 'MAP@5': 0.06898979232664554, 'MAP@10': 0.11421866881212182}
+scoring results in:results/wn18rr/bart_large/report-bart_large-template-8-2023-03-02 12:32:58.json
+Inference for  bart_large on template: template-8  is done
+-----------------------------------------------------------

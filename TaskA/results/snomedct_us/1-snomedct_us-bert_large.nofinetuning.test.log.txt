@@ -1,0 +1,80 @@
+Running on dataset: snomedct_us , model: bert_large, template: template-1!
+args: Namespace(kb_name='snomedct_us', model_name='bert_large', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us --- template-1: [SENTENCE]. [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/snomedct_us/bert_large/output-bert_large-template-1-2023-03-08 17:54:22.json
+Results: {'MAP@1': 0.1983935396729603, 'MAP@5': 0.07936378215874293, 'MAP@10': 0.05948546590561432}
+scoring results in:results/snomedct_us/bert_large/report-bert_large-template-1-2023-03-08 17:54:22.json
+Inference for  bert_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bert_large, template: template-2!
+args: Namespace(kb_name='snomedct_us', model_name='bert_large', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us --- template-2: [SENTENCE]. [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/snomedct_us/bert_large/output-bert_large-template-2-2023-03-08 17:59:21.json
+Results: {'MAP@1': 0.08022243296835935, 'MAP@5': 0.04141499267178204, 'MAP@10': 0.032367619353463786}
+scoring results in:results/snomedct_us/bert_large/report-bert_large-template-2-2023-03-08 17:59:21.json
+Inference for  bert_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bert_large, template: template-3!
+args: Namespace(kb_name='snomedct_us', model_name='bert_large', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us --- template-3: [SENTENCE]. '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/snomedct_us/bert_large/output-bert_large-template-3-2023-03-08 18:04:28.json
+Results: {'MAP@1': 0.010661838664252665, 'MAP@5': 0.013908251190236703, 'MAP@10': 0.01271611880237487}
+scoring results in:results/snomedct_us/bert_large/report-bert_large-template-3-2023-03-08 18:04:28.json
+Inference for  bert_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bert_large, template: template-4!
+args: Namespace(kb_name='snomedct_us', model_name='bert_large', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us --- template-4: [SENTENCE]. '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/snomedct_us/bert_large/output-bert_large-template-4-2023-03-08 18:09:28.json
+Results: {'MAP@1': 0.0012501077679110267, 'MAP@5': 0.0030732574327927372, 'MAP@10': 0.003506531073908256}
+scoring results in:results/snomedct_us/bert_large/report-bert_large-template-4-2023-03-08 18:09:28.json
+Inference for  bert_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bert_large, template: template-5!
+args: Namespace(kb_name='snomedct_us', model_name='bert_large', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us --- template-5: [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/snomedct_us/bert_large/output-bert_large-template-5-2023-03-08 18:14:46.json
+Results: {'MAP@1': 0.21109578411932062, 'MAP@5': 0.09402602155996846, 'MAP@10': 0.0699157229208863}
+scoring results in:results/snomedct_us/bert_large/report-bert_large-template-5-2023-03-08 18:14:46.json
+Inference for  bert_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bert_large, template: template-6!
+args: Namespace(kb_name='snomedct_us', model_name='bert_large', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us --- template-6: [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/snomedct_us/bert_large/output-bert_large-template-6-2023-03-08 18:17:57.json
+Results: {'MAP@1': 0.12766905192976405, 'MAP@5': 0.060394135190453835, 'MAP@10': 0.04612381929378931}
+scoring results in:results/snomedct_us/bert_large/report-bert_large-template-6-2023-03-08 18:17:57.json
+Inference for  bert_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bert_large, template: template-7!
+args: Namespace(kb_name='snomedct_us', model_name='bert_large', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us --- template-7: '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/snomedct_us/bert_large/output-bert_large-template-7-2023-03-08 18:21:33.json
+Results: {'MAP@1': 0.004583728482340432, 'MAP@5': 0.01176628413049656, 'MAP@10': 0.011592265912004922}
+scoring results in:results/snomedct_us/bert_large/report-bert_large-template-7-2023-03-08 18:21:33.json
+Inference for  bert_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bert_large, template: template-8!
+args: Namespace(kb_name='snomedct_us', model_name='bert_large', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+UMLSDataset:Test-SET-snomedct_us --- template-8: '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/snomedct_us/bert_large/output-bert_large-template-8-2023-03-08 18:24:51.json
+Results: {'MAP@1': 0.0004885478633215507, 'MAP@5': 0.0024920171917757914, 'MAP@10': 0.0027590552052858598}
+scoring results in:results/snomedct_us/bert_large/report-bert_large-template-8-2023-03-08 18:24:51.json
+Inference for  bert_large on template: template-8  is done
+-----------------------------------------------------------
