@@ -1,6 +1,6 @@
 from configuration import BaseConfig
 from datahandler import DataReader, DataWriter
-
+import re
 
 def build_geonames(config):
     df = DataReader.load_df(config.feature_codes)
@@ -90,13 +90,49 @@ def build_umls(config):
     print("size of processed hierarchy in UMLS is :", len(data_dict))
 
 def build_schema(config):
-    pass
+    def make_words(label):
+        words = re.findall(r'[A-Z]?[0-9a-z]+|[A-Z]+(?=[A-Z][a-z]|\b)', label)
+        return ' '.join(words)
+    def make_subtype(sub_type_url):
+        words = sub_type_url.split("/")[-1]
+        return make_words(words)
 
+    df = DataReader.load_df(config.raw_types)[["id", "label", "comment", "subTypeOf"]]
+    df = df.dropna()
+    df['text-b'] = df['label'].apply(make_words)
+    df['text-a'] = df['subTypeOf'].apply(make_subtype)
+
+    # if (A, B) and (B, C) then (A, C)
+    lsts = [(A,B) for A, B in zip(df['text-a'].tolist(), df['text-b'].tolist())]
+    rules = []
+    for index, (A, B) in enumerate(lsts):
+        rules.append((A, B))
+        for b, C in lsts:
+            if B == b:
+                rules.append((A, C))
+    rules = list(set(rules))
+    print("size of pairs after adding 'if (A, B) and (B, C) then (A, C)' and duplicatee removals is:", len(rules))
+    data_dict = []
+    for item in rules:
+        data_dict.append({
+            "text_a": item[0],
+            "text_b": item[1],
+            "label": "correct"
+        })
+        data_dict.append({
+            "text_a": item[1],
+            "text_b": item[0],
+            "label": "incorrect"
+        })
+
+    DataWriter.write_json(data=data_dict, path=config.processed_hier)
+    print("size of processed hierarchy in SchemaOrg is :", len(data_dict))
 
 if __name__ == "__main__":
     KB_NAMES = {
         'geonames': build_geonames,
-        "umls": build_umls
+        "umls": build_umls,
+        "schema": build_schema
     }
     for kb_name, function in KB_NAMES.items():
         CONFIG = BaseConfig().get_args(kb_name=kb_name)
