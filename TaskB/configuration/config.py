@@ -50,7 +50,7 @@ class BaseConfig:
         # add dataset specific arguments
         arguments(dataset=dataset)
         self.parser.add_argument("--kb_name")
-        self.parser.add_argument("--model_name")
+        self.parser.add_argument("--model")
         self.parser.add_argument("--device")
         
         # add general specific arguments
@@ -71,12 +71,16 @@ class BaseConfig:
         # add model specific arguments
         if model == "bert_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
+            self.parser.add_argument("--model_name", type=str, default="bert")
         if model=="bart_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bart-large")
+            self.parser.add_argument("--model_name", type=str, default="bart")
         if model == "flan_t5_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-large")
+            self.parser.add_argument("--model_name", type=str, default="t5")
         if model == "flan_t5_xl":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
+            self.parser.add_argument("--model_name", type=str, default="t5")
         
         self.parser.add_argument("-f")
         return self.parser.parse_args()
