@@ -102,7 +102,7 @@ class BaseConfig:
         self.parser.add_argument("--label_mapper", type=str, default=f"{self.root_dir}/{dataset}/label_mapper.json")
         
         self.parser.add_argument("--heirarchy", type=str, default=f"{self.root_dir}/{dataset}/heirarchy.json")
-        self.parser.add_argument("--test_size", type=float, default=0.20)  # This is for UMLS and Geoname Levels!
+        self.parser.add_argument("--test_size", type=float, default=0.08)  # This is for UMLS and Geoname Levels!
         self.parser.add_argument("--seed", type=int, default=555)
 
 
