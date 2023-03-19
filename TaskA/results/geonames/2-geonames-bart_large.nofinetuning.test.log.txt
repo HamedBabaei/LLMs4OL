@@ -1,72 +1,50 @@
 Running on dataset: geonames , model: bart_large, template: template-1!
-args: Namespace(kb_name='geonames', model_name='bart_large', template='template-1', device='cuda:0')
+args: Namespace(kb_name='geonames', model_name='bart_large', template='template-1', device='cuda:2')
+Starting the Inference time is: 2023-03-17 15:06:26
 GeonamesDataset:Test-SET --- template-1: [A] is a place in [COUNTRY]. [A] is a <mask> .
-Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
-scoring model outputs in:results/geonames/bart_large/output-bart_large-template-1-2023-03-07 13:40:50.json
-Results: {'MAP@1': 0.11868300807105948, 'MAP@5': 0.07199072626882339, 'MAP@10': 0.07042050602215781}
-scoring results in:results/geonames/bart_large/report-bart_large-template-1-2023-03-07 13:40:50.json
+Loaded BartForConditionalGeneration from MLM ../assets/LLMs/bart-large
+scoring model outputs in:results/geonames/bart_large/output-bart_large-template-1-2023-03-17 15:06:26.json
+Results: {'MAP@1': 0.11867873766921468, 'MAP@5': 0.024093963075258715, 'MAP@10': 0.017183106809980447}
+scoring results in:results/geonames/bart_large/report-bart_large-template-1-2023-03-17 15:06:26.json
+Ending the Inference time is: 2023-03-17 22:09:36
+Total duration is===> 7:03:10.168058
 Inference for  bart_large on template: template-1  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: bart_large, template: template-2!
-args: Namespace(kb_name='geonames', model_name='bart_large', template='template-2', device='cuda:0')
+args: Namespace(kb_name='geonames', model_name='bart_large', template='template-2', device='cuda:2')
+Starting the Inference time is: 2023-03-17 22:09:56
 GeonamesDataset:Test-SET --- template-2: [A] is a place in [COUNTRY]. [A] geographically is a <mask> .
-Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
-scoring model outputs in:results/geonames/bart_large/output-bart_large-template-2-2023-03-07 15:32:53.json
-Results: {'MAP@1': 0.006918620375510669, 'MAP@5': 0.010903431346963826, 'MAP@10': 0.020379501409890755}
-scoring results in:results/geonames/bart_large/report-bart_large-template-2-2023-03-07 15:32:53.json
+Loaded BartForConditionalGeneration from MLM ../assets/LLMs/bart-large
+scoring model outputs in:results/geonames/bart_large/output-bart_large-template-2-2023-03-17 22:09:56.json
+Results: {'MAP@1': 0.006912357119471609, 'MAP@5': 0.0013840846868134736, 'MAP@10': 0.000976377108567398}
+scoring results in:results/geonames/bart_large/report-bart_large-template-2-2023-03-17 22:09:56.json
+Ending the Inference time is: 2023-03-18 04:31:20
+Total duration is===> 6:21:23.842835
 Inference for  bart_large on template: template-2  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: bart_large, template: template-3!
-args: Namespace(kb_name='geonames', model_name='bart_large', template='template-3', device='cuda:0')
+args: Namespace(kb_name='geonames', model_name='bart_large', template='template-3', device='cuda:2')
+Starting the Inference time is: 2023-03-18 04:31:35
 GeonamesDataset:Test-SET --- template-3: [A] is a place in [COUNTRY]. '[A]' is a <mask> .
-Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
-scoring model outputs in:results/geonames/bart_large/output-bart_large-template-3-2023-03-07 13:38:39.json
-Results: {'MAP@1': 0.02598681869297234, 'MAP@5': 0.014052204239085556, 'MAP@10': 0.013384886360077205}
-scoring results in:results/geonames/bart_large/report-bart_large-template-3-2023-03-07 13:38:39.json
+Loaded BartForConditionalGeneration from MLM ../assets/LLMs/bart-large
+scoring model outputs in:results/geonames/bart_large/output-bart_large-template-3-2023-03-18 04:31:35.json
+Results: {'MAP@1': 0.025786109806266104, 'MAP@5': 0.0051929509900214945, 'MAP@10': 0.0038207601631609824}
+scoring results in:results/geonames/bart_large/report-bart_large-template-3-2023-03-18 04:31:35.json
+Ending the Inference time is: 2023-03-18 10:51:39
+Total duration is===> 6:20:04.170145
 Inference for  bart_large on template: template-3  is done
 -----------------------------------------------------------
-Running on dataset: geonames , model: bart_large, template: template-4!
-args: Namespace(kb_name='geonames', model_name='bart_large', template='template-4', device='cuda:0')
-GeonamesDataset:Test-SET --- template-4: [A] is a place in [COUNTRY]. '[A]' geographically is a <mask> .
-Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
-scoring model outputs in:results/geonames/bart_large/output-bart_large-template-4-2023-03-07 15:39:20.json
-Results: {'MAP@1': 0.012360820486541116, 'MAP@5': 0.013167878353649373, 'MAP@10': 0.02105577866647829}
-scoring results in:results/geonames/bart_large/report-bart_large-template-4-2023-03-07 15:39:20.json
-Inference for  bart_large on template: template-4  is done
------------------------------------------------------------
-Running on dataset: geonames , model: bart_large, template: template-5!
-args: Namespace(kb_name='geonames', model_name='bart_large', template='template-5', device='cuda:0')
-GeonamesDataset:Test-SET --- template-5: [A] is a <mask> .
-Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
-scoring model outputs in:results/geonames/bart_large/output-bart_large-template-5-2023-03-07 13:45:22.json
-Results: {'MAP@1': 0.2513917239612248, 'MAP@5': 0.09628593250550799, 'MAP@10': 0.07630711935164172}
-scoring results in:results/geonames/bart_large/report-bart_large-template-5-2023-03-07 13:45:22.json
-Inference for  bart_large on template: template-5  is done
------------------------------------------------------------
-Running on dataset: geonames , model: bart_large, template: template-6!
-args: Namespace(kb_name='geonames', model_name='bart_large', template='template-6', device='cuda:0')
-GeonamesDataset:Test-SET --- template-6: [A] geographically is a <mask> .
-Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
-scoring model outputs in:results/geonames/bart_large/output-bart_large-template-6-2023-03-07 14:49:27.json
-Results: {'MAP@1': 0.2598437032924798, 'MAP@5': 0.09704966746222668, 'MAP@10': 0.07715615667379183}
-scoring results in:results/geonames/bart_large/report-bart_large-template-6-2023-03-07 14:49:27.json
-Inference for  bart_large on template: template-6  is done
+
 -----------------------------------------------------------
 Running on dataset: geonames , model: bart_large, template: template-7!
-args: Namespace(kb_name='geonames', model_name='bart_large', template='template-7', device='cuda:0')
+args: Namespace(kb_name='geonames', model_name='bart_large', template='template-7', device='cuda:2')
+Starting the Inference time is: 2023-03-18 05:41:32
 GeonamesDataset:Test-SET --- template-7: '[A]' is a <mask> .
-Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
-scoring model outputs in:results/geonames/bart_large/output-bart_large-template-7-2023-03-07 13:47:10.json
-Results: {'MAP@1': 0.08419922848073337, 'MAP@5': 0.027311369233178184, 'MAP@10': 0.019914558354983826}
-scoring results in:results/geonames/bart_large/report-bart_large-template-7-2023-03-07 13:47:10.json
+Loaded BartForConditionalGeneration from MLM ../assets/LLMs/bart-large
+scoring model outputs in:results/geonames/bart_large/output-bart_large-template-7-2023-03-18 05:41:32.json
+Results: {'MAP@1': 0.08425502839817227, 'MAP@5': 0.016916058134403777, 'MAP@10': 0.011347298225207438}
+scoring results in:results/geonames/bart_large/report-bart_large-template-7-2023-03-18 05:41:32.json
+Ending the Inference time is: 2023-03-18 12:21:36
+Total duration is===> 6:40:04.476108
 Inference for  bart_large on template: template-7  is done
------------------------------------------------------------
-Running on dataset: geonames , model: bart_large, template: template-8!
-args: Namespace(kb_name='geonames', model_name='bart_large', template='template-8', device='cuda:0')
-GeonamesDataset:Test-SET --- template-8: '[A]' geographically is a <mask> .
-Loaded BartForConditionalGeneration from../assets/LLMs/bart-large
-scoring model outputs in:results/geonames/bart_large/output-bart_large-template-8-2023-03-07 14:55:08.json
-Results: {'MAP@1': 0.2688257818394044, 'MAP@5': 0.0950778215889374, 'MAP@10': 0.07596909362099837}
-scoring results in:results/geonames/bart_large/report-bart_large-template-8-2023-03-07 14:55:08.json
-Inference for  bart_large on template: template-8  is done
 -----------------------------------------------------------

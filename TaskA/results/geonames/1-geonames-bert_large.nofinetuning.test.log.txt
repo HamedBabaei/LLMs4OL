@@ -1,72 +1,48 @@
 Running on dataset: geonames , model: bert_large, template: template-1!
-args: Namespace(kb_name='geonames', model_name='bert_large', template='template-1', device='cuda')
+args: Namespace(kb_name='geonames', model_name='bert_large', template='template-1', device='cuda:1')
+Starting the Inference time is: 2023-03-17 14:45:32
 GeonamesDataset:Test-SET --- template-1: [A] is a place in [COUNTRY]. [A] is a [MASK].
 Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
-scoring model outputs in:results/geonames/bert_large/output-bert_large-template-1-2023-03-06 18:56:57.json
-Results: {'MAP@1': 0.44202189292679106, 'MAP@5': 0.1983486104586886, 'MAP@10': 0.1619894359034435}
-scoring results in:results/geonames/bert_large/report-bert_large-template-1-2023-03-06 18:56:57.json
+scoring model outputs in:results/geonames/bert_large/output-bert_large-template-1-2023-03-17 14:45:32.json
+Results: {'MAP@1': 0.441955274658012, 'MAP@5': 0.0897857207252091, 'MAP@10': 0.06372306511820541}
+scoring results in:results/geonames/bert_large/report-bert_large-template-1-2023-03-17 14:45:32.json
+Ending the Inference time is: 2023-03-17 21:31:13
+Total duration is===> 6:45:40.577633
 Inference for  bert_large on template: template-1  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: bert_large, template: template-2!
-args: Namespace(kb_name='geonames', model_name='bert_large', template='template-2', device='cuda')
+args: Namespace(kb_name='geonames', model_name='bert_large', template='template-2', device='cuda:1')
+Starting the Inference time is: 2023-03-17 21:31:34
 GeonamesDataset:Test-SET --- template-2: [A] is a place in [COUNTRY]. [A] geographically is a [MASK].
 Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
-scoring model outputs in:results/geonames/bert_large/output-bert_large-template-2-2023-03-06 20:18:11.json
-Results: {'MAP@1': 0.3362594126773996, 'MAP@5': 0.14456080055799922, 'MAP@10': 0.11869883101945661}
-scoring results in:results/geonames/bert_large/report-bert_large-template-2-2023-03-06 20:18:11.json
+scoring model outputs in:results/geonames/bert_large/output-bert_large-template-2-2023-03-17 21:31:34.json
+Results: {'MAP@1': 0.3363425431666453, 'MAP@5': 0.06853119528547633, 'MAP@10': 0.04917219841868602}
+scoring results in:results/geonames/bert_large/report-bert_large-template-2-2023-03-17 21:31:34.json
+Ending the Inference time is: 2023-03-18 02:59:15
+Total duration is===> 5:27:41.136691
 Inference for  bert_large on template: template-2  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: bert_large, template: template-3!
-args: Namespace(kb_name='geonames', model_name='bert_large', template='template-3', device='cuda')
+args: Namespace(kb_name='geonames', model_name='bert_large', template='template-3', device='cuda:1')
+Starting the Inference time is: 2023-03-18 02:59:33
 GeonamesDataset:Test-SET --- template-3: [A] is a place in [COUNTRY]. '[A]' is a [MASK].
 Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
-scoring model outputs in:results/geonames/bert_large/output-bert_large-template-3-2023-03-06 21:44:59.json
-Results: {'MAP@1': 0.343329489971673, 'MAP@5': 0.12175009007384634, 'MAP@10': 0.10012332303826488}
-scoring results in:results/geonames/bert_large/report-bert_large-template-3-2023-03-06 21:44:59.json
+scoring model outputs in:results/geonames/bert_large/output-bert_large-template-3-2023-03-18 02:59:33.json
+Results: {'MAP@1': 0.3435225121350586, 'MAP@5': 0.06971174787547507, 'MAP@10': 0.048885141554783254}
+scoring results in:results/geonames/bert_large/report-bert_large-template-3-2023-03-18 02:59:33.json
+Ending the Inference time is: 2023-03-18 08:45:52
+Total duration is===> 5:46:18.859088
 Inference for  bert_large on template: template-3  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: bert_large, template: template-4!
-args: Namespace(kb_name='geonames', model_name='bert_large', template='template-4', device='cuda')
+args: Namespace(kb_name='geonames', model_name='bert_large', template='template-4', device='cuda:1')
+Starting the Inference time is: 2023-03-18 08:46:09
 GeonamesDataset:Test-SET --- template-4: [A] is a place in [COUNTRY]. '[A]' geographically is a [MASK].
 Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
-scoring model outputs in:results/geonames/bert_large/output-bert_large-template-4-2023-03-06 23:11:50.json
-Results: {'MAP@1': 0.4048790764544277, 'MAP@5': 0.1465984359257835, 'MAP@10': 0.11805930132739774}
-scoring results in:results/geonames/bert_large/report-bert_large-template-4-2023-03-06 23:11:50.json
+scoring model outputs in:results/geonames/bert_large/output-bert_large-template-4-2023-03-18 08:46:09.json
+Results: {'MAP@1': 0.40485402343027144, 'MAP@5': 0.08241118750385523, 'MAP@10': 0.05898542934371602}
+scoring results in:results/geonames/bert_large/report-bert_large-template-4-2023-03-18 08:46:09.json
+Ending the Inference time is: 2023-03-18 14:27:58
+Total duration is===> 5:41:49.118255
 Inference for  bert_large on template: template-4  is done
------------------------------------------------------------
-Running on dataset: geonames , model: bert_large, template: template-5!
-args: Namespace(kb_name='geonames', model_name='bert_large', template='template-5', device='cuda')
-GeonamesDataset:Test-SET --- template-5: [A] is a [MASK].
-Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
-scoring model outputs in:results/geonames/bert_large/output-bert_large-template-5-2023-03-07 00:40:01.json
-Results: {'MAP@1': 0.26283583151841255, 'MAP@5': 0.10732787069855874, 'MAP@10': 0.08819394981978006}
-scoring results in:results/geonames/bert_large/report-bert_large-template-5-2023-03-07 00:40:01.json
-Inference for  bert_large on template: template-5  is done
------------------------------------------------------------
-Running on dataset: geonames , model: bert_large, template: template-6!
-args: Namespace(kb_name='geonames', model_name='bert_large', template='template-6', device='cuda')
-GeonamesDataset:Test-SET --- template-6: [A] geographically is a [MASK].
-Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
-scoring model outputs in:results/geonames/bert_large/output-bert_large-template-6-2023-03-07 01:33:17.json
-Results: {'MAP@1': 0.2849195029252253, 'MAP@5': 0.1222556493462331, 'MAP@10': 0.1057060023845892}
-scoring results in:results/geonames/bert_large/report-bert_large-template-6-2023-03-07 01:33:17.json
-Inference for  bert_large on template: template-6  is done
------------------------------------------------------------
-Running on dataset: geonames , model: bert_large, template: template-7!
-args: Namespace(kb_name='geonames', model_name='bert_large', template='template-7', device='cuda')
-GeonamesDataset:Test-SET --- template-7: '[A]' is a [MASK].
-Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
-scoring model outputs in:results/geonames/bert_large/output-bert_large-template-7-2023-03-07 02:29:23.json
-Results: {'MAP@1': 0.12023800372948427, 'MAP@5': 0.040161401419355036, 'MAP@10': 0.03246411982493655}
-scoring results in:results/geonames/bert_large/report-bert_large-template-7-2023-03-07 02:29:23.json
-Inference for  bert_large on template: template-7  is done
------------------------------------------------------------
-Running on dataset: geonames , model: bert_large, template: template-8!
-args: Namespace(kb_name='geonames', model_name='bert_large', template='template-8', device='cuda')
-GeonamesDataset:Test-SET --- template-8: '[A]' geographically is a [MASK].
-Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
-scoring model outputs in:results/geonames/bert_large/output-bert_large-template-8-2023-03-07 03:29:50.json
-Results: {'MAP@1': 0.3521367667364166, 'MAP@5': 0.11654903591724275, 'MAP@10': 0.09658729847057537}
-scoring results in:results/geonames/bert_large/report-bert_large-template-8-2023-03-07 03:29:50.json
-Inference for  bert_large on template: template-8  is done
 -----------------------------------------------------------
