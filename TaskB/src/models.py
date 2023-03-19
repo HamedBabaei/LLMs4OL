@@ -41,19 +41,17 @@ class ZeroShotPromptClassifier:
         )
         if self.device != "cpu":
             self.prompt_model = self.prompt_model.to(self.device)
-
-        data_loaders = {
-            "t5": PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer= tokenizer,
-                                   tokenizer_wrapper_class= wrapper_class, max_seq_length=256, decoder_max_length=3,
-                                   batch_size=1, shuffle=False, teacher_forcing=False, predict_eos_token=False,
-                                   truncate_method="head"),
-            "bert": PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
-                                     tokenizer_wrapper_class=wrapper_class, shuffle=False),
-            "bart": PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
-                                     tokenizer_wrapper_class=wrapper_class, shuffle=False)
-        }
-
-        self.data_loader = data_loaders[model_name]
+        if model_name == "t5":
+            self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer= tokenizer,
+                               tokenizer_wrapper_class= wrapper_class, max_seq_length=256, decoder_max_length=3,
+                               batch_size=1, shuffle=False, teacher_forcing=False, predict_eos_token=False,
+                               truncate_method="head")
+        elif model_name == "bert":
+            self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
+                                                tokenizer_wrapper_class=wrapper_class, shuffle=False)
+        elif model_name == "bart":
+            self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
+                                                tokenizer_wrapper_class=wrapper_class, shuffle=False)
 
     def test(self):
         y_preds, logits = [], []

@@ -20,7 +20,7 @@ if __name__ == "__main__":
     dataset = DataReader.load_json(config.processed_hier)
     templates = DataReader.load_text(config.template_text).split("\n")
     template = templates[int(args.template)]
-    print(f"Working on template: {args.template}: {template}")
+    print(f"Working on template: {args.template}: {str(int(template)+1)}")
     label_mapper = DataReader.load_json(config.labels_path)
 
     model = ZeroShotPromptClassifier(model_name=config.model_name,

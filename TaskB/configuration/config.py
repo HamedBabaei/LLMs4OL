@@ -56,7 +56,7 @@ class BaseConfig:
         # add general specific arguments
         self.parser.add_argument("--processed_hier", type=str, default=f"{self.root_dir}/{dataset}/processed/hierarchy_dict.json")
         self.parser.add_argument("--template_text", type=str, default=f"{self.root_dir}/templates.txt")
-        self.parser.add_argument("--template", type=int, default=template)
+        self.parser.add_argument("--template", type=str, default=template)
         self.parser.add_argument("--labels_path", type=str, default=f"{self.root_dir}/label_mapper.json")
         self.parser.add_argument("--dataset", type=str, default=kb_name)
         
@@ -64,8 +64,8 @@ class BaseConfig:
         if model:
             self.mkdir(f"results/{kb_name}/{model}")
         self.parser.add_argument("--report_output", type=str, default=f"results/{kb_name}/{model}/report-{model}-{template}-{time}.json")
-        self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
-        
+        # self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
+
         # add model specific arguments
         self.parser.add_argument("--batch_size", type=int, default=4)
         # add model specific arguments
