@@ -1,6 +1,7 @@
 import openprompt
 from openprompt.plms import ModelClass
 from openprompt.plms.mlm import MLMTokenizerWrapper
+from openprompt.plms.lm import LMTokenizerWrapper
 from transformers import BartTokenizer, BartConfig, BartForConditionalGeneration
 from openprompt.data_utils import InputExample
 from openprompt.plms import load_plm
@@ -12,7 +13,7 @@ from tqdm import tqdm
 openprompt.plms._MODEL_CLASSES['bart']= ModelClass(**{"config":BartConfig,
                                                       "tokenizer": BartTokenizer,
                                                       "model": BartForConditionalGeneration,
-                                                      "wrapper": MLMTokenizerWrapper})
+                                                      "wrapper": LMTokenizerWrapper})
 
 
 class ZeroShotPromptClassifier:
@@ -51,7 +52,9 @@ class ZeroShotPromptClassifier:
                                                 tokenizer_wrapper_class=wrapper_class, shuffle=False)
         elif model_name == "bart":
             self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
-                                                tokenizer_wrapper_class=wrapper_class, shuffle=False)
+                                                tokenizer_wrapper_class=wrapper_class,  max_seq_length=256, decoder_max_length=3,
+                                                batch_size=1, shuffle=False, teacher_forcing=False, predict_eos_token=False,
+                                                truncate_method="head")
 
     def test(self):
         y_preds, logits = [], []
