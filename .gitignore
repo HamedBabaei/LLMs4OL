@@ -21,6 +21,9 @@ TaskA/results/*/*/output*.json
 TaskA/results/*/*/nci-output*.json
 TaskA/results/*/*/medicin-output*.json
 TaskA/results/*/*/snomedct_us-output*.json
+
+TaskB/results/*/*/*
+
 TaskB/TaskB-experiments
 TaskA/TaskA-experiments
 datasets/TaskA/WN18RR/raw
