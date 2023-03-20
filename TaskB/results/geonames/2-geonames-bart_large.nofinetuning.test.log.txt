@@ -1,0 +1,144 @@
+Running on dataset: geonames , model: bart_large, template: 0!
+args: Namespace(kb_name='geonames', model='bart_large', template='0', device='cuda:0')
+Starting the Inference time is: 2023-03-19 19:27:27
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.41      0.52      0.46       680
+   incorrect       0.35      0.26      0.30       680
+
+    accuracy                           0.39      1360
+   macro avg       0.38      0.39      0.38      1360
+weighted avg       0.38      0.39      0.38      1360
+
+scoring results in:results/geonames/bart_large/report-bart_large-0-2023-03-19 19:27:27.json
+Ending the Inference time is: 2023-03-19 19:33:37
+Total duration is===> 0:06:10.806653
+Inference for  bart_large on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bart_large, template: 1!
+args: Namespace(kb_name='geonames', model='bart_large', template='1', device='cuda:0')
+Starting the Inference time is: 2023-03-19 19:33:45
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.58      0.64      0.61       680
+   incorrect       0.60      0.53      0.56       680
+
+    accuracy                           0.58      1360
+   macro avg       0.59      0.58      0.58      1360
+weighted avg       0.59      0.58      0.58      1360
+
+scoring results in:results/geonames/bart_large/report-bart_large-1-2023-03-19 19:33:45.json
+Ending the Inference time is: 2023-03-19 19:39:56
+Total duration is===> 0:06:10.706467
+Inference for  bart_large on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bart_large, template: 2!
+args: Namespace(kb_name='geonames', model='bart_large', template='2', device='cuda:0')
+Starting the Inference time is: 2023-03-19 19:40:04
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.31      0.21      0.25       680
+   incorrect       0.40      0.53      0.46       680
+
+    accuracy                           0.37      1360
+   macro avg       0.36      0.37      0.35      1360
+weighted avg       0.36      0.37      0.35      1360
+
+scoring results in:results/geonames/bart_large/report-bart_large-2-2023-03-19 19:40:04.json
+Ending the Inference time is: 2023-03-19 19:46:14
+Total duration is===> 0:06:10.224558
+Inference for  bart_large on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bart_large, template: 3!
+args: Namespace(kb_name='geonames', model='bart_large', template='3', device='cuda:0')
+Starting the Inference time is: 2023-03-19 19:46:22
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.62      0.36      0.45       680
+   incorrect       0.55      0.78      0.64       680
+
+    accuracy                           0.57      1360
+   macro avg       0.58      0.57      0.55      1360
+weighted avg       0.58      0.57      0.55      1360
+
+scoring results in:results/geonames/bart_large/report-bart_large-3-2023-03-19 19:46:22.json
+Ending the Inference time is: 2023-03-19 19:52:33
+Total duration is===> 0:06:11.099943
+Inference for  bart_large on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bart_large, template: 4!
+args: Namespace(kb_name='geonames', model='bart_large', template='4', device='cuda:0')
+Starting the Inference time is: 2023-03-19 19:52:42
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.32      0.24      0.27       680
+   incorrect       0.39      0.50      0.44       680
+
+    accuracy                           0.37      1360
+   macro avg       0.36      0.37      0.36      1360
+weighted avg       0.36      0.37      0.36      1360
+
+scoring results in:results/geonames/bart_large/report-bart_large-4-2023-03-19 19:52:42.json
+Ending the Inference time is: 2023-03-19 19:58:54
+Total duration is===> 0:06:12.641997
+Inference for  bart_large on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bart_large, template: 5!
+args: Namespace(kb_name='geonames', model='bart_large', template='5', device='cuda:0')
+Starting the Inference time is: 2023-03-19 19:59:03
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.65      0.53      0.58       680
+   incorrect       0.60      0.72      0.66       680
+
+    accuracy                           0.62      1360
+   macro avg       0.63      0.62      0.62      1360
+weighted avg       0.63      0.62      0.62      1360
+
+scoring results in:results/geonames/bart_large/report-bart_large-5-2023-03-19 19:59:03.json
+Ending the Inference time is: 2023-03-19 20:05:14
+Total duration is===> 0:06:11.451113
+Inference for  bart_large on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bart_large, template: 6!
+args: Namespace(kb_name='geonames', model='bart_large', template='6', device='cuda:0')
+Starting the Inference time is: 2023-03-19 20:05:23
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.13      0.03      0.04       680
+   incorrect       0.46      0.82      0.59       680
+
+    accuracy                           0.42      1360
+   macro avg       0.29      0.42      0.32      1360
+weighted avg       0.29      0.42      0.32      1360
+
+scoring results in:results/geonames/bart_large/report-bart_large-6-2023-03-19 20:05:23.json
+Ending the Inference time is: 2023-03-19 20:11:35
+Total duration is===> 0:06:12.454020
+Inference for  bart_large on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bart_large, template: 7!
+args: Namespace(kb_name='geonames', model='bart_large', template='7', device='cuda:0')
+Starting the Inference time is: 2023-03-19 20:11:43
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.72      0.44      0.55       680
+   incorrect       0.60      0.83      0.70       680
+
+    accuracy                           0.64      1360
+   macro avg       0.66      0.64      0.62      1360
+weighted avg       0.66      0.64      0.62      1360
+
+scoring results in:results/geonames/bart_large/report-bart_large-7-2023-03-19 20:11:43.json
+Ending the Inference time is: 2023-03-19 20:17:55
+Total duration is===> 0:06:11.844355
+Inference for  bart_large on template: 7  is done
+-----------------------------------------------------------

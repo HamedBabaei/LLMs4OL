@@ -1,0 +1,144 @@
+Running on dataset: schema , model: bert_large, template: 0!
+args: Namespace(kb_name='schema', model='bert_large', template='0', device='cuda:0')
+Starting the Inference time is: 2023-03-17 18:04:54
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.49      0.66      0.56      2670
+   incorrect       0.48      0.32      0.38      2670
+
+    accuracy                           0.49      5340
+   macro avg       0.49      0.49      0.47      5340
+weighted avg       0.49      0.49      0.47      5340
+
+scoring results in:results/schema/bert_large/report-bert_large-0-2023-03-17 18:04:54.json
+Ending the Inference time is: 2023-03-17 18:08:21
+Total duration is===> 0:03:26.453055
+Inference for  bert_large on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bert_large, template: 1!
+args: Namespace(kb_name='schema', model='bert_large', template='1', device='cuda:0')
+Starting the Inference time is: 2023-03-17 18:08:31
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.50      0.83      0.62      2670
+   incorrect       0.50      0.17      0.26      2670
+
+    accuracy                           0.50      5340
+   macro avg       0.50      0.50      0.44      5340
+weighted avg       0.50      0.50      0.44      5340
+
+scoring results in:results/schema/bert_large/report-bert_large-1-2023-03-17 18:08:31.json
+Ending the Inference time is: 2023-03-17 18:11:37
+Total duration is===> 0:03:06.746654
+Inference for  bert_large on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bert_large, template: 2!
+args: Namespace(kb_name='schema', model='bert_large', template='2', device='cuda:0')
+Starting the Inference time is: 2023-03-17 18:11:47
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.49      0.72      0.58      2670
+   incorrect       0.48      0.26      0.34      2670
+
+    accuracy                           0.49      5340
+   macro avg       0.49      0.49      0.46      5340
+weighted avg       0.49      0.49      0.46      5340
+
+scoring results in:results/schema/bert_large/report-bert_large-2-2023-03-17 18:11:47.json
+Ending the Inference time is: 2023-03-17 18:14:51
+Total duration is===> 0:03:03.924852
+Inference for  bert_large on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bert_large, template: 3!
+args: Namespace(kb_name='schema', model='bert_large', template='3', device='cuda:0')
+Starting the Inference time is: 2023-03-17 18:14:59
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.49      0.73      0.59      2670
+   incorrect       0.48      0.25      0.33      2670
+
+    accuracy                           0.49      5340
+   macro avg       0.49      0.49      0.46      5340
+weighted avg       0.49      0.49      0.46      5340
+
+scoring results in:results/schema/bert_large/report-bert_large-3-2023-03-17 18:14:59.json
+Ending the Inference time is: 2023-03-17 18:18:02
+Total duration is===> 0:03:02.385919
+Inference for  bert_large on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bert_large, template: 4!
+args: Namespace(kb_name='schema', model='bert_large', template='4', device='cuda:0')
+Starting the Inference time is: 2023-03-17 18:18:14
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.50      0.76      0.60      2670
+   incorrect       0.50      0.24      0.33      2670
+
+    accuracy                           0.50      5340
+   macro avg       0.50      0.50      0.46      5340
+weighted avg       0.50      0.50      0.46      5340
+
+scoring results in:results/schema/bert_large/report-bert_large-4-2023-03-17 18:18:14.json
+Ending the Inference time is: 2023-03-17 18:21:17
+Total duration is===> 0:03:02.880848
+Inference for  bert_large on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bert_large, template: 5!
+args: Namespace(kb_name='schema', model='bert_large', template='5', device='cuda:0')
+Starting the Inference time is: 2023-03-17 18:21:28
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.50      0.85      0.63      2670
+   incorrect       0.48      0.14      0.22      2670
+
+    accuracy                           0.50      5340
+   macro avg       0.49      0.50      0.42      5340
+weighted avg       0.49      0.50      0.42      5340
+
+scoring results in:results/schema/bert_large/report-bert_large-5-2023-03-17 18:21:28.json
+Ending the Inference time is: 2023-03-17 18:24:35
+Total duration is===> 0:03:06.087843
+Inference for  bert_large on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bert_large, template: 6!
+args: Namespace(kb_name='schema', model='bert_large', template='6', device='cuda:0')
+Starting the Inference time is: 2023-03-17 18:24:45
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.50      0.78      0.61      2670
+   incorrect       0.49      0.21      0.30      2670
+
+    accuracy                           0.49      5340
+   macro avg       0.49      0.49      0.45      5340
+weighted avg       0.49      0.49      0.45      5340
+
+scoring results in:results/schema/bert_large/report-bert_large-6-2023-03-17 18:24:45.json
+Ending the Inference time is: 2023-03-17 18:27:49
+Total duration is===> 0:03:03.764486
+Inference for  bert_large on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bert_large, template: 7!
+args: Namespace(kb_name='schema', model='bert_large', template='7', device='cuda:0')
+Starting the Inference time is: 2023-03-17 18:28:00
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.50      0.75      0.60      2670
+   incorrect       0.51      0.26      0.35      2670
+
+    accuracy                           0.51      5340
+   macro avg       0.51      0.51      0.48      5340
+weighted avg       0.51      0.51      0.48      5340
+
+scoring results in:results/schema/bert_large/report-bert_large-7-2023-03-17 18:28:00.json
+Ending the Inference time is: 2023-03-17 18:31:05
+Total duration is===> 0:03:05.017324
+Inference for  bert_large on template: 7  is done
+-----------------------------------------------------------

@@ -1,0 +1,144 @@
+Running on dataset: umls , model: flan_t5_xl, template: 0!
+args: Namespace(kb_name='umls', model='flan_t5_xl', template='0', device='cuda')
+Starting the Inference time is: 2023-03-20 12:25:15
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.6476377952755905
+              precision    recall  f1-score   support
+
+     correct       0.66      0.62      0.64       254
+   incorrect       0.64      0.67      0.66       254
+
+    accuracy                           0.65       508
+   macro avg       0.65      0.65      0.65       508
+weighted avg       0.65      0.65      0.65       508
+
+Ending the Inference time is: 2023-03-20 12:26:07
+Total duration is===> 0:00:52.569657
+Inference for  flan_t5_xl on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: flan_t5_xl, template: 1!
+args: Namespace(kb_name='umls', model='flan_t5_xl', template='1', device='cuda')
+Starting the Inference time is: 2023-03-20 12:26:11
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+accuracy: 0.5255905511811023
+              precision    recall  f1-score   support
+
+     correct       0.52      0.83      0.64       254
+   incorrect       0.56      0.22      0.32       254
+
+    accuracy                           0.53       508
+   macro avg       0.54      0.53      0.48       508
+weighted avg       0.54      0.53      0.48       508
+
+Ending the Inference time is: 2023-03-20 12:27:04
+Total duration is===> 0:00:52.816999
+Inference for  flan_t5_xl on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: flan_t5_xl, template: 2!
+args: Namespace(kb_name='umls', model='flan_t5_xl', template='2', device='cuda')
+Starting the Inference time is: 2023-03-20 12:27:07
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.515748031496063
+              precision    recall  f1-score   support
+
+     correct       0.51      0.73      0.60       254
+   incorrect       0.53      0.30      0.39       254
+
+    accuracy                           0.52       508
+   macro avg       0.52      0.52      0.49       508
+weighted avg       0.52      0.52      0.49       508
+
+Ending the Inference time is: 2023-03-20 12:28:00
+Total duration is===> 0:00:52.872435
+Inference for  flan_t5_xl on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: flan_t5_xl, template: 3!
+args: Namespace(kb_name='umls', model='flan_t5_xl', template='3', device='cuda')
+Starting the Inference time is: 2023-03-20 12:28:03
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+accuracy: 0.4389763779527559
+              precision    recall  f1-score   support
+
+     correct       0.41      0.29      0.34       254
+   incorrect       0.45      0.59      0.51       254
+
+    accuracy                           0.44       508
+   macro avg       0.43      0.44      0.43       508
+weighted avg       0.43      0.44      0.43       508
+
+Ending the Inference time is: 2023-03-20 12:28:57
+Total duration is===> 0:00:53.373533
+Inference for  flan_t5_xl on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: flan_t5_xl, template: 4!
+args: Namespace(kb_name='umls', model='flan_t5_xl', template='4', device='cuda')
+Starting the Inference time is: 2023-03-20 12:29:00
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.6023622047244095
+              precision    recall  f1-score   support
+
+     correct       0.64      0.46      0.53       254
+   incorrect       0.58      0.75      0.65       254
+
+    accuracy                           0.60       508
+   macro avg       0.61      0.60      0.59       508
+weighted avg       0.61      0.60      0.59       508
+
+Ending the Inference time is: 2023-03-20 12:29:54
+Total duration is===> 0:00:54.511734
+Inference for  flan_t5_xl on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: flan_t5_xl, template: 5!
+args: Namespace(kb_name='umls', model='flan_t5_xl', template='5', device='cuda')
+Starting the Inference time is: 2023-03-20 12:43:50
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+accuracy: 0.48031496062992124
+              precision    recall  f1-score   support
+
+     correct       0.49      0.74      0.59       254
+   incorrect       0.46      0.22      0.30       254
+
+    accuracy                           0.48       508
+   macro avg       0.47      0.48      0.44       508
+weighted avg       0.47      0.48      0.44       508
+
+Ending the Inference time is: 2023-03-20 12:44:44
+Total duration is===> 0:00:53.252101
+Inference for  flan_t5_xl on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: flan_t5_xl, template: 6!
+args: Namespace(kb_name='umls', model='flan_t5_xl', template='6', device='cuda')
+Starting the Inference time is: 2023-03-20 12:45:09
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.5295275590551181
+              precision    recall  f1-score   support
+
+     correct       0.52      0.77      0.62       254
+   incorrect       0.56      0.29      0.38       254
+
+    accuracy                           0.53       508
+   macro avg       0.54      0.53      0.50       508
+weighted avg       0.54      0.53      0.50       508
+
+Ending the Inference time is: 2023-03-20 12:46:03
+Total duration is===> 0:00:53.505778
+Inference for  flan_t5_xl on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: flan_t5_xl, template: 7!
+args: Namespace(kb_name='umls', model='flan_t5_xl', template='7', device='cuda')
+Starting the Inference time is: 2023-03-20 12:46:19
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+accuracy: 0.468503937007874
+              precision    recall  f1-score   support
+
+     correct       0.48      0.63      0.54       254
+   incorrect       0.45      0.30      0.36       254
+
+    accuracy                           0.47       508
+   macro avg       0.46      0.47      0.45       508
+weighted avg       0.46      0.47      0.45       508
+
+Ending the Inference time is: 2023-03-20 12:47:12
+Total duration is===> 0:00:52.611963
+Inference for  flan_t5_xl on template: 7  is done
+-----------------------------------------------------------
