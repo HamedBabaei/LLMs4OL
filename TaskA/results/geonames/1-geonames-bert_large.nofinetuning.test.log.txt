@@ -46,3 +46,51 @@ Ending the Inference time is: 2023-03-18 14:27:58
 Total duration is===> 5:41:49.118255
 Inference for  bert_large on template: template-4  is done
 -----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: template-5!
+args: Namespace(kb_name='geonames', model_name='bert_large', template='template-5', device='cuda')
+Starting the Inference time is: 2023-03-21 16:18:13
+GeonamesDataset:Test-SET --- template-5: [A] is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/geonames/bert_large/output-bert_large-template-5-2023-03-21 16:18:13.json
+Results: {'MAP@1': 0.26285462128652975, 'MAP@5': 0.05332225401299152, 'MAP@10': 0.03807305403549584}
+scoring results in:results/geonames/bert_large/report-bert_large-template-5-2023-03-21 16:18:13.json
+Ending the Inference time is: 2023-03-21 16:34:59
+Total duration is===> 0:16:46.278934
+Inference for  bert_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: template-6!
+args: Namespace(kb_name='geonames', model_name='bert_large', template='template-6', device='cuda')
+Starting the Inference time is: 2023-03-21 16:35:14
+GeonamesDataset:Test-SET --- template-6: [A] geographically is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/geonames/bert_large/output-bert_large-template-6-2023-03-21 16:35:14.json
+Results: {'MAP@1': 0.2856372151286103, 'MAP@5': 0.05807089341551484, 'MAP@10': 0.042023355934830524}
+scoring results in:results/geonames/bert_large/report-bert_large-template-6-2023-03-21 16:35:14.json
+Ending the Inference time is: 2023-03-21 16:53:46
+Total duration is===> 0:18:32.800662
+Inference for  bert_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: template-7!
+args: Namespace(kb_name='geonames', model_name='bert_large', template='template-7', device='cuda')
+Starting the Inference time is: 2023-03-21 16:54:01
+GeonamesDataset:Test-SET --- template-7: '[A]' is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/geonames/bert_large/output-bert_large-template-7-2023-03-21 16:54:01.json
+Results: {'MAP@1': 0.12002676118489417, 'MAP@5': 0.024204780003131636, 'MAP@10': 0.017052601973919817}
+scoring results in:results/geonames/bert_large/report-bert_large-template-7-2023-03-21 16:54:01.json
+Ending the Inference time is: 2023-03-21 17:12:48
+Total duration is===> 0:18:47.548165
+Inference for  bert_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: template-8!
+args: Namespace(kb_name='geonames', model_name='bert_large', template='template-8', device='cuda')
+Starting the Inference time is: 2023-03-21 17:13:03
+GeonamesDataset:Test-SET --- template-8: '[A]' geographically is a [MASK].
+Loaded BertForMaskedLM from ../assets/LLMs/bert-large-uncased
+scoring model outputs in:results/geonames/bert_large/output-bert_large-template-8-2023-03-21 17:13:03.json
+Results: {'MAP@1': 0.352822023885781, 'MAP@5': 0.07181473098840821, 'MAP@10': 0.05187382747531355}
+scoring results in:results/geonames/bert_large/report-bert_large-template-8-2023-03-21 17:13:03.json
+Ending the Inference time is: 2023-03-21 17:32:55
+Total duration is===> 0:19:52.529819
+Inference for  bert_large on template: template-8  is done
+-----------------------------------------------------------

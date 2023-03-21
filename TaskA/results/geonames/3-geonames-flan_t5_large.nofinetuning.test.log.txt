@@ -1,0 +1,15 @@
+
+
+
+-----------------------------------------------------------
+Running on dataset: geonames , model: bart_large, template: template-8!
+args: Namespace(kb_name='geonames', model_name='flan_t5_large', template='template-8', device='cuda')
+Starting the Inference time is: 2023-03-21 14:38:10
+GeonamesDataset:Test-SET --- template-8: '[A]' geographically is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-large
+scoring model outputs in:results/geonames/flan_t5_large/output-flan_t5_large-template-8-2023-03-21 14:38:10.json
+Results: {'MAP@1': 0.17152496049878294, 'MAP@5': 0.034483827039235505, 'MAP@10': 0.02372965769227033}
+scoring results in:results/geonames/flan_t5_large/report-flan_t5_large-template-8-2023-03-21 14:38:10.json
+Ending the Inference time is: 2023-03-21 17:47:32
+Total duration is===> 3:09:22.272364
+Inference for  bart_large on template: template-8  is done
