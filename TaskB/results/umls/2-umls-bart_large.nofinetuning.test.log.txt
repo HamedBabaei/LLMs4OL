@@ -35,9 +35,21 @@ Total duration is===> 0:02:16.103911
 Inference for  bart_large on template: 1  is done
 -----------------------------------------------------------
 Running on dataset: umls , model: bart_large, template: 2!
-args: Namespace(kb_name='umls', model='bart_large', template='2', device='cuda:0')
-Starting the Inference time is: 2023-03-19 20:25:01
+args: Namespace(kb_name='umls', model='bart_large', template='2', device='cuda')
+Starting the Inference time is: 2023-03-21 11:48:21
 Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.4625984251968504
+              precision    recall  f1-score   support
+
+     correct       0.47      0.66      0.55       254
+   incorrect       0.44      0.26      0.33       254
+
+    accuracy                           0.46       508
+   macro avg       0.46      0.46      0.44       508
+weighted avg       0.46      0.46      0.44       508
+
+Ending the Inference time is: 2023-03-21 11:48:37
+Total duration is===> 0:00:15.757742
 Inference for  bart_large on template: 2  is done
 -----------------------------------------------------------
 Running on dataset: umls , model: bart_large, template: 3!
