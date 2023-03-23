@@ -25,8 +25,9 @@ class BaseConfig:
             os.mkdir(path)
 
     def add_umls(self, dataset: str):
-        self.parser.add_argument("--raw_sn", type=str, default=f"{self.root_dir}/{dataset}/raw/ ")
-        self.parser.add_argument("--processed_sn", type=str, default=f"{self.root_dir}/{dataset}/processed/semantic_network.csv")
+        self.parser.add_argument("--raw_sn_re", type=str, default=f"{self.root_dir}/{dataset}/raw/SRSTRE1")
+        self.parser.add_argument("--raw_sn_re_def", type=str, default=f"{self.root_dir}/{dataset}/raw/SRDEF")
+        self.parser.add_argument("--processed_sn", type=str, default=f"{self.root_dir}/{dataset}/processed/graph_sn_dict.json")
 
     def get_args(self, kb_name:str, model:str = None, template:int = None):
         """
