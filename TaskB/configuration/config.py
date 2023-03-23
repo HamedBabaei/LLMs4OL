@@ -81,6 +81,11 @@ class BaseConfig:
         if model == "flan_t5_xl":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
             self.parser.add_argument("--model_name", type=str, default="t5")
-        
+        if model == "flan_t5_large_lm":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-large")
+            self.parser.add_argument("--model_name", type=str, default="t5-lm")
+        if model == "flan_t5_xl_lm":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
+            self.parser.add_argument("--model_name", type=str, default="t5-lm")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
