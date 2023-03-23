@@ -71,12 +71,16 @@ class ZeroShotPromptClassifier:
         return self.dataset['Y'], y_preds
 
     def build_dataset(self, dataset):
+        # "h": "Amino Acid Sequence",
+        # "r": "result_of",
+        # "t": "Cell or Molecular Dysfunction",
+        # "label": "incorrect",
         dataset_dict = {"X":[], "Y":[]}
         for data in dataset:
-            dataset_dict['X'].append(InputExample(text_a=data['text_a'], text_b=data['text_b']))
+            text_a = f"{data['h'].lower()} is {data['r'].replace('_', ' ')} {data['t'].lower()}"
+            dataset_dict['X'].append(InputExample(text_a=text_a))
             dataset_dict['Y'].append(data['label'])
         return dataset_dict
-
 
     def get_data_loader(self):
         pass
