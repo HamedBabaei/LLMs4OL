@@ -1,0 +1,18 @@
+Running on dataset: umls , model: bert_large !
+args: Namespace(kb_name='umls', model='bert_large', device='cuda')
+Starting the Inference time is: 2023-03-23 14:18:58
+Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.68      0.19      0.29      5641
+   incorrect       0.23      0.74      0.35      1896
+
+    accuracy                           0.32      7537
+   macro avg       0.46      0.46      0.32      7537
+weighted avg       0.57      0.32      0.31      7537
+
+scoring results in:results/umls/bert_large/report-bert_large-2023-03-23 14:18:58.json
+Ending the Inference time is: 2023-03-23 14:23:10
+Total duration is===> 0:04:12.069537
+Inference for  bert_large  is done
+-----------------------------------------------------------

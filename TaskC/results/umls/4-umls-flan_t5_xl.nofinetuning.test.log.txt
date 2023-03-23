@@ -1,0 +1,18 @@
+Running on dataset: umls , model: flan_t5_xl !
+args: Namespace(kb_name='umls', model='flan_t5_xl', device='cuda')
+Starting the Inference time is: 2023-03-23 14:32:20
+Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
+              precision    recall  f1-score   support
+
+     correct       0.74      0.80      0.77      5641
+   incorrect       0.22      0.17      0.19      1896
+
+    accuracy                           0.64      7537
+   macro avg       0.48      0.48      0.48      7537
+weighted avg       0.61      0.64      0.62      7537
+
+scoring results in:results/umls/flan_t5_xl/report-flan_t5_xl-2023-03-23 14:32:20.json
+Ending the Inference time is: 2023-03-23 14:40:45
+Total duration is===> 0:08:24.985375
+Inference for  flan_t5_xl  is done
+-----------------------------------------------------------
