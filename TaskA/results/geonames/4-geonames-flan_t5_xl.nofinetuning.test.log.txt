@@ -80,3 +80,9 @@ args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-
 Starting the Inference time is: 2023-03-24 13:14:28
 GeonamesDataset:Test-SET --- template-8: '[A]' geographically is a ?
 Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+Results: {'MAP@1': 0.25074945552376476, 'MAP@5': 0.050469032469288674, 'MAP@10': 0.03457568191426071}
+scoring results in:results/geonames/flan_t5_xl/report-flan_t5_xl-template-8-2023-03-24 13:14:28.json
+Ending the Inference time is: 2023-03-24 22:28:40
+Total duration is===> 9:14:11.624854
+Inference for  flan_t5_xl on template: template-8  is done
+-----------------------------------------------------------
