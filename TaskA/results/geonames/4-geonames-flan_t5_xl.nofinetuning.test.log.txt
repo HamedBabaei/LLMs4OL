@@ -1,0 +1,82 @@
+Running on dataset: geonames , model: flan_t5_xl, template: template-1!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-1', device='cuda')
+Starting the Inference time is: 2023-03-21 20:44:53
+GeonamesDataset:Test-SET --- template-1: [A] is a place in [COUNTRY]. [A] is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+Results: {'MAP@1': 0.3872500035586682, 'MAP@5': 0.07884393104724491, 'MAP@10': 0.05746325703322759}
+scoring results in:results/geonames/flan_t5_xl/report-flan_t5_xl-template-1-2023-03-21 20:44:53.json
+Ending the Inference time is: 2023-03-22 05:59:49
+Total duration is===> 9:14:56.086843
+Inference for  flan_t5_xl on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-2!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-2', device='cuda')
+Starting the Inference time is: 2023-03-22 06:00:00
+GeonamesDataset:Test-SET --- template-2: [A] is a place in [COUNTRY]. [A] geographically is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+Results: {'MAP@1': 0.24806479623065864, 'MAP@5': 0.05000073545809548, 'MAP@10': 0.034343151755395}
+scoring results in:results/geonames/flan_t5_xl/report-flan_t5_xl-template-2-2023-03-22 06:00:00.json
+Ending the Inference time is: 2023-03-22 15:08:10
+Total duration is===> 9:08:10.657694
+Inference for  flan_t5_xl on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-3!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-3', device='cuda')
+Starting the Inference time is: 2023-03-22 15:08:21
+GeonamesDataset:Test-SET --- template-3: [A] is a place in [COUNTRY]. '[A]' is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+Results: {'MAP@1': 0.22929780358998447, 'MAP@5': 0.04631144040654223, 'MAP@10': 0.03274423591778504}
+scoring results in:results/geonames/flan_t5_xl/report-flan_t5_xl-template-3-2023-03-22 15:08:21.json
+Ending the Inference time is: 2023-03-23 00:12:59
+Total duration is===> 9:04:37.541458
+Inference for  flan_t5_xl on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-4!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-4', device='cuda')
+Starting the Inference time is: 2023-03-23 00:13:11
+GeonamesDataset:Test-SET --- template-4: [A] is a place in [COUNTRY]. '[A]' geographically is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+Results: {'MAP@1': 0.2960470313589842, 'MAP@5': 0.059716089450683976, 'MAP@10': 0.04132258016775676}
+scoring results in:results/geonames/flan_t5_xl/report-flan_t5_xl-template-4-2023-03-23 00:13:11.json
+Ending the Inference time is: 2023-03-23 09:18:24
+Total duration is===> 9:05:13.376214
+Inference for  flan_t5_xl on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-5!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-5', device='cuda')
+Starting the Inference time is: 2023-03-23 09:18:41
+GeonamesDataset:Test-SET --- template-5: [A] is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+Results: {'MAP@1': 0.19448121734921922, 'MAP@5': 0.03916746143589889, 'MAP@10': 0.026723801931984013}
+scoring results in:results/geonames/flan_t5_xl/report-flan_t5_xl-template-5-2023-03-23 09:18:41.json
+Ending the Inference time is: 2023-03-23 18:38:22
+Total duration is===> 9:19:40.472860
+Inference for  flan_t5_xl on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-6!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-6', device='cuda')
+Starting the Inference time is: 2023-03-23 18:38:34
+GeonamesDataset:Test-SET --- template-6: [A] geographically is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+Results: {'MAP@1': 0.21379624489331112, 'MAP@5': 0.043009091211038526, 'MAP@10': 0.02901865261817432}
+scoring results in:results/geonames/flan_t5_xl/report-flan_t5_xl-template-6-2023-03-23 18:38:34.json
+Ending the Inference time is: 2023-03-24 03:54:53
+Total duration is===> 9:16:19.632430
+Inference for  flan_t5_xl on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-7!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-7', device='cuda')
+Starting the Inference time is: 2023-03-24 03:55:07
+GeonamesDataset:Test-SET --- template-7: '[A]' is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
+Results: {'MAP@1': 0.23471409659648973, 'MAP@5': 0.047345968977903066, 'MAP@10': 0.03296112883666798}
+scoring results in:results/geonames/flan_t5_xl/report-flan_t5_xl-template-7-2023-03-24 03:55:07.json
+Ending the Inference time is: 2023-03-24 13:14:15
+Total duration is===> 9:19:07.180877
+Inference for  flan_t5_xl on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: flan_t5_xl, template: template-8!
+args: Namespace(kb_name='geonames', model_name='flan_t5_xl', template='template-8', device='cuda')
+Starting the Inference time is: 2023-03-24 13:14:28
+GeonamesDataset:Test-SET --- template-8: '[A]' geographically is a ?
+Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-xl
