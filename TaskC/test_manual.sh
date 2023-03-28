@@ -3,11 +3,12 @@ read -p "Enter dataset out of (umls):" kb_name
 
 read -p "Enter output logs path for $kb_name results:" log
 
-read -p "Enter the name of model out of (bert_large, flan_t5_large, flan_t5_xl, bart_large):" model_name
+read -p "Enter the name of model out of (bert_large, flan_t5_large, flan_t5_xl, bart_large, , gpt2_large, gpt2_xl):" model_name
 
 read -p "Enter the device (cpu, cuda, cuda:1, cuda:2, ...):" device
 
 exec > $log
+
 
 echo "Running baseline models!"
 

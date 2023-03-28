@@ -15,7 +15,6 @@ openprompt.plms._MODEL_CLASSES['bart']= ModelClass(**{"config":BartConfig,
                                                       "model": BartForConditionalGeneration,
                                                       "wrapper": LMTokenizerWrapper})
 
-
 class ZeroShotPromptClassifier:
 
     def __init__(self, model_name, model_path, dataset, template, label_mapper, device):
@@ -55,6 +54,9 @@ class ZeroShotPromptClassifier:
                                                 tokenizer_wrapper_class=wrapper_class,  max_seq_length=256, decoder_max_length=3,
                                                 batch_size=1, shuffle=False, teacher_forcing=False, predict_eos_token=False,
                                                 truncate_method="head")
+        elif model_name == "gpt2":
+            self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
+                                                tokenizer_wrapper_class=wrapper_class, max_seq_length=256, batch_size=1, shuffle=False)
 
     def test(self):
         y_preds, logits = [], []

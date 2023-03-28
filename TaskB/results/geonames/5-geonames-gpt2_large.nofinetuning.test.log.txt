@@ -1,0 +1,152 @@
+Running on dataset: geonames , model: gpt2_large, template: 0!
+args: Namespace(kb_name='geonames', model='gpt2_large', template='0', device='cuda')
+Starting the Inference time is: 2023-03-28 14:16:14
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.5044117647058823
+              precision    recall  f1-score   support
+
+     correct       0.50      1.00      0.67       680
+   incorrect       1.00      0.01      0.02       680
+
+    accuracy                           0.50      1360
+   macro avg       0.75      0.50      0.34      1360
+weighted avg       0.75      0.50      0.34      1360
+
+scoring results in:results/geonames/gpt2_large/report-gpt2_large-0-2023-03-28 14:16:14.json
+Ending the Inference time is: 2023-03-28 14:17:12
+Total duration is===> 0:00:58.717742
+Inference for  gpt2_large on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt2_large, template: 1!
+args: Namespace(kb_name='geonames', model='gpt2_large', template='1', device='cuda')
+Starting the Inference time is: 2023-03-28 14:17:16
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+accuracy: 0.47058823529411764
+              precision    recall  f1-score   support
+
+     correct       0.48      0.92      0.63       680
+   incorrect       0.23      0.03      0.05       680
+
+    accuracy                           0.47      1360
+   macro avg       0.36      0.47      0.34      1360
+weighted avg       0.36      0.47      0.34      1360
+
+scoring results in:results/geonames/gpt2_large/report-gpt2_large-1-2023-03-28 14:17:16.json
+Ending the Inference time is: 2023-03-28 14:18:14
+Total duration is===> 0:00:57.901435
+Inference for  gpt2_large on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt2_large, template: 2!
+args: Namespace(kb_name='geonames', model='gpt2_large', template='2', device='cuda')
+Starting the Inference time is: 2023-03-28 14:18:18
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.5014705882352941
+              precision    recall  f1-score   support
+
+     correct       0.50      1.00      0.67       680
+   incorrect       0.75      0.00      0.01       680
+
+    accuracy                           0.50      1360
+   macro avg       0.63      0.50      0.34      1360
+weighted avg       0.63      0.50      0.34      1360
+
+scoring results in:results/geonames/gpt2_large/report-gpt2_large-2-2023-03-28 14:18:18.json
+Ending the Inference time is: 2023-03-28 14:19:16
+Total duration is===> 0:00:58.191056
+Inference for  gpt2_large on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt2_large, template: 3!
+args: Namespace(kb_name='geonames', model='gpt2_large', template='3', device='cuda')
+Starting the Inference time is: 2023-03-28 14:19:21
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+accuracy: 0.4919117647058823
+              precision    recall  f1-score   support
+
+     correct       0.50      0.98      0.66       680
+   incorrect       0.08      0.00      0.00       680
+
+    accuracy                           0.49      1360
+   macro avg       0.29      0.49      0.33      1360
+weighted avg       0.29      0.49      0.33      1360
+
+scoring results in:results/geonames/gpt2_large/report-gpt2_large-3-2023-03-28 14:19:21.json
+Ending the Inference time is: 2023-03-28 14:20:17
+Total duration is===> 0:00:55.955632
+Inference for  gpt2_large on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt2_large, template: 4!
+args: Namespace(kb_name='geonames', model='gpt2_large', template='4', device='cuda')
+Starting the Inference time is: 2023-03-28 14:20:20
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.5
+              precision    recall  f1-score   support
+
+     correct       0.50      1.00      0.67       680
+   incorrect       0.00      0.00      0.00       680
+
+    accuracy                           0.50      1360
+   macro avg       0.25      0.50      0.33      1360
+weighted avg       0.25      0.50      0.33      1360
+
+scoring results in:results/geonames/gpt2_large/report-gpt2_large-4-2023-03-28 14:20:20.json
+Ending the Inference time is: 2023-03-28 14:21:18
+Total duration is===> 0:00:57.540477
+Inference for  gpt2_large on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt2_large, template: 5!
+args: Namespace(kb_name='geonames', model='gpt2_large', template='5', device='cuda')
+Starting the Inference time is: 2023-03-28 14:21:22
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+accuracy: 0.5014705882352941
+              precision    recall  f1-score   support
+
+     correct       0.50      1.00      0.67       680
+   incorrect       0.67      0.01      0.01       680
+
+    accuracy                           0.50      1360
+   macro avg       0.58      0.50      0.34      1360
+weighted avg       0.58      0.50      0.34      1360
+
+scoring results in:results/geonames/gpt2_large/report-gpt2_large-5-2023-03-28 14:21:22.json
+Ending the Inference time is: 2023-03-28 14:22:21
+Total duration is===> 0:00:59.049936
+Inference for  gpt2_large on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt2_large, template: 6!
+args: Namespace(kb_name='geonames', model='gpt2_large', template='6', device='cuda')
+Starting the Inference time is: 2023-03-28 14:22:25
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+accuracy: 0.5007352941176471
+              precision    recall  f1-score   support
+
+     correct       0.50      0.99      0.67       680
+   incorrect       0.54      0.01      0.02       680
+
+    accuracy                           0.50      1360
+   macro avg       0.52      0.50      0.34      1360
+weighted avg       0.52      0.50      0.34      1360
+
+scoring results in:results/geonames/gpt2_large/report-gpt2_large-6-2023-03-28 14:22:25.json
+Ending the Inference time is: 2023-03-28 14:23:23
+Total duration is===> 0:00:57.652111
+Inference for  gpt2_large on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt2_large, template: 7!
+args: Namespace(kb_name='geonames', model='gpt2_large', template='7', device='cuda')
+Starting the Inference time is: 2023-03-28 14:23:27
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+accuracy: 0.5029411764705882
+              precision    recall  f1-score   support
+
+     correct       0.50      1.00      0.67       680
+   incorrect       0.75      0.01      0.02       680
+
+    accuracy                           0.50      1360
+   macro avg       0.63      0.50      0.34      1360
+weighted avg       0.63      0.50      0.34      1360
+
+scoring results in:results/geonames/gpt2_large/report-gpt2_large-7-2023-03-28 14:23:27.json
+Ending the Inference time is: 2023-03-28 14:24:25
+Total duration is===> 0:00:57.751560
+Inference for  gpt2_large on template: 7  is done
+-----------------------------------------------------------
