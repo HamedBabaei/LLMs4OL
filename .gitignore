@@ -25,6 +25,7 @@ TaskA/results/*/*/snomedct_us-output*.json
 
 TaskB/results/*/*/*
 
+TaskC/TaskC-experiments
 TaskB/TaskB-experiments
 TaskA/TaskA-experiments
 datasets/TaskA/WN18RR/raw
