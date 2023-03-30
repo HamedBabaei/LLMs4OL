@@ -24,6 +24,9 @@ TaskA/results/*/*/medicin-output*.json
 TaskA/results/*/*/snomedct_us-output*.json
 
 TaskB/results/*/*/*
+TaskC/results/*/*/*
+
+*/openai_key_setter.py
 
 TaskC/TaskC-experiments
 TaskB/TaskB-experiments

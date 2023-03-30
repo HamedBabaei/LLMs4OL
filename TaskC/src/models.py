@@ -8,6 +8,8 @@ from openprompt.prompts import ManualTemplate, ManualVerbalizer
 from openprompt import PromptForClassification, PromptDataLoader
 import torch
 from tqdm import tqdm
+import openai
+import time
 
 openprompt.plms._MODEL_CLASSES['bart']= ModelClass(**{"config":BartConfig,
                                                       "tokenizer": BartTokenizer,
@@ -84,3 +86,75 @@ class ZeroShotPromptClassifier:
 
     def get_data_loader(self):
         pass
+
+
+class GPT3Inferencer:
+    def __init__(self, model_name, model_path, dataset, template, label_mapper, device):
+        self.model_path = model_path
+        self.dataset = dataset
+        self.template = template
+        self.gpt3_template = "Identify whether the following statement is true or false:\n\nStatement: [TEMPLATE]"
+
+    def check_all_is_done(self, results):
+        for result in results:
+            if result['check'] == False:
+                return False
+        return True
+
+    def test(self):
+        results = []
+        for index, data in enumerate(self.dataset):
+            results.append({"check": False})
+
+        assert self.check_all_is_done(results) == False
+
+        while not self.check_all_is_done(results):
+            for index, data in tqdm(enumerate(self.dataset)):
+                if results[index]['check'] != True:
+                    try:
+                        results[index]['result'] = self.make_prediction(template=self.template,
+                                                                        gpt3_template=self.gpt3_template,
+                                                                        data=data)
+                        results[index]['check'] = True
+                    except Exception as err:
+                        print(f"UNexpected {err}, {type(err)}")
+                        print("Going to sleep for 5 second!")
+                        time.sleep(5)
+        return results
+
+    def make_prediction(self, template, gpt3_template, data):
+        # {'h': 'Organism',
+        #  'r': 'interacts_with',
+        #  't': 'Organism',
+        #  'label': 'correct',
+        #  'triples': ['T001', 'T142', 'T001']}
+        prompt = template.replace("{\"placeholder\": \"text_a\"}", data['text_a'])\
+                         .replace("{\"placeholder\": \"text_b\"}", data['text_b'])\
+                         .replace(" {\"mask\"} .", ": ")\
+                         .replace(". This statement is", ".\nThis statement is")
+        prompt = gpt3_template.replace("[TEMPLATE]", prompt)
+
+        response = openai.Completion.create(
+            model=self.model_path,
+            prompt=prompt,
+            temperature=0.7,
+            max_tokens=10,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0
+        )
+        result = {"data": data, "prompt": prompt, "response": response}
+        return result
+
+    def get_data_loader(self):
+        pass
+
+
+class ZeroShotPromptClassifierFactory:
+
+    def __new__(self, model_name):
+        if model_name != "gpt3":
+            return ZeroShotPromptClassifier
+        else:
+            return GPT3Inferencer
+

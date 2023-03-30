@@ -1,3 +1,3 @@
 
-from .models import ZeroShotPromptClassifier
+from .models import ZeroShotPromptClassifierFactory
 from .evaluate import EvaluationMetrics

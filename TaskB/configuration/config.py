@@ -93,5 +93,9 @@ class BaseConfig:
         if model == "gpt2_xl":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/gpt2-xl")
             self.parser.add_argument("--model_name", type=str, default="gpt2")
+        if model == "gpt3":
+            self.parser.add_argument("--model_path", type=str, default="text-babbage-001")
+            self.parser.add_argument("--model_name", type=str, default="gpt3")
+            self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
