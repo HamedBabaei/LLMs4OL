@@ -28,5 +28,9 @@
         "template-6": "[A] part of speech is a <mask> .",
         "template-7": "'[A]' POS is a <mask> .",
         "template-8": "'[A]' part of speech is a <mask> ."
+    },
+    "gpt3": {
+        "template-1": "Perform a sentence completion on the following sentence:\n\nSentence: [SENTENCE]. [A] part of speech is a ",
+        "template-2": "Perform a sentence completion on the following sentence:\n\nSentence: [SENTENCE]. [A] POS is a "
     }
 }

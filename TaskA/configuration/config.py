@@ -6,8 +6,6 @@ import datetime
 import os
 import torch
 
-openai_key = os.getenv("OPEN_AI")
-
 class BaseConfig:
     """
         Base Configs
@@ -69,6 +67,7 @@ class BaseConfig:
         self.parser.add_argument("--raw_umls_entity", type=str, default=f"{self.root_dir}/{dataset}/processed/UMLS_entity_types_with_levels.tsv")
         self.parser.add_argument("--umls_processed_dir", type=str, default=f"{self.root_dir}/{dataset}/processed{self.version}")
         self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
+        
 
 
     def get_args(self, kb_name:str, model:str = None, template:str = None):
@@ -96,7 +95,10 @@ class BaseConfig:
         if model:
             self.mkdir(f"results/{kb_name}/{model}")
         self.parser.add_argument("--report_output", type=str, default=f"results/{kb_name}/{model}/report-{model}-{template}-{time}.json")
-        self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
+        if model == "gpt3":
+            self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-batch [BATCH]-{time}.json")
+        else:
+            self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
 
         self.parser.add_argument("--templates_json", type=str, default=f"{self.root_dir}/{dataset}/templates.json")
         self.parser.add_argument("--label_mapper", type=str, default=f"{self.root_dir}/{dataset}/label_mapper.json")
@@ -110,7 +112,10 @@ class BaseConfig:
         self.parser.add_argument("--top_n", type=int, default=1)
         self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
         self.parser.add_argument("--eval_metric", type=str, default="map")
-        self.parser.add_argument("--batch_size", type=int, default=64)
+        if model == "gpt3":
+            self.parser.add_argument("--batch_size", type=int, default=10000)
+        else:
+            self.parser.add_argument("--batch_size", type=int, default=64)
         # add model specific arguments
         if model == "bert_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
@@ -128,10 +133,10 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
             self.parser.add_argument("--template_name", type=str, default="t5")
             self.parser.add_argument("--multi_gpu", type=bool, default=True)
-        if model == "gpt3_babbage":
+        if model == "gpt3":
             self.parser.add_argument("--model_path", type=str, default="text-babbage-001")
-            self.parser.add_argument("--template_name", type=str, default="gpt")
-            self.parser.add_argument("--openai_key", type=str, default=openai_key)
+            self.parser.add_argument("--template_name", type=str, default="gpt3")
+            self.parser.add_argument("--gpt3_max_tokens", type=int, default=10)
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
 
         # for multi-gpu only

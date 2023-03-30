@@ -4,7 +4,7 @@ from transformers import T5Tokenizer, T5ForConditionalGeneration
 import torch
 import openai
 import time
-
+from tqdm import tqdm
 
 class BaseLM:
 
@@ -193,7 +193,6 @@ class Left2RightOnlineLM(BaseLM):
     def __init__(self, config) -> None:
         super().__init__(config)
         self.model_name = config.template_name
-        openai.api_key = config.openai_key
 
     def __output_cleaner(self, pred):
         return pred.rstrip('\n').strip()
@@ -203,24 +202,38 @@ class Left2RightOnlineLM(BaseLM):
             model=self.config.model_path,
             prompt=X,
             temperature=0.7,
-            max_tokens=10,
+            max_tokens=self.config.gpt3_max_tokens,
             top_p=1,
             frequency_penalty=0,
             presence_penalty=0
         )
-        sequences = [self.__output_cleaner(response.choices[0].text)]
-        logits = [0]
+        return response
 
-        return sequences, logits
+    def check_all_is_done(self, results):
+        for result in results:
+            if result['check'] == False:
+                return False
+        return True
 
     def make_batch_prediction(self, Xs):
-        time.sleep(65)
-        predictions, logits = [], []
-        for X in Xs:
-            predict, logit = self.predict(X)
-            predictions.append(predict)
-            logits.append(logit)
-        return predictions, logits
+        results = []
+        for index, data in enumerate(Xs['sample']):
+            results.append({"check": False})
+
+        assert self.check_all_is_done(results) == False
+
+        while not self.check_all_is_done(results):
+            for index, data in tqdm(enumerate(Xs['sample'])):
+                if results[index]['check'] != True:
+                    try:
+                        response = self.predict(data)
+                        results[index]['result'] = {"response": response, "sample": data, "label": Xs['label'][index]}
+                        results[index]['check'] = True
+                    except Exception as err:
+                        print(f"UNexpected {err}, {type(err)}")
+                        print("Going to sleep for 5 second!")
+                        time.sleep(5)
+        return results
 
 
 class InferenceFactory:
@@ -231,7 +244,7 @@ class InferenceFactory:
             "flan_t5_large": EncoderDecoderLM,
             "flan_t5_xl": EncoderDecoderLM,
             "bart_large": MaskedLM,
-            "gpt3_babbage": Left2RightOnlineLM
+            "gpt3": Left2RightOnlineLM
         }
         self.config = config
         if self.config.multi_gpu:

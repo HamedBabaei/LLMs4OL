@@ -7,6 +7,7 @@ from tqdm import tqdm
 import argparse
 from src import EvaluationMetrics
 import datetime
+import openai_key_setter
 
 def inference(model, dataloader):
     predictions, logits, labels = [], [], []
@@ -18,7 +19,12 @@ def inference(model, dataloader):
             labels.append(label)
     return predictions, logits, labels
 
-
+def gpt3_inference(model, dataloader, config):
+    for index, batch in enumerate(tqdm(dataloader)):
+        results = model.make_batch_prediction(batch)
+        DataWriter.write_json(outputs,  config.model_output.replace("[BATCH]", str(index+1)))
+        print(f"scoring model outputs in:{config.model_output}")
+                                  
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--kb_name", required=True)
@@ -48,23 +54,29 @@ if __name__ == "__main__":
     test_dataloader = DataLoader(test_dataset, batch_size=config.batch_size, shuffle=False, collate_fn=test_dataset.collate_fn)
 
     inference_model = InferenceFactory(config)(model_name=args.model_name) 
-    predictions, logits, labels = inference(model=inference_model, dataloader=test_dataloader)
-    outputs = {
-        "model-name": args.model_name,
-        "dataset": report_dict['dataset-in-use'],
-        "predictions": predictions,
-        "logits": logits,
-        "labels": labels
-    }
-    DataWriter.write_json(outputs,  config.model_output)
-    print(f"scoring model outputs in:{config.model_output}")
+    
+    if args.model_name == "gpt3":
+        gpt3_inference(model=inference_model, dataloader=test_dataloader, config=config)
+        print(f"scoring results in:{config.report_output}")
+        DataWriter.write_json(report_dict,  config.report_output)
+    else:
+        predictions, logits, labels = inference(model=inference_model, dataloader=test_dataloader)
+        outputs = {
+            "model-name": args.model_name,
+            "dataset": report_dict['dataset-in-use'],
+            "predictions": predictions,
+            "logits": logits,
+            "labels": labels
+        }
+        DataWriter.write_json(outputs,  config.model_output)
+        print(f"scoring model outputs in:{config.model_output}")
 
-    evaluator = EvaluationMetrics(ks=config.eval_ks, metric=config.eval_metric)
-    results = evaluator.evaluate(actual=labels, predicted=predictions)
-    report_dict['results'] = results
-    print("Results:", results)
-    print(f"scoring results in:{config.report_output}")
-    DataWriter.write_json(report_dict,  config.report_output)
+        evaluator = EvaluationMetrics(ks=config.eval_ks, metric=config.eval_metric)
+        results = evaluator.evaluate(actual=labels, predicted=predictions)
+        report_dict['results'] = results
+        print("Results:", results)
+        print(f"scoring results in:{config.report_output}")
+        DataWriter.write_json(report_dict,  config.report_output)
     end_time = datetime.datetime.now()
     print("Ending the Inference time is:", str(end_time).split('.')[0])
     print("Total duration is===>", str(end_time - start_time))
