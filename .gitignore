@@ -23,6 +23,7 @@ TaskA/results/*/*/nci-output*.json
 TaskA/results/*/*/medicin-output*.json
 TaskA/results/*/*/snomedct_us-output*.json
 
+TaskA/results/*/*/*
 TaskB/results/*/*/*
 TaskC/results/*/*/*
 

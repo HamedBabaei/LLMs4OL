@@ -28,5 +28,9 @@
         "template-6": "[A] in biomedicine is a <mask> .",
         "template-7": "'[A]' in medicine is a <mask> .",
         "template-8": "'[A]' in biomedicine is a <mask> ."
+    },
+    "gpt3": {
+        "template-1": "Perform a sentence completion on the following sentence:\n\nSentence: [A] in medicine is a ",
+        "template-2": "Perform a sentence completion on the following sentence:\n\nSentence: [A] in biomedicine is a "
     }
 }
