@@ -4,8 +4,7 @@ label="nofinetuning"
 device="cpu"
 datasets=("geonames" "umls" "schema")
 templates=("0" "1" "2" "3" "4" "5" "6" "7")
-models=("bert_large" "flan_t5_large" "flan_t5_xl" "bart_large" "gpt2_large" "gpt2_xl" "gpt3")
-
+models=("bert_large" "flan_t5_large" "flan_t5_xl" "bart_large" "gpt2_large" "gpt2_xl" "gpt3" "gpt3_ada")
 for kb_name in "${datasets[@]}"; do
   index=1
   for model_name in  "${models[@]}"; do

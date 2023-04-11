@@ -3,8 +3,7 @@
 label="nofinetuning"
 device="cpu"
 datasets=("umls")
-models=("bert_large" "flan_t5_large" "flan_t5_xl" "bart_large" "gpt2_large" "gpt2_xl" "gpt3")
-
+models=("bert_large" "flan_t5_large" "flan_t5_xl" "bart_large" "gpt2_large" "gpt2_xl" "gpt3" "gpt3_ada")
 for kb_name in "${datasets[@]}"; do
   index=1
   for model_name in  "${models[@]}"; do
