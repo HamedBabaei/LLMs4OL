@@ -1,7 +1,14 @@
-Running on dataset: umls , model: gpt3 !
-args: Namespace(kb_name='umls', model='gpt3', device='cpu')
-Starting the Inference time is: 2023-04-11 16:51:48
-Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
-GPT3-Template is: Identify whether the following statement is true or false:
+Running on dataset: umls , model: gpt3, template: -0-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-0-2023-04-11 18_19_15.json
+Results:               precision    recall  f1-score   support
 
-Statement: [TEMPLATE]
+     correct       0.73      0.33      0.46      5641
+   incorrect       0.24      0.63      0.35      1896
+
+    accuracy                           0.41      7537
+   macro avg       0.48      0.48      0.40      7537
+weighted avg       0.61      0.41      0.43      7537
+
+storing results in: results/umls/gpt3/report-gpt3-0-2023-04-11 18_19_15.json
+Inference for  gpt3 on template: -0-  is done
+-----------------------------------------------------------
