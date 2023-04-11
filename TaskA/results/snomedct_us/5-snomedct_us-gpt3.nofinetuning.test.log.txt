@@ -1,0 +1,68 @@
+Running on dataset: snomedct_us , model: gpt3, template: template-1!
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-1-batch 3-2023-04-06 15:44:23.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-1-batch 1-2023-04-06 15:44:23.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-1-batch 2-2023-04-06 15:44:23.json
+Results: {'MAP@1': 0.21066471247521337, 'MAP@5': 0.048091789522085246, 'MAP@10': 0.03307840805469911}
+storing results in: results/snomedct_us/gpt3/report-gpt3-template-1-2023-04-06 15:44:23.json
+Inference for  gpt3 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: gpt3, template: template-2!
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-2-batch 3-2023-04-07 01:14:41.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-2-batch 2-2023-04-07 01:14:41.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-2-batch 1-2023-04-07 01:14:41.json
+Results: {'MAP@1': 0.20333649452539013, 'MAP@5': 0.04615699629278385, 'MAP@10': 0.031689918306221435}
+storing results in: results/snomedct_us/gpt3/report-gpt3-template-2-2023-04-07 01:14:41.json
+Inference for  gpt3 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: gpt3, template: template-3!
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-3-batch 2-2023-04-07 05:53:17.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-3-batch 3-2023-04-07 05:53:17.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-3-batch 1-2023-04-07 05:53:17.json
+Results: {'MAP@1': 0.22730407793775326, 'MAP@5': 0.05240154802617084, 'MAP@10': 0.03649816897187359}
+storing results in: results/snomedct_us/gpt3/report-gpt3-template-3-2023-04-07 05:53:17.json
+Inference for  gpt3 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: gpt3, template: template-4!
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-4-batch 1-2023-04-06 20:30:19.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-4-batch 3-2023-04-06 20:30:19.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-4-batch 2-2023-04-06 20:30:19.json
+Results: {'MAP@1': 0.24365606230422163, 'MAP@5': 0.055435334463698985, 'MAP@10': 0.03836644260064382}
+storing results in: results/snomedct_us/gpt3/report-gpt3-template-4-2023-04-06 20:30:19.json
+Inference for  gpt3 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: gpt3, template: template-5!
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-5-batch 1-2023-03-30 18:50:58.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-5-batch 2-2023-03-30 18:50:58.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-5-batch 4-2023-03-30 18:50:58.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-5-batch 6-2023-03-30 18:50:58.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-5-batch 3-2023-03-30 18:50:58.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-5-batch 7-2023-03-30 18:50:58.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-5-batch 5-2023-03-30 18:50:58.json
+Results: {'MAP@1': 0.1920711555593873, 'MAP@5': 0.04411970380588365, 'MAP@10': 0.030479621943325708}
+storing results in: results/snomedct_us/gpt3/report-gpt3-template-5-2023-03-30 18:50:58.json
+Inference for  gpt3 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: gpt3, template: template-6!
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-6-batch 3-2023-04-07 10:31:43.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-6-batch 2-2023-04-07 10:31:43.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-6-batch 1-2023-04-07 10:31:43.json
+Results: {'MAP@1': 0.18995890450326178, 'MAP@5': 0.04321349541627152, 'MAP@10': 0.029996057633138413}
+storing results in: results/snomedct_us/gpt3/report-gpt3-template-6-2023-04-07 10:31:43.json
+Inference for  gpt3 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: gpt3, template: template-7!
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-7-batch 1-2023-04-07 15:14:36.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-7-batch 2-2023-04-07 15:14:36.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-7-batch 3-2023-04-07 15:14:36.json
+Results: {'MAP@1': 0.2020863867574791, 'MAP@5': 0.04528144188675269, 'MAP@10': 0.03088936808546258}
+storing results in: results/snomedct_us/gpt3/report-gpt3-template-7-2023-04-07 15:14:36.json
+Inference for  gpt3 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: gpt3, template: template-8!
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-8-batch 1-2023-04-07 19:54:35.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-8-batch 2-2023-04-07 19:54:35.json
+scoring model outputs in: results/snomedct_us/gpt3/output-gpt3-template-8-batch 3-2023-04-07 19:54:35.json
+Results: {'MAP@1': 0.2009799695376038, 'MAP@5': 0.04469087373432576, 'MAP@10': 0.030394080451197444}
+storing results in: results/snomedct_us/gpt3/report-gpt3-template-8-2023-04-07 19:54:35.json
+Inference for  gpt3 on template: template-8  is done
+-----------------------------------------------------------

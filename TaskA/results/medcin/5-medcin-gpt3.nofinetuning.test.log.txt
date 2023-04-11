@@ -1,0 +1,68 @@
+Running on dataset: medcin , model: gpt3, template: template-1!
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-1-batch 3-2023-04-06 15:44:58.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-1-batch 1-2023-04-06 15:44:58.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-1-batch 2-2023-04-06 15:44:58.json
+Results: {'MAP@1': 0.22406075832394814, 'MAP@5': 0.06337414690962295, 'MAP@10': 0.055062311293360415}
+storing results in: results/medcin/gpt3/report-gpt3-template-1-2023-04-06 15:44:58.json
+Inference for  gpt3 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-2!
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-2-batch 1-2023-04-07 01:10:35.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-2-batch 3-2023-04-07 01:10:35.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-2-batch 2-2023-04-07 01:10:35.json
+Results: {'MAP@1': 0.22560570620000578, 'MAP@5': 0.06540375600411985, 'MAP@10': 0.058794250804560085}
+storing results in: results/medcin/gpt3/report-gpt3-template-2-2023-04-07 01:10:35.json
+Inference for  gpt3 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-3!
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-3-batch 2-2023-04-07 05:48:56.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-3-batch 3-2023-04-07 05:48:56.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-3-batch 1-2023-04-07 05:48:56.json
+Results: {'MAP@1': 0.25726991827658896, 'MAP@5': 0.07161988506742901, 'MAP@10': 0.06120768467753654}
+storing results in: results/medcin/gpt3/report-gpt3-template-3-2023-04-07 05:48:56.json
+Inference for  gpt3 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-4!
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-4-batch 3-2023-04-06 20:27:59.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-4-batch 1-2023-04-06 20:27:59.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-4-batch 2-2023-04-06 20:27:59.json
+Results: {'MAP@1': 0.24915533223598718, 'MAP@5': 0.07005472292009587, 'MAP@10': 0.060659584566931005}
+storing results in: results/medcin/gpt3/report-gpt3-template-4-2023-04-06 20:27:59.json
+Inference for  gpt3 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-5!
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-5-batch 5-2023-03-30 23:33:23.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-5-batch 3-2023-03-30 23:33:23.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-5-batch 2-2023-03-30 23:33:23.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-5-batch 1-2023-03-30 23:33:23.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-5-batch 6-2023-03-30 23:33:23.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-5-batch 4-2023-03-30 23:33:23.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-5-batch 7-2023-03-30 23:33:23.json
+Results: {'MAP@1': 0.19759450171821305, 'MAP@5': 0.05632899207793083, 'MAP@10': 0.04941610091917637}
+storing results in: results/medcin/gpt3/report-gpt3-template-5-2023-03-30 23:33:23.json
+Inference for  gpt3 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-6!
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-6-batch 1-2023-04-07 10:24:27.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-6-batch 3-2023-04-07 10:24:27.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-6-batch 2-2023-04-07 10:24:27.json
+Results: {'MAP@1': 0.17808772993733576, 'MAP@5': 0.04988834021581141, 'MAP@10': 0.04337106549378056}
+storing results in: results/medcin/gpt3/report-gpt3-template-6-2023-04-07 10:24:27.json
+Inference for  gpt3 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-7!
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-7-batch 1-2023-04-07 15:06:34.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-7-batch 3-2023-04-07 15:06:34.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-7-batch 2-2023-04-07 15:06:34.json
+Results: {'MAP@1': 0.19921164342025469, 'MAP@5': 0.053809668197175774, 'MAP@10': 0.044914059552801644}
+storing results in: results/medcin/gpt3/report-gpt3-template-7-2023-04-07 15:06:34.json
+Inference for  gpt3 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt3, template: template-8!
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-8-batch 3-2023-04-07 19:43:19.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-8-batch 2-2023-04-07 19:43:19.json
+scoring model outputs in: results/medcin/gpt3/output-gpt3-template-8-batch 1-2023-04-07 19:43:19.json
+Results: {'MAP@1': 0.18572583672644316, 'MAP@5': 0.05085525619182381, 'MAP@10': 0.04325356717715723}
+storing results in: results/medcin/gpt3/report-gpt3-template-8-2023-04-07 19:43:19.json
+Inference for  gpt3 on template: template-8  is done
+-----------------------------------------------------------

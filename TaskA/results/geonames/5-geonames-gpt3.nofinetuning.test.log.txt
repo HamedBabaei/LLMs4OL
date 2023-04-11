@@ -1,0 +1,149 @@
+Running on dataset: geonames , model: gpt3, template: template-1!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 5-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 21-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 4-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 1-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 14-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 12-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 20-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 8-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 7-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 19-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 16-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 6-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 22-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 13-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 15-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 2-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 9-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 24-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 10-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 3-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 17-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 11-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 23-2023-04-08 14:18:45.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-1-batch 18-2023-04-08 14:18:45.json
+Results: {'MAP@1': 0.22426157634766766, 'MAP@5': 0.052445516789796615, 'MAP@10': 0.03690319947995996}
+storing results in: results/geonames/gpt3/report-gpt3-template-1-2023-04-08 14:18:45.json
+Inference for  gpt3 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: template-2!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 5-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 28-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 17-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 41-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 11-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 67-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 6-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 21-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 36-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 1-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 43-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 64-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 71-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 7-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 26-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 66-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 61-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 22-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 8-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 50-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 40-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 23-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 32-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 19-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 68-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 39-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 10-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 70-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 60-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 69-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 44-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 51-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 9-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 25-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 27-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 2-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 65-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 38-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 63-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 24-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 13-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 53-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 35-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 18-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 49-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 57-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 14-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 30-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 20-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 16-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 47-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 55-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 58-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 59-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 33-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 54-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 3-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 29-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 52-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 4-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 31-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 12-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 56-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 46-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 45-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 34-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 62-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 37-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 48-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 15-2023-03-31 11:02:12.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-2-batch 42-2023-03-31 11:02:12.json
+Results: {'MAP@1': 0.08727277903517387, 'MAP@5': 0.019140415557548415, 'MAP@10': 0.013114005833504486}
+storing results in: results/geonames/gpt3/report-gpt3-template-2-2023-03-31 11:02:12.json
+Inference for  gpt3 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: template-3!
+Inference for  gpt3 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: template-4!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 21-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 13-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 15-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 22-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 3-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 5-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 6-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 24-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 19-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 14-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 16-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 4-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 12-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 1-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 11-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 20-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 23-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 17-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 8-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 9-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 7-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 18-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 10-2023-04-08 14:18:57.json
+scoring model outputs in: results/geonames/gpt3/output-gpt3-template-4-batch 2-2023-04-08 14:18:57.json
+Results: {'MAP@1': 0.07500960840415083, 'MAP@5': 0.016443609343639237, 'MAP@10': 0.011484885375862017}
+storing results in: results/geonames/gpt3/report-gpt3-template-4-2023-04-08 14:18:57.json
+Inference for  gpt3 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: template-5!
+Inference for  gpt3 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: template-6!
+Inference for  gpt3 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: template-7!
+Inference for  gpt3 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: template-8!
+Inference for  gpt3 on template: template-8  is done
+-----------------------------------------------------------

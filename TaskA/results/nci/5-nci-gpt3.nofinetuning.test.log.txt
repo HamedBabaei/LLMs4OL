@@ -1,0 +1,50 @@
+Running on dataset: nci , model: gpt3, template: template-1!
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-1-batch 1-2023-04-06 15:43:42.json
+Results: {'MAP@1': 0.09303389478061967, 'MAP@5': 0.026015110556595278, 'MAP@10': 0.021548898064805738}
+storing results in: results/nci/gpt3/report-gpt3-template-1-2023-04-06 15:43:42.json
+Inference for  gpt3 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: gpt3, template: template-2!
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-2-batch 1-2023-04-06 19:03:13.json
+Results: {'MAP@1': 0.09174464545643585, 'MAP@5': 0.026046302072502945, 'MAP@10': 0.02218966092016622}
+storing results in: results/nci/gpt3/report-gpt3-template-2-2023-04-06 19:03:13.json
+Inference for  gpt3 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: gpt3, template: template-3!
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-3-batch 1-2023-04-06 20:42:35.json
+Results: {'MAP@1': 0.11033478893740903, 'MAP@5': 0.0300013862895959, 'MAP@10': 0.023598362197863133}
+storing results in: results/nci/gpt3/report-gpt3-template-3-2023-04-06 20:42:35.json
+Inference for  gpt3 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: gpt3, template: template-4!
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-4-batch 1-2023-04-06 17:22:36.json
+Results: {'MAP@1': 0.12742773965481388, 'MAP@5': 0.034630900395092534, 'MAP@10': 0.02782199051381834}
+storing results in: results/nci/gpt3/report-gpt3-template-4-2023-04-06 17:22:36.json
+Inference for  gpt3 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: gpt3, template: template-5!
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-5-batch 1-2023-03-30 17:06:21.json
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-5-batch 2-2023-03-30 17:06:21.json
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-5-batch 3-2023-03-30 17:06:21.json
+Results: {'MAP@1': 0.09374090247452693, 'MAP@5': 0.025244333541276774, 'MAP@10': 0.02058115240273693}
+storing results in: results/nci/gpt3/report-gpt3-template-5-2023-03-30 17:06:21.json
+Inference for  gpt3 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: gpt3, template: template-6!
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-6-batch 1-2023-04-06 22:20:58.json
+Results: {'MAP@1': 0.0875441879808692, 'MAP@5': 0.0236501005059957, 'MAP@10': 0.019706948281496002}
+storing results in: results/nci/gpt3/report-gpt3-template-6-2023-04-06 22:20:58.json
+Inference for  gpt3 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: gpt3, template: template-7!
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-7-batch 1-2023-04-07 00:00:44.json
+Results: {'MAP@1': 0.09141193595342068, 'MAP@5': 0.023255701115963128, 'MAP@10': 0.017444622681678203}
+storing results in: results/nci/gpt3/report-gpt3-template-7-2023-04-07 00:00:44.json
+Inference for  gpt3 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: gpt3, template: template-8!
+scoring model outputs in: results/nci/gpt3/output-gpt3-template-8-batch 1-2023-04-07 01:38:12.json
+Results: {'MAP@1': 0.0911208151382824, 'MAP@5': 0.023274416025507727, 'MAP@10': 0.017794990873593496}
+storing results in: results/nci/gpt3/report-gpt3-template-8-2023-04-07 01:38:12.json
+Inference for  gpt3 on template: template-8  is done
+-----------------------------------------------------------

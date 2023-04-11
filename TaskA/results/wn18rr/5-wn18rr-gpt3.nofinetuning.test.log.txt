@@ -1,0 +1,57 @@
+Running on dataset: wn18rr , model: gpt3, template: template-1!
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-1-batch 1-2023-04-06 15:42:52.json
+Results: {'MAP@1': 0.153220696937698, 'MAP@5': 0.153220696937698, 'MAP@10': 0.153220696937698}
+storing results in: results/wn18rr/gpt3/report-gpt3-template-1-2023-04-06 15:42:52.json
+Inference for  gpt3 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: gpt3, template: template-2!
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 3-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 9-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 7-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 1-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 6-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 2-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 8-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 5-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 4-2023-03-30 16:29:20.json
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-2-batch 10-2023-03-30 16:29:20.json
+Results: {'MAP@1': 0.2655755015839493, 'MAP@5': 0.2655755015839493, 'MAP@10': 0.2655755015839493}
+storing results in: results/wn18rr/gpt3/report-gpt3-template-2-2023-03-30 16:29:20.json
+Inference for  gpt3 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: gpt3, template: template-3!
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-3-batch 1-2023-04-06 16:59:11.json
+Results: {'MAP@1': 0.3786694825765575, 'MAP@5': 0.3786694825765575, 'MAP@10': 0.3786694825765575}
+storing results in: results/wn18rr/gpt3/report-gpt3-template-3-2023-04-06 16:59:11.json
+Inference for  gpt3 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: gpt3, template: template-4!
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-4-batch 1-2023-04-06 16:21:28.json
+Results: {'MAP@1': 0.2757127771911299, 'MAP@5': 0.2757127771911299, 'MAP@10': 0.2757127771911299}
+storing results in: results/wn18rr/gpt3/report-gpt3-template-4-2023-04-06 16:21:28.json
+Inference for  gpt3 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: gpt3, template: template-5!
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-5-batch 1-2023-04-06 17:38:05.json
+Results: {'MAP@1': 0.08479408658922914, 'MAP@5': 0.08479408658922914, 'MAP@10': 0.08479408658922914}
+storing results in: results/wn18rr/gpt3/report-gpt3-template-5-2023-04-06 17:38:05.json
+Inference for  gpt3 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: gpt3, template: template-6!
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-6-batch 1-2023-04-06 18:17:40.json
+Results: {'MAP@1': 0.2713833157338965, 'MAP@5': 0.2713833157338965, 'MAP@10': 0.2713833157338965}
+storing results in: results/wn18rr/gpt3/report-gpt3-template-6-2023-04-06 18:17:40.json
+Inference for  gpt3 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: gpt3, template: template-7!
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-7-batch 1-2023-04-06 18:55:53.json
+Results: {'MAP@1': 0.27518479408658925, 'MAP@5': 0.27518479408658925, 'MAP@10': 0.27518479408658925}
+storing results in: results/wn18rr/gpt3/report-gpt3-template-7-2023-04-06 18:55:53.json
+Inference for  gpt3 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: gpt3, template: template-8!
+scoring model outputs in: results/wn18rr/gpt3/output-gpt3-template-8-batch 1-2023-04-06 19:35:09.json
+Results: {'MAP@1': 0.24656810982048574, 'MAP@5': 0.24656810982048574, 'MAP@10': 0.24656810982048574}
+storing results in: results/wn18rr/gpt3/report-gpt3-template-8-2023-04-06 19:35:09.json
+Inference for  gpt3 on template: template-8  is done
+-----------------------------------------------------------
