@@ -11,6 +11,7 @@ class EvaluationMetrics:
         # f1 = f1_score(actual, predicted)
         accuracy = accuracy_score(actual, predicted)
         clf_report = classification_report(actual, predicted)
-        return {"accuracy": accuracy, "clf-report": clf_report}
+        clf_report_dict = classification_report(actual, predicted, output_dict=True)
+        return {"accuracy": accuracy, "clf-report": clf_report, "clf-report-dict":clf_report_dict}
 
 
