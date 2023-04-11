@@ -34,7 +34,7 @@ if __name__ == "__main__":
                                          label_mapper=label_mapper,
                                          device=args.device)
 
-    if config.model_name == "gpt3":
+    if config.model_name == "gpt3" or config.model_name == "gpt3-ada":
         results = model.test()
         print(f"output predictions in :{config.model_output}")
         DataWriter.write_json(results, config.model_output)

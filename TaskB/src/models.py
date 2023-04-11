@@ -11,6 +11,7 @@ import torch
 from tqdm import tqdm
 import openai
 import time
+from openai.embeddings_utils import cosine_similarity, get_embedding
 
 openprompt.plms._MODEL_CLASSES['bart']= ModelClass(**{"config":BartConfig,
                                                       "tokenizer": BartTokenizer,
@@ -145,11 +146,40 @@ class GPT3Inferencer:
     def get_data_loader(self):
         pass
 
-    
+
+class GPT3ZeroShotPromptClassifier(GPT3Inferencer):
+    def __init__(self, model_name, model_path, dataset, template, label_mapper, device):
+        super().__init__(model_name, model_path, dataset, template, label_mapper, device)
+        labels = ["This statement is true or right or correct", "this statement is false or wrong or incorrect"]
+        self.label_embeddings = [get_embedding(label, engine=model_path) for label in labels]
+
+    def make_prediction(self, template, gpt3_template, data):
+        # {'h': 'Organism',
+        #  'r': 'interacts_with',
+        #  't': 'Organism',
+        #  'label': 'correct',
+        #  'triples': ['T001', 'T142', 'T001']}
+        def label_score(statement_embedding, label_embeddings):
+            return cosine_similarity(statement_embedding, label_embeddings[0]) - \
+                  cosine_similarity(statement_embedding, label_embeddings[1])
+        prompt = template.replace("{\"placeholder\": \"text_a\"}", data['text_a'])\
+                         .replace("{\"placeholder\": \"text_b\"}", data['text_b'])\
+                         .replace(" {\"mask\"} .", ": ")\
+                         .replace(". This statement is", ".")
+
+        prompt_embedding = get_embedding(prompt, engine=self.model_path)
+
+        score = label_score(prompt_embedding, self.label_embeddings)
+        predict = "correct" if score > 0 else "incorrect"
+        result = {"data": data, "prompt": prompt, "response": predict}
+        return result
+
 class ZeroShotPromptClassifierFactory:
 
     def __new__(self, model_name):
-        if model_name != "gpt3":
-            return ZeroShotPromptClassifier
-        else:
+        if model_name == "gpt3":
             return GPT3Inferencer
+        elif model_name == "gpt3-ada":
+            return GPT3ZeroShotPromptClassifier
+        else:
+            return ZeroShotPromptClassifier
