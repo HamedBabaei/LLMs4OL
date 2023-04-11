@@ -1,5 +1,5 @@
 """
-    DataConfig: Data Configuration of models
+    BaseConfig: Data Configuration of models
 """
 import argparse
 import datetime
@@ -67,8 +67,6 @@ class BaseConfig:
         self.parser.add_argument("--raw_umls_entity", type=str, default=f"{self.root_dir}/{dataset}/processed/UMLS_entity_types_with_levels.tsv")
         self.parser.add_argument("--umls_processed_dir", type=str, default=f"{self.root_dir}/{dataset}/processed{self.version}")
         self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
-        
-
 
     def get_args(self, kb_name:str, model:str = None, template:str = None):
         """
@@ -141,5 +139,21 @@ class BaseConfig:
 
         # for multi-gpu only
         self.parser.add_argument("--gpu_no", type=int, default=torch.cuda.device_count())
+        self.parser.add_argument("-f")
+        return self.parser.parse_args()
+
+
+class ExternalEvaluationConfig:
+    def __init__(self):
+        self.parser = argparse.ArgumentParser()
+
+    def get_args(self):
+        self.parser.add_argument("--root_dir", type=str, default="results")
+        self.parser.add_argument("--kb_name", type=str, default="geonames")
+        self.parser.add_argument("--model", type=str, default="gpt3")
+        self.parser.add_argument("--template", type=str, default="template-1")
+        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3"])
+        self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
+        self.parser.add_argument("--eval_metric", type=str, default="map")
         self.parser.add_argument("-f")
         return self.parser.parse_args()

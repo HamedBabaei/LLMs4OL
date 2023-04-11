@@ -86,5 +86,25 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default="text-babbage-001")
             self.parser.add_argument("--model_name", type=str, default="gpt3")
             self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{time}.json")
+        if model == "gpt3_ada":
+            self.parser.add_argument("--model_path", type=str, default="text-embedding-ada-002")
+            self.parser.add_argument("--model_name", type=str, default="gpt3-ada")
+            self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{time}.json")
+        self.parser.add_argument("-f")
+        return self.parser.parse_args()
+
+
+class ExternalEvaluationConfig:
+    def __init__(self):
+        self.parser = argparse.ArgumentParser()
+
+    def get_args(self):
+        self.parser.add_argument("--root_dir", type=str, default="results")
+        self.parser.add_argument("--kb_name", type=str, default="geonames")
+        self.parser.add_argument("--model", type=str, default="gpt3")
+        self.parser.add_argument("--template", type=str, default="template-1")
+        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt3_ada"])
+        self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
+        self.parser.add_argument("--eval_metric", type=str, default="map")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
