@@ -1,0 +1,7 @@
+Running on dataset: umls , model: gpt3 !
+args: Namespace(kb_name='umls', model='gpt3', device='cpu')
+Starting the Inference time is: 2023-04-11 16:51:48
+Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
+GPT3-Template is: Identify whether the following statement is true or false:
+
+Statement: [TEMPLATE]
