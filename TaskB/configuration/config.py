@@ -107,7 +107,9 @@ class BaseConfig:
         if model == "bloom_3b":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-3b")
             self.parser.add_argument("--model_name", type=str, default="bloom")
-
+        if model == "bloom_7b1":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-7b1")
+            self.parser.add_argument("--model_name", type=str, default="bloom")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
 
