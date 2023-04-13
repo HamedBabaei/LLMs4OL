@@ -147,7 +147,7 @@ class GPT3Inferencer:
         pass
 
 
-class GPT3ZeroShotPromptClassifier(GPT3Inferencer):
+class GPT3ZeroShotClassifier(GPT3Inferencer):
     def __init__(self, model_name, model_path, dataset, template, label_mapper, device):
         super().__init__(model_name, model_path, dataset, template, label_mapper, device)
         labels = ["This statement is true or right or correct", "this statement is false or wrong or incorrect"]
@@ -180,6 +180,6 @@ class ZeroShotPromptClassifierFactory:
         if model_name == "gpt3":
             return GPT3Inferencer
         elif model_name == "gpt3-ada":
-            return GPT3ZeroShotPromptClassifier
+            return GPT3ZeroShotClassifier
         else:
             return ZeroShotPromptClassifier
