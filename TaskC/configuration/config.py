@@ -90,6 +90,12 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default="text-embedding-ada-002")
             self.parser.add_argument("--model_name", type=str, default="gpt3-ada")
             self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{time}.json")
+        if model == "bloom_1b7":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-1b7")
+            self.parser.add_argument("--model_name", type=str, default="bloom")
+        if model == "bloom_3b":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-3b")
+            self.parser.add_argument("--model_name", type=str, default="bloom")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
 

@@ -1,17 +1,54 @@
-import openprompt
-from openprompt.plms import ModelClass
-from openprompt.plms.mlm import MLMTokenizerWrapper
+
+from openprompt.plms import load_plm, ModelClass
 from openprompt.plms.lm import LMTokenizerWrapper
-from transformers import BartTokenizer, BartConfig, BartForConditionalGeneration
+from transformers import BartTokenizer, BartConfig, BartForConditionalGeneration, \
+                         BloomForCausalLM, BloomConfig, BloomTokenizerFast
 from openprompt.data_utils import InputExample
-from openprompt.plms import load_plm
 from openprompt.prompts import ManualTemplate, ManualVerbalizer
 from openprompt import PromptForClassification, PromptDataLoader
-import torch
+from openai.embeddings_utils import cosine_similarity, get_embedding
+from typing import List, Optional
 from tqdm import tqdm
+import openprompt
+import torch
 import openai
 import time
-from openai.embeddings_utils import cosine_similarity, get_embedding
+
+
+class BloomTokenizer(BloomTokenizerFast):
+    def get_special_tokens_mask(
+            self, token_ids_0: List, token_ids_1: Optional[List] = None, already_has_special_tokens: bool = False
+    ) -> List[int]:
+        """
+        Retrieves sequence ids from a token list that has no special tokens added. This method is called when adding
+        special tokens using the tokenizer `prepare_for_model` or `encode_plus` methods.
+
+        Args:
+            token_ids_0 (`List[int]`):
+                List of ids of the first sequence.
+            token_ids_1 (`List[int]`, *optional*):
+                List of ids of the second sequence.
+            already_has_special_tokens (`bool`, *optional*, defaults to `False`):
+                Whether or not the token list is already formatted with special tokens for the model.
+
+        Returns:
+            A list of integers in the range [0, 1]: 1 for a special token, 0 for a sequence token.
+        """
+        if already_has_special_tokens:
+            if token_ids_1 is not None:
+                raise ValueError(
+                    "You should not supply a second sequence if the provided sequence of "
+                    "ids is already formatted with special tokens for the model."
+                )
+            return super().get_special_tokens_mask(
+                token_ids_0=token_ids_0, token_ids_1=token_ids_1, already_has_special_tokens=True
+            )
+        return [0] * ((len(token_ids_1) if token_ids_1 else 0) + len(token_ids_0))
+
+openprompt.plms._MODEL_CLASSES['bloom']= ModelClass(**{"config": BloomConfig,
+                                                       "tokenizer": BloomTokenizer,
+                                                       "model": BloomForCausalLM,
+                                                       "wrapper": LMTokenizerWrapper})
 
 openprompt.plms._MODEL_CLASSES['bart']= ModelClass(**{"config":BartConfig,
                                                       "tokenizer": BartTokenizer,
@@ -60,6 +97,9 @@ class ZeroShotPromptClassifier:
         elif model_name == "gpt2":
             self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
                                                 tokenizer_wrapper_class=wrapper_class, max_seq_length=256, batch_size=1, shuffle=False)
+        elif model_name == "bloom":
+            self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
+                                                tokenizer_wrapper_class=wrapper_class, max_seq_length=256, batch_size=1, shuffle=False)
 
     def test(self):
         y_preds, logits = [], []
@@ -81,9 +121,6 @@ class ZeroShotPromptClassifier:
             dataset_dict['X'].append(InputExample(text_a=data['text_a'], text_b=data['text_b']))
             dataset_dict['Y'].append(data['label'])
         return dataset_dict
-
-    def get_data_loader(self):
-        pass
 
 class GPT3Inferencer:
     def __init__(self, model_name, model_path, dataset, template, label_mapper, device):
