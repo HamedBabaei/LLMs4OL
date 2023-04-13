@@ -1,0 +1,112 @@
+Running on dataset: schema , model: gpt3_ada, template: -0-!
+scoring model outputs in: results/schema/gpt3_ada/output-gpt3_ada-0-2023-04-11 15:51:57.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.50      0.90      0.64      2670
+   incorrect       0.45      0.08      0.13      2670
+
+    accuracy                           0.49      5340
+   macro avg       0.47      0.49      0.39      5340
+weighted avg       0.47      0.49      0.39      5340
+
+storing results in: results/schema/gpt3_ada/report-gpt3_ada-0-2023-04-11 15:51:57.json
+Inference for  gpt3_ada on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3_ada, template: -1-!
+scoring model outputs in: results/schema/gpt3_ada/output-gpt3_ada-1-2023-04-11 16:15:24.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.51      0.78      0.61      2670
+   incorrect       0.52      0.23      0.32      2670
+
+    accuracy                           0.51      5340
+   macro avg       0.51      0.51      0.47      5340
+weighted avg       0.51      0.51      0.47      5340
+
+storing results in: results/schema/gpt3_ada/report-gpt3_ada-1-2023-04-11 16:15:24.json
+Inference for  gpt3_ada on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3_ada, template: -2-!
+scoring model outputs in: results/schema/gpt3_ada/output-gpt3_ada-2-2023-04-11 16:39:00.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.50      0.87      0.63      2670
+   incorrect       0.47      0.12      0.19      2670
+
+    accuracy                           0.49      5340
+   macro avg       0.48      0.49      0.41      5340
+weighted avg       0.48      0.49      0.41      5340
+
+storing results in: results/schema/gpt3_ada/report-gpt3_ada-2-2023-04-11 16:39:00.json
+Inference for  gpt3_ada on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3_ada, template: -3-!
+scoring model outputs in: results/schema/gpt3_ada/output-gpt3_ada-3-2023-04-11 17:02:37.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.51      0.67      0.58      2670
+   incorrect       0.51      0.35      0.42      2670
+
+    accuracy                           0.51      5340
+   macro avg       0.51      0.51      0.50      5340
+weighted avg       0.51      0.51      0.50      5340
+
+storing results in: results/schema/gpt3_ada/report-gpt3_ada-3-2023-04-11 17:02:37.json
+Inference for  gpt3_ada on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3_ada, template: -4-!
+scoring model outputs in: results/schema/gpt3_ada/output-gpt3_ada-4-2023-04-11 17:28:19.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.50      0.83      0.62      2670
+   incorrect       0.48      0.16      0.24      2670
+
+    accuracy                           0.49      5340
+   macro avg       0.49      0.49      0.43      5340
+weighted avg       0.49      0.49      0.43      5340
+
+storing results in: results/schema/gpt3_ada/report-gpt3_ada-4-2023-04-11 17:28:19.json
+Inference for  gpt3_ada on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3_ada, template: -5-!
+scoring model outputs in: results/schema/gpt3_ada/output-gpt3_ada-5-2023-04-11 17:54:25.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.50      0.77      0.61      2670
+   incorrect       0.51      0.24      0.33      2670
+
+    accuracy                           0.51      5340
+   macro avg       0.51      0.51      0.47      5340
+weighted avg       0.51      0.51      0.47      5340
+
+storing results in: results/schema/gpt3_ada/report-gpt3_ada-5-2023-04-11 17:54:25.json
+Inference for  gpt3_ada on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3_ada, template: -6-!
+scoring model outputs in: results/schema/gpt3_ada/output-gpt3_ada-6-2023-04-11 18:19:09.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.50      0.78      0.61      2670
+   incorrect       0.49      0.21      0.29      2670
+
+    accuracy                           0.50      5340
+   macro avg       0.50      0.50      0.45      5340
+weighted avg       0.50      0.50      0.45      5340
+
+storing results in: results/schema/gpt3_ada/report-gpt3_ada-6-2023-04-11 18:19:09.json
+Inference for  gpt3_ada on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3_ada, template: -7-!
+scoring model outputs in: results/schema/gpt3_ada/output-gpt3_ada-7-2023-04-11 18:42:41.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.51      0.83      0.63      2670
+   incorrect       0.52      0.19      0.28      2670
+
+    accuracy                           0.51      5340
+   macro avg       0.52      0.51      0.45      5340
+weighted avg       0.52      0.51      0.45      5340
+
+storing results in: results/schema/gpt3_ada/report-gpt3_ada-7-2023-04-11 18:42:41.json
+Inference for  gpt3_ada on template: -7-  is done
+-----------------------------------------------------------

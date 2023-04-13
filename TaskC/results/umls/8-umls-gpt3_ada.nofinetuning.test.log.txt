@@ -1,0 +1,14 @@
+Running on dataset: umls , model: gpt3_ada, template: -0-!
+scoring model outputs in: results/umls/gpt3_ada/output-gpt3_ada-0-2023-04-11 18_19_16.json
+Results:               precision    recall  f1-score   support
+
+     correct       0.73      0.02      0.04      5641
+   incorrect       0.25      0.98      0.40      1896
+
+    accuracy                           0.26      7537
+   macro avg       0.49      0.50      0.22      7537
+weighted avg       0.61      0.26      0.13      7537
+
+storing results in: results/umls/gpt3_ada/report-gpt3_ada-0-2023-04-11 18_19_16.json
+Inference for  gpt3_ada on template: -0-  is done
+-----------------------------------------------------------
