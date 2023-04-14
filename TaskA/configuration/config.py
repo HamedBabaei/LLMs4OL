@@ -113,7 +113,7 @@ class BaseConfig:
         if model == "gpt3":
             self.parser.add_argument("--batch_size", type=int, default=10000)
         else:
-            self.parser.add_argument("--batch_size", type=int, default=64)
+            self.parser.add_argument("--batch_size", type=int, default=16)
         # add model specific arguments
         if model == "bert_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
@@ -135,6 +135,14 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default="text-babbage-001")
             self.parser.add_argument("--template_name", type=str, default="gpt3")
             self.parser.add_argument("--gpt3_max_tokens", type=int, default=10)
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
+        if model == "bloom_1b7":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-1b7")
+            self.parser.add_argument("--template_name", type=str, default="bloom")
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
+        if model == "bloom_3b":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-3b")
+            self.parser.add_argument("--template_name", type=str, default="bloom")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
 
         # for multi-gpu only
