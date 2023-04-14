@@ -64,9 +64,9 @@ if __name__ == "__main__":
         outputs = {
             "model-name": args.model_name,
             "dataset": report_dict['dataset-in-use'],
-            "predictions": predictions,
-            "logits": logits,
-            "labels": labels
+            "outputs": [{"pred":pred, "label":label} for pred, label in zip(predictions, labels)]
+            # "logits": logits,
+            # "labels": labels
         }
         DataWriter.write_json(outputs,  config.model_output)
         print(f"scoring model outputs in:{config.model_output}")
