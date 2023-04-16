@@ -1,0 +1,48 @@
+Running on dataset: nci , model: bloom_3b, template: template-1!
+scoring model outputs in: results/nci/bloom_3b/output-bloom_3b-template-1-2023-04-14 20:01:53.json
+Results: {'MAP@1': 0.0019130796423372843, 'MAP@5': 0.0005344146392181326, 'MAP@10': 0.00042428713358220533}
+storing results in: results/nci/bloom_3b/report-bloom_3b-template-1-2023-04-14 20:01:53.json
+Inference for  bloom_3b on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bloom_3b, template: template-2!
+scoring model outputs in: results/nci/bloom_3b/output-bloom_3b-template-2-2023-04-14 20:11:56.json
+Results: {'MAP@1': 0.001122894572676232, 'MAP@5': 0.0002751784847854717, 'MAP@10': 0.00020460974297530754}
+storing results in: results/nci/bloom_3b/report-bloom_3b-template-2-2023-04-14 20:11:56.json
+Inference for  bloom_3b on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bloom_3b, template: template-3!
+scoring model outputs in: results/nci/bloom_3b/output-bloom_3b-template-3-2023-04-14 20:21:43.json
+Results: {'MAP@1': 0.005489706799750468, 'MAP@5': 0.0012282525819643725, 'MAP@10': 0.0008224163027656478}
+storing results in: results/nci/bloom_3b/report-bloom_3b-template-3-2023-04-14 20:21:43.json
+Inference for  bloom_3b on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bloom_3b, template: template-4!
+scoring model outputs in: results/nci/bloom_3b/output-bloom_3b-template-4-2023-04-14 20:31:38.json
+Results: {'MAP@1': 0.00794343938448742, 'MAP@5': 0.001702363623761004, 'MAP@10': 0.0011039651183132157}
+storing results in: results/nci/bloom_3b/report-bloom_3b-template-4-2023-04-14 20:31:38.json
+Inference for  bloom_3b on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bloom_3b, template: template-5!
+scoring model outputs in: results/nci/bloom_3b/output-bloom_3b-template-5-2023-04-14 20:42:33.json
+Results: {'MAP@1': 0.0010813058847993346, 'MAP@5': 0.0003292437790254384, 'MAP@10': 0.00027465037446322533}
+storing results in: results/nci/bloom_3b/report-bloom_3b-template-5-2023-04-14 20:42:33.json
+Inference for  bloom_3b on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bloom_3b, template: template-6!
+scoring model outputs in: results/nci/bloom_3b/output-bloom_3b-template-6-2023-04-14 20:49:38.json
+Results: {'MAP@1': 0.0004158868787689748, 'MAP@5': 8.525681014763985e-05, 'MAP@10': 5.819115613251608e-05}
+storing results in: results/nci/bloom_3b/report-bloom_3b-template-6-2023-04-14 20:49:38.json
+Inference for  bloom_3b on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bloom_3b, template: template-7!
+scoring model outputs in: results/nci/bloom_3b/output-bloom_3b-template-7-2023-04-14 20:56:49.json
+Results: {'MAP@1': 0.001621958827199002, 'MAP@5': 0.00047064531780688986, 'MAP@10': 0.0003685549911376486}
+storing results in: results/nci/bloom_3b/report-bloom_3b-template-7-2023-04-14 20:56:49.json
+Inference for  bloom_3b on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: bloom_3b, template: template-8!
+scoring model outputs in: results/nci/bloom_3b/output-bloom_3b-template-8-2023-04-14 21:04:05.json
+Results: {'MAP@1': 0.0015803701393221044, 'MAP@5': 0.00039024052124488805, 'MAP@10': 0.00027643274680080665}
+storing results in: results/nci/bloom_3b/report-bloom_3b-template-8-2023-04-14 21:04:05.json
+Inference for  bloom_3b on template: template-8  is done
+-----------------------------------------------------------

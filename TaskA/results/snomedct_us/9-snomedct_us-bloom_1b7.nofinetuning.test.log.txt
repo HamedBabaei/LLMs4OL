@@ -1,0 +1,48 @@
+Running on dataset: snomedct_us , model: bloom_1b7, template: template-1!
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-1-2023-04-14 21:11:26.json
+Results: {'MAP@1': 0.17650946920711555, 'MAP@5': 0.04038494697818777, 'MAP@10': 0.02699740695580854}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-1-2023-04-14 21:11:26.json
+Inference for  bloom_1b7 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bloom_1b7, template: template-2!
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-2-2023-04-14 21:34:54.json
+Results: {'MAP@1': 0.1492226341351266, 'MAP@5': 0.03391719592685193, 'MAP@10': 0.022836294042863577}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-2-2023-04-14 21:34:54.json
+Inference for  bloom_1b7 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bloom_1b7, template: template-3!
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-3-2023-04-14 21:58:21.json
+Results: {'MAP@1': 0.10954967382245596, 'MAP@5': 0.023183033020087937, 'MAP@10': 0.01727517332957457}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-3-2023-04-14 21:58:21.json
+Inference for  bloom_1b7 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bloom_1b7, template: template-4!
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-4-2023-04-14 22:22:24.json
+Results: {'MAP@1': 0.09737908440382792, 'MAP@5': 0.022678679196482456, 'MAP@10': 0.01690865409397179}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-4-2023-04-14 22:22:24.json
+Inference for  bloom_1b7 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bloom_1b7, template: template-5!
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-5-2023-04-14 22:46:21.json
+Results: {'MAP@1': 0.2887317872230365, 'MAP@5': 0.06256501997298618, 'MAP@10': 0.04120689682699338}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-5-2023-04-14 22:46:21.json
+Inference for  bloom_1b7 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bloom_1b7, template: template-6!
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-6-2023-04-14 23:06:48.json
+Results: {'MAP@1': 0.27219300514412165, 'MAP@5': 0.05862526463009264, 'MAP@10': 0.03841088973643504}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-6-2023-04-14 23:06:48.json
+Inference for  bloom_1b7 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bloom_1b7, template: template-7!
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-7-2023-04-14 23:26:45.json
+Results: {'MAP@1': 0.3232893640256344, 'MAP@5': 0.07001202210918567, 'MAP@10': 0.04569422719802063}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-7-2023-04-14 23:26:45.json
+Inference for  bloom_1b7 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: bloom_1b7, template: template-8!
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-8-2023-04-14 23:47:15.json
+Results: {'MAP@1': 0.3082162255366842, 'MAP@5': 0.06594677702100757, 'MAP@10': 0.04246646992465598}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-8-2023-04-14 23:47:15.json
+Inference for  bloom_1b7 on template: template-8  is done
+-----------------------------------------------------------

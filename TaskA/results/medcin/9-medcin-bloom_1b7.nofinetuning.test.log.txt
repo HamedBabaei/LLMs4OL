@@ -1,0 +1,48 @@
+Running on dataset: medcin , model: bloom_1b7, template: template-1!
+scoring model outputs in: results/medcin/bloom_1b7/output-bloom_1b7-template-1-2023-04-15 03:21:14.json
+Results: {'MAP@1': 0.06947933812700338, 'MAP@5': 0.017862677717134966, 'MAP@10': 0.014234158726491742}
+storing results in: results/medcin/bloom_1b7/report-bloom_1b7-template-1-2023-04-15 03:21:14.json
+Inference for  bloom_1b7 on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bloom_1b7, template: template-2!
+scoring model outputs in: results/medcin/bloom_1b7/output-bloom_1b7-template-2-2023-04-15 03:42:28.json
+Results: {'MAP@1': 0.04610297727338358, 'MAP@5': 0.011915350332572893, 'MAP@10': 0.009587752626823924}
+storing results in: results/medcin/bloom_1b7/report-bloom_1b7-template-2-2023-04-15 03:42:28.json
+Inference for  bloom_1b7 on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bloom_1b7, template: template-3!
+scoring model outputs in: results/medcin/bloom_1b7/output-bloom_1b7-template-3-2023-04-15 04:03:00.json
+Results: {'MAP@1': 0.01604146813364521, 'MAP@5': 0.0033801149325709667, 'MAP@10': 0.0022238907017560748}
+storing results in: results/medcin/bloom_1b7/report-bloom_1b7-template-3-2023-04-15 04:03:00.json
+Inference for  bloom_1b7 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bloom_1b7, template: template-4!
+scoring model outputs in: results/medcin/bloom_1b7/output-bloom_1b7-template-4-2023-04-15 04:25:38.json
+Results: {'MAP@1': 0.013774581997747552, 'MAP@5': 0.0029907495644305834, 'MAP@10': 0.0019447125929409567}
+storing results in: results/medcin/bloom_1b7/report-bloom_1b7-template-4-2023-04-15 04:25:38.json
+Inference for  bloom_1b7 on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bloom_1b7, template: template-5!
+scoring model outputs in: results/medcin/bloom_1b7/output-bloom_1b7-template-5-2023-04-15 04:47:48.json
+Results: {'MAP@1': 0.12057812815847989, 'MAP@5': 0.02729865141933062, 'MAP@10': 0.018700538634697866}
+storing results in: results/medcin/bloom_1b7/report-bloom_1b7-template-5-2023-04-15 04:47:48.json
+Inference for  bloom_1b7 on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bloom_1b7, template: template-6!
+scoring model outputs in: results/medcin/bloom_1b7/output-bloom_1b7-template-6-2023-04-15 05:06:46.json
+Results: {'MAP@1': 0.10599497530971151, 'MAP@5': 0.023305610904155477, 'MAP@10': 0.015422858719661977}
+storing results in: results/medcin/bloom_1b7/report-bloom_1b7-template-6-2023-04-15 05:06:46.json
+Inference for  bloom_1b7 on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bloom_1b7, template: template-7!
+scoring model outputs in: results/medcin/bloom_1b7/output-bloom_1b7-template-7-2023-04-15 05:25:49.json
+Results: {'MAP@1': 0.16870253255941553, 'MAP@5': 0.04128813037242389, 'MAP@10': 0.03146491127951753}
+storing results in: results/medcin/bloom_1b7/report-bloom_1b7-template-7-2023-04-15 05:25:49.json
+Inference for  bloom_1b7 on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: bloom_1b7, template: template-8!
+scoring model outputs in: results/medcin/bloom_1b7/output-bloom_1b7-template-8-2023-04-15 05:45:34.json
+Results: {'MAP@1': 0.14253949002281324, 'MAP@5': 0.03380090867962305, 'MAP@10': 0.024884323718032456}
+storing results in: results/medcin/bloom_1b7/report-bloom_1b7-template-8-2023-04-15 05:45:34.json
+Inference for  bloom_1b7 on template: template-8  is done
+-----------------------------------------------------------
