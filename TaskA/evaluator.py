@@ -22,19 +22,35 @@ if __name__=="__main__":
     assert len(outputs_file) != 0
 
     outputs = []
-    for file in outputs_file:
-        output_file_path = os.path.join(output_dir, file)
+    if "bloom" in config.model:
+        output_file_path = os.path.join(output_dir, outputs_file[0])
         print("scoring model outputs in:", output_file_path)
-        outputs += DataReader.load_json(output_file_path)
+        outputs = DataReader.load_json(output_file_path)['outputs']
+    else:
+        for file in outputs_file:
+            output_file_path = os.path.join(output_dir, file)
+            print("scoring model outputs in:", output_file_path)
+            outputs += DataReader.load_json(output_file_path)
 
     report_file_path = os.path.join(output_dir, reports_file[0])
     report = DataReader.load_json(report_file_path)
-    if len(report['results']) == 0:
-        if config.model in config.models_with_special_output:
+    if len(report['results']) == 0 or "bloom" in config.model:
+        if config.model == "gpt3":
             predictions, labels = [], []
             for output in outputs:
                 label_list = output['result']['label']
                 predict = output['result']['response']['choices'][0]['text'].lower().rstrip('\n').strip()
+                predict_list = []
+                for label in label_list:
+                    if label.lower() in predict:
+                        predict_list.append(label)
+                predictions.append(predict_list)
+                labels.append(label_list)
+        elif "bloom" in config.model:
+            predictions, labels = [], []
+            for output in outputs:
+                label_list = output['label']
+                predict = output['pred'][0].lower().rstrip('\n').strip()
                 predict_list = []
                 for label in label_list:
                     if label.lower() in predict:
