@@ -20,10 +20,13 @@
 
 ## Model descriptions
 
-- MLMs:
-  * $BERT_{large}$: BERT-Large LM with prompt-based inference and without fine-tuning
+- Encoder LMs:
+  * $BERT$: BERT-Large LM with prompt-based inference and without fine-tuning
 
-- Encoder-Decoders:
-  * $Flan-T5_{large}$: Flan-T5-Large LM with prompt-based inference and without fine-tuning
-  * $Flan-T5_{xl}$: Flan-T5-XL LM with prompt-based inference and without fine-tuning
-  * $BART_{large}$: BART-Large LM with prompt-based inference and without fine-tuning
+- Encoder-Decoder LMs:
+  * $Flan-T5$: Flan-T5-Large and Flan-T5-XL LMs with prompt-based inference and without fine-tuning
+  * $BART$: BART-Large LM with prompt-based inference and without fine-tuning
+
+- Decoder LMs: 
+  * $GPT-3$: GPT-3-babbage-001 LM with prompt-based inference and without fine-tuning
+  * $BLOOM$: BLOOM-1b7 and BLOOM-3b LM with prompt-based inference and without fine-tuning
