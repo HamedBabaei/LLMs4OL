@@ -6,8 +6,8 @@ task_a_templates=("template-1" "template-2" "template-3" "template-4" "template-
 task_b_templates=("0" "1" "2" "3" "4" "5" "6" "7")
 
 # running models for WN18RR
-python trainer.py --kb_name="wn18rr" --model_to_train="flan_t5_large"
-python trainer.py --kb_name="wn18rr" --model_to_train="flan_t5_xl"
+python trainer.py --kb_name="wn18rr" --model_to_train="flan_t5_large" --num_train_epochs=5
+python trainer.py --kb_name="wn18rr" --model_to_train="flan_t5_xl" --num_train_epochs=5
 
 cd ..
 cd TaskA
@@ -34,8 +34,8 @@ cd ..
 cd FSL
 
 # running models for UMLS
-python trainer.py --kb_name="umls" --model_to_train="flan_t5_large"
-python trainer.py --kb_name="umls" --model_to_train="flan_t5_xl"
+python trainer.py --kb_name="umls" --model_to_train="flan_t5_large" --num_train_epochs=5
+python trainer.py --kb_name="umls" --model_to_train="flan_t5_xl" --num_train_epochs=5
 
 cd ..
 cd TaskA
@@ -100,8 +100,9 @@ done
 # running models for GeoNames
 cd ..
 cd FSL
-python trainer.py --kb_name="geonames" --model_to_train="flan_t5_large"
-python trainer.py --kb_name="geonames" --model_to_train="flan_t5_xl"
+
+python trainer.py --kb_name="geonames" --model_to_train="flan_t5_large" --num_train_epochs=5
+python trainer.py --kb_name="geonames" --model_to_train="flan_t5_xl" --num_train_epochs=5
 
 cd ..
 cd TaskA
@@ -117,6 +118,24 @@ for kb_name in "${datasets[@]}"; do
     for template in "${task_a_templates[@]}"; do
       echo "Running on dataset: $kb_name , model: $model_name, template: $template!"
       python3 test.py --kb_name=$kb_name --model_name=$model_name --template=$template --device=$device
+      echo "Inference for  $model_name on template: $template  is done"
+      echo "-----------------------------------------------------------"
+    done
+    index=$((index+1))
+  done
+done
+
+cd ..
+cd TaskB
+
+for kb_name in "${datasets[@]}"; do
+  index=1
+  for model_name in  "${models[@]}"; do
+    log="results/$kb_name/$index-$kb_name-$model_name.$label.test.log.txt"
+    exec > $log
+    for template in "${task_b_templates[@]}"; do
+      echo "Running on dataset: $kb_name , model: $model_name, template: $template!"
+      python3 test.py --kb_name=$kb_name --model=$model_name --template=$template --device=$device
       echo "Inference for  $model_name on template: $template  is done"
       echo "-----------------------------------------------------------"
     done
