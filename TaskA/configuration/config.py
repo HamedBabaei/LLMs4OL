@@ -144,10 +144,10 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-3b")
             self.parser.add_argument("--template_name", type=str, default="bloom")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
-        if model == dataset.lower()+"-flan-t5-large":
+        if model == dataset.lower()+"_flan_t5_large":
             self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-large")
             self.parser.add_argument("--template_name", type=str, default="t5")
-        if model == dataset.lower()+"-flan-t5-xl":
+        if model == dataset.lower()+"_flan_t5_xl":
             self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-xl")
             self.parser.add_argument("--template_name", type=str, default="t5")
         # for multi-gpu only
