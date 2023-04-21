@@ -1,15 +1,12 @@
-import json
-import codecs
-import math
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from datasets.dataset_dict import DatasetDict
 from datasets import Dataset
 from configs import BaseConfig
 import argparse
 from datareader import DataReader
-from datawriter import DataWriter
 from dataset import DatasetFactory
 from transformers import DataCollatorForSeq2Seq
+from transformers import Seq2SeqTrainer, Seq2SeqTrainingArguments
 
 
 def preprocess_function(sample, padding="max_length"):
@@ -55,10 +52,6 @@ if __name__=="__main__":
         label_pad_token_id=CONFIG.label_pad_token_id,
         pad_to_multiple_of=8
     )
-
-    from transformers import Seq2SeqTrainer, Seq2SeqTrainingArguments
-
-
 
     training_args = Seq2SeqTrainingArguments(
         output_dir=CONFIG.output_log_dir,
