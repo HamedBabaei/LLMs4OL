@@ -144,7 +144,12 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-3b")
             self.parser.add_argument("--template_name", type=str, default="bloom")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
-
+        if model == dataset.lower()+"-flan-t5-large":
+            self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-large")
+            self.parser.add_argument("--template_name", type=str, default="t5")
+        if model == dataset.lower()+"-flan-t5-xl":
+            self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-xl")
+            self.parser.add_argument("--template_name", type=str, default="t5")
         # for multi-gpu only
         self.parser.add_argument("--gpu_no", type=int, default=torch.cuda.device_count())
         self.parser.add_argument("-f")

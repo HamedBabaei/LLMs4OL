@@ -168,7 +168,7 @@ class EncoderDecoderLMMultiGPU(BaseLM):
         super().__init__(config)
         self.model_name = config.template_name
         self.tokenizer = T5Tokenizer.from_pretrained(self.config.model_path)
-        self.model = T5ForConditionalGeneration.from_pretrained(self.config.model_path, device_map="balanced")
+        self.model = T5ForConditionalGeneration.from_pretrained(self.config.model_path, device_map="auto")
         print(f"Loaded T5ForConditionalGeneration from {self.config.model_path}")
         self.model.eval()
         self.device = config.device
@@ -258,18 +258,13 @@ class InferenceFactory:
     def __init__(self, config) -> None:
         self.models = {
             "bert_large": MaskedLM,
-            "flan_t5_large": EncoderDecoderLM,
-            "flan_t5_xl": EncoderDecoderLM,
             "bart_large": MaskedLM,
-            "gpt3": Left2RightOnlineLM,
-            "bloom_1b7": EncoderDecoderLM,
-            "bloom_3b": EncoderDecoderLM
+            "gpt3": Left2RightOnlineLM
         }
         self.config = config
-        if self.config.multi_gpu:
-            self.models['flan_t5_large'] = EncoderDecoderLMMultiGPU
-            self.models['flan_t5_xl'] = EncoderDecoderLMMultiGPU
 
     def __call__(self, model_name):
-        return self.models[model_name](config=self.config)
+        if self.config.multi_gpu and "flan" in self.models:
+            return EncoderDecoderLMMultiGPU(config=self.config)
+        return self.models.get(model_name, EncoderDecoderLM)(config=self.config)
 
