@@ -1,0 +1,310 @@
+[
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adjective",
+        "[A]": "oblique",
+        "[SENTENCE]": "the oblique rays of the winter sun"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adjective",
+        "[A]": "rich",
+        "[SENTENCE]": "her father is extremely rich"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adjective",
+        "[A]": "expedient",
+        "[SENTENCE]": "was merciful only when mercy was expedient"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adjective",
+        "[A]": "discontented",
+        "[SENTENCE]": "saw many discontent faces in the room"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adjective",
+        "[A]": "ingenuous",
+        "[SENTENCE]": "an ingenuous admission of responsibility"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adjective",
+        "[A]": "impressionistic",
+        "[SENTENCE]": "a surprisingly impressionistic review bearing marks of hasty composition"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adjective",
+        "[A]": "cool",
+        "[SENTENCE]": "a cool autumn day"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adjective",
+        "[A]": "clean",
+        "[SENTENCE]": "children with clean shining faces"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "adjective",
+        "[A]": "pick at",
+        "[SENTENCE]": "She picked nervously at the buttons of her blouse"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "adjective",
+        "[A]": "morphologically",
+        "[SENTENCE]": "these two plants are morphologically related"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "adjective",
+        "[A]": "cover",
+        "[SENTENCE]": "cover her face with a handkerchief"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "noun",
+        "[A]": "question",
+        "[SENTENCE]": "there was a question about my training"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "noun",
+        "[A]": "charge",
+        "[SENTENCE]": "the wrestler's charge carried him past his adversary"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "noun",
+        "[A]": "chip",
+        "[SENTENCE]": "a bit of rock caught him in the eye"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "noun",
+        "[A]": "army officer",
+        "[SENTENCE]": "he's a retired army officer"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "noun",
+        "[A]": "acetylation",
+        "[SENTENCE]": "the acetylation of cyclooxygenase-2 by aspirin"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "noun",
+        "[A]": "preparation",
+        "[SENTENCE]": "preparations for the ceremony had begun"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "noun",
+        "[A]": "adagio",
+        "[SENTENCE]": "they played the adagio too quickly"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "noun",
+        "[A]": "average",
+        "[SENTENCE]": "it set the norm for American homes"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "noun",
+        "[A]": "lodge",
+        "[SENTENCE]": "Where are you lodging in Paris?"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "noun",
+        "[A]": "traduce",
+        "[SENTENCE]": "She badmouths her husband everywhere"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "noun",
+        "[A]": "impressionistic",
+        "[SENTENCE]": "a surprisingly impressionistic review bearing marks of hasty composition"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "verb",
+        "[A]": "cover",
+        "[SENTENCE]": "cover her face with a handkerchief"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "verb",
+        "[A]": "write",
+        "[SENTENCE]": "She composed a poem"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "verb",
+        "[A]": "lodge",
+        "[SENTENCE]": "Where are you lodging in Paris?"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "verb",
+        "[A]": "traduce",
+        "[SENTENCE]": "She badmouths her husband everywhere"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "verb",
+        "[A]": "manufacture",
+        "[SENTENCE]": "the company fabricates plastic chairs"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "verb",
+        "[A]": "run out",
+        "[SENTENCE]": "Our supplies finally ran out"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "verb",
+        "[A]": "posture",
+        "[SENTENCE]": "Don't pay any attention to him--he is always posing to impress his peers!"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "verb",
+        "[A]": "pick at",
+        "[SENTENCE]": "She picked nervously at the buttons of her blouse"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "verb",
+        "[A]": "question",
+        "[SENTENCE]": "there was a question about my training"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "verb",
+        "[A]": "cool",
+        "[SENTENCE]": "a cool autumn day"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "verb",
+        "[A]": "everywhere",
+        "[SENTENCE]": "You find fast food stores everywhere"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adverb",
+        "[A]": "into the bargain",
+        "[SENTENCE]": "He lost his wife in the bargain"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adverb",
+        "[A]": "meanwhile",
+        "[SENTENCE]": "meanwhile, back at the ranch..."
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adverb",
+        "[A]": "sleepily",
+        "[SENTENCE]": "the two children who were snuggled sleepily in the back of the car"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adverb",
+        "[A]": "morphologically",
+        "[SENTENCE]": "these two plants are morphologically related"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adverb",
+        "[A]": "universally",
+        "[SENTENCE]": "people universally agree on this"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adverb",
+        "[A]": "quizzically",
+        "[SENTENCE]": "they looked quizzically at the doctor"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adverb",
+        "[A]": "one by one",
+        "[SENTENCE]": "the prisoners came out one by one"
+    },
+    {
+        "negative": false,
+        "yes-no-label": "yes",
+        "[LABEL]": "adverb",
+        "[A]": "everywhere",
+        "[SENTENCE]": "You find fast food stores everywhere"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "adverb",
+        "[A]": "average",
+        "[SENTENCE]": "it set the norm for American homes"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "adverb",
+        "[A]": "run out",
+        "[SENTENCE]": "Our supplies finally ran out"
+    },
+    {
+        "negative": true,
+        "yes-no-label": "no",
+        "[LABEL]": "adverb",
+        "[A]": "discontented",
+        "[SENTENCE]": "saw many discontent faces in the room"
+    }
+]
