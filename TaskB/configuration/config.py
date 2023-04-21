@@ -110,6 +110,12 @@ class BaseConfig:
         if model == "bloom_7b1":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-7b1")
             self.parser.add_argument("--model_name", type=str, default="bloom")
+        if model == dataset.lower()+"_flan_t5_large":
+            self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-large")
+            self.parser.add_argument("--model_name", type=str, default="t5")
+        if model == dataset.lower()+"_flan_t5_xl":
+            self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-xl")
+            self.parser.add_argument("--model_name", type=str, default="t5")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
 
@@ -124,7 +130,5 @@ class ExternalEvaluationConfig:
         self.parser.add_argument("--model", type=str, default="gpt3")
         self.parser.add_argument("--template", type=str, default="template-1")
         self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt3_ada"])
-        self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
-        self.parser.add_argument("--eval_metric", type=str, default="map")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
