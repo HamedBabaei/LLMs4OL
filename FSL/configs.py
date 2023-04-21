@@ -5,46 +5,61 @@ import torch
 
 
 class BaseConfig:
-    def __init__(self, plm="flan-t5-xl"):
+    def __init__(self, n_per_class=8, neg_per_class=3):
         self.root_dir = "../datasets/FSL"
-        self.llms_root_dir = "../assets/FSL/"
+        self.llms_root_dir = "../assets/FSL"
         self.parser = argparse.ArgumentParser()
         self.dataset_dir_getter = {
             "wn18rr": "WN18RR",
             "geonames": "Geonames",
-            "umls": "UMLS"
+            "umls": "NCI"
         }
+        self.n_per_class = n_per_class
+        self.neg_per_class = neg_per_class
 
     def mkdir(self, path):
         if not os.path.exists(path):
             os.mkdir(path)
 
-    def get_args(self, kb_name: str):
+    def get_args(self, kb_name: str, model_to_train: str=None):
         # kb_names = [wn18rr, geonames, umls]
         dataset_dir = self.dataset_dir_getter.get(kb_name)
-        # BUILD_DATASET CONFIG
-        self.parser.add_argument("--entity_path", type=str, default=f"../datasets/TaskA/{dataset_dir}/{kb_name}_entities.json")
-        self.parser.add_argument("--label_mapper", type=str, default=f"../datasets/TaskA/{dataset_dir}/label_mapper.json")
-        self.parser.add_argument("--plm_train_data", type=str, default=f"{self.root_dir}/{dataset_dir}_data.json")
+        self.parser.add_argument("--kb_name", type=int, default=kb_name)
 
-        self.parser.add_argument("--n_per_class", type=int, default=8)
-        self.parser.add_argument("--neg_per_class", type=int, default=4)
+        # BUILD_DATASET CONFIG
+        if dataset_dir == "NCI":
+            self.parser.add_argument("--entity_path", type=str, default=f"../datasets/TaskA/{kb_name.upper()}/{dataset_dir.lower()}_entities.json")
+            self.parser.add_argument("--label_mapper", type=str, default=f"../datasets/TaskA/{kb_name.upper()}/label_mapper.json")
+            self.parser.add_argument("--biorel_dir", type=str, default=f"../datasets/TaskA/{kb_name.upper()}/raw/biorel")
+        else:
+            self.parser.add_argument("--entity_path", type=str, default=f"../datasets/TaskA/{dataset_dir}/{kb_name}_entities.json")
+            self.parser.add_argument("--label_mapper", type=str, default=f"../datasets/TaskA/{dataset_dir}/label_mapper.json")
+
+        self.parser.add_argument("--fsl_train_data", type=str, default=f"{self.root_dir}/{kb_name}-{self.n_per_class}-shot-{str(self.neg_per_class)}-neg.json")
+        self.parser.add_argument("--n_per_class", type=int, default=self.n_per_class)
+        self.parser.add_argument("--neg_per_class", type=int, default=self.neg_per_class)
         self.parser.add_argument("--seed", type=int, default=555)
+
 
         # TRAINING CONFIG
         self.parser.add_argument("--max_source_length", type=int, default=512)
         self.parser.add_argument("--max_target_length", type=int, default=10)
+        self.parser.add_argument("--label_pad_token_id", type=int, default=-100)
+        self.parser.add_argument("--auto_find_batch_size", type=bool, default=True)
+        self.parser.add_argument("--learning_rate", type=float, default=1e-5)
+        self.parser.add_argument("--num_train_epochs", type=float, default=15)
 
         time = str(datetime.datetime.now()).split('.')[0]
 
-        if model == "flan_t5_large":
-            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-large")
-            self.parser.add_argument("--template_name", type=str, default="t5")
-            self.parser.add_argument("--multi_gpu", type=bool, default=True)
-        if model == "flan_t5_xl":
-            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/flan-t5-xl")
-            self.parser.add_argument("--template_name", type=str, default="t5")
-            self.parser.add_argument("--multi_gpu", type=bool, default=True)
+        if model_to_train == "flan_t5_large":
+            self.parser.add_argument("--model_input_path", type=str, default="../assets/LLM/flan-t5-large")
+            self.parser.add_argument("--model_output_path", type=str,  default=f"../assets/FSL/{kb_name}-flan-t5-large")
+            self.parser.add_argument("--output_log_dir", type=str, default=f"../assets/FSL/{kb_name}-flan-t5-large-log")
+
+        if model_to_train == "flan_t5_xl":
+            self.parser.add_argument("--model_input_path", type=str, default="../assets/LLM/flan-t5-xl")
+            self.parser.add_argument("--model_output_path", type=str,  default=f"../assets/FSL/{kb_name}-flan-t5-xl")
+            self.parser.add_argument("--output_log_dir", type=str, default=f"../assets/FSL/{kb_name}-flan-t5-xl-log")
 
         self.parser.add_argument("--gpu_no", type=int, default=torch.cuda.device_count())
         self.parser.add_argument("-f")
