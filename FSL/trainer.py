@@ -32,6 +32,8 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--kb_name", required=True)  # wn18rr, geonames, umls
     parser.add_argument("--model_to_train", required=True) # flan_t5_large, flan_t5_xl
+    parser.add_argument("--num_train_epochs", type=int, default=15)
+
     args = parser.parse_args()
     print("args:", args)
     CONFIG = BaseConfig().get_args(kb_name=args.kb_name, model_to_train=args.model_to_train)
@@ -57,7 +59,7 @@ if __name__=="__main__":
         output_dir=CONFIG.output_log_dir,
         auto_find_batch_size=CONFIG.auto_find_batch_size,
         learning_rate=CONFIG.learning_rate,
-        num_train_epochs=CONFIG.num_train_epochs,
+        num_train_epochs=args.num_train_epochs,
         logging_dir=f"{CONFIG.output_log_dir}/logs",
         logging_strategy="steps",
         logging_steps=500,

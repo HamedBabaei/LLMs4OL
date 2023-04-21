@@ -47,7 +47,7 @@ class BaseConfig:
         self.parser.add_argument("--label_pad_token_id", type=int, default=-100)
         self.parser.add_argument("--auto_find_batch_size", type=bool, default=True)
         self.parser.add_argument("--learning_rate", type=float, default=1e-5)
-        self.parser.add_argument("--num_train_epochs", type=int, default=15)
+        self.parser.add_argument("--num_train_epochs", type=int, default=5)
 
         time = str(datetime.datetime.now()).split('.')[0]
 
