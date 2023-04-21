@@ -147,9 +147,11 @@ class BaseConfig:
         if model == dataset.lower()+"_flan_t5_large":
             self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-large")
             self.parser.add_argument("--template_name", type=str, default="t5")
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == dataset.lower()+"_flan_t5_xl":
             self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-xl")
             self.parser.add_argument("--template_name", type=str, default="t5")
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
         # for multi-gpu only
         self.parser.add_argument("--gpu_no", type=int, default=torch.cuda.device_count())
         self.parser.add_argument("-f")

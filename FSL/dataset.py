@@ -1,8 +1,9 @@
 import templates as TEMPLATES
 
 class BaseDataset:
-    def __int__(self, templates):
+    def __init__(self, templates):
         self.templates_list = templates
+
     def build_samples(self, dataset):
         source_text, target_text = [], []
         for data in dataset:

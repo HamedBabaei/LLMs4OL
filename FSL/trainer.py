@@ -34,7 +34,7 @@ if __name__=="__main__":
     parser.add_argument("--model_to_train", required=True) # flan_t5_large, flan_t5_xl
     args = parser.parse_args()
     print("args:", args)
-    CONFIG = BaseConfig().get_args(kb_name=args.kb_name, model_to_train=args.model)
+    CONFIG = BaseConfig().get_args(kb_name=args.kb_name, model_to_train=args.model_to_train)
 
     # loading dataset
     dataset_json = DataReader.load_json(path=CONFIG.fsl_train_data)
