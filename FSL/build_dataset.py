@@ -69,7 +69,7 @@ def build_geonames(config):
             if len(train_dataset[key]) == config.n_per_class:
                 break
 
-    # drom items that we dont have  data in train or less that config.n_per_class
+    # drom items that we don't have  data in train or less that config.n_per_class
     train_dataset = {key: items for key, items in train_dataset.items() if len(items) > 0}
     print("size of labels that has been considered:", len(train_dataset))
 
@@ -218,6 +218,126 @@ def build_umls(config):
         custom_train_dataset[index]['LABEL-SET'] = label_mapper[sample['type-label']]
     return custom_train_dataset
 
+
+def add_task_b_info_geonames(config, dataset_json):
+    def get_searchable_class(triple):
+        if len(triple[0]) == 1 and len(triple[1]) != 1:
+            return triple[1]
+        if len(triple[1]) == 1 and len(triple[0]) != 1:
+            return triple[0]
+        return "NA"
+
+    label_mapper = DataReader.load_json(config.label_mapper)
+    task_b = DataReader.load_json(config.geonames_task_b_train)
+    task_b_new = []
+    for item in task_b:
+        text_a_label, text_b_label = "", ""
+        label = 'yes' if item['label'] == 'correct' else 'no'
+        for key, word_sets in label_mapper.items():
+            if len(key) == 1:
+                for word in word_sets:
+                    if word in item['text_b']:
+                        text_b_label = key
+                    elif word in item['text_a']:
+                        text_a_label = key
+            elif word_sets['name'] == item['text_b']:
+                text_b_label = key
+            elif word_sets['name'] == item['text_a']:
+                text_a_label = key
+            if text_a_label != "" and text_b_label != "":
+                break
+        task_b_new.append({"label-triples": [text_a_label, text_b_label, label], "label-names": item, "used": False})
+
+    data_labels = set([data['type-label'] for data in dataset_json])
+    task_b_labels = set([label for data in task_b_new for label in data['label-triples']])
+    intersect = data_labels.intersection(task_b_labels)
+    print("dataset types:", len(data_labels))
+    print("Task_b train set types:", len(task_b_labels))
+    print("intersection:", len(intersect))
+
+    for data in dataset_json:
+        data['task-b'] = False
+    for task_b_data in task_b_new:
+        search_type = get_searchable_class(task_b_data['label-triples'])
+        for index, data in enumerate(dataset_json):
+            if not data['task-b'] and search_type != 'NA':
+                if data['type-label'] == search_type:
+                    dataset_json[index]['task-b'] = True
+                    dataset_json[index]['task-b-items'] = task_b_data['label-names']
+    return dataset_json
+
+
+def add_task_b_info_umls(config, dataset_json):
+    label_mapper = DataReader.load_json(config.label_mapper)
+    task_b = DataReader.load_json(config.umls_task_b_train)
+    task_b_new = []
+    for item in task_b:
+        text_a_label, text_b_label = "", ""
+        label = 'yes' if item['label'] == 'correct' else 'no'
+        for key, word_sets in label_mapper.items():
+            word_sets_lower = [word.lower() for word in word_sets]
+            if item['text_b'] in word_sets_lower:
+                text_b_label = key
+            elif item['text_a'] in word_sets_lower:
+                text_a_label = key
+            if text_a_label != "" and text_b_label != "":
+                break
+        if text_a_label != "" and text_b_label != "":
+            task_b_new.append({"label-triples": [text_a_label, text_b_label, label], "label-names": item, "used": False})
+
+    data_labels = set([data['type-label'] for data in dataset_json])
+    task_b_labels = set([label for data in task_b_new for label in data['label-triples']])
+    intersect = data_labels.intersection(task_b_labels)
+    print("dataset types:", len(data_labels))
+    print("Task_b train set types:", len(task_b_labels))
+    print("intersection:", len(intersect))
+
+    for data in dataset_json:
+        data['task-b'] = False
+    for task_b_data in task_b_new:
+        search_type_a, search_type_b = task_b_data['label-triples'][0], task_b_data['label-triples'][1]
+        for index, data in enumerate(dataset_json):
+            if not data['task-b']:
+                if search_type_a == data['type-label'] or search_type_b == data['type-label']:
+                    dataset_json[index]['task-b'] = True
+                    dataset_json[index]['task-b-items'] = task_b_data['label-names']
+    return dataset_json
+
+def add_task_c_info_umls(config, dataset_json):
+    label_mapper = DataReader.load_json(config.label_mapper)
+    task_c = DataReader.load_json(config.umls_task_c_train)
+    task_c_new = []
+    for item in task_c:
+        text_h_label, text_t_label = "", ""
+        label = 'yes' if item['label'] == 'correct' else 'no'
+        for key, word_sets in label_mapper.items():
+            word_sets_lower = [word for word in word_sets]
+            if item['h'] in word_sets_lower:
+                text_h_label = key
+            elif item['t'] in word_sets_lower:
+                text_t_label = key
+            if text_h_label != "" and text_t_label != "":
+                break
+        if text_h_label != "" and text_t_label != "":
+            task_c_new.append({"label-triples": [text_h_label, text_t_label, label], "label-names": item, "used": False})
+    data_labels = set([data['type-label'] for data in dataset_json])
+    task_c_labels = set([label for data in task_c_new for label in data['label-triples']])
+    intersect = data_labels.intersection(task_c_labels)
+    print("dataset types:", len(data_labels))
+    print("Task_c train set types:", len(task_c_labels))
+    print("intersection:", len(intersect))
+
+    for data in dataset_json:
+        data['task-c'] = False
+    for task_c_data in task_c_new:
+        search_type_h, search_type_t = task_c_data['label-triples'][0], task_c_data['label-triples'][1]
+        for index, data in enumerate(dataset_json):
+            if not data['task-c']:
+                if search_type_h == data['type-label'] or search_type_t == data['type-label']:
+                    dataset_json[index]['task-c'] = True
+                    dataset_json[index]['task-c-items'] = task_c_data['label-names']
+    return dataset_json
+
 if __name__=="__main__":
     config = BaseConfig(neg_per_class=3).get_args("wn18rr")
     custom_train_dataset = build_wn(config)
@@ -225,8 +345,11 @@ if __name__=="__main__":
 
     config = BaseConfig(neg_per_class=3).get_args("geonames")
     custom_train_dataset = build_geonames(config)
+    custom_train_dataset = add_task_b_info_geonames(config, custom_train_dataset)
     DataWriter.write_json(custom_train_dataset, config.fsl_train_data)
 
     config = BaseConfig(neg_per_class=3).get_args("umls")
     custom_train_dataset = build_umls(config)
+    custom_train_dataset = add_task_b_info_umls(config, custom_train_dataset)
+    custom_train_dataset = add_task_c_info_umls(config, custom_train_dataset)
     DataWriter.write_json(custom_train_dataset, config.fsl_train_data)
