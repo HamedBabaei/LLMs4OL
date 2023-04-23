@@ -1,18 +1,10 @@
 Running on dataset: umls , model: bart_large !
 args: Namespace(kb_name='umls', model='bart_large', device='cuda')
-Starting the Inference time is: 2023-03-23 14:23:14
+Starting the Inference time is: 2023-04-23 15:56:19
 Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
-              precision    recall  f1-score   support
-
-     correct       0.71      0.38      0.49      5641
-   incorrect       0.22      0.54      0.32      1896
-
-    accuracy                           0.42      7537
-   macro avg       0.47      0.46      0.41      7537
-weighted avg       0.59      0.42      0.45      7537
-
-scoring results in:results/umls/bart_large/report-bart_large-2023-03-23 14:23:14.json
-Ending the Inference time is: 2023-03-23 14:26:11
-Total duration is===> 0:02:56.366839
+Accuracy: 0.4293532338308458
+scoring results in:results/umls/bart_large/report-bart_large-2023-04-23 15:56:19.json
+Ending the Inference time is: 2023-04-23 15:58:52
+Total duration is===> 0:02:33.166467
 Inference for  bart_large  is done
 -----------------------------------------------------------
