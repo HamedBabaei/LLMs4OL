@@ -4,7 +4,7 @@ label="nofinetuning"
 
 datasets=("geonames" "schema" "umls")
 templates=("-0-" "-1-" "-2-" "-3-" "-4-" "-5-" "-6-" "-7-")
-models=("gpt3" "gpt3_ada")
+models=("gpt3")
 
 for kb_name in "${datasets[@]}"; do
   index=8

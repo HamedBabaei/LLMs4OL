@@ -1,0 +1,1362 @@
+[
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "pyramids",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "college",
+        "label": "correct"
+    },
+    {
+        "text_a": "traffic circle",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "rookery",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of intermittent stream",
+        "label": "correct"
+    },
+    {
+        "text_a": "canyon",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "peaks",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "sulphur spring(s)",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "valleys",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "salt lake",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "lagoon",
+        "label": "correct"
+    },
+    {
+        "text_a": "administrative division",
+        "text_b": "country, state, or region",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "local government office",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "upland",
+        "label": "correct"
+    },
+    {
+        "text_a": "mission",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "halting place",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "tree(s)",
+        "text_b": "forest or heath",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "slide",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "third-order administrative division",
+        "label": "correct"
+    },
+    {
+        "text_a": "peak",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "bank",
+        "label": "correct"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "valleys",
+        "label": "correct"
+    },
+    {
+        "text_a": "farms",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "cairn",
+        "label": "correct"
+    },
+    {
+        "text_a": "fan",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "facility",
+        "label": "correct"
+    },
+    {
+        "text_a": "polder",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "corral(s)",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "atomic center",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "administrative facility",
+        "label": "correct"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "historical populated place",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "language school",
+        "label": "correct"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "historical fifth-order administrative division",
+        "label": "correct"
+    },
+    {
+        "text_a": "tribal area",
+        "text_b": "parks or areas",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "sugar mill",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "bench",
+        "label": "correct"
+    },
+    {
+        "text_a": "canyons",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mall",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent salt lake",
+        "label": "correct"
+    },
+    {
+        "text_a": "streams",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "blowhole(s)",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "shrine",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "seat of a third-order administrative division",
+        "text_b": "city or village",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "arrugado",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "section of canal",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "jetty",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "cirque",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "stream mouth(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "continental rise",
+        "label": "correct"
+    },
+    {
+        "text_a": "flat",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "oasis(-es)",
+        "text_b": "parks or areas",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "section of lagoon",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "university",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "brewery",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "boundary marker",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "stony desert",
+        "label": "correct"
+    },
+    {
+        "text_a": "karst area",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "park gate",
+        "label": "correct"
+    },
+    {
+        "text_a": "section of independent political entity",
+        "text_b": "country, state, or region",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "veterinary facility",
+        "label": "correct"
+    },
+    {
+        "text_a": "astronomical station",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "dairy",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mill(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "zone",
+        "label": "correct"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "pinnacle",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "technical school",
+        "label": "correct"
+    },
+    {
+        "text_a": "bridge",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "mound",
+        "label": "correct"
+    },
+    {
+        "text_a": "united states government establishment",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "locality",
+        "label": "correct"
+    },
+    {
+        "text_a": "sill",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "section of plain",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "pier",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "racetrack",
+        "label": "correct"
+    },
+    {
+        "text_a": "pans",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "cordillera",
+        "label": "correct"
+    },
+    {
+        "text_a": "gasfield",
+        "text_b": "parks or areas",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "ridge",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "lake",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "seachannel",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "meadow",
+        "text_b": "forest or heath",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "road tunnel",
+        "label": "correct"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "natural tunnel",
+        "label": "correct"
+    },
+    {
+        "text_a": "oil palm plantation",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "dockyard",
+        "label": "correct"
+    },
+    {
+        "text_a": "road tunnel",
+        "text_b": "road or railroad",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "sabkha(s)",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "ridge",
+        "label": "correct"
+    },
+    {
+        "text_a": "museum",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "restaurant",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "pool(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "bench",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "monument",
+        "label": "correct"
+    },
+    {
+        "text_a": "petroleum basin",
+        "text_b": "parks or areas",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "trail",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "rock desert",
+        "label": "correct"
+    },
+    {
+        "text_a": "logging camp",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "headland",
+        "label": "correct"
+    },
+    {
+        "text_a": "spur(s)",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned railroad station",
+        "label": "correct"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "heath",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "patrol post",
+        "label": "correct"
+    },
+    {
+        "text_a": "guest house",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "industrial area",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "atoll(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "oil pumping station",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sanatorium",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned mission",
+        "label": "correct"
+    },
+    {
+        "text_a": "lagoon",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "ravine(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "destroyed populated place",
+        "label": "correct"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "hunting reserve",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "rockfall",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "theater",
+        "label": "correct"
+    },
+    {
+        "text_a": "technical school",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "banks",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "escarpment",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "limekiln",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spillway",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "intermittent salt lake",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "current",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "intermittent lake",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "talus slope",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "garden(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "meteorological station",
+        "label": "correct"
+    },
+    {
+        "text_a": "cleft(s)",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "fort",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "housing development",
+        "text_b": "parks or areas",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "seachannel",
+        "label": "correct"
+    },
+    {
+        "text_a": "agricultural colony",
+        "text_b": "parks or areas",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "coalfield",
+        "label": "correct"
+    },
+    {
+        "text_a": "business center",
+        "text_b": "parks or areas",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "boatyard",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "wadi",
+        "label": "correct"
+    },
+    {
+        "text_a": "waterhole(s)",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "land-tied island",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "cutoff",
+        "label": "correct"
+    },
+    {
+        "text_a": "cliff(s)",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mangrove island",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "religious populated place",
+        "label": "correct"
+    },
+    {
+        "text_a": "point",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt marsh",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "levee",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "corral(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "mangrove island",
+        "label": "correct"
+    },
+    {
+        "text_a": "ridges",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned railroad stop",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sheepfold",
+        "label": "correct"
+    },
+    {
+        "text_a": "religious center",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "rockfall",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "store",
+        "label": "correct"
+    },
+    {
+        "text_a": "cemetery",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "hermitage",
+        "label": "correct"
+    },
+    {
+        "text_a": "railroad yard",
+        "text_b": "road or railroad",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "facility center",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "courthouse",
+        "label": "correct"
+    },
+    {
+        "text_a": "gully",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "ruined bridge",
+        "label": "correct"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "escarpment (or scarp)",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "plain(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "cultivated area",
+        "label": "correct"
+    },
+    {
+        "text_a": "beaches",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "windmill",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "castle",
+        "label": "correct"
+    },
+    {
+        "text_a": "shelf valley",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "historical fourth-order administrative division",
+        "text_b": "country, state, or region",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "abandoned police post",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "bank",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "parish",
+        "label": "correct"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "gully",
+        "label": "correct"
+    },
+    {
+        "text_a": "artificial island",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "volcano",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "navigation canal(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "beach",
+        "label": "correct"
+    },
+    {
+        "text_a": "house(s)",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "foundry",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "military installation",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "waterfall(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "stadium",
+        "label": "correct"
+    },
+    {
+        "text_a": "resort",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "terminal",
+        "label": "correct"
+    },
+    {
+        "text_a": "college",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "roadstead",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "terminal",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "retreat",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "crater lake",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "resthouse",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "roadstead",
+        "label": "correct"
+    },
+    {
+        "text_a": "country house",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "peninsula",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt pond",
+        "label": "correct"
+    },
+    {
+        "text_a": "meteorological station",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "labor camp",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "fuel depot",
+        "label": "correct"
+    },
+    {
+        "text_a": "prison",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "library",
+        "label": "correct"
+    },
+    {
+        "text_a": "golf course",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "road bend",
+        "text_b": "road or railroad",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "weir(s)",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "heliport",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "abandoned populated place",
+        "text_b": "city or village",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "museum",
+        "label": "correct"
+    },
+    {
+        "text_a": "bog(s)",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "hill",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mosque",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "beach",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "capital of a political entity",
+        "label": "correct"
+    },
+    {
+        "text_a": "forest or heath",
+        "text_b": "coconut grove",
+        "label": "correct"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "field(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "salt lake",
+        "label": "correct"
+    },
+    {
+        "text_a": "barracks",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mall",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "quay",
+        "label": "correct"
+    },
+    {
+        "text_a": "crater(s)",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "oil pumping station",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "university prep school",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "current",
+        "label": "correct"
+    },
+    {
+        "text_a": "ore treatment plant",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "shoal(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "terrace",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "city or village",
+        "text_b": "abandoned populated place",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "crater lakes",
+        "label": "correct"
+    },
+    {
+        "text_a": "sugar plantation",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "historical site",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "synagogue",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "rocks",
+        "label": "correct"
+    },
+    {
+        "text_a": "road or railroad",
+        "text_b": "railroad yard",
+        "label": "correct"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "valley",
+        "label": "correct"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "business center",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "temple(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "cultivated area",
+        "text_b": "forest or heath",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "points",
+        "label": "correct"
+    },
+    {
+        "text_a": "cirque",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "clearing",
+        "text_b": "parks or areas",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "intermittent salt pond(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "moat",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "automatic teller machine",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "salt mine(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "tablemount (or guyot)",
+        "label": "correct"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "administrative division",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "stream bend",
+        "label": "correct"
+    },
+    {
+        "text_a": "sawmill",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "mosque",
+        "label": "correct"
+    },
+    {
+        "text_a": "dock(s)",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "stream",
+        "label": "correct"
+    },
+    {
+        "text_a": "intermittent salt pond(s)",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "banks",
+        "label": "correct"
+    },
+    {
+        "text_a": "sill",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "arch",
+        "text_b": "undersea",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "shrine",
+        "label": "correct"
+    },
+    {
+        "text_a": "natural tunnel",
+        "text_b": "road or railroad",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "heliport",
+        "label": "correct"
+    },
+    {
+        "text_a": "undersea",
+        "text_b": "moat",
+        "label": "correct"
+    },
+    {
+        "text_a": "points",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "jetty",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "country, state, or region",
+        "text_b": "second-order administrative division",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "sawmill",
+        "label": "correct"
+    },
+    {
+        "text_a": "stream or lake",
+        "text_b": "bank(s)",
+        "label": "correct"
+    },
+    {
+        "text_a": "depression(s)",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "road cut",
+        "text_b": "road or railroad",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "satellite station",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "mountain, hill, or rock",
+        "text_b": "moraine",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "space center",
+        "label": "correct"
+    },
+    {
+        "text_a": "grove",
+        "text_b": "forest or heath",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "blowout(s)",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "section of reef",
+        "text_b": "stream or lake",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "barracks",
+        "label": "correct"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "abandoned camp",
+        "label": "correct"
+    },
+    {
+        "text_a": "divide",
+        "text_b": "mountain, hill, or rock",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "free trade zone",
+        "text_b": "spot, building, or farm",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spot, building, or farm",
+        "text_b": "clinic",
+        "label": "correct"
+    },
+    {
+        "text_a": "parks or areas",
+        "text_b": "artillery range",
+        "label": "correct"
+    }
+]

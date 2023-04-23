@@ -7,6 +7,7 @@ from src import EvaluationMetrics
 if __name__=="__main__":
     config = ExternalEvaluationConfig().get_args()
     output_dir = os.path.join(config.root_dir, config.kb_name, config.model)
+    label_mapper = DataReader.load_json(config.label_mapper)
 
     if not os.path.exists(output_dir):
         print(f"'{output_dir}' is not existed!")
@@ -29,10 +30,14 @@ if __name__=="__main__":
         for output in outputs:
             label = output['result']['data']['label']
             if "ada" in config.model:
-                predict = output['result']['response']
+                predict = output['result']['response'].lower()
             else:
                 predict = output['result']['response']['choices'][0]['text'].lower().rstrip('\n').strip()
-                predict = "correct" if "true" in predict else "incorrect"
+            if predict in label_mapper['correct']:
+                predict_label = "correct"
+            else:
+                predict_label = "incorrect"
+            predictions.append(predict_label)
             predictions.append(predict)
             labels.append(label)
     else:
@@ -45,9 +50,7 @@ if __name__=="__main__":
             "dataset-in-use": str(config.kb_name),
             "configs": vars(config)
     }
-
-
-    print("Results:", report['results']['clf-report'])
+    print("Accuracy:", report['results']['accuracy'])
     print("storing results in:", report_file_path)
     DataWriter.write_json(data=report, path=report_file_path)
 

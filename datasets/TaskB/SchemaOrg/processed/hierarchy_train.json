@@ -1,0 +1,5342 @@
+[
+    {
+        "text_a": "Medical Code",
+        "text_b": "Medical Entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Newspaper",
+        "text_b": "Periodical",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Sculpture",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Answer",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Double Blinded Trial",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Diet",
+        "text_b": "Lifestyle Modification",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Triple Blinded Trial",
+        "label": "correct"
+    },
+    {
+        "text_a": "Media Object",
+        "text_b": "Amp Story",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501c20",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501q",
+        "label": "correct"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Mountain",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Cafe Or Coffee Shop",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Prion",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "How To Item",
+        "label": "correct"
+    },
+    {
+        "text_a": "Rental Car Reservation",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Media Gallery",
+        "text_b": "Web Page",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Order Delivered",
+        "label": "correct"
+    },
+    {
+        "text_a": "Flight",
+        "text_b": "Trip",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Size System Enumeration",
+        "text_b": "Wearable Size System Continental",
+        "label": "correct"
+    },
+    {
+        "text_a": "Physical Activity",
+        "text_b": "Lifestyle Modification",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "FD Acategory D",
+        "text_b": "Drug Pregnancy Category",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Presentation Digital Document",
+        "label": "correct"
+    },
+    {
+        "text_a": "Social Event",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Basic Income",
+        "label": "correct"
+    },
+    {
+        "text_a": "Recommendation",
+        "text_b": "Review",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Radio Clip",
+        "text_b": "Clip",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Intangible",
+        "label": "correct"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Action Status Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Occupation",
+        "label": "correct"
+    },
+    {
+        "text_a": "Read Permission",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Organization",
+        "text_b": "Funding Agency",
+        "label": "correct"
+    },
+    {
+        "text_a": "Interaction Counter",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Sign Or Symptom",
+        "text_b": "Medical Condition",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Payment Declined",
+        "text_b": "Status Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Dataset",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Medical Indication",
+        "label": "correct"
+    },
+    {
+        "text_a": "Demo Game Availability",
+        "text_b": "Game Availability Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Government Building",
+        "text_b": "Embassy",
+        "label": "correct"
+    },
+    {
+        "text_a": "Infectious Agent Class",
+        "text_b": "Prion",
+        "label": "correct"
+    },
+    {
+        "text_a": "In Force",
+        "text_b": "Legal Force Status",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Artery",
+        "text_b": "Anatomical Structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Organize Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Organization",
+        "text_b": "Workers Union",
+        "label": "correct"
+    },
+    {
+        "text_a": "Reservation",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Qualitative Value",
+        "text_b": "Rear Wheel Drive Configuration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Software Source Code",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Pulmonary",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Attorney",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Self Care Health Aspect",
+        "label": "correct"
+    },
+    {
+        "text_a": "Gastroenterologic",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Protozoa",
+        "label": "correct"
+    },
+    {
+        "text_a": "Government Office",
+        "text_b": "Post Office",
+        "label": "correct"
+    },
+    {
+        "text_a": "Investment Or Deposit",
+        "text_b": "Service",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Product",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Library",
+        "label": "correct"
+    },
+    {
+        "text_a": "Size Group Enumeration",
+        "text_b": "Wearable Size Group Misses",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Rent Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Media Manipulation Rating Enumeration",
+        "text_b": "Transformed Content",
+        "label": "correct"
+    },
+    {
+        "text_a": "Image Gallery",
+        "text_b": "Collection Page",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "How It Works Health Aspect",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Leave Action",
+        "text_b": "Interact Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Damaged Condition",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Movie Clip",
+        "text_b": "Clip",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Embassy",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Health Insurance Plan",
+        "label": "correct"
+    },
+    {
+        "text_a": "Bus Stop",
+        "text_b": "Civic Structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Software Application",
+        "text_b": "Mobile Application",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "3 D Model",
+        "label": "correct"
+    },
+    {
+        "text_a": "Structured Value",
+        "text_b": "Location Feature Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Software Source Code",
+        "label": "correct"
+    },
+    {
+        "text_a": "Register Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "User Interaction",
+        "text_b": "User Plays",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Perform Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501q",
+        "text_b": "US Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Palliative Procedure",
+        "text_b": "Therapeutic Procedure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Service",
+        "text_b": "Bank Account",
+        "label": "correct"
+    },
+    {
+        "text_a": "International Trial",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Collection Page",
+        "text_b": "Web Page",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Electronics Store",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Pregnancy Health Aspect",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "React Action",
+        "text_b": "Want Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Government Organization",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Open Trial",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Approved Indication",
+        "label": "correct"
+    },
+    {
+        "text_a": "Property Value",
+        "text_b": "Location Feature Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Energy Consumption Details",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Observational Study Design",
+        "text_b": "Longitudinal",
+        "label": "correct"
+    },
+    {
+        "text_a": "Collection Page",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Boarding Policy Type",
+        "text_b": "Group Boarding Policy",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Size System Enumeration",
+        "text_b": "Wearable Size System JP",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Discover Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Health Club",
+        "text_b": "Sports Activity Location",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Lodging Business",
+        "text_b": "Hotel",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "New Condition",
+        "label": "correct"
+    },
+    {
+        "text_a": "Full Game Availability",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Health Aspect Enumeration",
+        "text_b": "How It Works Health Aspect",
+        "label": "correct"
+    },
+    {
+        "text_a": "Department Store",
+        "text_b": "Store",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Control Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reservation Status Type",
+        "text_b": "Reservation Cancelled",
+        "label": "correct"
+    },
+    {
+        "text_a": "Paint Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c18",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Web Site",
+        "label": "correct"
+    },
+    {
+        "text_a": "Drug Pregnancy Category",
+        "text_b": "FD Anot Evaluated",
+        "label": "correct"
+    },
+    {
+        "text_a": "Store",
+        "text_b": "Department Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Evidence Level C",
+        "text_b": "Medical Evidence Level",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Fast Food Restaurant",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Organization",
+        "text_b": "Dance Group",
+        "label": "correct"
+    },
+    {
+        "text_a": "Government Service",
+        "text_b": "Service",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Reduced Relevance For Children Consideration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Image Gallery",
+        "text_b": "Media Gallery",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit501c17",
+        "text_b": "US Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "Nonprofit501c26",
+        "label": "correct"
+    },
+    {
+        "text_a": "Chapter",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Museum",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Web Page Element",
+        "text_b": "WP Side Bar",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Medical Device",
+        "label": "correct"
+    },
+    {
+        "text_a": "Consortium",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Return Method Enumeration",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "Nonprofit501c21",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Organization",
+        "label": "correct"
+    },
+    {
+        "text_a": "Transfer Action",
+        "text_b": "Download Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Studio Album",
+        "label": "correct"
+    },
+    {
+        "text_a": "Structured Value",
+        "text_b": "Nutrition Information",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Travel Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Otolaryngologic",
+        "text_b": "Medical Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Return Label Source Enumeration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Entertainment Business",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Project",
+        "text_b": "Research Project",
+        "label": "correct"
+    },
+    {
+        "text_a": "Quote Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Ultrasound",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Location Feature Specification",
+        "text_b": "Structured Value",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Geriatric",
+        "label": "correct"
+    },
+    {
+        "text_a": "Analysis News Article",
+        "text_b": "News Article",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Recipe",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Event Venue",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Item List",
+        "text_b": "Breadcrumb List",
+        "label": "correct"
+    },
+    {
+        "text_a": "Middle School",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Price Type Enumeration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Zoo",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Web API",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Paperback",
+        "label": "correct"
+    },
+    {
+        "text_a": "Store",
+        "text_b": "Grocery Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Episode",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Media Subscription",
+        "label": "correct"
+    },
+    {
+        "text_a": "Discontinued",
+        "text_b": "Item Availability",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Organization",
+        "text_b": "Veterinary Care",
+        "label": "correct"
+    },
+    {
+        "text_a": "Event Moved Online",
+        "text_b": "Event Status Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Physical Activity Category",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Medical Audience Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Bus Stop",
+        "label": "correct"
+    },
+    {
+        "text_a": "Auto Wash",
+        "text_b": "Automotive Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Podcast Season",
+        "text_b": "Creative Work Season",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Communicate Action",
+        "text_b": "Inform Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Scholarly Article",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Hardcover",
+        "text_b": "Book Format Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Diagnostic",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Social Media Posting",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Demand",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Postal Code Range Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Apply Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Order Status",
+        "text_b": "Order Returned",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Open Trial",
+        "label": "correct"
+    },
+    {
+        "text_a": "Size System Imperial",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Drink Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "TV Series",
+        "text_b": "Creative Work Series",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Hair Salon",
+        "text_b": "Health And Beauty Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Restaurant",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Sports Event",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Pre Sale",
+        "label": "correct"
+    },
+    {
+        "text_a": "How To Step",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Evidence Level",
+        "text_b": "Evidence Level A",
+        "label": "correct"
+    },
+    {
+        "text_a": "Reported Dose Schedule",
+        "text_b": "Dose Schedule",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Rsvp Response Yes",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit501c17",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "User Interaction",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Endorsement Rating",
+        "text_b": "Rating",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Merchant Return Unspecified",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Adult Oriented Enumeration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Mixtape Album",
+        "label": "correct"
+    },
+    {
+        "text_a": "Bank Or Credit Union",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size Group Short",
+        "text_b": "Wearable Size Group Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Food Establishment Reservation",
+        "text_b": "Reservation",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Sale Price",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Energy Efficiency Enumeration",
+        "text_b": "EU Energy Efficiency Category A",
+        "label": "correct"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Tourist Attraction",
+        "label": "correct"
+    },
+    {
+        "text_a": "Media Review",
+        "text_b": "Review",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Review News Article",
+        "text_b": "Article",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Radio Channel",
+        "text_b": "AM Radio Channel",
+        "label": "correct"
+    },
+    {
+        "text_a": "Infectious Agent Class",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Superficial Anatomy",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Free Return",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Child Care",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Apartment Complex",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Single Center Trial",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "WP Footer",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Article",
+        "text_b": "Review News Article",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "TV Episode",
+        "label": "correct"
+    },
+    {
+        "text_a": "Infectious Agent Class",
+        "text_b": "Fungus",
+        "label": "correct"
+    },
+    {
+        "text_a": "Clip",
+        "text_b": "TV Clip",
+        "label": "correct"
+    },
+    {
+        "text_a": "Drug Strength",
+        "text_b": "Medical Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Web Page Element",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Ligament",
+        "text_b": "Medical Entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Medical Test",
+        "label": "correct"
+    },
+    {
+        "text_a": "Prion",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size System MX",
+        "text_b": "Wearable Size System Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Randomized Trial",
+        "label": "correct"
+    },
+    {
+        "text_a": "Radio Station",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Legal Service",
+        "text_b": "Attorney",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Comedy Event",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Choose Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "WP Side Bar",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Online Only",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Menu",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Diet Nutrition",
+        "label": "correct"
+    },
+    {
+        "text_a": "Home And Construction Business",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Math Solver",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Web Site",
+        "label": "correct"
+    },
+    {
+        "text_a": "Speakable Specification",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Event Series",
+        "text_b": "Series",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Size System Enumeration",
+        "text_b": "Wearable Size System FR",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Research Organization",
+        "label": "correct"
+    },
+    {
+        "text_a": "E Book",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Qualitative Value",
+        "text_b": "Four Wheel Drive Configuration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Archive Organization",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Guideline",
+        "text_b": "Medical Guideline Contraindication",
+        "label": "correct"
+    },
+    {
+        "text_a": "Parcel Delivery",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Order Status",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Unofficial Legal Value",
+        "label": "correct"
+    },
+    {
+        "text_a": "E Book",
+        "text_b": "Book Format Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Price Specification",
+        "text_b": "Structured Value",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Comment Action",
+        "text_b": "Communicate Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Structured Value",
+        "text_b": "Opening Hours Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Map",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Therapeutic Procedure",
+        "label": "correct"
+    },
+    {
+        "text_a": "Reservation Cancelled",
+        "text_b": "Status Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Refurbished Condition",
+        "label": "correct"
+    },
+    {
+        "text_a": "Day Of Week",
+        "text_b": "Monday",
+        "label": "correct"
+    },
+    {
+        "text_a": "Organize Action",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "React Action",
+        "text_b": "Agree Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Event Attendance Mode Enumeration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Store",
+        "text_b": "Mens Clothing Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Medical Contraindication",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Procedure",
+        "text_b": "Abdomen",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Contact Point Option",
+        "label": "correct"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c8",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Movie",
+        "label": "correct"
+    },
+    {
+        "text_a": "Short Story",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Sale Event",
+        "text_b": "Event",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Drug Cost",
+        "label": "correct"
+    },
+    {
+        "text_a": "Schedule Action",
+        "text_b": "Organize Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Trial",
+        "text_b": "Medical Study",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "NGO",
+        "label": "correct"
+    },
+    {
+        "text_a": "Loan Or Credit",
+        "text_b": "Mortgage Loan",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Measurement Height",
+        "text_b": "Wearable Measurement Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Entertainment Business",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501c15",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Food Event",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size Group Extra Tall",
+        "text_b": "Wearable Size Group Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Medical Imaging Technique",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "FAQ Page",
+        "label": "correct"
+    },
+    {
+        "text_a": "Anesthesia",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Benefits Health Aspect",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Check Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Trial",
+        "text_b": "Medical Entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Play",
+        "label": "correct"
+    },
+    {
+        "text_a": "Body Measurement Inside Leg",
+        "text_b": "Body Measurement Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Size System Enumeration",
+        "text_b": "Wearable Size System MX",
+        "label": "correct"
+    },
+    {
+        "text_a": "Legislation Object",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Blog Posting",
+        "text_b": "Social Media Posting",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Discussion Forum Posting",
+        "text_b": "Social Media Posting",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Control Action",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Food Establishment",
+        "text_b": "Fast Food Restaurant",
+        "label": "correct"
+    },
+    {
+        "text_a": "Assess Action",
+        "text_b": "Choose Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Return Label Download And Print",
+        "text_b": "Return Label Source Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Entertainment Business",
+        "text_b": "Adult Entertainment",
+        "label": "correct"
+    },
+    {
+        "text_a": "Event Postponed",
+        "text_b": "Status Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Organization",
+        "text_b": "Music Group",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Guideline",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Game Server Status",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Exercise Gym",
+        "label": "correct"
+    },
+    {
+        "text_a": "Physical Activity",
+        "text_b": "Medical Entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Body Measurement Hips",
+        "label": "correct"
+    },
+    {
+        "text_a": "Exhibition Event",
+        "text_b": "Event",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "User Plays",
+        "text_b": "User Interaction",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Financial Service",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Book Format Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "Apply Action",
+        "text_b": "Organize Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Take Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Recycling Center",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Measurement Sleeve",
+        "text_b": "Wearable Measurement Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reservoir",
+        "text_b": "Landform",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Message",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Digital Document Permission Type",
+        "text_b": "Read Permission",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Map Category Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "Attorney",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "How It Works Health Aspect",
+        "label": "correct"
+    },
+    {
+        "text_a": "Item List Unordered",
+        "text_b": "Item List Order Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Shopping Center",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Auto Parts Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Item List",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Trade Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reservation Hold",
+        "text_b": "Reservation Status Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Dangerous Good Consideration",
+        "text_b": "Adult Oriented Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Media Manipulation Rating Enumeration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Imaging Technique",
+        "text_b": "X Ray",
+        "label": "correct"
+    },
+    {
+        "text_a": "Taxi Reservation",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work Series",
+        "text_b": "Series",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Communicate Action",
+        "text_b": "Share Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Rsvp Response Maybe",
+        "label": "correct"
+    },
+    {
+        "text_a": "Rsvp Response No",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reportage News Article",
+        "text_b": "News Article",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Offer",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Educational Occupational Credential",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nose",
+        "text_b": "Physical Exam",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Nursing",
+        "label": "correct"
+    },
+    {
+        "text_a": "Manuscript",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit501c28",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Specialty",
+        "text_b": "Pediatric",
+        "label": "correct"
+    },
+    {
+        "text_a": "Review",
+        "text_b": "Recommendation",
+        "label": "correct"
+    },
+    {
+        "text_a": "Find Action",
+        "text_b": "Discover Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Attorney",
+        "text_b": "Legal Service",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Reimbursement Cap",
+        "label": "correct"
+    },
+    {
+        "text_a": "Stadium Or Arena",
+        "text_b": "Sports Activity Location",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Drug Class",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Zone Boarding Policy",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Educational Organization",
+        "text_b": "School",
+        "label": "correct"
+    },
+    {
+        "text_a": "Dataset",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Music Playlist",
+        "text_b": "Music Release",
+        "label": "correct"
+    },
+    {
+        "text_a": "Palliative Procedure",
+        "text_b": "Medical Therapy",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "User Review",
+        "label": "correct"
+    },
+    {
+        "text_a": "Locker Delivery",
+        "text_b": "Delivery Method",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wholesale",
+        "text_b": "Drug Cost Category",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Property Value Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "Mortgage Loan",
+        "text_b": "Loan Or Credit",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Media Manipulation Rating Enumeration",
+        "text_b": "Decontextualized Content",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Registry",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Shipping Rate Settings",
+        "label": "correct"
+    },
+    {
+        "text_a": "Vein",
+        "text_b": "Anatomical Structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "DVD Format",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Condition",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "D Dx Element",
+        "text_b": "Medical Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Article",
+        "label": "correct"
+    },
+    {
+        "text_a": "Organization",
+        "text_b": "Diagnostic Lab",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Move Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Trial Design",
+        "text_b": "Open Trial",
+        "label": "correct"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Body Measurement Underbust",
+        "label": "correct"
+    },
+    {
+        "text_a": "Restricted Diet",
+        "text_b": "Vegan Diet",
+        "label": "correct"
+    },
+    {
+        "text_a": "Car",
+        "text_b": "Product",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Publication Volume",
+        "label": "correct"
+    },
+    {
+        "text_a": "Auto Parts Store",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Audience",
+        "text_b": "Medical Audience",
+        "label": "correct"
+    },
+    {
+        "text_a": "Entertainment Business",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit501c11",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Financial Product",
+        "text_b": "Loan Or Credit",
+        "label": "correct"
+    },
+    {
+        "text_a": "Motorcycle Repair",
+        "text_b": "Automotive Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Performing Arts Theater",
+        "label": "correct"
+    },
+    {
+        "text_a": "Article",
+        "text_b": "News Article",
+        "label": "correct"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Parking Facility",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501c25",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Home And Construction Business",
+        "label": "correct"
+    },
+    {
+        "text_a": "Tennis Complex",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Seek To Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Spreadsheet Digital Document",
+        "label": "correct"
+    },
+    {
+        "text_a": "Review",
+        "text_b": "User Review",
+        "label": "correct"
+    },
+    {
+        "text_a": "Rental Car Reservation",
+        "text_b": "Reservation",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Data Download",
+        "label": "correct"
+    },
+    {
+        "text_a": "Cross Sectional",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Clip",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Business",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Rsvp Response Type",
+        "text_b": "Rsvp Response Maybe",
+        "label": "correct"
+    },
+    {
+        "text_a": "Play",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Pawn Shop",
+        "label": "correct"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Payment Due",
+        "label": "correct"
+    },
+    {
+        "text_a": "Single Player",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Flexibility",
+        "text_b": "Physical Activity Category",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Workers Union",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Return At Kiosk",
+        "label": "correct"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Zoo",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Observational Study Design",
+        "text_b": "Cohort Study",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Measurement Type Enumeration",
+        "text_b": "Wearable Measurement Width",
+        "label": "correct"
+    },
+    {
+        "text_a": "Ask Action",
+        "text_b": "Interact Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Subscription",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Wearable Size Group Enumeration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Payment Status Type",
+        "text_b": "Payment Past Due",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Item List Order Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c3",
+        "label": "correct"
+    },
+    {
+        "text_a": "Rating",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Friday",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Music Event",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Golf Course",
+        "text_b": "Sports Activity Location",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Site Navigation Element",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Medical Risk Factor",
+        "label": "correct"
+    },
+    {
+        "text_a": "Legal Force Status",
+        "text_b": "In Force",
+        "label": "correct"
+    },
+    {
+        "text_a": "Residence",
+        "text_b": "Gated Residence Community",
+        "label": "correct"
+    },
+    {
+        "text_a": "Digital Document Permission Type",
+        "text_b": "Comment Permission",
+        "label": "correct"
+    },
+    {
+        "text_a": "Psychiatric",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Media Subscription",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Suspend Action",
+        "text_b": "Control Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Organize Action",
+        "text_b": "Allocate Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Virtual Location",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Event",
+        "text_b": "Business Event",
+        "label": "correct"
+    },
+    {
+        "text_a": "Music Album Production Type",
+        "text_b": "Remix Album",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Photograph",
+        "label": "correct"
+    },
+    {
+        "text_a": "Size Specification",
+        "text_b": "Qualitative Value",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Image Object",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Government Organization",
+        "label": "correct"
+    },
+    {
+        "text_a": "Physical Exam",
+        "text_b": "Cardiovascular Exam",
+        "label": "correct"
+    },
+    {
+        "text_a": "Preschool",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Read Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Menu Section",
+        "label": "correct"
+    },
+    {
+        "text_a": "Legislative Building",
+        "text_b": "Government Building",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Product",
+        "text_b": "Motorized Bicycle",
+        "label": "correct"
+    },
+    {
+        "text_a": "Assess Action",
+        "text_b": "Vote Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Store",
+        "text_b": "Hobby Shop",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Medical Procedure",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Boat Trip",
+        "label": "correct"
+    },
+    {
+        "text_a": "Return Fees Enumeration",
+        "text_b": "Return Fees Customer Responsibility",
+        "label": "correct"
+    },
+    {
+        "text_a": "Bed Details",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Online Full",
+        "label": "correct"
+    },
+    {
+        "text_a": "Adult Entertainment",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Medical Device",
+        "label": "correct"
+    },
+    {
+        "text_a": "Grant",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Mountain",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Tattoo Parlor",
+        "text_b": "Health And Beauty Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Map Category Type",
+        "text_b": "Transit Map",
+        "label": "correct"
+    },
+    {
+        "text_a": "Energy Star Energy Efficiency Enumeration",
+        "text_b": "Energy Star Certified",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Motorcycle Dealer",
+        "label": "correct"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Body Measurement Foot",
+        "label": "correct"
+    },
+    {
+        "text_a": "Price Type Enumeration",
+        "text_b": "Invoice Price",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Government Permit",
+        "label": "correct"
+    },
+    {
+        "text_a": "Ticket",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Psychiatric",
+        "label": "correct"
+    },
+    {
+        "text_a": "Comic Series",
+        "text_b": "Periodical",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Measurement Type Enumeration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Size Group Enumeration",
+        "text_b": "Wearable Size Group Misses",
+        "label": "correct"
+    },
+    {
+        "text_a": "Multi Player",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c16",
+        "label": "correct"
+    },
+    {
+        "text_a": "Cemetery",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Trial Design",
+        "text_b": "Multi Center Trial",
+        "label": "correct"
+    },
+    {
+        "text_a": "Number",
+        "text_b": "Integer",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501f",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Rating",
+        "text_b": "Employer Aggregate Rating",
+        "label": "correct"
+    },
+    {
+        "text_a": "Legislation Object",
+        "text_b": "Media Object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Decontextualized Content",
+        "label": "correct"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Lodging Business",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Sign",
+        "text_b": "Vital Sign",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Report",
+        "label": "correct"
+    },
+    {
+        "text_a": "Menu",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Aerobic Activity",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Defined Term",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Un Register Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Article",
+        "text_b": "Analysis News Article",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Resume Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Flight",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Auto Dealer",
+        "text_b": "Automotive Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Automotive Business",
+        "text_b": "Gas Station",
+        "label": "correct"
+    },
+    {
+        "text_a": "Web Page",
+        "text_b": "Checkout Page",
+        "label": "correct"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c1",
+        "label": "correct"
+    },
+    {
+        "text_a": "Vehicle",
+        "text_b": "Bus Or Coach",
+        "label": "correct"
+    },
+    {
+        "text_a": "Distance",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Procedure Type",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Periodical",
+        "text_b": "Creative Work Series",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Ayurvedic",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Parking Facility",
+        "text_b": "Civic Structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Educational Occupational Credential",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Playground",
+        "label": "correct"
+    },
+    {
+        "text_a": "Price Component Type Enumeration",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Visual Artwork",
+        "label": "correct"
+    },
+    {
+        "text_a": "Video Game",
+        "text_b": "Software Application",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Medical Guideline Recommendation",
+        "label": "correct"
+    },
+    {
+        "text_a": "Blood Test",
+        "text_b": "Medical Test",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Control Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Order Item",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Category Code Set",
+        "label": "correct"
+    },
+    {
+        "text_a": "Shoe Store",
+        "text_b": "Store",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Therapeutic Procedure",
+        "text_b": "Medical Therapy",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "One Time Payments",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501d",
+        "text_b": "US Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Interact Action",
+        "text_b": "Share Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "WP Footer",
+        "text_b": "Web Page Element",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Event Postponed",
+        "label": "correct"
+    },
+    {
+        "text_a": "Bio Chem Entity",
+        "text_b": "Protein",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Ownership Info",
+        "label": "correct"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Body Measurement Neck",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Audiobook Format",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Educational Audience",
+        "label": "correct"
+    },
+    {
+        "text_a": "Some Products",
+        "text_b": "Product",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Bank Account",
+        "text_b": "Service",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Profile Page",
+        "text_b": "Web Page",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reservation",
+        "text_b": "Rental Car Reservation",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Flexibility",
+        "label": "correct"
+    },
+    {
+        "text_a": "Government Permit",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit501d",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Event",
+        "text_b": "Delivery Event",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Lose Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Soundtrack Album",
+        "text_b": "Music Album Production Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Government Office",
+        "label": "correct"
+    },
+    {
+        "text_a": "Music Album Production Type",
+        "text_b": "Studio Album",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501c6",
+        "text_b": "US Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Basic Income",
+        "text_b": "Government Benefits Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Usage Or Schedule Health Aspect",
+        "text_b": "Health Aspect Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Digital Document",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Drug Pregnancy Category",
+        "text_b": "FD Acategory X",
+        "label": "correct"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Shopping Center",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Quantitative Value Distribution",
+        "label": "correct"
+    },
+    {
+        "text_a": "Musculoskeletal Exam",
+        "text_b": "Medical Procedure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Physical Activity Category",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Create Action",
+        "text_b": "Film Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Superficial Anatomy",
+        "text_b": "Medical Entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Assess Action",
+        "text_b": "Ignore Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Exercise Plan",
+        "text_b": "Physical Activity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Quotation",
+        "label": "correct"
+    },
+    {
+        "text_a": "Map Category Type",
+        "text_b": "Seating Map",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Merchant Return Not Permitted",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Measurement Length",
+        "text_b": "Wearable Measurement Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "How To Section",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Food Establishment Reservation",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Size System Enumeration",
+        "text_b": "Size System Metric",
+        "label": "correct"
+    },
+    {
+        "text_a": "Dentistry",
+        "text_b": "Medical Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Price Component Type Enumeration",
+        "text_b": "Downpayment",
+        "label": "correct"
+    },
+    {
+        "text_a": "Defined Term Set",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Lodging Business",
+        "text_b": "Hostel",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Taxon",
+        "label": "correct"
+    },
+    {
+        "text_a": "Drug Cost Category",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "How To",
+        "label": "correct"
+    },
+    {
+        "text_a": "Financial Product",
+        "text_b": "Payment Service",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nursing",
+        "text_b": "Medical Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "User Plus Ones",
+        "text_b": "User Interaction",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Merchant Return Not Permitted",
+        "text_b": "Merchant Return Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Online Business",
+        "label": "correct"
+    },
+    {
+        "text_a": "Size Group Enumeration",
+        "text_b": "Wearable Size Group Husky",
+        "label": "correct"
+    },
+    {
+        "text_a": "Activation Fee",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Background News Article",
+        "text_b": "Article",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Achieve Action",
+        "text_b": "Win Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Size Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "User Downloads",
+        "text_b": "User Interaction",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "User Interaction",
+        "text_b": "User Checkins",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Procedure",
+        "text_b": "Skin",
+        "label": "correct"
+    },
+    {
+        "text_a": "PET",
+        "text_b": "Medical Imaging Technique",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Float",
+        "text_b": "Number",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Code",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Rsvp Response No",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Search Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Catholic Church",
+        "text_b": "Place Of Worship",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Music Release Format Type",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Interact Action",
+        "text_b": "Ask Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Season",
+        "label": "correct"
+    },
+    {
+        "text_a": "Not Yet Recruiting",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Create Action",
+        "text_b": "Paint Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Unemployment Support",
+        "text_b": "Government Benefits Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Laboratory Science",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "X Path Type",
+        "text_b": "Text",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Organization",
+        "text_b": "Online Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Virus",
+        "label": "correct"
+    },
+    {
+        "text_a": "Physical Activity Category",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Structured Value",
+        "text_b": "Exchange Rate Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "Body Measurement Foot",
+        "text_b": "Measurement Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "Nonprofit ANBI",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Mass",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Quantity",
+        "label": "correct"
+    },
+    {
+        "text_a": "Insert Action",
+        "text_b": "Append Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Active Action Status",
+        "label": "correct"
+    },
+    {
+        "text_a": "Tech Article",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size Group Enumeration",
+        "text_b": "Wearable Size Group Plus",
+        "label": "correct"
+    },
+    {
+        "text_a": "Airline",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Single Release",
+        "label": "correct"
+    },
+    {
+        "text_a": "Clip",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Floor Plan",
+        "label": "correct"
+    },
+    {
+        "text_a": "Exchange Rate Specification",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Anatomical System",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Parcel Delivery",
+        "label": "correct"
+    },
+    {
+        "text_a": "Qualitative Value",
+        "text_b": "All Wheel Drive Configuration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Atlas",
+        "label": "correct"
+    },
+    {
+        "text_a": "Graphic Novel",
+        "text_b": "Book Format Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Invite Action",
+        "text_b": "Interact Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Defined Term",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Conversation",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Read Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Claim",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Software Application",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Laser Disc Format",
+        "text_b": "Music Release Format Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "School",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Toy Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Product",
+        "text_b": "Product Group",
+        "label": "correct"
+    },
+    {
+        "text_a": "Statement",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Suite",
+        "text_b": "Accommodation",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Interaction Counter",
+        "label": "correct"
+    },
+    {
+        "text_a": "React Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medicine System",
+        "text_b": "Western Conventional",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Speakable Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Defence Establishment",
+        "label": "correct"
+    },
+    {
+        "text_a": "Auto Parts Store",
+        "text_b": "Store",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit501c27",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Completed",
+        "text_b": "Medical Study Status",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Trial Design",
+        "text_b": "Randomized Trial",
+        "label": "correct"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Wearable Measurement Length",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Trial Design",
+        "text_b": "Double Blinded Trial",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Medical Sign Or Symptom",
+        "label": "correct"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Suite",
+        "label": "correct"
+    },
+    {
+        "text_a": "Completed",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Price Specification",
+        "text_b": "Compound Price Specification",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "NL Nonprofit Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "Adult Oriented Enumeration",
+        "text_b": "Reduced Relevance For Children Consideration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Train Station",
+        "text_b": "Civic Structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Creative Work",
+        "label": "correct"
+    },
+    {
+        "text_a": "Drug Cost Category",
+        "text_b": "Reimbursement Cap",
+        "label": "correct"
+    },
+    {
+        "text_a": "Body Measurement Type Enumeration",
+        "text_b": "Body Measurement Chest",
+        "label": "correct"
+    },
+    {
+        "text_a": "Communicate Action",
+        "text_b": "Confirm Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c6",
+        "label": "correct"
+    },
+    {
+        "text_a": "Share Action",
+        "text_b": "Communicate Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reimbursement Cap",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Placebo Controlled Trial",
+        "text_b": "Medical Trial Design",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "List Price",
+        "text_b": "Price Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "News Media Organization",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Claim Review",
+        "text_b": "Review",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Video Object",
+        "label": "correct"
+    },
+    {
+        "text_a": "Triple Blinded Trial",
+        "text_b": "Medical Trial Design",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Event Status Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "Event Venue",
+        "text_b": "Civic Structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Trade Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Measurement Type Enumeration",
+        "text_b": "Wearable Measurement Hips",
+        "label": "correct"
+    },
+    {
+        "text_a": "NGO",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Event Series",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Event Status Type",
+        "text_b": "Event Rescheduled",
+        "label": "correct"
+    },
+    {
+        "text_a": "Audio Object",
+        "text_b": "Audio Object Snapshot",
+        "label": "correct"
+    },
+    {
+        "text_a": "Music Store",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Digital Platform Enumeration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Drug Legal Status",
+        "label": "correct"
+    },
+    {
+        "text_a": "Defence Establishment",
+        "text_b": "Government Building",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Aquarium",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Creative Work Series",
+        "label": "correct"
+    },
+    {
+        "text_a": "Offer For Lease",
+        "text_b": "Offer",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Campground",
+        "text_b": "Lodging Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Flexibility",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Order Status",
+        "text_b": "Order Payment Due",
+        "label": "correct"
+    },
+    {
+        "text_a": "Structured Value",
+        "text_b": "Quantitative Value Distribution",
+        "label": "correct"
+    },
+    {
+        "text_a": "Class",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Eat Action",
+        "text_b": "Consume Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Course",
+        "label": "correct"
+    },
+    {
+        "text_a": "Digital Document Permission Type",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Payment Declined",
+        "text_b": "Payment Status Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Types Health Aspect",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "React Action",
+        "text_b": "Endorse Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Library System",
+        "label": "correct"
+    },
+    {
+        "text_a": "Treatment Indication",
+        "text_b": "Medical Entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Prevention Health Aspect",
+        "text_b": "Health Aspect Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reduced Relevance For Children Consideration",
+        "text_b": "Adult Oriented Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Sports Organization",
+        "label": "correct"
+    },
+    {
+        "text_a": "Monday",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reservation Status Type",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Interact Action",
+        "text_b": "Check Out Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action Access Specification",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Physical Activity Category",
+        "text_b": "Occupational Activity",
+        "label": "correct"
+    },
+    {
+        "text_a": "Strength Training",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Body Measurement Waist",
+        "text_b": "Body Measurement Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Medicine System",
+        "label": "correct"
+    },
+    {
+        "text_a": "Order Status",
+        "text_b": "Order Delivered",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Intangible",
+        "text_b": "Maximum Dose Schedule",
+        "label": "correct"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "RV Park",
+        "label": "correct"
+    },
+    {
+        "text_a": "Ear",
+        "text_b": "Medical Procedure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Donate Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Person",
+        "label": "correct"
+    },
+    {
+        "text_a": "Track Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Authorize Action",
+        "text_b": "Organize Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit501c2",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c27",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Intangible",
+        "text_b": "Medical Condition Stage",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Misconceptions Health Aspect",
+        "text_b": "Health Aspect Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Dentistry",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Comment",
+        "text_b": "Answer",
+        "label": "correct"
+    },
+    {
+        "text_a": "Demo Game Availability",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Store",
+        "text_b": "Book Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Energy Efficiency Enumeration",
+        "text_b": "EU Energy Efficiency Category A2 Plus",
+        "label": "correct"
+    },
+    {
+        "text_a": "Data Feed",
+        "text_b": "Dataset",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Special Announcement",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Trade Action",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Store",
+        "text_b": "Hardware Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Reservation Pending",
+        "text_b": "Status Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Amusement Park",
+        "label": "correct"
+    },
+    {
+        "text_a": "Cook Action",
+        "text_b": "Create Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Aerobic Activity",
+        "text_b": "Physical Activity Category",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Related Topics Health Aspect",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work Series",
+        "text_b": "Podcast Series",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Specialty",
+        "text_b": "Surgical",
+        "label": "correct"
+    },
+    {
+        "text_a": "Broadcast Frequency Specification",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Defined Region",
+        "text_b": "Structured Value",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Unincorporated Association Charity",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Media Review",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Country",
+        "text_b": "Administrative Area",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Medical Risk Factor",
+        "label": "correct"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Synagogue",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Evidence Level",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Park",
+        "label": "correct"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Civic Structure",
+        "label": "correct"
+    },
+    {
+        "text_a": "Rsvp Action",
+        "text_b": "Communicate Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Condition Stage",
+        "text_b": "Medical Entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Poster",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Item List Order Type",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Dietary Supplement",
+        "text_b": "Substance",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Hospital",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Digital Platform Enumeration",
+        "text_b": "IOS Platform",
+        "label": "correct"
+    },
+    {
+        "text_a": "Communicate Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Offer Item Condition",
+        "label": "correct"
+    },
+    {
+        "text_a": "Update Action",
+        "text_b": "Add Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Unclassified Adult Consideration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "Nonprofit501c25",
+        "label": "correct"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Event Rescheduled",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Imaging Technique",
+        "text_b": "PET",
+        "label": "correct"
+    },
+    {
+        "text_a": "Genitourinary",
+        "text_b": "Physical Exam",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Mixed Event Attendance Mode",
+        "text_b": "Event Attendance Mode Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Male",
+        "text_b": "Gender Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Amp Story",
+        "text_b": "Media Object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Gated Residence Community",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Paid Leave",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Child Care",
+        "label": "correct"
+    },
+    {
+        "text_a": "Sports Activity Location",
+        "text_b": "Tennis Complex",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Size Group Boys",
+        "text_b": "Size Group Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Music Release",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Ignore Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Drawing",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size Group Womens",
+        "text_b": "Size Group Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Motel",
+        "text_b": "Lodging Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Body Measurement Type Enumeration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Bed And Breakfast",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "People Audience",
+        "text_b": "Medical Audience",
+        "label": "correct"
+    },
+    {
+        "text_a": "Optician",
+        "text_b": "Medical Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Food Event",
+        "label": "correct"
+    },
+    {
+        "text_a": "Clothing Store",
+        "text_b": "Store",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Therapeutic Procedure",
+        "text_b": "Medical Procedure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Exchange Refund",
+        "label": "correct"
+    },
+    {
+        "text_a": "Organization",
+        "text_b": "Corporation",
+        "label": "correct"
+    },
+    {
+        "text_a": "Aggregate Rating",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Shipping Rate Settings",
+        "text_b": "Structured Value",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Research Organization",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Offer",
+        "text_b": "Aggregate Offer",
+        "label": "correct"
+    },
+    {
+        "text_a": "EU Energy Efficiency Category A1 Plus",
+        "text_b": "Energy Efficiency Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Business Support",
+        "label": "correct"
+    },
+    {
+        "text_a": "Code",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Recycling Center",
+        "label": "correct"
+    },
+    {
+        "text_a": "Size System Enumeration",
+        "text_b": "Wearable Size System N13402",
+        "label": "correct"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Wearable Measurement Width",
+        "label": "correct"
+    },
+    {
+        "text_a": "TV Series",
+        "text_b": "Series",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Sports Organization",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Financial Product",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Plumber",
+        "text_b": "Home And Construction Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Beach",
+        "text_b": "Civic Structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Tourist Attraction",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Used Condition",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Math Solver",
+        "label": "correct"
+    },
+    {
+        "text_a": "Preschool",
+        "text_b": "Educational Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Endorsement Rating",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Monday",
+        "text_b": "Day Of Week",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Joint",
+        "text_b": "Anatomical Structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size Group Juniors",
+        "text_b": "Size Group Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Payment Method",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Evidence Level A",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Venue Map",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Veterinary Care",
+        "text_b": "Medical Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Physical Exam",
+        "text_b": "Genitourinary",
+        "label": "correct"
+    },
+    {
+        "text_a": "Real Estate Agent",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Contact Point Option",
+        "text_b": "Hearing Impaired Supported",
+        "label": "correct"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Employer Review",
+        "label": "correct"
+    },
+    {
+        "text_a": "Add Action",
+        "text_b": "Insert Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Specialty",
+        "text_b": "Musculoskeletal",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Physical Activity Category",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Tourist Trip",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Business Function",
+        "label": "correct"
+    },
+    {
+        "text_a": "Structured Value",
+        "text_b": "Geo Shape",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501c22",
+        "text_b": "US Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Order Payment Due",
+        "text_b": "Status Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Music Composition",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Body Of Water",
+        "text_b": "River Body Of Water",
+        "label": "correct"
+    },
+    {
+        "text_a": "Payment Card",
+        "text_b": "Credit Card",
+        "label": "correct"
+    },
+    {
+        "text_a": "Order In Transit",
+        "text_b": "Order Status",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Automotive Business",
+        "text_b": "Auto Repair",
+        "label": "correct"
+    },
+    {
+        "text_a": "Program Membership",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "NL Nonprofit Type",
+        "text_b": "Nonprofit ANBI",
+        "label": "correct"
+    },
+    {
+        "text_a": "Web Content",
+        "text_b": "Health Topic Content",
+        "label": "correct"
+    },
+    {
+        "text_a": "Professional Service",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Cover Art",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Condition",
+        "text_b": "Medical Symptom",
+        "label": "correct"
+    },
+    {
+        "text_a": "Evidence Level C",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Pre Order",
+        "label": "correct"
+    },
+    {
+        "text_a": "Music Album Release Type",
+        "text_b": "Album Release",
+        "label": "correct"
+    },
+    {
+        "text_a": "Event",
+        "text_b": "User Plus Ones",
+        "label": "correct"
+    },
+    {
+        "text_a": "Educational Audience",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Single Family Residence",
+        "text_b": "House",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Book",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Unemployment Support",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Structured Value",
+        "text_b": "Warranty Promise",
+        "label": "correct"
+    },
+    {
+        "text_a": "Broadcast Event",
+        "text_b": "Publication Event",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size Group Tall",
+        "text_b": "Wearable Size Group Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Garden Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Accept Action",
+        "text_b": "Organize Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Shoe Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "WP Ad Block",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Body Of Water",
+        "text_b": "Sea Body Of Water",
+        "label": "correct"
+    },
+    {
+        "text_a": "Music Release Format Type",
+        "text_b": "Laser Disc Format",
+        "label": "correct"
+    },
+    {
+        "text_a": "Vehicle",
+        "text_b": "Car",
+        "label": "correct"
+    },
+    {
+        "text_a": "Digital Document",
+        "text_b": "Presentation Digital Document",
+        "label": "correct"
+    },
+    {
+        "text_a": "Library System",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Government Benefits Type",
+        "text_b": "Parental Support",
+        "label": "correct"
+    },
+    {
+        "text_a": "Article",
+        "text_b": "Opinion News Article",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Entry Point",
+        "label": "correct"
+    },
+    {
+        "text_a": "Zone Boarding Policy",
+        "text_b": "Boarding Policy Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "How Or Where Health Aspect",
+        "text_b": "Health Aspect Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Middle School",
+        "text_b": "Educational Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Schedule",
+        "label": "correct"
+    },
+    {
+        "text_a": "Occupational Activity",
+        "text_b": "Physical Activity Category",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Plastic Surgery",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Device Purpose",
+        "text_b": "Therapeutic",
+        "label": "correct"
+    },
+    {
+        "text_a": "Research Project",
+        "text_b": "Project",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Dermatology",
+        "text_b": "Medical Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Suspended",
+        "text_b": "Medical Study Status",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Rheumatologic",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Legislative Building",
+        "label": "correct"
+    },
+    {
+        "text_a": "Music Playlist",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Multi Center Trial",
+        "text_b": "Medical Trial Design",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Monetary Grant",
+        "text_b": "Grant",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Veterinary Care",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Return Fees Enumeration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "Nonprofit501f",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Size Group Enumeration",
+        "text_b": "Wearable Size Group Maternity",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Guideline Recommendation",
+        "text_b": "Medical Entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Pond",
+        "text_b": "Landform",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "CD Format",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Size System Enumeration",
+        "text_b": "Wearable Size System US",
+        "label": "correct"
+    },
+    {
+        "text_a": "Motorcycle Dealer",
+        "text_b": "Automotive Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Creative Work",
+        "text_b": "Legislation",
+        "label": "correct"
+    },
+    {
+        "text_a": "Interact Action",
+        "text_b": "Invite Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Substance",
+        "label": "correct"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c17",
+        "label": "correct"
+    },
+    {
+        "text_a": "Comment",
+        "text_b": "Question",
+        "label": "correct"
+    },
+    {
+        "text_a": "Multi Player",
+        "text_b": "Game Play Mode",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Event Rescheduled",
+        "text_b": "Event Status Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Place",
+        "text_b": "Emergency Service",
+        "label": "correct"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "In Force",
+        "label": "correct"
+    },
+    {
+        "text_a": "Toll Free",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Risk Estimator",
+        "text_b": "Medical Risk Calculator",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Media Object",
+        "label": "correct"
+    },
+    {
+        "text_a": "Learning Resource",
+        "text_b": "Course",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit501c18",
+        "text_b": "Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Body Measurement Type Enumeration",
+        "text_b": "Body Measurement Inside Leg",
+        "label": "correct"
+    },
+    {
+        "text_a": "Delivery Method",
+        "text_b": "Parcel Service",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Job Posting",
+        "label": "correct"
+    },
+    {
+        "text_a": "Store",
+        "text_b": "Sporting Goods Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Bank Or Credit Union",
+        "text_b": "Financial Service",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Mobile Web Platform",
+        "label": "correct"
+    },
+    {
+        "text_a": "Body Measurement Weight",
+        "text_b": "Body Measurement Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Game Play Mode",
+        "text_b": "Multi Player",
+        "label": "correct"
+    },
+    {
+        "text_a": "Ocean Body Of Water",
+        "text_b": "Body Of Water",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Broadcast Service",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Specialty",
+        "text_b": "Otolaryngologic",
+        "label": "correct"
+    },
+    {
+        "text_a": "Property Value Specification",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Register Action",
+        "text_b": "Interact Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Restricted Diet",
+        "label": "correct"
+    },
+    {
+        "text_a": "Trade Action",
+        "text_b": "Donate Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Exchange Refund",
+        "text_b": "Refund Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Entity",
+        "text_b": "Nerve",
+        "label": "correct"
+    },
+    {
+        "text_a": "Discover Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size System MX",
+        "text_b": "Size System Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "Nonprofit501c1",
+        "label": "correct"
+    },
+    {
+        "text_a": "Exercise Action",
+        "text_b": "Play Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Hematologic",
+        "text_b": "Medical Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Car Usage Type",
+        "text_b": "Taxi Vehicle Usage",
+        "label": "correct"
+    },
+    {
+        "text_a": "Online Event Attendance Mode",
+        "text_b": "Event Attendance Mode Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Ski Resort",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Car Usage Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "Business Audience",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Project",
+        "label": "correct"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Oncologic",
+        "label": "correct"
+    },
+    {
+        "text_a": "Music Event",
+        "text_b": "Event",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Television Station",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "EU Energy Efficiency Enumeration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Social Event",
+        "label": "correct"
+    },
+    {
+        "text_a": "In Store Only",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Specialty",
+        "text_b": "Neurologic",
+        "label": "correct"
+    },
+    {
+        "text_a": "Breadcrumb List",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nutrition Information",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Media Object",
+        "text_b": "Audio Object Snapshot",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Math Solver",
+        "label": "correct"
+    },
+    {
+        "text_a": "Event",
+        "text_b": "User Plays",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Item List Order Ascending",
+        "label": "correct"
+    },
+    {
+        "text_a": "Side Effects Health Aspect",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Administrative Area",
+        "text_b": "State",
+        "label": "correct"
+    },
+    {
+        "text_a": "Trip",
+        "text_b": "Flight",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Return Label In Box",
+        "label": "correct"
+    },
+    {
+        "text_a": "Neck",
+        "text_b": "Medical Procedure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Assess Action",
+        "text_b": "Like Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Landform",
+        "text_b": "Continent",
+        "label": "correct"
+    },
+    {
+        "text_a": "Size System Enumeration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Interact Action",
+        "text_b": "Join Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Downpayment",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Review Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Flight Reservation",
+        "text_b": "Reservation",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Low Fat Diet",
+        "label": "correct"
+    },
+    {
+        "text_a": "Energy Efficiency Enumeration",
+        "text_b": "EU Energy Efficiency Category F",
+        "label": "correct"
+    },
+    {
+        "text_a": "Administrative Area",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Employer Review",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Music Group",
+        "text_b": "Performing Group",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Add Action",
+        "text_b": "Update Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Vegetarian Diet",
+        "text_b": "Restricted Diet",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Renal",
+        "label": "correct"
+    },
+    {
+        "text_a": "Online Business",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Landform",
+        "text_b": "Volcano",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Imaging Technique",
+        "text_b": "MRI",
+        "label": "correct"
+    },
+    {
+        "text_a": "Virus",
+        "text_b": "Infectious Agent Class",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Choose Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Education Event",
+        "text_b": "Event",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Train Station",
+        "label": "correct"
+    },
+    {
+        "text_a": "Sea Body Of Water",
+        "text_b": "Landform",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Placebo Controlled Trial",
+        "label": "correct"
+    },
+    {
+        "text_a": "Anatomical Structure",
+        "text_b": "Brain Structure",
+        "label": "correct"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c28",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Place",
+        "label": "correct"
+    },
+    {
+        "text_a": "Emergency Service",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Co Op",
+        "text_b": "Game Play Mode",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Health Aspect Enumeration",
+        "text_b": "Treatments Health Aspect",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Photograph Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Energy Star Certified",
+        "text_b": "Energy Efficiency Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Replace Action",
+        "text_b": "Update Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Causes Health Aspect",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Beach",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Comment",
+        "label": "correct"
+    },
+    {
+        "text_a": "How To Direction",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Weapon Consideration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Study Status",
+        "text_b": "Suspended",
+        "label": "correct"
+    },
+    {
+        "text_a": "Item Page",
+        "text_b": "Web Page",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Results Not Available",
+        "text_b": "Medical Study Status",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "How To Supply",
+        "text_b": "How To Item",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "News Article",
+        "text_b": "Review News Article",
+        "label": "correct"
+    },
+    {
+        "text_a": "User Downloads",
+        "text_b": "Event",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Size System Enumeration",
+        "text_b": "Wearable Size System JP",
+        "label": "correct"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Win Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Civic Structure",
+        "text_b": "Event Venue",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Organization Role",
+        "label": "correct"
+    },
+    {
+        "text_a": "Gated Residence Community",
+        "text_b": "Residence",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Toy Store",
+        "text_b": "Store",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Body Measurement Type Enumeration",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Job Posting",
+        "label": "correct"
+    },
+    {
+        "text_a": "Aquarium",
+        "text_b": "Place",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Educational Organization",
+        "text_b": "College Or University",
+        "label": "correct"
+    },
+    {
+        "text_a": "Special Announcement",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Public Health",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Pet Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "US Nonprofit Type",
+        "text_b": "Nonprofit501c2",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "FD Acategory B",
+        "label": "correct"
+    },
+    {
+        "text_a": "Remix Album",
+        "text_b": "Music Album Production Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Answer",
+        "text_b": "Comment",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Credit Card",
+        "text_b": "Payment Method",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Create Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Neurologic",
+        "label": "correct"
+    },
+    {
+        "text_a": "House",
+        "text_b": "Accommodation",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Government Building",
+        "text_b": "Courthouse",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Tourist Information Center",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Return Fees Customer Responsibility",
+        "label": "correct"
+    },
+    {
+        "text_a": "Financial Product",
+        "text_b": "Mortgage Loan",
+        "label": "correct"
+    },
+    {
+        "text_a": "Motorcycle Repair",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Financial Product",
+        "text_b": "Investment Fund",
+        "label": "correct"
+    },
+    {
+        "text_a": "Auto Repair",
+        "text_b": "Automotive Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Search Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Refund Type Enumeration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Find Action",
+        "text_b": "Track Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Body Measurement Bust",
+        "label": "correct"
+    },
+    {
+        "text_a": "Restricted Diet",
+        "text_b": "Low Salt Diet",
+        "label": "correct"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "Nonprofit501e",
+        "label": "correct"
+    },
+    {
+        "text_a": "Body Measurement Bust",
+        "text_b": "Body Measurement Type Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Action Status Type",
+        "text_b": "Active Action Status",
+        "label": "correct"
+    },
+    {
+        "text_a": "Digital Document",
+        "text_b": "Note Digital Document",
+        "label": "correct"
+    },
+    {
+        "text_a": "Broadcast Channel",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Delivery Event",
+        "text_b": "Event",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Achieve Action",
+        "text_b": "Tie Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Audiobook Format",
+        "text_b": "Book Format Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Day Of Week",
+        "label": "correct"
+    },
+    {
+        "text_a": "Mobile Application",
+        "text_b": "Software Application",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "List Item",
+        "text_b": "How To Section",
+        "label": "correct"
+    },
+    {
+        "text_a": "Audiobook",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Payment Service",
+        "text_b": "Service",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Offer Catalog",
+        "text_b": "Item List",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Enumeration",
+        "text_b": "Percutaneous Procedure",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Recycling Center",
+        "label": "correct"
+    },
+    {
+        "text_a": "Event Scheduled",
+        "text_b": "Status Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Assign Action",
+        "text_b": "Organize Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Contact Point Option",
+        "text_b": "Toll Free",
+        "label": "correct"
+    },
+    {
+        "text_a": "Parking Map",
+        "text_b": "Map Category Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Home Goods Store",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Reject Action",
+        "text_b": "Organize Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Social Media Posting",
+        "text_b": "Article",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "WP Header",
+        "text_b": "Web Page Element",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Wearable Size System UK",
+        "text_b": "Size System Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Zone Boarding Policy",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Nutrition Information",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medicine System",
+        "text_b": "Traditional Chinese",
+        "label": "correct"
+    },
+    {
+        "text_a": "General Contractor",
+        "text_b": "Home And Construction Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Web Page",
+        "text_b": "Medical Web Page",
+        "label": "correct"
+    },
+    {
+        "text_a": "Health Plan Formulary",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Theater Event",
+        "text_b": "Event",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Measurement Type Enumeration",
+        "text_b": "Body Measurement Hand",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Return In Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Home And Construction Business",
+        "text_b": "Locksmith",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Size Group Short",
+        "text_b": "Size Group Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Depart Action",
+        "text_b": "Move Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Specialty",
+        "text_b": "Endocrine",
+        "label": "correct"
+    },
+    {
+        "text_a": "Physical Exam",
+        "text_b": "Abdomen",
+        "label": "correct"
+    },
+    {
+        "text_a": "FD Acategory C",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Check In Action",
+        "text_b": "Communicate Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit501f",
+        "text_b": "US Nonprofit Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Aggregate Rating",
+        "label": "correct"
+    },
+    {
+        "text_a": "Auto Wash",
+        "text_b": "Local Business",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Television Station",
+        "label": "correct"
+    },
+    {
+        "text_a": "Hackathon",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Action",
+        "text_b": "Quote Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Usage Or Schedule Health Aspect",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Nonprofit Type",
+        "text_b": "Nonprofit501c14",
+        "label": "correct"
+    },
+    {
+        "text_a": "Update Action",
+        "text_b": "Delete Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Violence Consideration",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Prescription Only",
+        "text_b": "Medical Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Optician",
+        "label": "correct"
+    },
+    {
+        "text_a": "Prepend Action",
+        "text_b": "Insert Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Procedure",
+        "text_b": "Musculoskeletal Exam",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Sign Or Symptom",
+        "text_b": "Vital Sign",
+        "label": "correct"
+    },
+    {
+        "text_a": "Virtual Location",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Flight",
+        "label": "correct"
+    },
+    {
+        "text_a": "Vehicle",
+        "text_b": "Motorized Bicycle",
+        "label": "correct"
+    },
+    {
+        "text_a": "Install Action",
+        "text_b": "Consume Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Paid Leave",
+        "text_b": "Government Benefits Type",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Control Action",
+        "text_b": "Deactivate Action",
+        "label": "correct"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Edited Or Cropped Content",
+        "label": "correct"
+    },
+    {
+        "text_a": "Receive Action",
+        "text_b": "Action",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "News Media Organization",
+        "label": "correct"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Payment Status Type",
+        "label": "correct"
+    },
+    {
+        "text_a": "Health Plan Cost Sharing Specification",
+        "text_b": "Intangible",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Bed Details",
+        "label": "correct"
+    },
+    {
+        "text_a": "Language",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Locker Delivery",
+        "label": "correct"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Rating",
+        "label": "correct"
+    },
+    {
+        "text_a": "Return At Kiosk",
+        "text_b": "Return Method Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Safety Health Aspect",
+        "label": "correct"
+    },
+    {
+        "text_a": "Sculpture",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Home And Construction Business",
+        "text_b": "Moving Company",
+        "label": "correct"
+    },
+    {
+        "text_a": "Vegan Diet",
+        "text_b": "Restricted Diet",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Health Aspect Enumeration",
+        "text_b": "Symptoms Health Aspect",
+        "label": "correct"
+    },
+    {
+        "text_a": "Message",
+        "text_b": "Thing",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Store",
+        "text_b": "Mobile Phone Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Measurement Type Enumeration",
+        "text_b": "Wearable Measurement Height",
+        "label": "correct"
+    },
+    {
+        "text_a": "Toxicologic",
+        "text_b": "Specialty",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Bike Store",
+        "text_b": "Store",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Publication Event",
+        "label": "correct"
+    },
+    {
+        "text_a": "Wearable Size Group Misses",
+        "text_b": "Size Group Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Intangible",
+        "text_b": "Warranty Scope",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Language",
+        "label": "correct"
+    },
+    {
+        "text_a": "Radio Channel",
+        "text_b": "Broadcast Channel",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "User Interaction",
+        "text_b": "User Comments",
+        "label": "correct"
+    },
+    {
+        "text_a": "Local Business",
+        "text_b": "Jewelry Store",
+        "label": "correct"
+    },
+    {
+        "text_a": "Size Group Enumeration",
+        "text_b": "Wearable Size Group Extra Short",
+        "label": "correct"
+    },
+    {
+        "text_a": "Order Returned",
+        "text_b": "Order Status",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Distance Fee",
+        "text_b": "Enumeration",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Medical Specialty",
+        "text_b": "Primary Care",
+        "label": "correct"
+    },
+    {
+        "text_a": "Publication Event",
+        "text_b": "On Demand Event",
+        "label": "correct"
+    },
+    {
+        "text_a": "Medical Specialty",
+        "text_b": "Public Health",
+        "label": "correct"
+    },
+    {
+        "text_a": "Status Enumeration",
+        "text_b": "Reservation Hold",
+        "label": "correct"
+    },
+    {
+        "text_a": "Funding Agency",
+        "text_b": "Organization",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Price Component Type Enumeration",
+        "text_b": "Cleaning Fee",
+        "label": "correct"
+    },
+    {
+        "text_a": "Thing",
+        "text_b": "Hyper Toc",
+        "label": "correct"
+    },
+    {
+        "text_a": "Data Feed",
+        "text_b": "Creative Work",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "Enumeration",
+        "text_b": "Laser Disc Format",
+        "label": "correct"
+    }
+]

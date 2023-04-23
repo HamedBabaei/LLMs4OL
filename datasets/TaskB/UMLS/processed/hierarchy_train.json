@@ -1,0 +1,507 @@
+[
+    {
+        "text_a": "inorganic chemical",
+        "text_b": "substance",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "nucleotide sequence",
+        "text_b": "idea or concept",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "conceptual entity",
+        "text_b": "a",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "fully formed anatomical structure",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "fungus",
+        "label": "correct"
+    },
+    {
+        "text_a": "conceptual entity",
+        "text_b": "intellectual product",
+        "label": "correct"
+    },
+    {
+        "text_a": "experimental model of disease",
+        "text_b": "natural phenomenon or process",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "vitamin",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "conceptual entity",
+        "text_b": "organism attribute",
+        "label": "correct"
+    },
+    {
+        "text_a": "nucleic acid, nucleoside, or nucleotide",
+        "text_b": "substance",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "human",
+        "text_b": "organism",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "therapeutic or preventive procedure",
+        "text_b": "activity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "organ or tissue function",
+        "text_b": "phenomenon or process",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "natural phenomenon or process",
+        "text_b": "mental process",
+        "label": "correct"
+    },
+    {
+        "text_a": "  ",
+        "text_b": "injury or poisoning",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "phenomenon or process",
+        "text_b": "genetic function",
+        "label": "correct"
+    },
+    {
+        "text_a": "food",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "conceptual entity",
+        "text_b": "laboratory or test result",
+        "label": "correct"
+    },
+    {
+        "text_a": "body location or region",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "  ",
+        "text_b": "language",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "pharmacologic substance",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "activity",
+        "text_b": "  ",
+        "label": "correct"
+    },
+    {
+        "text_a": "a",
+        "text_b": "organism attribute",
+        "label": "correct"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "virus",
+        "label": "correct"
+    },
+    {
+        "text_a": "diagnostic procedure",
+        "text_b": "occupational activity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "anatomical structure",
+        "text_b": "acquired abnormality",
+        "label": "correct"
+    },
+    {
+        "text_a": "professional or occupational group",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "organism attribute",
+        "text_b": "clinical attribute",
+        "label": "correct"
+    },
+    {
+        "text_a": "chemical",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "anatomical structure",
+        "text_b": "fully formed anatomical structure",
+        "label": "correct"
+    },
+    {
+        "text_a": "phenomenon or process",
+        "text_b": "natural phenomenon or process",
+        "label": "correct"
+    },
+    {
+        "text_a": "age group",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "nucleotide sequence",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "group",
+        "text_b": "a",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "body part, organ, or organ component",
+        "text_b": "anatomical structure",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "conceptual entity",
+        "text_b": "spatial concept",
+        "label": "correct"
+    },
+    {
+        "text_a": "substance",
+        "text_b": "receptor",
+        "label": "correct"
+    },
+    {
+        "text_a": "functional concept",
+        "text_b": "idea or concept",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "conceptual entity",
+        "text_b": "quantitative concept",
+        "label": "correct"
+    },
+    {
+        "text_a": "natural phenomenon or process",
+        "text_b": "cell function",
+        "label": "correct"
+    },
+    {
+        "text_a": "conceptual entity",
+        "text_b": "health care related organization",
+        "label": "correct"
+    },
+    {
+        "text_a": "antibiotic",
+        "text_b": "substance",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "body location or region",
+        "label": "correct"
+    },
+    {
+        "text_a": "activity",
+        "text_b": "machine activity",
+        "label": "correct"
+    },
+    {
+        "text_a": "group",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "reptile",
+        "label": "correct"
+    },
+    {
+        "text_a": "physical object",
+        "text_b": "chemical",
+        "label": "correct"
+    },
+    {
+        "text_a": "physical object",
+        "text_b": "fully formed anatomical structure",
+        "label": "correct"
+    },
+    {
+        "text_a": "physiologic function",
+        "text_b": "phenomenon or process",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "activity",
+        "text_b": "diagnostic procedure",
+        "label": "correct"
+    },
+    {
+        "text_a": "biomedical occupation or discipline",
+        "text_b": "occupation or discipline",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "vertebrate",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "nucleic acid, nucleoside, or nucleotide",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "biomedical or dental material",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "laboratory procedure",
+        "text_b": "occupational activity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "a",
+        "text_b": "group attribute",
+        "label": "correct"
+    },
+    {
+        "text_a": "organization",
+        "text_b": "a",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "cell or molecular dysfunction",
+        "text_b": "natural phenomenon or process",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "language",
+        "text_b": "  ",
+        "label": "correct"
+    },
+    {
+        "text_a": "activity",
+        "text_b": "behavior",
+        "label": "correct"
+    },
+    {
+        "text_a": "biologic function",
+        "text_b": "phenomenon or process",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "governmental or regulatory activity",
+        "text_b": "activity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "substance",
+        "text_b": "nucleic acid, nucleoside, or nucleotide",
+        "label": "correct"
+    },
+    {
+        "text_a": "plant",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "physical object",
+        "text_b": "archaeon",
+        "label": "correct"
+    },
+    {
+        "text_a": "diagnostic procedure",
+        "text_b": "activity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "a",
+        "text_b": "group",
+        "label": "correct"
+    },
+    {
+        "text_a": "immunologic factor",
+        "text_b": "substance",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "a",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "body system",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "gene or genome",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "tissue",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "research device",
+        "text_b": "manufactured object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "spatial concept",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "quantitative concept",
+        "label": "correct"
+    },
+    {
+        "text_a": "occupation or discipline",
+        "text_b": "biomedical occupation or discipline",
+        "label": "correct"
+    },
+    {
+        "text_a": "body location or region",
+        "text_b": "idea or concept",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "intellectual product",
+        "text_b": "a",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "substance",
+        "text_b": "pharmacologic substance",
+        "label": "correct"
+    },
+    {
+        "text_a": "activity",
+        "text_b": "governmental or regulatory activity",
+        "label": "correct"
+    },
+    {
+        "text_a": "b",
+        "text_b": "natural phenomenon or process",
+        "label": "correct"
+    },
+    {
+        "text_a": "phenomenon or process",
+        "text_b": "disease or syndrome",
+        "label": "correct"
+    },
+    {
+        "text_a": "activity",
+        "text_b": "b",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "cell component",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "idea or concept",
+        "text_b": "amino acid sequence",
+        "label": "correct"
+    },
+    {
+        "text_a": "body substance",
+        "text_b": "physical object",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "activity",
+        "text_b": "health care activity",
+        "label": "correct"
+    },
+    {
+        "text_a": "intellectual product",
+        "text_b": "regulation or law",
+        "label": "correct"
+    },
+    {
+        "text_a": "conceptual entity",
+        "text_b": "body space or junction",
+        "label": "correct"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "vertebrate",
+        "label": "correct"
+    },
+    {
+        "text_a": "amphibian",
+        "text_b": "organism",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "phenomenon or process",
+        "text_b": "neoplastic process",
+        "label": "correct"
+    },
+    {
+        "text_a": "chemical",
+        "text_b": "substance",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "organism",
+        "text_b": "animal",
+        "label": "correct"
+    },
+    {
+        "text_a": "physical object",
+        "text_b": "food",
+        "label": "correct"
+    },
+    {
+        "text_a": "  ",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "physical object",
+        "text_b": "fungus",
+        "label": "correct"
+    },
+    {
+        "text_a": "qualitative concept",
+        "text_b": "conceptual entity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "individual behavior",
+        "text_b": "activity",
+        "label": "incorrect"
+    },
+    {
+        "text_a": "activity",
+        "text_b": "molecular biology research technique",
+        "label": "correct"
+    },
+    {
+        "text_a": "natural phenomenon or process",
+        "text_b": "cell or molecular dysfunction",
+        "label": "correct"
+    }
+]
