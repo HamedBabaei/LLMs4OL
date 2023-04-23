@@ -1,0 +1,115 @@
+Running on dataset: wn18rr , model: wn18rr_flan_t5_xl, template: template-1!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_xl', template='template-1', device='cuda')
+Starting the Inference time is: 2023-04-22 01:59:27
+WNDataset:Test-SET --- template-1: [SENTENCE]. [A] POS is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-xl
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_xl/output-wn18rr_flan_t5_xl-template-1-2023-04-22 01:59:27.json
+Results: {'MAP@1': 0.84519535374868, 'MAP@5': 0.84519535374868, 'MAP@10': 0.84519535374868}
+scoring results in:results/wn18rr/wn18rr_flan_t5_xl/report-wn18rr_flan_t5_xl-template-1-2023-04-22 01:59:27.json
+Ending the Inference time is: 2023-04-22 02:03:40
+Total duration is===> 0:04:13.433579
+Inference for  wn18rr_flan_t5_xl on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_xl, template: template-2!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_xl', template='template-2', device='cuda')
+Starting the Inference time is: 2023-04-22 02:03:47
+WNDataset:Test-SET --- template-2: [SENTENCE]. [A] part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-xl
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_xl/output-wn18rr_flan_t5_xl-template-2-2023-04-22 02:03:47.json
+Results: {'MAP@1': 0.8477296726504752, 'MAP@5': 0.8477296726504752, 'MAP@10': 0.8477296726504752}
+scoring results in:results/wn18rr/wn18rr_flan_t5_xl/report-wn18rr_flan_t5_xl-template-2-2023-04-22 02:03:47.json
+Ending the Inference time is: 2023-04-22 02:06:57
+Total duration is===> 0:03:10.206460
+Inference for  wn18rr_flan_t5_xl on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_xl, template: template-3!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_xl', template='template-3', device='cuda')
+Starting the Inference time is: 2023-04-22 02:07:03
+WNDataset:Test-SET --- template-3: [SENTENCE]. '[A]' POS is a 
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-xl
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_xl/output-wn18rr_flan_t5_xl-template-3-2023-04-22 02:07:03.json
+Results: {'MAP@1': 0.7727560718057023, 'MAP@5': 0.7727560718057023, 'MAP@10': 0.7727560718057023}
+scoring results in:results/wn18rr/wn18rr_flan_t5_xl/report-wn18rr_flan_t5_xl-template-3-2023-04-22 02:07:03.json
+Ending the Inference time is: 2023-04-22 02:10:44
+Total duration is===> 0:03:41.268026
+Inference for  wn18rr_flan_t5_xl on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_xl, template: template-4!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_xl', template='template-4', device='cuda')
+Starting the Inference time is: 2023-04-22 02:10:51
+WNDataset:Test-SET --- template-4: [SENTENCE]. '[A]' part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-xl
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_xl/output-wn18rr_flan_t5_xl-template-4-2023-04-22 02:10:51.json
+Results: {'MAP@1': 0.862829989440338, 'MAP@5': 0.862829989440338, 'MAP@10': 0.862829989440338}
+scoring results in:results/wn18rr/wn18rr_flan_t5_xl/report-wn18rr_flan_t5_xl-template-4-2023-04-22 02:10:51.json
+Ending the Inference time is: 2023-04-22 02:13:45
+Total duration is===> 0:02:53.757879
+Inference for  wn18rr_flan_t5_xl on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_xl, template: template-5!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_xl', template='template-5', device='cuda')
+Starting the Inference time is: 2023-04-22 02:13:51
+WNDataset:Test-SET --- template-5: [A] POS is a 
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-xl
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_xl/output-wn18rr_flan_t5_xl-template-5-2023-04-22 02:13:50.json
+Results: {'MAP@1': 0.5023231256599788, 'MAP@5': 0.5023231256599788, 'MAP@10': 0.5023231256599788}
+scoring results in:results/wn18rr/wn18rr_flan_t5_xl/report-wn18rr_flan_t5_xl-template-5-2023-04-22 02:13:50.json
+Ending the Inference time is: 2023-04-22 02:17:22
+Total duration is===> 0:03:31.587422
+Inference for  wn18rr_flan_t5_xl on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_xl, template: template-6!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_xl', template='template-6', device='cuda')
+Starting the Inference time is: 2023-04-22 02:17:28
+WNDataset:Test-SET --- template-6: [A] part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-xl
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_xl/output-wn18rr_flan_t5_xl-template-6-2023-04-22 02:17:28.json
+Results: {'MAP@1': 0.7646251319957761, 'MAP@5': 0.7646251319957761, 'MAP@10': 0.7646251319957761}
+scoring results in:results/wn18rr/wn18rr_flan_t5_xl/report-wn18rr_flan_t5_xl-template-6-2023-04-22 02:17:28.json
+Ending the Inference time is: 2023-04-22 02:20:48
+Total duration is===> 0:03:19.826389
+Inference for  wn18rr_flan_t5_xl on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_xl, template: template-7!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_xl', template='template-7', device='cuda')
+Starting the Inference time is: 2023-04-22 02:20:54
+WNDataset:Test-SET --- template-7: '[A]' POS is a 
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-xl
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_xl/output-wn18rr_flan_t5_xl-template-7-2023-04-22 02:20:54.json
+Results: {'MAP@1': 0.7238648363252376, 'MAP@5': 0.7238648363252376, 'MAP@10': 0.7238648363252376}
+scoring results in:results/wn18rr/wn18rr_flan_t5_xl/report-wn18rr_flan_t5_xl-template-7-2023-04-22 02:20:54.json
+Ending the Inference time is: 2023-04-22 02:23:24
+Total duration is===> 0:02:29.848841
+Inference for  wn18rr_flan_t5_xl on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_xl, template: template-8!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_xl', template='template-8', device='cuda')
+Starting the Inference time is: 2023-04-22 02:23:30
+WNDataset:Test-SET --- template-8: '[A]' part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-xl
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_xl/output-wn18rr_flan_t5_xl-template-8-2023-04-22 02:23:30.json
+Results: {'MAP@1': 0.8051742344244984, 'MAP@5': 0.8051742344244984, 'MAP@10': 0.8051742344244984}
+scoring results in:results/wn18rr/wn18rr_flan_t5_xl/report-wn18rr_flan_t5_xl-template-8-2023-04-22 02:23:30.json
+Ending the Inference time is: 2023-04-22 02:25:40
+Total duration is===> 0:02:09.866633
+Inference for  wn18rr_flan_t5_xl on template: template-8  is done
+-----------------------------------------------------------
+args: Namespace(kb_name='umls', model_to_train='flan_t5_large', num_train_epochs=5)
+{'loss': 1.6284, 'learning_rate': 9.325236167341432e-06, 'epoch': 0.34}
+{'loss': 0.9361, 'learning_rate': 8.650472334682861e-06, 'epoch': 0.67}
+{'loss': 0.6988, 'learning_rate': 7.975708502024292e-06, 'epoch': 1.01}
+{'loss': 0.5532, 'learning_rate': 7.3009446693657226e-06, 'epoch': 1.35}
+{'loss': 0.5103, 'learning_rate': 6.626180836707154e-06, 'epoch': 1.69}
+{'loss': 0.478, 'learning_rate': 5.951417004048583e-06, 'epoch': 2.02}
+{'loss': 0.3881, 'learning_rate': 5.276653171390014e-06, 'epoch': 2.36}
+{'loss': 0.3669, 'learning_rate': 4.601889338731444e-06, 'epoch': 2.7}
+{'loss': 0.3268, 'learning_rate': 3.9271255060728745e-06, 'epoch': 3.04}
+{'loss': 0.2989, 'learning_rate': 3.2523616734143056e-06, 'epoch': 3.37}
+{'loss': 0.2927, 'learning_rate': 2.5775978407557354e-06, 'epoch': 3.71}
+{'loss': 0.2717, 'learning_rate': 1.902834008097166e-06, 'epoch': 4.05}
+{'loss': 0.2707, 'learning_rate': 1.2280701754385965e-06, 'epoch': 4.39}
+{'loss': 0.2711, 'learning_rate': 5.53306342780027e-07, 'epoch': 4.72}
+{'train_runtime': 7117.2692, 'train_samples_per_second': 8.326, 'train_steps_per_second': 1.041, 'train_loss': 0.5057995794916603, 'epoch': 5.0}
+TrainOutput(global_step=7410, training_loss=0.5057995794916603, metrics={'train_runtime': 7117.2692, 'train_samples_per_second': 8.326, 'train_steps_per_second': 1.041, 'train_loss': 0.5057995794916603, 'epoch': 5.0})
+SAVING MODEL ..... 
+MODEL trained and saved into: ../assets/FSL/umls-flan-t5-large

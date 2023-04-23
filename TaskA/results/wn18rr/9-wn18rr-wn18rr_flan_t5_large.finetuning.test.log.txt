@@ -1,0 +1,96 @@
+Running on dataset: wn18rr , model: wn18rr_flan_t5_large, template: template-1!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_large', template='template-1', device='cuda')
+Starting the Inference time is: 2023-04-22 01:44:14
+WNDataset:Test-SET --- template-1: [SENTENCE]. [A] POS is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-large
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_large/output-wn18rr_flan_t5_large-template-1-2023-04-22 01:44:14.json
+Results: {'MAP@1': 0.7332629355860613, 'MAP@5': 0.7332629355860613, 'MAP@10': 0.7332629355860613}
+scoring results in:results/wn18rr/wn18rr_flan_t5_large/report-wn18rr_flan_t5_large-template-1-2023-04-22 01:44:14.json
+Ending the Inference time is: 2023-04-22 01:46:05
+Total duration is===> 0:01:51.138655
+Inference for  wn18rr_flan_t5_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_large, template: template-2!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_large', template='template-2', device='cuda')
+Starting the Inference time is: 2023-04-22 01:46:10
+WNDataset:Test-SET --- template-2: [SENTENCE]. [A] part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-large
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_large/output-wn18rr_flan_t5_large-template-2-2023-04-22 01:46:10.json
+Results: {'MAP@1': 0.7674762407602956, 'MAP@5': 0.7674762407602956, 'MAP@10': 0.7674762407602956}
+scoring results in:results/wn18rr/wn18rr_flan_t5_large/report-wn18rr_flan_t5_large-template-2-2023-04-22 01:46:10.json
+Ending the Inference time is: 2023-04-22 01:47:40
+Total duration is===> 0:01:30.107573
+Inference for  wn18rr_flan_t5_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_large, template: template-3!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_large', template='template-3', device='cuda')
+Starting the Inference time is: 2023-04-22 01:47:45
+WNDataset:Test-SET --- template-3: [SENTENCE]. '[A]' POS is a 
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-large
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_large/output-wn18rr_flan_t5_large-template-3-2023-04-22 01:47:45.json
+Results: {'MAP@1': 0.5457233368532207, 'MAP@5': 0.5457233368532207, 'MAP@10': 0.5457233368532207}
+scoring results in:results/wn18rr/wn18rr_flan_t5_large/report-wn18rr_flan_t5_large-template-3-2023-04-22 01:47:45.json
+Ending the Inference time is: 2023-04-22 01:49:48
+Total duration is===> 0:02:02.218386
+Inference for  wn18rr_flan_t5_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_large, template: template-4!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_large', template='template-4', device='cuda')
+Starting the Inference time is: 2023-04-22 01:49:53
+WNDataset:Test-SET --- template-4: [SENTENCE]. '[A]' part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-large
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_large/output-wn18rr_flan_t5_large-template-4-2023-04-22 01:49:53.json
+Results: {'MAP@1': 0.7690601900739177, 'MAP@5': 0.7690601900739177, 'MAP@10': 0.7690601900739177}
+scoring results in:results/wn18rr/wn18rr_flan_t5_large/report-wn18rr_flan_t5_large-template-4-2023-04-22 01:49:53.json
+Ending the Inference time is: 2023-04-22 01:51:21
+Total duration is===> 0:01:28.551768
+Inference for  wn18rr_flan_t5_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_large, template: template-5!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_large', template='template-5', device='cuda')
+Starting the Inference time is: 2023-04-22 01:51:27
+WNDataset:Test-SET --- template-5: [A] POS is a 
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-large
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_large/output-wn18rr_flan_t5_large-template-5-2023-04-22 01:51:27.json
+Results: {'MAP@1': 0.10834213305174234, 'MAP@5': 0.10834213305174234, 'MAP@10': 0.10834213305174234}
+scoring results in:results/wn18rr/wn18rr_flan_t5_large/report-wn18rr_flan_t5_large-template-5-2023-04-22 01:51:27.json
+Ending the Inference time is: 2023-04-22 01:53:32
+Total duration is===> 0:02:05.628221
+Inference for  wn18rr_flan_t5_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_large, template: template-6!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_large', template='template-6', device='cuda')
+Starting the Inference time is: 2023-04-22 01:53:38
+WNDataset:Test-SET --- template-6: [A] part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-large
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_large/output-wn18rr_flan_t5_large-template-6-2023-04-22 01:53:38.json
+Results: {'MAP@1': 0.6136219640971489, 'MAP@5': 0.6136219640971489, 'MAP@10': 0.6136219640971489}
+scoring results in:results/wn18rr/wn18rr_flan_t5_large/report-wn18rr_flan_t5_large-template-6-2023-04-22 01:53:38.json
+Ending the Inference time is: 2023-04-22 01:55:29
+Total duration is===> 0:01:51.303978
+Inference for  wn18rr_flan_t5_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_large, template: template-7!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_large', template='template-7', device='cuda')
+Starting the Inference time is: 2023-04-22 01:55:35
+WNDataset:Test-SET --- template-7: '[A]' POS is a 
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-large
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_large/output-wn18rr_flan_t5_large-template-7-2023-04-22 01:55:35.json
+Results: {'MAP@1': 0.5429778247096093, 'MAP@5': 0.5429778247096093, 'MAP@10': 0.5429778247096093}
+scoring results in:results/wn18rr/wn18rr_flan_t5_large/report-wn18rr_flan_t5_large-template-7-2023-04-22 01:55:35.json
+Ending the Inference time is: 2023-04-22 01:57:35
+Total duration is===> 0:02:00.033639
+Inference for  wn18rr_flan_t5_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: wn18rr_flan_t5_large, template: template-8!
+args: Namespace(kb_name='wn18rr', model_name='wn18rr_flan_t5_large', template='template-8', device='cuda')
+Starting the Inference time is: 2023-04-22 01:57:41
+WNDataset:Test-SET --- template-8: '[A]' part of speech is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/wn18rr-flan-t5-large
+scoring model outputs in:results/wn18rr/wn18rr_flan_t5_large/output-wn18rr_flan_t5_large-template-8-2023-04-22 01:57:41.json
+Results: {'MAP@1': 0.6932418162618796, 'MAP@5': 0.6932418162618796, 'MAP@10': 0.6932418162618796}
+scoring results in:results/wn18rr/wn18rr_flan_t5_large/report-wn18rr_flan_t5_large-template-8-2023-04-22 01:57:41.json
+Ending the Inference time is: 2023-04-22 01:59:22
+Total duration is===> 0:01:41.073815
+Inference for  wn18rr_flan_t5_large on template: template-8  is done
+-----------------------------------------------------------
