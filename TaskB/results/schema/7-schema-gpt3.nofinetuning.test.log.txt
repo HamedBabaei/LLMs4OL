@@ -1,0 +1,48 @@
+Running on dataset: schema , model: gpt3, template: -0-!
+scoring model outputs in: results/schema/gpt3/output-gpt3-0-2023-04-23 17:28:55.json
+Accuracy: 0.5042134831460674
+storing results in: results/schema/gpt3/report-gpt3-0-2023-04-23 17:28:55.json
+Inference for  gpt3 on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3, template: -1-!
+scoring model outputs in: results/schema/gpt3/output-gpt3-1-2023-04-23 17:45:25.json
+Accuracy: 0.49297752808988765
+storing results in: results/schema/gpt3/report-gpt3-1-2023-04-23 17:45:25.json
+Inference for  gpt3 on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3, template: -2-!
+scoring model outputs in: results/schema/gpt3/output-gpt3-2-2023-04-23 18:02:00.json
+Accuracy: 0.5124063670411985
+storing results in: results/schema/gpt3/report-gpt3-2-2023-04-23 18:02:00.json
+Inference for  gpt3 on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3, template: -3-!
+scoring model outputs in: results/schema/gpt3/output-gpt3-3-2023-04-23 18:18:58.json
+Accuracy: 0.48431647940074907
+storing results in: results/schema/gpt3/report-gpt3-3-2023-04-23 18:18:58.json
+Inference for  gpt3 on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3, template: -4-!
+scoring model outputs in: results/schema/gpt3/output-gpt3-4-2023-04-23 18:35:39.json
+Accuracy: 0.48525280898876405
+storing results in: results/schema/gpt3/report-gpt3-4-2023-04-23 18:35:39.json
+Inference for  gpt3 on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3, template: -5-!
+scoring model outputs in: results/schema/gpt3/output-gpt3-5-2023-04-23 18:52:13.json
+Accuracy: 0.49602059925093633
+storing results in: results/schema/gpt3/report-gpt3-5-2023-04-23 18:52:13.json
+Inference for  gpt3 on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3, template: -6-!
+scoring model outputs in: results/schema/gpt3/output-gpt3-6-2023-04-23 19:08:48.json
+Accuracy: 0.4901685393258427
+storing results in: results/schema/gpt3/report-gpt3-6-2023-04-23 19:08:48.json
+Inference for  gpt3 on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt3, template: -7-!
+scoring model outputs in: results/schema/gpt3/output-gpt3-7-2023-04-23 19:25:44.json
+Accuracy: 0.49765917602996257
+storing results in: results/schema/gpt3/report-gpt3-7-2023-04-23 19:25:44.json
+Inference for  gpt3 on template: -7-  is done
+-----------------------------------------------------------

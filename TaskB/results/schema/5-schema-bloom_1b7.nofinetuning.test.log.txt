@@ -1,0 +1,80 @@
+Running on dataset: schema , model: bloom_1b7, template: 0!
+args: Namespace(kb_name='schema', model='bloom_1b7', template='0', device='cuda:1')
+Starting the Inference time is: 2023-04-23 18:46:48
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.49953183520599254
+scoring results in:results/schema/bloom_1b7/report-bloom_1b7-0-2023-04-23 18:46:48.json
+Ending the Inference time is: 2023-04-23 18:52:39
+Total duration is===> 0:05:51.301203
+Inference for  bloom_1b7 on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bloom_1b7, template: 1!
+args: Namespace(kb_name='schema', model='bloom_1b7', template='1', device='cuda:1')
+Starting the Inference time is: 2023-04-23 18:52:44
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5306647940074907
+scoring results in:results/schema/bloom_1b7/report-bloom_1b7-1-2023-04-23 18:52:44.json
+Ending the Inference time is: 2023-04-23 18:57:15
+Total duration is===> 0:04:30.794701
+Inference for  bloom_1b7 on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bloom_1b7, template: 2!
+args: Namespace(kb_name='schema', model='bloom_1b7', template='2', device='cuda:1')
+Starting the Inference time is: 2023-04-23 18:57:21
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.49953183520599254
+scoring results in:results/schema/bloom_1b7/report-bloom_1b7-2-2023-04-23 18:57:21.json
+Ending the Inference time is: 2023-04-23 19:02:42
+Total duration is===> 0:05:21.079018
+Inference for  bloom_1b7 on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bloom_1b7, template: 3!
+args: Namespace(kb_name='schema', model='bloom_1b7', template='3', device='cuda:1')
+Starting the Inference time is: 2023-04-23 19:02:48
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5091292134831461
+scoring results in:results/schema/bloom_1b7/report-bloom_1b7-3-2023-04-23 19:02:48.json
+Ending the Inference time is: 2023-04-23 19:07:29
+Total duration is===> 0:04:41.665180
+Inference for  bloom_1b7 on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bloom_1b7, template: 4!
+args: Namespace(kb_name='schema', model='bloom_1b7', template='4', device='cuda:1')
+Starting the Inference time is: 2023-04-23 19:07:34
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.4967228464419476
+scoring results in:results/schema/bloom_1b7/report-bloom_1b7-4-2023-04-23 19:07:34.json
+Ending the Inference time is: 2023-04-23 19:11:58
+Total duration is===> 0:04:24.441126
+Inference for  bloom_1b7 on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bloom_1b7, template: 5!
+args: Namespace(kb_name='schema', model='bloom_1b7', template='5', device='cuda:1')
+Starting the Inference time is: 2023-04-23 19:12:03
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5304307116104869
+scoring results in:results/schema/bloom_1b7/report-bloom_1b7-5-2023-04-23 19:12:03.json
+Ending the Inference time is: 2023-04-23 19:16:27
+Total duration is===> 0:04:24.551165
+Inference for  bloom_1b7 on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bloom_1b7, template: 6!
+args: Namespace(kb_name='schema', model='bloom_1b7', template='6', device='cuda:1')
+Starting the Inference time is: 2023-04-23 19:16:33
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.5044475655430711
+scoring results in:results/schema/bloom_1b7/report-bloom_1b7-6-2023-04-23 19:16:33.json
+Ending the Inference time is: 2023-04-23 19:20:55
+Total duration is===> 0:04:22.476135
+Inference for  bloom_1b7 on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: bloom_1b7, template: 7!
+args: Namespace(kb_name='schema', model='bloom_1b7', template='7', device='cuda:1')
+Starting the Inference time is: 2023-04-23 19:21:01
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5098314606741573
+scoring results in:results/schema/bloom_1b7/report-bloom_1b7-7-2023-04-23 19:21:01.json
+Ending the Inference time is: 2023-04-23 19:25:33
+Total duration is===> 0:04:31.885979
+Inference for  bloom_1b7 on template: 7  is done
+-----------------------------------------------------------
