@@ -49,7 +49,7 @@ if __name__=="__main__":
             "dataset-in-use": str(config.kb_name),
             "configs": vars(config)
     }
-    print("Accuracy:", report['results']['accuracy'])
+    print("F1-Score:", results['clf-report']['macro avg']['f1-score'])
     print("storing results in:", report_file_path)
     DataWriter.write_json(data=report, path=report_file_path)
 

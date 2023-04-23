@@ -2,7 +2,7 @@ Running on dataset: umls , model: bloom_3b !
 args: Namespace(kb_name='umls', model='bloom_3b', device='cuda')
 Starting the Inference time is: 2023-04-23 16:22:16
 Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.7432835820895523
+F1-Score: 0.427001012860256
 scoring results in:results/umls/bloom_3b/report-bloom_3b-2023-04-23 16:22:16.json
 Ending the Inference time is: 2023-04-23 16:33:54
 Total duration is===> 0:11:37.827035

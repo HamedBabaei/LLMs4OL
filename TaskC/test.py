@@ -39,7 +39,7 @@ if __name__ == "__main__":
     else:
         y_true, y_pred  = model.test()
         results = EvaluationMetrics.evaluate(actual=y_true, predicted=y_pred)
-        print("Accuracy:", results['accuracy'])
+        print("F1-Score:", results['clf-report']['macro avg']['f1-score'])
         report_dict = {
             "baseline-run-args": str(args),
             "report_output_refrence": config.report_output,

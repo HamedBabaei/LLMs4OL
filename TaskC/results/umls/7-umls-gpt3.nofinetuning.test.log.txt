@@ -1,6 +1,6 @@
 Running on dataset: umls , model: gpt3, template: -0-!
 scoring model outputs in: results/umls/gpt3/output-gpt3-2023-04-23 16:33:58.json
-Accuracy: 0.38872305140961855
+F1-Score: 0.38840272769778184
 storing results in: results/umls/gpt3/report-gpt3-2023-04-23 16:33:58.json
 Inference for  gpt3 on template: -0-  is done
 -----------------------------------------------------------
