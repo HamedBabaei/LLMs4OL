@@ -260,7 +260,7 @@ def add_task_b_info_geonames(config, dataset_json):
     for task_b_data in task_b_new:
         search_type = get_searchable_class(task_b_data['label-triples'])
         for index, data in enumerate(dataset_json):
-            if not data['task-b'] and search_type != 'NA':
+            if not data['task-b'] and search_type != 'NA' and not data['negative']:
                 if data['type-label'] == search_type:
                     dataset_json[index]['task-b'] = True
                     dataset_json[index]['task-b-items'] = task_b_data['label-names']
@@ -297,7 +297,7 @@ def add_task_b_info_umls(config, dataset_json):
     for task_b_data in task_b_new:
         search_type_a, search_type_b = task_b_data['label-triples'][0], task_b_data['label-triples'][1]
         for index, data in enumerate(dataset_json):
-            if not data['task-b']:
+            if not data['task-b'] and not data['negative']:
                 if search_type_a == data['type-label'] or search_type_b == data['type-label']:
                     dataset_json[index]['task-b'] = True
                     dataset_json[index]['task-b-items'] = task_b_data['label-names']
@@ -332,7 +332,7 @@ def add_task_c_info_umls(config, dataset_json):
     for task_c_data in task_c_new:
         search_type_h, search_type_t = task_c_data['label-triples'][0], task_c_data['label-triples'][1]
         for index, data in enumerate(dataset_json):
-            if not data['task-c']:
+            if not data['task-c'] and not data['negative']:
                 if search_type_h == data['type-label'] or search_type_t == data['type-label']:
                     dataset_json[index]['task-c'] = True
                     dataset_json[index]['task-c-items'] = task_c_data['label-names']
