@@ -38,7 +38,6 @@ if __name__=="__main__":
             else:
                 predict_label = "incorrect"
             predictions.append(predict_label)
-            predictions.append(predict)
             labels.append(label)
     else:
         predictions = outputs['predictions']
