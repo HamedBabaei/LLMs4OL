@@ -9,3 +9,4 @@
 - Negative examples: 1896
 - Positive Samples: 5641
 - size of processed hierarchy in UMLS is : 7537
+- Train size:1507,  Test size:6030

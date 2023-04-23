@@ -1,0 +1,10 @@
+Running on dataset: umls , model: bloom_1b7 !
+args: Namespace(kb_name='umls', model='bloom_1b7', device='cuda')
+Starting the Inference time is: 2023-04-23 16:15:11
+Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.7446102819237148
+scoring results in:results/umls/bloom_1b7/report-bloom_1b7-2023-04-23 16:15:11.json
+Ending the Inference time is: 2023-04-23 16:22:10
+Total duration is===> 0:06:59.001541
+Inference for  bloom_1b7  is done
+-----------------------------------------------------------

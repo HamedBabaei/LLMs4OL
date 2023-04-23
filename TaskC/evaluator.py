@@ -7,6 +7,7 @@ from src import EvaluationMetrics
 if __name__=="__main__":
     config = ExternalEvaluationConfig().get_args()
     output_dir = os.path.join(config.root_dir, config.kb_name, config.model)
+    label_mapper = DataReader.load_json(config.label_mapper)
 
     if not os.path.exists(output_dir):
         print(f"'{output_dir}' is not existed!")
@@ -14,7 +15,7 @@ if __name__=="__main__":
 
     outputs_file = []
     for file in os.listdir(output_dir):
-        if "output" in file and config.template in file:
+        if "output" in file:
             outputs_file.append(file)
     assert len(outputs_file) == 1
 
@@ -29,11 +30,14 @@ if __name__=="__main__":
         for output in outputs:
             label = output['result']['data']['label']
             if "ada" in config.model:
-                predict = output['result']['response']
+                predict = output['result']['response'].lower()
             else:
                 predict = output['result']['response']['choices'][0]['text'].lower().rstrip('\n').strip()
-                predict = "correct" if "true" in predict else "incorrect"
-            predictions.append(predict)
+            if predict in label_mapper['correct']:
+                predict_label = "correct"
+            else:
+                predict_label = "incorrect"
+            predictions.append(predict_label)
             labels.append(label)
     else:
         predictions = outputs['predictions']
@@ -45,9 +49,7 @@ if __name__=="__main__":
             "dataset-in-use": str(config.kb_name),
             "configs": vars(config)
     }
-
-
-    print("Results:", report['results']['clf-report'])
+    print("Accuracy:", report['results']['accuracy'])
     print("storing results in:", report_file_path)
     DataWriter.write_json(data=report, path=report_file_path)
 

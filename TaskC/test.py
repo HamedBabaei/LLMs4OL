@@ -16,7 +16,7 @@ if __name__ == "__main__":
     config = BaseConfig().get_args(kb_name=args.kb_name, model=args.model)
     start_time = datetime.datetime.now()
     print("Starting the Inference time is:", str(start_time).split('.')[0])
-    dataset = DataReader.load_json(config.processed_sn)
+    dataset = DataReader.load_json(config.processed_test)
     templates = DataReader.load_text(config.template_text).split("\n")
     template = templates[config.template]
     print(f"Working on template: {config.template}: {template}")
@@ -39,7 +39,7 @@ if __name__ == "__main__":
     else:
         y_true, y_pred  = model.test()
         results = EvaluationMetrics.evaluate(actual=y_true, predicted=y_pred)
-        print(results['clf-report'])
+        print("Accuracy:", results['accuracy'])
         report_dict = {
             "baseline-run-args": str(args),
             "report_output_refrence": config.report_output,

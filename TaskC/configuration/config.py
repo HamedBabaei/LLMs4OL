@@ -19,7 +19,7 @@ class BaseConfig:
         }
         self.root_dir = "../datasets/TaskC"
         self.llms_root_dir = "../assets/LLMs"
-        
+
     def mkdir(self, path):
         if not os.path.exists(path):
             os.mkdir(path)
@@ -28,6 +28,8 @@ class BaseConfig:
         self.parser.add_argument("--raw_sn_re", type=str, default=f"{self.root_dir}/{dataset}/raw/SRSTRE1")
         self.parser.add_argument("--raw_sn_re_def", type=str, default=f"{self.root_dir}/{dataset}/raw/SRDEF")
         self.parser.add_argument("--processed_sn", type=str, default=f"{self.root_dir}/{dataset}/processed/graph_sn_dict.json")
+        self.parser.add_argument("--processed_train", type=str,  default=f"{self.root_dir}/{dataset}/processed/graph_sn_dict_train.json")
+        self.parser.add_argument("--processed_test", type=str, default=f"{self.root_dir}/{dataset}/processed/graph_sn_dict_test.json")
 
     def get_args(self, kb_name:str, model:str = None):
         """
@@ -43,13 +45,13 @@ class BaseConfig:
         self.parser.add_argument("--device")
         
         # add general specific arguments
-        # self.parser.add_argument("--processed_hier", type=str, default=f"{self.root_dir}/{dataset}/processed/hierarchy_dict.json")
-
         self.parser.add_argument("--template_text", type=str, default=f"{self.root_dir}/templates.txt")
         self.parser.add_argument("--template", type=int, default=0)
         self.parser.add_argument("--labels_path", type=str, default=f"{self.root_dir}/label_mapper.json")
         self.parser.add_argument("--dataset", type=str, default=kb_name)
-        
+        self.parser.add_argument("--seed", type=int, default=555)
+        self.parser.add_argument("--test_size", type=float, default=0.8)
+
         time = str(datetime.datetime.now()).split('.')[0]
         if model:
             self.mkdir(f"results/{kb_name}/{model}")
@@ -120,5 +122,6 @@ class ExternalEvaluationConfig:
         self.parser.add_argument("--model", type=str, default="gpt3")
         self.parser.add_argument("--template", type=str, default="template-1")
         self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt3_ada"])
+        self.parser.add_argument("--label_mapper", type=str, default="../datasets/TaskC/label_mapper.json")
         self.parser.add_argument("-f")
         return self.parser.parse_args()

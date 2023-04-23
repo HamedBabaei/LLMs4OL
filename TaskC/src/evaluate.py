@@ -10,7 +10,7 @@ class EvaluationMetrics:
     def evaluate(actual, predicted):
         # f1 = f1_score(actual, predicted)
         accuracy = accuracy_score(actual, predicted)
-        clf_report = classification_report(actual, predicted)
+        clf_report = classification_report(actual, predicted, output_dict=True)
         return {"accuracy": accuracy, "clf-report": clf_report}
 
 

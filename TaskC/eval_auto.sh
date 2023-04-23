@@ -4,7 +4,7 @@ label="nofinetuning"
 
 datasets=("umls")
 templates=("-0-")
-models=("gpt3" "gpt3_ada")
+models=("gpt3")
 
 for kb_name in "${datasets[@]}"; do
   index=7
