@@ -1,0 +1,80 @@
+Running on dataset: geonames , model: bert_large, template: 0!
+args: Namespace(kb_name='geonames', model='bert_large', template='0', device='cuda')
+Starting the Inference time is: 2023-04-23 16:40:54
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.41544117647058826
+scoring results in:results/geonames/bert_large/report-bert_large-0-2023-04-23 16:40:54.json
+Ending the Inference time is: 2023-04-23 16:41:34
+Total duration is===> 0:00:39.963376
+Inference for  bert_large on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: 1!
+args: Namespace(kb_name='geonames', model='bert_large', template='1', device='cuda')
+Starting the Inference time is: 2023-04-23 16:41:38
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5625
+scoring results in:results/geonames/bert_large/report-bert_large-1-2023-04-23 16:41:38.json
+Ending the Inference time is: 2023-04-23 16:42:18
+Total duration is===> 0:00:40.081524
+Inference for  bert_large on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: 2!
+args: Namespace(kb_name='geonames', model='bert_large', template='2', device='cuda')
+Starting the Inference time is: 2023-04-23 16:42:23
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.4264705882352941
+scoring results in:results/geonames/bert_large/report-bert_large-2-2023-04-23 16:42:23.json
+Ending the Inference time is: 2023-04-23 16:43:04
+Total duration is===> 0:00:40.832128
+Inference for  bert_large on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: 3!
+args: Namespace(kb_name='geonames', model='bert_large', template='3', device='cuda')
+Starting the Inference time is: 2023-04-23 16:43:08
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5330882352941176
+scoring results in:results/geonames/bert_large/report-bert_large-3-2023-04-23 16:43:08.json
+Ending the Inference time is: 2023-04-23 16:43:48
+Total duration is===> 0:00:40.551849
+Inference for  bert_large on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: 4!
+args: Namespace(kb_name='geonames', model='bert_large', template='4', device='cuda')
+Starting the Inference time is: 2023-04-23 16:43:52
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.44393382352941174
+scoring results in:results/geonames/bert_large/report-bert_large-4-2023-04-23 16:43:52.json
+Ending the Inference time is: 2023-04-23 16:44:33
+Total duration is===> 0:00:40.939879
+Inference for  bert_large on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: 5!
+args: Namespace(kb_name='geonames', model='bert_large', template='5', device='cuda')
+Starting the Inference time is: 2023-04-23 16:44:37
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5211397058823529
+scoring results in:results/geonames/bert_large/report-bert_large-5-2023-04-23 16:44:37.json
+Ending the Inference time is: 2023-04-23 16:45:53
+Total duration is===> 0:01:15.332661
+Inference for  bert_large on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: 6!
+args: Namespace(kb_name='geonames', model='bert_large', template='6', device='cuda')
+Starting the Inference time is: 2023-04-23 16:45:57
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.45036764705882354
+scoring results in:results/geonames/bert_large/report-bert_large-6-2023-04-23 16:45:57.json
+Ending the Inference time is: 2023-04-23 16:46:37
+Total duration is===> 0:00:40.653578
+Inference for  bert_large on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bert_large, template: 7!
+args: Namespace(kb_name='geonames', model='bert_large', template='7', device='cuda')
+Starting the Inference time is: 2023-04-23 16:46:42
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5505514705882353
+scoring results in:results/geonames/bert_large/report-bert_large-7-2023-04-23 16:46:42.json
+Ending the Inference time is: 2023-04-23 16:47:23
+Total duration is===> 0:00:40.128576
+Inference for  bert_large on template: 7  is done
+-----------------------------------------------------------

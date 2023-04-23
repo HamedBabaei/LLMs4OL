@@ -1,0 +1,48 @@
+Running on dataset: umls , model: gpt3, template: -0-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-0-2023-04-23 17:15:31.json
+Accuracy: 0.5331695331695332
+storing results in: results/umls/gpt3/report-gpt3-0-2023-04-23 17:15:31.json
+Inference for  gpt3 on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt3, template: -1-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-1-2023-04-23 17:17:15.json
+Accuracy: 0.4987714987714988
+storing results in: results/umls/gpt3/report-gpt3-1-2023-04-23 17:17:15.json
+Inference for  gpt3 on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt3, template: -2-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-2-2023-04-23 17:18:55.json
+Accuracy: 0.5110565110565111
+storing results in: results/umls/gpt3/report-gpt3-2-2023-04-23 17:18:55.json
+Inference for  gpt3 on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt3, template: -3-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-3-2023-04-23 17:20:36.json
+Accuracy: 0.44226044226044225
+storing results in: results/umls/gpt3/report-gpt3-3-2023-04-23 17:20:36.json
+Inference for  gpt3 on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt3, template: -4-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-4-2023-04-23 17:22:21.json
+Accuracy: 0.5257985257985258
+storing results in: results/umls/gpt3/report-gpt3-4-2023-04-23 17:22:21.json
+Inference for  gpt3 on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt3, template: -5-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-5-2023-04-23 17:23:57.json
+Accuracy: 0.47665847665847666
+storing results in: results/umls/gpt3/report-gpt3-5-2023-04-23 17:23:57.json
+Inference for  gpt3 on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt3, template: -6-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-6-2023-04-23 17:25:38.json
+Accuracy: 0.4619164619164619
+storing results in: results/umls/gpt3/report-gpt3-6-2023-04-23 17:25:38.json
+Inference for  gpt3 on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt3, template: -7-!
+scoring model outputs in: results/umls/gpt3/output-gpt3-7-2023-04-23 17:27:19.json
+Accuracy: 0.47665847665847666
+storing results in: results/umls/gpt3/report-gpt3-7-2023-04-23 17:27:19.json
+Inference for  gpt3 on template: -7-  is done
+-----------------------------------------------------------

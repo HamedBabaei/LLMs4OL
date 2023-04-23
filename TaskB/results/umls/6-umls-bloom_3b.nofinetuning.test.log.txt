@@ -1,0 +1,80 @@
+Running on dataset: umls , model: bloom_3b, template: 0!
+args: Namespace(kb_name='umls', model='bloom_3b', template='0', device='cuda')
+Starting the Inference time is: 2023-04-23 19:14:09
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.4963144963144963
+scoring results in:results/umls/bloom_3b/report-bloom_3b-0-2023-04-23 19:14:09.json
+Ending the Inference time is: 2023-04-23 19:17:57
+Total duration is===> 0:03:47.934465
+Inference for  bloom_3b on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: bloom_3b, template: 1!
+args: Namespace(kb_name='umls', model='bloom_3b', template='1', device='cuda')
+Starting the Inference time is: 2023-04-23 19:18:02
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5208845208845209
+scoring results in:results/umls/bloom_3b/report-bloom_3b-1-2023-04-23 19:18:02.json
+Ending the Inference time is: 2023-04-23 19:19:11
+Total duration is===> 0:01:08.732632
+Inference for  bloom_3b on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: bloom_3b, template: 2!
+args: Namespace(kb_name='umls', model='bloom_3b', template='2', device='cuda')
+Starting the Inference time is: 2023-04-23 19:19:19
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.4963144963144963
+scoring results in:results/umls/bloom_3b/report-bloom_3b-2-2023-04-23 19:19:19.json
+Ending the Inference time is: 2023-04-23 19:20:32
+Total duration is===> 0:01:12.153210
+Inference for  bloom_3b on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: bloom_3b, template: 3!
+args: Namespace(kb_name='umls', model='bloom_3b', template='3', device='cuda')
+Starting the Inference time is: 2023-04-23 19:20:37
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.515970515970516
+scoring results in:results/umls/bloom_3b/report-bloom_3b-3-2023-04-23 19:20:37.json
+Ending the Inference time is: 2023-04-23 19:21:47
+Total duration is===> 0:01:09.994878
+Inference for  bloom_3b on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: bloom_3b, template: 4!
+args: Namespace(kb_name='umls', model='bloom_3b', template='4', device='cuda')
+Starting the Inference time is: 2023-04-23 19:21:53
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.4963144963144963
+scoring results in:results/umls/bloom_3b/report-bloom_3b-4-2023-04-23 19:21:53.json
+Ending the Inference time is: 2023-04-23 19:23:03
+Total duration is===> 0:01:10.288465
+Inference for  bloom_3b on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: bloom_3b, template: 5!
+args: Namespace(kb_name='umls', model='bloom_3b', template='5', device='cuda')
+Starting the Inference time is: 2023-04-23 19:23:08
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5184275184275184
+scoring results in:results/umls/bloom_3b/report-bloom_3b-5-2023-04-23 19:23:08.json
+Ending the Inference time is: 2023-04-23 19:24:20
+Total duration is===> 0:01:11.564065
+Inference for  bloom_3b on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: bloom_3b, template: 6!
+args: Namespace(kb_name='umls', model='bloom_3b', template='6', device='cuda')
+Starting the Inference time is: 2023-04-23 19:24:25
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.49385749385749383
+scoring results in:results/umls/bloom_3b/report-bloom_3b-6-2023-04-23 19:24:25.json
+Ending the Inference time is: 2023-04-23 19:25:49
+Total duration is===> 0:01:23.818801
+Inference for  bloom_3b on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: bloom_3b, template: 7!
+args: Namespace(kb_name='umls', model='bloom_3b', template='7', device='cuda')
+Starting the Inference time is: 2023-04-23 19:25:54
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+Accuracy: 0.5257985257985258
+scoring results in:results/umls/bloom_3b/report-bloom_3b-7-2023-04-23 19:25:54.json
+Ending the Inference time is: 2023-04-23 19:27:09
+Total duration is===> 0:01:15.102158
+Inference for  bloom_3b on template: 7  is done
+-----------------------------------------------------------

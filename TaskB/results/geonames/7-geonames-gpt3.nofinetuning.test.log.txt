@@ -1,0 +1,48 @@
+Running on dataset: geonames , model: gpt3, template: -0-!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-0-2023-04-23 16:41:26.json
+Accuracy: 0.4632352941176471
+storing results in: results/geonames/gpt3/report-gpt3-0-2023-04-23 16:41:26.json
+Inference for  gpt3 on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: -1-!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-1-2023-04-23 16:45:37.json
+Accuracy: 0.5238970588235294
+storing results in: results/geonames/gpt3/report-gpt3-1-2023-04-23 16:45:37.json
+Inference for  gpt3 on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: -2-!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-2-2023-04-23 16:49:44.json
+Accuracy: 0.44485294117647056
+storing results in: results/geonames/gpt3/report-gpt3-2-2023-04-23 16:49:44.json
+Inference for  gpt3 on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: -3-!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-3-2023-04-23 16:53:53.json
+Accuracy: 0.5542279411764706
+storing results in: results/geonames/gpt3/report-gpt3-3-2023-04-23 16:53:53.json
+Inference for  gpt3 on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: -4-!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-4-2023-04-23 16:58:09.json
+Accuracy: 0.4806985294117647
+storing results in: results/geonames/gpt3/report-gpt3-4-2023-04-23 16:58:09.json
+Inference for  gpt3 on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: -5-!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-5-2023-04-23 17:02:30.json
+Accuracy: 0.5404411764705882
+storing results in: results/geonames/gpt3/report-gpt3-5-2023-04-23 17:02:30.json
+Inference for  gpt3 on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: -6-!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-6-2023-04-23 17:06:52.json
+Accuracy: 0.4632352941176471
+storing results in: results/geonames/gpt3/report-gpt3-6-2023-04-23 17:06:52.json
+Inference for  gpt3 on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt3, template: -7-!
+scoring model outputs in: results/geonames/gpt3/output-gpt3-7-2023-04-23 17:11:13.json
+Accuracy: 0.5367647058823529
+storing results in: results/geonames/gpt3/report-gpt3-7-2023-04-23 17:11:13.json
+Inference for  gpt3 on template: -7-  is done
+-----------------------------------------------------------
