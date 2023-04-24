@@ -1,0 +1,104 @@
+Running on dataset: medcin , model: umls_flan_t5_large, template: template-1!
+args: Namespace(kb_name='medcin', model_name='umls_flan_t5_large', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-04-24 09:44:52
+UMLSDataset:Test-SET-medcin --- template-1: [SENTENCE]. [A] in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/medcin/umls_flan_t5_large/output-umls_flan_t5_large-template-1-2023-04-24 09:44:52.json
+Results: {'MAP@1': 0.38375350140056025, 'MAP@5': 0.10318759806328029, 'MAP@10': 0.08824612319154465}
+scoring results in:results/medcin/umls_flan_t5_large/report-umls_flan_t5_large-template-1-2023-04-24 09:44:52.json
+Ending the Inference time is: 2023-04-24 10:00:09
+Total duration is===> 0:15:17.007623
+Inference for  umls_flan_t5_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: umls_flan_t5_large, template: template-2!
+args: Namespace(kb_name='medcin', model_name='umls_flan_t5_large', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-04-24 10:00:19
+UMLSDataset:Test-SET-medcin --- template-2: [SENTENCE]. [A] in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/medcin/umls_flan_t5_large/output-umls_flan_t5_large-template-2-2023-04-24 10:00:19.json
+Results: {'MAP@1': 0.3637702503681885, 'MAP@5': 0.09607746878820257, 'MAP@10': 0.08075039867035015}
+scoring results in:results/medcin/umls_flan_t5_large/report-umls_flan_t5_large-template-2-2023-04-24 10:00:19.json
+Ending the Inference time is: 2023-04-24 10:15:46
+Total duration is===> 0:15:27.229016
+Inference for  umls_flan_t5_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: umls_flan_t5_large, template: template-3!
+args: Namespace(kb_name='medcin', model_name='umls_flan_t5_large', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-04-24 10:15:53
+UMLSDataset:Test-SET-medcin --- template-3: [SENTENCE]. '[A]' in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/medcin/umls_flan_t5_large/output-umls_flan_t5_large-template-3-2023-04-24 10:15:53.json
+Results: {'MAP@1': 0.37436830402264, 'MAP@5': 0.100876914339619, 'MAP@10': 0.08635330420828126}
+scoring results in:results/medcin/umls_flan_t5_large/report-umls_flan_t5_large-template-3-2023-04-24 10:15:53.json
+Ending the Inference time is: 2023-04-24 10:31:01
+Total duration is===> 0:15:07.392405
+Inference for  umls_flan_t5_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: umls_flan_t5_large, template: template-4!
+args: Namespace(kb_name='medcin', model_name='umls_flan_t5_large', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-04-24 10:31:07
+UMLSDataset:Test-SET-medcin --- template-4: [SENTENCE]. '[A]' in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/medcin/umls_flan_t5_large/output-umls_flan_t5_large-template-4-2023-04-24 10:31:07.json
+Results: {'MAP@1': 0.3586878050189148, 'MAP@5': 0.09513269225215859, 'MAP@10': 0.08019757158304329}
+scoring results in:results/medcin/umls_flan_t5_large/report-umls_flan_t5_large-template-4-2023-04-24 10:31:07.json
+Ending the Inference time is: 2023-04-24 10:46:36
+Total duration is===> 0:15:28.364134
+Inference for  umls_flan_t5_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: umls_flan_t5_large, template: template-5!
+args: Namespace(kb_name='medcin', model_name='umls_flan_t5_large', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-04-24 10:46:42
+UMLSDataset:Test-SET-medcin --- template-5: [A] in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/medcin/umls_flan_t5_large/output-umls_flan_t5_large-template-5-2023-04-24 10:46:42.json
+Results: {'MAP@1': 0.3126281440411216, 'MAP@5': 0.08289992973134272, 'MAP@10': 0.07038784585999347}
+scoring results in:results/medcin/umls_flan_t5_large/report-umls_flan_t5_large-template-5-2023-04-24 10:46:42.json
+Ending the Inference time is: 2023-04-24 11:01:41
+Total duration is===> 0:14:58.547205
+Inference for  umls_flan_t5_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: umls_flan_t5_large, template: template-6!
+args: Namespace(kb_name='medcin', model_name='umls_flan_t5_large', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-04-24 11:01:48
+UMLSDataset:Test-SET-medcin --- template-6: [A] in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/medcin/umls_flan_t5_large/output-umls_flan_t5_large-template-6-2023-04-24 11:01:48.json
+Results: {'MAP@1': 0.30009529585029887, 'MAP@5': 0.07850043797587765, 'MAP@10': 0.06575186202774352}
+scoring results in:results/medcin/umls_flan_t5_large/report-umls_flan_t5_large-template-6-2023-04-24 11:01:48.json
+Ending the Inference time is: 2023-04-24 11:16:17
+Total duration is===> 0:14:29.533431
+Inference for  umls_flan_t5_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: umls_flan_t5_large, template: template-7!
+args: Namespace(kb_name='medcin', model_name='umls_flan_t5_large', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-04-24 11:16:26
+UMLSDataset:Test-SET-medcin --- template-7: '[A]' in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/medcin/umls_flan_t5_large/output-umls_flan_t5_large-template-7-2023-04-24 11:16:26.json
+Results: {'MAP@1': 0.33112420225822287, 'MAP@5': 0.08836548365050487, 'MAP@10': 0.075294883130801}
+scoring results in:results/medcin/umls_flan_t5_large/report-umls_flan_t5_large-template-7-2023-04-24 11:16:26.json
+Ending the Inference time is: 2023-04-24 11:31:13
+Total duration is===> 0:14:47.222160
+Inference for  umls_flan_t5_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: umls_flan_t5_large, template: template-8!
+args: Namespace(kb_name='medcin', model_name='umls_flan_t5_large', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-04-24 11:31:22
+UMLSDataset:Test-SET-medcin --- template-8: '[A]' in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/medcin/umls_flan_t5_large/output-umls_flan_t5_large-template-8-2023-04-24 11:31:22.json
+Results: {'MAP@1': 0.31911114961448495, 'MAP@5': 0.08414551387565336, 'MAP@10': 0.07084098244108641}
+scoring results in:results/medcin/umls_flan_t5_large/report-umls_flan_t5_large-template-8-2023-04-24 11:31:22.json
+Ending the Inference time is: 2023-04-24 11:45:51
+Total duration is===> 0:14:29.173360
+Inference for  umls_flan_t5_large on template: template-8  is done
+-----------------------------------------------------------

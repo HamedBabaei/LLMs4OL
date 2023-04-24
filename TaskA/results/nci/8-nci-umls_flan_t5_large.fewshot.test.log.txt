@@ -1,0 +1,104 @@
+Running on dataset: nci , model: umls_flan_t5_large, template: template-1!
+args: Namespace(kb_name='nci', model_name='umls_flan_t5_large', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-04-24 06:59:57
+UMLSDataset:Test-SET-nci --- template-1: [SENTENCE]. [A] in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/nci/umls_flan_t5_large/output-umls_flan_t5_large-template-1-2023-04-24 06:59:57.json
+Results: {'MAP@1': 0.3060511540860886, 'MAP@5': 0.08382754557427045, 'MAP@10': 0.07160288084180785}
+scoring results in:results/nci/umls_flan_t5_large/report-umls_flan_t5_large-template-1-2023-04-24 06:59:57.json
+Ending the Inference time is: 2023-04-24 07:05:37
+Total duration is===> 0:05:40.547885
+Inference for  umls_flan_t5_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: umls_flan_t5_large, template: template-2!
+args: Namespace(kb_name='nci', model_name='umls_flan_t5_large', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-04-24 07:05:44
+UMLSDataset:Test-SET-nci --- template-2: [SENTENCE]. [A] in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/nci/umls_flan_t5_large/output-umls_flan_t5_large-template-2-2023-04-24 07:05:44.json
+Results: {'MAP@1': 0.3159492618007902, 'MAP@5': 0.0862438483399182, 'MAP@10': 0.07353272798687646}
+scoring results in:results/nci/umls_flan_t5_large/report-umls_flan_t5_large-template-2-2023-04-24 07:05:44.json
+Ending the Inference time is: 2023-04-24 07:11:22
+Total duration is===> 0:05:37.432189
+Inference for  umls_flan_t5_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: umls_flan_t5_large, template: template-3!
+args: Namespace(kb_name='nci', model_name='umls_flan_t5_large', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-04-24 07:11:28
+UMLSDataset:Test-SET-nci --- template-3: [SENTENCE]. '[A]' in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/nci/umls_flan_t5_large/output-umls_flan_t5_large-template-3-2023-04-24 07:11:28.json
+Results: {'MAP@1': 0.31328758577666876, 'MAP@5': 0.08581756428918003, 'MAP@10': 0.07345897407968524}
+scoring results in:results/nci/umls_flan_t5_large/report-umls_flan_t5_large-template-3-2023-04-24 07:11:28.json
+Ending the Inference time is: 2023-04-24 07:17:11
+Total duration is===> 0:05:43.552497
+Inference for  umls_flan_t5_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: umls_flan_t5_large, template: template-4!
+args: Namespace(kb_name='nci', model_name='umls_flan_t5_large', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-04-24 07:17:17
+UMLSDataset:Test-SET-nci --- template-4: [SENTENCE]. '[A]' in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/nci/umls_flan_t5_large/output-umls_flan_t5_large-template-4-2023-04-24 07:17:17.json
+Results: {'MAP@1': 0.31927635683094197, 'MAP@5': 0.0870187842240244, 'MAP@10': 0.07418459766245168}
+scoring results in:results/nci/umls_flan_t5_large/report-umls_flan_t5_large-template-4-2023-04-24 07:17:17.json
+Ending the Inference time is: 2023-04-24 07:23:01
+Total duration is===> 0:05:44.351272
+Inference for  umls_flan_t5_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: umls_flan_t5_large, template: template-5!
+args: Namespace(kb_name='nci', model_name='umls_flan_t5_large', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-04-24 07:23:07
+UMLSDataset:Test-SET-nci --- template-5: [A] in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/nci/umls_flan_t5_large/output-umls_flan_t5_large-template-5-2023-04-24 07:23:07.json
+Results: {'MAP@1': 0.29116240382615927, 'MAP@5': 0.0804678727386151, 'MAP@10': 0.06889507768172771}
+scoring results in:results/nci/umls_flan_t5_large/report-umls_flan_t5_large-template-5-2023-04-24 07:23:07.json
+Ending the Inference time is: 2023-04-24 07:28:20
+Total duration is===> 0:05:12.758257
+Inference for  umls_flan_t5_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: umls_flan_t5_large, template: template-6!
+args: Namespace(kb_name='nci', model_name='umls_flan_t5_large', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-04-24 07:28:26
+UMLSDataset:Test-SET-nci --- template-6: [A] in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/nci/umls_flan_t5_large/output-umls_flan_t5_large-template-6-2023-04-24 07:28:26.json
+Results: {'MAP@1': 0.2928259513412352, 'MAP@5': 0.0807250294586539, 'MAP@10': 0.06897629114722065}
+scoring results in:results/nci/umls_flan_t5_large/report-umls_flan_t5_large-template-6-2023-04-24 07:28:26.json
+Ending the Inference time is: 2023-04-24 07:33:28
+Total duration is===> 0:05:01.994620
+Inference for  umls_flan_t5_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: umls_flan_t5_large, template: template-7!
+args: Namespace(kb_name='nci', model_name='umls_flan_t5_large', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-04-24 07:33:33
+UMLSDataset:Test-SET-nci --- template-7: '[A]' in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/nci/umls_flan_t5_large/output-umls_flan_t5_large-template-7-2023-04-24 07:33:33.json
+Results: {'MAP@1': 0.3129132875857767, 'MAP@5': 0.08672419768489638, 'MAP@10': 0.07482263744896309}
+scoring results in:results/nci/umls_flan_t5_large/report-umls_flan_t5_large-template-7-2023-04-24 07:33:33.json
+Ending the Inference time is: 2023-04-24 07:38:34
+Total duration is===> 0:05:00.540187
+Inference for  umls_flan_t5_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: umls_flan_t5_large, template: template-8!
+args: Namespace(kb_name='nci', model_name='umls_flan_t5_large', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-04-24 07:38:40
+UMLSDataset:Test-SET-nci --- template-8: '[A]' in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/nci/umls_flan_t5_large/output-umls_flan_t5_large-template-8-2023-04-24 07:38:40.json
+Results: {'MAP@1': 0.30796423372842585, 'MAP@5': 0.08496846191169335, 'MAP@10': 0.07296243485264071}
+scoring results in:results/nci/umls_flan_t5_large/report-umls_flan_t5_large-template-8-2023-04-24 07:38:40.json
+Ending the Inference time is: 2023-04-24 07:43:54
+Total duration is===> 0:05:14.175620
+Inference for  umls_flan_t5_large on template: template-8  is done
+-----------------------------------------------------------

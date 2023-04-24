@@ -1,0 +1,104 @@
+Running on dataset: snomedct_us , model: umls_flan_t5_large, template: template-1!
+args: Namespace(kb_name='snomedct_us', model_name='umls_flan_t5_large', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-04-24 07:43:59
+UMLSDataset:Test-SET-snomedct_us --- template-1: [SENTENCE]. [A] in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/snomedct_us/umls_flan_t5_large/output-umls_flan_t5_large-template-1-2023-04-24 07:43:59.json
+Results: {'MAP@1': 0.32272897088829494, 'MAP@5': 0.07267987661771609, 'MAP@10': 0.05545887234394864}
+scoring results in:results/snomedct_us/umls_flan_t5_large/report-umls_flan_t5_large-template-1-2023-04-24 07:43:59.json
+Ending the Inference time is: 2023-04-24 07:59:29
+Total duration is===> 0:15:29.764512
+Inference for  umls_flan_t5_large on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: umls_flan_t5_large, template: template-2!
+args: Namespace(kb_name='snomedct_us', model_name='umls_flan_t5_large', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-04-24 07:59:35
+UMLSDataset:Test-SET-snomedct_us --- template-2: [SENTENCE]. [A] in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/snomedct_us/umls_flan_t5_large/output-umls_flan_t5_large-template-2-2023-04-24 07:59:35.json
+Results: {'MAP@1': 0.31992700520159784, 'MAP@5': 0.07202895843511413, 'MAP@10': 0.05492456588348475}
+scoring results in:results/snomedct_us/umls_flan_t5_large/report-umls_flan_t5_large-template-2-2023-04-24 07:59:35.json
+Ending the Inference time is: 2023-04-24 08:15:17
+Total duration is===> 0:15:41.936587
+Inference for  umls_flan_t5_large on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: umls_flan_t5_large, template: template-3!
+args: Namespace(kb_name='snomedct_us', model_name='umls_flan_t5_large', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-04-24 08:15:23
+UMLSDataset:Test-SET-snomedct_us --- template-3: [SENTENCE]. '[A]' in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/snomedct_us/umls_flan_t5_large/output-umls_flan_t5_large-template-3-2023-04-24 08:15:23.json
+Results: {'MAP@1': 0.31561628876052533, 'MAP@5': 0.07094984241936564, 'MAP@10': 0.05392728505604616}
+scoring results in:results/snomedct_us/umls_flan_t5_large/report-umls_flan_t5_large-template-3-2023-04-24 08:15:23.json
+Ending the Inference time is: 2023-04-24 08:30:40
+Total duration is===> 0:15:17.134595
+Inference for  umls_flan_t5_large on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: umls_flan_t5_large, template: template-4!
+args: Namespace(kb_name='snomedct_us', model_name='umls_flan_t5_large', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-04-24 08:30:46
+UMLSDataset:Test-SET-snomedct_us --- template-4: [SENTENCE]. '[A]' in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/snomedct_us/umls_flan_t5_large/output-umls_flan_t5_large-template-4-2023-04-24 08:30:46.json
+Results: {'MAP@1': 0.31366209730723915, 'MAP@5': 0.07036693776283395, 'MAP@10': 0.05334266409574626}
+scoring results in:results/snomedct_us/umls_flan_t5_large/report-umls_flan_t5_large-template-4-2023-04-24 08:30:46.json
+Ending the Inference time is: 2023-04-24 08:46:29
+Total duration is===> 0:15:42.111978
+Inference for  umls_flan_t5_large on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: umls_flan_t5_large, template: template-5!
+args: Namespace(kb_name='snomedct_us', model_name='umls_flan_t5_large', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-04-24 08:46:35
+UMLSDataset:Test-SET-snomedct_us --- template-5: [A] in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/snomedct_us/umls_flan_t5_large/output-umls_flan_t5_large-template-5-2023-04-24 08:46:35.json
+Results: {'MAP@1': 0.32005632669483003, 'MAP@5': 0.07276393558831701, 'MAP@10': 0.05673369260531947}
+scoring results in:results/snomedct_us/umls_flan_t5_large/report-umls_flan_t5_large-template-5-2023-04-24 08:46:35.json
+Ending the Inference time is: 2023-04-24 09:00:58
+Total duration is===> 0:14:23.299170
+Inference for  umls_flan_t5_large on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: umls_flan_t5_large, template: template-6!
+args: Namespace(kb_name='snomedct_us', model_name='umls_flan_t5_large', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-04-24 09:01:04
+UMLSDataset:Test-SET-snomedct_us --- template-6: [A] in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/snomedct_us/umls_flan_t5_large/output-umls_flan_t5_large-template-6-2023-04-24 09:01:04.json
+Results: {'MAP@1': 0.31508463373279305, 'MAP@5': 0.07130236323054669, 'MAP@10': 0.05543147420572198}
+scoring results in:results/snomedct_us/umls_flan_t5_large/report-umls_flan_t5_large-template-6-2023-04-24 09:01:04.json
+Ending the Inference time is: 2023-04-24 09:15:22
+Total duration is===> 0:14:18.030479
+Inference for  umls_flan_t5_large on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: umls_flan_t5_large, template: template-7!
+args: Namespace(kb_name='snomedct_us', model_name='umls_flan_t5_large', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-04-24 09:15:28
+UMLSDataset:Test-SET-snomedct_us --- template-7: '[A]' in medicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/snomedct_us/umls_flan_t5_large/output-umls_flan_t5_large-template-7-2023-04-24 09:15:28.json
+Results: {'MAP@1': 0.3339368336350835, 'MAP@5': 0.07533264361870276, 'MAP@10': 0.058659265691121884}
+scoring results in:results/snomedct_us/umls_flan_t5_large/report-umls_flan_t5_large-template-7-2023-04-24 09:15:28.json
+Ending the Inference time is: 2023-04-24 09:30:02
+Total duration is===> 0:14:33.587856
+Inference for  umls_flan_t5_large on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: umls_flan_t5_large, template: template-8!
+args: Namespace(kb_name='snomedct_us', model_name='umls_flan_t5_large', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-04-24 09:30:08
+UMLSDataset:Test-SET-snomedct_us --- template-8: '[A]' in biomedicine is a ?
+Loaded T5ForConditionalGeneration from ../assets/FSL/umls-flan-t5-large
+scoring model outputs in:results/snomedct_us/umls_flan_t5_large/output-umls_flan_t5_large-template-8-2023-04-24 09:30:08.json
+Results: {'MAP@1': 0.3305888438658505, 'MAP@5': 0.07462736251209394, 'MAP@10': 0.05817573559296984}
+scoring results in:results/snomedct_us/umls_flan_t5_large/report-umls_flan_t5_large-template-8-2023-04-24 09:30:08.json
+Ending the Inference time is: 2023-04-24 09:44:46
+Total duration is===> 0:14:37.306096
+Inference for  umls_flan_t5_large on template: template-8  is done
+-----------------------------------------------------------

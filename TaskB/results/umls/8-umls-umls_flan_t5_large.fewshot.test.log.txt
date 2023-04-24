@@ -1,0 +1,64 @@
+Running on dataset: umls , model: umls_flan_t5_large, template: -0-!
+Namespace(kb_name='umls', model='umls_flan_t5_large', template='0', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-0-2023-04-24 11:46:02.json
+F1 Score: 0.3717615012106537
+storing results in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-0-2023-04-24 11:46:02.json
+Inference for  umls_flan_t5_large on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_large, template: -1-!
+Namespace(kb_name='umls', model='umls_flan_t5_large', template='1', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-1-2023-04-24 11:46:34.json
+F1 Score: 0.48667776552579034
+storing results in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-1-2023-04-24 11:46:34.json
+Inference for  umls_flan_t5_large on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_large, template: -2-!
+Namespace(kb_name='umls', model='umls_flan_t5_large', template='2', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-2-2023-04-24 11:47:13.json
+F1 Score: 0.3607475359085839
+storing results in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-2-2023-04-24 11:47:13.json
+Inference for  umls_flan_t5_large on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_large, template: -3-!
+Namespace(kb_name='umls', model='umls_flan_t5_large', template='3', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-3-2023-04-24 11:47:49.json
+F1 Score: 0.421217292377702
+storing results in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-3-2023-04-24 11:47:49.json
+Inference for  umls_flan_t5_large on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_large, template: -4-!
+Namespace(kb_name='umls', model='umls_flan_t5_large', template='4', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-4-2023-04-24 11:48:27.json
+F1 Score: 0.4839641661989982
+storing results in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-4-2023-04-24 11:48:27.json
+Inference for  umls_flan_t5_large on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_large, template: -5-!
+Namespace(kb_name='umls', model='umls_flan_t5_large', template='5', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-5-2023-04-24 11:49:00.json
+F1 Score: 0.46654066462456467
+storing results in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-5-2023-04-24 11:49:00.json
+Inference for  umls_flan_t5_large on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_large, template: -6-!
+Namespace(kb_name='umls', model='umls_flan_t5_large', template='6', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-6-2023-04-24 11:49:36.json
+F1 Score: 0.5342839538772995
+storing results in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-6-2023-04-24 11:49:36.json
+Inference for  umls_flan_t5_large on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_large, template: -7-!
+Namespace(kb_name='umls', model='umls_flan_t5_large', template='7', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-7-2023-04-24 11:50:08.json
+F1 Score: 0.3597040498442368
+storing results in: results/umls/umls_flan_t5_large/report-umls_flan_t5_large-7-2023-04-24 11:50:08.json
+Inference for  umls_flan_t5_large on template: -7-  is done
+-----------------------------------------------------------
