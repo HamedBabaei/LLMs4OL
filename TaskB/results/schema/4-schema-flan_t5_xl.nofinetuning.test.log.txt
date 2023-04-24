@@ -1,7 +1,11 @@
 Running on dataset: schema , model: flan_t5_xl, template: 0!
 args: Namespace(kb_name='schema', model='flan_t5_xl', template='0', device='cuda')
-Starting the Inference time is: 2023-04-23 19:40:39
+Starting the Inference time is: 2023-04-24 15:41:35
 Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+Accuracy: 0.5222378277153558
+scoring results in:results/schema/flan_t5_xl/report-flan_t5_xl-0-2023-04-24 15:41:35.json
+Ending the Inference time is: 2023-04-24 15:46:38
+Total duration is===> 0:05:03.216353
 Inference for  flan_t5_xl on template: 0  is done
 -----------------------------------------------------------
 Running on dataset: schema , model: flan_t5_xl, template: 1!
