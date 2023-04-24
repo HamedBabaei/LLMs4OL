@@ -5,7 +5,7 @@ device="cuda"
 task_a_templates=("template-1" "template-2" "template-3" "template-4" "template-5" "template-6" "template-7" "template-8")
 task_b_templates=("0" "1" "2" "3" "4" "5" "6" "7")
 
-#-------------------------------------FLAN-T5-Large and XL--------UMLS---------------------------------------------------------
+#-------------------------------------FLAN-T5-Large and XL--------WN18RR---------------------------------------------------------
 # running models for WN18RR
 python trainer.py --kb_name="wn18rr" --model_to_train="flan_t5_large" --num_train_epochs=10
 python trainer.py --kb_name="wn18rr" --model_to_train="flan_t5_xl" --num_train_epochs=10
