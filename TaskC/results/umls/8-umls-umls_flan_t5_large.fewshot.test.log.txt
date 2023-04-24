@@ -1,0 +1,11 @@
+Running on dataset: umls , model: umls_flan_t5_large !
+args: Namespace(kb_name='umls', model='umls_flan_t5_large', device='cuda')
+Starting the Inference time is: 2023-04-24 11:50:47
+Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-Score: 0.490534471320029
+scoring results in:results/umls/umls_flan_t5_large/report-umls_flan_t5_large-2023-04-24 11:50:47.json
+Ending the Inference time is: 2023-04-24 11:55:39
+Total duration is===> 0:04:52.245286
+Inference for  umls_flan_t5_large  is done
+-----------------------------------------------------------
+args: Namespace(kb_name='umls', model_to_train='flan_t5_xl', num_train_epochs=10)
