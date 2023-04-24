@@ -1,80 +1,64 @@
-Running on dataset: umls , model: bert_large, template: 0!
-args: Namespace(kb_name='umls', model='bert_large', template='0', device='cuda')
-Starting the Inference time is: 2023-04-23 17:02:30
-Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.515970515970516
-scoring results in:results/umls/bert_large/report-bert_large-0-2023-04-23 17:02:30.json
-Ending the Inference time is: 2023-04-23 17:03:22
-Total duration is===> 0:00:51.899699
-Inference for  bert_large on template: 0  is done
+Running on dataset: umls , model: bert_large, template: -0-!
+Namespace(kb_name='umls', model='bert_large', template='0', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/bert_large/report-bert_large-0-2023-04-23 17:02:30.json
+F1 Score: 0.48215819625015344
+storing results in: results/umls/bert_large/report-bert_large-0-2023-04-23 17:02:30.json
+Inference for  bert_large on template: -0-  is done
 -----------------------------------------------------------
-Running on dataset: umls , model: bert_large, template: 1!
-args: Namespace(kb_name='umls', model='bert_large', template='1', device='cuda')
-Starting the Inference time is: 2023-04-23 17:03:26
-Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.48894348894348894
-scoring results in:results/umls/bert_large/report-bert_large-1-2023-04-23 17:03:26.json
-Ending the Inference time is: 2023-04-23 17:03:44
-Total duration is===> 0:00:17.972141
-Inference for  bert_large on template: 1  is done
+Running on dataset: umls , model: bert_large, template: -1-!
+Namespace(kb_name='umls', model='bert_large', template='1', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/bert_large/report-bert_large-1-2023-04-23 17:03:26.json
+F1 Score: 0.3884297520661157
+storing results in: results/umls/bert_large/report-bert_large-1-2023-04-23 17:03:26.json
+Inference for  bert_large on template: -1-  is done
 -----------------------------------------------------------
-Running on dataset: umls , model: bert_large, template: 2!
-args: Namespace(kb_name='umls', model='bert_large', template='2', device='cuda')
-Starting the Inference time is: 2023-04-23 17:03:49
-Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.4963144963144963
-scoring results in:results/umls/bert_large/report-bert_large-2-2023-04-23 17:03:49.json
-Ending the Inference time is: 2023-04-23 17:04:07
-Total duration is===> 0:00:18.223184
-Inference for  bert_large on template: 2  is done
+Running on dataset: umls , model: bert_large, template: -2-!
+Namespace(kb_name='umls', model='bert_large', template='2', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/bert_large/report-bert_large-2-2023-04-23 17:03:49.json
+F1 Score: 0.41467606720684697
+storing results in: results/umls/bert_large/report-bert_large-2-2023-04-23 17:03:49.json
+Inference for  bert_large on template: -2-  is done
 -----------------------------------------------------------
-Running on dataset: umls , model: bert_large, template: 3!
-args: Namespace(kb_name='umls', model='bert_large', template='3', device='cuda')
-Starting the Inference time is: 2023-04-23 17:04:10
-Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.47665847665847666
-scoring results in:results/umls/bert_large/report-bert_large-3-2023-04-23 17:04:10.json
-Ending the Inference time is: 2023-04-23 17:04:29
-Total duration is===> 0:00:18.864505
-Inference for  bert_large on template: 3  is done
+Running on dataset: umls , model: bert_large, template: -3-!
+Namespace(kb_name='umls', model='bert_large', template='3', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/bert_large/report-bert_large-3-2023-04-23 17:04:10.json
+F1 Score: 0.40412413650891843
+storing results in: results/umls/bert_large/report-bert_large-3-2023-04-23 17:04:10.json
+Inference for  bert_large on template: -3-  is done
 -----------------------------------------------------------
-Running on dataset: umls , model: bert_large, template: 4!
-args: Namespace(kb_name='umls', model='bert_large', template='4', device='cuda')
-Starting the Inference time is: 2023-04-23 17:04:33
-Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.5184275184275184
-scoring results in:results/umls/bert_large/report-bert_large-4-2023-04-23 17:04:33.json
-Ending the Inference time is: 2023-04-23 17:05:03
-Total duration is===> 0:00:29.890693
-Inference for  bert_large on template: 4  is done
+Running on dataset: umls , model: bert_large, template: -4-!
+Namespace(kb_name='umls', model='bert_large', template='4', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/bert_large/report-bert_large-4-2023-04-23 17:04:33.json
+F1 Score: 0.45889407423486
+storing results in: results/umls/bert_large/report-bert_large-4-2023-04-23 17:04:33.json
+Inference for  bert_large on template: -4-  is done
 -----------------------------------------------------------
-Running on dataset: umls , model: bert_large, template: 5!
-args: Namespace(kb_name='umls', model='bert_large', template='5', device='cuda')
-Starting the Inference time is: 2023-04-23 17:05:08
-Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.5085995085995086
-scoring results in:results/umls/bert_large/report-bert_large-5-2023-04-23 17:05:08.json
-Ending the Inference time is: 2023-04-23 17:05:27
-Total duration is===> 0:00:18.208826
-Inference for  bert_large on template: 5  is done
+Running on dataset: umls , model: bert_large, template: -5-!
+Namespace(kb_name='umls', model='bert_large', template='5', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/bert_large/report-bert_large-5-2023-04-23 17:05:08.json
+F1 Score: 0.4091173054587689
+storing results in: results/umls/bert_large/report-bert_large-5-2023-04-23 17:05:08.json
+Inference for  bert_large on template: -5-  is done
 -----------------------------------------------------------
-Running on dataset: umls , model: bert_large, template: 6!
-args: Namespace(kb_name='umls', model='bert_large', template='6', device='cuda')
-Starting the Inference time is: 2023-04-23 17:05:32
-Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.5061425061425061
-scoring results in:results/umls/bert_large/report-bert_large-6-2023-04-23 17:05:32.json
-Ending the Inference time is: 2023-04-23 17:05:50
-Total duration is===> 0:00:17.756154
-Inference for  bert_large on template: 6  is done
+Running on dataset: umls , model: bert_large, template: -6-!
+Namespace(kb_name='umls', model='bert_large', template='6', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/bert_large/report-bert_large-6-2023-04-23 17:05:32.json
+F1 Score: 0.4104127478324793
+storing results in: results/umls/bert_large/report-bert_large-6-2023-04-23 17:05:32.json
+Inference for  bert_large on template: -6-  is done
 -----------------------------------------------------------
-Running on dataset: umls , model: bert_large, template: 7!
-args: Namespace(kb_name='umls', model='bert_large', template='7', device='cuda')
-Starting the Inference time is: 2023-04-23 17:05:54
-Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.5036855036855037
-scoring results in:results/umls/bert_large/report-bert_large-7-2023-04-23 17:05:54.json
-Ending the Inference time is: 2023-04-23 17:06:15
-Total duration is===> 0:00:20.521914
-Inference for  bert_large on template: 7  is done
+Running on dataset: umls , model: bert_large, template: -7-!
+Namespace(kb_name='umls', model='bert_large', template='7', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/umls/bert_large/report-bert_large-7-2023-04-23 17:05:54.json
+F1 Score: 0.42922799222438207
+storing results in: results/umls/bert_large/report-bert_large-7-2023-04-23 17:05:54.json
+Inference for  bert_large on template: -7-  is done
 -----------------------------------------------------------

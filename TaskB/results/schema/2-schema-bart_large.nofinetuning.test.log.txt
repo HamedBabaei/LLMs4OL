@@ -1,80 +1,64 @@
-Running on dataset: schema , model: bart_large, template: 0!
-args: Namespace(kb_name='schema', model='bart_large', template='0', device='cuda')
-Starting the Inference time is: 2023-04-23 17:36:42
-Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.4836142322097378
-scoring results in:results/schema/bart_large/report-bart_large-0-2023-04-23 17:36:42.json
-Ending the Inference time is: 2023-04-23 17:38:50
-Total duration is===> 0:02:08.389670
-Inference for  bart_large on template: 0  is done
+Running on dataset: schema , model: bart_large, template: -0-!
+Namespace(kb_name='schema', model='bart_large', template='0', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/bart_large/report-bart_large-0-2023-04-23 17:36:42.json
+F1 Score: 0.346289665390789
+storing results in: results/schema/bart_large/report-bart_large-0-2023-04-23 17:36:42.json
+Inference for  bart_large on template: -0-  is done
 -----------------------------------------------------------
-Running on dataset: schema , model: bart_large, template: 1!
-args: Namespace(kb_name='schema', model='bart_large', template='1', device='cuda')
-Starting the Inference time is: 2023-04-23 17:38:55
-Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.49087078651685395
-scoring results in:results/schema/bart_large/report-bart_large-1-2023-04-23 17:38:55.json
-Ending the Inference time is: 2023-04-23 17:40:42
-Total duration is===> 0:01:46.700287
-Inference for  bart_large on template: 1  is done
+Running on dataset: schema , model: bart_large, template: -1-!
+Namespace(kb_name='schema', model='bart_large', template='1', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/bart_large/report-bart_large-1-2023-04-23 17:38:55.json
+F1 Score: 0.3869319432830891
+storing results in: results/schema/bart_large/report-bart_large-1-2023-04-23 17:38:55.json
+Inference for  bart_large on template: -1-  is done
 -----------------------------------------------------------
-Running on dataset: schema , model: bart_large, template: 2!
-args: Namespace(kb_name='schema', model='bart_large', template='2', device='cuda')
-Starting the Inference time is: 2023-04-23 17:40:46
-Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.4922752808988764
-scoring results in:results/schema/bart_large/report-bart_large-2-2023-04-23 17:40:46.json
-Ending the Inference time is: 2023-04-23 17:42:33
-Total duration is===> 0:01:47.516695
-Inference for  bart_large on template: 2  is done
+Running on dataset: schema , model: bart_large, template: -2-!
+Namespace(kb_name='schema', model='bart_large', template='2', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/bart_large/report-bart_large-2-2023-04-23 17:40:46.json
+F1 Score: 0.39281531463198915
+storing results in: results/schema/bart_large/report-bart_large-2-2023-04-23 17:40:46.json
+Inference for  bart_large on template: -2-  is done
 -----------------------------------------------------------
-Running on dataset: schema , model: bart_large, template: 3!
-args: Namespace(kb_name='schema', model='bart_large', template='3', device='cuda')
-Starting the Inference time is: 2023-04-23 17:42:38
-Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.5306647940074907
-scoring results in:results/schema/bart_large/report-bart_large-3-2023-04-23 17:42:38.json
-Ending the Inference time is: 2023-04-23 17:44:24
-Total duration is===> 0:01:45.804097
-Inference for  bart_large on template: 3  is done
+Running on dataset: schema , model: bart_large, template: -3-!
+Namespace(kb_name='schema', model='bart_large', template='3', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/bart_large/report-bart_large-3-2023-04-23 17:42:38.json
+F1 Score: 0.52909056172764
+storing results in: results/schema/bart_large/report-bart_large-3-2023-04-23 17:42:38.json
+Inference for  bart_large on template: -3-  is done
 -----------------------------------------------------------
-Running on dataset: schema , model: bart_large, template: 4!
-args: Namespace(kb_name='schema', model='bart_large', template='4', device='cuda')
-Starting the Inference time is: 2023-04-23 17:44:27
-Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.47635767790262173
-scoring results in:results/schema/bart_large/report-bart_large-4-2023-04-23 17:44:27.json
-Ending the Inference time is: 2023-04-23 17:46:09
-Total duration is===> 0:01:41.708280
-Inference for  bart_large on template: 4  is done
+Running on dataset: schema , model: bart_large, template: -4-!
+Namespace(kb_name='schema', model='bart_large', template='4', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/bart_large/report-bart_large-4-2023-04-23 17:44:27.json
+F1 Score: 0.38203552761069715
+storing results in: results/schema/bart_large/report-bart_large-4-2023-04-23 17:44:27.json
+Inference for  bart_large on template: -4-  is done
 -----------------------------------------------------------
-Running on dataset: schema , model: bart_large, template: 5!
-args: Namespace(kb_name='schema', model='bart_large', template='5', device='cuda')
-Starting the Inference time is: 2023-04-23 17:46:13
-Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.5025749063670412
-scoring results in:results/schema/bart_large/report-bart_large-5-2023-04-23 17:46:13.json
-Ending the Inference time is: 2023-04-23 17:47:57
-Total duration is===> 0:01:44.427470
-Inference for  bart_large on template: 5  is done
+Running on dataset: schema , model: bart_large, template: -5-!
+Namespace(kb_name='schema', model='bart_large', template='5', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/bart_large/report-bart_large-5-2023-04-23 17:46:13.json
+F1 Score: 0.41170154021047195
+storing results in: results/schema/bart_large/report-bart_large-5-2023-04-23 17:46:13.json
+Inference for  bart_large on template: -5-  is done
 -----------------------------------------------------------
-Running on dataset: schema , model: bart_large, template: 6!
-args: Namespace(kb_name='schema', model='bart_large', template='6', device='cuda')
-Starting the Inference time is: 2023-04-23 17:48:04
-Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.4705056179775281
-scoring results in:results/schema/bart_large/report-bart_large-6-2023-04-23 17:48:04.json
-Ending the Inference time is: 2023-04-23 17:49:49
-Total duration is===> 0:01:45.685640
-Inference for  bart_large on template: 6  is done
+Running on dataset: schema , model: bart_large, template: -6-!
+Namespace(kb_name='schema', model='bart_large', template='6', device='cuda')
+Working on template: 0:  {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/bart_large/report-bart_large-6-2023-04-23 17:48:04.json
+F1 Score: 0.43261295995670995
+storing results in: results/schema/bart_large/report-bart_large-6-2023-04-23 17:48:04.json
+Inference for  bart_large on template: -6-  is done
 -----------------------------------------------------------
-Running on dataset: schema , model: bart_large, template: 7!
-args: Namespace(kb_name='schema', model='bart_large', template='7', device='cuda')
-Starting the Inference time is: 2023-04-23 17:49:55
-Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.5203651685393258
-scoring results in:results/schema/bart_large/report-bart_large-7-2023-04-23 17:49:55.json
-Ending the Inference time is: 2023-04-23 17:51:46
-Total duration is===> 0:01:51.024432
-Inference for  bart_large on template: 7  is done
+Running on dataset: schema , model: bart_large, template: -7-!
+Namespace(kb_name='schema', model='bart_large', template='7', device='cuda')
+Working on template: 0:  {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/bart_large/report-bart_large-7-2023-04-23 17:49:55.json
+F1 Score: 0.42744334612778023
+storing results in: results/schema/bart_large/report-bart_large-7-2023-04-23 17:49:55.json
+Inference for  bart_large on template: -7-  is done
 -----------------------------------------------------------

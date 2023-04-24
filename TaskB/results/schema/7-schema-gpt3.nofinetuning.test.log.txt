@@ -1,48 +1,56 @@
 Running on dataset: schema , model: gpt3, template: -0-!
-scoring model outputs in: results/schema/gpt3/output-gpt3-0-2023-04-23 17:28:55.json
-Accuracy: 0.5042134831460674
+Working on template: 0:  {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/gpt3/report-gpt3-0-2023-04-23 17:28:55.json
+F1 Score: 0.49646314748152987
 storing results in: results/schema/gpt3/report-gpt3-0-2023-04-23 17:28:55.json
 Inference for  gpt3 on template: -0-  is done
 -----------------------------------------------------------
 Running on dataset: schema , model: gpt3, template: -1-!
-scoring model outputs in: results/schema/gpt3/output-gpt3-1-2023-04-23 17:45:25.json
-Accuracy: 0.49297752808988765
+Working on template: 0:  {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/gpt3/report-gpt3-1-2023-04-23 17:45:25.json
+F1 Score: 0.4928965026052404
 storing results in: results/schema/gpt3/report-gpt3-1-2023-04-23 17:45:25.json
 Inference for  gpt3 on template: -1-  is done
 -----------------------------------------------------------
 Running on dataset: schema , model: gpt3, template: -2-!
-scoring model outputs in: results/schema/gpt3/output-gpt3-2-2023-04-23 18:02:00.json
-Accuracy: 0.5124063670411985
+Working on template: 0:  {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/gpt3/report-gpt3-2-2023-04-23 18:02:00.json
+F1 Score: 0.509774755034083
 storing results in: results/schema/gpt3/report-gpt3-2-2023-04-23 18:02:00.json
 Inference for  gpt3 on template: -2-  is done
 -----------------------------------------------------------
 Running on dataset: schema , model: gpt3, template: -3-!
-scoring model outputs in: results/schema/gpt3/output-gpt3-3-2023-04-23 18:18:58.json
-Accuracy: 0.48431647940074907
+Working on template: 0:  {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/gpt3/report-gpt3-3-2023-04-23 18:18:58.json
+F1 Score: 0.48031203092279523
 storing results in: results/schema/gpt3/report-gpt3-3-2023-04-23 18:18:58.json
 Inference for  gpt3 on template: -3-  is done
 -----------------------------------------------------------
 Running on dataset: schema , model: gpt3, template: -4-!
-scoring model outputs in: results/schema/gpt3/output-gpt3-4-2023-04-23 18:35:39.json
-Accuracy: 0.48525280898876405
+Working on template: 0:  {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/gpt3/report-gpt3-4-2023-04-23 18:35:39.json
+F1 Score: 0.4719119623914698
 storing results in: results/schema/gpt3/report-gpt3-4-2023-04-23 18:35:39.json
 Inference for  gpt3 on template: -4-  is done
 -----------------------------------------------------------
 Running on dataset: schema , model: gpt3, template: -5-!
-scoring model outputs in: results/schema/gpt3/output-gpt3-5-2023-04-23 18:52:13.json
-Accuracy: 0.49602059925093633
+Working on template: 0:  {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/gpt3/report-gpt3-5-2023-04-23 18:52:13.json
+F1 Score: 0.4863220986500453
 storing results in: results/schema/gpt3/report-gpt3-5-2023-04-23 18:52:13.json
 Inference for  gpt3 on template: -5-  is done
 -----------------------------------------------------------
 Running on dataset: schema , model: gpt3, template: -6-!
-scoring model outputs in: results/schema/gpt3/output-gpt3-6-2023-04-23 19:08:48.json
-Accuracy: 0.4901685393258427
+Working on template: 0:  {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/gpt3/report-gpt3-6-2023-04-23 19:08:48.json
+F1 Score: 0.48878801364782676
 storing results in: results/schema/gpt3/report-gpt3-6-2023-04-23 19:08:48.json
 Inference for  gpt3 on template: -6-  is done
 -----------------------------------------------------------
 Running on dataset: schema , model: gpt3, template: -7-!
-scoring model outputs in: results/schema/gpt3/output-gpt3-7-2023-04-23 19:25:44.json
-Accuracy: 0.49765917602996257
+Working on template: 0:  {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/schema/gpt3/report-gpt3-7-2023-04-23 19:25:44.json
+F1 Score: 0.4948954629961839
 storing results in: results/schema/gpt3/report-gpt3-7-2023-04-23 19:25:44.json
 Inference for  gpt3 on template: -7-  is done
 -----------------------------------------------------------

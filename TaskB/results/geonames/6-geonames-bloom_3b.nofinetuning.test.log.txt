@@ -1,80 +1,64 @@
-Running on dataset: geonames , model: bloom_3b, template: 0!
-args: Namespace(kb_name='geonames', model='bloom_3b', template='0', device='cuda:1')
-Starting the Inference time is: 2023-04-23 17:43:40
-Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.5073529411764706
-scoring results in:results/geonames/bloom_3b/report-bloom_3b-0-2023-04-23 17:43:40.json
-Ending the Inference time is: 2023-04-23 17:48:36
-Total duration is===> 0:04:55.959377
-Inference for  bloom_3b on template: 0  is done
+Running on dataset: geonames , model: bloom_3b, template: -0-!
+Namespace(kb_name='geonames', model='bloom_3b', template='0', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-0-2023-04-23 17:43:40.json
+F1 Score: 0.35856959329848825
+storing results in: results/geonames/bloom_3b/report-bloom_3b-0-2023-04-23 17:43:40.json
+Inference for  bloom_3b on template: -0-  is done
 -----------------------------------------------------------
-Running on dataset: geonames , model: bloom_3b, template: 1!
-args: Namespace(kb_name='geonames', model='bloom_3b', template='1', device='cuda:1')
-Starting the Inference time is: 2023-04-23 17:48:43
-Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.46047794117647056
-scoring results in:results/geonames/bloom_3b/report-bloom_3b-1-2023-04-23 17:48:43.json
-Ending the Inference time is: 2023-04-23 17:51:49
-Total duration is===> 0:03:06.759437
-Inference for  bloom_3b on template: 1  is done
+Running on dataset: geonames , model: bloom_3b, template: -1-!
+Namespace(kb_name='geonames', model='bloom_3b', template='1', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-1-2023-04-23 17:48:43.json
+F1 Score: 0.3912082779263242
+storing results in: results/geonames/bloom_3b/report-bloom_3b-1-2023-04-23 17:48:43.json
+Inference for  bloom_3b on template: -1-  is done
 -----------------------------------------------------------
-Running on dataset: geonames , model: bloom_3b, template: 2!
-args: Namespace(kb_name='geonames', model='bloom_3b', template='2', device='cuda:1')
-Starting the Inference time is: 2023-04-23 17:51:54
-Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.5643382352941176
-scoring results in:results/geonames/bloom_3b/report-bloom_3b-2-2023-04-23 17:51:54.json
-Ending the Inference time is: 2023-04-23 17:55:39
-Total duration is===> 0:03:45.004844
-Inference for  bloom_3b on template: 2  is done
+Running on dataset: geonames , model: bloom_3b, template: -2-!
+Namespace(kb_name='geonames', model='bloom_3b', template='2', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-2-2023-04-23 17:51:54.json
+F1 Score: 0.5392252516913444
+storing results in: results/geonames/bloom_3b/report-bloom_3b-2-2023-04-23 17:51:54.json
+Inference for  bloom_3b on template: -2-  is done
 -----------------------------------------------------------
-Running on dataset: geonames , model: bloom_3b, template: 3!
-args: Namespace(kb_name='geonames', model='bloom_3b', template='3', device='cuda:1')
-Starting the Inference time is: 2023-04-23 17:55:43
-Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.40625
-scoring results in:results/geonames/bloom_3b/report-bloom_3b-3-2023-04-23 17:55:43.json
-Ending the Inference time is: 2023-04-23 17:58:48
-Total duration is===> 0:03:05.150151
-Inference for  bloom_3b on template: 3  is done
+Running on dataset: geonames , model: bloom_3b, template: -3-!
+Namespace(kb_name='geonames', model='bloom_3b', template='3', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-3-2023-04-23 17:55:43.json
+F1 Score: 0.3022760844359027
+storing results in: results/geonames/bloom_3b/report-bloom_3b-3-2023-04-23 17:55:43.json
+Inference for  bloom_3b on template: -3-  is done
 -----------------------------------------------------------
-Running on dataset: geonames , model: bloom_3b, template: 4!
-args: Namespace(kb_name='geonames', model='bloom_3b', template='4', device='cuda:1')
-Starting the Inference time is: 2023-04-23 17:58:55
-Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.5027573529411765
-scoring results in:results/geonames/bloom_3b/report-bloom_3b-4-2023-04-23 17:58:55.json
-Ending the Inference time is: 2023-04-23 18:02:01
-Total duration is===> 0:03:05.863095
-Inference for  bloom_3b on template: 4  is done
+Running on dataset: geonames , model: bloom_3b, template: -4-!
+Namespace(kb_name='geonames', model='bloom_3b', template='4', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-4-2023-04-23 17:58:55.json
+F1 Score: 0.3562784959912859
+storing results in: results/geonames/bloom_3b/report-bloom_3b-4-2023-04-23 17:58:55.json
+Inference for  bloom_3b on template: -4-  is done
 -----------------------------------------------------------
-Running on dataset: geonames , model: bloom_3b, template: 5!
-args: Namespace(kb_name='geonames', model='bloom_3b', template='5', device='cuda:1')
-Starting the Inference time is: 2023-04-23 18:02:06
-Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.4954044117647059
-scoring results in:results/geonames/bloom_3b/report-bloom_3b-5-2023-04-23 18:02:06.json
-Ending the Inference time is: 2023-04-23 18:05:16
-Total duration is===> 0:03:09.687301
-Inference for  bloom_3b on template: 5  is done
+Running on dataset: geonames , model: bloom_3b, template: -5-!
+Namespace(kb_name='geonames', model='bloom_3b', template='5', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-5-2023-04-23 18:02:06.json
+F1 Score: 0.3360654917718459
+storing results in: results/geonames/bloom_3b/report-bloom_3b-5-2023-04-23 18:02:06.json
+Inference for  bloom_3b on template: -5-  is done
 -----------------------------------------------------------
-Running on dataset: geonames , model: bloom_3b, template: 6!
-args: Namespace(kb_name='geonames', model='bloom_3b', template='6', device='cuda:1')
-Starting the Inference time is: 2023-04-23 18:05:21
-Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
-Accuracy: 0.5615808823529411
-scoring results in:results/geonames/bloom_3b/report-bloom_3b-6-2023-04-23 18:05:21.json
-Ending the Inference time is: 2023-04-23 18:08:30
-Total duration is===> 0:03:09.043928
-Inference for  bloom_3b on template: 6  is done
+Running on dataset: geonames , model: bloom_3b, template: -6-!
+Namespace(kb_name='geonames', model='bloom_3b', template='6', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-6-2023-04-23 18:05:21.json
+F1 Score: 0.48263765315979457
+storing results in: results/geonames/bloom_3b/report-bloom_3b-6-2023-04-23 18:05:21.json
+Inference for  bloom_3b on template: -6-  is done
 -----------------------------------------------------------
-Running on dataset: geonames , model: bloom_3b, template: 7!
-args: Namespace(kb_name='geonames', model='bloom_3b', template='7', device='cuda:1')
-Starting the Inference time is: 2023-04-23 18:08:36
-Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
-Accuracy: 0.45128676470588236
-scoring results in:results/geonames/bloom_3b/report-bloom_3b-7-2023-04-23 18:08:36.json
-Ending the Inference time is: 2023-04-23 18:11:41
-Total duration is===> 0:03:04.750841
-Inference for  bloom_3b on template: 7  is done
+Running on dataset: geonames , model: bloom_3b, template: -7-!
+Namespace(kb_name='geonames', model='bloom_3b', template='7', device='cuda:1')
+Working on template: 0:  {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+scoring model outputs in: results/geonames/bloom_3b/report-bloom_3b-7-2023-04-23 18:08:36.json
+F1 Score: 0.37731361426644516
+storing results in: results/geonames/bloom_3b/report-bloom_3b-7-2023-04-23 18:08:36.json
+Inference for  bloom_3b on template: -7-  is done
 -----------------------------------------------------------
