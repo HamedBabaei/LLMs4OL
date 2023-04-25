@@ -1,0 +1,80 @@
+Running on dataset: umls , model: umls_flan_t5_xl, template: 0!
+args: Namespace(kb_name='umls', model='umls_flan_t5_xl', template='0', device='cuda')
+Starting the Inference time is: 2023-04-25 09:17:12
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.6369313113291704
+scoring results in:results/umls/umls_flan_t5_xl/report-umls_flan_t5_xl-0-2023-04-25 09:17:12.json
+Ending the Inference time is: 2023-04-25 09:18:17
+Total duration is===> 0:01:05.027543
+Inference for  umls_flan_t5_xl on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_xl, template: 1!
+args: Namespace(kb_name='umls', model='umls_flan_t5_xl', template='1', device='cuda')
+Starting the Inference time is: 2023-04-25 09:18:22
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.5004666887149524
+scoring results in:results/umls/umls_flan_t5_xl/report-umls_flan_t5_xl-1-2023-04-25 09:18:22.json
+Ending the Inference time is: 2023-04-25 09:19:16
+Total duration is===> 0:00:53.973176
+Inference for  umls_flan_t5_xl on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_xl, template: 2!
+args: Namespace(kb_name='umls', model='umls_flan_t5_xl', template='2', device='cuda')
+Starting the Inference time is: 2023-04-25 09:19:20
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.36917591413498274
+scoring results in:results/umls/umls_flan_t5_xl/report-umls_flan_t5_xl-2-2023-04-25 09:19:20.json
+Ending the Inference time is: 2023-04-25 09:20:15
+Total duration is===> 0:00:54.904339
+Inference for  umls_flan_t5_xl on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_xl, template: 3!
+args: Namespace(kb_name='umls', model='umls_flan_t5_xl', template='3', device='cuda')
+Starting the Inference time is: 2023-04-25 09:20:19
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.41343408221539785
+scoring results in:results/umls/umls_flan_t5_xl/report-umls_flan_t5_xl-3-2023-04-25 09:20:19.json
+Ending the Inference time is: 2023-04-25 09:21:15
+Total duration is===> 0:00:56.125558
+Inference for  umls_flan_t5_xl on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_xl, template: 4!
+args: Namespace(kb_name='umls', model='umls_flan_t5_xl', template='4', device='cuda')
+Starting the Inference time is: 2023-04-25 09:21:20
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.781279247402076
+scoring results in:results/umls/umls_flan_t5_xl/report-umls_flan_t5_xl-4-2023-04-25 09:21:20.json
+Ending the Inference time is: 2023-04-25 09:22:16
+Total duration is===> 0:00:56.094525
+Inference for  umls_flan_t5_xl on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_xl, template: 5!
+args: Namespace(kb_name='umls', model='umls_flan_t5_xl', template='5', device='cuda')
+Starting the Inference time is: 2023-04-25 09:22:20
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.5012254901960784
+scoring results in:results/umls/umls_flan_t5_xl/report-umls_flan_t5_xl-5-2023-04-25 09:22:20.json
+Ending the Inference time is: 2023-04-25 09:23:15
+Total duration is===> 0:00:55.093813
+Inference for  umls_flan_t5_xl on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_xl, template: 6!
+args: Namespace(kb_name='umls', model='umls_flan_t5_xl', template='6', device='cuda')
+Starting the Inference time is: 2023-04-25 09:23:19
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.7925586136595311
+scoring results in:results/umls/umls_flan_t5_xl/report-umls_flan_t5_xl-6-2023-04-25 09:23:19.json
+Ending the Inference time is: 2023-04-25 09:24:13
+Total duration is===> 0:00:53.521759
+Inference for  umls_flan_t5_xl on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: umls_flan_t5_xl, template: 7!
+args: Namespace(kb_name='umls', model='umls_flan_t5_xl', template='7', device='cuda')
+Starting the Inference time is: 2023-04-25 09:24:17
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.3927413622054009
+scoring results in:results/umls/umls_flan_t5_xl/report-umls_flan_t5_xl-7-2023-04-25 09:24:17.json
+Ending the Inference time is: 2023-04-25 09:25:10
+Total duration is===> 0:00:53.481772
+Inference for  umls_flan_t5_xl on template: 7  is done
+-----------------------------------------------------------
