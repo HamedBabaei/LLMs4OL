@@ -81,7 +81,7 @@ def build_geonames(config):
                 "yes-no-label": "yes",
                 "type-label": positive['type-label'],
                 "[LABEL]": positive['type-name'],
-                "[NAME]": positive['name'],
+                "[NAME]": positive['asciname'],
                 "[COUNTRY]": positive['country_name']
             })
         positive_type_label = positive['type-label']
@@ -91,7 +91,7 @@ def build_geonames(config):
             if neg_label != pos_label:
                 for negative in negatives:
                     negatives_set.append({
-                        "[NAME]": negative['name'],
+                        "[NAME]": negative['asciname'],
                         "[COUNTRY]": negative['country_name']
                     })
         chosen_negatives = random.sample(negatives_set, config.neg_per_class)
