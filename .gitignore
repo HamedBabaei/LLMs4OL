@@ -2,6 +2,7 @@ assets/LLMs/b*
 assets/LLMs/f*
 assets/LLMs/g*
 assets/FSL/*
+
 !assets/LLMs//README.md
 *.xml
 *.tar
@@ -18,6 +19,7 @@ datasets/TaskA/UMLS/processed-3
 datasets/TaskA/UMLS/*_entities.json
 datasets/TaskA/Geonames/raw
 datasets/TaskA/Geonames/processed*
+datasets/FSL/old/*
 datasets/TaskA/Geonames/*_entities.json
 TaskA/results/*/*/output*.json
 TaskA/results/*/*/nci-output*.json
