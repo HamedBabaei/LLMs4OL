@@ -1,0 +1,80 @@
+Running on dataset: schema , model: schemaorg_flan_t5_xl, template: 0!
+args: Namespace(kb_name='schema', model='schemaorg_flan_t5_xl', template='0', device='cuda')
+Starting the Inference time is: 2023-05-05 22:23:11
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.9106303726842092
+scoring results in:results/schema/schemaorg_flan_t5_xl/report-schemaorg_flan_t5_xl-0-2023-05-05 22:23:11.json
+Ending the Inference time is: 2023-05-05 22:29:01
+Total duration is===> 0:05:49.796336
+Inference for  schemaorg_flan_t5_xl on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: schemaorg_flan_t5_xl, template: 1!
+args: Namespace(kb_name='schema', model='schemaorg_flan_t5_xl', template='1', device='cuda')
+Starting the Inference time is: 2023-05-05 22:29:07
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.5746952272402395
+scoring results in:results/schema/schemaorg_flan_t5_xl/report-schemaorg_flan_t5_xl-1-2023-05-05 22:29:07.json
+Ending the Inference time is: 2023-05-05 22:34:14
+Total duration is===> 0:05:07.226548
+Inference for  schemaorg_flan_t5_xl on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: schemaorg_flan_t5_xl, template: 2!
+args: Namespace(kb_name='schema', model='schemaorg_flan_t5_xl', template='2', device='cuda')
+Starting the Inference time is: 2023-05-05 22:34:21
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.7468815835372333
+scoring results in:results/schema/schemaorg_flan_t5_xl/report-schemaorg_flan_t5_xl-2-2023-05-05 22:34:21.json
+Ending the Inference time is: 2023-05-05 22:39:29
+Total duration is===> 0:05:08.030271
+Inference for  schemaorg_flan_t5_xl on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: schemaorg_flan_t5_xl, template: 3!
+args: Namespace(kb_name='schema', model='schemaorg_flan_t5_xl', template='3', device='cuda')
+Starting the Inference time is: 2023-05-05 22:39:36
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.6532938664596273
+scoring results in:results/schema/schemaorg_flan_t5_xl/report-schemaorg_flan_t5_xl-3-2023-05-05 22:39:36.json
+Ending the Inference time is: 2023-05-05 22:44:29
+Total duration is===> 0:04:53.731980
+Inference for  schemaorg_flan_t5_xl on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: schemaorg_flan_t5_xl, template: 4!
+args: Namespace(kb_name='schema', model='schemaorg_flan_t5_xl', template='4', device='cuda')
+Starting the Inference time is: 2023-05-05 22:44:36
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.9154127478860881
+scoring results in:results/schema/schemaorg_flan_t5_xl/report-schemaorg_flan_t5_xl-4-2023-05-05 22:44:36.json
+Ending the Inference time is: 2023-05-05 22:49:38
+Total duration is===> 0:05:02.324551
+Inference for  schemaorg_flan_t5_xl on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: schemaorg_flan_t5_xl, template: 5!
+args: Namespace(kb_name='schema', model='schemaorg_flan_t5_xl', template='5', device='cuda')
+Starting the Inference time is: 2023-05-05 22:49:45
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.5063515791131038
+scoring results in:results/schema/schemaorg_flan_t5_xl/report-schemaorg_flan_t5_xl-5-2023-05-05 22:49:45.json
+Ending the Inference time is: 2023-05-05 22:54:38
+Total duration is===> 0:04:53.362811
+Inference for  schemaorg_flan_t5_xl on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: schemaorg_flan_t5_xl, template: 6!
+args: Namespace(kb_name='schema', model='schemaorg_flan_t5_xl', template='6', device='cuda')
+Starting the Inference time is: 2023-05-05 22:54:45
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.9170901084010841
+scoring results in:results/schema/schemaorg_flan_t5_xl/report-schemaorg_flan_t5_xl-6-2023-05-05 22:54:45.json
+Ending the Inference time is: 2023-05-05 22:59:48
+Total duration is===> 0:05:03.423897
+Inference for  schemaorg_flan_t5_xl on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: schemaorg_flan_t5_xl, template: 7!
+args: Namespace(kb_name='schema', model='schemaorg_flan_t5_xl', template='7', device='cuda')
+Starting the Inference time is: 2023-05-05 22:59:54
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.33333158317997613
+scoring results in:results/schema/schemaorg_flan_t5_xl/report-schemaorg_flan_t5_xl-7-2023-05-05 22:59:54.json
+Ending the Inference time is: 2023-05-05 23:04:48
+Total duration is===> 0:04:53.816246
+Inference for  schemaorg_flan_t5_xl on template: 7  is done
+-----------------------------------------------------------
