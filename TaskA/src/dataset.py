@@ -57,7 +57,7 @@ class GeonameDataset(Dataset):
     def __getitem__(self, index):
         item = self.data[index]
         sample, label = self.template.replace("[A]", str(item['asciname'])), item['type-label']
-        labels = self.label_mapper[label[0]]+[self.label_mapper[label]['name']]+self.label_mapper[label]['synonyms']
+        labels = [self.label_mapper[label]['name']]+self.label_mapper[label]['synonyms']
         label = list(set(labels))
         label = [l.lower() for l in label]
         if self.use_country:
