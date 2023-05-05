@@ -12,7 +12,8 @@ class BaseConfig:
         self.dataset_dir_getter = {
             "wn18rr": "WN18RR",
             "geonames": "Geonames",
-            "umls": "NCI"
+            "umls": "NCI",
+            "schema":"SCHEMA"
         }
         self.n_per_class = n_per_class
         self.neg_per_class = neg_per_class
@@ -38,8 +39,11 @@ class BaseConfig:
         self.parser.add_argument("--umls_task_b_train", type=str, default=f"../datasets/TaskB/UMLS/processed/hierarchy_train.json")
         self.parser.add_argument("--umls_task_c_train", type=str, default=f"../datasets/TaskC/UMLS/processed/graph_sn_dict_train.json")
         self.parser.add_argument("--geonames_task_b_train", type=str, default=f"../datasets/TaskB/Geonames/processed/hierarchy_train.json")
-        self.parser.add_argument("--schema_task_b_train", type=str, default=f"../datasets/TaskB/Geonames/SchemaOrg/hierarchy_train.json")
-        self.parser.add_argument("--fsl_train_data", type=str, default=f"{self.root_dir}/{kb_name}-{self.n_per_class}-shot-{str(self.neg_per_class)}-neg.json")
+        self.parser.add_argument("--schema_task_b_train", type=str, default=f"../datasets/TaskB/SchemaOrg/processed/hierarchy_train.json")
+        if dataset_dir=="SCHEMA":
+            self.parser.add_argument("--fsl_train_data", type=str, default=f"../datasets/TaskB/SchemaOrg/processed/hierarchy_train.json")
+        else:
+            self.parser.add_argument("--fsl_train_data", type=str, default=f"{self.root_dir}/{kb_name}-{self.n_per_class}-shot-{str(self.neg_per_class)}-neg.json")
         self.parser.add_argument("--n_per_class", type=int, default=self.n_per_class)
         self.parser.add_argument("--neg_per_class", type=int, default=self.neg_per_class)
         self.parser.add_argument("--seed", type=int, default=555)

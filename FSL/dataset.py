@@ -81,13 +81,29 @@ class GeoNames(BaseDataset):
         label = "yes" if data['task-b-items']['label'] == "correct" else "no"
         return {"text": template, "label": label}
 
+class Schema(BaseDataset):
+    def build_samples(self, dataset):
+        source_text, target_text = [], []
+        for data in dataset:
+            for template in self.templates_list['task-b-prompts']:
+                filled_template = self.fill_task_b_template(data, template)
+                source_text.append(filled_template['text'])
+                target_text.append(filled_template['label'])
+        return source_text, target_text
+    def fill_task_b_template(self, data, template) -> dict:
+        template = template.replace("[TEXT_A]", data['text_a'].lower())
+        template = template.replace("[TEXT_B]", data['text_b'].lower())
+        label = "yes" if data['label'] == "correct" else "no"
+        return {"text": template, "label": label}
+
 class DatasetFactory:
 
     def __new__(self, dataset):
         datasets = {
             "wn18rr": [WN, TEMPLATES.WN18RR],
             "geonames": [GeoNames, TEMPLATES.GEONAMES],
-            "umls": [UMLS, TEMPLATES.UMLS]
+            "umls": [UMLS, TEMPLATES.UMLS],
+            "schema": [Schema, TEMPLATES.SCHEMA],
         }
         return datasets[dataset][0](templates=datasets[dataset][1])
 

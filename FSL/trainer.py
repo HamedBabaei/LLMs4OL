@@ -30,8 +30,8 @@ def preprocess_function(sample, padding="max_length"):
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--kb_name", required=True)  # wn18rr, geonames, umls
-    parser.add_argument("--model_to_train", required=True) # flan_t5_large, flan_t5_xl
+    parser.add_argument("--kb_name", required=True)
+    parser.add_argument("--model_to_train", required=True)
     parser.add_argument("--num_train_epochs", type=int, default=15)
 
     args = parser.parse_args()
@@ -40,6 +40,7 @@ if __name__=="__main__":
 
     # loading dataset
     dataset_json = DataReader.load_json(path=CONFIG.fsl_train_data)
+
     source_text, target_text = DatasetFactory(dataset=args.kb_name).build_samples(dataset=dataset_json)
     dataset = DatasetDict({'train': Dataset.from_dict({'label': target_text, 'text': source_text})})
 

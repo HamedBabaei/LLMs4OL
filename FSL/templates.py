@@ -39,7 +39,7 @@ UMLS = {
             # {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}.
             "Premise: [SENTENCE].\nHypothesis: [CONCEPT] biomedically is a '[LABEL]' which we can hypothesis [TEXT_B] as a subtype of [TEXT_A].\nGiven the premise, can we conclude the hypothesis?",
             # {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}.
-            "Does \"[TEXT_A] is is an ancestor class of [TEXT_B].\" appear to be an accurate statement based on \"[SENTENCE]. [CONCEPT] in medical domain is a [LABEL].\"?",
+            "Does \"[TEXT_A] is an ancestor class of [TEXT_B].\" appear to be an accurate statement based on \"[SENTENCE]. [CONCEPT] in medical domain is a [LABEL].\"?",
             # {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}.
             "Let's say that \"[SENTENCE]\"\nCan we now say that \"'[CONCEPT]' is kind of [LABEL] in medicine where [TEXT_B] is child class of [TEXT_A]\"?",
             # {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}.
@@ -55,13 +55,13 @@ UMLS = {
 }
 
 GEONAMES = {
-    "completion-prompts":["If \"[NAME] is localed in [COUNTRY].\", then what is the [NAME]?",
+    "completion-prompts":[# "If \"[NAME] is localed in [COUNTRY].\", then what is the [NAME]?",
                           "If \"[NAME] is a place in [COUNTRY].\", so can you tell me the [NAME] geographically known for ?",
-                         "What happens next in this paragraph?\n[NAME] is situated in [COUNTRY]. The [NAME] place is a ",
-                         "Continue writing the next sentence: \n[NAME] in [COUNTRY] is a geographical name for \"",
-                         "Write the next sentence in this paragraph:\nBased on the sentence \"[NAME] is a place in [COUNTRY].\", we can conclude that [NAME] is a ",
-                         "How does the next paragraph end?\nPremise: [NAME] is a place in [COUNTRY].\nGiven the premise, can we conclude this hypothesis: [NAME] in geography is a ",
-                         "What most naturally follows?\nLet's say that \"[NAME] is based in [COUNTRY]\". Now we can say that '[NAME]' geographic name is a "],
+                          # "What happens next in this paragraph?\n[NAME] is situated in [COUNTRY]. The [NAME] place is a ",
+                          "Continue writing the next sentence: \n[NAME] in [COUNTRY] is a geographical name for \"",
+                          # "Write the next sentence in this paragraph:\nBased on the sentence \"[NAME] is a place in [COUNTRY].\", we can conclude that [NAME] is a ",
+                          "How does the next paragraph end?\nPremise: [NAME] is a place in [COUNTRY].\nGiven the premise, can we conclude this hypothesis: [NAME] in geography is a ",
+                          "What most naturally follows?\nLet's say that \"[NAME] is based in [COUNTRY]\". Now we can say that '[NAME]' geographic name is a "],
 
     # "negative-positive-prompts":["Premise: [NAME] is based in [COUNTRY].\nHypothesis: [NAME] is a '[LABEL]'.\nGiven the premise, can we conclude the hypothesis?",
     #                              "Let's say that \"[NAME] can be found in the [COUNTRY].\"\nCan we now say that \"'[NAME]' is a [LABEL] in geography\"?",
@@ -75,9 +75,25 @@ GEONAMES = {
         # {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}.
         "Premise: [NAME] is based in [COUNTRY].\nHypothesis: [NAME] is a '[LABEL]' which we can hypothesis [TEXT_B] as a subtype of [TEXT_A].\nGiven the premise, can we conclude the hypothesis?",
         # {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}.
-        "Does \"[TEXT_A] is is an ancestor class of [TEXT_B].\" appear to be an accurate statement based on \"[NAME] is a place in [COUNTRY]. [NAME] is known as a [LABEL].\"?",
+        "Does \"[TEXT_A] is an ancestor class of [TEXT_B].\" appear to be an accurate statement based on \"[NAME] is a place in [COUNTRY]. [NAME] is known as a [LABEL].\"?",
         # {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}.
         "Let's say that \"[NAME] can be found in the [COUNTRY].\"\nCan we now say that \"'[NAME]' is a [LABEL] as well as [TEXT_B] is a child class of [TEXT_A] in geography\"?",
         # {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}.
         "Sentence 1: \"The [NAME] is a place in [COUNTRY] and [NAME] is a [LABEL].\"\n Sentence 2: \"[TEXT_B] is a subclass of [TEXT_A].\"\nIs sentence 2 true, based on sentence 1?"]
+}
+
+SCHEMA = {
+    "task-b-prompts":[
+                # text_b = child, text_a=parent   [text_a, text_b]
+                # {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}.
+                "Is that sentence \"[TEXT_A] a supertype of [TEXT_B]\" a true sentence?",
+                # {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}.
+                "Premise: [TEXT_B] has all the properties of [TEXT_A] .\nHypothesis: we can hypothesis [TEXT_B] as a subtype of [TEXT_A].\nGiven the premise, can we conclude the hypothesis?",
+                # {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}.
+                "Does \"[TEXT_A] is an ancestor class of [TEXT_B].\" appear to be an accurate statement?",
+                # {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}.
+                "Can we say that \"[TEXT_B] is child class of [TEXT_A]\"?",
+                # {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}.
+                "Sentence 1: \"[TEXT_B] contain all features of [TEXT_A].\"\n Sentence 2: \"[TEXT_B] is a subclass of [TEXT_A].\"\nIs sentence 2 true, based on sentence 1?"],
+
 }
