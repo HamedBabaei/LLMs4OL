@@ -1,15 +1,8 @@
-
-
-
------------------------------------------------------------
-Running on dataset: geonames , model: bart_large, template: template-8!
-args: Namespace(kb_name='geonames', model_name='flan_t5_large', template='template-8', device='cuda')
-Starting the Inference time is: 2023-03-21 14:38:10
-GeonamesDataset:Test-SET --- template-8: '[A]' geographically is a ?
-Loaded T5ForConditionalGeneration from ../assets/LLMs/flan-t5-large
-scoring model outputs in:results/geonames/flan_t5_large/output-flan_t5_large-template-8-2023-03-21 14:38:10.json
-Results: {'MAP@1': 0.17152496049878294, 'MAP@5': 0.034483827039235505, 'MAP@10': 0.02372965769227033}
-scoring results in:results/geonames/flan_t5_large/report-flan_t5_large-template-8-2023-03-21 14:38:10.json
-Ending the Inference time is: 2023-03-21 17:47:32
-Total duration is===> 3:09:22.272364
-Inference for  bart_large on template: template-8  is done
+template-1: {'MAP@1': 0.11552860457502384, 'MAP@5': 0.031601875180898964, 'MAP@10': 0.02782827076064897}
+template-2: {'MAP@1': 0.035793084795945965, 'MAP@5': 0.009693954534455025, 'MAP@10': 0.008401903220944945}
+template-3: {'MAP@1': 0.1316564888756032, 'MAP@5': 0.034677584660716576, 'MAP@10': 0.03000101902181588}
+template-4: {'MAP@1': 0.04685200210673158, 'MAP@5': 0.012443903526877438, 'MAP@10': 0.010609661998823718}
+template-5: {'MAP@1': 0.09451680403125934, 'MAP@5': 0.026799974377588916, 'MAP@10': 0.02410654776873763}
+template-6: {'MAP@1': 0.060579920570525685, 'MAP@5': 0.014562283810906606, 'MAP@10': 0.01246963043852056}
+template-7: {'MAP@1': 0.08178958306643322, 'MAP@5': 0.02390350315298002, 'MAP@10': 0.021977244067926054}
+template-8: {'MAP@1': 0.0738708345788672, 'MAP@5': 0.018562155698851262, 'MAP@10': 0.01656200736452262}
