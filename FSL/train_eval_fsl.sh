@@ -259,12 +259,12 @@ done
 
 #-------------------------------------FLAN-T5-Large--------SCHEMA---------------------------------------------------------
 # running models for SchemaORG
-python trainer.py --kb_name="schema" --model_to_train="flan_t5_large" --num_train_epochs=5
+python trainer.py --kb_name="schemaorg" --model_to_train="flan_t5_large" --num_train_epochs=5
 
 cd ..
 cd TaskB
 datasets=("schema")
-models=("schema_flan_t5_large")
+models=("schemaorg_flan_t5_large")
 
 for kb_name in "${datasets[@]}"; do
   index=8
@@ -286,11 +286,11 @@ cd FSLS
 
 #-------------------------------------FLAN-T5-XL--------SCHEMA---------------------------------------------------------
 # running models for SchemaORG
-python trainer.py --kb_name="schema" --model_to_train="flan_t5_xl" --num_train_epochs=5
+python trainer.py --kb_name="schemaorg" --model_to_train="flan_t5_xl" --num_train_epochs=5
 
 cd ..
 cd TaskB
-models=("schema_flan_t5_xl")
+models=("schemaorg_flan_t5_xl")
 
 for kb_name in "${datasets[@]}"; do
   index=9
