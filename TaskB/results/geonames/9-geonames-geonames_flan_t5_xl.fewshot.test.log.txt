@@ -1,0 +1,80 @@
+Running on dataset: geonames , model: geonames_flan_t5_xl, template: 0!
+args: Namespace(kb_name='geonames', model='geonames_flan_t5_xl', template='0', device='cuda')
+Starting the Inference time is: 2023-05-05 10:46:41
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.4841444707851067
+scoring results in:results/geonames/geonames_flan_t5_xl/report-geonames_flan_t5_xl-0-2023-05-05 10:46:41.json
+Ending the Inference time is: 2023-05-05 10:50:44
+Total duration is===> 0:04:02.659601
+Inference for  geonames_flan_t5_xl on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: geonames_flan_t5_xl, template: 1!
+args: Namespace(kb_name='geonames', model='geonames_flan_t5_xl', template='1', device='cuda')
+Starting the Inference time is: 2023-05-05 10:50:50
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.34803271441202477
+scoring results in:results/geonames/geonames_flan_t5_xl/report-geonames_flan_t5_xl-1-2023-05-05 10:50:50.json
+Ending the Inference time is: 2023-05-05 10:52:25
+Total duration is===> 0:01:34.622798
+Inference for  geonames_flan_t5_xl on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: geonames_flan_t5_xl, template: 2!
+args: Namespace(kb_name='geonames', model='geonames_flan_t5_xl', template='2', device='cuda')
+Starting the Inference time is: 2023-05-05 10:52:29
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.5523136198705719
+scoring results in:results/geonames/geonames_flan_t5_xl/report-geonames_flan_t5_xl-2-2023-05-05 10:52:29.json
+Ending the Inference time is: 2023-05-05 10:55:07
+Total duration is===> 0:02:37.557870
+Inference for  geonames_flan_t5_xl on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: geonames_flan_t5_xl, template: 3!
+args: Namespace(kb_name='geonames', model='geonames_flan_t5_xl', template='3', device='cuda')
+Starting the Inference time is: 2023-05-05 10:55:13
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.46964019132925083
+scoring results in:results/geonames/geonames_flan_t5_xl/report-geonames_flan_t5_xl-3-2023-05-05 10:55:13.json
+Ending the Inference time is: 2023-05-05 10:57:16
+Total duration is===> 0:02:03.242898
+Inference for  geonames_flan_t5_xl on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: geonames_flan_t5_xl, template: 4!
+args: Namespace(kb_name='geonames', model='geonames_flan_t5_xl', template='4', device='cuda')
+Starting the Inference time is: 2023-05-05 10:57:22
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.5748490230905863
+scoring results in:results/geonames/geonames_flan_t5_xl/report-geonames_flan_t5_xl-4-2023-05-05 10:57:22.json
+Ending the Inference time is: 2023-05-05 10:59:20
+Total duration is===> 0:01:58.760718
+Inference for  geonames_flan_t5_xl on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: geonames_flan_t5_xl, template: 5!
+args: Namespace(kb_name='geonames', model='geonames_flan_t5_xl', template='5', device='cuda')
+Starting the Inference time is: 2023-05-05 10:59:26
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.3629324265777416
+scoring results in:results/geonames/geonames_flan_t5_xl/report-geonames_flan_t5_xl-5-2023-05-05 10:59:26.json
+Ending the Inference time is: 2023-05-05 11:01:41
+Total duration is===> 0:02:14.800235
+Inference for  geonames_flan_t5_xl on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: geonames_flan_t5_xl, template: 6!
+args: Namespace(kb_name='geonames', model='geonames_flan_t5_xl', template='6', device='cuda')
+Starting the Inference time is: 2023-05-05 11:01:47
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.5905717810048664
+scoring results in:results/geonames/geonames_flan_t5_xl/report-geonames_flan_t5_xl-6-2023-05-05 11:01:47.json
+Ending the Inference time is: 2023-05-05 11:04:15
+Total duration is===> 0:02:28.316964
+Inference for  geonames_flan_t5_xl on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: geonames_flan_t5_xl, template: 7!
+args: Namespace(kb_name='geonames', model='geonames_flan_t5_xl', template='7', device='cuda')
+Starting the Inference time is: 2023-05-05 11:04:21
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.49261962692619626
+scoring results in:results/geonames/geonames_flan_t5_xl/report-geonames_flan_t5_xl-7-2023-05-05 11:04:21.json
+Ending the Inference time is: 2023-05-05 11:06:18
+Total duration is===> 0:01:57.435614
+Inference for  geonames_flan_t5_xl on template: 7  is done
+-----------------------------------------------------------
