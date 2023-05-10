@@ -22,7 +22,7 @@ def inference(model, dataloader):
 def gpt3_inference(model, dataloader, config):
     for index, batch in enumerate(tqdm(dataloader)):
         results = model.make_batch_prediction(batch)
-        DataWriter.write_json(outputs,  config.model_output.replace("[BATCH]", str(index+1)))
+        DataWriter.write_json(results,  config.model_output.replace("[BATCH]", str(index+1)))
         print(f"scoring model outputs in:{config.model_output}")
                                   
 if __name__ == "__main__":
