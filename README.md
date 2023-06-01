@@ -13,7 +13,7 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
 - [LLMs4OL Paradigm Setups](#llms4ol-paradigm-setups)
     - [Tasks](#tasks)
     - [Datasets](#datasets)
-    - Results
+    - [Results](#results)
     - Experimental LLMs
 - How to run.
     - Software Dependencies and Requirements
@@ -63,7 +63,24 @@ biomedicine – NCI, MEDICIN, SNOMEDCT, and web content types – Schema.Org. Th
 
 ### Results
 
+Evaluations for Task A are reported as the mean average precision at k (MAP@K), where k = 1, since this metric was noted as being best suited to the task. Specifically, in our case, for term typing, MAP@1 measures the average precision of the top-1 ranked term types returned by an LLM for prompts initialized with terms from the evaluation set. And evaluations for Tasks B and
+C are reported in terms of the standard F1-score based on precision and recall.
+
+We evaluate different types of LLMs representative of different neural architecture building blocks that are respectively reported as state-of-the-art for different tasks in the community. A complete and detailed results for tasks are presented in the following tables:
+
+- [Task A. Term Typing Detailed Results Table](./TaskA/results/readme.md) 
+- [Task B. Type Taxonomy Discovery Detailed Results Table](./TaskB/results/readme.md) 
+- [Task C. Type Non-Taxonomic Relation Extraction Detailed Results Table](./TaskC/results/readme.md)
+
 ### Experimental LLMs
+
+We created experimentations using five different LMs. These LMs described as followings:
+- **[BERT](https://huggingface.co/bert-large-uncased)**: A bidirectional transformer pre-trained by joint conditioning on both left and right context in all layers. It is a combination of Masked Language Modeling (MLM) and Next Sentence Prediction (NSP) objectives. BERT has been trained on a large corpus comprising the Toronto Book Corpus and Wikipedia.
+- **[BART](https://huggingface.co/facebook/bart-large)**: Bart is trained by corrupting text with an arbitrary noising function, and learning a model to reconstruct the original text. It uses a standard seq2seq machine translation architecture with a bidirectional encoder and left-to-right decoder schemes where the encoder part is fed a corrupted version of the tokens, decoder part is fed the original tokens.
+- **Flan-T5**: Flan-T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervised and supervised tasks. It is trained based on instruction finetuning with a particular focus on (1) scaling the number of tasks, (2) scaling the model size, and (3) finetuning on chain-of-thought data. Flan-T5 uses T5 as a base model with instruction finetuning on several tasks that have shown a strong few-shot performance even compared to much larger models, such as PaLM 62B. In context of LLMs4OL we have used [Flan-T5-Large](https://huggingface.co/google/flan-t5-large) and [Flan-T5-XL](https://huggingface.co/google/flan-t5-xl) variants in our experimentations
+- **BLOOM**: BLOOM is a decoder-only transformer language model that has 176B parameters and is trained on 366B tokens in 46 languages and 13 programming languages. BLOOM achieves competitive performance on a wide variety of benchmarks, with stronger results after undergoing multitask-prompted finetuning. In context of LLMs4OL we have used [BLOOM-1b7](https://huggingface.co/bigscience/bloom-1b7) and [BLOOM-3b](https://huggingface.co/bigscience/bloomz-3b) variants in our experimentations
+- **[GPT-3](https://platform.openai.com/docs/models/gpt-3)**: GPT-3 is a decoder-only language model with 175 billion parameters that predicts the next word in the sequence. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks. 
+
 
 ## Repository Structure
 
