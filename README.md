@@ -11,7 +11,7 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
 ### Table of Contents
 - [LLMs4OL Paradigm](#llms4ol-paradigm)
 - [LLMs4OL Paradigm Setups](#llms4ol-paradigm-setups)
-    - Tasks
+    - [Tasks](#tasks)
     - Datasets
     - Results
     - Experimental LLMs
