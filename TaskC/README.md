@@ -1,3 +1,3 @@
-**[LLMs4OL](../README.md#llms4ol-paradigm-setup) | [TaskA: Term Typing](../TaskA/README.md) | [TaskB: Type Taxonomy](../TaskB/README.md) | [TaskC: Type Non-Taxonomic RE](../TaskC/README.md) | [Few-Shot](../FSL/readme.md) |** 
+**[LLMs4OL Paradigm](../README.md#llms4ol-paradigm-setup) | [Task A: Term Typing](../TaskA/README.md) | [Task B: Type Taxonomy Discovery](../TaskB/README.md) | [Task C: Type Non-Taxonomic Relation Extraction](../TaskC/README.md) | [Few-Shot Learning](../FSL/readme.md) |** 
 
 # Task C: Type Non-Taxonomic Relation Extraction
