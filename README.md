@@ -10,13 +10,13 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
 
 ### Table of Contents
 - [LLMs4OL Paradigm](#llms4ol-paradigm)
+- [Repository Structure](#repository-structure)
 - [LLMs4OL Paradigm Setups](#llms4ol-paradigm-setups)
     - [Tasks](#tasks)
     - [Datasets](#datasets)
     - [Results](#results)
-    - E[xperimental LLMs](#experimental-llms)
-- How to run.
-    - Software Dependencies and Requirements
+    - [Experimental LLMs](#experimental-llms)
+- [Few-Shot Learning](#few-shot-learning)
 - Citations
 
 
@@ -40,6 +40,32 @@ Toward realizing LLMs4OL, we empirically ground three core tasks of OL leveragin
 - **Type Taxonomy Discovery** -- for type "is-a" taxonomy construction
 - **Type Non-Taxonomic Relation Extraction** -- for type "non-is-a" taxonomy construction
 
+## Repository Structure
+```
+.
+└── LLMs4OL                       <- root directory of the repository
+    ├── FSL                       <- Few-Shot Learning directory
+    │   └── ...
+    ├── TaskA                     <- Term Typing task directory
+    │   └── ...
+    ├── TaskB                     <- Type Taxonomy Discovery task directory
+    │   └── ...
+    ├── TaskC                     <- Type Non-Taxonomic Relation Extraction task directory
+    │   └── ...
+    ├── assets                    <- artifacts directory 
+    │   ├── LLMs                  <- contains pretrained LLMs
+    │   ├── FSL                   <- contains fine-tuned LLMs (for training you should create this)
+    │   ├── WordNetDefinitions    <- contains wordnet word definitions
+    │   └── CountryCodes          <- GeoNames country codes
+    ├── datasets                  <- contains datasets
+    │   ├── FSL                   <- contains few-shot learning training datasets
+    │   ├── TaskA                 <- contains directories for task A sources
+    │   ├── TaskB                 <- contains directories for task B sources
+    │   └── TaskC                 <- contains directories for task C sources
+    ├── images                    <- contains the figures
+    ├── README.md                 <- README file for documenting the service.
+    └── requirements.txt          <- contains python requirements listed
+```
 ## LLMs4OL Paradigm Setups
 
 The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domains with aim of automation of ontology learning. 
