@@ -1,2 +1,2 @@
 # LLMs4OL
-LLMs4OL:‌ are Large Language Models (LLMs) appropriate for (4) Ontology Learning (OL)? 
+LLMs4OL: Large Language Models (LLMs) for (4) Ontology Learning (OL) 
