@@ -9,3 +9,4 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
 - Task C: Type Non-Taxonomic Relation Extraction
 
 ![LLMs4OL](images/LLMs4OL.jpg)  
+<p style="text-align: center;">LLMs4OL Paradigm Experimental Setup</p>
