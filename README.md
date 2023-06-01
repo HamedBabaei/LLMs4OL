@@ -42,22 +42,22 @@ Toward realizing LLMs4OL, we empirically ground three core tasks of OL leveragin
 
 ## LLMs4OL Paradigm Setups
 
-<!-- 
-This repository aims to foster constructing the ORKG using predefined set of predicates existing in the graph.
-This directs ORKG users to converge towards selecting predicates added by domain experts while not preventing
-them from adding new ones / selecting other ones, as the crowdsourcing concept of the ORKG suggests. Note that this
-service and the
-Templates Recommendation service
-serve the same purpose, but from different perspectives. -->
+The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domains with aim of automation of ontology learning. 
 
-### Tasks:
+### Tasks
+
+The tasks within the blue arrow (in Figure-1) are the three OL tasks empirically validated. For each task we created a directory with detailed description of the task informations as follows:
+
 - [Task A. Term Typing](./TaskA/README.md) 
 - [Task B. Type Taxonomy Discovery](./TaskB/README.md)
 - [Task C. Type Non-Taxonomic Relation Extraction](./TaskC/README.md)
 
-### Datasets:
+### Datasets
+To comprehensively assess LLMs for the three OL tasks we cover a variety of ontological knowledge domain sources, i.e. lexicosemantics – WN18RR (WordNet), geography – GeoNames,
+biomedicine – NCI, MEDICIN, SNOMEDCT, and web content types – Schema.Org. 
 
-### Results:
+
+### Results
 
 ### Experimental LLMs
 
