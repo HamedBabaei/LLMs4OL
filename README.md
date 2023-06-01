@@ -5,6 +5,9 @@
 **| [LLMs4OL Paradigm](./README.md#llms4ol-paradigm) | [Task A: Term Typing](./TaskA/README.md) | [Task B: Type Taxonomy Discovery](./TaskB/README.md) | [Task C: Type Non-Taxonomic Relation Extraction](./TaskC/README.md) | [Few-Shot Learning](./FSL/README.md) | [Task A Detailed Results](./TaskA/results/readme.md) | [Task B Detailed Results](./TaskB/results/readme.md) | [Task C Detailed Results](./TaskC/results/readme.md) | [Task A Datasets](./datasets/TaskA/README.md) | [Task B Datasets](./datasets/TaskB/README.md) | [Task C Datasets](./datasets/TaskC/README.md) | [Few-Shot Learning Datasets](./datasets/FSL/README.md) |**
 
 --------------
+<div align="center"><img src="images/LLMs4OL.jpg" /></div>
+<div align="center">Figure 1: The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domain</div>
+<br>
 
 Ontology Learning (OL) addresses the challenge of knowledge acquisition and representation  in a variety of domains. Recent advances in NLP and the emergence of Large Language Models, which have shown a capability to be good at crystallizing knowledge and patterns from vast text sources, we introduced the **LLMs4OL: Large Language Models for Ontology Learning** paradigm as a empirical study of LLMs for automated construction of ontologies from various domains.  The LLMs4OL paradigm tests *Does the capability of LLMs to capture intricate linguistic relationships translate effectively to OL, given that OL mainly relies on automatically extracting and structuring knowledge from natural language text?*.
 
@@ -21,10 +24,7 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
 
 
 ## LLMs4OL Paradigm
-<div align="center"><img src="images/LLMs4OL.jpg" /></div>
-<div align="center">Figure 1: The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domain</div>
 
-<br>
 The LLMs4OL paradigm offers a conceptual framework to accelerate the automated construction of ontologies exclusively by domain experts. OL tasks are based on the ontology primitives which consist of:
 
 1. Corpus preparation – selecting and collecting the source texts to build the ontology. 
@@ -106,10 +106,6 @@ We created experimentations using five different LMs. These LMs described as fol
 - **Flan-T5**: Flan-T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervised and supervised tasks. It is trained based on instruction finetuning with a particular focus on (1) scaling the number of tasks, (2) scaling the model size, and (3) finetuning on chain-of-thought data. Flan-T5 uses T5 as a base model with instruction finetuning on several tasks that have shown a strong few-shot performance even compared to much larger models, such as PaLM 62B. In context of LLMs4OL we have used [Flan-T5-Large](https://huggingface.co/google/flan-t5-large) and [Flan-T5-XL](https://huggingface.co/google/flan-t5-xl) variants in our experimentations
 - **BLOOM**: BLOOM is a decoder-only transformer language model that has 176B parameters and is trained on 366B tokens in 46 languages and 13 programming languages. BLOOM achieves competitive performance on a wide variety of benchmarks, with stronger results after undergoing multitask-prompted finetuning. In context of LLMs4OL we have used [BLOOM-1b7](https://huggingface.co/bigscience/bloom-1b7) and [BLOOM-3b](https://huggingface.co/bigscience/bloomz-3b) variants in our experimentations
 - **[GPT-3](https://platform.openai.com/docs/models/gpt-3)**: GPT-3 is a decoder-only language model with 175 billion parameters that predicts the next word in the sequence. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks. 
-
-
-## Repository Structure
-
 
 
 ## How to run
