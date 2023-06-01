@@ -12,7 +12,7 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
 - [LLMs4OL Paradigm](#llms4ol-paradigm)
 - [LLMs4OL Paradigm Setups](#llms4ol-paradigm-setups)
     - [Tasks](#tasks)
-    - Datasets
+    - [Datasets](#datasets)
     - Results
     - Experimental LLMs
 - How to run.
@@ -54,7 +54,11 @@ The tasks within the blue arrow (in Figure-1) are the three OL tasks empirically
 
 ### Datasets
 To comprehensively assess LLMs for the three OL tasks we cover a variety of ontological knowledge domain sources, i.e. lexicosemantics – WN18RR (WordNet), geography – GeoNames,
-biomedicine – NCI, MEDICIN, SNOMEDCT, and web content types – Schema.Org. 
+biomedicine – NCI, MEDICIN, SNOMEDCT, and web content types – Schema.Org. These sources are different for each task, so for each task the detailed information is avaliable as follows:
+
+- [Task A. Term Typing Datasets](./datasets/TaskA/README.md): GeoNames, NCI, MEDICIN, SNOMEDCT, and WN18RR
+- [Task B. Type Taxonomy Discovery Datasets](./datasets/TaskB/README.md): GeoNames, Schema.Org, and UMLS
+- [Task C. Type Non-Taxonomic Relation Extraction Datasets](./datasets/TaskC/README.md): UMLS
 
 
 ### Results
