@@ -2,7 +2,7 @@
 <h1 align="center">LLMs4OL: Large Language Models for <br> Ontology Learning 
 </h1>
 
-**[LLMs4OL](./README.md#llms4ol-paradigm-setup) | [TaskA: Term Typing](./TaskA/README.md) | [TaskB: Type Taxonomy](./TaskB/README.md) | [TaskC: Type Non-Taxonomic RE](./TaskB/README.md) | [Few-Shot](./FSL/readme.md) |** 
+**[LLMs4OL](./README.md#llms4ol-paradigm-setup) | [TaskA: Term Typing](./TaskA/README.md) | [TaskB: Type Taxonomy](./TaskB/README.md) | [TaskC: Type Non-Taxonomic RE](./TaskC/README.md) | [Few-Shot](./FSL/readme.md) |** 
 
 ### Table of Contents
 - Repository Structure
