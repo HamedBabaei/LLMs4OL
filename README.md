@@ -1,7 +1,7 @@
 
 # LLMs4OL: Large Language Models for Ontology Learning 
 
-**[LLMs4OL Paradigm](./README.md#llms4ol-paradigm-setup) | [Task A: Term Typing](./TaskA/README.md) | [Task B: Type Taxonomy Discovery](./TaskB/README.md) | [Task C: Type Non-Taxonomic Relation Extraction](./TaskB/README.md)** | **Keywords:** Zero-Shot, Few-Shot, Prompt-Learning, Ontology Learning, Large Language Models, Prompting.|
+**[LLMs4OL](./README.md#llms4ol-paradigm-setup)|[TaskA: Term Typing](./TaskA/README.md)|[TaskB: Type Taxonomy Discovery](./TaskB/README.md)|[TaskC: Type Non-Taxonomic Relation Extraction](./TaskB/README.md)**|
 
 ### Table of Contents
 - Repository Structure
