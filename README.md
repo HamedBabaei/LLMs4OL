@@ -1,7 +1,8 @@
 
-# LLMs4OL: Large Language Models for Ontology Learning 
+<h1 align="center">LLMs4OL: Large Language Models for Ontology Learning 
+</h1>
 
-**[LLMs4OL](./README.md#llms4ol-paradigm-setup)|[TaskA: Term Typing](./TaskA/README.md)|[TaskB: Type Taxonomy Discovery](./TaskB/README.md)|[TaskC: Type Non-Taxonomic Relation Extraction](./TaskB/README.md)**|
+**|[LLMs4OL](./README.md#llms4ol-paradigm-setup) | [TaskA: Term Typing](./TaskA/README.md) | [TaskB: Type Taxonomy](./TaskB/README.md) | [TaskC: Type Non-Taxonomic RE](./TaskB/README.md)** |
 
 ### Table of Contents
 - Repository Structure
