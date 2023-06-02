@@ -1,4 +1,13 @@
+**| [LLMs4OL Paradigm](../../README.md#llms4ol-paradigm) | [Task A: Term Typing](../../TaskA/README.md) | [Task B: Type Taxonomy Discovery](../../TaskB/README.md) | [Task C: Type Non-Taxonomic Relation Extraction](../../TaskC/README.md) | [Few-Shot Learning](../../FSL/README.md) | [Task A Detailed Results](../../TaskA/results/readme.md) | [Task B Detailed Results](../../TaskB/results/readme.md) | [Task C Detailed Results](../../TaskC/results/readme.md) | [Task A Datasets](../../datasets/TaskA/README.md) | [Task B Datasets](../../datasets/TaskB/README.md) | [Task C Datasets](../../datasets/TaskC/README.md) | [Few-Shot Learning Datasets](../../datasets/FSL/README.md) |**
 
+
+## Task B. Type Taxonomy Discovery Datasets
+From GeoNames, UMLS, and schema.org we obtained 680, 127, and 797 term types constituting type taxonomies. Dataset statistics as counts per reported parameter for Task B type taxonomic hierarchy discovery.
+
+<div align="center"><img src="../../images/task-b-datasets-table.png" /></div>
+<div align="center">Figure: Statistics</div> 
+
+<!-- 
 ## Geonames:
 - Source of information for feature codes: https://www.geonames.org/export/
 - size of processed hierarchy in GeoNames is (positive and negatives) : 1360
@@ -17,4 +26,4 @@
 - size of processed hierarchy in UMLS is : 5340
 - positive size is: 2670
 - total number of types: 1344
-- Train size:1068,  Test size:4272
+- Train size:1068,  Test size:4272 -->
