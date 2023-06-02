@@ -16,8 +16,11 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
     - [Datasets](#datasets)
     - [Results](#results)
     - [Experimental LLMs](#experimental-llms)
+- [Zero-Shot Learning](#zero-shot-learning)
 - [Few-Shot Learning](#few-shot-learning)
-- Citations
+- [How to run tasks](#how-to-run-tasks)
+- [Requirements](#requirements)
+- [Citation](#citation)
 
 
 ## Repository Structure
@@ -62,8 +65,8 @@ The LLMs4OL paradigm offers a conceptual framework to accelerate the automated c
 Toward realizing LLMs4OL, we empirically ground three core tasks of OL leveraging LLMs as a foundational basis for future work. They are presented as:
 
 - **Term Typing**
-- **Type Taxonomy Discovery** -- for type "is-a" taxonomy construction
-- **Type Non-Taxonomic Relation Extraction** -- for type "non-is-a" taxonomy construction
+- **Type Taxonomy Discovery**  
+- **Type Non-Taxonomic Relation Extraction**
 
 ## LLMs4OL Paradigm Setups
 
@@ -88,10 +91,7 @@ biomedicine – NCI, MEDICIN, SNOMEDCT, and web content types – Schema.Org. Th
 
 ### Results
 
-Evaluations for Task A are reported as the mean average precision at k (MAP@K), where k = 1, since this metric was noted as being best suited to the task. Specifically, in our case, for term typing, MAP@1 measures the average precision of the top-1 ranked term types returned by an LLM for prompts initialized with terms from the evaluation set. And evaluations for Tasks B and
-C are reported in terms of the standard F1-score based on precision and recall.
-
-We evaluate different types of LLMs representative of different neural architecture building blocks that are respectively reported as state-of-the-art for different tasks in the community. A complete and detailed results for tasks are presented in the following tables:
+Evaluation metric for Task A is reported as the mean average precision at k (MAP@K), where k = 1, And evaluations for Tasks B and C are reported in terms of the standard F1-score based on precision and recall. A complete and detailed results for tasks are presented in the following tables:
 
 - [Task A. Term Typing Detailed Results Table](./TaskA/results/readme.md) 
 - [Task B. Type Taxonomy Discovery Detailed Results Table](./TaskB/results/readme.md) 
@@ -100,13 +100,39 @@ We evaluate different types of LLMs representative of different neural architect
 ### Experimental LLMs
 
 We created experimentations using five different LMs. These LMs described as followings:
-- **[BERT](https://huggingface.co/bert-large-uncased)**: A bidirectional transformer pre-trained by joint conditioning on both left and right context in all layers. It is a combination of Masked Language Modeling (MLM) and Next Sentence Prediction (NSP) objectives. BERT has been trained on a large corpus comprising the Toronto Book Corpus and Wikipedia.
-- **[BART](https://huggingface.co/facebook/bart-large)**: Bart is trained by corrupting text with an arbitrary noising function, and learning a model to reconstruct the original text. It uses a standard seq2seq machine translation architecture with a bidirectional encoder and left-to-right decoder schemes where the encoder part is fed a corrupted version of the tokens, decoder part is fed the original tokens.
-- **Flan-T5**: Flan-T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervised and supervised tasks. It is trained based on instruction finetuning with a particular focus on (1) scaling the number of tasks, (2) scaling the model size, and (3) finetuning on chain-of-thought data. Flan-T5 uses T5 as a base model with instruction finetuning on several tasks that have shown a strong few-shot performance even compared to much larger models, such as PaLM 62B. In context of LLMs4OL we have used [Flan-T5-Large](https://huggingface.co/google/flan-t5-large) and [Flan-T5-XL](https://huggingface.co/google/flan-t5-xl) variants in our experimentations
-- **BLOOM**: BLOOM is a decoder-only transformer language model that has 176B parameters and is trained on 366B tokens in 46 languages and 13 programming languages. BLOOM achieves competitive performance on a wide variety of benchmarks, with stronger results after undergoing multitask-prompted finetuning. In context of LLMs4OL we have used [BLOOM-1b7](https://huggingface.co/bigscience/bloom-1b7) and [BLOOM-3b](https://huggingface.co/bigscience/bloomz-3b) variants in our experimentations
-- **[GPT-3](https://platform.openai.com/docs/models/gpt-3)**: GPT-3 is a decoder-only language model with 175 billion parameters that predicts the next word in the sequence. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks. 
 
+- Encoder-Only:
+    - **[BERT-Large](https://huggingface.co/bert-large-uncased)** with 340M parameters
+- Encoder-Decoder
+    - **[BART-Large](https://huggingface.co/facebook/bart-large)** with 400M parameters 
+    - **[Flan-T5-Large](https://huggingface.co/google/flan-t5-large)** with 780M parameters
+    - **[Flan-T5-XL](https://huggingface.co/google/flan-t5-xl)** with 3B parameters
+- Decoder-Only:
+    - **[BLOOM-1b7](https://huggingface.co/bigscience/bloom-1b7)** with 1.7B parameters
+    - **[BLOOM-3b](https://huggingface.co/bigscience/bloomz-3b)** with 3B parameters
+    - **[GPT-3](https://platform.openai.com/docs/models/gpt-3)** with 175B parameters
 
-## How to run
+## Zero-Shot Learning
+All the intial experimentations with LLMs has been conducted in zero-shot setting to probe knowledge from LLMs. To this end, we 
 
-### Requirements
+Our zero-shot test results indicate that while LLMs seem promising
+for OL they would need to be finetuned to offer a practically viable solution
+within the Semantic Web community. To this end, we adopt the method of
+“instruction tuning” proposed as the FLAN collection of https://github.com/
+google-research/FLAN/blob/main/flan/templates.py that is the only known
+systematically deconstructed, effective way to finetune LLMs [32]. The instruc-
+tions are instantiated from a small selection of eight samples of each knowledge
+source’ reserved training set and fed in a finetuning workflow shown in Figure 2.
+The finetuned Flan models’ results (see last two columns in Table 4) are signifi-
+cantly boosted across almost all tasks. These insights appear crucial to expedite
+developmental research progress for practical tools for OL using LLMs which we
+plan to leverage in our future work.
+
+## Few-Shot Learning
+
+## How to run tasks
+
+## Requirements
+
+## Citation
+>‌ -
