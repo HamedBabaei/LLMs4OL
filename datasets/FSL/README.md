@@ -14,4 +14,4 @@ For task A for each class, we choose 8 samples per class from the train set. As 
 | NCI| A, B, C | 911  |
 | Schema.Org| B| 1068 |
 
-Each dataset format has been changed to support our requirements for the training. Also, it is worth mentioning that we applied negative sampling for datasets as well but we ended-up up NOT using them during training process.
+Each dataset format has been changed to support our requirements for the training. Also, it is worth mentioning that we applied negative sampling for datasets but we ended-up up NOT using them during training process.
