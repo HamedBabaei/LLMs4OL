@@ -6,7 +6,7 @@
 <div align="center">Figure 1: The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domain </div>
 <br>
 
-Ontology Learning (OL) addresses the challenge of knowledge acquisition and representation  in a variety of domains. Recent advances in NLP and the emergence of Large Language Models, which have shown a capability to be good at crystallizing knowledge and patterns from vast text sources, we introduced the **LLMs4OL: Large Language Models for Ontology Learning** paradigm as a empirical study of LLMs for automated construction of ontologies from various domains.  The LLMs4OL paradigm tests *Does the capability of LLMs to capture intricate linguistic relationships translate effectively to OL, given that OL mainly relies on automatically extracting and structuring knowledge from natural language text?*.
+Ontology Learning (OL) addresses the challenge of knowledge acquisition and representation in a variety of domains. Recent advances in NLP and the emergence of Large Language Models, which have shown a capability to be good at crystallizing knowledge and patterns from vast text sources, we introduced the **LLMs4OL: Large Language Models for Ontology Learning** paradigm as an empirical study of LLMs for automated construction of ontologies from various domains.  The LLMs4OL paradigm tests *Does the capability of LLMs to capture intricate linguistic relationships translate effectively to OL, given that OL mainly relies on automatically extracting and structuring knowledge from natural language text?*.
 
 ### Table of Contents
 - [Repository Structure](#repository-structure)
@@ -16,8 +16,7 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
     - [Datasets](#datasets)
     - [Results](#results)
     - [Experimental LLMs](#experimental-llms)
-- [Zero-Shot Learning](#zero-shot-learning)
-- [Few-Shot Learning](#few-shot-learning)
+- [Experiments](#experiments)
 - [How to run tasks](#how-to-run-tasks)
 - [Requirements](#requirements)
 - [Citation](#citation)
@@ -47,7 +46,7 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
     │   └── TaskC                 <- contains directories for task C sources
     ├── images                    <- contains the figures
     ├── README.md                 <- README file for documenting the service.
-    └── requirements.txt          <- contains python requirements listed
+    └── requirements.txt          <- contains Python requirements listed
 ```
 
 
@@ -70,28 +69,28 @@ Toward realizing LLMs4OL, we empirically ground three core tasks of OL leveragin
 
 ## LLMs4OL Paradigm Setups
 
-The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domains with aim of automation of ontology learning. 
+The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domains with the aim of automation of ontology learning. 
 
 ### Tasks
 
-The tasks within the blue arrow (in Figure-1) are the three OL tasks empirically validated. For each task we created a directory with detailed description of the task informations as follows:
+The tasks within the blue arrow (in Figure-1) are the three OL tasks empirically validated. For each task, we created a directory with a detailed description of the task information as follows:
 
 - [Task A. Term Typing](./TaskA/README.md) 
 - [Task B. Type Taxonomy Discovery](./TaskB/README.md)
 - [Task C. Type Non-Taxonomic Relation Extraction](./TaskC/README.md)
 
 ### Datasets
-To comprehensively assess LLMs for the three OL tasks we cover a variety of ontological knowledge domain sources, i.e. lexicosemantics – WN18RR (WordNet), geography – GeoNames,
-biomedicine – NCI, MEDICIN, SNOMEDCT, and web content types – Schema.Org. These sources are different for each task, so for each task the detailed information is avaliable as follows:
+To comprehensively assess LLMs for the three OL tasks we cover a variety of ontological knowledge domain sources, i.e. lexicosemantics – [WN18RR](https://github.com/TimDettmers/ConvE) (WordNet), geography – [GeoNames](http://www.geonames.org/),
+biomedicine – [NCI](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/NCI/index.html), [MEDICIN](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MEDCIN/index.html), [SNOMEDCT](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/SNOMEDCT_US/index.html), and web content types – [Schema.Org](https://schema.org/). These sources are different for each task, so for each task, the detailed information is available as follows:
 
 - [Task A. Term Typing Datasets](./datasets/TaskA/README.md): GeoNames, NCI, MEDICIN, SNOMEDCT, and WN18RR
-- [Task B. Type Taxonomy Discovery Datasets](./datasets/TaskB/README.md): GeoNames, Schema.Org, and UMLS
-- [Task C. Type Non-Taxonomic Relation Extraction Datasets](./datasets/TaskC/README.md): UMLS
+- [Task B. Type Taxonomy Discovery Datasets](./datasets/TaskB/README.md): GeoNames, Schema.Org, and [UMLS](https://lhncbc.nlm.nih.gov/semanticnetwork/)
+- [Task C. Type Non-Taxonomic Relation Extraction Datasets](./datasets/TaskC/README.md): [UMLS](https://lhncbc.nlm.nih.gov/semanticnetwork/)
 
 
 ### Results
 
-Evaluation metric for Task A is reported as the mean average precision at k (MAP@K), where k = 1, And evaluations for Tasks B and C are reported in terms of the standard F1-score based on precision and recall. A complete and detailed results for tasks are presented in the following tables:
+The evaluation metric for Task A is reported as the mean average precision at k (MAP@K), where k = 1, And evaluations for Tasks B and C are reported in terms of the standard F1-score based on precision and recall. Complete and detailed results for tasks are presented in the following tables:
 
 - [Task A. Term Typing Detailed Results Table](./TaskA/results/readme.md) 
 - [Task B. Type Taxonomy Discovery Detailed Results Table](./TaskB/results/readme.md) 
@@ -103,7 +102,7 @@ We created experimentations using five different LMs. These LMs described as fol
 
 - Encoder-Only:
     - **[BERT-Large](https://huggingface.co/bert-large-uncased)** with 340M parameters
-- Encoder-Decoder
+- Encoder-Decoder:
     - **[BART-Large](https://huggingface.co/facebook/bart-large)** with 400M parameters 
     - **[Flan-T5-Large](https://huggingface.co/google/flan-t5-large)** with 780M parameters
     - **[Flan-T5-XL](https://huggingface.co/google/flan-t5-xl)** with 3B parameters
@@ -112,27 +111,26 @@ We created experimentations using five different LMs. These LMs described as fol
     - **[BLOOM-3b](https://huggingface.co/bigscience/bloomz-3b)** with 3B parameters
     - **[GPT-3](https://platform.openai.com/docs/models/gpt-3)** with 175B parameters
 
-## Zero-Shot Learning
-All the intial experimentations with LLMs has been conducted in zero-shot setting to probe knowledge from LLMs. To this end, we 
+## Experiments
+First we created prompt templates based on existing experimental language models and their nature -- specifically for tasks A and B we created 8 templates per source, and for task C only a single template --. Next, we probe LMs as zero-shot testing. More later we attempt to boost the performance of two LLMs (Flan-T5-Large and Flan-T5-XL) in the form of few-shot learning using predefined prompt templates (different than zero-shot testing) and we test the model using zero-shot testing prompt templates. 
 
-Our zero-shot test results indicate that while LLMs seem promising
-for OL they would need to be finetuned to offer a practically viable solution
-within the Semantic Web community. To this end, we adopt the method of
-“instruction tuning” proposed as the FLAN collection of https://github.com/
-google-research/FLAN/blob/main/flan/templates.py that is the only known
-systematically deconstructed, effective way to finetune LLMs [32]. The instruc-
-tions are instantiated from a small selection of eight samples of each knowledge
-source’ reserved training set and fed in a finetuning workflow shown in Figure 2.
-The finetuned Flan models’ results (see last two columns in Table 4) are signifi-
-cantly boosted across almost all tasks. These insights appear crucial to expedite
-developmental research progress for practical tools for OL using LLMs which we
-plan to leverage in our future work.
+Prompt templates for zero-shot testing are represented as follows:
+|Dataset| Task | prompt templates path | answer set mapper path|
+|:---:|:---:|:---:|:---:|
+|WN18RR | A | [`datasets/TaskA/WN18RR/templates.json`](datasets/TaskA/WN18RR/templates.json)| `datasets/TaskA/WN18RR/label_mapper.json` |
+|GeoNames | A | `datasets/TaskA/Geonames/templates.json`| `datasets/TaskA/Geonames/label_mapper.json`|
+|NCI, MEDICIN, SNOMEDCT | A | `datasets/TaskA/UMLS/templates.json`| `datasets/TaskA/UMLS/label_mapper.json`|
+|Schema.Org, UMLS, GeoNames |‌ B | `datasets/TaskB/templates.txt`| `datasets/TaskB/label_mapper.json`|
+|UMLS | C | `datasets/TaskC/templates.txt`| `datasets/TaskC/label_mapper.json`|
 
-## Few-Shot Learning
+### Zero-Shot Learning
+All the initial experimentations with LLMs have been conducted in a zero-shot setting to probe knowledge from LLMs. 
+
+### Few-Shot Learning
 
 ## How to run tasks
 
 ## Requirements
 
 ## Citation
->‌ -
+>‌ ...
