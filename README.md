@@ -18,7 +18,8 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
     - [Experimental LLMs](#experimental-llms)
 - [Experiments](#experiments)
 - [How to run tasks](#how-to-run-tasks)
-- [Requirements](#requirements)
+    - [Requirements](#requirements)
+    - [Running Tasks](#running-tasks)
 - [Citation](#citation)
 
 
@@ -129,6 +130,32 @@ Prompt templates for training few-shot learning is represented as follows:
 |WN18RR, UMLS (NCI only), GeoNames, Schema.Org | A, B, C | [`FSL/templates.py`](FSL/templates.py) |
 
 ## How to run tasks
+
+### Requirements
+**Software Requirements**:
+- Python 3.9
+- `requirements.txt` libraries
+
+**Instructions**:
+
+First, install the conda using conda [installation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) guideline, and then create and activate your environments as follows:
+
+```cmd
+conda create -n yourenvname python=3.9
+conda activate yourenvname
+```
+Next, clone the repository and install the requirements from `requirements.txt` in your environments:
+```cmd
+git clone https://github.com/XXXX/LLMs4OL.git
+
+cd LLMs4OL
+
+pip install -r requirements.txt
+```
+Finally, start the experiments as described in the task directories.
+
+
+### Running Tasks
 To make each task behave separately as an encapsulated module, we have created separated directories for datasets as well as tasks and each task consists of a `test_auto.sh` shell script that automatically runs zero-shot testing on all the task datasets and produces results that will be stored in `TaskX/results/DATASET_NAME/` directory. Also, you can easily run any model on your desired input dataset by running `test_manual.sh` and it will ask for the dataset, output logs to store outputs, as well as model name and device (CPU or GPU). For each of the important direcotries  we produced the `test.py` scripts which will be called in `test_manual.sh` and `test_auto.sh` multiple times on different datasets. The strucutre of `TaskA`, `TaskB`, and `TaskC` directories are presented as follows (`LLMs4OL/TaskX` directory):
 
 ```
@@ -152,28 +179,6 @@ To make each task behave separately as an encapsulated module, we have created s
 ```
 The `train_eval_fsl.sh` in the `FSL` directory runs `trainer.py` for representative datasets and then walks through `TaskX` directories and calls `test.py` for evaluation of trained models for each dataset. How to run models in detail is described tasks directories readme.md files. 
 
-## Requirements
-**Software Requirements**:
-- Python 3.9
-- `requirements.txt` libraries
-
-**Instructions**:
-
-First, install the conda using conda [installation](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) guideline, and then create and activate your environments as follows:
-
-```cmd
-conda create -n yourenvname python=3.9
-conda activate yourenvname
-```
-Next, clone the repository and install the requirements from `requirements.txt` in your environments:
-```cmd
-git clone https://github.com/XXXX/LLMs4OL.git
-
-cd LLMs4OL
-
-pip install -r requirements.txt
-```
-Finally, start the experiments as described in the task directories.
 
 
 ## Citation
