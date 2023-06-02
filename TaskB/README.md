@@ -25,7 +25,7 @@ Where KB_NAME, MODEL, TEMPLATE, and DEVICE accept the following values:
 **MODEL**: 
 > ```bert_large, flan_t5_large, flan_t5_xl, bart_large, gpt3, bloom_1b7, bloom_3b, gpt2_large, gpt2_xl, gpt3_ada```
 
-**TEMPLATE**: All the templates based on the chosen dataset can be accessed in [this table](../README.md#xperiments).
+**TEMPLATE**: All the templates based on the chosen dataset can be accessed in [this table](../README.md#experiments).
 > ```"1", "2", "3", "4", "5", "6", "7", "8"```
 
 **DEVICE:** 
