@@ -4,6 +4,11 @@ argparse
 pathlib
 scikit-learn
 numpy
+torch
 transformers
 sentencepiece
 nltk
+datasets
+openai
+openprompt
+pykeen
