@@ -30,7 +30,7 @@ TaskA/results/*/*/*
 TaskB/results/*/*/*
 TaskC/results/*/*/*
 
-*/openai_key_setter.py
+# */openai_key_setter.py
 
 TaskC/TaskC-experiments
 TaskB/TaskB-experiments
