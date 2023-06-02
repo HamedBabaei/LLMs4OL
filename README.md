@@ -123,17 +123,34 @@ Prompt templates for zero-shot testing are represented as follows:
 |Schema.Org, UMLS, GeoNames |‌ B | [`datasets/TaskB/templates.txt`](datasets/TaskB/templates.txt)| [`datasets/TaskB/label_mapper.json`](datasets/TaskB/label_mapper.json)|
 |UMLS | C | [`datasets/TaskC/templates.txt`](datasets/TaskC/templates.txt)| [`datasets/TaskC/label_mapper.json`](datasets/TaskC/label_mapper.json)|
 
+Prompt templates for training few-shot learning is represented as follows:
 |Dataset| Task | prompt templates path | 
 |:---:|:---:|:---:|
 |WN18RR, UMLS (NCI only), GeoNames, Schema.Org | A, B, C | [`FSL/templates.py`](FSL/templates.py) |
 
-FSL/templates.py
-### Zero-Shot Learning
-All the initial experimentations with LLMs have been conducted in a zero-shot setting to probe knowledge from LLMs. 
-
-### Few-Shot Learning
-
 ## How to run tasks
+
+```
+.
+└── LLMs4OL                      
+    ├── FSL                     
+    │   ├── ...
+    │   └── train_eval_fsl.sh
+    ├── TaskX             
+    │   ├── ...
+    │   ├── results
+    │   |   ├── dataset1
+    |   |   ├── dataset2
+    |   |   └── ....
+    │   ├── ...
+    │   ├── test.py
+    │   ├── test_auto.sh
+    │   └── test_manual.sh
+    ...
+```
+
+To make each task behave separately as an encapsulated module, we have created separated directories for datasets as well as tasks and each task consists of a `test_auto.sh` shell script that automatically runs zero-shot testing on all the task datasets and produces results that will be stored in `TaskX/results/DATASET_NAME/` directory. Also, you can easily run any model on your desired input dataset by running `test_manual.sh` and it will ask for the dataset, output logs to store outputs, as well as model name and device (CPU or GPU). For each of the important direcotries `TaskA`, `TaskB`, `TaskC`, and `FSL` we produced the `test_py` scripts which will be called in `test_manual.sh` and `test_auto.sh` multiple times on different datasets. All the details 
+
 
 ## Requirements
 
