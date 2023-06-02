@@ -14,7 +14,7 @@
 To run zero-shot testing you can try the following command line after you are done with [installing requirements](../README.md#requirements):
 
 ```CMD
-ptyhon3 test.py --kb_name KB_NAME --model MODEL --device DEVICE
+ptyhon3 test.py [-h] --kb_name KB_NAME --model MODEL --device DEVICE
 ```
 
 Where KB_NAME, MODEL, TEMPLATE, and DEVICE accept the following values:
@@ -37,7 +37,7 @@ python3 test.py --kb_name="umls" --model="bert_large" --device="cuda"
 
 Or you can easily run the `test_auto.sh` script to run models on `umls` dataset:
 
-```cmd
+```bash
 ./test_auto.sh
 ```
 

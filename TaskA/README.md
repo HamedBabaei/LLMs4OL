@@ -12,7 +12,7 @@
 To run zero-shot testing you can try the following command line after you are done with [installing requirements](../README.md#requirements):
 
 ```CMD
-ptyhon3 test.py --kb_name KB_NAME --model_name MODEL_NAME --template TEMPLATE --device DEVICE
+ptyhon3 test.py [-h] --kb_name KB_NAME --model_name MODEL_NAME --template TEMPLATE --device DEVICE
 ```
 
 Where KB_NAME, MODEL_NAME, TEMPLATE, and DEVICE accept the following values:
@@ -38,11 +38,11 @@ python3 test.py --kb_name="wn18rr" --model_name="bert_large" --template="templat
 
 Or you can easily run the `test_manual.sh` script:
 
-```cmd
+```bash
 ./test_manual.sh
 ```
 and It will ask you for the dataset and model name then it will run the model on all 8 prompt templates and then will save the results in the results directory. Since the number of runs will be very large, We have created `test_auto.sh` to run all the possible combinations with datasets, templates, and models.
-```cmd
+```bash
 ./test_auto.sh
 ```
 
