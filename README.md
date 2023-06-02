@@ -117,11 +117,11 @@ First we created prompt templates based on existing experimental language models
 Prompt templates for zero-shot testing are represented as follows:
 |Dataset| Task | prompt templates path | answer set mapper path|
 |:---:|:---:|:---:|:---:|
-|WN18RR | A | [`datasets/TaskA/WN18RR/templates.json`](datasets/TaskA/WN18RR/templates.json)| `datasets/TaskA/WN18RR/label_mapper.json` |
-|GeoNames | A | `datasets/TaskA/Geonames/templates.json`| `datasets/TaskA/Geonames/label_mapper.json`|
-|NCI, MEDICIN, SNOMEDCT | A | `datasets/TaskA/UMLS/templates.json`| `datasets/TaskA/UMLS/label_mapper.json`|
-|Schema.Org, UMLS, GeoNames |‌ B | `datasets/TaskB/templates.txt`| `datasets/TaskB/label_mapper.json`|
-|UMLS | C | `datasets/TaskC/templates.txt`| `datasets/TaskC/label_mapper.json`|
+|WN18RR | A | [`datasets/TaskA/WN18RR/templates.json`](datasets/TaskA/WN18RR/templates.json)| [`datasets/TaskA/WN18RR/label_mapper.json`](datasets/TaskA/WN18RR/label_mapper.json) |
+|GeoNames | A | [`datasets/TaskA/Geonames/templates.json`](datasets/TaskA/Geonames/templates.json)| [`datasets/TaskA/Geonames/label_mapper.json`](datasets/TaskA/Geonames/label_mapper.json)|
+|NCI, MEDICIN, SNOMEDCT | A | [`datasets/TaskA/UMLS/templates.json`](datasets/TaskA/UMLS/templates.json)| [`datasets/TaskA/UMLS/label_mapper.json`](datasets/TaskA/UMLS/label_mapper.json)|
+|Schema.Org, UMLS, GeoNames |‌ B | [`datasets/TaskB/templates.txt`](datasets/TaskB/templates.txt)| [`datasets/TaskB/label_mapper.json`](datasets/TaskB/label_mapper.json)|
+|UMLS | C | [`datasets/TaskC/templates.txt`](datasets/TaskC/templates.txt)| [`datasets/TaskC/label_mapper.json`](datasets/TaskC/label_mapper.json)|
 
 ### Zero-Shot Learning
 All the initial experimentations with LLMs have been conducted in a zero-shot setting to probe knowledge from LLMs. 
