@@ -123,6 +123,11 @@ Prompt templates for zero-shot testing are represented as follows:
 |Schema.Org, UMLS, GeoNames |‌ B | [`datasets/TaskB/templates.txt`](datasets/TaskB/templates.txt)| [`datasets/TaskB/label_mapper.json`](datasets/TaskB/label_mapper.json)|
 |UMLS | C | [`datasets/TaskC/templates.txt`](datasets/TaskC/templates.txt)| [`datasets/TaskC/label_mapper.json`](datasets/TaskC/label_mapper.json)|
 
+|Dataset| Task | prompt templates path | 
+|:---:|:---:|:---:|
+|WN18RR, UMLS (NCI only), GeoNames, Schema.Org | A, B, C | [`FSL/templates.py`](FSL/templates.py) |
+
+FSL/templates.py
 ### Zero-Shot Learning
 All the initial experimentations with LLMs have been conducted in a zero-shot setting to probe knowledge from LLMs. 
 
