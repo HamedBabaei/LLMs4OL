@@ -30,7 +30,7 @@ TaskA/results/*/*/*
 TaskB/results/*/*/*
 TaskC/results/*/*/*
 
-# */openai_key_setter.py
+ */openai_key_setter.py
 TaskB/latax-table-generator.ipynb
 TaskA/latax-table-generator.ipynb
 TaskC/TaskC-experiments
