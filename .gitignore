@@ -31,7 +31,8 @@ TaskB/results/*/*/*
 TaskC/results/*/*/*
 
 # */openai_key_setter.py
-
+TaskB/results-latax table.ipynb
+TaskA/results-latax table.ipynb
 TaskC/TaskC-experiments
 TaskB/TaskB-experiments
 TaskA/TaskA-experiments
