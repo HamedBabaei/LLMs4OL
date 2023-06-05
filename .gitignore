@@ -35,6 +35,7 @@ TaskC/results/*/*/*
 TaskC/TaskC-experiments
 TaskB/TaskB-experiments
 TaskA/TaskA-experiments
+FSL/FSL-experiments
 datasets/TaskA/WN18RR/raw
 datasets/TaskA/WN18RR/processed*
 datasets/TaskA/WN18RR/*entities.json
