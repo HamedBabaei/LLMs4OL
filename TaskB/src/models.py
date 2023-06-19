@@ -215,10 +215,10 @@ class ChatGPTInferencer(GPT3Inferencer):
         #  't': 'Organism',
         #  'label': 'correct',
         #  'triples': ['T001', 'T142', 'T001']}
-        prompt = template.replace("{\"placeholder\": \"text_a\"}",
-                                  f"{data['h'].lower()} is {data['r'].replace('_', ' ')} {data['t'].lower()}") \
-                                .replace(" {\"mask\"} .", ": ") \
-                                .replace(". This statement is", ".\nThis statement is")
+        prompt = template.replace("{\"placeholder\": \"text_a\"}", data['text_a']) \
+                        .replace("{\"placeholder\": \"text_b\"}", data['text_b']) \
+                        .replace(" {\"mask\"} .", ": ") \
+                        .replace(". This statement is", ".\nThis statement is")
         prompt = gpt3_template.replace("[TEMPLATE]", prompt)
 
         messages = [{"role": "user", "content": prompt}]
