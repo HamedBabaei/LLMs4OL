@@ -31,7 +31,7 @@ if __name__=="__main__":
             label = output['result']['data']['label']
             if "ada" in config.model:
                 predict = output['result']['response'].lower()
-            elif config.model == "gpt4":
+            elif config.model == "gpt4" or config.model == 'chatgpt':
                 predict = output['result']['response']['choices'][0]['message']['content'].lower().rstrip('\n').strip()
             else:
                 predict = output['result']['response']['choices'][0]['text'].lower().rstrip('\n').strip()

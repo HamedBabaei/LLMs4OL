@@ -4,10 +4,10 @@ label="nofinetuning"
 
 datasets=("geonames" "schema" "umls")
 templates=("-0-" "-1-" "-2-" "-3-" "-4-" "-5-" "-6-" "-7-")
-models=("gpt3" "gpt4")
+models=("gpt3" "gpt4" "chatgpt")
 
 for kb_name in "${datasets[@]}"; do
-  index=8
+  index=1
   for model_name in  "${models[@]}"; do
     log="results/$kb_name/$index-$kb_name-$model_name.$label.test.log.txt"
     exec > $log

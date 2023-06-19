@@ -152,6 +152,11 @@ class BaseConfig:
             self.parser.add_argument("--template_name", type=str, default="gpt3")
             self.parser.add_argument("--gpt4_max_tokens", type=int, default=10)
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
+        if model == "chatgpt":
+            self.parser.add_argument("--model_path", type=str, default="gpt-3.5-turbo")
+            self.parser.add_argument("--template_name", type=str, default="gpt3")
+            self.parser.add_argument("--chatgpt_max_tokens", type=int, default=10)
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == "bloom_1b7":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-1b7")
             self.parser.add_argument("--template_name", type=str, default="bloom")
@@ -161,7 +166,7 @@ class BaseConfig:
             self.parser.add_argument("--template_name", type=str, default="bloom")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == "llama_7b":
-            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/llama-7b")
+            self.parser.add_argument("--model_path", type=str, default="huggyllama/llama-7b")
             self.parser.add_argument("--template_name", type=str, default="gpt3")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == dataset.lower()+"_flan_t5_large":

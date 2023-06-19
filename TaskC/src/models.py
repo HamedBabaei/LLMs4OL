@@ -134,6 +134,7 @@ class GPT3Inferencer:
         self.dataset = dataset
         self.template = template
         self.gpt3_template = "Identify whether the following statement is true or false:\n\nStatement: [TEMPLATE]"
+        self.gpt_max_tokens = 10
         print("GPT3-Template is:", self.gpt3_template)
 
     def check_all_is_done(self, results):
@@ -180,7 +181,7 @@ class GPT3Inferencer:
             model=self.model_path,
             prompt=prompt,
             temperature=0.7,
-            max_tokens=10,
+            max_tokens=self.gpt_max_tokens,
             top_p=1,
             frequency_penalty=0,
             presence_penalty=0
@@ -211,6 +212,30 @@ class GPT4Inferencer(GPT3Inferencer):
             model=self.model_path,
             messages=messages,
             temperature=0,
+            max_tokens=self.gpt_max_tokens,
+        )
+        result = {"data": data, "prompt": prompt, "response": response}
+        return result
+
+class ChatGPTInferencer(GPT3Inferencer):
+    def make_prediction(self, template, gpt3_template, data):
+        # {'h': 'Organism',
+        #  'r': 'interacts_with',
+        #  't': 'Organism',
+        #  'label': 'correct',
+        #  'triples': ['T001', 'T142', 'T001']}
+        prompt = template.replace("{\"placeholder\": \"text_a\"}",
+                                  f"{data['h'].lower()} is {data['r'].replace('_', ' ')} {data['t'].lower()}") \
+                                .replace(" {\"mask\"} .", ": ") \
+                                .replace(". This statement is", ".\nThis statement is")
+        prompt = gpt3_template.replace("[TEMPLATE]", prompt)
+
+        messages = [{"role": "user", "content": prompt}]
+        response = openai.ChatCompletion.create(
+            model=self.model_path,
+            messages=messages,
+            temperature=0,
+            max_tokens=self.gpt_max_tokens,
         )
         result = {"data": data, "prompt": prompt, "response": response}
         return result
@@ -253,5 +278,7 @@ class ZeroShotPromptClassifierFactory:
             return GPT3ZeroShotClassifier
         elif model_name == 'gpt4':
             return GPT4Inferencer
+        elif model_name == 'chatgpt':
+            return ChatGPTInferencer
         else:
             return ZeroShotPromptClassifier

@@ -35,7 +35,6 @@ if __name__ == "__main__":
                                          device=args.device)
 
     if "gpt" in config.model_name:
-
         # config.model_name == "gpt3" or config.model_name == "gpt3-ada" or config.model_name=='gpt4':
         print("Runing model: ", config.model_name)
         results = model.test()

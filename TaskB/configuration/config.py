@@ -105,6 +105,10 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default="gpt-4-0613")
             self.parser.add_argument("--model_name", type=str, default="gpt4")
             self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
+        if model == "chatgpt":
+            self.parser.add_argument("--model_path", type=str, default="gpt-3.5-turbo")
+            self.parser.add_argument("--model_name", type=str, default="chatgpt")
+            self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
         if model == "gpt3_ada":
             self.parser.add_argument("--model_path", type=str, default="text-embedding-ada-002")
             self.parser.add_argument("--model_name", type=str, default="gpt3-ada")
@@ -137,7 +141,7 @@ class ExternalEvaluationConfig:
         self.parser.add_argument("--kb_name", type=str, default="geonames")
         self.parser.add_argument("--model", type=str, default="gpt3")
         self.parser.add_argument("--template", type=str, default="template-1")
-        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt3_ada", "gpt4"])
+        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt3_ada", "gpt4", "chatgpt"])
         self.parser.add_argument("--label_mapper", type=str, default="../datasets/TaskB/label_mapper.json")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
