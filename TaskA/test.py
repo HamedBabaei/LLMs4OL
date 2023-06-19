@@ -19,7 +19,7 @@ def inference(model, dataloader):
             labels.append(label)
     return predictions, logits, labels
 
-def gpt3_inference(model, dataloader, config):
+def gpt_inference(model, dataloader, config):
     for index, batch in enumerate(tqdm(dataloader)):
         results = model.make_batch_prediction(batch)
         DataWriter.write_json(results,  config.model_output.replace("[BATCH]", str(index+1)))
@@ -55,8 +55,9 @@ if __name__ == "__main__":
 
     inference_model = InferenceFactory(config)(model_name=args.model_name) 
     
-    if args.model_name == "gpt3" or args.model_name == "gpt4":
-        gpt3_inference(model=inference_model, dataloader=test_dataloader, config=config)
+    if "gpt" in args.model_name:
+        #  == "gpt3" or args.model_name == "gpt4"
+        gpt_inference(model=inference_model, dataloader=test_dataloader, config=config)
         print(f"scoring results in:{config.report_output}")
         DataWriter.write_json(report_dict,  config.report_output)
     else:

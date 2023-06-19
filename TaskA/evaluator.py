@@ -46,7 +46,7 @@ if __name__=="__main__":
                         predict_list.append(label)
                 predictions.append(predict_list)
                 labels.append(label_list)
-        elif config.model == "gpt4":
+        elif config.model == "gpt4" or config.model=='chatgpt':
             predictions, labels = [], []
             for output in outputs:
                 label_list = output['result']['label']

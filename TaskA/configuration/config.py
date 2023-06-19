@@ -153,7 +153,7 @@ class BaseConfig:
             self.parser.add_argument("--gpt4_max_tokens", type=int, default=10)
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == "chatgpt":
-            self.parser.add_argument("--model_path", type=str, default="gpt-3.5-turbo")
+            self.parser.add_argument("--model_path", type=str, default="gpt-3.5-turbo-0613")
             self.parser.add_argument("--template_name", type=str, default="gpt3")
             self.parser.add_argument("--chatgpt_max_tokens", type=int, default=10)
             self.parser.add_argument("--multi_gpu", type=bool, default=False)

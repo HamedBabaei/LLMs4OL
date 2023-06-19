@@ -267,6 +267,18 @@ class GPT4Left2RightOnlineLM(Left2RightOnlineLM):
         )
         return response
 
+class ChatGPTLeft2RightOnlineLM(Left2RightOnlineLM):
+
+    def predict(self, X: str):
+        messages = [{"role": "user", "content": X}]
+        response = openai.ChatCompletion.create(
+            model=self.config.model_path,
+            messages=messages,
+            temperature=0,
+            max_tokens=self.config.chatgpt_max_tokens,
+        )
+        return response
+
 class InferenceFactory:
 
     def __init__(self, config) -> None:
@@ -279,7 +291,8 @@ class InferenceFactory:
             "bloom_3b": BLOOMDecoderLM,
             "gpt3": Left2RightOnlineLM,
             "llama_7b": LLaMADecoderLM,
-            "gpt4": GPT4Left2RightOnlineLM
+            "gpt4": GPT4Left2RightOnlineLM,
+            "chatgpt": ChatGPTLeft2RightOnlineLM
         }
         self.config = config
 
