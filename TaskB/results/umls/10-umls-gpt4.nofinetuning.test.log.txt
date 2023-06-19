@@ -1,0 +1,48 @@
+Running on dataset: umls , model: gpt4, template: -0-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-0-2023-06-14 10:55:36.json
+F1-score: 0.4119559328156041
+storing results in: results/umls/gpt4/report-gpt4-0-2023-06-14 10:55:36.json
+Inference for  gpt4 on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt4, template: -1-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-1-2023-06-14 11:00:13.json
+F1-score: 0.7699922372302437
+storing results in: results/umls/gpt4/report-gpt4-1-2023-06-14 11:00:13.json
+Inference for  gpt4 on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt4, template: -2-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-2-2023-06-14 11:07:36.json
+F1-score: 0.42558263680173164
+storing results in: results/umls/gpt4/report-gpt4-2-2023-06-14 11:07:36.json
+Inference for  gpt4 on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt4, template: -3-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-3-2023-06-14 11:13:03.json
+F1-score: 0.6388969840622227
+storing results in: results/umls/gpt4/report-gpt4-3-2023-06-14 11:13:03.json
+Inference for  gpt4 on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt4, template: -4-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-4-2023-06-14 11:18:21.json
+F1-score: 0.5028857511006121
+storing results in: results/umls/gpt4/report-gpt4-4-2023-06-14 11:18:21.json
+Inference for  gpt4 on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt4, template: -5-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-5-2023-06-14 11:22:27.json
+F1-score: 0.7811625104292204
+storing results in: results/umls/gpt4/report-gpt4-5-2023-06-14 11:22:27.json
+Inference for  gpt4 on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt4, template: -6-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-6-2023-06-14 11:26:58.json
+F1-score: 0.36594144507117915
+storing results in: results/umls/gpt4/report-gpt4-6-2023-06-14 11:26:58.json
+Inference for  gpt4 on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: gpt4, template: -7-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-7-2023-06-14 11:31:47.json
+F1-score: 0.6072814144922907
+storing results in: results/umls/gpt4/report-gpt4-7-2023-06-14 11:31:47.json
+Inference for  gpt4 on template: -7-  is done
+-----------------------------------------------------------

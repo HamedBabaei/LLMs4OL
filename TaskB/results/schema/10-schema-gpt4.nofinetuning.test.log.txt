@@ -1,0 +1,48 @@
+Running on dataset: schema , model: gpt4, template: -0-!
+scoring model outputs in: results/schema/gpt4/output-gpt4-0-2023-06-14 11:08:41.json
+F1-score: 0.5847996502565869
+storing results in: results/schema/gpt4/report-gpt4-0-2023-06-14 11:08:41.json
+Inference for  gpt4 on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt4, template: -1-!
+scoring model outputs in: results/schema/gpt4/output-gpt4-1-2023-06-14 12:33:27.json
+F1-score: 0.7282782118573303
+storing results in: results/schema/gpt4/report-gpt4-1-2023-06-14 12:33:27.json
+Inference for  gpt4 on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt4, template: -2-!
+scoring model outputs in: results/schema/gpt4/output-gpt4-2-2023-06-14 13:32:51.json
+F1-score: 0.6583174351421774
+storing results in: results/schema/gpt4/report-gpt4-2-2023-06-14 13:32:51.json
+Inference for  gpt4 on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt4, template: -3-!
+scoring model outputs in: results/schema/gpt4/output-gpt4-3-2023-06-14 18:34:12.json
+F1-score: 0.6330660852080412
+storing results in: results/schema/gpt4/report-gpt4-3-2023-06-14 18:34:12.json
+Inference for  gpt4 on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt4, template: -4-!
+scoring model outputs in: results/schema/gpt4/output-gpt4-4-2023-06-14 18:34:28.json
+F1-score: 0.5056521172622608
+storing results in: results/schema/gpt4/report-gpt4-4-2023-06-14 18:34:28.json
+Inference for  gpt4 on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt4, template: -5-!
+scoring model outputs in: results/schema/gpt4/output-gpt4-5-2023-06-14 18:34:32.json
+F1-score: 0.742479418726051
+storing results in: results/schema/gpt4/report-gpt4-5-2023-06-14 18:34:32.json
+Inference for  gpt4 on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt4, template: -6-!
+scoring model outputs in: results/schema/gpt4/output-gpt4-6-2023-06-14 18:34:35.json
+F1-score: 0.574525200231534
+storing results in: results/schema/gpt4/report-gpt4-6-2023-06-14 18:34:35.json
+Inference for  gpt4 on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: gpt4, template: -7-!
+scoring model outputs in: results/schema/gpt4/output-gpt4-7-2023-06-14 18:34:38.json
+F1-score: 0.6369419489588053
+storing results in: results/schema/gpt4/report-gpt4-7-2023-06-14 18:34:38.json
+Inference for  gpt4 on template: -7-  is done
+-----------------------------------------------------------
