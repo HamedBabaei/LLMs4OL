@@ -46,6 +46,17 @@ if __name__=="__main__":
                         predict_list.append(label)
                 predictions.append(predict_list)
                 labels.append(label_list)
+        elif config.model == "gpt4":
+            predictions, labels = [], []
+            for output in outputs:
+                label_list = output['result']['label']
+                predict = output['result']['response']['choices'][0]['message']['content'].lower().rstrip('\n').strip()
+                predict_list = []
+                for label in label_list:
+                    if label.lower() in predict:
+                        predict_list.append(label)
+                predictions.append(predict_list)
+                labels.append(label_list)
         elif "bloom" in config.model or "flan" in config.model:
             predictions, labels = [], []
             for output in outputs:

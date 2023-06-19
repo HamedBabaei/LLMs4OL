@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     inference_model = InferenceFactory(config)(model_name=args.model_name) 
     
-    if args.model_name == "gpt3":
+    if args.model_name == "gpt3" or args.model_name == "gpt4":
         gpt3_inference(model=inference_model, dataloader=test_dataloader, config=config)
         print(f"scoring results in:{config.report_output}")
         DataWriter.write_json(report_dict,  config.report_output)

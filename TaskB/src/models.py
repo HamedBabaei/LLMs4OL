@@ -183,6 +183,28 @@ class GPT3Inferencer:
     def get_data_loader(self):
         pass
 
+class GPT4Inferencer(GPT3Inferencer):
+    def make_prediction(self, template, gpt3_template, data):
+        # {'h': 'Organism',
+        #  'r': 'interacts_with',
+        #  't': 'Organism',
+        #  'label': 'correct',
+        #  'triples': ['T001', 'T142', 'T001']}
+        prompt = template.replace("{\"placeholder\": \"text_a\"}", data['text_a'])\
+                         .replace("{\"placeholder\": \"text_b\"}", data['text_b'])\
+                         .replace(" {\"mask\"} .", ": ")\
+                         .replace(". This statement is", ".\nThis statement is")
+        prompt = gpt3_template.replace("[TEMPLATE]", prompt)
+
+        messages = [{"role": "user", "content": prompt}]
+        response = openai.ChatCompletion.create(
+            model=self.model_path,
+            messages=messages,
+            temperature=0,
+        )
+        result = {"data": data, "prompt": prompt, "response": response}
+        return result
+
 
 class GPT3ZeroShotClassifier(GPT3Inferencer):
     def __init__(self, model_name, model_path, dataset, template, label_mapper, device):
@@ -218,5 +240,7 @@ class ZeroShotPromptClassifierFactory:
             return GPT3Inferencer
         elif model_name == "gpt3-ada":
             return GPT3ZeroShotClassifier
+        elif model_name == 'gpt4':
+            return GPT4Inferencer
         else:
             return ZeroShotPromptClassifier
