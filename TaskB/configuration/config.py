@@ -106,7 +106,7 @@ class BaseConfig:
             self.parser.add_argument("--model_name", type=str, default="gpt4")
             self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
         if model == "chatgpt":
-            self.parser.add_argument("--model_path", type=str, default="gpt-3.5-turbo")
+            self.parser.add_argument("--model_path", type=str, default="gpt-3.5-turbo-0613")
             self.parser.add_argument("--model_name", type=str, default="chatgpt")
             self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
         if model == "gpt3_ada":
