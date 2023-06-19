@@ -22,19 +22,19 @@ if __name__=="__main__":
     assert len(outputs_file) != 0
 
     outputs = []
-    if "bloom" in config.model or 'flan' in config.model:
-        output_file_path = os.path.join(output_dir, outputs_file[0])
-        print("scoring model outputs in:", output_file_path)
-        outputs = DataReader.load_json(output_file_path)['outputs']
-    else:
+    if "gpt" in config.model:
         for file in outputs_file:
             output_file_path = os.path.join(output_dir, file)
             print("scoring model outputs in:", output_file_path)
             outputs += DataReader.load_json(output_file_path)
+    else:
+        output_file_path = os.path.join(output_dir, outputs_file[0])
+        print("scoring model outputs in:", output_file_path)
+        outputs = DataReader.load_json(output_file_path)['outputs']
 
     report_file_path = os.path.join(output_dir, reports_file[0])
     report = DataReader.load_json(report_file_path)
-    if len(report['results']) == 0 or "bloom" in config.model or "flan" in config.model:
+    if len(report['results']) == 0 or "bloom" in config.model or "flan" in config.model or "llama" in config.model:
         if config.model == "gpt3":
             predictions, labels = [], []
             for output in outputs:
@@ -57,7 +57,7 @@ if __name__=="__main__":
                         predict_list.append(label)
                 predictions.append(predict_list)
                 labels.append(label_list)
-        elif "bloom" in config.model or "flan" in config.model:
+        elif "bloom" in config.model or "flan" in config.model or "llama" in config.model:
             predictions, labels = [], []
             for output in outputs:
                 label_list = output['label']

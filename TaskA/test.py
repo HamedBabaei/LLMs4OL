@@ -34,7 +34,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
    
     print("args:", args)
-    config = BaseConfig(version=3).get_args(kb_name=args.kb_name, model=args.model_name, template=args.template)
+    config = BaseConfig(version=3).get_args(kb_name=args.kb_name, model=args.model_name, template=args.template, device=args.device)
     start_time = datetime.datetime.now()
     print("Starting the Inference time is:", str(start_time).split('.')[0])
     dataset = DataReader.load_json(config.entity_path)

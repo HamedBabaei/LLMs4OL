@@ -74,7 +74,7 @@ class BaseConfig:
         self.parser.add_argument("--umls_processed_dir", type=str, default=f"{self.root_dir}/{dataset}/processed{self.version}")
         self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
 
-    def get_args(self, kb_name:str, model:str = None, template:str = None):
+    def get_args(self, kb_name:str, model:str = None, template:str = None, device: str = 'cpu'):
         """
             Return parser
         :return: parser
@@ -85,7 +85,7 @@ class BaseConfig:
         arguments(dataset=dataset)
         self.parser.add_argument("--kb_name")
         self.parser.add_argument("--model_name")
-        self.parser.add_argument("--device")
+        self.parser.add_argument("--device", type=str, default=device)
         # add general specific arguments
         self.parser.add_argument("--dataset", type=str, default=kb_name)
         time = str(datetime.datetime.now()).split('.')[0]
@@ -119,9 +119,7 @@ class BaseConfig:
         self.parser.add_argument("--top_n", type=int, default=1)
         self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
         self.parser.add_argument("--eval_metric", type=str, default="map")
-        if model == "gpt3":
-            self.parser.add_argument("--batch_size", type=int, default=10000)
-        elif model == "gpt4":
+        if model == "gpt3" or model=='gpt4' or model=='chatgpt':
             self.parser.add_argument("--batch_size", type=int, default=10000)
         else:
             self.parser.add_argument("--batch_size", type=int, default=16)
@@ -166,7 +164,7 @@ class BaseConfig:
             self.parser.add_argument("--template_name", type=str, default="bloom")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == "llama_7b":
-            self.parser.add_argument("--model_path", type=str, default="huggyllama/llama-7b")
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/llama-7b")
             self.parser.add_argument("--template_name", type=str, default="gpt3")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == dataset.lower()+"_flan_t5_large":
@@ -192,7 +190,7 @@ class ExternalEvaluationConfig:
         self.parser.add_argument("--kb_name", type=str, default="geonames")
         self.parser.add_argument("--model", type=str, default="gpt3")
         self.parser.add_argument("--template", type=str, default="template-1")
-        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt4"])
+        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt4", "chatgpt"])
         self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
         self.parser.add_argument("--eval_metric", type=str, default="map")
         self.parser.add_argument("-f")

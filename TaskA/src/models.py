@@ -34,7 +34,7 @@ class BaseLM:
         inputs.to(self.device)
         return inputs
 
-    def __output_cleaner(self, pred, **kwargs):
+    def output_cleaner(self, pred, **kwargs):
         return pred
 
     def predict(self, X: str):
@@ -62,7 +62,7 @@ class MaskedLM(BaseLM):
         top_n_tokens = torch.topk(mask_token_logits, self.top_n, dim=1)
         predictions, logits = [], []
         for indice, logit in zip(top_n_tokens.indices[0].tolist(), top_n_tokens.values[0].tolist()):
-            predictions.append(self.__output_cleaner(self.tokenizer.decode([indice])))
+            predictions.append(self.output_cleaner(self.tokenizer.decode([indice])))
             logits.append(logit)
         return predictions, logits
 
@@ -79,7 +79,7 @@ class MaskedLM(BaseLM):
             top_n_tokens = torch.topk(mask_token_logits, self.top_n, dim=1)
             predictions, logits = [], []
             for indice, logit in zip(top_n_tokens.indices[0].tolist(), top_n_tokens.values[0].tolist()):
-                predictions.append(self.__output_cleaner(self.tokenizer.decode([indice])))
+                predictions.append(self.output_cleaner(self.tokenizer.decode([indice])))
                 logits.append(logit)
             batch_predictions.append(predictions)
             batch_logits.append(logits)
@@ -97,7 +97,7 @@ class BARTMaskedLM(MaskedLM):
         self.model.eval()
         print(f"Loaded BartForConditionalGeneration from{self.config.model_path}")
 
-    def __output_cleaner(self, pred, **kwargs):
+    def output_cleaner(self, pred, **kwargs):
         return pred.strip()
 
 class EncoderDecoderLM(BaseLM):
@@ -112,7 +112,7 @@ class EncoderDecoderLM(BaseLM):
                                                num_return_sequences=self.top_n,
                                                max_length=5)
         sequences = self.tokenizer.batch_decode(sequence_ids, skip_special_tokens=True)
-        sequences = [self.__output_cleaner(seq, prompt=X) for seq in sequences]
+        sequences = [self.output_cleaner(seq, prompt=X) for seq in sequences]
         logits = [0 for seq in sequences]
         return sequences, logits
 
@@ -129,7 +129,7 @@ class EncoderDecoderLM(BaseLM):
         for index in range(0, len(Xs)):
             predictions.append(sequences[self.top_n * index:self.top_n * (index + 1)])
             logits.append(sequences_logist[self.top_n * index:self.top_n * (index + 1)])
-        predictions = [[self.__output_cleaner(predict, prompt=prompt) for predict in predicts]
+        predictions = [[self.output_cleaner(predict, prompt=prompt) for predict in predicts]
                        for predicts, prompt in zip(predictions, Xs) ]
         return predictions, logits
 
@@ -147,9 +147,9 @@ class FlanT5EncoderDecoderLM(EncoderDecoderLM):
 
     def load(self):
         self.tokenizer = T5Tokenizer.from_pretrained(self.config.model_path)
-        self.model = T5ForConditionalGeneration.from_pretrained(self.config.model_path, device_map="auto")
+        self.model = T5ForConditionalGeneration.from_pretrained(self.config.model_path, device_map="balanced")
         print(f"Loaded T5ForConditionalGeneration from {self.config.model_path}")
-        self.model.to(self.device)
+        # self.model.to(self.device)
         self.model.eval()
 
     def batch_tokenize(self, Xs):
@@ -161,7 +161,7 @@ class FlanT5EncoderDecoderLM(EncoderDecoderLM):
         inputs.to(self.device)
         return inputs
 
-    def __output_cleaner(self, pred, **kwargs):
+    def output_cleaner(self, pred, **kwargs):
         return pred.replace("<pad>", "").replace("</s>", "").strip()
 
 class BARTEncoderDecoderLM(EncoderDecoderLM):
@@ -183,12 +183,12 @@ class BLOOMDecoderLM(EncoderDecoderLM):
 
     def load(self):
         self.tokenizer = BloomTokenizerFast.from_pretrained(self.config.model_path)
-        self.model = BloomForCausalLM.from_pretrained(self.config.model_path)
+        self.model = BloomForCausalLM.from_pretrained(self.config.model_path, device_map="balanced")
         print(f"Loaded BloomForCausalLM from{self.config.model_path}")
-        self.model.to(self.device)
+        # self.model.to(self.device)
         self.model.eval()
 
-    def __output_cleaner(self, pred, **kwargs):
+    def output_cleaner(self, pred, **kwargs):
         pred = pred.replace(kwargs['prompt'], "")
         return pred.replace("<pad>", "").replace("</s>", "").strip()
 
@@ -198,12 +198,16 @@ class LLaMADecoderLM(EncoderDecoderLM):
 
     def load(self):
         self.tokenizer = AutoTokenizer.from_pretrained(self.config.model_path)
-        self.model = LlamaForCausalLM.from_pretrained(self.config.model_path, device_map="auto")
-        print(f"Loaded LlamaForCausalLM from{self.config.model_path}")
-        self.model.to(self.device)
+        self.tokenizer.pad_token = self.tokenizer.eos_token
+        self.model = LlamaForCausalLM.from_pretrained(self.config.model_path,
+                                                      load_in_8bit=False,
+                                                      torch_dtype=torch.float16,
+                                                      device_map="balanced")
+        print(f"Loaded LLamaForCausalLM from{self.config.model_path}")
+        # self.model.to(self.device)
         self.model.eval()
 
-    def __output_cleaner(self, pred, **kwargs):
+    def output_cleaner(self, pred, **kwargs):
         pred = pred.replace(kwargs['prompt'], "")
         return pred
 
@@ -213,7 +217,7 @@ class Left2RightOnlineLM(BaseLM):
     def __init__(self, config) -> None:
         super().__init__(config)
 
-    def __output_cleaner(self, pred):
+    def output_cleaner(self, pred):
         return pred.rstrip('\n').strip()
 
     def predict(self, X: str):
