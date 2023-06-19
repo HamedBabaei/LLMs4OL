@@ -1,0 +1,6 @@
+Running on dataset: umls , model: chatgpt, template: -0-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-2023-06-19 09:48:49.json
+F1-Score: 0.3751334116207917
+storing results in: results/umls/chatgpt/report-chatgpt-2023-06-19 09:48:49.json
+Inference for  chatgpt on template: -0-  is done
+-----------------------------------------------------------
