@@ -1,0 +1,48 @@
+Running on dataset: umls , model: chatgpt, template: -0-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-0-2023-06-19 14:15:22.json
+F1-score: 0.6138031376518218
+storing results in: results/umls/chatgpt/report-chatgpt-0-2023-06-19 14:15:22.json
+Inference for  chatgpt on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: chatgpt, template: -1-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-1-2023-06-19 14:21:52.json
+F1-score: 0.7038564152316273
+storing results in: results/umls/chatgpt/report-chatgpt-1-2023-06-19 14:21:52.json
+Inference for  chatgpt on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: chatgpt, template: -2-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-2-2023-06-19 14:33:50.json
+F1-score: 0.6391597899474868
+storing results in: results/umls/chatgpt/report-chatgpt-2-2023-06-19 14:33:50.json
+Inference for  chatgpt on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: chatgpt, template: -3-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-3-2023-06-19 14:40:25.json
+F1-score: 0.66821126700133
+storing results in: results/umls/chatgpt/report-chatgpt-3-2023-06-19 14:40:25.json
+Inference for  chatgpt on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: chatgpt, template: -4-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-4-2023-06-19 14:48:38.json
+F1-score: 0.6314488497307882
+storing results in: results/umls/chatgpt/report-chatgpt-4-2023-06-19 14:48:38.json
+Inference for  chatgpt on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: chatgpt, template: -5-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-5-2023-06-19 14:56:01.json
+F1-score: 0.672712871766036
+storing results in: results/umls/chatgpt/report-chatgpt-5-2023-06-19 14:56:01.json
+Inference for  chatgpt on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: chatgpt, template: -6-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-6-2023-06-19 15:04:36.json
+F1-score: 0.5664878599661208
+storing results in: results/umls/chatgpt/report-chatgpt-6-2023-06-19 15:04:36.json
+Inference for  chatgpt on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: chatgpt, template: -7-!
+scoring model outputs in: results/umls/chatgpt/output-chatgpt-7-2023-06-19 15:12:14.json
+F1-score: 0.6441256157635468
+storing results in: results/umls/chatgpt/report-chatgpt-7-2023-06-19 15:12:14.json
+Inference for  chatgpt on template: -7-  is done
+-----------------------------------------------------------
