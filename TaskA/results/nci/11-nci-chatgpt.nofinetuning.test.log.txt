@@ -1,0 +1,48 @@
+Running on dataset: nci , model: chatgpt, template: template-1!
+scoring model outputs in: results/nci/chatgpt/output-chatgpt-template-1-batch 1-2023-06-28 08:47:18.json
+Results: {'MAP@1': 0.11045955500103971, 'MAP@5': 0.02864143619602135, 'MAP@10': 0.021046599134559207}
+storing results in: results/nci/chatgpt/report-chatgpt-template-1-2023-06-28 08:47:18.json
+Inference for  chatgpt on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: chatgpt, template: template-2!
+scoring model outputs in: results/nci/chatgpt/output-chatgpt-template-2-batch 1-2023-06-28 14:11:30.json
+Results: {'MAP@1': 0.09523809523809523, 'MAP@5': 0.025393359672835656, 'MAP@10': 0.018697399386731886}
+storing results in: results/nci/chatgpt/report-chatgpt-template-2-2023-06-28 14:11:30.json
+Inference for  chatgpt on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: chatgpt, template: template-3!
+scoring model outputs in: results/nci/chatgpt/output-chatgpt-template-3-batch 1-2023-06-28 19:57:39.json
+Results: {'MAP@1': 0.1470991890205864, 'MAP@5': 0.03930477576765787, 'MAP@10': 0.02936291741344767}
+storing results in: results/nci/chatgpt/report-chatgpt-template-3-2023-06-28 19:57:39.json
+Inference for  chatgpt on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: chatgpt, template: template-4!
+scoring model outputs in: results/nci/chatgpt/output-chatgpt-template-4-batch 1-2023-06-29 00:33:19.json
+Results: {'MAP@1': 0.14227490122686628, 'MAP@5': 0.038470922575726076, 'MAP@10': 0.028543339703664097}
+storing results in: results/nci/chatgpt/report-chatgpt-template-4-2023-06-29 00:33:19.json
+Inference for  chatgpt on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: chatgpt, template: template-5!
+scoring model outputs in: results/nci/chatgpt/output-chatgpt-template-5-batch 1-2023-06-29 04:29:46.json
+Results: {'MAP@1': 0.08563110833853192, 'MAP@5': 0.022452346295141055, 'MAP@10': 0.0165534035059924}
+storing results in: results/nci/chatgpt/report-chatgpt-template-5-2023-06-29 04:29:46.json
+Inference for  chatgpt on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: chatgpt, template: template-6!
+scoring model outputs in: results/nci/chatgpt/output-chatgpt-template-6-batch 1-2023-06-29 09:42:23.json
+Results: {'MAP@1': 0.08130588479933458, 'MAP@5': 0.02073750606501698, 'MAP@10': 0.014893420735591665}
+storing results in: results/nci/chatgpt/report-chatgpt-template-6-2023-06-29 09:42:23.json
+Inference for  chatgpt on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: chatgpt, template: template-7!
+scoring model outputs in: results/nci/chatgpt/output-chatgpt-template-7-batch 1-2023-06-29 14:37:54.json
+Results: {'MAP@1': 0.12684549802453732, 'MAP@5': 0.03245234629514105, 'MAP@10': 0.02383287618783564}
+storing results in: results/nci/chatgpt/report-chatgpt-template-7-2023-06-29 14:37:54.json
+Inference for  chatgpt on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: chatgpt, template: template-8!
+scoring model outputs in: results/nci/chatgpt/output-chatgpt-template-8-batch 1-2023-06-29 20:00:48.json
+Results: {'MAP@1': 0.1124974007070077, 'MAP@5': 0.029816316628543702, 'MAP@10': 0.02190515798750359}
+storing results in: results/nci/chatgpt/report-chatgpt-template-8-2023-06-29 20:00:48.json
+Inference for  chatgpt on template: template-8  is done
+-----------------------------------------------------------
