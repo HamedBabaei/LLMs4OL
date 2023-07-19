@@ -76,6 +76,9 @@ class BaseConfig:
         if model == "bert_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
             self.parser.add_argument("--model_name", type=str, default="bert")
+        if model == "pubmed_bert":
+            self.parser.add_argument("--model_path", type=str, default="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext")
+            self.parser.add_argument("--model_name", type=str, default="bert")
         if model=="bart_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bart-large")
             self.parser.add_argument("--model_name", type=str, default="bart")
@@ -122,6 +125,9 @@ class BaseConfig:
         if model == "bloom_7b1":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-7b1")
             self.parser.add_argument("--model_name", type=str, default="bloom")
+        if model == "llama_7b":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/llama-7b")
+            self.parser.add_argument("--model_name", type=str, default="llama")
         if model == dataset.lower()+"_flan_t5_large":
             self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-large")
             self.parser.add_argument("--model_name", type=str, default="t5")

@@ -1,7 +1,9 @@
 from openprompt.plms import load_plm, ModelClass
 from openprompt.plms.lm import LMTokenizerWrapper
 from transformers import BartTokenizer, BartConfig, BartForConditionalGeneration, \
-                         BloomForCausalLM, BloomConfig, BloomTokenizerFast
+                         BloomForCausalLM, BloomConfig, BloomTokenizerFast,\
+                         LlamaForCausalLM, LlamaConfig, LlamaTokenizer
+
 from openprompt.data_utils import InputExample
 from openprompt.prompts import ManualTemplate, ManualVerbalizer
 from openprompt import PromptForClassification, PromptDataLoader
@@ -54,10 +56,30 @@ openprompt.plms._MODEL_CLASSES['bart']= ModelClass(**{"config":BartConfig,
                                                       "model": BartForConditionalGeneration,
                                                       "wrapper": LMTokenizerWrapper})
 
+openprompt.plms._MODEL_CLASSES['llama']= ModelClass(**{"config": LlamaConfig,
+                                                       "tokenizer": LlamaTokenizer,
+                                                       "model": LlamaForCausalLM,
+                                                       "wrapper": LMTokenizerWrapper})
+
+def load_llama(model_name, model_path, specials_to_add = None):
+    model_config = LlamaConfig.from_pretrained(model_path)
+    model = LlamaForCausalLM.from_pretrained(model_path,
+                                             config=model_config,
+                                             load_in_8bit=False,
+                                             torch_dtype=torch.float16,
+                                             device_map="balanced")
+    tokenizer = LlamaTokenizer.from_pretrained(model_path,  padding_side='left')
+    tokenizer.pad_token = tokenizer.eos_token
+    wrapper = LMTokenizerWrapper
+    return model, tokenizer, model_config, wrapper
+
 class ZeroShotPromptClassifier:
 
     def __init__(self, model_name, model_path, dataset, template, label_mapper, device):
-        plm, tokenizer, model_config, wrapper_class = load_plm(model_name=model_name, model_path=model_path)
+        if model_name == 'llama':
+            plm, tokenizer, model_config, wrapper_class = load_llama(model_name=model_name, model_path=model_path)
+        else:
+            plm, tokenizer, model_config, wrapper_class = load_plm(model_name=model_name, model_path=model_path)
         self.dataset = self.build_dataset(dataset)
         self.device = device
         prompt_template = ManualTemplate(
@@ -96,7 +118,7 @@ class ZeroShotPromptClassifier:
         elif model_name == "gpt2":
             self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
                                                 tokenizer_wrapper_class=wrapper_class, max_seq_length=256, batch_size=1, shuffle=False)
-        elif model_name == "bloom":
+        elif model_name == "bloom" or model_name=='llama':
             self.data_loader = PromptDataLoader(dataset=self.dataset['X'], template=prompt_template, tokenizer=tokenizer,
                                                 tokenizer_wrapper_class=wrapper_class, max_seq_length=256, batch_size=1, shuffle=False)
 
