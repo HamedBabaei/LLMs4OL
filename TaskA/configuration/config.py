@@ -128,6 +128,11 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
             self.parser.add_argument("--template_name", type=str, default="bert")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
+        if model == "pubmed_bert":
+            self.parser.add_argument("--model_path", type=str, default="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext")
+            self.parser.add_argument("--template_name", type=str, default="bert")
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
+            # https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
         if model=="bart_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bart-large")
             self.parser.add_argument("--template_name", type=str, default="bart")

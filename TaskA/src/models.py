@@ -288,6 +288,7 @@ class InferenceFactory:
     def __init__(self, config) -> None:
         self.models = {
             "bert_large": MaskedLM,
+            "pubmed_bert": MaskedLM,
             "bart_large": BARTMaskedLM,
             "flan_t5_large": FlanT5EncoderDecoderLM,
             "flan_t5_xl": FlanT5EncoderDecoderLM,
