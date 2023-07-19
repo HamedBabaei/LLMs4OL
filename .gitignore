@@ -8,6 +8,7 @@ assets/FSL/*
 *.xml
 *.tar
 *.sif
+plot/*
 code-trash's/*
 datasets/TaskA/FB15K-237/raw
 datasets/TaskA/FB15K-237/processed*
