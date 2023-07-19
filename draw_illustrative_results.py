@@ -25,6 +25,7 @@ model2name = {
     'wn18rr_flan_t5_large':'Flan-T5-Large*',
     'wn18rr_flan_t5_xl':'Flan-T5-XL*',
 }
+llm_no = 12
 
 dir2name = {
     'wn18rr': 'WN18RR',
@@ -117,7 +118,7 @@ colors_dict = {
     "SNOMEDCT": "#1f77b4",
     "Medcin":"#17becf"
 }
-llm_no = 12
+
 
 fig = go.Figure()
 categories = list(model2name.values())[:llm_no]
