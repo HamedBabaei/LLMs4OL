@@ -3,6 +3,8 @@ import os
 import plotly.graph_objects as go
 import numpy as np
 from plotly.subplots import make_subplots
+import plotly.io as pio
+pio.kaleido.scope.mathjax = None
 
 model2name = {
     'bert_large':'BERT-Large',
