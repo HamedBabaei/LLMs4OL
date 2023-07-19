@@ -1,0 +1,10 @@
+Running on dataset: umls , model: pubmed_bert !
+args: Namespace(kb_name='umls', model='pubmed_bert', device='cuda')
+Starting the Inference time is: 2023-07-13 19:33:06
+Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-Score: 0.4268060836501901
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-2023-07-13 19:33:06.json
+Ending the Inference time is: 2023-07-13 19:35:07
+Total duration is===> 0:02:01.666728
+Inference for  pubmed_bert  is done
+-----------------------------------------------------------

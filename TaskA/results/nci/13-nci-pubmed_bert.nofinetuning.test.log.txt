@@ -1,0 +1,104 @@
+Running on dataset: nci , model: pubmed_bert, template: template-1!
+args: Namespace(kb_name='nci', model_name='pubmed_bert', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-07-13 18:42:40
+UMLSDataset:Test-SET-nci --- template-1: [SENTENCE]. [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/nci/pubmed_bert/output-pubmed_bert-template-1-2023-07-13 18:42:40.json
+Results: {'MAP@1': 0.058764815970056145, 'MAP@5': 0.01306785887571914, 'MAP@10': 0.008736463047130546}
+scoring results in:results/nci/pubmed_bert/report-pubmed_bert-template-1-2023-07-13 18:42:40.json
+Ending the Inference time is: 2023-07-13 18:44:35
+Total duration is===> 0:01:55.127166
+Inference for  pubmed_bert on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: pubmed_bert, template: template-2!
+args: Namespace(kb_name='nci', model_name='pubmed_bert', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-07-13 18:44:51
+UMLSDataset:Test-SET-nci --- template-2: [SENTENCE]. [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/nci/pubmed_bert/output-pubmed_bert-template-2-2023-07-13 18:44:51.json
+Results: {'MAP@1': 0.05369099604907465, 'MAP@5': 0.012358078602620089, 'MAP@10': 0.008396112447890364}
+scoring results in:results/nci/pubmed_bert/report-pubmed_bert-template-2-2023-07-13 18:44:51.json
+Ending the Inference time is: 2023-07-13 18:46:33
+Total duration is===> 0:01:41.650252
+Inference for  pubmed_bert on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: pubmed_bert, template: template-3!
+args: Namespace(kb_name='nci', model_name='pubmed_bert', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-07-13 18:46:49
+UMLSDataset:Test-SET-nci --- template-3: [SENTENCE]. '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/nci/pubmed_bert/output-pubmed_bert-template-3-2023-07-13 18:46:49.json
+Results: {'MAP@1': 0.045206903722187566, 'MAP@5': 0.00916822624246205, 'MAP@10': 0.005446979373991227}
+scoring results in:results/nci/pubmed_bert/report-pubmed_bert-template-3-2023-07-13 18:46:49.json
+Ending the Inference time is: 2023-07-13 18:48:32
+Total duration is===> 0:01:43.340685
+Inference for  pubmed_bert on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: pubmed_bert, template: template-4!
+args: Namespace(kb_name='nci', model_name='pubmed_bert', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-07-13 18:48:47
+UMLSDataset:Test-SET-nci --- template-4: [SENTENCE]. '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/nci/pubmed_bert/output-pubmed_bert-template-4-2023-07-13 18:48:47.json
+Results: {'MAP@1': 0.027906009565398213, 'MAP@5': 0.0056165522977750055, 'MAP@10': 0.003280571811451412}
+scoring results in:results/nci/pubmed_bert/report-pubmed_bert-template-4-2023-07-13 18:48:47.json
+Ending the Inference time is: 2023-07-13 18:50:20
+Total duration is===> 0:01:32.807541
+Inference for  pubmed_bert on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: pubmed_bert, template: template-5!
+args: Namespace(kb_name='nci', model_name='pubmed_bert', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-07-13 18:50:36
+UMLSDataset:Test-SET-nci --- template-5: [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/nci/pubmed_bert/output-pubmed_bert-template-5-2023-07-13 18:50:36.json
+Results: {'MAP@1': 0.03368683718028696, 'MAP@5': 0.00750883759617384, 'MAP@10': 0.005019754626741525}
+scoring results in:results/nci/pubmed_bert/report-pubmed_bert-template-5-2023-07-13 18:50:36.json
+Ending the Inference time is: 2023-07-13 18:51:41
+Total duration is===> 0:01:05.222219
+Inference for  pubmed_bert on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: pubmed_bert, template: template-6!
+args: Namespace(kb_name='nci', model_name='pubmed_bert', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-07-13 18:51:58
+UMLSDataset:Test-SET-nci --- template-6: [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/nci/pubmed_bert/output-pubmed_bert-template-6-2023-07-13 18:51:58.json
+Results: {'MAP@1': 0.016136410896236224, 'MAP@5': 0.0036306924516531502, 'MAP@10': 0.0023854083117963343}
+scoring results in:results/nci/pubmed_bert/report-pubmed_bert-template-6-2023-07-13 18:51:58.json
+Ending the Inference time is: 2023-07-13 18:53:06
+Total duration is===> 0:01:08.044437
+Inference for  pubmed_bert on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: pubmed_bert, template: template-7!
+args: Namespace(kb_name='nci', model_name='pubmed_bert', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-07-13 18:53:22
+UMLSDataset:Test-SET-nci --- template-7: '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/nci/pubmed_bert/output-pubmed_bert-template-7-2023-07-13 18:53:22.json
+Results: {'MAP@1': 0.01339155749636099, 'MAP@5': 0.0027011852776044915, 'MAP@10': 0.0016271739166311844}
+scoring results in:results/nci/pubmed_bert/report-pubmed_bert-template-7-2023-07-13 18:53:22.json
+Ending the Inference time is: 2023-07-13 18:54:29
+Total duration is===> 0:01:07.306748
+Inference for  pubmed_bert on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: pubmed_bert, template: template-8!
+args: Namespace(kb_name='nci', model_name='pubmed_bert', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/nci_entities.json
+Starting the Inference time is: 2023-07-13 18:54:45
+UMLSDataset:Test-SET-nci --- template-8: '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/nci/pubmed_bert/output-pubmed_bert-template-8-2023-07-13 18:54:45.json
+Results: {'MAP@1': 0.0065710126845498025, 'MAP@5': 0.0013183614056976503, 'MAP@10': 0.000757145167625517}
+scoring results in:results/nci/pubmed_bert/report-pubmed_bert-template-8-2023-07-13 18:54:45.json
+Ending the Inference time is: 2023-07-13 18:55:51
+Total duration is===> 0:01:05.739568
+Inference for  pubmed_bert on template: template-8  is done
+-----------------------------------------------------------

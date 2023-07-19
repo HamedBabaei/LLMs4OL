@@ -1,0 +1,104 @@
+Running on dataset: medcin , model: pubmed_bert, template: template-1!
+args: Namespace(kb_name='medcin', model_name='pubmed_bert', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-07-13 19:24:23
+UMLSDataset:Test-SET-medcin --- template-1: [SENTENCE]. [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/medcin/pubmed_bert/output-pubmed_bert-template-1-2023-07-13 19:24:23.json
+Results: {'MAP@1': 0.1562851944901672, 'MAP@5': 0.03125703889803344, 'MAP@10': 0.01719169340130096}
+scoring results in:results/medcin/pubmed_bert/report-pubmed_bert-template-1-2023-07-13 19:24:23.json
+Ending the Inference time is: 2023-07-13 19:46:12
+Total duration is===> 0:21:49.027597
+Inference for  pubmed_bert on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: pubmed_bert, template: template-2!
+args: Namespace(kb_name='medcin', model_name='pubmed_bert', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-07-13 19:46:34
+UMLSDataset:Test-SET-medcin --- template-2: [SENTENCE]. [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/medcin/pubmed_bert/output-pubmed_bert-template-2-2023-07-13 19:46:34.json
+Results: {'MAP@1': 0.09718732853966329, 'MAP@5': 0.019437465707932658, 'MAP@10': 0.010833101854716688}
+scoring results in:results/medcin/pubmed_bert/report-pubmed_bert-template-2-2023-07-13 19:46:34.json
+Ending the Inference time is: 2023-07-13 20:11:47
+Total duration is===> 0:25:12.902215
+Inference for  pubmed_bert on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: pubmed_bert, template: template-3!
+args: Namespace(kb_name='medcin', model_name='pubmed_bert', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-07-13 20:12:13
+UMLSDataset:Test-SET-medcin --- template-3: [SENTENCE]. '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/medcin/pubmed_bert/output-pubmed_bert-template-3-2023-07-13 20:12:13.json
+Results: {'MAP@1': 0.052095064830055736, 'MAP@5': 0.010419012966011148, 'MAP@10': 0.006006766967955567}
+scoring results in:results/medcin/pubmed_bert/report-pubmed_bert-template-3-2023-07-13 20:12:13.json
+Ending the Inference time is: 2023-07-13 20:39:10
+Total duration is===> 0:26:57.004362
+Inference for  pubmed_bert on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: pubmed_bert, template: template-4!
+args: Namespace(kb_name='medcin', model_name='pubmed_bert', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-07-13 20:39:28
+UMLSDataset:Test-SET-medcin --- template-4: [SENTENCE]. '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/medcin/pubmed_bert/output-pubmed_bert-template-4-2023-07-13 20:39:28.json
+Results: {'MAP@1': 0.015868202951283605, 'MAP@5': 0.0031736405902567217, 'MAP@10': 0.0018840583197769372}
+scoring results in:results/medcin/pubmed_bert/report-pubmed_bert-template-4-2023-07-13 20:39:28.json
+Ending the Inference time is: 2023-07-13 21:04:35
+Total duration is===> 0:25:06.853288
+Inference for  pubmed_bert on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: pubmed_bert, template: template-5!
+args: Namespace(kb_name='medcin', model_name='pubmed_bert', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-07-13 21:04:54
+UMLSDataset:Test-SET-medcin --- template-5: [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/medcin/pubmed_bert/output-pubmed_bert-template-5-2023-07-13 21:04:54.json
+Results: {'MAP@1': 0.056888734875393455, 'MAP@5': 0.011551012157440296, 'MAP@10': 0.006204853075250719}
+scoring results in:results/medcin/pubmed_bert/report-pubmed_bert-template-5-2023-07-13 21:04:54.json
+Ending the Inference time is: 2023-07-13 21:26:02
+Total duration is===> 0:21:07.814640
+Inference for  pubmed_bert on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: pubmed_bert, template: template-6!
+args: Namespace(kb_name='medcin', model_name='pubmed_bert', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-07-13 21:26:24
+UMLSDataset:Test-SET-medcin --- template-6: [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/medcin/pubmed_bert/output-pubmed_bert-template-6-2023-07-13 21:26:24.json
+Results: {'MAP@1': 0.023203095671258195, 'MAP@5': 0.0046425443029445455, 'MAP@10': 0.0024010405995158663}
+scoring results in:results/medcin/pubmed_bert/report-pubmed_bert-template-6-2023-07-13 21:26:24.json
+Ending the Inference time is: 2023-07-13 21:47:19
+Total duration is===> 0:20:54.993336
+Inference for  pubmed_bert on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: pubmed_bert, template: template-7!
+args: Namespace(kb_name='medcin', model_name='pubmed_bert', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-07-13 21:47:39
+UMLSDataset:Test-SET-medcin --- template-7: '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/medcin/pubmed_bert/output-pubmed_bert-template-7-2023-07-13 21:47:39.json
+Results: {'MAP@1': 0.012720552138381126, 'MAP@5': 0.002544110427676225, 'MAP@10': 0.00134200300968039}
+scoring results in:results/medcin/pubmed_bert/report-pubmed_bert-template-7-2023-07-13 21:47:39.json
+Ending the Inference time is: 2023-07-13 22:04:03
+Total duration is===> 0:16:24.103882
+Inference for  pubmed_bert on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: pubmed_bert, template: template-8!
+args: Namespace(kb_name='medcin', model_name='pubmed_bert', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/medcin_entities.json
+Starting the Inference time is: 2023-07-13 22:04:24
+UMLSDataset:Test-SET-medcin --- template-8: '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/medcin/pubmed_bert/output-pubmed_bert-template-8-2023-07-13 22:04:24.json
+Results: {'MAP@1': 0.006136475208640157, 'MAP@5': 0.0012272950417280314, 'MAP@10': 0.0006409207440135276}
+scoring results in:results/medcin/pubmed_bert/report-pubmed_bert-template-8-2023-07-13 22:04:24.json
+Ending the Inference time is: 2023-07-13 22:21:15
+Total duration is===> 0:16:51.639014
+Inference for  pubmed_bert on template: template-8  is done
+-----------------------------------------------------------
