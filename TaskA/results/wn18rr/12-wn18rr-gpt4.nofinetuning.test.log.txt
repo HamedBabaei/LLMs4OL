@@ -1,0 +1,6 @@
+Running on dataset: wn18rr , model: gpt4, template: template-4!
+scoring model outputs in: results/wn18rr/gpt4/output-gpt4-template-4-batch 1-2023-07-13 17:34:15.json
+Results: {'MAP@1': 0.9011615628299895, 'MAP@5': 0.9011615628299895, 'MAP@10': 0.9011615628299895}
+storing results in: results/wn18rr/gpt4/report-gpt4-template-4-2023-07-13 17:34:15.json
+Inference for  gpt4 on template: template-4  is done
+-----------------------------------------------------------
