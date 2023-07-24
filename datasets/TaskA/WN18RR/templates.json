@@ -12,11 +12,11 @@
     "t5":{
         "template-1": "[SENTENCE]. [A] POS is a ?",
         "template-2": "[SENTENCE]. [A] part of speech is a ?",
-        "template-3": "[SENTENCE]. '[A]' POS is a ?",
+        "template-3": "[SENTENCE]. '[A]' POS is a ",
         "template-4": "[SENTENCE]. '[A]' part of speech is a ?",
-        "template-5": "[A] POS is a ?",
+        "template-5": "[A] POS is a ",
         "template-6": "[A] part of speech is a ?",
-        "template-7": "'[A]' POS is a ?",
+        "template-7": "'[A]' POS is a ",
         "template-8": "'[A]' part of speech is a ?"
     },
     "bart":{
@@ -40,13 +40,24 @@
         "template-8": "Perform a sentence completion on the following sentence:\nSentence: '[A]' part of speech is a "
     },
     "bloom": {
-        "template-1": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. [A] POS is a ",
-        "template-2": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. [A] part of speech is a ",
-        "template-3": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. '[A]' POS is a ",
-        "template-4": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. '[A]' part of speech is a ",
-        "template-5": "Perform a sentence completion on the following sentence:\nSentence: [A] POS is a ",
-        "template-6": "Perform a sentence completion on the following sentence:\nSentence: [A] part of speech is a ",
-        "template-7": "Perform a sentence completion on the following sentence:\nSentence: '[A]' POS is a ",
-        "template-8": "Perform a sentence completion on the following sentence:\nSentence: '[A]' part of speech is a "
+        "template-1": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. [A] POS is a",
+        "template-2": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. [A] part of speech is a",
+        "template-3": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. '[A]' POS is a",
+        "template-4": "Perform a sentence completion on the following sentence:\nSentence: [SENTENCE]. '[A]' part of speech is a",
+        "template-5": "Perform a sentence completion on the following sentence:\nSentence: [A] POS is a",
+        "template-6": "Perform a sentence completion on the following sentence:\nSentence: [A] part of speech is a",
+        "template-7": "Perform a sentence completion on the following sentence:\nSentence: '[A]' POS is a",
+        "template-8": "Perform a sentence completion on the following sentence:\nSentence: '[A]' part of speech is a"
+    },
+    "llama": {
+        "template-1": "Perform a sentence completion on the following sentence: [SENTENCE]. [A] POS is a ___.\nThe answer is",
+        "template-2": "Perform a sentence completion on the following sentence: [SENTENCE]. [A] part of speech is a ___.\nThe answer is",
+        "template-3": "Perform a sentence completion on the following sentence: [SENTENCE]. '[A]' POS is a ___.\nThe answer is",
+        "template-4": "Perform a sentence completion on the following sentence: [SENTENCE]. '[A]' part of speech is a ___.\nThe answer is",
+        "template-5": "Perform a sentence completion on the following sentence: [A] POS is a ___.\nThe answer is",
+        "template-6": "Perform a sentence completion on the following sentence: [A] part of speech is a ___.\nThe answer is",
+        "template-7": "Perform a sentence completion on the following sentence: '[A]' POS is a ___.\nThe answer is",
+        "template-8": "Perform a sentence completion on the following sentence: '[A]' part of speech is a ___.\nThe answer is"
     }
 }
+

@@ -17,7 +17,7 @@ model2name = {
     'llama_7b':'LLaMA-7B',
     'gpt3':'GPT-3',
     'chatgpt': 'GPT-3.5',
-    # 'gpt4': 'GPT-4',
+    'gpt4': 'GPT-4',
     'umls_flan_t5_large':'Flan-T5-Large*',
     'umls_flan_t5_xl': 'Flan-T5-XL*',
     'schemaorg_flan_t5_large': 'Flan-T5-Large*',
@@ -27,7 +27,7 @@ model2name = {
     'wn18rr_flan_t5_large':'Flan-T5-Large*',
     'wn18rr_flan_t5_xl':'Flan-T5-XL*',
 }
-llm_no = 12
+llm_no = 13
 
 dir2name = {
     'wn18rr': 'WN18RR',
@@ -66,7 +66,7 @@ def read_json(path: str):
     return json_data
 
 def rounding(score):
-    return round(score+0.5)
+    return score
 
 
 report_catalog = {}
@@ -76,7 +76,7 @@ for task in tasks:
     for dataset in dir2name.keys():
         if dataset in os.listdir(root_task_dir):
             report_catalog[task][dataset] = {}
-            print(dir2name[dataset])
+            # print(dir2name[dataset])
             dataset_dir_path = os.path.join(root_task_dir, dataset)
             for model_output_dir in os.listdir(dataset_dir_path):
                 model_output_dir_path = os.path.join(dataset_dir_path, model_output_dir)
@@ -120,9 +120,17 @@ colors_dict = {
     "SNOMEDCT": "#1f77b4",
     "Medcin":"#17becf"
 }
+color_a_box = 'pink'
+color_b_box = 'powderblue'
+color_all_box = 'powderblue'
+activate_all = True
 
+fig = make_subplots(rows=1, cols=2,
+                    shared_yaxes=True,
+                    horizontal_spacing = 0.025,
+                    column_widths=[0.85, 0.15],
+                    subplot_titles=("Zero-Shot Testing", "Few-Shot Learning"))
 
-fig = go.Figure()
 categories = list(model2name.values())[:llm_no]
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -157,16 +165,37 @@ for i in range(0, 5):
     else:
         dot_opacity[1] = 0
     fig.add_trace(go.Scatter(
-        x=categories,
-        y=results_matrix[i],
+        x=categories[:-2],
+        y=results_matrix[i][:-2],
         name="Task A: " + dataset_names[i],
         line_color=colors_dict[dataset_names[i]],
         mode='markers',
         marker=dict(
             size=12, symbol=markers_dict[dataset_names[i]] + "-open", opacity=dot_opacity
         )
-    ))
+    ), row=1, col=1)
+    fig.add_trace(go.Scatter(
+        x=categories[-2:],
+        y=results_matrix[i][-2:],
+        name="Task A: " + dataset_names[i],
+        line_color=colors_dict[dataset_names[i]],
+        mode='markers',
+        marker=dict(
+            size=12, symbol=markers_dict[dataset_names[i]] + "-open"
+        ), showlegend=False
+    ), row=1, col=2)
 
+results_matrix_all = results_matrix
+# if not activate_all:
+#     results_matrix = np.array(results_matrix_all)
+#     for i in range(0, results_matrix.shape[1]):
+#         print(categories[i], results_matrix[:,i])
+#         fig.add_trace(go.Box(
+#             y=[score for score in list(results_matrix[:,i]) if score != 0],
+#             name=categories[i],
+#             line_color=color_a_box,
+#             showlegend=False
+#         ))
 # ----------------------------------------------------------------------------------------------------------------------------------------------
 # Task B
 # ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -199,16 +228,38 @@ for i in range(0, 3):
     else:
         dot_opacity[1] = 0
     fig.add_trace(go.Scatter(
-        x=categories,
-        y=results_matrix[i],
+        x=categories[:-2],
+        y=results_matrix[i][:-2],
         name="Task B: " + dataset_names[i],
         line_color=colors_dict[dataset_names[i]],
         mode='markers',
         marker=dict(
             size=12, symbol=markers_dict[dataset_names[i]], opacity=dot_opacity
         )
-    ))
+    ), row=1, col=1)
 
+    fig.add_trace(go.Scatter(
+        x=categories[-2:],
+        y=results_matrix[i][-2:],
+        name="Task B: " + dataset_names[i],
+        line_color=colors_dict[dataset_names[i]],
+        mode='markers',
+        marker=dict(
+            size=12, symbol=markers_dict[dataset_names[i]]
+        ), showlegend=False
+    ), row=1, col=2)
+
+results_matrix_all += results_matrix
+# if not activate_all:
+#     results_matrix = np.array(results_matrix)
+#     for i in range(0, results_matrix.shape[1]):
+#         # print(categories[i], results_matrix[:,i])
+#         fig.add_trace(go.Box(
+#             y=[score for score in list(results_matrix[:,i]) if score != 0],
+#             name=categories[i],
+#             line_color=color_b_box,
+#             showlegend=False
+#         ))
 # ----------------------------------------------------------------------------------------------------------------------------------------------
 # Task C
 # ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -228,8 +279,6 @@ for index, dataset in enumerate(report_catalog[task].keys()):
                 results.append(rounding(max(results_score)))
     results_matrix.append(results)
 
-
-
 for i in range(0, 1):
     dot_opacity = np.ones(len(results_matrix[i]))
     if list(report_catalog[task].keys())[i] in ['umls', 'nci', 'medcin', 'snomedct_us']:
@@ -237,15 +286,47 @@ for i in range(0, 1):
     else:
         dot_opacity[1] = 0
     fig.add_trace(go.Scatter(
-        x=categories,
-        y=results_matrix[i],
+        x=categories[:-2],
+        y=results_matrix[i][:-2],
         name="Task C: " + dataset_names[i],
         line_color=colors_dict[dataset_names[i]],
         mode='markers',
         marker=dict(
             size=5, symbol=markers_dict[dataset_names[i]] + "-open-dot", opacity=dot_opacity
         )
-    ))
+    ), row=1, col=1)
+    fig.add_trace(go.Scatter(
+        x=categories[-2:],
+        y=results_matrix[i][-2:],
+        name="Task C: " + dataset_names[i],
+        line_color=colors_dict[dataset_names[i]],
+        mode='markers',
+        marker=dict(
+            size=5, symbol=markers_dict[dataset_names[i]] + "-open-dot"
+        ), showlegend=False
+    ), row=1, col=2)
+
+results_matrix_all += results_matrix
+if activate_all:
+    results_matrix = np.array(results_matrix_all)
+    for i in range(0, results_matrix.shape[1]):
+        print(categories[i], results_matrix[:, i])
+        if categories[i] == "PubMedBERT":
+            continue
+        if categories[i] not in ['Flan-T5-Large*', 'Flan-T5-XL*']:
+            fig.add_trace(go.Box(
+                y=[score for score in list(results_matrix[:, i]) if score != 0],
+                name=categories[i],
+                line_color=color_b_box,
+                showlegend=False
+            ), row=1, col=1)
+        else:
+            fig.add_trace(go.Box(
+                y=[score for score in list(results_matrix[:, i]) if score != 0],
+                name=categories[i],
+                line_color=color_b_box,
+                showlegend=False
+            ), row=1, col=2)
 
 #####################################################################################################################
 width = 1280
@@ -257,7 +338,7 @@ fig.update_layout(title=None,
                   height=height,
                   legend=dict(
                       orientation="h",
-                      y=1,
+                      y=-0.15,
                       x=0,
                       yanchor='bottom',
                       xanchor="left"
