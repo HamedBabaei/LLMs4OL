@@ -1,0 +1,34 @@
+Running on dataset: geonames , model: gpt4, template: template-1!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 23-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 18-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 13-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 25-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 10-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 4-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 21-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 9-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 16-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 15-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 22-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 17-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 14-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 20-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 7-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 29-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 6-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 26-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 1-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 3-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 24-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 12-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 11-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 27-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 5-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 2-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 19-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 8-2023-07-20 18:42:45.json
+scoring model outputs in: results/geonames/gpt4/output-gpt4-template-1-batch 28-2023-07-20 18:42:45.json
+Results: {'MAP@1': 0.3935744686908371, 'MAP@5': 0.09247460297125071, 'MAP@10': 0.07227203792839867}
+storing results in: results/geonames/gpt4/report-gpt4-template-1-2023-07-20 18:42:45.json
+Inference for  gpt4 on template: template-1  is done
+-----------------------------------------------------------

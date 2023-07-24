@@ -1,48 +1,48 @@
 Running on dataset: medcin , model: llama_7b, template: template-1!
-scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-1-2023-06-20 04:53:23.json
-Results: {'MAP@1': 0.006569638164544168, 'MAP@5': 0.001322590892026914, 'MAP@10': 0.0007335064610036455}
-storing results in: results/medcin/llama_7b/report-llama_7b-template-1-2023-06-20 04:53:23.json
+scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-1-2023-07-22 13:44:13.json
+Results: {'MAP@1': 0.03406104709925207, 'MAP@5': 0.0096280092793131, 'MAP@10': 0.006848896488721491}
+storing results in: results/medcin/llama_7b/report-llama_7b-template-1-2023-07-22 13:44:13.json
 Inference for  llama_7b on template: template-1  is done
 -----------------------------------------------------------
 Running on dataset: medcin , model: llama_7b, template: template-2!
-scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-2-2023-06-20 06:20:55.json
-Results: {'MAP@1': 0.006612954460134569, 'MAP@5': 0.001328366398105634, 'MAP@10': 0.0007884367951075046}
-storing results in: results/medcin/llama_7b/report-llama_7b-template-2-2023-06-20 06:20:55.json
+scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-2-2023-07-22 14:15:50.json
+Results: {'MAP@1': 0.02806895954257992, 'MAP@5': 0.007747360112429853, 'MAP@10': 0.0057552631591009824}
+storing results in: results/medcin/llama_7b/report-llama_7b-template-2-2023-07-22 14:15:50.json
 Inference for  llama_7b on template: template-2  is done
 -----------------------------------------------------------
 Running on dataset: medcin , model: llama_7b, template: template-3!
-scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-3-2023-06-20 07:51:20.json
-Results: {'MAP@1': 0.000938519737792024, 'MAP@5': 0.00018962911625131155, 'MAP@10': 0.00010010877203114923}
-storing results in: results/medcin/llama_7b/report-llama_7b-template-3-2023-06-20 07:51:20.json
+scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-3-2023-07-22 14:48:13.json
+Results: {'MAP@1': 0.03370007796933206, 'MAP@5': 0.008781897638780598, 'MAP@10': 0.006566062851257341}
+storing results in: results/medcin/llama_7b/report-llama_7b-template-3-2023-07-22 14:48:13.json
 Inference for  llama_7b on template: template-3  is done
 -----------------------------------------------------------
 Running on dataset: medcin , model: llama_7b, template: template-4!
-scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-4-2023-06-20 09:21:13.json
-Results: {'MAP@1': 0.0006930607294464178, 'MAP@5': 0.00014053731458219028, 'MAP@10': 8.422613031466884e-05}
-storing results in: results/medcin/llama_7b/report-llama_7b-template-4-2023-06-20 09:21:13.json
+scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-4-2023-07-22 15:20:19.json
+Results: {'MAP@1': 0.037309769268532154, 'MAP@5': 0.009752423306092196, 'MAP@10': 0.0075529925601397485}
+storing results in: results/medcin/llama_7b/report-llama_7b-template-4-2023-07-22 15:20:19.json
 Inference for  llama_7b on template: template-4  is done
 -----------------------------------------------------------
 Running on dataset: medcin , model: llama_7b, template: template-5!
-scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-5-2023-06-20 10:53:58.json
-Results: {'MAP@1': 0.002700049091801669, 'MAP@5': 0.000545785324439054, 'MAP@10': 0.0003164094962154392}
-storing results in: results/medcin/llama_7b/report-llama_7b-template-5-2023-06-20 10:53:58.json
+scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-5-2023-07-22 15:52:42.json
+Results: {'MAP@1': 0.049048485373530855, 'MAP@5': 0.011448737570629627, 'MAP@10': 0.007151497483300307}
+storing results in: results/medcin/llama_7b/report-llama_7b-template-5-2023-07-22 15:52:42.json
 Inference for  llama_7b on template: template-5  is done
 -----------------------------------------------------------
 Running on dataset: medcin , model: llama_7b, template: template-6!
-scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-6-2023-06-20 12:03:48.json
-Results: {'MAP@1': 0.0028299979785728724, 'MAP@5': 0.0005717751017932947, 'MAP@10': 0.00032860223127051505}
-storing results in: results/medcin/llama_7b/report-llama_7b-template-6-2023-06-20 12:03:48.json
+scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-6-2023-07-22 16:18:30.json
+Results: {'MAP@1': 0.044731294579687546, 'MAP@5': 0.010343931386987784, 'MAP@10': 0.006358442575197319}
+storing results in: results/medcin/llama_7b/report-llama_7b-template-6-2023-07-22 16:18:30.json
 Inference for  llama_7b on template: template-6  is done
 -----------------------------------------------------------
 Running on dataset: medcin , model: llama_7b, template: template-7!
-scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-7-2023-06-20 13:15:04.json
-Results: {'MAP@1': 0.0016171417020416413, 'MAP@5': 0.0003253535091012351, 'MAP@10': 0.00017314485931829775}
-storing results in: results/medcin/llama_7b/report-llama_7b-template-7-2023-06-20 13:15:04.json
+scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-7-2023-07-22 16:45:16.json
+Results: {'MAP@1': 0.03175084466776401, 'MAP@5': 0.007319491370431335, 'MAP@10': 0.004854622261275644}
+storing results in: results/medcin/llama_7b/report-llama_7b-template-7-2023-07-22 16:45:16.json
 Inference for  llama_7b on template: template-7  is done
 -----------------------------------------------------------
 Running on dataset: medcin , model: llama_7b, template: template-8!
-scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-8-2023-06-20 14:25:47.json
-Results: {'MAP@1': 0.0017326518236160443, 'MAP@5': 0.00034845553341611565, 'MAP@10': 0.000190792239003276}
-storing results in: results/medcin/llama_7b/report-llama_7b-template-8-2023-06-20 14:25:47.json
+scoring model outputs in: results/medcin/llama_7b/output-llama_7b-template-8-2023-07-22 17:11:31.json
+Results: {'MAP@1': 0.03804614629356897, 'MAP@5': 0.008790079605725452, 'MAP@10': 0.005881608084241715}
+storing results in: results/medcin/llama_7b/report-llama_7b-template-8-2023-07-22 17:11:31.json
 Inference for  llama_7b on template: template-8  is done
 -----------------------------------------------------------

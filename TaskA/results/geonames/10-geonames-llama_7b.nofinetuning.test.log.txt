@@ -1,48 +1,48 @@
 Running on dataset: geonames , model: llama_7b, template: template-1!
-scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-1-2023-06-20 15:41:23.json
-Results: {'MAP@1': 0.03593827845866963, 'MAP@5': 0.011433645072668008, 'MAP@10': 0.010825582215064217}
-storing results in: results/geonames/llama_7b/report-llama_7b-template-1-2023-06-20 15:41:23.json
+scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-1-2023-07-22 21:21:07.json
+Results: {'MAP@1': 0.29495950235583834, 'MAP@5': 0.06654531608090987, 'MAP@10': 0.05083373777879907}
+storing results in: results/geonames/llama_7b/report-llama_7b-template-1-2023-07-22 21:21:07.json
 Inference for  llama_7b on template: template-1  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: llama_7b, template: template-2!
-scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-2-2023-06-21 04:06:18.json
-Results: {'MAP@1': 0.012226160481701328, 'MAP@5': 0.004298728843717529, 'MAP@10': 0.004211209895221511}
-storing results in: results/geonames/llama_7b/report-llama_7b-template-2-2023-06-21 04:06:18.json
+scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-2-2023-07-23 00:27:31.json
+Results: {'MAP@1': 0.14169050974363354, 'MAP@5': 0.03596366362519157, 'MAP@10': 0.02860018261051698}
+storing results in: results/geonames/llama_7b/report-llama_7b-template-2-2023-07-23 00:27:31.json
 Inference for  llama_7b on template: template-2  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: llama_7b, template: template-3!
-scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-3-2023-06-21 16:56:29.json
-Results: {'MAP@1': 0.02303312408364294, 'MAP@5': 0.007492609832363004, 'MAP@10': 0.007361555379768643}
-storing results in: results/geonames/llama_7b/report-llama_7b-template-3-2023-06-21 16:56:29.json
+scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-3-2023-07-23 03:42:23.json
+Results: {'MAP@1': 0.2554739434314102, 'MAP@5': 0.060680535982880465, 'MAP@10': 0.04763799329072419}
+storing results in: results/geonames/llama_7b/report-llama_7b-template-3-2023-07-23 03:42:23.json
 Inference for  llama_7b on template: template-3  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: llama_7b, template: template-4!
-scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-4-2023-06-22 05:30:08.json
-Results: {'MAP@1': 0.010667463808344366, 'MAP@5': 0.0036790460871256874, 'MAP@10': 0.0035715144313598415}
-storing results in: results/geonames/llama_7b/report-llama_7b-template-4-2023-06-22 05:30:08.json
+scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-4-2023-07-23 06:53:51.json
+Results: {'MAP@1': 0.1595464833240808, 'MAP@5': 0.04226129639910227, 'MAP@10': 0.03438529373021408}
+storing results in: results/geonames/llama_7b/report-llama_7b-template-4-2023-07-23 06:53:51.json
 Inference for  llama_7b on template: template-4  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: llama_7b, template: template-5!
-scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-5-2023-06-22 17:58:47.json
-Results: {'MAP@1': 0.04791675563337177, 'MAP@5': 0.012544068174593009, 'MAP@10': 0.010633266136639752}
-storing results in: results/geonames/llama_7b/report-llama_7b-template-5-2023-06-22 17:58:47.json
+scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-5-2023-07-22 21:24:46.json
+Results: {'MAP@1': 0.13919090119713598, 'MAP@5': 0.0399614952100326, 'MAP@10': 0.034489562708591624}
+storing results in: results/geonames/llama_7b/report-llama_7b-template-5-2023-07-22 21:24:46.json
 Inference for  llama_7b on template: template-5  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: llama_7b, template: template-6!
-scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-6-2023-06-23 03:22:08.json
-Results: {'MAP@1': 0.01334215883047928, 'MAP@5': 0.004187271355567892, 'MAP@10': 0.003917352585841289}
-storing results in: results/geonames/llama_7b/report-llama_7b-template-6-2023-06-23 03:22:08.json
+scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-6-2023-07-22 23:48:02.json
+Results: {'MAP@1': 0.09446555920912157, 'MAP@5': 0.02696146674068696, 'MAP@10': 0.022656902245982827}
+storing results in: results/geonames/llama_7b/report-llama_7b-template-6-2023-07-22 23:48:02.json
 Inference for  llama_7b on template: template-6  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: llama_7b, template: template-7!
-scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-7-2023-06-23 12:58:25.json
-Results: {'MAP@1': 0.0585101991430727, 'MAP@5': 0.015630690903569576, 'MAP@10': 0.013177055266456126}
-storing results in: results/geonames/llama_7b/report-llama_7b-template-7-2023-06-23 12:58:25.json
+scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-7-2023-07-23 02:19:17.json
+Results: {'MAP@1': 0.17794337447153777, 'MAP@5': 0.04932812344308265, 'MAP@10': 0.04180337883683744}
+storing results in: results/geonames/llama_7b/report-llama_7b-template-7-2023-07-23 02:19:17.json
 Inference for  llama_7b on template: template-7  is done
 -----------------------------------------------------------
 Running on dataset: geonames , model: llama_7b, template: template-8!
-scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-8-2023-06-23 22:29:05.json
-Results: {'MAP@1': 0.01942178759021224, 'MAP@5': 0.00585389057332517, 'MAP@10': 0.005363114076442001}
-storing results in: results/geonames/llama_7b/report-llama_7b-template-8-2023-06-23 22:29:05.json
+scoring model outputs in: results/geonames/llama_7b/output-llama_7b-template-8-2023-07-23 04:47:58.json
+Results: {'MAP@1': 0.16795632802380037, 'MAP@5': 0.04593298790527299, 'MAP@10': 0.038425667216396155}
+storing results in: results/geonames/llama_7b/report-llama_7b-template-8-2023-07-23 04:47:58.json
 Inference for  llama_7b on template: template-8  is done
 -----------------------------------------------------------

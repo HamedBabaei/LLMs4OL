@@ -1,48 +1,48 @@
 Running on dataset: wn18rr , model: bloom_3b, template: template-1!
-scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-1-2023-04-14 18:31:15.json
-Results: {'MAP@1': 0.2948257655755016, 'MAP@5': 0.2948257655755016, 'MAP@10': 0.2948257655755016}
-storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-1-2023-04-14 18:31:15.json
+scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-1-2023-07-21 21:20:25.json
+Results: {'MAP@1': 0.6333685322069694, 'MAP@5': 0.6333685322069694, 'MAP@10': 0.6333685322069694}
+storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-1-2023-07-21 21:20:25.json
 Inference for  bloom_3b on template: template-1  is done
 -----------------------------------------------------------
 Running on dataset: wn18rr , model: bloom_3b, template: template-2!
-scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-2-2023-04-14 18:37:03.json
-Results: {'MAP@1': 0.4834213305174234, 'MAP@5': 0.4834213305174234, 'MAP@10': 0.4834213305174234}
-storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-2-2023-04-14 18:37:03.json
+scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-2-2023-07-21 21:22:19.json
+Results: {'MAP@1': 0.7529039070749736, 'MAP@5': 0.7529039070749736, 'MAP@10': 0.7529039070749736}
+storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-2-2023-07-21 21:22:19.json
 Inference for  bloom_3b on template: template-2  is done
 -----------------------------------------------------------
 Running on dataset: wn18rr , model: bloom_3b, template: template-3!
-scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-3-2023-04-14 18:40:34.json
-Results: {'MAP@1': 0.6251319957761352, 'MAP@5': 0.6251319957761352, 'MAP@10': 0.6251319957761352}
-storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-3-2023-04-14 18:40:34.json
+scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-3-2023-07-21 21:24:16.json
+Results: {'MAP@1': 0.7908130939809926, 'MAP@5': 0.7908130939809926, 'MAP@10': 0.7908130939809926}
+storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-3-2023-07-21 21:24:16.json
 Inference for  bloom_3b on template: template-3  is done
 -----------------------------------------------------------
 Running on dataset: wn18rr , model: bloom_3b, template: template-4!
-scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-4-2023-04-14 18:44:18.json
-Results: {'MAP@1': 0.6835269271383315, 'MAP@5': 0.6835269271383315, 'MAP@10': 0.6835269271383315}
-storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-4-2023-04-14 18:44:18.json
+scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-4-2023-07-21 21:26:13.json
+Results: {'MAP@1': 0.7706441393875396, 'MAP@5': 0.7706441393875396, 'MAP@10': 0.7706441393875396}
+storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-4-2023-07-21 21:26:13.json
 Inference for  bloom_3b on template: template-4  is done
 -----------------------------------------------------------
 Running on dataset: wn18rr , model: bloom_3b, template: template-5!
-scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-5-2023-04-14 18:47:58.json
-Results: {'MAP@1': 0.2068637803590285, 'MAP@5': 0.2068637803590285, 'MAP@10': 0.2068637803590285}
-storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-5-2023-04-14 18:47:58.json
+scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-5-2023-07-21 21:28:13.json
+Results: {'MAP@1': 0.3740232312565998, 'MAP@5': 0.3740232312565998, 'MAP@10': 0.3740232312565998}
+storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-5-2023-07-21 21:28:13.json
 Inference for  bloom_3b on template: template-5  is done
 -----------------------------------------------------------
 Running on dataset: wn18rr , model: bloom_3b, template: template-6!
-scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-6-2023-04-14 18:50:49.json
-Results: {'MAP@1': 0.410454065469905, 'MAP@5': 0.410454065469905, 'MAP@10': 0.410454065469905}
-storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-6-2023-04-14 18:50:49.json
+scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-6-2023-07-21 21:29:58.json
+Results: {'MAP@1': 0.653220696937698, 'MAP@5': 0.653220696937698, 'MAP@10': 0.653220696937698}
+storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-6-2023-07-21 21:29:58.json
 Inference for  bloom_3b on template: template-6  is done
 -----------------------------------------------------------
 Running on dataset: wn18rr , model: bloom_3b, template: template-7!
-scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-7-2023-04-14 18:53:47.json
-Results: {'MAP@1': 0.591129883843717, 'MAP@5': 0.591129883843717, 'MAP@10': 0.591129883843717}
-storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-7-2023-04-14 18:53:47.json
+scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-7-2023-07-21 21:31:45.json
+Results: {'MAP@1': 0.6899683210137275, 'MAP@5': 0.6899683210137275, 'MAP@10': 0.6899683210137275}
+storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-7-2023-07-21 21:31:45.json
 Inference for  bloom_3b on template: template-7  is done
 -----------------------------------------------------------
 Running on dataset: wn18rr , model: bloom_3b, template: template-8!
-scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-8-2023-04-14 18:56:40.json
-Results: {'MAP@1': 0.6768743400211193, 'MAP@5': 0.6768743400211193, 'MAP@10': 0.6768743400211193}
-storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-8-2023-04-14 18:56:40.json
+scoring model outputs in: results/wn18rr/bloom_3b/output-bloom_3b-template-8-2023-07-21 21:33:32.json
+Results: {'MAP@1': 0.7162618796198522, 'MAP@5': 0.7162618796198522, 'MAP@10': 0.7162618796198522}
+storing results in: results/wn18rr/bloom_3b/report-bloom_3b-template-8-2023-07-21 21:33:32.json
 Inference for  bloom_3b on template: template-8  is done
 -----------------------------------------------------------
