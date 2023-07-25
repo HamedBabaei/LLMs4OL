@@ -45,7 +45,7 @@ datasets=("geonames")
 templates=("template-1")
 models=("gpt3" "chatgpt")
 for kb_name in "${datasets[@]}"; do
-  index=1
+  index=10
   for model_name in  "${models[@]}"; do
     log="results/$kb_name/$index-$kb_name-$model_name.$label.test.log.txt"
     exec > $log
@@ -64,7 +64,7 @@ datasets=("wn18rr" "geonames" "nci" "snomedct_us" "medcin")
 templates=("template-3")
 models=("gpt4")
 for kb_name in "${datasets[@]}"; do
-  index=1
+  index=12
   for model_name in  "${models[@]}"; do
     log="results/$kb_name/$index-$kb_name-$model_name.$label.test.log.txt"
     exec > $log

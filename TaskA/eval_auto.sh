@@ -4,7 +4,7 @@ label="nofinetuning"
 
 datasets=("wn18rr" "geonames" "nci" "snomedct_us" "medcin")
 templates=("template-1" "template-2" "template-3" "template-4" "template-5" "template-6" "template-7" "template-8")
-models=("gpt3" "bloom_1b7" "bloom_3b" "chatgpt" "llama_7b")
+models=("gpt3" "bloom_1b7" "bloom_3b" "chatgpt" "llama_7b" "gpt4")
 
 for kb_name in "${datasets[@]}"; do
   index=6
