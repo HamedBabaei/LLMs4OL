@@ -5,9 +5,9 @@
 
 # Task C. Type Non-Taxonomic Relation Extraction Results
 
-|  Dataset   | $BERT_{large}$ | $BART_{large}$ | $Flan-T5_{large}$ | $Flan-T5_{xl}$ | $GPT3$ | $BLOOM_{1b7}$ | $BLOOM_{3b}$ | $Flan-T5_{large}-ours$ | $Flan-T5-XL-ours$ | $GPT-4$ | $ChatGPT (GPT-3.5-Turbo)$ |
-|:----------:|:--------------:|:--------------:|:-----------------:|:--------------:|:------:|:-------------:|:------------:|:----------------------:|:-----------------:|:-------:|:-------------------:|
-|  UMLS      |     40.10      |     42.35      |       46.02       |   **49.52**    | 38.84  |     43.12     |    42.70     |         49.05          |       53.05       |  41.31  |        37.51        |
+|  Dataset   | BERT-Large | BART-Large | Flan-T5-Large | Flan-T5-XL | GPT-3 | BLOOM-1b7 | BLOOM-3b | `Flan-T5-Large*` | `Flan-T5-XL*` | GPT-4 |    GPT-3.5$     | LLaMA-7B | PubMedBERT |
+|:----------:|:-----------:|:------------:|:---------------:|:----------:|:-----:|:---------:|:--------:|:---------------:|:------------:|:-----:|:---------------:|:--------:|:----------:|
+|  UMLS      |    40.10    |    42.35     |      46.02      | 49.52  | 38.84 |   43.12   |  42.70   |      49.05      |    53.05     | 41.31 |      37.51      |  20.34   |   42.68    |
 
 
-* `Flan-T5-Large-ours` and `Flan-T5-XL-ours` are Few-shot learning results for datasets.
+* `Flan-T5-Large*` and `Flan-T5-XL*` are Few-shot learning results for datasets.

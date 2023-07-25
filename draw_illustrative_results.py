@@ -49,7 +49,7 @@ tasks = ['A', 'B', 'C']
 
 task_templates_name = {
     "A": [f'template-{str(index)}' for index in range(1, 9)],
-    "B": [f'-{str(index)}-' for index in range(1, 9)],
+    "B": [f'-{str(index)}-' for index in range(0, 8)],
     "C": [""]
 }
 
