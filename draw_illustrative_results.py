@@ -30,13 +30,13 @@ model2name = {
 llm_no = 13
 
 dir2name = {
-    'wn18rr': 'WN18RR',
+    'wn18rr': 'WordNet',
     'geonames': 'GeoNames',
     'nci': 'NCI',
     'snomedct_us': 'SNOMEDCT',
     'medcin':'Medcin',
     'umls': 'UMLS',
-    'schema': 'Schema.Org'
+    'schema': 'schema.org'
 }
 
 medical_dir2name = {
@@ -102,20 +102,20 @@ for task in tasks:
 
 
 markers_dict = {
-    "WN18RR":"square",
+    "WordNet":"square",
     "UMLS": "star",
     "GeoNames": "circle",
-    "Schema.Org": "diamond-tall",
+    "schema.org": "diamond-tall",
     "NCI": "star",
     "SNOMEDCT": "star",
     "Medcin":"star"
 }
 
 colors_dict = {
-    "WN18RR":"orange",
+    "WordNet":"orange",
     "UMLS": "blue",
     "GeoNames": "green",
-    "Schema.Org": "red",
+    "schema.org": "red",
     "NCI": "blue",
     "SNOMEDCT": "#1f77b4",
     "Medcin":"#17becf"
@@ -129,7 +129,7 @@ fig = make_subplots(rows=1, cols=2,
                     shared_yaxes=True,
                     horizontal_spacing = 0.025,
                     column_widths=[0.85, 0.15],
-                    subplot_titles=("Zero-Shot Testing", "Few-Shot Learning"))
+                    subplot_titles=("Zero-Shot Testing", "Finetuned"))
 
 categories = list(model2name.values())[:llm_no]
 
