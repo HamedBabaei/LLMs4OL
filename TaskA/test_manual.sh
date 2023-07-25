@@ -3,7 +3,7 @@ read -p "Enter dataset out of (wn18rr, geonames, nci, snomedct_us, medcin):" kb_
 
 read -p "Enter output logs path for $kb_name results:" log
 
-read -p "Enter the name of model out of (bert_large, flan_t5_large, flan_t5_xl, bart_large, gpt3, bloom_1b7, bloom_3b):" model_name
+read -p "Enter the name of model out of (bert_large, flan_t5_large, flan_t5_xl, bart_large, gpt3, bloom_1b7, bloom_3b, llama_7b, gpt4, chatgpt):" model_name
 
 read -p "Enter the device (cpu, cuda, cuda:1, cuda:2, ...):" device
 

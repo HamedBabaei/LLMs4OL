@@ -1,0 +1,48 @@
+Running on dataset: wn18rr , model: chatgpt, template: template-1!
+scoring model outputs in: results/wn18rr/chatgpt/output-chatgpt-template-1-2023-06-26 13:40:28.json
+Results: {'MAP@1': 0.24276663146779304, 'MAP@5': 0.24276663146779304, 'MAP@10': 0.24276663146779304}
+storing results in: results/wn18rr/chatgpt/report-chatgpt-template-1-2023-06-26 13:40:28.json
+Inference for  chatgpt on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: chatgpt, template: template-2!
+scoring model outputs in: results/wn18rr/chatgpt/output-chatgpt-template-2-2023-06-27 10:16:16.json
+Results: {'MAP@1': 0.8081309398099261, 'MAP@5': 0.8081309398099261, 'MAP@10': 0.8081309398099261}
+storing results in: results/wn18rr/chatgpt/report-chatgpt-template-2-2023-06-27 10:16:16.json
+Inference for  chatgpt on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: chatgpt, template: template-3!
+scoring model outputs in: results/wn18rr/chatgpt/output-chatgpt-template-3-2023-06-27 17:40:41.json
+Results: {'MAP@1': 0.8946145723336854, 'MAP@5': 0.8946145723336854, 'MAP@10': 0.8946145723336854}
+storing results in: results/wn18rr/chatgpt/report-chatgpt-template-3-2023-06-27 17:40:41.json
+Inference for  chatgpt on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: chatgpt, template: template-4!
+scoring model outputs in: results/wn18rr/chatgpt/output-chatgpt-template-4-2023-06-28 01:31:55.json
+Results: {'MAP@1': 0.9172122492080254, 'MAP@5': 0.9172122492080254, 'MAP@10': 0.9172122492080254}
+storing results in: results/wn18rr/chatgpt/report-chatgpt-template-4-2023-06-28 01:31:55.json
+Inference for  chatgpt on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: chatgpt, template: template-5!
+scoring model outputs in: results/wn18rr/chatgpt/output-chatgpt-template-5-2023-06-28 08:36:01.json
+Results: {'MAP@1': 0.008130939809926083, 'MAP@5': 0.008130939809926083, 'MAP@10': 0.008130939809926083}
+storing results in: results/wn18rr/chatgpt/report-chatgpt-template-5-2023-06-28 08:36:01.json
+Inference for  chatgpt on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: chatgpt, template: template-6!
+scoring model outputs in: results/wn18rr/chatgpt/output-chatgpt-template-6-batch 1-2023-06-28 10:42:25.json
+Results: {'MAP@1': 0.6076029567053854, 'MAP@5': 0.6076029567053854, 'MAP@10': 0.6076029567053854}
+storing results in: results/wn18rr/chatgpt/report-chatgpt-template-6-2023-06-28 10:42:25.json
+Inference for  chatgpt on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: chatgpt, template: template-7!
+scoring model outputs in: results/wn18rr/chatgpt/output-chatgpt-template-7-batch 1-2023-06-28 12:20:48.json
+Results: {'MAP@1': 0.4938753959873284, 'MAP@5': 0.4938753959873284, 'MAP@10': 0.4938753959873284}
+storing results in: results/wn18rr/chatgpt/report-chatgpt-template-7-2023-06-28 12:20:48.json
+Inference for  chatgpt on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: wn18rr , model: chatgpt, template: template-8!
+scoring model outputs in: results/wn18rr/chatgpt/output-chatgpt-template-8-batch 1-2023-06-28 13:56:32.json
+Results: {'MAP@1': 0.824181626187962, 'MAP@5': 0.824181626187962, 'MAP@10': 0.824181626187962}
+storing results in: results/wn18rr/chatgpt/report-chatgpt-template-8-2023-06-28 13:56:32.json
+Inference for  chatgpt on template: template-8  is done
+-----------------------------------------------------------

@@ -1,0 +1,80 @@
+Running on dataset: umls , model: pubmed_bert, template: 0!
+args: Namespace(kb_name='umls', model='pubmed_bert', template='0', device='cuda')
+Starting the Inference time is: 2023-07-13 19:28:27
+Working on template: 0: {"placeholder": "text_a"} is the superclass of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.3371335504885994
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-0-2023-07-13 19:28:27.json
+Ending the Inference time is: 2023-07-13 19:28:40
+Total duration is===> 0:00:13.452592
+Inference for  pubmed_bert on template: 0  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: pubmed_bert, template: 1!
+args: Namespace(kb_name='umls', model='pubmed_bert', template='1', device='cuda')
+Starting the Inference time is: 2023-07-13 19:29:00
+Working on template: 1: {"placeholder": "text_b"} is a subclass of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.3371335504885994
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-1-2023-07-13 19:29:00.json
+Ending the Inference time is: 2023-07-13 19:29:13
+Total duration is===> 0:00:13.270517
+Inference for  pubmed_bert on template: 1  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: pubmed_bert, template: 2!
+args: Namespace(kb_name='umls', model='pubmed_bert', template='2', device='cuda')
+Starting the Inference time is: 2023-07-13 19:29:38
+Working on template: 2: {"placeholder": "text_a"} is the parent class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.3371335504885994
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-2-2023-07-13 19:29:38.json
+Ending the Inference time is: 2023-07-13 19:29:53
+Total duration is===> 0:00:14.350540
+Inference for  pubmed_bert on template: 2  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: pubmed_bert, template: 3!
+args: Namespace(kb_name='umls', model='pubmed_bert', template='3', device='cuda')
+Starting the Inference time is: 2023-07-13 19:30:16
+Working on template: 3: {"placeholder": "text_b"} is a child class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.3371335504885994
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-3-2023-07-13 19:30:16.json
+Ending the Inference time is: 2023-07-13 19:30:29
+Total duration is===> 0:00:12.551850
+Inference for  pubmed_bert on template: 3  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: pubmed_bert, template: 4!
+args: Namespace(kb_name='umls', model='pubmed_bert', template='4', device='cuda')
+Starting the Inference time is: 2023-07-13 19:30:50
+Working on template: 4: {"placeholder": "text_a"} is a supertype of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.3371335504885994
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-4-2023-07-13 19:30:50.json
+Ending the Inference time is: 2023-07-13 19:31:02
+Total duration is===> 0:00:12.606297
+Inference for  pubmed_bert on template: 4  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: pubmed_bert, template: 5!
+args: Namespace(kb_name='umls', model='pubmed_bert', template='5', device='cuda')
+Starting the Inference time is: 2023-07-13 19:31:23
+Working on template: 5: {"placeholder": "text_b"} is a subtype of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.3371335504885994
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-5-2023-07-13 19:31:23.json
+Ending the Inference time is: 2023-07-13 19:31:36
+Total duration is===> 0:00:13.116757
+Inference for  pubmed_bert on template: 5  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: pubmed_bert, template: 6!
+args: Namespace(kb_name='umls', model='pubmed_bert', template='6', device='cuda')
+Starting the Inference time is: 2023-07-13 19:32:00
+Working on template: 6: {"placeholder": "text_a"} is an ancestor class of {"placeholder": "text_b"}. This statement is a {"mask"} .
+F1-score: 0.3371335504885994
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-6-2023-07-13 19:32:00.json
+Ending the Inference time is: 2023-07-13 19:32:19
+Total duration is===> 0:00:19.619799
+Inference for  pubmed_bert on template: 6  is done
+-----------------------------------------------------------
+Running on dataset: umls , model: pubmed_bert, template: 7!
+args: Namespace(kb_name='umls', model='pubmed_bert', template='7', device='cuda')
+Starting the Inference time is: 2023-07-13 19:32:43
+Working on template: 7: {"placeholder": "text_b"} is a descendant class of {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-score: 0.3371335504885994
+scoring results in:results/umls/pubmed_bert/report-pubmed_bert-7-2023-07-13 19:32:43.json
+Ending the Inference time is: 2023-07-13 19:32:55
+Total duration is===> 0:00:12.133957
+Inference for  pubmed_bert on template: 7  is done
+-----------------------------------------------------------

@@ -1,0 +1,48 @@
+Running on dataset: nci , model: llama_7b, template: template-1!
+scoring model outputs in: results/nci/llama_7b/output-llama_7b-template-1-2023-07-22 13:29:17.json
+Results: {'MAP@1': 0.03788729465585361, 'MAP@5': 0.009830179524502668, 'MAP@10': 0.007164856238468216}
+storing results in: results/nci/llama_7b/report-llama_7b-template-1-2023-07-22 13:29:17.json
+Inference for  llama_7b on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: llama_7b, template: template-2!
+scoring model outputs in: results/nci/llama_7b/output-llama_7b-template-2-2023-07-22 13:40:47.json
+Results: {'MAP@1': 0.040548970679975045, 'MAP@5': 0.010760379843349276, 'MAP@10': 0.007835044740846363}
+storing results in: results/nci/llama_7b/report-llama_7b-template-2-2023-07-22 13:40:47.json
+Inference for  llama_7b on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: llama_7b, template: template-3!
+scoring model outputs in: results/nci/llama_7b/output-llama_7b-template-3-2023-07-22 13:52:33.json
+Results: {'MAP@1': 0.03248076523185694, 'MAP@5': 0.007935121646912041, 'MAP@10': 0.0056538335858360815}
+storing results in: results/nci/llama_7b/report-llama_7b-template-3-2023-07-22 13:52:33.json
+Inference for  llama_7b on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: llama_7b, template: template-4!
+scoring model outputs in: results/nci/llama_7b/output-llama_7b-template-4-2023-07-22 14:04:15.json
+Results: {'MAP@1': 0.04778540237055521, 'MAP@5': 0.011559575795383657, 'MAP@10': 0.008040694201018592}
+storing results in: results/nci/llama_7b/report-llama_7b-template-4-2023-07-22 14:04:15.json
+Inference for  llama_7b on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: llama_7b, template: template-5!
+scoring model outputs in: results/nci/llama_7b/output-llama_7b-template-5-2023-07-22 14:16:08.json
+Results: {'MAP@1': 0.03672281139530048, 'MAP@5': 0.009335274138767587, 'MAP@10': 0.006841405169539917}
+storing results in: results/nci/llama_7b/report-llama_7b-template-5-2023-07-22 14:16:08.json
+Inference for  llama_7b on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: llama_7b, template: template-6!
+scoring model outputs in: results/nci/llama_7b/output-llama_7b-template-6-2023-07-22 14:25:23.json
+Results: {'MAP@1': 0.039218132667914324, 'MAP@5': 0.010530948915228393, 'MAP@10': 0.007859057257061002}
+storing results in: results/nci/llama_7b/report-llama_7b-template-6-2023-07-22 14:25:23.json
+Inference for  llama_7b on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: llama_7b, template: template-7!
+scoring model outputs in: results/nci/llama_7b/output-llama_7b-template-7-2023-07-22 14:34:56.json
+Results: {'MAP@1': 0.05252651278852152, 'MAP@5': 0.012477992652665143, 'MAP@10': 0.00873012572326359}
+storing results in: results/nci/llama_7b/report-llama_7b-template-7-2023-07-22 14:34:56.json
+Inference for  llama_7b on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: nci , model: llama_7b, template: template-8!
+scoring model outputs in: results/nci/llama_7b/output-llama_7b-template-8-2023-07-22 14:44:21.json
+Results: {'MAP@1': 0.07714701601164484, 'MAP@5': 0.018793928051569975, 'MAP@10': 0.013282981314796662}
+storing results in: results/nci/llama_7b/report-llama_7b-template-8-2023-07-22 14:44:21.json
+Inference for  llama_7b on template: template-8  is done
+-----------------------------------------------------------

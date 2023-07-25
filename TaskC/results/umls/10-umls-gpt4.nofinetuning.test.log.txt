@@ -1,0 +1,6 @@
+Running on dataset: umls , model: gpt4, template: -0-!
+scoring model outputs in: results/umls/gpt4/output-gpt4-2023-06-14 15:27:07.json
+F1-Score: 0.41311198368278257
+storing results in: results/umls/gpt4/report-gpt4-2023-06-14 15:27:07.json
+Inference for  gpt4 on template: -0-  is done
+-----------------------------------------------------------

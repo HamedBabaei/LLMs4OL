@@ -17,6 +17,7 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
     - [Results](#results)
     - [Experimental LLMs](#experimental-llms)
 - [Experiments](#experiments)
+- [Results Overview](#results-overview)
 - [How to run tasks](#how-to-run-tasks)
     - [Requirements](#requirements)
     - [Running Tasks](#running-tasks)
@@ -103,6 +104,7 @@ We created experimentations using five different LMs. These LMs described as fol
 
 - Encoder-Only:
     - **[BERT-Large](https://huggingface.co/bert-large-uncased)** with 340M parameters
+    - **[PubMedBERT](https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext)** with 340M parameters
 - Encoder-Decoder:
     - **[BART-Large](https://huggingface.co/facebook/bart-large)** with 400M parameters 
     - **[Flan-T5-Large](https://huggingface.co/google/flan-t5-large)** with 780M parameters
@@ -110,12 +112,16 @@ We created experimentations using five different LMs. These LMs described as fol
 - Decoder-Only:
     - **[BLOOM-1b7](https://huggingface.co/bigscience/bloom-1b7)** with 1.7B parameters
     - **[BLOOM-3b](https://huggingface.co/bigscience/bloomz-3b)** with 3B parameters
+    - **[LLaMA-7b](https://ai.meta.com/blog/large-language-model-llama-meta-ai/)** with 7B parameters
     - **[GPT-3](https://platform.openai.com/docs/models/gpt-3)** with 175B parameters
+    - **[GPT-3.5](https://platform.openai.com/docs/models/gpt-3-5)** with 174B parameters
+    - **[GPT-4](https://platform.openai.com/docs/models/gpt-4)** with 1T parameters
 
 ## Experiments
 First we created prompt templates based on existing experimental language models and their nature -- specifically for tasks A and B we created 8 templates per source, and for task C only a single template --. Next, we probe LMs as zero-shot testing. More later we attempt to boost the performance of two LLMs (Flan-T5-Large and Flan-T5-XL) in the form of few-shot learning using predefined prompt templates (different than zero-shot testing) and we test the model using zero-shot testing prompt templates. 
 
 Prompt templates for zero-shot testing are represented as follows:
+
 |Dataset| Task | prompt templates path | answer set mapper path|
 |:---:|:---:|:---:|:---:|
 |WN18RR | A | [`datasets/TaskA/WN18RR/templates.json`](datasets/TaskA/WN18RR/templates.json)| [`datasets/TaskA/WN18RR/label_mapper.json`](datasets/TaskA/WN18RR/label_mapper.json) |
@@ -125,9 +131,15 @@ Prompt templates for zero-shot testing are represented as follows:
 |UMLS | C | [`datasets/TaskC/templates.txt`](datasets/TaskC/templates.txt)| [`datasets/TaskC/label_mapper.json`](datasets/TaskC/label_mapper.json)|
 
 Prompt templates for training few-shot learning is represented as follows:
+
 |Dataset| Task | prompt templates path | 
 |:---:|:---:|:---:|
 |WN18RR, UMLS (NCI only), GeoNames, Schema.Org | A, B, C | [`FSL/templates.py`](FSL/templates.py) |
+
+## Results Overview
+<div align="center"><img src="images/results-figure.jpeg" /></div>
+<div align="center">Figure 2. Comparative visual of the zero-shot and finetuned results. Unfilled shapes, filled shapes, and small filled stars represent performances in tasks A, B, and C, respectively.</div>
+<br>
 
 ## How to run tasks
 

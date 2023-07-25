@@ -1,48 +1,48 @@
 Running on dataset: snomedct_us , model: bloom_1b7, template: template-1!
-scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-1-2023-04-14 21:11:26.json
-Results: {'MAP@1': 0.17650946920711555, 'MAP@5': 0.04038494697818777, 'MAP@10': 0.02699740695580854}
-storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-1-2023-04-14 21:11:26.json
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-1-2023-07-21 18:41:39.json
+Results: {'MAP@1': 0.32433830502629535, 'MAP@5': 0.07478111139849221, 'MAP@10': 0.05121353510223241}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-1-2023-07-21 18:41:39.json
 Inference for  bloom_1b7 on template: template-1  is done
 -----------------------------------------------------------
 Running on dataset: snomedct_us , model: bloom_1b7, template: template-2!
-scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-2-2023-04-14 21:34:54.json
-Results: {'MAP@1': 0.1492226341351266, 'MAP@5': 0.03391719592685193, 'MAP@10': 0.022836294042863577}
-storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-2-2023-04-14 21:34:54.json
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-2-2023-07-21 18:58:44.json
+Results: {'MAP@1': 0.370233066068914, 'MAP@5': 0.08477047829793756, 'MAP@10': 0.05853707740723863}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-2-2023-07-21 18:58:44.json
 Inference for  bloom_1b7 on template: template-2  is done
 -----------------------------------------------------------
 Running on dataset: snomedct_us , model: bloom_1b7, template: template-3!
-scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-3-2023-04-14 21:58:21.json
-Results: {'MAP@1': 0.10954967382245596, 'MAP@5': 0.023183033020087937, 'MAP@10': 0.01727517332957457}
-storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-3-2023-04-14 21:58:21.json
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-3-2023-07-21 19:15:54.json
+Results: {'MAP@1': 0.1378279736758916, 'MAP@5': 0.029196242971137355, 'MAP@10': 0.02215055941239233}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-3-2023-07-21 19:15:54.json
 Inference for  bloom_1b7 on template: template-3  is done
 -----------------------------------------------------------
 Running on dataset: snomedct_us , model: bloom_1b7, template: template-4!
-scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-4-2023-04-14 22:22:24.json
-Results: {'MAP@1': 0.09737908440382792, 'MAP@5': 0.022678679196482456, 'MAP@10': 0.01690865409397179}
-storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-4-2023-04-14 22:22:24.json
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-4-2023-07-21 19:33:07.json
+Results: {'MAP@1': 0.19978733798890708, 'MAP@5': 0.043720483566590994, 'MAP@10': 0.031237390014008687}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-4-2023-07-21 19:33:07.json
 Inference for  bloom_1b7 on template: template-4  is done
 -----------------------------------------------------------
 Running on dataset: snomedct_us , model: bloom_1b7, template: template-5!
-scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-5-2023-04-14 22:46:21.json
-Results: {'MAP@1': 0.2887317872230365, 'MAP@5': 0.06256501997298618, 'MAP@10': 0.04120689682699338}
-storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-5-2023-04-14 22:46:21.json
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-5-2023-07-21 19:50:30.json
+Results: {'MAP@1': 0.294867373624163, 'MAP@5': 0.06495746759778141, 'MAP@10': 0.043346369259163464}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-5-2023-07-21 19:50:30.json
 Inference for  bloom_1b7 on template: template-5  is done
 -----------------------------------------------------------
 Running on dataset: snomedct_us , model: bloom_1b7, template: template-6!
-scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-6-2023-04-14 23:06:48.json
-Results: {'MAP@1': 0.27219300514412165, 'MAP@5': 0.05862526463009264, 'MAP@10': 0.03841088973643504}
-storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-6-2023-04-14 23:06:48.json
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-6-2023-07-21 20:05:38.json
+Results: {'MAP@1': 0.3040060924792367, 'MAP@5': 0.06635749250414306, 'MAP@10': 0.0444756800326246}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-6-2023-07-21 20:05:38.json
 Inference for  bloom_1b7 on template: template-6  is done
 -----------------------------------------------------------
 Running on dataset: snomedct_us , model: bloom_1b7, template: template-7!
-scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-7-2023-04-14 23:26:45.json
-Results: {'MAP@1': 0.3232893640256344, 'MAP@5': 0.07001202210918567, 'MAP@10': 0.04569422719802063}
-storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-7-2023-04-14 23:26:45.json
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-7-2023-07-21 20:21:13.json
+Results: {'MAP@1': 0.3124982038681495, 'MAP@5': 0.07238028182506155, 'MAP@10': 0.048604496784296757}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-7-2023-07-21 20:21:13.json
 Inference for  bloom_1b7 on template: template-7  is done
 -----------------------------------------------------------
 Running on dataset: snomedct_us , model: bloom_1b7, template: template-8!
-scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-8-2023-04-14 23:47:15.json
-Results: {'MAP@1': 0.3082162255366842, 'MAP@5': 0.06594677702100757, 'MAP@10': 0.04246646992465598}
-storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-8-2023-04-14 23:47:15.json
+scoring model outputs in: results/snomedct_us/bloom_1b7/output-bloom_1b7-template-8-2023-07-21 20:36:32.json
+Results: {'MAP@1': 0.33864988361065607, 'MAP@5': 0.07667399488461647, 'MAP@10': 0.050948956327652756}
+storing results in: results/snomedct_us/bloom_1b7/report-bloom_1b7-template-8-2023-07-21 20:36:32.json
 Inference for  bloom_1b7 on template: template-8  is done
 -----------------------------------------------------------

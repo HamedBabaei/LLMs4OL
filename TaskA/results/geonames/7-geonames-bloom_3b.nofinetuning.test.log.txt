@@ -1,8 +1,48 @@
-template-1: {'MAP@1': 0.03800657641884101, 'MAP@5': 0.00997418779329357, 'MAP@10': 0.008849246454832139}
-template-2: {'MAP@1': 0.04178303511693784, 'MAP@5': 0.013529676920375983, 'MAP@10': 0.012629558682212742}
-template-3: {'MAP@1': 0.02471139200865468, 'MAP@5': 0.00504502901500809, 'MAP@10': 0.004190455516308532}
-template-4: {'MAP@1': 0.03408065365617571, 'MAP@5': 0.0090047354011568, 'MAP@10': 0.008091139978123791}
-template-5: {'MAP@1': 0.1679349760145763, 'MAP@5': 0.043003658310913725, 'MAP@10': 0.035677021939245976}
-template-6: {'MAP@1': 0.06958619806123756, 'MAP@5': 0.019610159760477894, 'MAP@10': 0.016993891856705204}
-template-7: {'MAP@1': 0.16684460007686724, 'MAP@5': 0.04301020626040912, 'MAP@10': 0.035720171073653585}
-template-8: {'MAP@1': 0.10783334045066974, 'MAP@5': 0.026783628228305177, 'MAP@10': 0.02181047131905483}
+Running on dataset: geonames , model: bloom_3b, template: template-1!
+scoring model outputs in: results/geonames/bloom_3b/output-bloom_3b-template-1-2023-07-21 17:09:09.json
+Results: {'MAP@1': 0.03765925040212951, 'MAP@5': 0.008372739652579083, 'MAP@10': 0.0069065683525264135}
+storing results in: results/geonames/bloom_3b/report-bloom_3b-template-1-2023-07-21 17:09:09.json
+Inference for  bloom_3b on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: template-2!
+scoring model outputs in: results/geonames/bloom_3b/output-bloom_3b-template-2-2023-07-21 19:53:50.json
+Results: {'MAP@1': 0.04702281818052412, 'MAP@5': 0.011980256508804145, 'MAP@10': 0.01017812490044202}
+storing results in: results/geonames/bloom_3b/report-bloom_3b-template-2-2023-07-21 19:53:50.json
+Inference for  bloom_3b on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: template-3!
+scoring model outputs in: results/geonames/bloom_3b/output-bloom_3b-template-3-2023-07-22 02:23:48.json
+Results: {'MAP@1': 0.02646652716687307, 'MAP@5': 0.005992370215370599, 'MAP@10': 0.005122843531798567}
+storing results in: results/geonames/bloom_3b/report-bloom_3b-template-3-2023-07-22 02:23:48.json
+Inference for  bloom_3b on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: template-4!
+scoring model outputs in: results/geonames/bloom_3b/output-bloom_3b-template-4-2023-07-22 02:24:01.json
+Results: {'MAP@1': 0.034389546056283894, 'MAP@5': 0.007575692872699318, 'MAP@10': 0.006130828392433209}
+storing results in: results/geonames/bloom_3b/report-bloom_3b-template-4-2023-07-22 02:24:01.json
+Inference for  bloom_3b on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: template-5!
+scoring model outputs in: results/geonames/bloom_3b/output-bloom_3b-template-5-2023-07-22 02:24:12.json
+Results: {'MAP@1': 0.2884428691406528, 'MAP@5': 0.07354908352431523, 'MAP@10': 0.059210800930812005}
+storing results in: results/geonames/bloom_3b/report-bloom_3b-template-5-2023-07-22 02:24:12.json
+Inference for  bloom_3b on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: template-6!
+scoring model outputs in: results/geonames/bloom_3b/output-bloom_3b-template-6-2023-07-22 02:34:01.json
+Results: {'MAP@1': 0.1808429773241662, 'MAP@5': 0.04367731420193306, 'MAP@10': 0.03494058662216412}
+storing results in: results/geonames/bloom_3b/report-bloom_3b-template-6-2023-07-22 02:34:01.json
+Inference for  bloom_3b on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: template-7!
+scoring model outputs in: results/geonames/bloom_3b/output-bloom_3b-template-7-2023-07-22 10:23:35.json
+Results: {'MAP@1': 0.2564675235939702, 'MAP@5': 0.06783049351610655, 'MAP@10': 0.05583358639418341}
+storing results in: results/geonames/bloom_3b/report-bloom_3b-template-7-2023-07-22 10:23:35.json
+Inference for  bloom_3b on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: bloom_3b, template: template-8!
+scoring model outputs in: results/geonames/bloom_3b/output-bloom_3b-template-8-2023-07-22 02:34:37.json
+Results: {'MAP@1': 0.20718850977210287, 'MAP@5': 0.04928520590454228, 'MAP@10': 0.03890647209902452}
+storing results in: results/geonames/bloom_3b/report-bloom_3b-template-8-2023-07-22 02:34:37.json
+Inference for  bloom_3b on template: template-8  is done
+-----------------------------------------------------------

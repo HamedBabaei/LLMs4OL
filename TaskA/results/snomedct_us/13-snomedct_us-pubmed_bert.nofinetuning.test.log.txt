@@ -1,0 +1,104 @@
+Running on dataset: snomedct_us , model: pubmed_bert, template: template-1!
+args: Namespace(kb_name='snomedct_us', model_name='pubmed_bert', template='template-1', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-07-13 19:23:18
+UMLSDataset:Test-SET-snomedct_us --- template-1: [SENTENCE]. [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/snomedct_us/pubmed_bert/output-pubmed_bert-template-1-2023-07-13 19:23:18.json
+Results: {'MAP@1': 0.28488088053567834, 'MAP@5': 0.05762110718356946, 'MAP@10': 0.034976457558145636}
+scoring results in:results/snomedct_us/pubmed_bert/report-pubmed_bert-template-1-2023-07-13 19:23:18.json
+Ending the Inference time is: 2023-07-13 19:40:33
+Total duration is===> 0:17:14.931953
+Inference for  pubmed_bert on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: pubmed_bert, template: template-2!
+args: Namespace(kb_name='snomedct_us', model_name='pubmed_bert', template='template-2', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-07-13 19:40:55
+UMLSDataset:Test-SET-snomedct_us --- template-2: [SENTENCE]. [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/snomedct_us/pubmed_bert/output-pubmed_bert-template-2-2023-07-13 19:40:55.json
+Results: {'MAP@1': 0.22477512429232405, 'MAP@5': 0.04570437106647125, 'MAP@10': 0.027887735259060374}
+scoring results in:results/snomedct_us/pubmed_bert/report-pubmed_bert-template-2-2023-07-13 19:40:55.json
+Ending the Inference time is: 2023-07-13 20:05:46
+Total duration is===> 0:24:50.805836
+Inference for  pubmed_bert on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: pubmed_bert, template: template-3!
+args: Namespace(kb_name='snomedct_us', model_name='pubmed_bert', template='template-3', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-07-13 20:06:09
+UMLSDataset:Test-SET-snomedct_us --- template-3: [SENTENCE]. '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/snomedct_us/pubmed_bert/output-pubmed_bert-template-3-2023-07-13 20:06:09.json
+Results: {'MAP@1': 0.13910681955340978, 'MAP@5': 0.02789680144840072, 'MAP@10': 0.016620297954895766}
+scoring results in:results/snomedct_us/pubmed_bert/report-pubmed_bert-template-3-2023-07-13 20:06:09.json
+Ending the Inference time is: 2023-07-13 20:32:06
+Total duration is===> 0:25:56.899720
+Inference for  pubmed_bert on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: pubmed_bert, template: template-4!
+args: Namespace(kb_name='snomedct_us', model_name='pubmed_bert', template='template-4', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-07-13 20:32:29
+UMLSDataset:Test-SET-snomedct_us --- template-4: [SENTENCE]. '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/snomedct_us/pubmed_bert/output-pubmed_bert-template-4-2023-07-13 20:32:29.json
+Results: {'MAP@1': 0.057030778515389256, 'MAP@5': 0.011478000977095728, 'MAP@10': 0.00721734244559488}
+scoring results in:results/snomedct_us/pubmed_bert/report-pubmed_bert-template-4-2023-07-13 20:32:29.json
+Ending the Inference time is: 2023-07-13 21:01:11
+Total duration is===> 0:28:42.214681
+Inference for  pubmed_bert on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: pubmed_bert, template: template-5!
+args: Namespace(kb_name='snomedct_us', model_name='pubmed_bert', template='template-5', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-07-13 21:01:33
+UMLSDataset:Test-SET-snomedct_us --- template-5: [A] in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/snomedct_us/pubmed_bert/output-pubmed_bert-template-5-2023-07-13 21:01:33.json
+Results: {'MAP@1': 0.07964767077621634, 'MAP@5': 0.016324922646588306, 'MAP@10': 0.010160934554201214}
+scoring results in:results/snomedct_us/pubmed_bert/report-pubmed_bert-template-5-2023-07-13 21:01:33.json
+Ending the Inference time is: 2023-07-13 21:26:10
+Total duration is===> 0:24:37.148685
+Inference for  pubmed_bert on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: pubmed_bert, template: template-6!
+args: Namespace(kb_name='snomedct_us', model_name='pubmed_bert', template='template-6', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-07-13 21:26:24
+UMLSDataset:Test-SET-snomedct_us --- template-6: [A] in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/snomedct_us/pubmed_bert/output-pubmed_bert-template-6-2023-07-13 21:26:24.json
+Results: {'MAP@1': 0.03586516078972325, 'MAP@5': 0.007505915260894137, 'MAP@10': 0.005248491135205506}
+scoring results in:results/snomedct_us/pubmed_bert/report-pubmed_bert-template-6-2023-07-13 21:26:24.json
+Ending the Inference time is: 2023-07-13 21:47:38
+Total duration is===> 0:21:13.885943
+Inference for  pubmed_bert on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: pubmed_bert, template: template-7!
+args: Namespace(kb_name='snomedct_us', model_name='pubmed_bert', template='template-7', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-07-13 21:47:57
+UMLSDataset:Test-SET-snomedct_us --- template-7: '[A]' in medicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/snomedct_us/pubmed_bert/output-pubmed_bert-template-7-2023-07-13 21:47:57.json
+Results: {'MAP@1': 0.022990487685720033, 'MAP@5': 0.004638809859087469, 'MAP@10': 0.0029060101878879358}
+scoring results in:results/snomedct_us/pubmed_bert/report-pubmed_bert-template-7-2023-07-13 21:47:57.json
+Ending the Inference time is: 2023-07-13 22:04:22
+Total duration is===> 0:16:24.747518
+Inference for  pubmed_bert on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: pubmed_bert, template: template-8!
+args: Namespace(kb_name='snomedct_us', model_name='pubmed_bert', template='template-8', device='cuda')
+working with entity path of: datasets/TaskA/UMLS/snomedct_us_entities.json
+Starting the Inference time is: 2023-07-13 22:04:38
+UMLSDataset:Test-SET-snomedct_us --- template-8: '[A]' in biomedicine is a [MASK].
+Loaded BertForMaskedLM from microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+scoring model outputs in:results/snomedct_us/pubmed_bert/output-pubmed_bert-template-8-2023-07-13 22:04:38.json
+Results: {'MAP@1': 0.015130614708164496, 'MAP@5': 0.0030850360663275574, 'MAP@10': 0.0022153034082941832}
+scoring results in:results/snomedct_us/pubmed_bert/report-pubmed_bert-template-8-2023-07-13 22:04:38.json
+Ending the Inference time is: 2023-07-13 22:21:30
+Total duration is===> 0:16:51.565255
+Inference for  pubmed_bert on template: template-8  is done
+-----------------------------------------------------------

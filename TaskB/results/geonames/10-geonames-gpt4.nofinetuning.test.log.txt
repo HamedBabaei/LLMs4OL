@@ -1,0 +1,48 @@
+Running on dataset: geonames , model: gpt4, template: -0-!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-0-2023-06-14 11:08:18.json
+F1-score: 0.38561254163401515
+storing results in: results/geonames/gpt4/report-gpt4-0-2023-06-14 11:08:18.json
+Inference for  gpt4 on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt4, template: -1-!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-1-2023-06-14 11:20:47.json
+F1-score: 0.52465677761578
+storing results in: results/geonames/gpt4/report-gpt4-1-2023-06-14 11:20:47.json
+Inference for  gpt4 on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt4, template: -2-!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-2-2023-06-14 11:31:35.json
+F1-score: 0.3400452215222509
+storing results in: results/geonames/gpt4/report-gpt4-2-2023-06-14 11:31:35.json
+Inference for  gpt4 on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt4, template: -3-!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-3-2023-06-14 11:43:30.json
+F1-score: 0.3889731961002634
+storing results in: results/geonames/gpt4/report-gpt4-3-2023-06-14 11:43:30.json
+Inference for  gpt4 on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt4, template: -4-!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-4-2023-06-14 11:56:05.json
+F1-score: 0.4406926406926407
+storing results in: results/geonames/gpt4/report-gpt4-4-2023-06-14 11:56:05.json
+Inference for  gpt4 on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt4, template: -5-!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-5-2023-06-14 12:07:46.json
+F1-score: 0.5543331967932589
+storing results in: results/geonames/gpt4/report-gpt4-5-2023-06-14 12:07:46.json
+Inference for  gpt4 on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt4, template: -6-!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-6-2023-06-14 12:18:50.json
+F1-score: 0.33782055248370163
+storing results in: results/geonames/gpt4/report-gpt4-6-2023-06-14 12:18:50.json
+Inference for  gpt4 on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: gpt4, template: -7-!
+scoring model outputs in: results/geonames/gpt4/output-gpt4-7-2023-06-14 12:30:05.json
+F1-score: 0.36234168308471715
+storing results in: results/geonames/gpt4/report-gpt4-7-2023-06-14 12:30:05.json
+Inference for  gpt4 on template: -7-  is done
+-----------------------------------------------------------

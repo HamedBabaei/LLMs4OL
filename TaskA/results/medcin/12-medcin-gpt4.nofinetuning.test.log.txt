@@ -1,0 +1,16 @@
+Running on dataset: medcin , model: gpt4, template: template-3!
+scoring model outputs in: results/medcin/gpt4/output-gpt4-template-3-batch 3-2023-07-19 14:07:42.json
+scoring model outputs in: results/medcin/gpt4/output-gpt4-template-3-batch 1-2023-07-19 14:07:42.json
+scoring model outputs in: results/medcin/gpt4/output-gpt4-template-3-batch 2-2023-07-19 14:07:42.json
+Results: {'MAP@1': 0.21255306246209824, 'MAP@5': 0.04850775361691068, 'MAP@10': 0.02793382530560907}
+storing results in: results/medcin/gpt4/report-gpt4-template-3-2023-07-19 14:07:42.json
+Inference for  gpt4 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: gpt4, template: template-4!
+scoring model outputs in: results/medcin/gpt4/output-gpt4-template-4-batch 2-2023-07-22 15:16:00.json
+scoring model outputs in: results/medcin/gpt4/output-gpt4-template-4-batch 1-2023-07-22 15:16:00.json
+scoring model outputs in: results/medcin/gpt4/output-gpt4-template-4-batch 3-2023-07-22 15:16:00.json
+Results: {'MAP@1': 0.23613156602847324, 'MAP@5': 0.054614388710810785, 'MAP@10': 0.032123473673547315}
+storing results in: results/medcin/gpt4/report-gpt4-template-4-2023-07-22 15:16:00.json
+Inference for  gpt4 on template: template-4  is done
+-----------------------------------------------------------

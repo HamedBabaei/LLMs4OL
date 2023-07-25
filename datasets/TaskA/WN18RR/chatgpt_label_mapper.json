@@ -1,0 +1,54 @@
+{
+    "adjective": [
+        "adjective",
+        "descriptive",
+        "qualifying",
+        "attributive",
+        "modifying",
+        "characterizing",
+        "determinative",
+        "classifying",
+        "identifying",
+        "specifying",
+        "limiting"
+    ],
+    "noun": [
+        "noun",
+        "name",
+        "word",
+        "term",
+        "designation",
+        "label",
+        "title",
+        "appellation",
+        "denomination",
+        "descriptor",
+        "identifier"
+    ],
+    "verb": [
+        "verb",
+        "action word",
+        "doing word",
+        "predicate",
+        "transitive verb",
+        "intransitive verb",
+        "regular verb",
+        "irregular verb",
+        "auxiliary verb",
+        "modal verb",
+        "phrasal verb"
+    ],
+    "adverb": [
+        "adverb",
+        "modifier",
+        "qualifier",
+        "intensifier",
+        "particle",
+        "descriptor",
+        "word",
+        "phrase",
+        "expression",
+        "linguistic unit",
+        "grammatical category"
+    ]
+}

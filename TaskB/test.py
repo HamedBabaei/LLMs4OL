@@ -10,7 +10,7 @@ import openai_key_setter
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--kb_name", required=True)     # geonames
-    parser.add_argument("--model", required=True)  # BERT
+    parser.add_argument("--model", required=True)       # BERT
     parser.add_argument("--template", required=True)    # 3
     parser.add_argument("--device", required=True)      # cpu
     args = parser.parse_args()
@@ -34,7 +34,9 @@ if __name__ == "__main__":
                                          label_mapper=label_mapper,
                                          device=args.device)
 
-    if config.model_name == "gpt3" or config.model_name == "gpt3-ada":
+    if "gpt" in config.model_name:
+        # config.model_name == "gpt3" or config.model_name == "gpt3-ada" or config.model_name=='gpt4':
+        print("Runing model: ", config.model_name)
         results = model.test()
         print(f"output predictions in :{config.model_output}")
         DataWriter.write_json(results, config.model_output)

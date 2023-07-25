@@ -1,0 +1,48 @@
+Running on dataset: schema , model: chatgpt, template: -0-!
+scoring model outputs in: results/schema/chatgpt/output-chatgpt-0-2023-06-19 18:08:22.json
+F1-score: 0.5684314695695201
+storing results in: results/schema/chatgpt/report-chatgpt-0-2023-06-19 18:08:22.json
+Inference for  chatgpt on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: chatgpt, template: -1-!
+scoring model outputs in: results/schema/chatgpt/output-chatgpt-1-2023-06-19 19:12:47.json
+F1-score: 0.743852719128111
+storing results in: results/schema/chatgpt/report-chatgpt-1-2023-06-19 19:12:47.json
+Inference for  chatgpt on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: chatgpt, template: -2-!
+scoring model outputs in: results/schema/chatgpt/output-chatgpt-2-2023-06-19 20:21:07.json
+F1-score: 0.5852572668711691
+storing results in: results/schema/chatgpt/report-chatgpt-2-2023-06-19 20:21:07.json
+Inference for  chatgpt on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: chatgpt, template: -3-!
+scoring model outputs in: results/schema/chatgpt/output-chatgpt-3-2023-06-19 21:20:00.json
+F1-score: 0.7016490346984383
+storing results in: results/schema/chatgpt/report-chatgpt-3-2023-06-19 21:20:00.json
+Inference for  chatgpt on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: chatgpt, template: -4-!
+scoring model outputs in: results/schema/chatgpt/output-chatgpt-4-2023-06-19 22:25:20.json
+F1-score: 0.5335965415934163
+storing results in: results/schema/chatgpt/report-chatgpt-4-2023-06-19 22:25:20.json
+Inference for  chatgpt on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: chatgpt, template: -5-!
+scoring model outputs in: results/schema/chatgpt/output-chatgpt-5-2023-06-19 23:24:44.json
+F1-score: 0.7235468562147562
+storing results in: results/schema/chatgpt/report-chatgpt-5-2023-06-19 23:24:44.json
+Inference for  chatgpt on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: chatgpt, template: -6-!
+scoring model outputs in: results/schema/chatgpt/output-chatgpt-6-2023-06-20 00:30:13.json
+F1-score: 0.5416599210422781
+storing results in: results/schema/chatgpt/report-chatgpt-6-2023-06-20 00:30:13.json
+Inference for  chatgpt on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: schema , model: chatgpt, template: -7-!
+scoring model outputs in: results/schema/chatgpt/output-chatgpt-7-2023-06-20 01:33:55.json
+F1-score: 0.7103092705702551
+storing results in: results/schema/chatgpt/report-chatgpt-7-2023-06-20 01:33:55.json
+Inference for  chatgpt on template: -7-  is done
+-----------------------------------------------------------

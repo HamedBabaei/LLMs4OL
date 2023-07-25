@@ -1,0 +1,64 @@
+Running on dataset: snomedct_us , model: chatgpt, template: template-1!
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-1-batch 3-2023-06-28 08:47:25.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-1-batch 1-2023-06-28 08:47:25.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-1-batch 2-2023-06-28 08:47:25.json
+Results: {'MAP@1': 0.2181222519182688, 'MAP@5': 0.0505309365749921, 'MAP@10': 0.036099228130868785}
+storing results in: results/snomedct_us/chatgpt/report-chatgpt-template-1-2023-06-28 08:47:25.json
+Inference for  chatgpt on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: chatgpt, template: template-2!
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-2-batch 3-2023-06-29 00:11:49.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-2-batch 2-2023-06-29 00:11:49.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-2-batch 1-2023-06-29 00:11:49.json
+Results: {'MAP@1': 0.17991493519556284, 'MAP@5': 0.041930338822312264, 'MAP@10': 0.02920492712608412}
+storing results in: results/snomedct_us/chatgpt/report-chatgpt-template-2-2023-06-29 00:11:49.json
+Inference for  chatgpt on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: chatgpt, template: template-3!
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-3-batch 1-2023-06-29 14:02:17.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-3-batch 3-2023-06-29 14:02:17.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-3-batch 2-2023-06-29 14:02:17.json
+Results: {'MAP@1': 0.2502658275138661, 'MAP@5': 0.05955613989711757, 'MAP@10': 0.04313607358050845}
+storing results in: results/snomedct_us/chatgpt/report-chatgpt-template-3-2023-06-29 14:02:17.json
+Inference for  chatgpt on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: chatgpt, template: template-4!
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-4-batch 1-2023-06-30 02:46:07.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-4-batch 2-2023-06-30 02:46:07.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-4-batch 3-2023-06-30 02:46:07.json
+Results: {'MAP@1': 0.245064229674972, 'MAP@5': 0.05874165397400159, 'MAP@10': 0.04282676256984386}
+storing results in: results/snomedct_us/chatgpt/report-chatgpt-template-4-2023-06-30 02:46:07.json
+Inference for  chatgpt on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: chatgpt, template: template-5!
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-5-batch 1-2023-07-02 07:17:02.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-5-batch 3-2023-07-02 07:17:02.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-5-batch 2-2023-07-02 07:17:02.json
+Results: {'MAP@1': 0.18245825789579562, 'MAP@5': 0.04141305284938357, 'MAP@10': 0.029378211084608186}
+storing results in: results/snomedct_us/chatgpt/report-chatgpt-template-5-2023-07-02 07:17:02.json
+Inference for  chatgpt on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: chatgpt, template: template-6!
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-6-batch 1-2023-07-04 06:34:19.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-6-batch 2-2023-07-04 06:34:19.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-6-batch 3-2023-07-04 06:34:19.json
+Results: {'MAP@1': 0.15711124522228928, 'MAP@5': 0.03536080696611777, 'MAP@10': 0.024252746428149476}
+storing results in: results/snomedct_us/chatgpt/report-chatgpt-template-6-2023-07-04 06:34:19.json
+Inference for  chatgpt on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: chatgpt, template: template-7!
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-7-batch 3-2023-07-05 04:17:48.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-7-batch 1-2023-07-05 04:17:48.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-7-batch 2-2023-07-05 04:17:48.json
+Results: {'MAP@1': 0.22718912549932466, 'MAP@5': 0.05222432968359341, 'MAP@10': 0.036943923281107516}
+storing results in: results/snomedct_us/chatgpt/report-chatgpt-template-7-2023-07-05 04:17:48.json
+Inference for  chatgpt on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: chatgpt, template: template-8!
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-8-batch 1-2023-07-05 23:07:49.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-8-batch 3-2023-07-05 23:07:49.json
+scoring model outputs in: results/snomedct_us/chatgpt/output-chatgpt-template-8-batch 2-2023-07-05 23:07:49.json
+Results: {'MAP@1': 0.1987383969882461, 'MAP@5': 0.04573239072333821, 'MAP@10': 0.03213084871848559}
+storing results in: results/snomedct_us/chatgpt/report-chatgpt-template-8-2023-07-05 23:07:49.json
+Inference for  chatgpt on template: template-8  is done
+-----------------------------------------------------------

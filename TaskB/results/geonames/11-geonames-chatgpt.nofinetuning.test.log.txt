@@ -1,0 +1,48 @@
+Running on dataset: geonames , model: chatgpt, template: -0-!
+scoring model outputs in: results/geonames/chatgpt/output-chatgpt-0-2023-06-19 15:18:33.json
+F1-score: 0.594051909945482
+storing results in: results/geonames/chatgpt/report-chatgpt-0-2023-06-19 15:18:33.json
+Inference for  chatgpt on template: -0-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: chatgpt, template: -1-!
+scoring model outputs in: results/geonames/chatgpt/output-chatgpt-1-2023-06-19 15:38:39.json
+F1-score: 0.4779210267676476
+storing results in: results/geonames/chatgpt/report-chatgpt-1-2023-06-19 15:38:39.json
+Inference for  chatgpt on template: -1-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: chatgpt, template: -2-!
+scoring model outputs in: results/geonames/chatgpt/output-chatgpt-2-2023-06-19 16:00:31.json
+F1-score: 0.6778228290740855
+storing results in: results/geonames/chatgpt/report-chatgpt-2-2023-06-19 16:00:31.json
+Inference for  chatgpt on template: -2-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: chatgpt, template: -3-!
+scoring model outputs in: results/geonames/chatgpt/output-chatgpt-3-2023-06-19 16:44:08.json
+F1-score: 0.41951219512195126
+storing results in: results/geonames/chatgpt/report-chatgpt-3-2023-06-19 16:44:08.json
+Inference for  chatgpt on template: -3-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: chatgpt, template: -4-!
+scoring model outputs in: results/geonames/chatgpt/output-chatgpt-4-2023-06-19 16:59:29.json
+F1-score: 0.480267684580965
+storing results in: results/geonames/chatgpt/report-chatgpt-4-2023-06-19 16:59:29.json
+Inference for  chatgpt on template: -4-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: chatgpt, template: -5-!
+scoring model outputs in: results/geonames/chatgpt/output-chatgpt-5-2023-06-19 17:18:07.json
+F1-score: 0.5172812929429367
+storing results in: results/geonames/chatgpt/report-chatgpt-5-2023-06-19 17:18:07.json
+Inference for  chatgpt on template: -5-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: chatgpt, template: -6-!
+scoring model outputs in: results/geonames/chatgpt/output-chatgpt-6-2023-06-19 17:36:46.json
+F1-score: 0.4525734143040483
+storing results in: results/geonames/chatgpt/report-chatgpt-6-2023-06-19 17:36:46.json
+Inference for  chatgpt on template: -6-  is done
+-----------------------------------------------------------
+Running on dataset: geonames , model: chatgpt, template: -7-!
+scoring model outputs in: results/geonames/chatgpt/output-chatgpt-7-2023-06-19 17:51:45.json
+F1-score: 0.43860143831357973
+storing results in: results/geonames/chatgpt/report-chatgpt-7-2023-06-19 17:51:45.json
+Inference for  chatgpt on template: -7-  is done
+-----------------------------------------------------------

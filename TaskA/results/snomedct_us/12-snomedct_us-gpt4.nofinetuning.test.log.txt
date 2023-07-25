@@ -1,0 +1,16 @@
+Running on dataset: snomedct_us , model: gpt4, template: template-3!
+scoring model outputs in: results/snomedct_us/gpt4/output-gpt4-template-3-batch 1-2023-07-18 12:30:53.json
+scoring model outputs in: results/snomedct_us/gpt4/output-gpt4-template-3-batch 3-2023-07-18 12:30:53.json
+scoring model outputs in: results/snomedct_us/gpt4/output-gpt4-template-3-batch 2-2023-07-18 12:30:53.json
+Results: {'MAP@1': 0.22368307612725236, 'MAP@5': 0.05173027368259715, 'MAP@10': 0.03522445489964241}
+storing results in: results/snomedct_us/gpt4/report-gpt4-template-3-2023-07-18 12:30:53.json
+Inference for  gpt4 on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: snomedct_us , model: gpt4, template: template-4!
+scoring model outputs in: results/snomedct_us/gpt4/output-gpt4-template-4-batch 1-2023-07-22 15:18:47.json
+scoring model outputs in: results/snomedct_us/gpt4/output-gpt4-template-4-batch 3-2023-07-22 15:18:47.json
+scoring model outputs in: results/snomedct_us/gpt4/output-gpt4-template-4-batch 2-2023-07-22 15:18:47.json
+Results: {'MAP@1': 0.2783573296548553, 'MAP@5': 0.06767441637689073, 'MAP@10': 0.047351315635219424}
+storing results in: results/snomedct_us/gpt4/report-gpt4-template-4-2023-07-22 15:18:47.json
+Inference for  gpt4 on template: template-4  is done
+-----------------------------------------------------------

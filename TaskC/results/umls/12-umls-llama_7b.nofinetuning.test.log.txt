@@ -1,0 +1,10 @@
+Running on dataset: umls , model: llama_7b !
+args: Namespace(kb_name='umls', model='llama_7b', device='cuda')
+Starting the Inference time is: 2023-07-13 19:42:33
+Working on template: 0: {"placeholder": "text_a"}. This statement is a {"mask"} .
+F1-Score: 0.20343461030383092
+scoring results in:results/umls/llama_7b/report-llama_7b-2023-07-13 19:42:33.json
+Ending the Inference time is: 2023-07-13 19:54:15
+Total duration is===> 0:11:42.823633
+Inference for  llama_7b  is done
+-----------------------------------------------------------

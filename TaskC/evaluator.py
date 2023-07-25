@@ -31,12 +31,18 @@ if __name__=="__main__":
             label = output['result']['data']['label']
             if "ada" in config.model:
                 predict = output['result']['response'].lower()
+            elif config.model == "gpt4" or config.model == 'chatgpt':
+                predict = output['result']['response']['choices'][0]['message']['content'].lower().rstrip('\n').strip()
             else:
                 predict = output['result']['response']['choices'][0]['text'].lower().rstrip('\n').strip()
-            if predict in label_mapper['correct']:
-                predict_label = "correct"
-            else:
-                predict_label = "incorrect"
+            predict_label = "incorrect"
+            for label_ in label_mapper['correct']:
+                if label_ in predict:
+                    predict_label = 'correct'
+            # if predict in label_mapper['correct']:
+            #     predict_label = "correct"
+            # else:
+            #     predict_label = "incorrect"
             predictions.append(predict_label)
             labels.append(label)
     else:

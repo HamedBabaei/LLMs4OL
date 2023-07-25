@@ -32,7 +32,9 @@ if __name__ == "__main__":
                                          device=args.device)
 
 
-    if config.model_name == "gpt3" or config.model_name == "gpt3-ada":
+    if "gpt" in config.model_name:
+        # config.model_name == "gpt3" or config.model_name == "gpt3-ada":
+        print("Runing model: ", config.model_name)
         results = model.test()
         print(f"output predictions in :{config.model_output}")
         DataWriter.write_json(results, config.model_output)

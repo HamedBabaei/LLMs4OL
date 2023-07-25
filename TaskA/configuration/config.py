@@ -27,6 +27,12 @@ class BaseConfig:
             "medcin": ["UMLS", self.add_umls]
             }
 
+        self.answer_set_generator_domains_getter = {
+            "wn18rr": "lexicosemantics",
+            "geonames": "geography",
+            "umls": "medicine"
+        }
+
     def mkdir(self, path):
         if not os.path.exists(path):
             os.mkdir(path)
@@ -68,7 +74,7 @@ class BaseConfig:
         self.parser.add_argument("--umls_processed_dir", type=str, default=f"{self.root_dir}/{dataset}/processed{self.version}")
         self.parser.add_argument("--sources_to_consider", type=list, default=["NCI", "SNOMEDCT_US", "MEDCIN"])
 
-    def get_args(self, kb_name:str, model:str = None, template:str = None):
+    def get_args(self, kb_name:str, model:str = None, template:str = None, device: str = 'cpu'):
         """
             Return parser
         :return: parser
@@ -79,7 +85,7 @@ class BaseConfig:
         arguments(dataset=dataset)
         self.parser.add_argument("--kb_name")
         self.parser.add_argument("--model_name")
-        self.parser.add_argument("--device")
+        self.parser.add_argument("--device", type=str, default=device)
         # add general specific arguments
         self.parser.add_argument("--dataset", type=str, default=kb_name)
         time = str(datetime.datetime.now()).split('.')[0]
@@ -100,7 +106,10 @@ class BaseConfig:
 
         self.parser.add_argument("--templates_json", type=str, default=f"{self.root_dir}/{dataset}/templates.json")
         self.parser.add_argument("--label_mapper", type=str, default=f"{self.root_dir}/{dataset}/label_mapper.json")
-        
+        self.parser.add_argument("--chatgpt_label_mapper", type=str, default=f"{self.root_dir}/{dataset}/chatgpt_label_mapper.json")
+        self.parser.add_argument("--answer_set_generator_n", type=int, default=10)
+        self.parser.add_argument("--answer_set_generator_domains", type=str, default=self.answer_set_generator_domains_getter.get(kb_name, "NAN"))
+
         self.parser.add_argument("--heirarchy", type=str, default=f"{self.root_dir}/{dataset}/heirarchy.json")
         self.parser.add_argument("--test_size", type=float, default=0.08)  # This is for UMLS and Geoname Levels!
         self.parser.add_argument("--seed", type=int, default=555)
@@ -110,7 +119,7 @@ class BaseConfig:
         self.parser.add_argument("--top_n", type=int, default=1)
         self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
         self.parser.add_argument("--eval_metric", type=str, default="map")
-        if model == "gpt3":
+        if model == "gpt3" or model=='gpt4' or model=='chatgpt':
             self.parser.add_argument("--batch_size", type=int, default=10000)
         else:
             self.parser.add_argument("--batch_size", type=int, default=16)
@@ -119,6 +128,11 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
             self.parser.add_argument("--template_name", type=str, default="bert")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
+        if model == "pubmed_bert":
+            self.parser.add_argument("--model_path", type=str, default="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext")
+            self.parser.add_argument("--template_name", type=str, default="bert")
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
+            # https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
         if model=="bart_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bart-large")
             self.parser.add_argument("--template_name", type=str, default="bart")
@@ -136,6 +150,16 @@ class BaseConfig:
             self.parser.add_argument("--template_name", type=str, default="gpt3")
             self.parser.add_argument("--gpt3_max_tokens", type=int, default=10)
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
+        if model == "gpt4":
+            self.parser.add_argument("--model_path", type=str, default="gpt-4-0613")
+            self.parser.add_argument("--template_name", type=str, default="gpt3")
+            self.parser.add_argument("--gpt4_max_tokens", type=int, default=10)
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
+        if model == "chatgpt":
+            self.parser.add_argument("--model_path", type=str, default="gpt-3.5-turbo-0613")
+            self.parser.add_argument("--template_name", type=str, default="gpt3")
+            self.parser.add_argument("--chatgpt_max_tokens", type=int, default=10)
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == "bloom_1b7":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-1b7")
             self.parser.add_argument("--template_name", type=str, default="bloom")
@@ -143,6 +167,10 @@ class BaseConfig:
         if model == "bloom_3b":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-3b")
             self.parser.add_argument("--template_name", type=str, default="bloom")
+            self.parser.add_argument("--multi_gpu", type=bool, default=False)
+        if model == "llama_7b":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/llama-7b")
+            self.parser.add_argument("--template_name", type=str, default="gpt3")
             self.parser.add_argument("--multi_gpu", type=bool, default=False)
         if model == dataset.lower()+"_flan_t5_large":
             self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-large")
@@ -167,7 +195,7 @@ class ExternalEvaluationConfig:
         self.parser.add_argument("--kb_name", type=str, default="geonames")
         self.parser.add_argument("--model", type=str, default="gpt3")
         self.parser.add_argument("--template", type=str, default="template-1")
-        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3"])
+        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt4", "chatgpt"])
         self.parser.add_argument("--eval_ks", type=list, default=[1, 5, 10])
         self.parser.add_argument("--eval_metric", type=str, default="map")
         self.parser.add_argument("-f")

@@ -1,0 +1,6 @@
+Running on dataset: nci , model: gpt4, template: template-3!
+scoring model outputs in: results/nci/gpt4/output-gpt4-template-3-batch 1-2023-07-17 12:27:03.json
+Results: {'MAP@1': 0.1605739238927012, 'MAP@5': 0.043158660844250366, 'MAP@10': 0.030657480847749097}
+storing results in: results/nci/gpt4/report-gpt4-template-3-2023-07-17 12:27:03.json
+Inference for  gpt4 on template: template-3  is done
+-----------------------------------------------------------

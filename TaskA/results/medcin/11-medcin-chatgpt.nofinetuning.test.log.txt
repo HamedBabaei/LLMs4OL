@@ -1,0 +1,64 @@
+Running on dataset: medcin , model: chatgpt, template: template-1!
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-1-batch 2-2023-06-28 08:47:27.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-1-batch 3-2023-06-28 08:47:27.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-1-batch 1-2023-06-28 08:47:27.json
+Results: {'MAP@1': 0.22511478818331457, 'MAP@5': 0.052974626276627496, 'MAP@10': 0.03481457875246319}
+storing results in: results/medcin/chatgpt/report-chatgpt-template-1-2023-06-28 08:47:27.json
+Inference for  chatgpt on template: template-1  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: chatgpt, template: template-2!
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-2-batch 3-2023-06-29 00:14:39.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-2-batch 1-2023-06-29 00:14:39.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-2-batch 2-2023-06-29 00:14:39.json
+Results: {'MAP@1': 0.22066764850270004, 'MAP@5': 0.05274673443260465, 'MAP@10': 0.03529633502885691}
+storing results in: results/medcin/chatgpt/report-chatgpt-template-2-2023-06-29 00:14:39.json
+Inference for  chatgpt on template: template-2  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: chatgpt, template: template-3!
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-3-batch 2-2023-06-29 14:00:04.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-3-batch 3-2023-06-29 14:00:04.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-3-batch 1-2023-06-29 14:00:04.json
+Results: {'MAP@1': 0.23929365560657254, 'MAP@5': 0.05834464369940415, 'MAP@10': 0.03949545453920399}
+storing results in: results/medcin/chatgpt/report-chatgpt-template-3-2023-06-29 14:00:04.json
+Inference for  chatgpt on template: template-3  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: chatgpt, template: template-4!
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-4-batch 2-2023-06-30 02:45:13.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-4-batch 1-2023-06-30 02:45:13.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-4-batch 3-2023-06-30 02:45:13.json
+Results: {'MAP@1': 0.23588610702012763, 'MAP@5': 0.05832442942812864, 'MAP@10': 0.03960603141600283}
+storing results in: results/medcin/chatgpt/report-chatgpt-template-4-2023-06-30 02:45:13.json
+Inference for  chatgpt on template: template-4  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: chatgpt, template: template-5!
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-5-batch 3-2023-07-02 04:30:26.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-5-batch 1-2023-07-02 04:30:26.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-5-batch 2-2023-07-02 04:30:26.json
+Results: {'MAP@1': 0.20465505789944843, 'MAP@5': 0.046455283144185504, 'MAP@10': 0.030412737832819264}
+storing results in: results/medcin/chatgpt/report-chatgpt-template-5-2023-07-02 04:30:26.json
+Inference for  chatgpt on template: template-5  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: chatgpt, template: template-6!
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-6-batch 3-2023-07-04 00:54:18.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-6-batch 2-2023-07-04 00:54:18.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-6-batch 1-2023-07-04 00:54:18.json
+Results: {'MAP@1': 0.19848970516041467, 'MAP@5': 0.04556994619153503, 'MAP@10': 0.030120696617707794}
+storing results in: results/medcin/chatgpt/report-chatgpt-template-6-2023-07-04 00:54:18.json
+Inference for  chatgpt on template: template-6  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: chatgpt, template: template-7!
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-7-batch 1-2023-07-04 21:29:35.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-7-batch 3-2023-07-04 21:29:35.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-7-batch 2-2023-07-04 21:29:35.json
+Results: {'MAP@1': 0.22372866672442174, 'MAP@5': 0.05369536130603444, 'MAP@10': 0.037245127145932824}
+storing results in: results/medcin/chatgpt/report-chatgpt-template-7-2023-07-04 21:29:35.json
+Inference for  chatgpt on template: template-7  is done
+-----------------------------------------------------------
+Running on dataset: medcin , model: chatgpt, template: template-8!
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-8-batch 2-2023-07-05 17:00:14.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-8-batch 1-2023-07-05 17:00:14.json
+scoring model outputs in: results/medcin/chatgpt/output-chatgpt-template-8-batch 3-2023-07-05 17:00:14.json
+Results: {'MAP@1': 0.20231597793756678, 'MAP@5': 0.04768041237113402, 'MAP@10': 0.03202943835036878}
+storing results in: results/medcin/chatgpt/report-chatgpt-template-8-2023-07-05 17:00:14.json
+Inference for  chatgpt on template: template-8  is done
+-----------------------------------------------------------

@@ -40,13 +40,23 @@
         "template-8": "Perform a sentence completion on the following sentence:\nSentence: '[A]' geographically is a "
     },
     "bloom": {
-        "template-1": "Perform a sentence completion on the following sentence:\nSentence: [A] is a place in [COUNTRY]. [A] is a ",
-        "template-2": "Perform a sentence completion on the following sentence:\nSentence: [A] is a place in [COUNTRY]. [A] geographically is a ",
-        "template-3": "Perform a sentence completion on the following sentence:\nSentence: [A] is a place in [COUNTRY]. '[A]' is a ",
-        "template-4": "Perform a sentence completion on the following sentence:\nSentence: [A] is a place in [COUNTRY]. '[A]' geographically is a ",
-        "template-5": "Perform a sentence completion on the following sentence:\nSentence: [A] is a ",
-        "template-6": "Perform a sentence completion on the following sentence:\nSentence: [A] geographically is a ",
-        "template-7": "Perform a sentence completion on the following sentence:\nSentence: '[A]' is a ",
-        "template-8": "Perform a sentence completion on the following sentence:\nSentence: '[A]' geographically is a "
+        "template-1": "Perform a sentence completion on the following sentence:\nSentence: [A] is a place in [COUNTRY]. [A] is a",
+        "template-2": "Perform a sentence completion on the following sentence:\nSentence: [A] is a place in [COUNTRY]. [A] geographically is a",
+        "template-3": "Perform a sentence completion on the following sentence:\nSentence: [A] is a place in [COUNTRY]. '[A]' is a",
+        "template-4": "Perform a sentence completion on the following sentence:\nSentence: [A] is a place in [COUNTRY]. '[A]' geographically is a",
+        "template-5": "Perform a sentence completion on the following sentence:\nSentence: [A] is a",
+        "template-6": "Perform a sentence completion on the following sentence:\nSentence: [A] geographically is a",
+        "template-7": "Perform a sentence completion on the following sentence:\nSentence: '[A]' is a",
+        "template-8": "Perform a sentence completion on the following sentence:\nSentence: '[A]' geographically is a"
+    },
+    "llama": {
+        "template-1": "Perform a sentence completion on the following sentence: [A] is a place in [COUNTRY]. [A] is a ___.\nThe answer is",
+        "template-2": "Perform a sentence completion on the following sentence: [A] is a place in [COUNTRY]. [A] geographically is a ___.\nThe answer is",
+        "template-3": "Perform a sentence completion on the following sentence: [A] is a place in [COUNTRY]. '[A]' is a ___.\nThe answer is",
+        "template-4": "Perform a sentence completion on the following sentence: [A] is a place in [COUNTRY]. '[A]' geographically is a ___.\nThe answer is",
+        "template-5": "Perform a sentence completion on the following sentence: [A] is a ___.\nThe answer is",
+        "template-6": "Perform a sentence completion on the following sentence: [A] geographically is a ___.\nThe answer is",
+        "template-7": "Perform a sentence completion on the following sentence: '[A]' is a ___.\nThe answer is",
+        "template-8": "Perform a sentence completion on the following sentence: '[A]' geographically is a ___.\nThe answer is"
     }
 }

@@ -76,6 +76,9 @@ class BaseConfig:
         if model == "bert_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bert-large-uncased")
             self.parser.add_argument("--model_name", type=str, default="bert")
+        if model == "pubmed_bert":
+            self.parser.add_argument("--model_path", type=str, default="microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext")
+            self.parser.add_argument("--model_name", type=str, default="bert")
         if model=="bart_large":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bart-large")
             self.parser.add_argument("--model_name", type=str, default="bart")
@@ -101,6 +104,14 @@ class BaseConfig:
             self.parser.add_argument("--model_path", type=str, default="text-babbage-001")
             self.parser.add_argument("--model_name", type=str, default="gpt3")
             self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
+        if model == "gpt4":
+            self.parser.add_argument("--model_path", type=str, default="gpt-4-0613")
+            self.parser.add_argument("--model_name", type=str, default="gpt4")
+            self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
+        if model == "chatgpt":
+            self.parser.add_argument("--model_path", type=str, default="gpt-3.5-turbo-0613")
+            self.parser.add_argument("--model_name", type=str, default="chatgpt")
+            self.parser.add_argument("--model_output", type=str, default=f"results/{kb_name}/{model}/output-{model}-{template}-{time}.json")
         if model == "gpt3_ada":
             self.parser.add_argument("--model_path", type=str, default="text-embedding-ada-002")
             self.parser.add_argument("--model_name", type=str, default="gpt3-ada")
@@ -114,6 +125,9 @@ class BaseConfig:
         if model == "bloom_7b1":
             self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/bloom-7b1")
             self.parser.add_argument("--model_name", type=str, default="bloom")
+        if model == "llama_7b":
+            self.parser.add_argument("--model_path", type=str, default=f"{self.llms_root_dir}/llama-7b")
+            self.parser.add_argument("--model_name", type=str, default="llama")
         if model == dataset.lower()+"_flan_t5_large":
             self.parser.add_argument("--model_path", type=str, default=f"../assets/FSL/{dataset.lower()}-flan-t5-large")
             self.parser.add_argument("--model_name", type=str, default="t5")
@@ -133,7 +147,7 @@ class ExternalEvaluationConfig:
         self.parser.add_argument("--kb_name", type=str, default="geonames")
         self.parser.add_argument("--model", type=str, default="gpt3")
         self.parser.add_argument("--template", type=str, default="template-1")
-        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt3_ada"])
-        self.parser.add_argument("--label_mapper", type=str, default="../datasets/TaskC/label_mapper.json")
+        self.parser.add_argument("--models_with_special_output", type=list, default=["gpt3", "gpt3_ada", "gpt4", "chatgpt"])
+        self.parser.add_argument("--label_mapper", type=str, default="../datasets/TaskB/label_mapper.json")
         self.parser.add_argument("-f")
         return self.parser.parse_args()
