@@ -1,7 +1,11 @@
-<h1 align="center">LLMs4OL: Large Language Models for <br> Ontology Learning </h1>
-
 **| [LLMs4OL Paradigm](./README.md#llms4ol-paradigm) | [Task A: Term Typing](./TaskA/README.md) | [Task B: Type Taxonomy Discovery](./TaskB/README.md) | [Task C: Type Non-Taxonomic Relation Extraction](./TaskC/README.md) | [Few-Shot Learning](./FSL/README.md) | [Task A Detailed Results](./TaskA/results/readme.md) | [Task B Detailed Results](./TaskB/results/readme.md) | [Task C Detailed Results](./TaskC/results/readme.md) | [Task A Datasets](./datasets/TaskA/README.md) | [Task B Datasets](./datasets/TaskB/README.md) | [Task C Datasets](./datasets/TaskC/README.md) | [Few-Shot Learning Datasets](./datasets/FSL/README.md) |**
 
+<h1 align="center">LLMs4OL: Large Language Models for Ontology Learning </h1>
+[Hamed Babaei Giglou](https://hamedbabaei.github.io/), [Jennifer D'Souza](https://sites.google.com/view/jen-web), and [Sören Auer](https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer) <br>
+{hamed.babaei, jennifer.dsouza, auer}@tib.eu
+<p align="center">`TIB Leibniz Information Center for Science and Technology, Hannover, Germany`</p>
+ 
+[//]: # (<br>)
 <div align="center"><img src="images/LLMs4OL.jpg" /></div>
 <div align="center">Figure 1: The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domain </div>
 <br>
@@ -194,4 +198,14 @@ The `train_eval_fsl.sh` in the `FSL` directory runs `trainer.py` for representat
 
 
 ## Citation
->‌ ...
+```
+@InProceedings{llms4ol,
+            author="Babaei Giglou, Hamed
+            and D'Souza, Jennifer
+            and Auer, Sören",
+            title="LLMs4OL: Large Language Models for Ontology Learning",
+            booktitle="The Semantic Web -- ISWC 2023",
+            year="2023",
+            publisher="Springer International Publishing",
+}
+```
