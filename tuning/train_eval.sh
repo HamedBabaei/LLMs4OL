@@ -32,7 +32,7 @@ for kb_name in "${datasets[@]}"; do
 done
 
 cd ..
-cd FSL
+cd tuning
 
 #-------------------------------------FLAN-T5-Large--------UMLS---------------------------------------------------------
 # running models for UMLS
@@ -98,7 +98,7 @@ done
 
 
 cd ..
-cd FSL
+cd tuning
 
 #-------------------------------------FLAN-T5-XL--------UMLS---------------------------------------------------------
 # running models for UMLS
@@ -163,7 +163,7 @@ for kb_name in "${datasets[@]}"; do
 done
 
 cd ..
-cd FSL
+cd tuning
 
 #-------------------------------------FLAN-T5-Large--------GeoNames---------------------------------------------------------
 # running models for GeoNames
@@ -210,7 +210,7 @@ for kb_name in "${datasets[@]}"; do
 done
 
 cd ..
-cd FSL
+cd tuning
 
 #-------------------------------------FLAN-T5-XL--------GeoNames---------------------------------------------------------
 # running models for GeoNames
@@ -282,7 +282,7 @@ for kb_name in "${datasets[@]}"; do
 done
 
 cd ..
-cd FSLS
+cd tuning
 
 #-------------------------------------FLAN-T5-XL--------SCHEMA---------------------------------------------------------
 # running models for SchemaORG

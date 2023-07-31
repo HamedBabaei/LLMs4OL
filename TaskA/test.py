@@ -7,7 +7,11 @@ from tqdm import tqdm
 import argparse
 from src import EvaluationMetrics
 import datetime
-import openai_key_setter
+import os
+import openai
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv())
+openai.api_key  = os.environ['OPENAI_API_KEY']
 
 def inference(model, dataloader):
     predictions, logits, labels = [], [], []

@@ -21,7 +21,7 @@ datasets/TaskA/UMLS/processed-3
 datasets/TaskA/UMLS/*_entities.json
 datasets/TaskA/Geonames/raw
 datasets/TaskA/Geonames/processed*
-datasets/FSL/old/*
+datasets/Tuning/old/*
 datasets/TaskA/Geonames/*_entities.json
 TaskA/results/*/*/output*.json
 TaskA/results/*/*/nci-output*.json
@@ -38,7 +38,7 @@ TaskA/latax-table-generator.ipynb
 TaskC/TaskC-experiments
 TaskB/TaskB-experiments
 TaskA/TaskA-experiments
-FSL/FSL-experiments
+tuning/FSL-experiments
 datasets/TaskA/WN18RR/raw
 datasets/TaskA/WN18RR/processed*
 datasets/TaskA/WN18RR/*entities.json
