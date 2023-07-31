@@ -6,7 +6,7 @@
 <sup>{hamed.babaei, jennifer.dsouza, auer}@tib.eu</sup><br>
 <sup>TIB Leibniz Information Center for Science and Technology, Hannover, Germany</sup><br>
 
-<br>
+----
 
 [//]: # (<br>)
 <div align="center"><img src="images/LLMs4OL.jpg" /></div>
