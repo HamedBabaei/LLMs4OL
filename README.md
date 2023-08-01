@@ -4,8 +4,9 @@
 <h1 align="center">LLMs4OL: Large Language Models for <br> Ontology Learning </h1>
 
 [Hamed Babaei Giglou](https://hamedbabaei.github.io/), [Jennifer D'Souza](https://sites.google.com/view/jen-web), and [Sören Auer](https://www.tib.eu/en/research-development/research-groups-and-labs/data-science-digital-libraries/staff/soeren-auer) <br>
-<sup>{hamed.babaei, jennifer.dsouza, auer}@tib.eu</sup><br>
-<sup>TIB Leibniz Information Center for Science and Technology, Hannover, Germany</sup><br>
+{hamed.babaei, jennifer.dsouza, auer}@tib.eu<br>
+TIB Leibniz Information Center for Science and Technology, Hannover, Germany<br>
+`Accepted for publication at ISWC 2023 - Research Track`
 
 ----
 
