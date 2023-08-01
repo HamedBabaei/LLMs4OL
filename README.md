@@ -35,28 +35,30 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
 ## Repository Structure
 ```
 .
-└── LLMs4OL                       <- root directory of the repository
-    ├── tuning                    <- Few-Shot finetuning directory
+└── LLMs4OL                             <- root directory of the repository
+    ├── tuning                          <- Few-Shot finetuning directory
     │   └── ...
-    ├── TaskA                     <- Term Typing task directory
+    ├── TaskA                           <- Term Typing task directory
     │   └── ...
-    ├── TaskB                     <- Type Taxonomy Discovery task directory
+    ├── TaskB                           <- Type Taxonomy Discovery task directory
     │   └── ...
-    ├── TaskC                     <- Type Non-Taxonomic Relation Extraction task directory
+    ├── TaskC                           <- Type Non-Taxonomic Relation Extraction task directory
     │   └── ...
-    ├── assets                    <- artifacts directory 
-    │   ├── LLMs                  <- contains pretrained LLMs
-    │   ├── FSL                   <- contains fine-tuned LLMs (for training you should create this)
-    │   ├── WordNetDefinitions    <- contains wordnet word definitions
-    │   └── CountryCodes          <- GeoNames country codes
-    ├── datasets                  <- contains datasets
-    │   ├── FSL                   <- contains few-shot learning training datasets
-    │   ├── TaskA                 <- contains directories for task A sources
-    │   ├── TaskB                 <- contains directories for task B sources
-    │   └── TaskC                 <- contains directories for task C sources
-    ├── images                    <- contains the figures
-    ├── README.md                 <- README file for documenting the service.
-    └── requirements.txt          <- contains Python requirements listed
+    ├── assets                          <- artifacts directory 
+    │   ├── LLMs                        <- contains pretrained LLMs
+    │   ├── FSL                         <- contains fine-tuned LLMs (for training you should create this)
+    │   ├── WordNetDefinitions          <- contains wordnet word definitions
+    │   └── CountryCodes                <- GeoNames country codes
+    ├── datasets                        <- contains datasets
+    │   ├── FSL                         <- contains few-shot learning training datasets
+    │   ├── TaskA                       <- contains directories for task A sources
+    │   ├── TaskB                       <- contains directories for task B sources
+    │   └── TaskC                       <- contains directories for task C sources
+    ├── docs                            <- contains supplementary documents
+    │   └── Supplementary-Material.pdf  <- contains directories for task C sources
+    ├── images                          <- contains the figures
+    ├── README.md                       <- README file for documenting the service.
+    └── requirements.txt                <- contains Python requirements listed
 ```
 
 
@@ -201,15 +203,28 @@ The `train_eval.sh` in the `tuning` directory runs `trainer.py` for representati
 
 
 
-## Citation
+## Citations
+
 ```
 @InProceedings{llms4ol,
             author="Babaei Giglou, Hamed
             and D'Souza, Jennifer
             and Auer, Sören",
             title="LLMs4OL: Large Language Models for Ontology Learning",
-            booktitle="The Semantic Web -- ISWC 2023",
+            booktitle="International Semantic Web Conference",
             year="2023",
             publisher="Springer International Publishing",
+}
+```
+
+Preprints:
+```
+@misc{giglou2023llms4ol,
+      title={LLMs4OL: Large Language Models for Ontology Learning}, 
+      author={Hamed Babaei Giglou and Jennifer D'Souza and Sören Auer},
+      year={2023},
+      eprint={2307.16648},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
 }
 ```
