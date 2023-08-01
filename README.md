@@ -217,7 +217,7 @@ The `train_eval.sh` in the `tuning` directory runs `trainer.py` for representati
 }
 ```
 
-Preprints:
+Preprint:
 ```
 @misc{giglou2023llms4ol,
       title={LLMs4OL: Large Language Models for Ontology Learning}, 
