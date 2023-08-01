@@ -6,8 +6,8 @@ import torch
 
 class BaseConfig:
     def __init__(self, n_per_class=8, neg_per_class=3):
-        self.root_dir = "../datasets/FSL"
-        self.llms_root_dir = "../assets/FSL"
+        self.root_dir = "../datasets/Tuning"
+        self.llms_root_dir = "../assets/Tuning"
         self.parser = argparse.ArgumentParser()
         self.dataset_dir_getter = {
             "wn18rr": "WN18RR",
@@ -61,14 +61,14 @@ class BaseConfig:
 
         if model_to_train == "flan_t5_large":
             self.parser.add_argument("--model_input_path", type=str, default="../assets/LLMs/flan-t5-large")
-            self.parser.add_argument("--model_output_path", type=str,  default=f"../assets/FSL/{kb_name}-flan-t5-large")
-            self.parser.add_argument("--output_log_dir", type=str, default=f"../assets/FSL/{kb_name}-flan-t5-large-log")
+            self.parser.add_argument("--model_output_path", type=str,  default=f"../assets/Tuning/{kb_name}-flan-t5-large")
+            self.parser.add_argument("--output_log_dir", type=str, default=f"../assets/Tuning/{kb_name}-flan-t5-large-log")
             self.parser.add_argument("--model_to_train", type=str, default="flan_t5_large")
 
         if model_to_train == "flan_t5_xl":
             self.parser.add_argument("--model_input_path", type=str, default="../assets/LLMs/flan-t5-xl")
-            self.parser.add_argument("--model_output_path", type=str,  default=f"../assets/FSL/{kb_name}-flan-t5-xl")
-            self.parser.add_argument("--output_log_dir", type=str, default=f"../assets/FSL/{kb_name}-flan-t5-xl-log")
+            self.parser.add_argument("--model_output_path", type=str,  default=f"../assets/Tuning/{kb_name}-flan-t5-xl")
+            self.parser.add_argument("--output_log_dir", type=str, default=f"../assets/Tuning/{kb_name}-flan-t5-xl-log")
             self.parser.add_argument("--model_to_train", type=str, default="flan_t5_xl")
 
         self.parser.add_argument("--gpu_no", type=int, default=torch.cuda.device_count())

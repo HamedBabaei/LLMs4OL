@@ -1,4 +1,4 @@
-**| [LLMs4OL Paradigm](./README.md#llms4ol-paradigm) | [Task A: Term Typing](./TaskA/README.md) | [Task B: Type Taxonomy Discovery](./TaskB/README.md) | [Task C: Type Non-Taxonomic Relation Extraction](./TaskC/README.md) | [Few-Shot Learning](./FSL/README.md) | [Task A Detailed Results](./TaskA/results/readme.md) | [Task B Detailed Results](./TaskB/results/readme.md) | [Task C Detailed Results](./TaskC/results/readme.md) | [Task A Datasets](./datasets/TaskA/README.md) | [Task B Datasets](./datasets/TaskB/README.md) | [Task C Datasets](./datasets/TaskC/README.md) | [Few-Shot Learning Datasets](./datasets/FSL/README.md) |**
+**| [LLMs4OL Paradigm](./README.md#llms4ol-paradigm) | [Task A: Term Typing](./TaskA/README.md) | [Task B: Type Taxonomy Discovery](./TaskB/README.md) | [Task C: Type Non-Taxonomic Relation Extraction](./TaskC/README.md) | [Finetuning](./tuning/README.md) | [Task A Detailed Results](./TaskA/results/readme.md) | [Task B Detailed Results](./TaskB/results/readme.md) | [Task C Detailed Results](./TaskC/results/readme.md) | [Task A Datasets](./datasets/TaskA/README.md) | [Task B Datasets](./datasets/TaskB/README.md) | [Task C Datasets](./datasets/TaskC/README.md) | [Finetuning Datasets](./datasets/Tuning/README.md) |**
 
 ----
 <h1 align="center">LLMs4OL: Large Language Models for <br> Ontology Learning </h1>
@@ -35,28 +35,30 @@ Ontology Learning (OL) addresses the challenge of knowledge acquisition and repr
 ## Repository Structure
 ```
 .
-└── LLMs4OL                       <- root directory of the repository
-    ├── FSL                       <- Few-Shot Learning directory
+└── LLMs4OL                             <- root directory of the repository
+    ├── tuning                          <- Few-Shot finetuning directory
     │   └── ...
-    ├── TaskA                     <- Term Typing task directory
+    ├── TaskA                           <- Term Typing task directory
     │   └── ...
-    ├── TaskB                     <- Type Taxonomy Discovery task directory
+    ├── TaskB                           <- Type Taxonomy Discovery task directory
     │   └── ...
-    ├── TaskC                     <- Type Non-Taxonomic Relation Extraction task directory
+    ├── TaskC                           <- Type Non-Taxonomic Relation Extraction task directory
     │   └── ...
-    ├── assets                    <- artifacts directory 
-    │   ├── LLMs                  <- contains pretrained LLMs
-    │   ├── FSL                   <- contains fine-tuned LLMs (for training you should create this)
-    │   ├── WordNetDefinitions    <- contains wordnet word definitions
-    │   └── CountryCodes          <- GeoNames country codes
-    ├── datasets                  <- contains datasets
-    │   ├── FSL                   <- contains few-shot learning training datasets
-    │   ├── TaskA                 <- contains directories for task A sources
-    │   ├── TaskB                 <- contains directories for task B sources
-    │   └── TaskC                 <- contains directories for task C sources
-    ├── images                    <- contains the figures
-    ├── README.md                 <- README file for documenting the service.
-    └── requirements.txt          <- contains Python requirements listed
+    ├── assets                          <- artifacts directory 
+    │   ├── LLMs                        <- contains pretrained LLMs
+    │   ├── FSL                         <- contains fine-tuned LLMs (for training you should create this)
+    │   ├── WordNetDefinitions          <- contains wordnet word definitions
+    │   └── CountryCodes                <- GeoNames country codes
+    ├── datasets                        <- contains datasets
+    │   ├── FSL                         <- contains few-shot learning training datasets
+    │   ├── TaskA                       <- contains directories for task A sources
+    │   ├── TaskB                       <- contains directories for task B sources
+    │   └── TaskC                       <- contains directories for task C sources
+    ├── docs                            <- contains supplementary documents
+    │   └── Supplementary-Material.pdf  <- contains directories for task C sources
+    ├── images                          <- contains the figures
+    ├── README.md                       <- README file for documenting the service.
+    └── requirements.txt                <- contains Python requirements listed
 ```
 
 
@@ -91,9 +93,9 @@ The tasks within the blue arrow (in Figure-1) are the three OL tasks empirically
 
 ### Datasets
 To comprehensively assess LLMs for the three OL tasks we cover a variety of ontological knowledge domain sources, i.e. lexicosemantics – [WN18RR](https://github.com/TimDettmers/ConvE) (WordNet), geography – [GeoNames](http://www.geonames.org/),
-biomedicine – [NCI](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/NCI/index.html), [MEDICIN](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MEDCIN/index.html), [SNOMEDCT](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/SNOMEDCT_US/index.html), and web content types – [Schema.Org](https://schema.org/). These sources are different for each task, so for each task, the detailed information is available as follows:
+biomedicine – [NCI](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/NCI/index.html), [MEDICIN](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/MEDCIN/index.html), [SNOMEDCT\_US](https://www.nlm.nih.gov/research/umls/sourcereleasedocs/current/SNOMEDCT_US/index.html), and web content types – [Schema.Org](https://schema.org/). These sources are different for each task, so for each task, the detailed information is available as follows:
 
-- [Task A. Term Typing Datasets](./datasets/TaskA/README.md): GeoNames, NCI, MEDICIN, SNOMEDCT, and WN18RR
+- [Task A. Term Typing Datasets](./datasets/TaskA/README.md): GeoNames, NCI, MEDICIN, SNOMEDCT\_US, and WN18RR
 - [Task B. Type Taxonomy Discovery Datasets](./datasets/TaskB/README.md): GeoNames, Schema.Org, and [UMLS](https://lhncbc.nlm.nih.gov/semanticnetwork/)
 - [Task C. Type Non-Taxonomic Relation Extraction Datasets](./datasets/TaskC/README.md): [UMLS](https://lhncbc.nlm.nih.gov/semanticnetwork/)
 
@@ -131,18 +133,18 @@ First we created prompt templates based on existing experimental language models
 Prompt templates for zero-shot testing are represented as follows:
 
 |Dataset| Task | prompt templates path | answer set mapper path|
-|:---:|:---:|:---:|:---:|
-|WN18RR | A | [`datasets/TaskA/WN18RR/templates.json`](datasets/TaskA/WN18RR/templates.json)| [`datasets/TaskA/WN18RR/label_mapper.json`](datasets/TaskA/WN18RR/label_mapper.json) |
-|GeoNames | A | [`datasets/TaskA/Geonames/templates.json`](datasets/TaskA/Geonames/templates.json)| [`datasets/TaskA/Geonames/label_mapper.json`](datasets/TaskA/Geonames/label_mapper.json)|
-|NCI, MEDICIN, SNOMEDCT | A | [`datasets/TaskA/UMLS/templates.json`](datasets/TaskA/UMLS/templates.json)| [`datasets/TaskA/UMLS/label_mapper.json`](datasets/TaskA/UMLS/label_mapper.json)|
-|Schema.Org, UMLS, GeoNames |‌ B | [`datasets/TaskB/templates.txt`](datasets/TaskB/templates.txt)| [`datasets/TaskB/label_mapper.json`](datasets/TaskB/label_mapper.json)|
-|UMLS | C | [`datasets/TaskC/templates.txt`](datasets/TaskC/templates.txt)| [`datasets/TaskC/label_mapper.json`](datasets/TaskC/label_mapper.json)|
+|:---:|:----:|:---:|:---:|
+|WN18RR |  A   | [`datasets/TaskA/WN18RR/templates.json`](datasets/TaskA/WN18RR/templates.json)| [`datasets/TaskA/WN18RR/label_mapper.json`](datasets/TaskA/WN18RR/label_mapper.json) |
+|GeoNames |  A   | [`datasets/TaskA/Geonames/templates.json`](datasets/TaskA/Geonames/templates.json)| [`datasets/TaskA/Geonames/label_mapper.json`](datasets/TaskA/Geonames/label_mapper.json)|
+|NCI, MEDICIN, SNOMEDCT\_US |  A   | [`datasets/TaskA/UMLS/templates.json`](datasets/TaskA/UMLS/templates.json)| [`datasets/TaskA/UMLS/label_mapper.json`](datasets/TaskA/UMLS/label_mapper.json)|
+|Schema.Org, UMLS, GeoNames |   B  | [`datasets/TaskB/templates.txt`](datasets/TaskB/templates.txt)| [`datasets/TaskB/label_mapper.json`](datasets/TaskB/label_mapper.json)|
+|UMLS |  C   | [`datasets/TaskC/templates.txt`](datasets/TaskC/templates.txt)| [`datasets/TaskC/label_mapper.json`](datasets/TaskC/label_mapper.json)|
 
-Prompt templates for training few-shot learning is represented as follows:
+Prompt templates for training model is represented as follows:
 
-|Dataset| Task | prompt templates path | 
-|:---:|:---:|:---:|
-|WN18RR, UMLS (NCI only), GeoNames, Schema.Org | A, B, C | [`FSL/templates.py`](FSL/templates.py) |
+|Dataset| Task |           prompt templates path           | 
+|:---:|:---:|:-----------------------------------------:|
+|WN18RR, UMLS (NCI only), GeoNames, Schema.Org | A, B, C | [`tuning/templates.py`](FSL/templates.py) |
 
 ## Results Overview
 <div align="center"><img src="images/results-figure.jpeg" /></div>
@@ -166,13 +168,13 @@ conda activate yourenvname
 ```
 Next, clone the repository and install the requirements from `requirements.txt` in your environments:
 ```cmd
-git clone https://github.com/XXXX/LLMs4OL.git
+git clone https://github.com/HamedBabaei/LLMs4OL.git
 
 cd LLMs4OL
 
 pip install -r requirements.txt
 ```
-Finally, start the experiments as described in the task directories.
+Next, add your OpenAI key to the `.env` file for experimentations on OpenAI models. Finally, start the experiments as described in the task directories.
 
 
 ### Running Tasks
@@ -181,10 +183,10 @@ To make each task behave separately as an encapsulated module, we have created s
 ```
 .
 └── LLMs4OL                      
-    ├── FSL   
+    ├── tuning   
     │   ├── ....
     │   ├── trainer.py
-    │   └── train_eval_fsl.sh
+    │   └── train_eval.sh
     ├── TaskX             
     │   ├── ...
     │   ├── results
@@ -197,19 +199,32 @@ To make each task behave separately as an encapsulated module, we have created s
     │   └── README.md
     ...
 ```
-The `train_eval_fsl.sh` in the `FSL` directory runs `trainer.py` for representative datasets and then walks through `TaskX` directories and calls `test.py` for evaluation of trained models for each dataset. How to run models in detail is described tasks directories readme.md files. 
+The `train_eval.sh` in the `tuning` directory runs `trainer.py` for representative datasets and then walks through `TaskX` directories and calls `test.py` for evaluation of trained models for each dataset. How to run models in detail is described tasks directories readme.md files. 
 
 
 
-## Citation
+## Citations
+
 ```
 @InProceedings{llms4ol,
             author="Babaei Giglou, Hamed
             and D'Souza, Jennifer
             and Auer, Sören",
             title="LLMs4OL: Large Language Models for Ontology Learning",
-            booktitle="The Semantic Web -- ISWC 2023",
+            booktitle="International Semantic Web Conference",
             year="2023",
             publisher="Springer International Publishing",
+}
+```
+
+Preprints:
+```
+@misc{giglou2023llms4ol,
+      title={LLMs4OL: Large Language Models for Ontology Learning}, 
+      author={Hamed Babaei Giglou and Jennifer D'Souza and Sören Auer},
+      year={2023},
+      eprint={2307.16648},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
 }
 ```
