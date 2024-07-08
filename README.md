@@ -10,11 +10,13 @@ TIB Leibniz Information Center for Science and Technology, Hannover, Germany<br>
 
 ----
 
-<h2 style="color: red;">LLMs4OL Challenge @ ISWC-2024 (***NEW***)</h2>
+<h2><p style="color: red;">🔴🔴LLMs4OL Challenge @ ISWC-2024 (***NEW***)🔴🔴</p></h2>
+
 
 ![LLMs4OL: Large Language Models for Ontology Learning](llms4ol-header.jpg)
 
 <H3 style="text-align: center;"><p align="center">LLMs4OL Challenge @ ISWC 2024  </p> </H3>
+
 
 The LLMs4OL Challenge consists of 3 tasks:
 
