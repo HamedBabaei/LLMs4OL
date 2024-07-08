@@ -10,6 +10,24 @@ TIB Leibniz Information Center for Science and Technology, Hannover, Germany<br>
 
 ----
 
+<h2 style="color: red;">LLMs4OL Challenge @ ISWC-2024 (***NEW***)</h2>
+
+![LLMs4OL: Large Language Models for Ontology Learning](llms4ol-header.jpg)
+
+<H3 style="text-align: center;"><p align="center">LLMs4OL Challenge @ ISWC 2024  </p> </H3>
+
+The LLMs4OL Challenge consists of 3 tasks:
+
+* **Task A - Term Typing**: Discover the generalized type for a lexical term.
+* **Task B - Taxonomy Discovery**: Discover the taxonomic hierarchy between type pairs.
+* **Task C - Non-Taxonomic Relation Extraction**: Identify non-taxonomic, semantic relations between types.
+
+More information can be found on <a href="https://sites.google.com/view/llms4ol">Challenge Website</a> and [Challenge Github page](https://github.com/HamedBabaei/LLMs4OL-Challenge-ISWC2024) and challenge <a href="https://codalab.lisn.upsaclay.fr/competitions/19547 ">Codalab</a> page.
+
+**The deadline is July 18, 2024.**
+
+----
+
 [//]: # (<br>)
 <div align="center"><img src="images/LLMs4OL.jpg" /></div>
 <div align="center">Figure 1: The LLMs4OL task paradigm is an end-to-end conceptual framework for learning ontologies in different knowledge domain </div>
@@ -230,17 +248,3 @@ The `train_eval.sh` in the `tuning` directory runs `trainer.py` for representati
 }
 ```
 
-## LLMs4OL Challenge @ ISWC-2024
-![LLMs4OL: Large Language Models for Ontology Learning](llms4ol-header.jpg)
-
-<H3 style="text-align: center;"><p align="center">LLMs4OL Challenge @ ISWC 2024  </p> </H3>
-
-The LLMs4OL Challenge consists of 3 tasks:
-
-* **Task A - Term Typing**: Discover the generalized type for a lexical term.
-* **Task B - Taxonomy Discovery**: Discover the taxonomic hierarchy between type pairs.
-* **Task C - Non-Taxonomic Relation Extraction**: Identify non-taxonomic, semantic relations between types.
-
-More information can be found on <a href="https://sites.google.com/view/llms4ol">Challenge Website</a> and [Challenge Github page](https://github.com/HamedBabaei/LLMs4OL-Challenge-ISWC2024) and challenge <a href="https://codalab.lisn.upsaclay.fr/competitions/19547 ">Codalab</a> page.
-
-**The deadline is July 18, 2024.**
