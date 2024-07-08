@@ -207,25 +207,40 @@ The `train_eval.sh` in the `tuning` directory runs `trainer.py` for representati
 ## Citations
 
 ```
-@InProceedings{llms4ol,
-            author="Babaei Giglou, Hamed
-            and D'Souza, Jennifer
-            and Auer, Sören",
-            title="LLMs4OL: Large Language Models for Ontology Learning",
-            booktitle="International Semantic Web Conference",
-            year="2023",
-            publisher="Springer International Publishing",
+@InProceedings{10.1007/978-3-031-47240-4_22,
+        author="Babaei Giglou, Hamed
+        and D'Souza, Jennifer
+        and Auer, S{\"o}ren",
+        editor="Payne, Terry R.
+        and Presutti, Valentina
+        and Qi, Guilin
+        and Poveda-Villal{\'o}n, Mar{\'i}a
+        and Stoilos, Giorgos
+        and Hollink, Laura
+        and Kaoudi, Zoi
+        and Cheng, Gong
+        and Li, Juanzi",
+        title="LLMs4OL: Large Language Models for Ontology Learning",
+        booktitle="The Semantic Web -- ISWC 2023",
+        year="2023",
+        publisher="Springer Nature Switzerland",
+        address="Cham",
+        pages="408--427",
+        isbn="978-3-031-47240-4"
 }
 ```
 
-Preprint:
-```
-@misc{giglou2023llms4ol,
-      title={LLMs4OL: Large Language Models for Ontology Learning}, 
-      author={Hamed Babaei Giglou and Jennifer D'Souza and Sören Auer},
-      year={2023},
-      eprint={2307.16648},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
-}
-```
+## LLMs4OL Challenge @ ISWC-2024
+![LLMs4OL: Large Language Models for Ontology Learning](llms4ol-header.jpg)
+
+<H3 style="text-align: center;"><p align="center">LLMs4OL Challenge @ ISWC 2024  </p> </H3>
+
+The LLMs4OL Challenge consists of 3 tasks:
+
+* **Task A - Term Typing**: Discover the generalized type for a lexical term.
+* **Task B - Taxonomy Discovery**: Discover the taxonomic hierarchy between type pairs.
+* **Task C - Non-Taxonomic Relation Extraction**: Identify non-taxonomic, semantic relations between types.
+
+More information can be found on <a href="https://sites.google.com/view/llms4ol">Challenge Website</a> and [Challenge Github page](https://github.com/HamedBabaei/LLMs4OL-Challenge-ISWC2024) and challenge <a href="https://codalab.lisn.upsaclay.fr/competitions/19547 ">Codalab</a> page.
+
+**The deadline is July 18, 2024.**
