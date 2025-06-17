@@ -14,7 +14,7 @@
 To run zero-shot testing you can try the following command line after you are done with [installing requirements](../README.md#requirements):
 
 ```bash
-ptyhon3 test.py [-h] --kb_name KB_NAME --model MODEL --device DEVICE
+python3 test.py [-h] --kb_name KB_NAME --model MODEL --device DEVICE
 ```
 
 Where KB_NAME, MODEL, TEMPLATE, and DEVICE accept the following values:
